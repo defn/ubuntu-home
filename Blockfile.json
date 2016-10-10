@@ -1,0 +1,9 @@
+{
+  "require": [
+    "ubuntu-config",
+    "consul"
+  ],
+  "run": {
+    "consul": {}
+  }
+}
