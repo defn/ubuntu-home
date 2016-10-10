@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+function ubuntu_home_cibuild {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+
+  mkdir -p "$shome/work"
+
+  if [[ ! -d "$shome/work/block/.git" ]]; then
+    (cd "$shome/work" && git clone git@github.com:defn/block)
+  fi
+  "$shome/work/block/script/cibuild"
+  source "$shome/work/block/script/profile"
+
+  if [[ ! -d "$shome/work/cache/.git" ]]; then
+    (cd "$shome/work" && git clone git@github.com:defn/cache)
+  fi
+  "$shome/work/block/script/cibuild" "$shome/work/cache"
+  pushd "$shome/work/cache" >/dev/null
+  require
+  popd >/dev/null
+
+  "$shome/work/block/script/cibuild" "$@"
+  require
+
+  facts cache
+}
+
+ubuntu_home_cibuild "$@"
