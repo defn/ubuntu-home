@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+function _ubuntu_home_profile {
+  local shome="${_ubuntu_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
+  PATH="$shome/bin:$shome/exec:$PATH"
+}
+
+_ubuntu_home_profile
