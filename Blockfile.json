@@ -1,6 +1,7 @@
 {
   "require": [
     "ubuntu-config",
+    "runit",
     "consul"
   ],
   "run": {

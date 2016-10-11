@@ -6,3 +6,6 @@
 /.sudo_as_admin_successful
 /work/
 /.viminfo
+/.bash_history
+/.bashrc.cache
+/install/
