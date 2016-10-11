@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+function main {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "$shome/script/profile"
+
+  if [[ "$#" == 0 ]]; then
+    set -- default
+  fi
+
+  case "${1:-}" in
+    screen)
+      shift
+      while ! screen -S runit -X status; do
+        screen -S runit -d -m "$shome/script/server" "$@"
+        sleep 1
+        echo "detaching..." 1>&2
+      done
+      ;;
+    default)
+      exec "$BLOCK_PATH/runit/script/server" "$@"
+      ;;
+    *)
+      echo "ERROR: unknown server command: ${1:-/not-supplied/}" 1>&2
+      return 1
+      ;;
+  esac
+}
+
+main "$@"
+
