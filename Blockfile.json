@@ -1,6 +1,5 @@
 {
   "require": [
-    "block",
     "ubuntu-config",
     "service",
     "consul"
