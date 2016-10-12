@@ -1,10 +1,10 @@
 ubuntu-config ${BLOCK_PATH}/ubuntu-config git@github.com:defn/ubuntu-config 9cbc035d2700b7a8ed830806f9a8600d4e00d0a7 master
-pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc e2500f50546838471d5db6c55d1732727365fde3 master
+pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 895a0390c781474e3d9f8b276becee9b9e13ed61 master
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit 8dd6434b906a89ffadff34d113350a1559b92c69 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential fdb5e7e338a652136b1f53c76c9a5ec41a6e239f master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby dc2c6a7718651568e32e5dcf7205155ba93855f2 master
 service ${BLOCK_PATH}/service git@github.com:defn/service e0fa370ea742eb7b5d44a7b5f1724ada24f32db4 master
-cache ${BLOCK_PATH}/cache git@github.com:defn/cache e5898409a2d588ff95b0836d3036ea0954782d60 master
+cache ${BLOCK_PATH}/cache git@github.com:defn/cache 0e8571526f10c33d2dc07367ee978b591348ebbf master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 22f2493e53d15bac4aac2c079f00d1b270fe3224 master
 jq ${BLOCK_PATH}/jq git@github.com:defn/jq 7e81afc8b1e093964bc49f19cda1dc155a1fb377 master
 python ${BLOCK_PATH}/python git@github.com:defn/python 5bb27c8f2df17a41ee7ace939d4bbbba9cba5644 master
