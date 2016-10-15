@@ -8,7 +8,7 @@ ubuntu-config ${BLOCK_PATH}/ubuntu-config git@github.com:defn/ubuntu-config 4813
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 3ef7720a693c39263ab01d70d71540457a86041b master
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit 8dd6434b906a89ffadff34d113350a1559b92c69 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential fdb5e7e338a652136b1f53c76c9a5ec41a6e239f master
-ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby dc2c6a7718651568e32e5dcf7205155ba93855f2 master
+ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 38d415e22c96c111399c3d5d45dbe376ae006283 master
 service ${BLOCK_PATH}/service git@github.com:defn/service e0fa370ea742eb7b5d44a7b5f1724ada24f32db4 master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 0e8571526f10c33d2dc07367ee978b591348ebbf master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 22f2493e53d15bac4aac2c079f00d1b270fe3224 master
