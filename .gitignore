@@ -10,3 +10,5 @@
 /.bashrc.cache
 /install/
 /sv
+/.bundle
+/.gem
