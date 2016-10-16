@@ -19,5 +19,7 @@ facts ${BLOCK_PATH}/facts git@github.com:defn/facts 5a53640c7390b7ba31be96e46b42
 consul ${BLOCK_PATH}/consul git@github.com:defn/consul 521a0b4a72314f1cc94cef28de5fcad787350b07 master
 context ${BLOCK_PATH}/context git@github.com:defn/context 4e2703af38b8a6f518d9710f4b5c5cddea378395 master
 parity ${BLOCK_PATH}/parity git@github.com:defn/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
-aws ${BLOCK_PATH}/aws git@github.com:defn/aws 99087bc1f491c786984928736a40f6ce0a3135f0 master
+nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
+node ${BLOCK_PATH}/node git@github.com:defn/node 70ae3c41050eb45c7740b7401bd60369513c9720 master
+aws ${BLOCK_PATH}/aws git@github.com:defn/aws abff13fdebd4fe76afb4b2ac154eb84ca050023e master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 8a0208dac11ddd14201c17d1cca935d87da50038 master
