@@ -2,7 +2,9 @@
   "require": [
     "ubuntu-config",
     "service",
-    "consul"
+    "consul",
+    "ansible",
+    "awesome"
   ],
   "run": {
     "consul": {}

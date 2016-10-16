@@ -17,3 +17,7 @@ python ${BLOCK_PATH}/python git@github.com:defn/python 5bb27c8f2df17a41ee7ace939
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible 2ecd72b9b4161d7bdebb439ae4f040635d4cbd8e master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts 5a53640c7390b7ba31be96e46b4205ea14c10566 master
 consul ${BLOCK_PATH}/consul git@github.com:defn/consul 521a0b4a72314f1cc94cef28de5fcad787350b07 master
+context ${BLOCK_PATH}/context git@github.com:defn/context 4e2703af38b8a6f518d9710f4b5c5cddea378395 master
+parity ${BLOCK_PATH}/parity git@github.com:defn/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
+aws ${BLOCK_PATH}/aws git@github.com:defn/aws 99087bc1f491c786984928736a40f6ce0a3135f0 master
+awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 8a0208dac11ddd14201c17d1cca935d87da50038 master
