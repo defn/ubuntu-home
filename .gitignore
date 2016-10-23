@@ -17,3 +17,4 @@
 /.gnupg
 /.assume-aws-role
 /.terraform.d
+/.vagrant.d
