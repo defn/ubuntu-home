@@ -15,3 +15,4 @@
 /.oracle_jre_usage
 /.aws/credentials*
 /.gnupg
+/.assume-aws-role
