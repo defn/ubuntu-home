@@ -24,7 +24,7 @@ node ${BLOCK_PATH}/node git@github.com:defn/node 70ae3c41050eb45c7740b7401bd6036
 aws ${BLOCK_PATH}/aws git@github.com:defn/aws 64f0bc925c4f0d75aa8ddb749948d771c091ee48 master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome d81677d2e91fc1dcab77eb15625ed1dcc0d991ca master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 5988c8a8227a8996696271fa20b0a5ff45955108 master
-imma ${BLOCK_PATH}/imma git@github.com:defn/imma 1017bbac277ecce58b214d01bbd8ff4601c34cba master
+imma ${BLOCK_PATH}/imma git@github.com:defn/imma c8ab0b1931dfe50cd50957e86f6e66c2a5ecaefb master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 062eebdf51fd21d2cdcd8ae82b39eee1d4b486db master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker db953f9cc8b7a48a9b386bed6464ed492f88f990 master
 go ${BLOCK_PATH}/go git@github.com:defn/go 0880e70e5fa923692f65562b08c4ae4fe101d452 master
