@@ -5,7 +5,9 @@
     "consul",
     "ansible",
     "imma",
-    "inception"
+    "inception",
+    "junas",
+    "defn"
   ],
   "run": {
     "consul": {}
