@@ -32,7 +32,7 @@ lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860
 nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 15cb45c9bbe817fd060a2c071ee87a11c450111c master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 046f0035fffa62bf5401433fea6e950353538d99 master
 provision ${BLOCK_PATH}/provision git@github.com:defn/provision 04b72317ec5acc9ef488018bd3c5b1e2aefbbd8b master
-dream ${BLOCK_PATH}/dream git@github.com:defn/dream 00714969f0c510684319885c9521a969a83bcb4f master
+dream ${BLOCK_PATH}/dream git@github.com:defn/dream b8d79cd5809914181750cca06468dea7e97ee227 master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid fe74cba37fc91fe3678e3fc10e6bffe59ab9e910 master
 aptly ${BLOCK_PATH}/aptly git@github.com:defn/aptly fefa8846a316ec493fff2a9484e2ad9f663e8ebf master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 37297b68bb8b06de46ebb3e92176b06eec36146c master
