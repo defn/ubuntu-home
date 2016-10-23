@@ -35,9 +35,7 @@ provision ${BLOCK_PATH}/provision git@github.com:defn/provision 04b72317ec5acc9e
 dream ${BLOCK_PATH}/dream git@github.com:defn/dream 00714969f0c510684319885c9521a969a83bcb4f master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid fe74cba37fc91fe3678e3fc10e6bffe59ab9e910 master
 aptly ${BLOCK_PATH}/aptly git@github.com:defn/aptly fefa8846a316ec493fff2a9484e2ad9f663e8ebf master
-java ${BLOCK_PATH}/java git@github.com:defn/java 7222b5e9ab0b7e7a7513511b0790d8da89987443 master
-jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins e3451f24af7a231ed43eb37828eee14bfa57571d master
-artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 81b0a7a77500e08532d977508747237004ca0c33 master
+artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 37297b68bb8b06de46ebb3e92176b06eec36146c master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982b6a216c9745db348e4aff3efe72b2da23949 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 7dca75347f27df4ffcec95f97bf9fabca2979526 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 5b06b6368ba44ace83aa902f34d4e92b228df4c1 master
