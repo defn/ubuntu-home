@@ -41,6 +41,7 @@ homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 7dca75347f27df4ffce
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 5b06b6368ba44ace83aa902f34d4e92b228df4c1 master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo bb1b34f25bef9bdd97a55f624f7a6dd8a0dbfc12 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception c40db07771f80cd3e84547b26c11751ec740ae4b master
-junas ${BLOCK_PATH}/junas git@github.com:defn/junas f93e7b2618a5109bc8aa9833ae809979852e526e master
 talign ${BLOCK_PATH}/talign git@github.com:defn/talign 1db084ed06de0c10679e2384c8f88be047934909 master
-defn ${BLOCK_PATH}/defn git@github.com:defn/defn 0126fe8a72158fd23d5f6dd4db1dcbc8c4d1f1f6 master
+junas ${BLOCK_PATH}/junas git@github.com:defn/junas f93e7b2618a5109bc8aa9833ae809979852e526e master
+cue ${BLOCK_PATH}/cue git@github.com:defn/cue 4d914b6d73a07fbcba783109821ff75c93af5477 master
+defn ${BLOCK_PATH}/defn git@github.com:defn/defn 1e0ebae36a42789f5049527c3e18982ed5401245 master
