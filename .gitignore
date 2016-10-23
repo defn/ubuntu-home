@@ -16,3 +16,4 @@
 /.aws/credentials*
 /.gnupg
 /.assume-aws-role
+/.terraform.d
