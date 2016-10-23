@@ -13,3 +13,4 @@
 /.gem
 /.irssi
 /.oracle_jre_usage
+/.aws/credentials*
