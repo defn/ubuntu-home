@@ -1,15 +1,3 @@
-function configure_cue {
-  case "${TERM:-}" in
-    screen*) TERM="screen-256color" ;;
-    *)       TERM="xterm-256color" ;;
-  esac
-  export TERM
-
-  : ${SHLVL_INITIAL:=0}
-
-  sdark
-}
-
 function home_profile {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}" && pwd -P)"
 
@@ -30,10 +18,6 @@ function home_profile {
   fi
 
   source "$shome/.bashrc"
-
-  if tty >/dev/null 2>&1; then
-    configure_cue
-  fi
 }
 
 home_profile

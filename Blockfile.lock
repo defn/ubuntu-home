@@ -43,5 +43,5 @@ limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo bb1b34f25bef9bdd97a55f624f7a
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception c40db07771f80cd3e84547b26c11751ec740ae4b master
 talign ${BLOCK_PATH}/talign git@github.com:defn/talign 1db084ed06de0c10679e2384c8f88be047934909 master
 junas ${BLOCK_PATH}/junas git@github.com:defn/junas f93e7b2618a5109bc8aa9833ae809979852e526e master
-cue ${BLOCK_PATH}/cue git@github.com:defn/cue 4d914b6d73a07fbcba783109821ff75c93af5477 master
+cue ${BLOCK_PATH}/cue git@github.com:defn/cue 7e1d748cd6277e48572d67338d2456a586a4b49e master
 defn ${BLOCK_PATH}/defn git@github.com:defn/defn 1e0ebae36a42789f5049527c3e18982ed5401245 master
