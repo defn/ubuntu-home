@@ -18,3 +18,4 @@
 /.assume-aws-role
 /.terraform.d
 /.vagrant.d
+/.cloud-locale-test.skip
