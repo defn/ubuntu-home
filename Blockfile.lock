@@ -12,8 +12,8 @@ ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 38d415e22c96c111399c3d5d45dbe37
 service ${BLOCK_PATH}/service git@github.com:defn/service e0fa370ea742eb7b5d44a7b5f1724ada24f32db4 master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 0e8571526f10c33d2dc07367ee978b591348ebbf master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 22f2493e53d15bac4aac2c079f00d1b270fe3224 master
-jq ${BLOCK_PATH}/jq git@github.com:defn/jq 7e81afc8b1e093964bc49f19cda1dc155a1fb377 master
 python ${BLOCK_PATH}/python git@github.com:defn/python 5bb27c8f2df17a41ee7ace939d4bbbba9cba5644 master
+jq ${BLOCK_PATH}/jq git@github.com:defn/jq 0e4f0943d6d268957bd73312456ba1ec5a8625b4 master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible 2ecd72b9b4161d7bdebb439ae4f040635d4cbd8e master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts 5a53640c7390b7ba31be96e46b4205ea14c10566 master
 consul ${BLOCK_PATH}/consul git@github.com:defn/consul 521a0b4a72314f1cc94cef28de5fcad787350b07 master
@@ -24,13 +24,13 @@ node ${BLOCK_PATH}/node git@github.com:defn/node 70ae3c41050eb45c7740b7401bd6036
 aws ${BLOCK_PATH}/aws git@github.com:defn/aws 64f0bc925c4f0d75aa8ddb749948d771c091ee48 master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome d81677d2e91fc1dcab77eb15625ed1dcc0d991ca master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 5988c8a8227a8996696271fa20b0a5ff45955108 master
-imma ${BLOCK_PATH}/imma git@github.com:defn/imma c8ab0b1931dfe50cd50957e86f6e66c2a5ecaefb master
+imma ${BLOCK_PATH}/imma git@github.com:defn/imma 1a8ade6b279fae0189aa598f4fe25bf8ac6ff1cc master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 062eebdf51fd21d2cdcd8ae82b39eee1d4b486db master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker db953f9cc8b7a48a9b386bed6464ed492f88f990 master
 go ${BLOCK_PATH}/go git@github.com:defn/go 0880e70e5fa923692f65562b08c4ae4fe101d452 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
 nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 15cb45c9bbe817fd060a2c071ee87a11c450111c master
-packer ${BLOCK_PATH}/packer git@github.com:defn/packer 046f0035fffa62bf5401433fea6e950353538d99 master
+packer ${BLOCK_PATH}/packer git@github.com:defn/packer f12a5d5e883c5bef44aaf920da26e5ab24786d87 master
 provision ${BLOCK_PATH}/provision git@github.com:defn/provision 04b72317ec5acc9ef488018bd3c5b1e2aefbbd8b master
 dream ${BLOCK_PATH}/dream git@github.com:defn/dream b8d79cd5809914181750cca06468dea7e97ee227 master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid fe74cba37fc91fe3678e3fc10e6bffe59ab9e910 master
