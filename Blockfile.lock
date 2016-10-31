@@ -5,7 +5,7 @@ sub ${BLOCK_PATH}/sub git@github.com:defn/sub 062a65e087e86659f212da82f0311815a1
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
 block ${BLOCK_PATH}/block git@github.com:defn/block 68e942c5e3c725b7fce14e040d80b28b479193b9 master
 ubuntu-config ${BLOCK_PATH}/ubuntu-config git@github.com:defn/ubuntu-config 481389510c2762176689771f421130f60939ac3d master
-pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 418ffaa425fa2e19807fa89bddbd10f71b56ccfc master
+pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 209aab6f58fc5ff3ce67a9ed18d09c9f476c8d5e master
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit 8dd6434b906a89ffadff34d113350a1559b92c69 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential fdb5e7e338a652136b1f53c76c9a5ec41a6e239f master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 38d415e22c96c111399c3d5d45dbe376ae006283 master
