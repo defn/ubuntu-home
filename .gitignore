@@ -1,4 +1,3 @@
-# first login
 /.bash_logout
 /.cache/
 /.gitignore
@@ -10,3 +9,13 @@
 /.bashrc.cache
 /install/
 /sv
+/.bundle
+/.gem
+/.irssi
+/.oracle_jre_usage
+/.aws/credentials*
+/.gnupg
+/.assume-aws-role
+/.terraform.d
+/.vagrant.d
+/.cloud-locale-test.skip
