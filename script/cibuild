@@ -26,11 +26,6 @@ function setup_cache {
   "$shome/work/block/script/cibuild" "$shome/work/cache"
   pushd "$shome/work/cache" >/dev/null
   require
-  env | grep -i git
-  env | grep -i cache
-  env | grep -i ssh
-  which cache-git
-  export GIT_SSH="$(which cache-git)"
   popd >/dev/null
 }
 
