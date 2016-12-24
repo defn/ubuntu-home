@@ -3,6 +3,6 @@
     "ubuntu-config",
     "service",
     "defn",
-    "defn-lang"
+    "defn/defn-lang"
   ]
 }
