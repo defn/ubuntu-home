@@ -1,18 +1,25 @@
 #!/usr/bin/env bash
 
-function ubuntu_home_cibuild {
+function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
   mkdir -p "$shome/work"
 
+  mkdir -p ~/.ssh
+  cat <<EOF | tee -a ~/.ssh/config
+Host github.com
+  StrictHostKeyChecking no
+  ForwardAgent no
+EOF
+
   if [[ ! -d "$shome/work/block/.git" ]]; then
-    (cd "$shome/work" && git clone git@github.com:defn/block)
+    (cd "$shome/work" && git clone git@github.com:imma/block)
   fi
   "$shome/work/block/script/cibuild"
   source "$shome/work/block/script/profile"
 
   if [[ ! -d "$shome/work/cache/.git" ]]; then
-    (cd "$shome/work" && git clone git@github.com:defn/cache)
+    (cd "$shome/work" && git clone git@github.com:imma/cache)
   fi
   "$shome/work/block/script/cibuild" "$shome/work/cache"
   pushd "$shome/work/cache" >/dev/null
@@ -21,8 +28,6 @@ function ubuntu_home_cibuild {
 
   "$shome/work/block/script/cibuild" "$@"
   require
-
-  facts cache
 }
 
-ubuntu_home_cibuild "$@"
+main "$@"
