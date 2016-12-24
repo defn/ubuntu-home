@@ -4,7 +4,7 @@ function setup_ssh {
   mkdir -p "$shome/work"
 
   mkdir -p ~/.ssh
-  cat <<EOF | tee -a ~/.ssh/config
+  cat <<EOF | tee ~/.ssh/config
 Host github.com
   StrictHostKeyChecking no
   ForwardAgent no
