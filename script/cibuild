@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
-function main {
-  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
-
+function setup_ssh {
   mkdir -p "$shome/work"
 
   mkdir -p ~/.ssh
@@ -11,13 +9,17 @@ Host github.com
   StrictHostKeyChecking no
   ForwardAgent no
 EOF
+}
 
+function setup_block {
   if [[ ! -d "$shome/work/block/.git" ]]; then
     (cd "$shome/work" && git clone git@github.com:imma/block)
   fi
   "$shome/work/block/script/cibuild"
   source "$shome/work/block/script/profile"
+}
 
+function setup_cache {
   if [[ ! -d "$shome/work/cache/.git" ]]; then
     (cd "$shome/work" && git clone git@github.com:imma/cache)
   fi
@@ -25,8 +27,19 @@ EOF
   pushd "$shome/work/cache" >/dev/null
   require
   popd >/dev/null
+}
 
+function build_blocks {
   "$shome/work/block/script/cibuild" "$@"
+}
+
+function main {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+
+  setup_ssh
+  setup_block
+  setup_cache
+  build_blocks
   require
 }
 
