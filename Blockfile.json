@@ -3,6 +3,6 @@
     "ubuntu-config",
     "service",
     "defn",
-    "build-essential"
+    "defn-lang"
   ]
 }
