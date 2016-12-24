@@ -30,7 +30,7 @@ function setup_cache {
 }
 
 function build_blocks {
-  "$shome/work/block/script/cibuild" "$@"
+  "$shome/work/block/script/cibuild" ~
 }
 
 function main {
