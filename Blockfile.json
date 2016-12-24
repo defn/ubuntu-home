@@ -2,13 +2,6 @@
   "require": [
     "ubuntu-config",
     "service",
-    "consul",
-    "ansible",
-    "imma",
-    "inception",
     "defn"
-  ],
-  "run": {
-    "consul": {}
-  }
+  ]
 }
