@@ -19,3 +19,5 @@
 /.terraform.d
 /.vagrant.d
 /.cloud-locale-test.skip
+/.mix
+/.profile
