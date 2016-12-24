@@ -2,6 +2,7 @@
   "require": [
     "ubuntu-config",
     "service",
-    "defn"
+    "defn",
+    "build-essential"
   ]
 }
