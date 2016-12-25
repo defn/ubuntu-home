@@ -11,4 +11,8 @@ cache:
 	@bash .bashrc
 
 
+../base/Makefile.docker:
+	sudo mkdir -p ../base
+	sudo touch ../base/Makefile.docker
+
 include ../base/Makefile.docker
