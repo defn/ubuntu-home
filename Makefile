@@ -9,3 +9,6 @@ cache:
 	@rm -f .bashrc.cache
 	@bash .bashrc
 	@bash .bashrc
+
+
+include ../base/Makefile.docker
