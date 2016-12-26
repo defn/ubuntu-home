@@ -5,3 +5,7 @@
 #  \__,_|\___/ \___|_|\_\___|_|   
                                 
 FROM 172.28.128.1:5000/block:ubuntu-home
+
+RUN aptitude update
+
+RUN aptitude upgrade -y
