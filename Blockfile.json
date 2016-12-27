@@ -1,9 +1,9 @@
 {
   "require": [
     "ubuntu-config",
-    "service",
     "defn",
-    "sshd"
+    "sshd",
+    "ansible"
   ],
   "run": {
     "sshd": {}
