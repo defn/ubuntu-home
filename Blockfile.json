@@ -5,5 +5,8 @@
     "defn",
     "defn/defn-lang",
     "sshd"
-  ]
+  ],
+  "run": {
+    "sshd": {}
+  }
 }
