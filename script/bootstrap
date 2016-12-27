@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+function ubuntu_home_bootstrap {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "$shome/script/profile"
+
+  pkg ensure misc/screen
+}
+
+ubuntu_home_bootstrap "$@"
