@@ -1,9 +1,10 @@
 {
   "require": [
-    "ubuntu-config",
-    "defn",
-    "sshd",
-    "ansible"
+    [ "ubuntu-config" ],
+    [ "sshd" ],
+    [ "ansible" ],
+    [ "ruby", "python", "node" ],
+    [ "defn" ]
   ],
   "run": {
     "sshd": {}
