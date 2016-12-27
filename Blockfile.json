@@ -3,6 +3,7 @@
     "ubuntu-config",
     "service",
     "defn",
-    "defn/defn-lang"
+    "defn/defn-lang",
+    "sshd"
   ]
 }
