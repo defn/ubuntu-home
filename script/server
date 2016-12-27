@@ -8,6 +8,8 @@ function main {
     set -- default
   fi
 
+  source "$shome/.bashrc"
+
   case "${1:-}" in
     screen)
       shift
