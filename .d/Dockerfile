@@ -6,6 +6,8 @@
                                 
 FROM 172.28.128.1:5000/block:ubuntu-home
 
+USER root
+
 RUN aptitude update
 
 RUN aptitude upgrade -y
