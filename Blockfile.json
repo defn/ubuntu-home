@@ -2,7 +2,7 @@
   "require": [
     [ "ubuntu-config" ],
     [ "sshd" ],
-    [ "ansible" ],
+    [ "deploy", "awesome" ],
     [ "ruby", "python", "node" ],
     [ "defn" ]
   ],
