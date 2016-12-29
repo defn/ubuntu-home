@@ -8,9 +8,7 @@ FROM 172.28.128.1:5000/block:ubuntu-home
 
 USER root
 
-RUN aptitude update
-
-RUN aptitude upgrade -y
+RUN aptitude update && aptitude upgrade -y
 
 USER ubuntu
 
@@ -18,8 +16,6 @@ SHELL [ "/bin/bash", "-c" ]
 
 WORKDIR /home/ubuntu
 
-RUN cd && source .bashrc && block compile service
-
-RUN ln -nfs ../sv/sshd service/
+RUN cd && source .bashrc && block compile service && ln -nfs ../sv/sshd service/
 
 ENTRYPOINT exec script/server
