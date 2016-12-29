@@ -16,3 +16,6 @@ cache:
 	sudo touch ../base/Makefile.docker
 
 include ../base/Makefile.docker
+
+docker:
+	$(MAKE) home
