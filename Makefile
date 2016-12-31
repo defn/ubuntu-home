@@ -18,4 +18,4 @@ cache:
 include ../base/Makefile.docker
 
 docker:
-	$(MAKE) home
+	$(MAKE) home=ubuntuhome home
