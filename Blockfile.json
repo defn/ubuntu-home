@@ -3,7 +3,7 @@
     [ "ubuntu-config" ],
     [ "sshd" ],
     [ "deploy", "awesome" ],
-    [ "ruby", "python", "node" ],
+    [ "ruby", "python", "node", "java" ],
     [ "defn" ]
   ],
   "run": {
