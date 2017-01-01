@@ -13,7 +13,8 @@
       "ports": [
         2222
       ],
-      "image": "172.28.128.1:5000/block:ubuntu-home"
+      "image": "172.28.128.1:5000/block:ubuntu-home",
+      "container_name": "ubuntu-home_service_1"
     }
   }
 }
