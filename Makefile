@@ -21,4 +21,4 @@ docker-image:
 	time $(MAKE) home=ubuntu-home home
 
 docker-update:
-	time $(MAKE) home=ubuntu-home image-update
+	time $(MAKE) home=ubuntu-home clean daemon image-update
