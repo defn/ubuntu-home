@@ -17,5 +17,8 @@ cache:
 
 include ../base/Makefile.docker
 
-docker:
-	$(MAKE) home
+docker-image:
+	time $(MAKE) home
+
+docker-update:
+	time $(MAKE) image-update
