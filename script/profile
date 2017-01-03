@@ -3,6 +3,12 @@
 function _ubuntu_home_profile {
   local shome="${_ubuntu_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
   PATH="$shome/bin:$shome/exec:$PATH"
+
+  if [[ ! -f "$HOME/.aws/credentials" ]]; then
+    if [[ -f "/config/aws/credentials" ]]; then
+      export AWS_SHARED_CREDENTIALS_FILE="/config/aws/credentials"
+    fi
+  fi
 }
 
 _ubuntu_home_profile
