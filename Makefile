@@ -18,7 +18,7 @@ cache:
 include ../base/Makefile.docker
 
 docker-image:
-	time $(MAKE) home
+	time $(MAKE) home=ubuntu-home home
 
 docker-update:
-	time $(MAKE) image-update
+	time $(MAKE) home=ubuntu-home image-update
