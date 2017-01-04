@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+function main {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "$shome/script/profile"
+  source normalize
+  
+  block lock
+  git add Blockfile.lock
+  git diff --cached
+  git commit -v
+}
+
+source sub "$BASH_SOURCE" "$@"
