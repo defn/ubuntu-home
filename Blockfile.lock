@@ -31,7 +31,7 @@ deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy 46caf9ee1f168f5244759bbaf
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
 node ${BLOCK_PATH}/node git@github.com:imma/node 4015f5e478d6ac2a737b0dc4b6e53752941de405 master
 aws ${BLOCK_PATH}/aws git@github.com:imma/aws 64f0bc925c4f0d75aa8ddb749948d771c091ee48 master
-awesome ${BLOCK_PATH}/awesome git@github.com:imma/awesome 6bb6b1797948266b9b0066cb813072e62b0c2699 master
+awesome ${BLOCK_PATH}/awesome git@github.com:imma/awesome 9dde069ae9f932be78350ca7fe7ea8990719dfc8 master
 java ${BLOCK_PATH}/java git@github.com:imma/java 5a6e9294fc1e3f432c7e8accf87d49037a4c54dd master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
 rust ${BLOCK_PATH}/rust git@github.com:imma/rust 3bfb8d5e10344272e7f6408f41a5870f6d1340ba master
