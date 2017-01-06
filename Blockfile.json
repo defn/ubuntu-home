@@ -1,6 +1,6 @@
 {
   "require": [
-    [ "ubuntu-config" ],
+    [ "ubuntu-config", "base" ],
     [ "sshd", "postgresql", "nginx" ],
     [ "deploy", "awesome" ],
     [ "ruby", "python", "node", "java", "bash4", "rust", "go" ],
