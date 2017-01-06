@@ -11,7 +11,7 @@ docker ${BLOCK_PATH}/docker git@github.com:imma/docker ab082db2ff1bc994b901a47f0
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 2493cd486a75079eaa0aee78d157279b0477e3ed master
 jq ${BLOCK_PATH}/jq git@github.com:imma/jq 7ce30713ab905c39631a0b00307ceec1e9e978e7 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:imma/build-essential 3db5c0980e9a1a95b731cdcbecc95da53670e8a8 master
-base ${BLOCK_PATH}/base git@github.com:imma/base 2263589d4813baf0f429d02af57ed655537aaac6 master
+base ${BLOCK_PATH}/base git@github.com:imma/base ca7705cb8b1b09c0ddf1d068b1e7040b6f381d8f master
 runit ${BLOCK_PATH}/runit git@github.com:imma/runit bf8e92c53498971c9714b593b3ea1c178c3cdc76 master
 ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby de9c122dd6685ee1f37c4fd7500eccf881066c07 master
 service ${BLOCK_PATH}/service git@github.com:imma/service 3514336e1f75db34f9aa80139de795080d0e7337 master
