@@ -4,8 +4,12 @@ function ubuntu_home_bootstrap {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   source "$shome/script/profile"
 
-  sudo usermod -a -G docker ubuntu || true
-  sudo usermod -a -G staff ubuntu || true
+  case "$(uname -s)" in
+    Linux)
+      sudo usermod -a -G docker ubuntu || true
+      sudo usermod -a -G staff ubuntu || true
+      ;;
+  esac
 }
 
 ubuntu_home_bootstrap "$@"
