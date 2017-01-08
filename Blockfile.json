@@ -1,10 +1,9 @@
 {
   "require": [
     [ "ubuntu-config", "base" ],
-    [ "sshd", "postgresql", "nginx", "docker", "lxd" ],
-    [ "deploy", "awesome" ],
     [ "ruby", "python", "node", "java", "bash4", "rust", "go" ],
-    [ "defn" ]
+    [ "sshd", "postgresql", "nginx", "docker", "lxd", "consul" ],
+    [ "deploy", "awesome", "defn" ],
   ],
   "run": {
     "sshd": {}
