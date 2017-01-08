@@ -6,6 +6,7 @@
     [ "deploy", "awesome", "defn" ]
   ],
   "run": {
-    "sshd": {}
+    "sshd": {},
+    "consul-agent": {}
   }
 }
