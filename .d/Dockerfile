@@ -4,7 +4,7 @@
 # | (_| | (_) | (__|   <  __/ |   
 #  \__,_|\___/ \___|_|\_\___|_|   
                                 
-FROM 172.28.128.1:5000/block:ubuntu-home
+FROM 172.28.128.1/block:ubuntu-home
 
 USER root
 
