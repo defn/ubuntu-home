@@ -2,7 +2,7 @@
   "require": [
     [ "ubuntu-config", "base" ],
     [ "ruby", "python", "node", "java", "bash4", "rust", "go" ],
-    [ "sshd", "postgresql", "nginx", "docker", "lxd", "consul" ],
+    [ "sshd", "postgresql", "nginx", "docker", "lxd", "consul-agent" ],
     [ "deploy", "awesome", "defn" ]
   ],
   "run": {
