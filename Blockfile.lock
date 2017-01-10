@@ -11,7 +11,7 @@ docker ${BLOCK_PATH}/docker git@github.com:imma/docker ab082db2ff1bc994b901a47f0
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 2493cd486a75079eaa0aee78d157279b0477e3ed master
 jq ${BLOCK_PATH}/jq git@github.com:imma/jq e5941ead57812d3c1f32705602e2981bd53c837d master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:imma/build-essential 3db5c0980e9a1a95b731cdcbecc95da53670e8a8 master
-base ${BLOCK_PATH}/base git@github.com:imma/base 4e33b2c018e1f391beee50a74701ef7ee3105f65 master
+base ${BLOCK_PATH}/base git@github.com:imma/base ed8b2902128ecb6a484fb51dcbe343c6c68413e3 master
 ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby de9c122dd6685ee1f37c4fd7500eccf881066c07 master
 python ${BLOCK_PATH}/python git@github.com:imma/python 65f1d1adb73014daf1b4c9c55816ffd7c8c43651 master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache e8b470a32b20009490d998f687ff488f885198ae master
@@ -25,16 +25,13 @@ go ${BLOCK_PATH}/go git@github.com:imma/go 35b995a068d646688cbc1481653456f183546
 runit ${BLOCK_PATH}/runit git@github.com:imma/runit 05587ee2797b388d8f16310691e216ad8c9a4d9c master
 service ${BLOCK_PATH}/service git@github.com:imma/service 3514336e1f75db34f9aa80139de795080d0e7337 master
 sshd ${BLOCK_PATH}/sshd git@github.com:imma/sshd 67e2d53762679f4de33bbd923ac0a0cbf82f6d2e master
-postgresql ${BLOCK_PATH}/postgresql git@github.com:imma/postgresql 8010bf68429fc30030f46b3f71fa0e225bf06831 master
-redis ${BLOCK_PATH}/redis git@github.com:imma/redis df0cca6002b38717b833ddf24160123d00e949e4 master
-nginx ${BLOCK_PATH}/nginx git@github.com:imma/nginx 510325620b5da59bc7e49c9598bcaecca81bd21e master
 lxd ${BLOCK_PATH}/lxd git@github.com:imma/lxd a74f0d816e60efeda7f69ebf1cd54fd84fcb508c master
 ansible ${BLOCK_PATH}/ansible git@github.com:imma/ansible 9e79e79bb5b1547b3d5fad7efb9c9d60ff878fd0 master
 facts ${BLOCK_PATH}/facts git@github.com:imma/facts 5a53640c7390b7ba31be96e46b4205ea14c10566 master
-consul ${BLOCK_PATH}/consul git@github.com:imma/consul ef914f0fc7392112d47c4bc3d4c7f55b484aeb59 master
+consul ${BLOCK_PATH}/consul git@github.com:imma/consul 2b0ea4fbcab0e7f74c8da87c7399b16d21bd419f master
 consul-agent ${BLOCK_PATH}/consul-agent git@github.com:imma/consul-agent 5a0c4c2b662998ddc2c2354a803405077181fe08 master
 vault ${BLOCK_PATH}/vault git@github.com:imma/vault 40b6e1a792e92464085b7fe996d9683901e85085 master
-linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd 84525d8378f94253455b14e753cf801582e0bc3b master
+linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd 3c56e4d840f69973474811edf93b54e84a2a85e1 master
 aq ${BLOCK_PATH}/aq git@github.com:imma/aq efce7ff4bb1c9632a5c904f294765eed59412b0f master
 aqq ${BLOCK_PATH}/aqq git@github.com:imma/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 master
 inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory f0051943d96eb44e299c003356ef1020f8906607 master
