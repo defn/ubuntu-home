@@ -30,7 +30,7 @@ ansible ${BLOCK_PATH}/ansible git@github.com:imma/ansible 9e79e79bb5b1547b3d5fad
 facts ${BLOCK_PATH}/facts git@github.com:imma/facts 5a53640c7390b7ba31be96e46b4205ea14c10566 master
 consul ${BLOCK_PATH}/consul git@github.com:imma/consul 2b0ea4fbcab0e7f74c8da87c7399b16d21bd419f master
 consul-agent ${BLOCK_PATH}/consul-agent git@github.com:imma/consul-agent 5a0c4c2b662998ddc2c2354a803405077181fe08 master
-vault ${BLOCK_PATH}/vault git@github.com:imma/vault 40b6e1a792e92464085b7fe996d9683901e85085 master
+vault ${BLOCK_PATH}/vault git@github.com:imma/vault 12a461fa1df3d624fecc9c1e0b1572deba56ae4d master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd 3c56e4d840f69973474811edf93b54e84a2a85e1 master
 aq ${BLOCK_PATH}/aq git@github.com:imma/aq efce7ff4bb1c9632a5c904f294765eed59412b0f master
 aqq ${BLOCK_PATH}/aqq git@github.com:imma/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 master
