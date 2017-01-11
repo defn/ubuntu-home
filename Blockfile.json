@@ -2,7 +2,8 @@
   "require": [
     [ "ubuntu-config", "base" ],
     [ "ruby", "python", "node", "java", "bash4", "rust", "go" ],
-    [ "sshd", "docker", "lxd", "consul-agent", "vault", "linkerd" ],
+    [ "docker", "lxd", "kubernetes" ],
+    [ "sshd", "consul-agent", "vault", "linkerd" ],
     [ "deploy", "awesome", "defn" ]
   ],
   "run": {
