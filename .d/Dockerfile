@@ -18,6 +18,7 @@ SHELL [ "/bin/bash", "-c" ]
 
 WORKDIR /home/ubuntu
 
-RUN cd && source .bashrc && block compile service && ln -nfs ../sv/sshd service/
+RUN source .bashrc && block compile service && ln -nfs ../sv/sshd ../sv/consul-agent service/
+RUN rm -f service/ubuntu-home
 
 ENTRYPOINT exec script/server
