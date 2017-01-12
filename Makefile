@@ -22,3 +22,10 @@ docker-image:
 
 docker-update:
 	time $(MAKE) home=ubuntu-home clean daemon image-update
+
+docker-bump:
+	$(MAKE) bump
+	git add .serial
+	git commit -m "bump to $(shell cat .serial)"
+	git push
+	$(MAKE) docker-image
