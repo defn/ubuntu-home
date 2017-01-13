@@ -12,7 +12,15 @@ EOF
 }
 
 function setup_submodules {
-  git submodule update --init --recursive
+  case "$(uname -s)" in
+    Linux)
+      sudo add-apt-repository ppa:git-core/ppa
+      sudo aptitude update
+      sudo aptitude install -y git
+      ;;
+  esac
+
+  git submodule update --init --recursive -j 8
 }
 
 function setup_block {
@@ -39,8 +47,6 @@ function build_blocks {
 
 function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
-
-  set -x
 
   setup_ssh
   setup_submodules
