@@ -11,6 +11,10 @@ Host github.com
 EOF
 }
 
+function setup_submodules {
+  git submodule update --init --recursive -j 8
+}
+
 function setup_block {
   if [[ ! -d "$shome/work/block/.git" ]]; then
     (cd "$shome/work" && git clone git@github.com:imma/block)
@@ -37,6 +41,7 @@ function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
   setup_ssh
+  setup_submodules
   setup_block
   setup_cache
   build_blocks
