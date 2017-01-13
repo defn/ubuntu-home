@@ -40,6 +40,8 @@ function build_blocks {
 function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
+  set -x
+
   setup_ssh
   setup_submodules
   setup_block
