@@ -4,7 +4,7 @@
     [ "ruby", "python", "node", "java", "bash4", "rust", "go" ],
     [ "docker", "lxd", "kubernetes" ],
     [ "sshd", "consul-agent", "vault", "linkerd" ],
-    [ "deploy", "awesome", "defn" ]
+    [ "deploy", "awesome", "defn", "sysadmin" ]
   ],
   "run": {
     "sshd": {},
