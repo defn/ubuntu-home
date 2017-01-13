@@ -6,10 +6,12 @@
                                 
 FROM cache.nih/block:ubuntu-home
 
+ARG SERIAL
+ARG CACHE
+
 USER root
 
-ARG SERIAL
-
+RUN echo ${CACHE} cache.nih >> /etc/hosts
 RUN aptitude update && aptitude upgrade -y && echo ${SERIAL}
 
 USER ubuntu
