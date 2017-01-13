@@ -12,7 +12,7 @@ EOF
 }
 
 function setup_submodules {
-  git submodule update --init --recursive -j 8
+  git submodule update --init --recursive
 }
 
 function setup_block {
