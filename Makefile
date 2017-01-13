@@ -10,6 +10,8 @@ cache:
 	@bash .bashrc
 	@bash .bashrc
 
+subm:
+	cat Blockfile.lock  | envsubst  | runmany 1 5 'echo git submodule add -f -b $$5 $$3 $${2/$$HOME\//}'
 
 ../base/Makefile.docker:
 	sudo mkdir -p ../base
