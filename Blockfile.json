@@ -3,7 +3,7 @@
     [ "ubuntu-config", "base" ],
     [ "ruby", "python", "node", "java", "bash4", "rust", "go" ],
     [ "docker", "lxd", "kubernetes" ],
-    [ "sshd", "consul-agent", "vault", "linkerd" ],
+    [ "sshd", "consul-agent", "vault", "linkerd", "buildkite" ],
     [ "deploy", "awesome", "defn", "sysadmin" ]
   ],
   "run": {
