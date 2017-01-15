@@ -36,6 +36,6 @@ latest:
 	git pull
 	block clone
 	home update
-	make subm
+	make subm || true
 	git add -u 
 	home lock 'update to latest modules'

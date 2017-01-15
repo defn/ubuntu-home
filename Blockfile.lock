@@ -3,7 +3,7 @@ normalize ${BLOCK_PATH}/normalize git@github.com:imma/normalize b156ba1ec79f2da2
 bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:imma/bash-preexec 15618152d6ec511810e68d7b70b4ea5046cbeddd master
 sub ${BLOCK_PATH}/sub git@github.com:imma/sub 062a65e087e86659f212da82f0311815a12244f1 master
 runmany ${BLOCK_PATH}/runmany git@github.com:imma/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
-block ${BLOCK_PATH}/block git@github.com:imma/block 2b1ffad70b6c283adff7fa1dd89e6326c1f26b43 master
+block ${BLOCK_PATH}/block git@github.com:imma/block 259a5af2f1aebcda23bbed72ebec112725ca7bc1 master
 ubuntu-config ${BLOCK_PATH}/ubuntu-config git@github.com:imma/ubuntu-config 0880cd76e7a76df2103e42b3dd0a41c93662420f master
 context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272efd228b3a37fd6d1ebbc master
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
@@ -34,7 +34,7 @@ consul ${BLOCK_PATH}/consul git@github.com:imma/consul 27f8aed027f5ee5dea49d5f26
 consul-agent ${BLOCK_PATH}/consul-agent git@github.com:imma/consul-agent 973d6c5eaa95c4eec663388ef446013c31d5f21d master
 vault ${BLOCK_PATH}/vault git@github.com:imma/vault 12a461fa1df3d624fecc9c1e0b1572deba56ae4d master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd 5aac7fc1671a638ef86516558e1b3104249425e8 master
-buildkite ${BLOCK_PATH}/buildkite git@github.com:imma/buildkite 878e19a638559cd422fc3aceb5a8a502e23d1922 master
+buildkite ${BLOCK_PATH}/buildkite git@github.com:imma/buildkite cf6b879bd8e7978d78e7507e7ce0b8a487da6e4a master
 aq ${BLOCK_PATH}/aq git@github.com:imma/aq efce7ff4bb1c9632a5c904f294765eed59412b0f master
 aqq ${BLOCK_PATH}/aqq git@github.com:imma/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 master
 inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory f0051943d96eb44e299c003356ef1020f8906607 master
