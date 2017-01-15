@@ -12,14 +12,6 @@ EOF
 }
 
 function setup_submodules {
-  case "$(uname -s)" in
-    Linux)
-      sudo add-apt-repository ppa:git-core/ppa
-      sudo aptitude update
-      sudo aptitude install -y git
-      ;;
-  esac
-
   git submodule update --init --recursive -j 8
 }
 
