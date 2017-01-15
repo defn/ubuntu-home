@@ -47,4 +47,4 @@ junas ${BLOCK_PATH}/junas git@github.com:imma/junas aff94b12a8ede440cee8214cf190
 cue ${BLOCK_PATH}/cue git@github.com:imma/cue 36543eac165edc2577ee98b19ea82a9aae66803f master
 defn ${BLOCK_PATH}/defn git@github.com:imma/defn 20dfef3edf71a21961ed02d4384df3650d8a5b3c master
 htop ${BLOCK_PATH}/htop git@github.com:imma/htop 36918cf01b385f47ed1e857d5139a27dc9b1366c master
-sysadmin ${BLOCK_PATH}/sysadmin git@github.com:imma/sysadmin 82ba2dde02d82ea90bb9ce8b0f24a4c31cf6f079 master
+sysadmin ${BLOCK_PATH}/sysadmin git@github.com:imma/sysadmin 5edfd8ac0e0d7641766c1ef45cab1cf4cdd295c1 master
