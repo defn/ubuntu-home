@@ -12,7 +12,7 @@ EOF
 }
 
 function setup_submodules {
-  echo git submodule update --init --recursive -j 8
+  git submodule update --init -j 8
 }
 
 function setup_block {
@@ -34,6 +34,8 @@ function setup_cache {
 }
 
 function build_blocks {
+  cd ~
+  require
   "$shome/work/block/script/cibuild" ~
 }
 
