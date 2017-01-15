@@ -194,3 +194,7 @@
 	path = work/sysadmin
 	url = git@github.com:imma/sysadmin
 	branch = master
+[submodule "work/buildkite"]
+	path = work/buildkite
+	url = git@github.com:imma/buildkite
+	branch = master
