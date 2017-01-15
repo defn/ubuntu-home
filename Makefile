@@ -20,17 +20,17 @@ subm:
 include ../base/Makefile.docker
 
 docker-image:
-	time $(MAKE) home=ubuntu-home home
+	time $(make) home=ubuntu-home home
 
 docker-update:
-	time $(MAKE) home=ubuntu-home clean daemon image-update
+	time $(make) home=ubuntu-home clean daemon image-update
 
 docker-bump:
-	$(MAKE) bump
+	$(make) bump
 	git add .serial
 	git commit -m "bump to $(shell cat .serial)"
 	git push
-	$(MAKE) docker-image
+	$(make) docker-image
 
 latest:
 	git pull
