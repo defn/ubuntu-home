@@ -31,3 +31,11 @@ docker-bump:
 	git commit -m "bump to $(shell cat .serial)"
 	git push
 	$(MAKE) docker-image
+
+latest:
+	git pull
+	block clone
+	home update
+	make subm
+	git add -u 
+	home lock 'update to latest modules'

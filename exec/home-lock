@@ -8,7 +8,11 @@ function main {
   block lock
   git add Blockfile.lock
   git diff --cached
-  git commit -v
+  if [[ -n "${1:-}" ]]; then
+    git commit -m "$1"
+  else
+    git commit -v
+  fi
 }
 
 source sub "$BASH_SOURCE" "$@"
