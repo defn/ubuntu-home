@@ -186,3 +186,11 @@
 	path = work/defn
 	url = git@github.com:imma/defn
 	branch = master
+[submodule "work/htop"]
+	path = work/htop
+	url = git@github.com:imma/htop
+	branch = master
+[submodule "work/sysadmin"]
+	path = work/sysadmin
+	url = git@github.com:imma/sysadmin
+	branch = master
