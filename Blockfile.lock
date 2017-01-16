@@ -5,7 +5,7 @@ sub ${BLOCK_PATH}/sub git@github.com:imma/sub 062a65e087e86659f212da82f0311815a1
 runmany ${BLOCK_PATH}/runmany git@github.com:imma/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
 block ${BLOCK_PATH}/block git@github.com:imma/block 259a5af2f1aebcda23bbed72ebec112725ca7bc1 master
 ubuntu-config ${BLOCK_PATH}/ubuntu-config git@github.com:imma/ubuntu-config e6e1f5f18ede05178fd76a4ee015621a070a0277 master
-pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 7c5c44d0d42cbbdcf0ff2511f2d4baf53206e92b master
+pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 4df0504aff8624e1a7aaaa92eb0015b8d1283abe master
 jq ${BLOCK_PATH}/jq git@github.com:imma/jq e5941ead57812d3c1f32705602e2981bd53c837d master
 context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272efd228b3a37fd6d1ebbc master
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
@@ -20,7 +20,7 @@ nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e
 node ${BLOCK_PATH}/node git@github.com:imma/node 61ffac4a189d77666be015aa8a0d2bda382616ec master
 java ${BLOCK_PATH}/java git@github.com:imma/java a4518da5772bcd975c5ca6afcac5a1dc09d9dda6 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
-rust ${BLOCK_PATH}/rust git@github.com:imma/rust da5352ccbd59cd395f88c86c8abbe1664451cc1a master
+rust ${BLOCK_PATH}/rust git@github.com:imma/rust d49de9fc2473981c5fff5f30fb59fc37764fddac master
 go ${BLOCK_PATH}/go git@github.com:imma/go 8c1971315b6d696c44ab5ac321f24adbfa2dd16a master
 lxd ${BLOCK_PATH}/lxd git@github.com:imma/lxd a74f0d816e60efeda7f69ebf1cd54fd84fcb508c master
 kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes e00d310c969550b97f86029eb0ee054a3d4bbd18 master
