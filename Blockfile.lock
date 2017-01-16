@@ -4,7 +4,7 @@ bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:imma/bash-preexec 1561815
 sub ${BLOCK_PATH}/sub git@github.com:imma/sub 062a65e087e86659f212da82f0311815a12244f1 master
 runmany ${BLOCK_PATH}/runmany git@github.com:imma/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
 block ${BLOCK_PATH}/block git@github.com:imma/block 259a5af2f1aebcda23bbed72ebec112725ca7bc1 master
-ubuntu-config ${BLOCK_PATH}/ubuntu-config git@github.com:imma/ubuntu-config 0880cd76e7a76df2103e42b3dd0a41c93662420f master
+ubuntu-config ${BLOCK_PATH}/ubuntu-config git@github.com:imma/ubuntu-config e6e1f5f18ede05178fd76a4ee015621a070a0277 master
 context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272efd228b3a37fd6d1ebbc master
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 docker ${BLOCK_PATH}/docker git@github.com:imma/docker 12a44a02d756ab5ebfcabd8caaad84afb6f5f353 master
@@ -17,7 +17,7 @@ python ${BLOCK_PATH}/python git@github.com:imma/python 65f1d1adb73014daf1b4c9c55
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache 0e9fe9595415d2bd94a3d826c76663216990f719 master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl 8f28044a8ef0c64354173a4b5af70d77f9e644b9 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
-node ${BLOCK_PATH}/node git@github.com:imma/node 30700c4c128902de566ce9d4d140352a70326226 master
+node ${BLOCK_PATH}/node git@github.com:imma/node 61ffac4a189d77666be015aa8a0d2bda382616ec master
 java ${BLOCK_PATH}/java git@github.com:imma/java a4518da5772bcd975c5ca6afcac5a1dc09d9dda6 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
 rust ${BLOCK_PATH}/rust git@github.com:imma/rust da5352ccbd59cd395f88c86c8abbe1664451cc1a master
