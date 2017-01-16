@@ -16,6 +16,8 @@ cache:
 
 include ../base/Makefile.docker
 
+docker_default = docker-image
+
 docker-image:
 	time $(make) home=ubuntu-home home
 
