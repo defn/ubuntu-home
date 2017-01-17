@@ -14,7 +14,7 @@ build-essential ${BLOCK_PATH}/build-essential git@github.com:imma/build-essentia
 base ${BLOCK_PATH}/base git@github.com:imma/base e446c42561d3aaa684304d71fe6015895520999d master
 ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby 858b744c4931d2a4a4d6ee7142982710d8424296 master
 python ${BLOCK_PATH}/python git@github.com:imma/python 65f1d1adb73014daf1b4c9c55816ffd7c8c43651 master
-cache ${BLOCK_PATH}/cache git@github.com:imma/cache 4c014a31c1f17f9a3ff896a3f153efbd79f9397b master
+cache ${BLOCK_PATH}/cache git@github.com:imma/cache c6213d9bf16a968317d45e9e9e00703abd29cba0 master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl 8f28044a8ef0c64354173a4b5af70d77f9e644b9 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
 node ${BLOCK_PATH}/node git@github.com:imma/node 61ffac4a189d77666be015aa8a0d2bda382616ec master
