@@ -12,8 +12,8 @@ parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose f85b4fee800c42792df1fd305f3cb7cd1a16a956 master
 docker ${BLOCK_PATH}/docker git@github.com:imma/docker e01cc505a0213285d3998d007184e20a7d63c91c master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:imma/build-essential 3db5c0980e9a1a95b731cdcbecc95da53670e8a8 master
-base ${BLOCK_PATH}/base git@github.com:imma/base 7577cbe64224731375beaed8eb2737b7cded6386 master
-ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby 858b744c4931d2a4a4d6ee7142982710d8424296 master
+base ${BLOCK_PATH}/base git@github.com:imma/base d10580f93b26c3fc53b7ce509f906d26260a6d60 master
+ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby dd5d8d31e8bf58cc8dcdd879382d207a135f599f master
 python ${BLOCK_PATH}/python git@github.com:imma/python 65f1d1adb73014daf1b4c9c55816ffd7c8c43651 master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache ab1539486ab0ff9cbd748c95426172b08dcd0280 master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl 8f28044a8ef0c64354173a4b5af70d77f9e644b9 master
