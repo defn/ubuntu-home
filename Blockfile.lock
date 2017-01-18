@@ -28,7 +28,7 @@ runit ${BLOCK_PATH}/runit git@github.com:imma/runit eeef0a8a21b81ad5ceeb16c16e3c
 service ${BLOCK_PATH}/service git@github.com:imma/service 3514336e1f75db34f9aa80139de795080d0e7337 master
 sshd ${BLOCK_PATH}/sshd git@github.com:imma/sshd 67e2d53762679f4de33bbd923ac0a0cbf82f6d2e master
 ansible ${BLOCK_PATH}/ansible git@github.com:imma/ansible 9e79e79bb5b1547b3d5fad7efb9c9d60ff878fd0 master
-facts ${BLOCK_PATH}/facts git@github.com:imma/facts 5a53640c7390b7ba31be96e46b4205ea14c10566 master
+facts ${BLOCK_PATH}/facts git@github.com:imma/facts c640273962fa4c4095e8b7f531caa94ac372438d master
 consul ${BLOCK_PATH}/consul git@github.com:imma/consul fc653527e5434b5a3fe5f79236d9dc2353215d11 master
 consul-agent ${BLOCK_PATH}/consul-agent git@github.com:imma/consul-agent 85fd2d686f7de93cc51eddab1d9840183ecc5387 master
 vault ${BLOCK_PATH}/vault git@github.com:imma/vault 5b5e262f670cf42b5cee42a94f8173476558d6a2 master
