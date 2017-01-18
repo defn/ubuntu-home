@@ -19,11 +19,11 @@ include ../base/Makefile.docker
 docker_default = docker-image
 
 docker-image:
-	time $(make) home=$(block) home
+	time $(make) home=$(block) nc home
 
 docker-update:
 	docker tag cache.nih/block:$(block){0,}
-	time $(make) home=$(block) clean daemon image-update
+	time $(make) home=$(block) nc clean daemon image-update
 
 docker-bump:
 	$(make) bump
