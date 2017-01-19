@@ -5,7 +5,7 @@ function main {
   source "$shome/script/profile"
   source normalize  
 
-  git grep "cache.nih" | egrep '^(.gemrc|.npmrc|.pip|.pydistutils.cfg)' | cut -d: -f1 | sort -u | runmany 'git checkout -- "$1"'
+  git grep "cache.nih" | egrep '^(.gemrc|.npmrc|.pip|.pydistutils.cfg|.bundle/config)' | cut -d: -f1 | sort -u | runmany 'git checkout -- "$1"'
 }
 
 source sub "$BASH_SOURCE" "$@"
