@@ -198,7 +198,3 @@
 	path = work/buildkite
 	url = git@github.com:imma/buildkite
 	branch = master
-[submodule "work/docker-compose"]
-	path = work/docker-compose
-	url = git@github.com:imma/docker-compose
-	branch = master
