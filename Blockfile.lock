@@ -6,7 +6,7 @@ runmany ${BLOCK_PATH}/runmany git@github.com:imma/runmany 83214538c0e90b1244cd8b
 block ${BLOCK_PATH}/block git@github.com:imma/block 259a5af2f1aebcda23bbed72ebec112725ca7bc1 master
 ubuntu-config ${BLOCK_PATH}/ubuntu-config git@github.com:imma/ubuntu-config e6e1f5f18ede05178fd76a4ee015621a070a0277 master
 java ${BLOCK_PATH}/java git@github.com:imma/java efede9d0370c2e43076bfc2637cc2c39bbe6090d master
-pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc b5fdb8c6f70b33708f0b0eb364dbdee087c27af7 master
+pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc edc5591f3277d6f406b06e0d168e4a63af4e04a5 master
 jq ${BLOCK_PATH}/jq git@github.com:imma/jq e5941ead57812d3c1f32705602e2981bd53c837d master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:imma/build-essential 3db5c0980e9a1a95b731cdcbecc95da53670e8a8 master
 ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby dd5d8d31e8bf58cc8dcdd879382d207a135f599f master
@@ -15,12 +15,12 @@ context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272ef
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose f85b4fee800c42792df1fd305f3cb7cd1a16a956 master
 docker ${BLOCK_PATH}/docker git@github.com:imma/docker 5afd27b918add119ba77abe3c641c039ca40a0ba master
-base ${BLOCK_PATH}/base git@github.com:imma/base 0e6c48b767055b8c54fc231706964bb53ca36e32 master
+base ${BLOCK_PATH}/base git@github.com:imma/base a7350eb7b82e5fe66215defad916461f11e4f04f master
 python ${BLOCK_PATH}/python git@github.com:imma/python 65f1d1adb73014daf1b4c9c55816ffd7c8c43651 master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache d6bd2d193603f086d7710b30943316da799bf39b master
-curl ${BLOCK_PATH}/curl git@github.com:imma/curl 8f28044a8ef0c64354173a4b5af70d77f9e644b9 master
+curl ${BLOCK_PATH}/curl git@github.com:imma/curl a2a155263a40fa2e5f7efc387e0878dcbb755d57 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
-node ${BLOCK_PATH}/node git@github.com:imma/node 721c34c754130647b8f64846bed1051717cd3d59 master
+node ${BLOCK_PATH}/node git@github.com:imma/node 0c50b4c64135a39105a21655f1d8b09d9cb88a95 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
 go ${BLOCK_PATH}/go git@github.com:imma/go 8c1971315b6d696c44ab5ac321f24adbfa2dd16a master
 kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes e00d310c969550b97f86029eb0ee054a3d4bbd18 master
