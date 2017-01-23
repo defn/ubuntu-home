@@ -94,10 +94,6 @@
 	path = work/go
 	url = git@github.com:imma/go
 	branch = master
-[submodule "work/lxd"]
-	path = work/lxd
-	url = git@github.com:imma/lxd
-	branch = master
 [submodule "work/kubernetes"]
 	path = work/kubernetes
 	url = git@github.com:imma/kubernetes
