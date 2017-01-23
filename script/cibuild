@@ -4,7 +4,7 @@ function setup_ssh {
   mkdir -p "$shome/work"
 
   mkdir -p ~/.ssh
-  cat <<EOF | tee ~/.ssh/config
+  cat <<EOF | tee -a ~/.ssh/config
 Host github.com
   StrictHostKeyChecking no
   ForwardAgent no
@@ -39,6 +39,12 @@ function build_blocks {
   "$shome/work/block/script/cibuild" ~
 }
 
+function cleanup {
+  pushd ~
+  git checkout .ssh/config
+  popd
+}
+
 function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
@@ -48,6 +54,7 @@ function main {
   setup_cache
   build_blocks
   require
+  cleanup
 }
 
 main "$@"
