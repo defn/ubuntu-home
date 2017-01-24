@@ -30,7 +30,7 @@ docker-image:
 	time $(make) home=$(block) nc home
 
 docker-update:
-	docker tag cache.nih/block:$(block){0,}
+	docker tag $(registry)/block:$(block){0,}
 	time $(make) home=$(block) nc clean daemon image-update
 
 docker-bump:
