@@ -31,7 +31,9 @@ docker-image:
 
 docker-update:
 	docker tag $(registry)/block:$(block){0,}
-	time $(make) home=$(block) nc clean daemon image-update
+	$(make) home=$(block) nc clean daemon
+	time $(make) block-update $(after_block) commit
+	$(make) clean
 
 docker-bump:
 	$(make) bump
