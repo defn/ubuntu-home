@@ -9,7 +9,9 @@ function main {
   
   block runmany "$many" 'cd $1 && git pull' || true
   block clone
-  block lock
+  if [[ -f "Blockfile.lock" ]]; then
+    block lock
+  fi
   home status
 }
 
