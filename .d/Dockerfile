@@ -21,6 +21,7 @@ SHELL [ "/bin/bash", "-c" ]
 WORKDIR /home/ubuntu
 
 RUN source .bashrc && block compile service && ln -nfs ../sv/sshd ../sv/consul-agent service/
-RUN rm -f service/ubuntu-home
+RUN rm -f service/ubuntu-home .ssh/authorized_keys
+RUN touch .ssh/authorized_keys
 
 ENTRYPOINT exec script/server
