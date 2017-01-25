@@ -15,7 +15,7 @@ context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272ef
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose f85b4fee800c42792df1fd305f3cb7cd1a16a956 master
 docker ${BLOCK_PATH}/docker git@github.com:imma/docker 72b2e7ec5dab8aef29930b5f5d14d00b6976f5ce master
-base ${BLOCK_PATH}/base git@github.com:imma/base bab819d1a5cfa2166e6adff71d790aa22970a8bf master
+base ${BLOCK_PATH}/base git@github.com:imma/base f55afe19c8cb9b9e1d68420a2b49a453d300a575 master
 python ${BLOCK_PATH}/python git@github.com:imma/python 7943cb052605449248d0ec5b50bc9855f48df89e master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache d6bd2d193603f086d7710b30943316da799bf39b master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl a2a155263a40fa2e5f7efc387e0878dcbb755d57 master
@@ -26,7 +26,7 @@ go ${BLOCK_PATH}/go git@github.com:imma/go 8c1971315b6d696c44ab5ac321f24adbfa2dd
 kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes e00d310c969550b97f86029eb0ee054a3d4bbd18 master
 runit ${BLOCK_PATH}/runit git@github.com:imma/runit eeef0a8a21b81ad5ceeb16c16e3c7f7a9d3107d6 master
 service ${BLOCK_PATH}/service git@github.com:imma/service 3514336e1f75db34f9aa80139de795080d0e7337 master
-sshd ${BLOCK_PATH}/sshd git@github.com:imma/sshd 67e2d53762679f4de33bbd923ac0a0cbf82f6d2e master
+sshd ${BLOCK_PATH}/sshd git@github.com:imma/sshd 66839a7292f3d7e379a029263aaa854d5ae3eca9 master
 ansible ${BLOCK_PATH}/ansible git@github.com:imma/ansible 9e79e79bb5b1547b3d5fad7efb9c9d60ff878fd0 master
 facts ${BLOCK_PATH}/facts git@github.com:imma/facts c640273962fa4c4095e8b7f531caa94ac372438d master
 consul ${BLOCK_PATH}/consul git@github.com:imma/consul 3afcc2f57439bca9a14fe4bab0fd5858d5510700 master
@@ -36,8 +36,8 @@ linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd dc8df00089a646d15668dc
 buildkite ${BLOCK_PATH}/buildkite git@github.com:imma/buildkite 0a6128dbac1d345e62c05fba357967209d7cb3c2 master
 aq ${BLOCK_PATH}/aq git@github.com:imma/aq efce7ff4bb1c9632a5c904f294765eed59412b0f master
 aqq ${BLOCK_PATH}/aqq git@github.com:imma/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 master
-inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory f0051943d96eb44e299c003356ef1020f8906607 master
-deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy 68dc3d8aa9ce6ac35e17628790bea07bc270b789 master
+inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory 80f84fd0097d7b18ef9f3e045eb3fcac021384e9 master
+deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy 2215e83ce1d7bea7d7d083fdb14d1282f407ace7 master
 aws ${BLOCK_PATH}/aws git@github.com:imma/aws 64f0bc925c4f0d75aa8ddb749948d771c091ee48 master
 awesome ${BLOCK_PATH}/awesome git@github.com:imma/awesome 2eb9a1a3446d778d745150ca93b9689d18cb5f2d master
 talign ${BLOCK_PATH}/talign git@github.com:imma/talign 1db084ed06de0c10679e2384c8f88be047934909 master
