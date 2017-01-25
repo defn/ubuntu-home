@@ -22,8 +22,7 @@ curl ${BLOCK_PATH}/curl git@github.com:imma/curl a2a155263a40fa2e5f7efc387e0878d
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
 node ${BLOCK_PATH}/node git@github.com:imma/node 0c50b4c64135a39105a21655f1d8b09d9cb88a95 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
-go ${BLOCK_PATH}/go git@github.com:imma/go 8c1971315b6d696c44ab5ac321f24adbfa2dd16a master
-kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes e00d310c969550b97f86029eb0ee054a3d4bbd18 master
+kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes 691f6dbf6fab7f0f3716e87e1e908f2c5aa5f411 master
 runit ${BLOCK_PATH}/runit git@github.com:imma/runit eeef0a8a21b81ad5ceeb16c16e3c7f7a9d3107d6 master
 service ${BLOCK_PATH}/service git@github.com:imma/service 3514336e1f75db34f9aa80139de795080d0e7337 master
 sshd ${BLOCK_PATH}/sshd git@github.com:imma/sshd 66839a7292f3d7e379a029263aaa854d5ae3eca9 master
