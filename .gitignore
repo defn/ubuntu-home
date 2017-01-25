@@ -28,3 +28,4 @@
 /.docker
 /.config
 /.packer.d
+/.aptitude
