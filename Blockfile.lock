@@ -14,7 +14,7 @@ homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 0c8527566f445a39f71
 context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272efd228b3a37fd6d1ebbc master
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose f85b4fee800c42792df1fd305f3cb7cd1a16a956 master
-docker ${BLOCK_PATH}/docker git@github.com:imma/docker 72b2e7ec5dab8aef29930b5f5d14d00b6976f5ce master
+docker ${BLOCK_PATH}/docker git@github.com:imma/docker b219e4a5fa10a3b873eb0ad186255e4b5cd520aa master
 base ${BLOCK_PATH}/base git@github.com:imma/base ac0892234bf0d7521e0ea287635e5c3798daedb1 master
 python ${BLOCK_PATH}/python git@github.com:imma/python 7943cb052605449248d0ec5b50bc9855f48df89e master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache d6bd2d193603f086d7710b30943316da799bf39b master
@@ -22,6 +22,7 @@ curl ${BLOCK_PATH}/curl git@github.com:imma/curl a2a155263a40fa2e5f7efc387e0878d
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
 node ${BLOCK_PATH}/node git@github.com:imma/node 0c50b4c64135a39105a21655f1d8b09d9cb88a95 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
+lxd ${BLOCK_PATH}/lxd git@github.com:imma/lxd b68d743f1defcbe0fe549712678793dc2eddfd0f master
 kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes 691f6dbf6fab7f0f3716e87e1e908f2c5aa5f411 master
 runit ${BLOCK_PATH}/runit git@github.com:imma/runit eeef0a8a21b81ad5ceeb16c16e3c7f7a9d3107d6 master
 service ${BLOCK_PATH}/service git@github.com:imma/service 3514336e1f75db34f9aa80139de795080d0e7337 master
