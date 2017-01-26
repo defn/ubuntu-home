@@ -194,3 +194,7 @@
 	path = work/docker-compose
 	url = git@github.com:imma/docker-compose
 	branch = master
+[submodule "work/lxd"]
+	path = work/lxd
+	url = git@github.com:imma/lxd
+	branch = master
