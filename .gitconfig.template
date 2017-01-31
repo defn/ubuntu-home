@@ -1,0 +1,5 @@
+#[user]
+#  name = Tom Bombadil
+#  email = amanibhavam@destructuring.org
+[push]
+  default = simple
