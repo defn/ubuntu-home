@@ -27,3 +27,23 @@
   106  sudo ifconfig eth0:0 172.28.128.1 up
   105  make up
   107  make up
+
+
+#!/usr/bin/env bash
+
+sudo install -d -o ubuntu -d ubuntu /data
+sudo install -d -o ubuntu -d ubuntu /config
+mkdir /data/{cache,git}
+mv pkgsrc-mirror.tar.gz  /data/git/
+mv packages /data/cache/
+git clone git@github.com:imma/imma-config /config
+git clone git@github.com:imma/ubuntu-home
+mv ubuntu-home/.git .
+rm -rf ubuntu-home
+git reset --hard
+script/cibuild
+make cache
+source .bashrc
+home disable cache
+script/cibuild
+home enable cache
