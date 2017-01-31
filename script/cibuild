@@ -43,7 +43,9 @@ function setup_cache {
 function build_blocks {
   cd ~
   require
+  home disable cache
   "$shome/work/block/script/cibuild" ~
+  home enable cache
 }
 
 function cleanup {
@@ -60,7 +62,7 @@ function main {
   setup_base
   setup_block
   setup_cache
-  # build_blocks
+  build_blocks
   require
   cleanup
 }
