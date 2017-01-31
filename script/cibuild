@@ -12,7 +12,14 @@ EOF
 }
 
 function setup_submodules {
-  git submodule update --init -j 8
+  git submodule update --init
+  git submodule foreach git checkout master
+}
+
+function setup_base {
+  pushd "$shome/work/base"
+  script/bootstrap
+  popd
 }
 
 function setup_block {
@@ -50,9 +57,10 @@ function main {
 
   setup_ssh
   setup_submodules
+  setup_base
   setup_block
   setup_cache
-  build_blocks
+  # build_blocks
   require
   cleanup
 }
