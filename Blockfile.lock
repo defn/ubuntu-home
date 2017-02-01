@@ -37,7 +37,7 @@ buildkite ${BLOCK_PATH}/buildkite git@github.com:imma/buildkite 0a6128dbac1d345e
 aq ${BLOCK_PATH}/aq git@github.com:imma/aq efce7ff4bb1c9632a5c904f294765eed59412b0f master
 aqq ${BLOCK_PATH}/aqq git@github.com:imma/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 master
 inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory 9e165119dedb2daa5e9eba3dd0f3a0f7c314cc49 master
-deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy 2215e83ce1d7bea7d7d083fdb14d1282f407ace7 master
+deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy a130d1e5f7e238b8723e6220c24264316344df6f master
 aws ${BLOCK_PATH}/aws git@github.com:imma/aws 64f0bc925c4f0d75aa8ddb749948d771c091ee48 master
 awesome ${BLOCK_PATH}/awesome git@github.com:imma/awesome abe947da43730717e94b022f2746e152a9add3c6 master
 talign ${BLOCK_PATH}/talign git@github.com:imma/talign 1db084ed06de0c10679e2384c8f88be047934909 master
