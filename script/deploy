@@ -3,7 +3,7 @@
 function main {
   local remote="$1"; shift
 
-  ssh "$remote" ssh -o StrictHostKeyChecking=no github.com
+  ssh "$remote" -o StrictHostKeychecking=no -- ssh -o StrictHostKeyChecking=no github.com
   ssh "$remote" sudo install -d -o ubuntu -d ubuntu /data
   ssh "$remote" sudo install -d -o ubuntu -d ubuntu /config
   ssh "$remote" mkdir /data/{cache,git}
