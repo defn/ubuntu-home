@@ -36,7 +36,7 @@ linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd dc8df00089a646d15668dc
 buildkite ${BLOCK_PATH}/buildkite git@github.com:imma/buildkite 0a6128dbac1d345e62c05fba357967209d7cb3c2 master
 aq ${BLOCK_PATH}/aq git@github.com:imma/aq efce7ff4bb1c9632a5c904f294765eed59412b0f master
 aqq ${BLOCK_PATH}/aqq git@github.com:imma/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 master
-inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory 80f84fd0097d7b18ef9f3e045eb3fcac021384e9 master
+inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory 9e165119dedb2daa5e9eba3dd0f3a0f7c314cc49 master
 deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy 2215e83ce1d7bea7d7d083fdb14d1282f407ace7 master
 aws ${BLOCK_PATH}/aws git@github.com:imma/aws 64f0bc925c4f0d75aa8ddb749948d771c091ee48 master
 awesome ${BLOCK_PATH}/awesome git@github.com:imma/awesome abe947da43730717e94b022f2746e152a9add3c6 master
