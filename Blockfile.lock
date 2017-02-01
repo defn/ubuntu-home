@@ -44,6 +44,6 @@ talign ${BLOCK_PATH}/talign git@github.com:imma/talign 1db084ed06de0c10679e2384c
 cue ${BLOCK_PATH}/cue git@github.com:imma/cue 36543eac165edc2577ee98b19ea82a9aae66803f master
 defn ${BLOCK_PATH}/defn git@github.com:imma/defn ba48835dabee093d9a5a7c3c84130d9765673d89 master
 htop ${BLOCK_PATH}/htop git@github.com:imma/htop 36918cf01b385f47ed1e857d5139a27dc9b1366c master
-sysadmin ${BLOCK_PATH}/sysadmin git@github.com:imma/sysadmin cfc052403067028f9ae4e2c152d5a451327a4097 master
+sysadmin ${BLOCK_PATH}/sysadmin git@github.com:imma/sysadmin 07e84fa7f2ff37a1dee9492f3a0921a65934ccbc master
 git ${BLOCK_PATH}/git git@github.com:imma/git 4463fb5ca1bca4d05995141dd481a3412f261753 master
 junas ${BLOCK_PATH}/junas git@github.com:imma/junas 10562313773d84f80f4b396d4c8903a0b7e52f86 master
