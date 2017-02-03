@@ -46,4 +46,4 @@ defn ${BLOCK_PATH}/defn git@github.com:imma/defn ba48835dabee093d9a5a7c3c84130d9
 htop ${BLOCK_PATH}/htop git@github.com:imma/htop 36918cf01b385f47ed1e857d5139a27dc9b1366c master
 sysadmin ${BLOCK_PATH}/sysadmin git@github.com:imma/sysadmin 26bc3ecc48302ae2fa927b9ef2de74624ce6f05c master
 git ${BLOCK_PATH}/git git@github.com:imma/git 79e93f829f86ffc3d1bd785e31154c778808db11 master
-junas ${BLOCK_PATH}/junas git@github.com:imma/junas 10562313773d84f80f4b396d4c8903a0b7e52f86 master
+junas ${BLOCK_PATH}/junas git@github.com:imma/junas 72e2e4ad8d0778a262b1b15fbec7c04a3bed0f42 master
