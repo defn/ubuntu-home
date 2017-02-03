@@ -86,10 +86,6 @@
 	path = work/bash4
 	url = git@github.com:imma/bash4
 	branch = master
-[submodule "work/rust"]
-	path = work/rust
-	url = git@github.com:imma/rust
-	branch = master
 [submodule "work/kubernetes"]
 	path = work/kubernetes
 	url = git@github.com:imma/kubernetes
