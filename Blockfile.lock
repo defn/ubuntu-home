@@ -30,7 +30,7 @@ sshd ${BLOCK_PATH}/sshd git@github.com:imma/sshd 66839a7292f3d7e379a029263aaa854
 ansible ${BLOCK_PATH}/ansible git@github.com:imma/ansible 9e79e79bb5b1547b3d5fad7efb9c9d60ff878fd0 master
 facts ${BLOCK_PATH}/facts git@github.com:imma/facts c640273962fa4c4095e8b7f531caa94ac372438d master
 consul ${BLOCK_PATH}/consul git@github.com:imma/consul 3afcc2f57439bca9a14fe4bab0fd5858d5510700 master
-consul-agent ${BLOCK_PATH}/consul-agent git@github.com:imma/consul-agent 85fd2d686f7de93cc51eddab1d9840183ecc5387 master
+consul-agent ${BLOCK_PATH}/consul-agent git@github.com:imma/consul-agent 91fac15104b297ccb3b2b916b6214eb3a0c696c9 master
 vault ${BLOCK_PATH}/vault git@github.com:imma/vault 5b5e262f670cf42b5cee42a94f8173476558d6a2 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd dc8df00089a646d15668dcd1dfcdccdb1e1dea76 master
 buildkite ${BLOCK_PATH}/buildkite git@github.com:imma/buildkite 0a6128dbac1d345e62c05fba357967209d7cb3c2 master
