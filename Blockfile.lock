@@ -3,7 +3,7 @@ normalize ${BLOCK_PATH}/normalize git@github.com:imma/normalize b156ba1ec79f2da2
 bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:imma/bash-preexec 15618152d6ec511810e68d7b70b4ea5046cbeddd master
 sub ${BLOCK_PATH}/sub git@github.com:imma/sub 062a65e087e86659f212da82f0311815a12244f1 master
 runmany ${BLOCK_PATH}/runmany git@github.com:imma/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
-block ${BLOCK_PATH}/block git@github.com:imma/block 259a5af2f1aebcda23bbed72ebec112725ca7bc1 master
+block ${BLOCK_PATH}/block git@github.com:imma/block 490ab34b6f5fa7c4ae6cd58d58877d6e88400841 master
 ubuntu-config ${BLOCK_PATH}/ubuntu-config git@github.com:imma/ubuntu-config e6e1f5f18ede05178fd76a4ee015621a070a0277 master
 jq ${BLOCK_PATH}/jq git@github.com:imma/jq dbe05747d63b166a59abe182761efba531ea2b32 master
 java ${BLOCK_PATH}/java git@github.com:imma/java 79ddfd5bdee3f776cd6d5ac16d65a859cc47858b master
@@ -13,14 +13,14 @@ ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby dd5d8d31e8bf58cc8dcdd879382d207
 homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 0c8527566f445a39f71607cdf57573c9c09d0fd0 master
 context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272efd228b3a37fd6d1ebbc master
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
-docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose f85b4fee800c42792df1fd305f3cb7cd1a16a956 master
+docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 7c89d86c8dd9017a552712e32aece1d01c95d006 master
 docker ${BLOCK_PATH}/docker git@github.com:imma/docker b219e4a5fa10a3b873eb0ad186255e4b5cd520aa master
-base ${BLOCK_PATH}/base git@github.com:imma/base 8d19989269bbadd9ed289ebffeb27b1745e91659 master
+base ${BLOCK_PATH}/base git@github.com:imma/base ac15123f67b01329866ab948b9b420d11f335587 master
 python ${BLOCK_PATH}/python git@github.com:imma/python 7943cb052605449248d0ec5b50bc9855f48df89e master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache d6bd2d193603f086d7710b30943316da799bf39b master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl a2a155263a40fa2e5f7efc387e0878dcbb755d57 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
-node ${BLOCK_PATH}/node git@github.com:imma/node 0c50b4c64135a39105a21655f1d8b09d9cb88a95 master
+node ${BLOCK_PATH}/node git@github.com:imma/node 62f1cc381783d4c9360a6b2053f7ca646b091eb8 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
 lxd ${BLOCK_PATH}/lxd git@github.com:imma/lxd b68d743f1defcbe0fe549712678793dc2eddfd0f master
 kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes 691f6dbf6fab7f0f3716e87e1e908f2c5aa5f411 master
@@ -37,7 +37,7 @@ buildkite ${BLOCK_PATH}/buildkite git@github.com:imma/buildkite 0a6128dbac1d345e
 aq ${BLOCK_PATH}/aq git@github.com:imma/aq efce7ff4bb1c9632a5c904f294765eed59412b0f master
 aqq ${BLOCK_PATH}/aqq git@github.com:imma/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 master
 inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory 9e165119dedb2daa5e9eba3dd0f3a0f7c314cc49 master
-deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy a130d1e5f7e238b8723e6220c24264316344df6f master
+deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy ad159037ff64433575e1bcb8b982113b02a99167 master
 aws ${BLOCK_PATH}/aws git@github.com:imma/aws 64f0bc925c4f0d75aa8ddb749948d771c091ee48 master
 awesome ${BLOCK_PATH}/awesome git@github.com:imma/awesome abe947da43730717e94b022f2746e152a9add3c6 master
 talign ${BLOCK_PATH}/talign git@github.com:imma/talign 1db084ed06de0c10679e2384c8f88be047934909 master
@@ -45,5 +45,5 @@ cue ${BLOCK_PATH}/cue git@github.com:imma/cue 36543eac165edc2577ee98b19ea82a9aae
 defn ${BLOCK_PATH}/defn git@github.com:imma/defn ba48835dabee093d9a5a7c3c84130d9765673d89 master
 htop ${BLOCK_PATH}/htop git@github.com:imma/htop 36918cf01b385f47ed1e857d5139a27dc9b1366c master
 sysadmin ${BLOCK_PATH}/sysadmin git@github.com:imma/sysadmin 26bc3ecc48302ae2fa927b9ef2de74624ce6f05c master
-git ${BLOCK_PATH}/git git@github.com:imma/git 4463fb5ca1bca4d05995141dd481a3412f261753 master
+git ${BLOCK_PATH}/git git@github.com:imma/git 79e93f829f86ffc3d1bd785e31154c778808db11 master
 junas ${BLOCK_PATH}/junas git@github.com:imma/junas 10562313773d84f80f4b396d4c8903a0b7e52f86 master
