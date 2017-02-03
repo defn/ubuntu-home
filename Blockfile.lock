@@ -15,7 +15,7 @@ context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272ef
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 7c89d86c8dd9017a552712e32aece1d01c95d006 master
 docker ${BLOCK_PATH}/docker git@github.com:imma/docker b219e4a5fa10a3b873eb0ad186255e4b5cd520aa master
-base ${BLOCK_PATH}/base git@github.com:imma/base ac15123f67b01329866ab948b9b420d11f335587 master
+base ${BLOCK_PATH}/base git@github.com:imma/base 229aa1815364f98095fe813db9adc3fd76054f25 master
 python ${BLOCK_PATH}/python git@github.com:imma/python 7943cb052605449248d0ec5b50bc9855f48df89e master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache d6bd2d193603f086d7710b30943316da799bf39b master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl a2a155263a40fa2e5f7efc387e0878dcbb755d57 master
@@ -29,8 +29,8 @@ service ${BLOCK_PATH}/service git@github.com:imma/service 3514336e1f75db34f9aa80
 sshd ${BLOCK_PATH}/sshd git@github.com:imma/sshd 66839a7292f3d7e379a029263aaa854d5ae3eca9 master
 ansible ${BLOCK_PATH}/ansible git@github.com:imma/ansible 9e79e79bb5b1547b3d5fad7efb9c9d60ff878fd0 master
 facts ${BLOCK_PATH}/facts git@github.com:imma/facts c640273962fa4c4095e8b7f531caa94ac372438d master
-consul ${BLOCK_PATH}/consul git@github.com:imma/consul 3afcc2f57439bca9a14fe4bab0fd5858d5510700 master
-consul-agent ${BLOCK_PATH}/consul-agent git@github.com:imma/consul-agent 91fac15104b297ccb3b2b916b6214eb3a0c696c9 master
+consul ${BLOCK_PATH}/consul git@github.com:imma/consul 162e6f3bd819fdca3366555a2c731f6a9b07cd1e master
+consul-agent ${BLOCK_PATH}/consul-agent git@github.com:imma/consul-agent 5d43bb2da8dd19dfb4f515226cd2fabf466cf3f7 master
 vault ${BLOCK_PATH}/vault git@github.com:imma/vault 5b5e262f670cf42b5cee42a94f8173476558d6a2 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd 4010313dcf0756c8cb8acd636bf6f1e41781240e master
 buildkite ${BLOCK_PATH}/buildkite git@github.com:imma/buildkite 0a6128dbac1d345e62c05fba357967209d7cb3c2 master
