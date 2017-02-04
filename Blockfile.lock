@@ -15,7 +15,7 @@ context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272ef
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 7c89d86c8dd9017a552712e32aece1d01c95d006 master
 docker ${BLOCK_PATH}/docker git@github.com:imma/docker b219e4a5fa10a3b873eb0ad186255e4b5cd520aa master
-base ${BLOCK_PATH}/base git@github.com:imma/base 229aa1815364f98095fe813db9adc3fd76054f25 master
+base ${BLOCK_PATH}/base git@github.com:imma/base 79beec37003e61bce51bd4a27d3ab3906dc2675f master
 python ${BLOCK_PATH}/python git@github.com:imma/python 7943cb052605449248d0ec5b50bc9855f48df89e master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache d6bd2d193603f086d7710b30943316da799bf39b master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl a2a155263a40fa2e5f7efc387e0878dcbb755d57 master
@@ -34,6 +34,7 @@ consul-agent ${BLOCK_PATH}/consul-agent git@github.com:imma/consul-agent 5d43bb2
 vault ${BLOCK_PATH}/vault git@github.com:imma/vault 5b5e262f670cf42b5cee42a94f8173476558d6a2 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd 4010313dcf0756c8cb8acd636bf6f1e41781240e master
 buildkite ${BLOCK_PATH}/buildkite git@github.com:imma/buildkite 0a6128dbac1d345e62c05fba357967209d7cb3c2 master
+syslog-ng ${BLOCK_PATH}/syslog-ng git@github.com:imma/syslog-ng 2eb227af3c85f684032bef87ed2f7dfbbc475bf2 master
 aq ${BLOCK_PATH}/aq git@github.com:imma/aq efce7ff4bb1c9632a5c904f294765eed59412b0f master
 aqq ${BLOCK_PATH}/aqq git@github.com:imma/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 master
 inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory 9e165119dedb2daa5e9eba3dd0f3a0f7c314cc49 master
