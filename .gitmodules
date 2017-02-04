@@ -194,3 +194,7 @@
 	path = work/lxd
 	url = git@github.com:imma/lxd
 	branch = master
+[submodule "work/syslog-ng"]
+	path = work/syslog-ng
+	url = git@github.com:imma/syslog-ng
+	branch = master
