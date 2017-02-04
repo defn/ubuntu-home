@@ -20,6 +20,7 @@ function main {
       done
       ;;
     default)
+      sudo '/etc/rc.local'
       exec "$BLOCK_PATH/runit/script/server" "$@"
       ;;
     *)
