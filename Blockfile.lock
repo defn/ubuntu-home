@@ -34,7 +34,7 @@ consul-agent ${BLOCK_PATH}/consul-agent git@github.com:imma/consul-agent 5d43bb2
 vault ${BLOCK_PATH}/vault git@github.com:imma/vault 5b5e262f670cf42b5cee42a94f8173476558d6a2 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd 4010313dcf0756c8cb8acd636bf6f1e41781240e master
 buildkite ${BLOCK_PATH}/buildkite git@github.com:imma/buildkite 0a6128dbac1d345e62c05fba357967209d7cb3c2 master
-syslog-ng ${BLOCK_PATH}/syslog-ng git@github.com:imma/syslog-ng 75820fa6ccfb11bcb27182365e917a646e09c384 master
+syslog-ng ${BLOCK_PATH}/syslog-ng git@github.com:imma/syslog-ng 2eb227af3c85f684032bef87ed2f7dfbbc475bf2 master
 aq ${BLOCK_PATH}/aq git@github.com:imma/aq efce7ff4bb1c9632a5c904f294765eed59412b0f master
 aqq ${BLOCK_PATH}/aqq git@github.com:imma/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 master
 inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory 9e165119dedb2daa5e9eba3dd0f3a0f7c314cc49 master
