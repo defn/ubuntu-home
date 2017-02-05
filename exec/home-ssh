@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+function main {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "$shome/script/profile"
+  source normalize  
+
+  local nm_remote="$1"; shift
+  local nm_port="$1"; shift
+  local nm_image="${1:-ubuntu-home}"
+
+  docker rm -f ${nm_remote} >/dev/null 2>&1
+  docker run --rm --cap-add NET_ADMIN \
+    -v /var/run/docker.sock:/var/run/docker.sock \
+    -v /config:/config \
+    -v /data:/data \
+    --net admin_default \
+    --name ${nm_remote} --hostname ${nm_remote} \
+    -d "docker.nih/block:${nm_image}"
+  trap "docker rm -f "${nm_remote} EXIT
+  docker cp ~/.ssh/authorized_keys "${nm_remote}:/home/ubuntu/.ssh/authorized_keys"
+  docker cp ~/.gitconfig "${nm_remote}:/home/ubuntu/.gitconfig"
+  
+  docker exec ${nm_remote} -- chown -R ubuntu:ubuntu /home/ubuntu/.ssh
+  nc "$nm_remote" "$nm_port"
+}
+
+source sub "$BASH_SOURCE" "$@"
