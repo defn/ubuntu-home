@@ -47,3 +47,14 @@ source .bashrc
 home disable cache
 script/cibuild
 home enable cache
+
+   29  home enable cache
+   27  git pull
+   46  git submodule update --init -j 10
+   48  block clone
+   48  block runmany 'cd $1 && git checkout master'
+   28  home update
+   31  home disable cache
+   33  block bootstrap
+   56  block lock
+   58  home enable cache
