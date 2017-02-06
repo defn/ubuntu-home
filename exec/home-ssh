@@ -19,9 +19,13 @@ function main {
     -d "docker.nih/block:${nm_image}" >/dev/null
   trap "docker rm -f ${nm_remote}" EXIT
 
-  (docker cp ~/.ssh/authorized_keys "${nm_remote}:/home/ubuntu/.ssh/authorized_keys"
-  docker exec ${nm_remote} sudo chown -R ubuntu:ubuntu /home/ubuntu/.ssh) &
-  docker cp ~/.gitconfig "${nm_remote}:/home/ubuntu/.gitconfig" &
+  if [[ -f ~/.ssh/authorized_keys ]]; then
+    (docker cp ~/.ssh/authorized_keys "${nm_remote}:/home/ubuntu/.ssh/authorized_keys"
+    docker exec ${nm_remote} sudo chown -R ubuntu:ubuntu /home/ubuntu/.ssh) &
+  fi
+  if [[ -f ~/.gitconfig ]]; then
+    docker cp ~/.gitconfig "${nm_remote}:/home/ubuntu/.gitconfig" &
+  fi
   wait
   
   nc "$nm_remote" "$nm_port"
