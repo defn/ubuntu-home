@@ -10,14 +10,14 @@ function main {
   local nm_image="${1:-ubuntu-home}"
 
   docker rm -f ${nm_remote} >/dev/null 2>&1 || true
-  docker run --rm --cap-add NET_ADMIN \
+  docker run --cap-add NET_ADMIN \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -v /config:/config \
     -v /data:/data \
     --net admin_default \
     --name ${nm_remote} --hostname ${nm_remote} \
     -d "docker.nih/block:${nm_image}" >/dev/null
-  trap "docker rm -f "${nm_remote} EXIT
+  trap "docker rm -f ${nm_remote}" EXIT
 
   (docker cp ~/.ssh/authorized_keys "${nm_remote}:/home/ubuntu/.ssh/authorized_keys"
   docker exec ${nm_remote} sudo chown -R ubuntu:ubuntu /home/ubuntu/.ssh) &
