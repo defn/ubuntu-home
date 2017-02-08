@@ -1,24 +1,24 @@
 #!/usr/bin/env bash
 
 function main {
-  local remote="$1"; shift
-
-  ssh "$remote" -o StrictHostKeychecking=no -- ssh -o StrictHostKeyChecking=no github.com
-  ssh "$remote" sudo install -d -o ubuntu -d ubuntu /data
-  ssh "$remote" sudo install -d -o ubuntu -d ubuntu /config
-  ssh "$remote" mkdir /data/{cache,git}
-  rsync -ia /data/git/pkgsrc-mirror.tar.gz "$remote":/data/git/
-  rsync -ia /data/cache/{packages,curl} "$remote":/data/cache/
-  ssh "$remote" -A git clone git@github.com:imma/imma-config /config
-  ssh "$remote" -A git clone git@github.com:imma/ubuntu-home
-  ssh "$remote" mv ubuntu-home/.git .
-  ssh "$remote" rm -rf ubuntu-home
-  ssh "$remote"  git reset --hard
-  ssh "$remote" -A script/cibuild
-  ssh "$remote" make cache
-  ssh "$remote" home disable cache
-  ssh "$remote" -A script/cibuild
-  ssh "$remote" home enable cache
+  set -x
+  "$@" -o StrictHostKeychecking=no -- ssh -o StrictHostKeyChecking=no github.com
+  #"$@" sudo install -d -o ubuntu -d ubuntu /data
+  #"$@" sudo install -d -o ubuntu -d ubuntu /config
+  #"$@" mkdir /data/{cache,git}
+  #rsync -ia /data/git/pkgsrc-mirror.tar.gz "$remote":/data/git/
+  #rsync -ia /data/cache/{packages,curl} "$remote":/data/cache/
+  "$@" -A git clone git@github.com:imma/imma-config /config
+  "$@" -A git clone git@github.com:imma/ubuntu-home
+  "$@" mv ubuntu-home/.git .
+  "$@" rm -rf ubuntu-home
+  "$@"  git reset --hard
+  "$@" -A script/cibuild
+  "$@" make cache
+  "$@" home disable cache
+  "$@" -A script/cibuild
+  "$@" home enable cache
+  "$@" make cache
 }
 
 main "$@"
