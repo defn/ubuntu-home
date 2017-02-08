@@ -4,7 +4,8 @@
     [ "ruby", "python", "node", "java", "bash4" ],
     [ "lxd", "docker", "kubernetes" ],
     [ "sshd", "consul-agent", "vault", "linkerd", "buildkite", "syslog-ng" ],
-    [ "deploy", "awesome", "defn", "sysadmin", "junas" ]
+    [ "deploy", "awesome", "defn", "sysadmin", "junas" ],
+    [ "confd", "ansible" ]
   ],
   "run": {
     "sshd": {},
