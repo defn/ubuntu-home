@@ -13,9 +13,9 @@ ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby dd5d8d31e8bf58cc8dcdd879382d207
 homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 0c8527566f445a39f71607cdf57573c9c09d0fd0 master
 context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272efd228b3a37fd6d1ebbc master
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
-docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 7c89d86c8dd9017a552712e32aece1d01c95d006 master
+docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose cc3149fb7494e20cb9bf0661307325ba00becdcb master
 docker ${BLOCK_PATH}/docker git@github.com:imma/docker b219e4a5fa10a3b873eb0ad186255e4b5cd520aa master
-base ${BLOCK_PATH}/base git@github.com:imma/base afc521ab856f3824a21b30fe9edf5992e9a963ba master
+base ${BLOCK_PATH}/base git@github.com:imma/base 6e33fdfc6cce7841c77fb0a991e80d2ffb5cc255 master
 python ${BLOCK_PATH}/python git@github.com:imma/python cce1d76665c47d33d12f2933b57a1547aa9fabfe master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache d6bd2d193603f086d7710b30943316da799bf39b master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl a2a155263a40fa2e5f7efc387e0878dcbb755d57 master
@@ -48,3 +48,4 @@ htop ${BLOCK_PATH}/htop git@github.com:imma/htop 36918cf01b385f47ed1e857d5139a27
 sysadmin ${BLOCK_PATH}/sysadmin git@github.com:imma/sysadmin 26bc3ecc48302ae2fa927b9ef2de74624ce6f05c master
 git ${BLOCK_PATH}/git git@github.com:imma/git 79e93f829f86ffc3d1bd785e31154c778808db11 master
 junas ${BLOCK_PATH}/junas git@github.com:imma/junas 72e2e4ad8d0778a262b1b15fbec7c04a3bed0f42 master
+confd ${BLOCK_PATH}/confd git@github.com:imma/confd 09c4bbc024a4a35834e64089204e6f7f06f5d035 master
