@@ -34,9 +34,7 @@ docker-update:
 	time $(make) block-update $(after_block) commit
 	$(make) clean
 
-docker-bump:
-	$(make) bump
-	git add .serial
-	git commit -m "bump to $(shell cat .serial)"
-	git push
-	$(make) docker-image
+virtualbox:
+	time plane recycle
+	time script/deploy plane vagrant ssh --
+	time plane reuse
