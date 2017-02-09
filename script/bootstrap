@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-function ubuntu_home_bootstrap {
+function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   source "$shome/script/profile"
 }
 
-ubuntu_home_bootstrap "$@"
+main "$@"
