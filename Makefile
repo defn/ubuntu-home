@@ -19,8 +19,7 @@ latest:
 	home lock 'update to latest modules'
 
 ../base/Makefile.docker:
-	sudo mkdir -p ../base
-	sudo touch ../base/Makefile.docker
+	sudo ln -nfs ubuntu/work/base ../base
 
 include ../base/Makefile.docker
 
