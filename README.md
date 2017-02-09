@@ -1,4 +1,4 @@
-Visit http://defn.sh/ubuntu-home/ or open `docs/index.html`
+Visit http://defn.sh/ubuntu/ or open `docs/index.html`
 
 ## Building
 
