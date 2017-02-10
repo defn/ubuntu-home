@@ -14,7 +14,7 @@ homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 0c8527566f445a39f71
 context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272efd228b3a37fd6d1ebbc master
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 06f413e0a28dbd8ffb4b56b1d05b34ac316f4430 master
-docker ${BLOCK_PATH}/docker git@github.com:imma/docker b219e4a5fa10a3b873eb0ad186255e4b5cd520aa master
+docker ${BLOCK_PATH}/docker git@github.com:imma/docker 8293518f36d70a84fb00fd1e760907cd585859d9 master
 base ${BLOCK_PATH}/base git@github.com:imma/base e2ab52e0c4a95d89d4eea16e92ee5845ecfc5c41 master
 python ${BLOCK_PATH}/python git@github.com:imma/python cce1d76665c47d33d12f2933b57a1547aa9fabfe master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache d6bd2d193603f086d7710b30943316da799bf39b master
