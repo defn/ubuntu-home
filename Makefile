@@ -41,6 +41,6 @@ virtualbox:
 
 virtualbox-docker:
 	time plane recycle
-	time plane vagrant ssh -- -A bash -c "$(printf '%q' 'cd work/base && make docker')"
-	time plane vagrant ssh -- -A bash -c "$(printf '%q' 'script/update && make docker')"
+	time plane vagrant ssh -- -A bash -c "$$(printf '%q' 'cd work/base && make docker')"
+	time plane vagrant ssh -- -A bash -c "$$(printf '%q' 'script/update && make docker')"
 	time plane reuse docker
