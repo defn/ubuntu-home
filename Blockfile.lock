@@ -40,7 +40,7 @@ aqq ${BLOCK_PATH}/aqq git@github.com:imma/aqq 5fcbd9a9594684346c79d0f20099db59f1
 inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory 9e165119dedb2daa5e9eba3dd0f3a0f7c314cc49 master
 deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy efb5487507a32e9ef7d0464ff6d7c2e7c0ea6d26 master
 aws ${BLOCK_PATH}/aws git@github.com:imma/aws 64f0bc925c4f0d75aa8ddb749948d771c091ee48 master
-awesome ${BLOCK_PATH}/awesome git@github.com:imma/awesome abe947da43730717e94b022f2746e152a9add3c6 master
+awesome ${BLOCK_PATH}/awesome git@github.com:imma/awesome b6cb789ffb3ac77d9648a62a7dec033884172f26 master
 talign ${BLOCK_PATH}/talign git@github.com:imma/talign 1db084ed06de0c10679e2384c8f88be047934909 master
 cue ${BLOCK_PATH}/cue git@github.com:imma/cue 36543eac165edc2577ee98b19ea82a9aae66803f master
 defn ${BLOCK_PATH}/defn git@github.com:imma/defn ba48835dabee093d9a5a7c3c84130d9765673d89 master
