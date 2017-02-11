@@ -32,6 +32,7 @@ docker-update:
 	docker tag $(registry)/block:$(block){0,}
 	$(make) home=$(block) nc clean daemon
 	time $(make) block-update $(after_block) commit
+	time $(make) build-nc
 	$(make) clean
 
 virtualbox:
