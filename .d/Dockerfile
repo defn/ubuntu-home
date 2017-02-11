@@ -19,4 +19,5 @@ RUN source .bashrc && block compile service && ln -nfs ../sv/sshd service/
 RUN rm -f service/ubuntu .ssh/authorized_keys
 RUN touch .ssh/authorized_keys
 
-CMD [ "/home/ubuntu/script/server", "docker" ]
+ENTRYPOINT [ "/home/ubuntu/script/server" ]
+CMD [ "docker" ]
