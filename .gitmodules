@@ -46,10 +46,6 @@
 	path = work/jq
 	url = git@github.com:imma/jq
 	branch = master
-[submodule "work/build-essential"]
-	path = work/build-essential
-	url = git@github.com:imma/build-essential
-	branch = master
 [submodule "work/base"]
 	path = work/base
 	url = git@github.com:imma/base
