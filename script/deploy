@@ -8,12 +8,9 @@ function main {
 
   "$@" -o StrictHostKeychecking=no -- ssh -o StrictHostKeyChecking=no github.com 2>/dev/null || true
 
-  if "$@" test -d /data; then
-    true
-  else
-    "$@" sudo install -d -o ubuntu -g ubuntu /data
-    "$@" sudo install -d -o ubuntu -g ubuntu /config
-  fi
+  "$@" sudo install -d -o ubuntu -g ubuntu /data
+  "$@" sudo install -d -o ubuntu -g ubuntu /data/cache
+  "$@" sudo install -d -o ubuntu -g ubuntu /config
 
   if "$@" test -d .git; then
     true
@@ -23,7 +20,13 @@ function main {
     "$@" rm -rf ubuntu
     "$@" git reset --hard
   fi
+  if [[ -n "${nocache:-}" ]]; then
+    "$@" home disable cache
+  fi
   "$@" -A script/cibuild
+  if [[ -n "${nocache:-}" ]]; then
+    "$@" home enable cache
+  fi
   "$@" make cache
 }
 
