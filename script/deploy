@@ -21,7 +21,7 @@ function main {
     "$@" git reset --hard
   fi
 
-  if [[ -n "${cloudinit:-}" ]]; then
+  if systemctl; then
     while true; do
       if "$@" test -f "/var/lib/cloud/instance/boot-finished"; then break; fi
       echo "Waiting for cloud-init boot-finished: $(date)"
