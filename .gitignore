@@ -32,3 +32,4 @@
 /.gitconfig
 /.npm
 /.vbox_version
+/.bashrc.cache.*

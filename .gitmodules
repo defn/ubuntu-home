@@ -198,3 +198,7 @@
 	path = work/syslog-ng
 	url = git@github.com:imma/syslog-ng
 	branch = master
+[submodule "work/confd"]
+	path = work/confd
+	url = git@github.com:imma/confd
+	branch = master
