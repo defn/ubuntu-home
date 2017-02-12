@@ -20,15 +20,18 @@ function main {
     "$@" rm -rf ubuntu
     "$@" git reset --hard
   fi
+
+  "$@" -A script/cibuild || true
   "$@" make cache
+
   if [[ -n "${nocache:-}" ]]; then
     "$@" home disable cache
   fi
-  "$@" -A script/cibuild
+  "$@" -A script/cibuild || true
+  "$@" make cache
   if [[ -n "${nocache:-}" ]]; then
     "$@" home enable cache
   fi
-  "$@" make cache
 }
 
 main "$@"
