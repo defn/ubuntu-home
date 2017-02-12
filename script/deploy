@@ -20,6 +20,7 @@ function main {
     "$@" rm -rf ubuntu
     "$@" git reset --hard
   fi
+  "$@" make cache
   if [[ -n "${nocache:-}" ]]; then
     "$@" home disable cache
   fi
