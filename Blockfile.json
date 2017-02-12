@@ -1,6 +1,6 @@
 {
   "require": [
-    [ "ubuntu-config", "base" ],
+    [ "ubuntu-config", "base", "pkgsrc" ],
     [ "ruby", "python", "node", "java", "bash4" ],
     [ "lxd", "docker", "kubernetes" ],
     [ "sshd", "consul-agent", "vault", "linkerd", "buildkite", "syslog-ng" ],
