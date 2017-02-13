@@ -29,17 +29,14 @@ function main {
     done
   fi
 
-  "$@" -A script/cibuild || true
-  "$@" make cache
-
-  if [[ -n "${nocache:-}" ]]; then
+  if ! "$@" -A script/cibuild; then
+    "$@" make cache
     "$@" home disable cache
-  fi
-  "$@" -A script/cibuild || true
-  "$@" make cache
-  if [[ -n "${nocache:-}" ]]; then
+    "$@" -A script/cibuild
     "$@" home enable cache
   fi
+  
+  "$@" make cache
 }
 
 main "$@"
