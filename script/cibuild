@@ -1,16 +1,5 @@
 #!/usr/bin/env bash
 
-function setup_ssh {
-  mkdir -p "$shome/work"
-
-  mkdir -p ~/.ssh
-  cat <<EOF | tee -a ~/.ssh/config
-Host github.com
-  StrictHostKeyChecking no
-  ForwardAgent no
-EOF
-}
-
 function setup_submodules {
   git submodule update --init
   git submodule foreach git checkout master
@@ -55,7 +44,6 @@ function cleanup {
 function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
-  setup_ssh
   setup_submodules
   setup_base
   setup_block
