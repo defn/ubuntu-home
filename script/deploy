@@ -6,6 +6,8 @@ function main {
 
   set -exfu
 
+  "$@" -o StrictHostKeychecking=no -- ssh -o StrictHostKeyChecking=no github.com 2>/dev/null || true
+
   "$@" sudo install -d -o ubuntu -g ubuntu /data
   "$@" sudo install -d -o ubuntu -g ubuntu /data/cache
   "$@" sudo install -d -o ubuntu -g ubuntu /config
