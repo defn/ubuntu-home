@@ -4,7 +4,11 @@ function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   source "$shome/script/profile"
 
-  pkg ensure sysutils/cdrtools
+  if ! type -P mkisofs >/dev/null; then
+    return 1
+  fi
+
+  return 0
 }
 
 main "$@"
