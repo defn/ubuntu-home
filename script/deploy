@@ -29,14 +29,13 @@ function main {
     done
   fi
 
-  if ! "$@" -A script/cibuild; then
-    "$@" make cache
-    "$@" home disable cache
-    "$@" -A script/cibuild
-    "$@" home enable cache
-  fi
-  
+  "$@" -A script/cibuild || true
   "$@" make cache
+
+  "$@" home disable cache
+  "$@" -A script/cibuild
+  "$@" make cache
+  "$@" home enable cache
 }
 
 main "$@"
