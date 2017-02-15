@@ -4,7 +4,7 @@ function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   source "$shome/script/profile"
 
-  sudo ifconfig lo:0 172.28.128.250 up
+  sudo ifconfig lo:0 172.28.28.250 up
 }
 
 main "$@"
