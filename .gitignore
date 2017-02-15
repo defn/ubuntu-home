@@ -37,3 +37,14 @@
 /cidata.iso
 /cidata/user-data
 /.vagrant
+
+# macos
+/.CFUserTextEncoding
+/Desktop/
+/Documents/
+/Downloads/
+/Library/
+/Movies/
+/Music/
+/Pictures/
+/Public/
