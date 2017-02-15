@@ -34,3 +34,5 @@
 /.vbox_version
 /.bashrc.cache.*
 /VirtualBox VMs
+/cidata.iso
+/cidata/user-data

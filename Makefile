@@ -46,3 +46,25 @@ virtualbox-docker:
 	time plane vagrant ssh -- -A bash -c "$$(printf '%q' 'cd work/base && make docker')"
 	time plane vagrant ssh -- -A bash -c "$$(printf '%q' 'script/update && make docker')"
 	time plane reuse docker
+
+.ssh/ssh-container:
+	@mkdir -p .ssh
+	@ssh-keygen -f $@ -P '' -C "provision@$(shell uname -n)"
+
+cidata/user-data: .ssh/ssh-container cidata/user-data.template
+	mkdir -p cidata
+	cat cidata/user-data.template | env CONTAINER_SSH_KEY="$(shell cat .ssh/ssh-container.pub)" envsubst '$$USER $$CONTAINER_SSH_KEY $$CACHE_VIP' | tee "$@.tmp"
+	mv "$@.tmp" "$@"
+
+cidata/meta-data:
+	mkdir -p cidata
+	echo --- | tee $@.tmp
+	echo instance-id: $(shell basename $(shell pwd)) | tee -a $@.tmp
+	mv $@.tmp $@
+
+cidata.iso: cidata/user-data cidata/meta-data
+	mkisofs -R -V cidata -o $@.tmp cidata
+	mv $@.tmp $@
+
+cidata: cidata.iso
+	@true
