@@ -1,9 +1,7 @@
 SHELL = bash
 
-all:
-	@rm -f .bashrc.cache
-	@script/cibuild ~
-	@$(MAKE) cache
+all: cidata.iso
+	@true
 
 cache:
 	@rm -f .bashrc.cache
@@ -65,6 +63,3 @@ cidata/meta-data:
 cidata.iso: cidata/user-data cidata/meta-data
 	mkisofs -R -V cidata -o $@.tmp cidata
 	mv $@.tmp $@
-
-cidata: cidata.iso
-	@true
