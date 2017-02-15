@@ -5,10 +5,10 @@ sub ${BLOCK_PATH}/sub git@github.com:imma/sub 062a65e087e86659f212da82f0311815a1
 runmany ${BLOCK_PATH}/runmany git@github.com:imma/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
 block ${BLOCK_PATH}/block git@github.com:imma/block ff1d302a81b30c67d86306528b3581a1ccffdcb4 master
 ubuntu-config ${BLOCK_PATH}/ubuntu-config git@github.com:imma/ubuntu-config e6e1f5f18ede05178fd76a4ee015621a070a0277 master
-base ${BLOCK_PATH}/base git@github.com:imma/base a91d0f9bf789b32ac0c9417f193028025db12b83 master
+base ${BLOCK_PATH}/base git@github.com:imma/base b00e1e2bb3c5bd93a83a341ca03da8b890b18567 master
 jq ${BLOCK_PATH}/jq git@github.com:imma/jq dbe05747d63b166a59abe182761efba531ea2b32 master
 java ${BLOCK_PATH}/java git@github.com:imma/java 79ddfd5bdee3f776cd6d5ac16d65a859cc47858b master
-pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc a951378e3ea7c9780f96dfe7691488ba5cfc7dfc master
+pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 3d7af7eb5230776e04aa7e9a4782764cf033f4a0 master
 ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby f65e74343e7984e4d2b038457c7a941867e16a8e master
 python ${BLOCK_PATH}/python git@github.com:imma/python 99210c56484a58fc94d6932c6516e9723b5be749 master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache d6bd2d193603f086d7710b30943316da799bf39b master
@@ -28,7 +28,7 @@ service ${BLOCK_PATH}/service git@github.com:imma/service 3514336e1f75db34f9aa80
 sshd ${BLOCK_PATH}/sshd git@github.com:imma/sshd 66839a7292f3d7e379a029263aaa854d5ae3eca9 master
 ansible ${BLOCK_PATH}/ansible git@github.com:imma/ansible b556292216ad9ec316830b362c63da70b0ed8f7c master
 facts ${BLOCK_PATH}/facts git@github.com:imma/facts c640273962fa4c4095e8b7f531caa94ac372438d master
-consul ${BLOCK_PATH}/consul git@github.com:imma/consul 162e6f3bd819fdca3366555a2c731f6a9b07cd1e master
+consul ${BLOCK_PATH}/consul git@github.com:imma/consul 9bda78192ecb35286ad400734ce925d511a55ee2 master
 consul-agent ${BLOCK_PATH}/consul-agent git@github.com:imma/consul-agent 5d43bb2da8dd19dfb4f515226cd2fabf466cf3f7 master
 vault ${BLOCK_PATH}/vault git@github.com:imma/vault f03cd0994f8d5b6777777d06a8047f9d9aff01a6 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd 4010313dcf0756c8cb8acd636bf6f1e41781240e master
