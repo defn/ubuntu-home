@@ -37,6 +37,7 @@
 /cidata.iso
 /cidata/user-data
 /.vagrant
+/.gpg-agent-info
 
 # macos
 /.CFUserTextEncoding
