@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
   config.ssh.private_key_path = ".ssh/ssh-container"
 
   config.vm.provider "virtualbox" do |v, override|
-    override.vm.box = "defn/ubuntu"
+    override.vm.box = "defn/ubuntu-docker"
     override.vm.network "private_network", ip: '172.28.128.11', nic_type: 'virtio'
 
     override.vm.synced_folder ENV['HOME'], '/vagrant', disabled: true
