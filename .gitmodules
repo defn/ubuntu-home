@@ -210,3 +210,7 @@
 	path = work/etcd
 	url = git@github.com:imma/etcd
 	branch = master
+[submodule "work/flannel"]
+	path = work/flannel
+	url = git@github.com:imma/flannel
+	branch = master
