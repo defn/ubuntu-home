@@ -198,11 +198,11 @@
 	path = work/confd
 	url = git@github.com:imma/confd
 	branch = master
-[submodule "/Users/ubuntu/work/gpg"]
-	path = /Users/ubuntu/work/gpg
+[submodule "work/gpg"]
+	path = work/gpg
 	url = git@github.com:imma/gpg
 	branch = master
-[submodule "/Users/ubuntu/work/git-crypt"]
-	path = /Users/ubuntu/work/git-crypt
+[submodule "work/git-crypt"]
+	path = work/git-crypt
 	url = git@github.com:imma/git-crypt
 	branch = master
