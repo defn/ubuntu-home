@@ -27,11 +27,11 @@ function main {
     fi
   fi
 
-  "$@" -A script/cibuild || true
+  "$@" -t -A script/cibuild || true
   "$@" make cache
 
   "$@" home disable cache
-  "$@" -A script/cibuild
+  "$@" -t -A script/cibuild
   "$@" make cache
   "$@" home enable cache
 }
