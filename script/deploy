@@ -28,14 +28,14 @@ function main {
   fi
 
   "$@" -t -A script/cibuild || true
-  "$@" make cache
+  "$@" -t make cache
 
   "$@" home disable cache
   "$@" -t -A script/cibuild
 
   "$@" home update
   "$@" block clone
-  "$@" block bootstrap
+  "$@" -t block bootstrap
   "$@" make cache
   "$@" home enable cache
 }
