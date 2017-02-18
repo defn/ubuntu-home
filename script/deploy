@@ -32,7 +32,11 @@ function main {
 
   "$@" home disable cache
   "$@" -t -A script/cibuild
-  "$@" -t make cache
+
+  "$@" home update
+  "$@" block clone
+  "$@" block bootstrap
+  "$@" make cache
   "$@" home enable cache
 }
 
