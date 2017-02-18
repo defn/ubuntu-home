@@ -38,6 +38,7 @@
 /cidata/user-data
 /.vagrant
 /.gpg-agent-info
+*.retry
 
 # macos
 /.CFUserTextEncoding
