@@ -39,6 +39,7 @@
 /.vagrant
 /.gpg-agent-info
 *.retry
+/.ansible
 
 # macos
 /.CFUserTextEncoding
