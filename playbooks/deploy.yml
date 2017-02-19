@@ -1,6 +1,9 @@
 ---
 - hosts: all
   roles:
+    - { role: base 
+      }
     - { role: deploy,
         repo: 'git@github.com:imma/example',
-        as: ex }
+        as: ex 
+      }
