@@ -214,7 +214,3 @@
 	path = work/flannel
 	url = git@github.com:imma/flannel
 	branch = master
-[submodule "work/k8s"]
-	path = work/k8s
-	url = git@github.com:imma/k8s
-	branch = master
