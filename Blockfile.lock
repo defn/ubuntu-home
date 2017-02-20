@@ -31,7 +31,7 @@ flannel ${BLOCK_PATH}/flannel git@github.com:imma/flannel f12f8f91e40c2264d5f304
 ansible ${BLOCK_PATH}/ansible git@github.com:imma/ansible b556292216ad9ec316830b362c63da70b0ed8f7c master
 facts ${BLOCK_PATH}/facts git@github.com:imma/facts c640273962fa4c4095e8b7f531caa94ac372438d master
 consul ${BLOCK_PATH}/consul git@github.com:imma/consul 9bda78192ecb35286ad400734ce925d511a55ee2 master
-consul-agent ${BLOCK_PATH}/consul-agent git@github.com:imma/consul-agent 950d132e3c25bdf9dfb09df4e1388bfe9a8747ef master
+consul-agent ${BLOCK_PATH}/consul-agent git@github.com:imma/consul-agent 7ad4a1cfcb2724feef52e39e60bd90b2b9c908a6 master
 vault ${BLOCK_PATH}/vault git@github.com:imma/vault f03cd0994f8d5b6777777d06a8047f9d9aff01a6 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd f9cfe55964eab6e18a77c7b05783426133027eba master
 buildkite ${BLOCK_PATH}/buildkite git@github.com:imma/buildkite 0a6128dbac1d345e62c05fba357967209d7cb3c2 master
