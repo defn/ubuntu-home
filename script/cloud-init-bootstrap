@@ -6,6 +6,10 @@ function main {
     echo "Waiting for cloud-init boot-finished: $(date)"
 		sleep 3
 	done
+
+  home update
+  block bootstrap
+  make cache
 }
 
 main "$@"
