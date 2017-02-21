@@ -7,9 +7,12 @@ function main {
 		sleep 3
 	done
 
+  set -x
+  git reset --hard
   home update
   block bootstrap
   make cache
+  script/update
 }
 
 main "$@"
