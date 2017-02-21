@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+function main {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "$shome/script/profile"
+  source normalize
+  
+  git crypt unlock <(cat "$(find .git-crypt -name "*$(gpg --card-status | grep 'Signature key' | awk '{print $(NF-1) $(NF)}')*")" | gpg)
+}
+
+source sub "$BASH_SOURCE" "$@"
