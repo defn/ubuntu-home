@@ -14,6 +14,8 @@
 /.irssi
 /.oracle_jre_usage
 /.aws/credentials*
+/.aws/totp*
+/.aws/assume
 /.gnupg
 /.assume-aws-role
 /.terraform.d
