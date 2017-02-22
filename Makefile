@@ -61,3 +61,6 @@ cidata/meta-data:
 cidata.iso: cidata/user-data cidata/meta-data
 	mkisofs -R -V cidata -o $@.tmp cidata
 	mv $@.tmp $@
+
+vagrant: cidata.iso
+	vagrant up
