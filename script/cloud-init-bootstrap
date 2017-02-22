@@ -8,10 +8,12 @@ function main {
 	done
 
   set -x
+
+  git pull
   git reset --hard
-  home update
-  block bootstrap
-  make cache
+
+  script/cibuild
+
   script/update
   script/update 172.28.128.1
 }
