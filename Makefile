@@ -65,3 +65,8 @@ cidata.iso: cidata/user-data cidata/meta-data
 vagrant: cidata.iso
 	vagrant up
 	vagrant reload
+
+nih:
+	script/update
+	sudo ifconfig lo:1 "172.28.128.1" up
+	runmany 'cd work/$$1 && make up' admin nexus gogs

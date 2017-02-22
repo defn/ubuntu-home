@@ -24,21 +24,15 @@ function main {
   make download local
 
   make
-  script/update
-  sudo ifconfig lo:1 "172.28.128.1" up
-
-  runmany 'cd work/$1 && make up' admin nexus gogs
 
   sudo apt install -y dnsmasq
   { echo 'server=/consul/127.0.0.1#5354'
     echo 'server=127.0.0.1#5354'
     echo 'address=/nih/172.28.128.1'
   } | sudo tee /etc/dnsmasq.d/nih
-  sudo systemctl restart dnsmasq
 
   { echo 'DOCKER_OPTS="--dns 172.28.128.1"'
   } | sudo tee /etc/default/docker
-  sudo systemctl restart docker
 }
 
 main "$@"
