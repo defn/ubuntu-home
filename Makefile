@@ -24,10 +24,9 @@ docker-image:
 	time $(make) home=$(block) nc home
 
 docker-update:
-	docker tag $(registry)/block:$(block){0,}
 	$(make) home=$(block) nc clean daemon
 	time $(make) block-update $(after_block) commit
-	time $(make) build-nc
+	time $(make) build
 	$(make) clean
 
 virtualbox:
