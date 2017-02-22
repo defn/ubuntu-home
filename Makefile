@@ -64,3 +64,4 @@ cidata.iso: cidata/user-data cidata/meta-data
 
 vagrant: cidata.iso
 	vagrant up
+	vagrant reload

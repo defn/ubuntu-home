@@ -29,6 +29,9 @@ function main {
   { echo 'DOCKER_OPTS="--dns 172.28.128.1"'
   } | sudo tee /etc/default/docker
   sudo systemctl restart docker
+
+  sudo aptitude update
+  sudo aptitude upgrade -y
 }
 
 main "$@"
