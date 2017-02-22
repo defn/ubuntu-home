@@ -4,7 +4,7 @@ function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   source "$shome/script/profile"
 
-  local vip="${1:-172.28.129.250}"
+  local vip="${1:-172.28.29.250}"
 
   case "$(uname -s)" in
     Darwin)

@@ -9,15 +9,25 @@ function main {
 
   set -x
 
-  git pull
+  sudo aptitude update
+  sudo aptitude upgrade -y
+
   git reset --hard
+  git pull
 
   block clone
   block runmany 'cd $1 && git checkout master'
   home update
 
+  runmany 'git clone git@github.com:imma/$1 work/$1 || true' admin nexus gogs
+  runmany 'cd work/$1 && make download' admin nexus gogs
+  make download local
+
+  make
   script/update
-  script/update 172.28.128.1
+  sudo ifconfig lo:1 "172.28.128.1" up
+
+  runmany 'cd work/$1 && make up' admin nexus gogs
 
   sudo apt install -y dnsmasq
   { echo 'server=/consul/127.0.0.1#5354'
@@ -29,9 +39,6 @@ function main {
   { echo 'DOCKER_OPTS="--dns 172.28.128.1"'
   } | sudo tee /etc/default/docker
   sudo systemctl restart docker
-
-  sudo aptitude update
-  sudo aptitude upgrade -y
 }
 
 main "$@"
