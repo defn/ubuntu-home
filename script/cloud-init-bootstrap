@@ -12,7 +12,9 @@ function main {
   git pull
   git reset --hard
 
-  script/cibuild
+  block clone
+  block runmany 'cd $1 && git checkout master'
+  home update
 
   script/update
   script/update 172.28.128.1
