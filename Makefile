@@ -16,10 +16,7 @@ latest:
 	git add -u 
 	home lock 'update to latest modules'
 
-../base/Makefile.docker:
-	sudo ln -nfs ubuntu/work/base ../base
-
-include ../base/Makefile.docker
+include $(BLOCK_PATH)/base/Makefile.docker
 
 docker_default = docker-image
 
