@@ -67,6 +67,6 @@ vagrant: cidata.iso
 
 nih: cidata.iso
 	script/update
-	sudo ifconfig lo:1 "172.28.128.1" up
+	if ! ping -c 1 -t 3 172.28.128.1; then sudo ifconfig lo:1 "172.28.128.1" up; fi
 	runmany 'cd work/$$1 && make up' admin nexus gogs
 	sudo systemctl restart dnsmasq
