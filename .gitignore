@@ -42,6 +42,7 @@
 /.gpg-agent-info
 *.retry
 /.ansible
+/.yarnrc
 
 # macos
 /.CFUserTextEncoding
