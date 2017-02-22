@@ -72,3 +72,4 @@ nih: cidata.iso
 	script/update
 	sudo ifconfig lo:1 "172.28.128.1" up
 	runmany 'cd work/$$1 && make up' admin nexus gogs
+	sudo systemctl restart dnsmasq
