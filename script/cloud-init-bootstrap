@@ -15,8 +15,9 @@ function main {
   git reset --hard
   git pull
 
-  block clone
+  git submodule update --init -j 10
   block runmany 'cd $1 && git checkout master'
+  block clone
   home update
 
   runmany 'git clone git@github.com:imma/$1 work/$1 || true' admin nexus gogs
