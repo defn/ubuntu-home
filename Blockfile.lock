@@ -14,7 +14,7 @@ python ${BLOCK_PATH}/python git@github.com:imma/python 99210c56484a58fc94d6932c6
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache 131f2bf7232d02d6c15ba88eca796f36a7608d50 master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl a2a155263a40fa2e5f7efc387e0878dcbb755d57 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
-node ${BLOCK_PATH}/node git@github.com:imma/node a6aa1d6818da7cf711e60fc9179e8e99ab3ec6a2 master
+node ${BLOCK_PATH}/node git@github.com:imma/node 51099af762fdbd4a58308dacba91eb550cb48af9 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
 lxd ${BLOCK_PATH}/lxd git@github.com:imma/lxd a2a43e25c31dafaa4fd3ae87111e5849bf87ce18 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 0c8527566f445a39f71607cdf57573c9c09d0fd0 master
