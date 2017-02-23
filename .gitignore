@@ -43,6 +43,7 @@
 *.retry
 /.ansible
 /.yarnrc
+/.wget-hsts
 
 # macos
 /.CFUserTextEncoding
