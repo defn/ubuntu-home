@@ -33,7 +33,7 @@ facts ${BLOCK_PATH}/facts git@github.com:imma/facts c640273962fa4c4095e8b7f531ca
 consul ${BLOCK_PATH}/consul git@github.com:imma/consul 9bda78192ecb35286ad400734ce925d511a55ee2 master
 consul-agent ${BLOCK_PATH}/consul-agent git@github.com:imma/consul-agent 7ad4a1cfcb2724feef52e39e60bd90b2b9c908a6 master
 vault ${BLOCK_PATH}/vault git@github.com:imma/vault f03cd0994f8d5b6777777d06a8047f9d9aff01a6 master
-linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd f9cfe55964eab6e18a77c7b05783426133027eba master
+linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd 685676d23cb76b65df3b5b17dc5b478d6dcb0c99 master
 buildkite ${BLOCK_PATH}/buildkite git@github.com:imma/buildkite 0a6128dbac1d345e62c05fba357967209d7cb3c2 master
 syslog-ng ${BLOCK_PATH}/syslog-ng git@github.com:imma/syslog-ng 2eb227af3c85f684032bef87ed2f7dfbbc475bf2 master
 aq ${BLOCK_PATH}/aq git@github.com:imma/aq efce7ff4bb1c9632a5c904f294765eed59412b0f master
