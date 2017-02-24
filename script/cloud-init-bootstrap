@@ -21,8 +21,8 @@ function main {
   home update
 
   runmany 'git clone git@github.com:imma/$1 work/$1 || true' admin nexus gogs
-  runmany 'cd work/$1 && make download' admin nexus gogs
-  make download local
+  runmany 'cd $1 && make download' ~ ~/work/{admin,nexus,gogs}
+  make local
 
   make
 
