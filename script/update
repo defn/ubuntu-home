@@ -8,7 +8,7 @@ function main {
 
   case "$(uname -s)" in
     Darwin)
-      sudo ifconfig lo0 alias "$vip"
+      sudo ifconfig lo0 alias "$vip" netmask 255.255.255.0
       ;;
     Linux)
       sudo ifconfig lo:0 "$vip" up
