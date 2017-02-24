@@ -22,7 +22,6 @@ function main {
 
   runmany 'git clone git@github.com:imma/$1 work/$1 || true' admin nexus gogs
   runmany 'cd $1 && make download' ~ ~/work/{admin,nexus,gogs}
-  make local
 
   make
 
