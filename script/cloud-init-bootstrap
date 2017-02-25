@@ -1,29 +1,12 @@
 #!/usr/bin/env bash
 
 function main {
-	while true; do
-		if [[ -f "/var/lib/cloud/instance/boot-finished" ]]; then break; fi
-    echo "Waiting for cloud-init boot-finished: $(date)"
-		sleep 3
-	done
-
   set -x
 
-  sudo aptitude update
-  sudo aptitude upgrade -y
-
-  git reset --hard
-  git pull
-
-  git submodule update --init -j 10
-  block runmany 'cd $1 && git checkout master'
-  block clone
-  home update
+  script/cibuild
 
   runmany 'git clone git@github.com:imma/$1 work/$1 || true' admin nexus gogs
   runmany 'cd $1 && make download' ~ ~/work/{admin,nexus,gogs}
-
-  make
 
   sudo apt install -y dnsmasq
   { echo 'server=/consul/127.0.0.1#5354'

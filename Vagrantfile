@@ -15,6 +15,7 @@ Vagrant.configure("2") do |config|
     override.vm.synced_folder '/data', '/data'
     override.vm.synced_folder '/config', '/config'
 
+    override.vm.provision "shell", path: "script/cloud-init-wait", args: [], privileged: false
     override.vm.provision "shell", path: "script/cloud-init-bootstrap", args: [], privileged: false
 
     v.linked_clone = true

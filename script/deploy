@@ -6,18 +6,6 @@ function main {
 
   set -exfu
 
-  "$@" -o StrictHostKeychecking=no -- ssh -o StrictHostKeyChecking=no github.com 2>/dev/null || true
-
-  if "$@" systemctl; then
-    if "$@" test -d /var/lib/cloud/instance/.; then
-      while true; do
-        if "$@" test -f "/var/lib/cloud/instance/boot-finished"; then break; fi
-        echo "Waiting for cloud-init boot-finished: $(date)"
-        sleep 3
-      done
-    fi
-  fi
-
   if ! "$@" test -d .git; then
     "$@" -A git clone git@github.com:imma/ubuntu
     "$@" mv ubuntu/.git .
