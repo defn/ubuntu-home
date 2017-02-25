@@ -21,7 +21,7 @@ homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 0c8527566f445a39f71
 context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272efd228b3a37fd6d1ebbc master
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose c449d51c33b14f918e91c532d61acfe6c0d7818c master
-docker ${BLOCK_PATH}/docker git@github.com:imma/docker 8293518f36d70a84fb00fd1e760907cd585859d9 master
+docker ${BLOCK_PATH}/docker git@github.com:imma/docker 9f91ad42a5ae8a8752cac8473b0c517cdf651460 master
 kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes e613eb9744d52733a9b6345bacdada346685e440 master
 runit ${BLOCK_PATH}/runit git@github.com:imma/runit eeef0a8a21b81ad5ceeb16c16e3c7f7a9d3107d6 master
 service ${BLOCK_PATH}/service git@github.com:imma/service 3514336e1f75db34f9aa80139de795080d0e7337 master
