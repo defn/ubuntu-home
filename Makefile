@@ -37,8 +37,9 @@ virtualbox:
 
 virtualbox-docker:
 	plane recycle
+	time plane vagrant ssh -- script/cloud-init-wait
+	time plane vagrant ssh -- script/cloud-init-update
 	time plane vagrant ssh -- script/cloud-init-bootstrap
-	time plane vagrant ssh -- make nih
 	#time plane reuse docker
 
 .ssh/ssh-container:

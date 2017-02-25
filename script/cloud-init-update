@@ -3,6 +3,8 @@
 function main {
   git reset --hard
   git pull
+
+  sudo aptitude update
 }
 
 main "$@"
