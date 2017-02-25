@@ -25,6 +25,7 @@ function main {
     "$@" git reset --hard
   fi
 
+  "$@" git reset --hard
   "$@" -t -A script/cibuild || true
 
   "$@" home disable cache
