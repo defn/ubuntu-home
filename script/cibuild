@@ -1,14 +1,8 @@
 #!/usr/bin/env bash
 
 function setup_submodules {
-  git submodule update --init
+  git submodule update --init -j 10 || git submdule update --init
   git submodule foreach git checkout master
-}
-
-function setup_base {
-  pushd "$shome/work/base"
-  script/bootstrap
-  popd
 }
 
 function setup_block {
@@ -19,38 +13,21 @@ function setup_block {
   source "$shome/work/block/script/profile"
 }
 
-function setup_cache {
-  if [[ ! -d "$shome/work/cache/.git" ]]; then
-    (cd "$shome/work" && git clone git@github.com:imma/cache)
-  fi
-  "$shome/work/block/script/cibuild" "$shome/work/cache"
-  pushd "$shome/work/cache" >/dev/null
-  require
-  popd >/dev/null
-}
-
 function build_blocks {
   cd ~
   require
+  home update
   "$shome/work/block/script/cibuild" ~
-}
-
-function cleanup {
-  pushd ~
-  git checkout .ssh/config
-  popd
 }
 
 function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
   setup_submodules
-  setup_base
   setup_block
-  setup_cache
+  home update
   build_blocks
-  require
-  cleanup
+  make cache
 }
 
 main "$@"
