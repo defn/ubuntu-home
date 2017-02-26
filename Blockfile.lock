@@ -8,7 +8,7 @@ ubuntu-config ${BLOCK_PATH}/ubuntu-config git@github.com:imma/ubuntu-config e6e1
 base ${BLOCK_PATH}/base git@github.com:imma/base 7c84c9302d1c2684720c3727b6b42cbf4b953090 master
 jq ${BLOCK_PATH}/jq git@github.com:imma/jq dbe05747d63b166a59abe182761efba531ea2b32 master
 java ${BLOCK_PATH}/java git@github.com:imma/java 79ddfd5bdee3f776cd6d5ac16d65a859cc47858b master
-pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 3d7af7eb5230776e04aa7e9a4782764cf033f4a0 master
+pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 3b500656953dde4a1a67cf1346e530312b3c5e67 master
 ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby f65e74343e7984e4d2b038457c7a941867e16a8e master
 python ${BLOCK_PATH}/python git@github.com:imma/python 99210c56484a58fc94d6932c6516e9723b5be749 master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache 131f2bf7232d02d6c15ba88eca796f36a7608d50 master
