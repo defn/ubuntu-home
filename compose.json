@@ -2,8 +2,14 @@
   "version": "2.1",
   "networks": {
     "default": {
-      "external": {
-        "name": "admin_default"
+      "ipam": {
+        "config": [
+          {
+            "subnet": "${NET_SUBNET}.0/23",
+            "gateway": "${NET_SUBNET}.1",
+            "ip_range": "${NET_PREFIX}.0/24"
+          }
+        ]
       }
     }
   },
