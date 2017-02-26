@@ -25,6 +25,7 @@ function main {
 
   setup_submodules
   setup_block
+  require
   home update
   build_blocks
   make cache
