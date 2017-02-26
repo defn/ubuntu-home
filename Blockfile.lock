@@ -26,7 +26,7 @@ kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes e613eb9744d52
 runit ${BLOCK_PATH}/runit git@github.com:imma/runit eeef0a8a21b81ad5ceeb16c16e3c7f7a9d3107d6 master
 service ${BLOCK_PATH}/service git@github.com:imma/service 3514336e1f75db34f9aa80139de795080d0e7337 master
 sshd ${BLOCK_PATH}/sshd git@github.com:imma/sshd 66839a7292f3d7e379a029263aaa854d5ae3eca9 master
-etcd ${BLOCK_PATH}/etcd git@github.com:imma/etcd cb50281b5313cee0e4acbb7335f57148560e57b3 master
+etcd ${BLOCK_PATH}/etcd git@github.com:imma/etcd 2ed4f54c31734b61c4d14016d13f99a73266c83b master
 flannel ${BLOCK_PATH}/flannel git@github.com:imma/flannel f12f8f91e40c2264d5f3049cd5163855416f2ada master
 ansible ${BLOCK_PATH}/ansible git@github.com:imma/ansible b556292216ad9ec316830b362c63da70b0ed8f7c master
 facts ${BLOCK_PATH}/facts git@github.com:imma/facts c640273962fa4c4095e8b7f531caa94ac372438d master
