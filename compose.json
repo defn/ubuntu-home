@@ -25,6 +25,11 @@
       "cap_add": [
         "NET_ADMIN"
       ],
+      "networks": {
+        "default": {
+          "ipv4_address": "${NET_PREFIX}.100"
+        }
+      },
       "dns_search": "node.consul",
       "image": "${BLOCK_REGISTRY}/block:base",
       "hostname": "base"
@@ -40,6 +45,11 @@
       "cap_add": [
         "NET_ADMIN"
       ],
+      "networks": {
+        "default": {
+          "ipv4_address": "${NET_PREFIX}.101"
+        }
+      },
       "dns_search": "node.consul",
       "image": "${BLOCK_REGISTRY}/block:ubuntu",
       "hostname": "ubuntu"
