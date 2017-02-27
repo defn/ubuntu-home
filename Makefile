@@ -16,7 +16,7 @@ docker-image:
 	time $(make) home=$(block) nc home
 
 docker-update:
-	time $(make) daemon $(pre_block) block-update $(after_block) commit
+	time $(make) daemon $(pre_block) block-bootstrap $(after_block) commit
 	time $(make) build
 	$(make) clean
 
