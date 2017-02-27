@@ -3,8 +3,8 @@
 function setup_submodules {
   if ! git submodule update --init --remote --no-fetch -j 10; then
     git submdule update --init
-    git submodule foreach git checkout master
   fi
+  git submodule foreach git checkout master
 }
 
 function setup_block {
