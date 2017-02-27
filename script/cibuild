@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 
 function setup_submodules {
-  git submodule update --init -j 10 || git submdule update --init
-  git submodule foreach git checkout master
+  if ! git submodule update --init --remote --no-fetch -j 10; then
+    git submdule update --init
+    git submodule foreach git checkout master
+  fi
 }
 
 function setup_block {
