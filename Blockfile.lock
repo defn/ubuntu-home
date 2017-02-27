@@ -3,9 +3,9 @@ normalize ${BLOCK_PATH}/normalize git@github.com:imma/normalize b156ba1ec79f2da2
 bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:imma/bash-preexec 15618152d6ec511810e68d7b70b4ea5046cbeddd master
 sub ${BLOCK_PATH}/sub git@github.com:imma/sub 062a65e087e86659f212da82f0311815a12244f1 master
 runmany ${BLOCK_PATH}/runmany git@github.com:imma/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
-block ${BLOCK_PATH}/block git@github.com:imma/block d49e61b8bc12c6a2d71292aa20d95a94bf39ffe5 master
+block ${BLOCK_PATH}/block git@github.com:imma/block b3b6a43d40c1a38df5dd63624d26321999d65555 master
 ubuntu-config ${BLOCK_PATH}/ubuntu-config git@github.com:imma/ubuntu-config e6e1f5f18ede05178fd76a4ee015621a070a0277 master
-base ${BLOCK_PATH}/base git@github.com:imma/base 7c84c9302d1c2684720c3727b6b42cbf4b953090 master
+base ${BLOCK_PATH}/base git@github.com:imma/base 5056e9c761d217a354d00ce768a0c8de7aecf893 master
 jq ${BLOCK_PATH}/jq git@github.com:imma/jq dbe05747d63b166a59abe182761efba531ea2b32 master
 java ${BLOCK_PATH}/java git@github.com:imma/java 79ddfd5bdee3f776cd6d5ac16d65a859cc47858b master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 3b500656953dde4a1a67cf1346e530312b3c5e67 master
