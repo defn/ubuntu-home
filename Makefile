@@ -22,7 +22,8 @@ docker-update:
 
 virtualbox:
 	plane recycle
-	time plane vagrant ssh -- sudo aptitude update
+	plane vagrant ssh -- sudo aptitude update
+	plane vagrant ssh -- ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
 	time script/deploy plane vagrant ssh --
 	time plane reuse
 
