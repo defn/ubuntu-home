@@ -214,3 +214,7 @@
 	path = work/flannel
 	url = git@github.com:imma/flannel
 	branch = master
+[submodule "work/site"]
+	path = work/site
+	url = git@github.com:imma/site
+	branch = master
