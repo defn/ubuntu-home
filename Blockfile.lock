@@ -1,4 +1,4 @@
-site ${BLOCK_PATH}/site git@github.com:imma/site 1a201d7847400deb19c729e46147be421146c539 master
+site ${BLOCK_PATH}/site git@github.com:imma/site 0102a0e3a600fa39f71d52c01544c0ae53ee929b master
 shflags ${BLOCK_PATH}/shflags git@github.com:imma/shflags 9eb940b600afcc6d2507aa519db7640f9c6c686e master
 normalize ${BLOCK_PATH}/normalize git@github.com:imma/normalize b156ba1ec79f2da218d463c9b86f4192bcbeab54 master
 bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:imma/bash-preexec 15618152d6ec511810e68d7b70b4ea5046cbeddd master
@@ -15,7 +15,7 @@ python ${BLOCK_PATH}/python git@github.com:imma/python 99210c56484a58fc94d6932c6
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache 131f2bf7232d02d6c15ba88eca796f36a7608d50 master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl a2a155263a40fa2e5f7efc387e0878dcbb755d57 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
-node ${BLOCK_PATH}/node git@github.com:imma/node b80a52c7bb472cdfbd9dbd6f2b8efaeec0837dfb master
+node ${BLOCK_PATH}/node git@github.com:imma/node fb90d95fa304cc6034c2a56e86bd741854041b04 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
 lxd ${BLOCK_PATH}/lxd git@github.com:imma/lxd 6911816051d340354e7d80b5671b8b0527991ca8 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 0c8527566f445a39f71607cdf57573c9c09d0fd0 master
@@ -49,7 +49,7 @@ defn ${BLOCK_PATH}/defn git@github.com:imma/defn ba48835dabee093d9a5a7c3c84130d9
 htop ${BLOCK_PATH}/htop git@github.com:imma/htop 36918cf01b385f47ed1e857d5139a27dc9b1366c master
 sysadmin ${BLOCK_PATH}/sysadmin git@github.com:imma/sysadmin 26bc3ecc48302ae2fa927b9ef2de74624ce6f05c master
 git ${BLOCK_PATH}/git git@github.com:imma/git 7ab025940249fcb1fb6bbde9ebd19a4ca66882f3 master
-junas ${BLOCK_PATH}/junas git@github.com:imma/junas 72e2e4ad8d0778a262b1b15fbec7c04a3bed0f42 master
+junas ${BLOCK_PATH}/junas git@github.com:imma/junas 257b0861307c84f4f804036b1be256e0bfdbeef1 master
 confd ${BLOCK_PATH}/confd git@github.com:imma/confd 09c4bbc024a4a35834e64089204e6f7f06f5d035 master
 gpg ${BLOCK_PATH}/gpg git@github.com:imma/gpg d1ad1d94b87233a2a8bd3d7fc0ed748c31abad9e master
 git-crypt ${BLOCK_PATH}/git-crypt git@github.com:imma/git-crypt 4a472226cda6556376d03c19c210c3ab2fd53f55 master
