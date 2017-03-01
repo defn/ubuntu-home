@@ -4,9 +4,9 @@ normalize ${BLOCK_PATH}/normalize git@github.com:imma/normalize b156ba1ec79f2da2
 bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:imma/bash-preexec 15618152d6ec511810e68d7b70b4ea5046cbeddd master
 sub ${BLOCK_PATH}/sub git@github.com:imma/sub 062a65e087e86659f212da82f0311815a12244f1 master
 runmany ${BLOCK_PATH}/runmany git@github.com:imma/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
-block ${BLOCK_PATH}/block git@github.com:imma/block 63f3999905c427ddbaef09d5f139ff403cfb4668 master
+block ${BLOCK_PATH}/block git@github.com:imma/block 77b1885e6e8a3c15b596e6824064b29e8435351b master
 ubuntu-config ${BLOCK_PATH}/ubuntu-config git@github.com:imma/ubuntu-config e6e1f5f18ede05178fd76a4ee015621a070a0277 master
-base ${BLOCK_PATH}/base git@github.com:imma/base 2f9d52b9afd0ed7501b3b04f9e0d14f37726d70e master
+base ${BLOCK_PATH}/base git@github.com:imma/base bf6ef85234f0f314ccef70fe38f44546e1f479c7 master
 jq ${BLOCK_PATH}/jq git@github.com:imma/jq dbe05747d63b166a59abe182761efba531ea2b32 master
 java ${BLOCK_PATH}/java git@github.com:imma/java 79ddfd5bdee3f776cd6d5ac16d65a859cc47858b master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 3b500656953dde4a1a67cf1346e530312b3c5e67 master
@@ -15,7 +15,7 @@ python ${BLOCK_PATH}/python git@github.com:imma/python 99210c56484a58fc94d6932c6
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache 131f2bf7232d02d6c15ba88eca796f36a7608d50 master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl a2a155263a40fa2e5f7efc387e0878dcbb755d57 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
-node ${BLOCK_PATH}/node git@github.com:imma/node b80a52c7bb472cdfbd9dbd6f2b8efaeec0837dfb master
+node ${BLOCK_PATH}/node git@github.com:imma/node fb90d95fa304cc6034c2a56e86bd741854041b04 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
 lxd ${BLOCK_PATH}/lxd git@github.com:imma/lxd 6911816051d340354e7d80b5671b8b0527991ca8 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 0c8527566f445a39f71607cdf57573c9c09d0fd0 master
@@ -49,7 +49,7 @@ defn ${BLOCK_PATH}/defn git@github.com:imma/defn ba48835dabee093d9a5a7c3c84130d9
 htop ${BLOCK_PATH}/htop git@github.com:imma/htop 36918cf01b385f47ed1e857d5139a27dc9b1366c master
 sysadmin ${BLOCK_PATH}/sysadmin git@github.com:imma/sysadmin 26bc3ecc48302ae2fa927b9ef2de74624ce6f05c master
 git ${BLOCK_PATH}/git git@github.com:imma/git 7ab025940249fcb1fb6bbde9ebd19a4ca66882f3 master
-junas ${BLOCK_PATH}/junas git@github.com:imma/junas 72e2e4ad8d0778a262b1b15fbec7c04a3bed0f42 master
+junas ${BLOCK_PATH}/junas git@github.com:imma/junas 257b0861307c84f4f804036b1be256e0bfdbeef1 master
 confd ${BLOCK_PATH}/confd git@github.com:imma/confd 09c4bbc024a4a35834e64089204e6f7f06f5d035 master
 gpg ${BLOCK_PATH}/gpg git@github.com:imma/gpg d1ad1d94b87233a2a8bd3d7fc0ed748c31abad9e master
 git-crypt ${BLOCK_PATH}/git-crypt git@github.com:imma/git-crypt 4a472226cda6556376d03c19c210c3ab2fd53f55 master
