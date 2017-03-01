@@ -2,7 +2,7 @@
 
 function setup_submodules {
   if ! git submodule update --init --remote --no-fetch -j 10; then
-    git submdule update --init
+    git submodule update --init
   fi
   git submodule foreach git checkout master
 }
@@ -10,6 +10,8 @@ function setup_submodules {
 function setup_block {
   if [[ ! -e "$shome/work/block/.git" ]]; then
     (cd "$shome/work" && git clone git@github.com:imma/block)
+  else
+    (cd "$shome/work/block" && git pull)
   fi
   "$shome/work/block/script/cibuild"
   source "$shome/work/block/script/profile"
@@ -25,7 +27,7 @@ function build_blocks {
 function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
-  setup_submodules
+  #setup_submodules
   setup_block
   build_blocks
   make cache
