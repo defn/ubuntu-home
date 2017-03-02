@@ -1,4 +1,4 @@
-baseurl = "http://defn.sh/ubuntu"
+baseurl = "http://docs.nih/ubuntu/"
 languageCode = "en-us"
 title = "ubuntu block"
 theme = "hugo-material-docs"
