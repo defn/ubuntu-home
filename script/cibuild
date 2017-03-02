@@ -27,7 +27,7 @@ function build_blocks {
 function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
-  #setup_submodules
+  setup_submodules
   setup_block
   build_blocks
   make cache
