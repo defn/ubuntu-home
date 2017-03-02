@@ -5,7 +5,8 @@
     [ "lxd", "docker", "kubernetes" ],
     [ "sshd", "etcd", "flannel", "consul-agent", "vault", "linkerd", "buildkite", "syslog-ng" ],
     [ "deploy", "awesome", "defn", "sysadmin", "junas" ],
-    [ "confd", "ansible", "gpg", "git-crypt" ]
+    [ "confd", "ansible", "gpg", "git-crypt" ],
+    [ "hugo" ]
   ],
   "run": {
     "sshd": {},
