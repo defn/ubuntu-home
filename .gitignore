@@ -45,6 +45,7 @@
 /.yarnrc
 /.wget-hsts
 /.vault-token
+/public
 
 # macos
 /.CFUserTextEncoding
