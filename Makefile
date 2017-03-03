@@ -4,7 +4,7 @@ all: cidata.iso
 	@true
 
 cache:
-	@rm -f .bashrc.cache
+	 rm -f .bashrc.cache
 	@bash .bashrc
 	@bash .bashrc
 
@@ -73,4 +73,5 @@ add-modules:
 
 docs:
 	ln -nfs /data/nginx/html/$(shell basename $(PWD)) public
+	ln -nfs $(BLOCK_PATH) themes
 	hugo

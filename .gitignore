@@ -45,7 +45,6 @@
 /.yarnrc
 /.wget-hsts
 /.vault-token
-/public
 
 # macos
 /.CFUserTextEncoding
@@ -67,3 +66,7 @@
 /.npmrc
 /.pip/pip.conf
 /.pydistutils.cfg
+
+# docs
+/themes
+/public
