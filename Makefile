@@ -70,3 +70,7 @@ upgrade:
 
 add-modules:
 	block list | awk '/\/work\// {print $$3, $$2}' | perl -pe 's{[^\s]+?/work/}{work/}' | runmany 1 2 'git submodule add -f -b master $$1 $$2'
+
+docs:
+	ln -nfs /data/nginx/html/$(shell basename $(PWD)) public
+	hugo
