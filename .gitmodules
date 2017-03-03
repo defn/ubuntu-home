@@ -246,3 +246,11 @@
 	path = work/terragrunt
 	url = git@github.com:imma/terragrunt
 	branch = master
+[submodule "work/slate"]
+	path = work/slate
+	url = git@github.com:imma/slate
+	branch = master
+[submodule "work/docs"]
+	path = work/docs
+	url = git@github.com:imma/docs
+	branch = master

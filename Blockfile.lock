@@ -4,7 +4,7 @@ normalize ${BLOCK_PATH}/normalize git@github.com:imma/normalize b156ba1ec79f2da2
 bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:imma/bash-preexec 15618152d6ec511810e68d7b70b4ea5046cbeddd master
 sub ${BLOCK_PATH}/sub git@github.com:imma/sub 062a65e087e86659f212da82f0311815a12244f1 master
 runmany ${BLOCK_PATH}/runmany git@github.com:imma/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
-block ${BLOCK_PATH}/block git@github.com:imma/block 77b1885e6e8a3c15b596e6824064b29e8435351b master
+block ${BLOCK_PATH}/block git@github.com:imma/block c3ddbce6cda8406923c918fa01865bc91d6f0cf7 master
 ubuntu-config ${BLOCK_PATH}/ubuntu-config git@github.com:imma/ubuntu-config e6e1f5f18ede05178fd76a4ee015621a070a0277 master
 base ${BLOCK_PATH}/base git@github.com:imma/base 75e4a7044d0f61a85be99cccccf355e8e1442e65 master
 jq ${BLOCK_PATH}/jq git@github.com:imma/jq dbe05747d63b166a59abe182761efba531ea2b32 master
@@ -58,5 +58,7 @@ junas ${BLOCK_PATH}/junas git@github.com:imma/junas 3957db80c9c8b70a267689e3c2a9
 confd ${BLOCK_PATH}/confd git@github.com:imma/confd 09c4bbc024a4a35834e64089204e6f7f06f5d035 master
 gpg ${BLOCK_PATH}/gpg git@github.com:imma/gpg d1ad1d94b87233a2a8bd3d7fc0ed748c31abad9e master
 git-crypt ${BLOCK_PATH}/git-crypt git@github.com:imma/git-crypt 5edfb8a7ef8a97c8642e1b9b987309c23dd11a90 master
+slate ${BLOCK_PATH}/slate git@github.com:imma/slate b69ab2c34b0a853e930a76a152be78295293375c master
 hugo ${BLOCK_PATH}/hugo git@github.com:imma/hugo 94cca02e6deb3e733873fc00e536ac7e84612517 master
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs cc705858414eaa71519d048e9b3c1a65a2091615 master
+docs ${BLOCK_PATH}/docs git@github.com:imma/docs e54de02f8042d0f289f1e90fbce6d71b16940190 master
