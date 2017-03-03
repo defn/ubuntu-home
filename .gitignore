@@ -60,3 +60,10 @@
 /.DS_Store
 /.Trash/
 /Applications/
+
+# cache
+/.gemrc
+/.m2/settings.xml
+/.npmrc
+/.pip/pip.conf
+/.pydistutils.cfg
