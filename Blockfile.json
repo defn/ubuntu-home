@@ -6,7 +6,7 @@
     [ "sshd", "etcd", "flannel", "consul-agent", "vault", "linkerd", "buildkite", "syslog-ng" ],
     [ "deploy", "awesome", "defn", "sysadmin", "junas" ],
     [ "confd", "ansible", "gpg", "git-crypt" ],
-    [ "hugo", "hugo-material-docs" ]
+    [ "docs" ]
   ],
   "run": {
     "sshd": {},
