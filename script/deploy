@@ -16,7 +16,7 @@ function main {
 
   "$@" git pull
 
-  if curl -s http://cache.nih | grep Nexus; then
+  if "$@" curl -s http://cache.nih | grep Nexus; then
     "$@" home enable cache 2>/dev/null || true
     "$@" -t -A script/cibuild
     "$@" home disable cache
