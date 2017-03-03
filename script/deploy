@@ -15,7 +15,7 @@ function main {
 
   "$@" git pull
 
-  "$@" home enable cache
+  "$@" home enable cache || true
   "$@" -t -A script/cibuild || true
 
   "$@" home disable cache

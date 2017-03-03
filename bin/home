@@ -2,7 +2,7 @@
 
 function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
-  source "$shome/script/profile"
+  source "${BLOCK_PATH:-"$shome/work"}/block/script/profile" ~
   source normalize  
 
   exec "$@"
