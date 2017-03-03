@@ -25,7 +25,7 @@ parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose c449d51c33b14f918e91c532d61acfe6c0d7818c master
 docker ${BLOCK_PATH}/docker git@github.com:imma/docker 9f91ad42a5ae8a8752cac8473b0c517cdf651460 master
 kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes e613eb9744d52733a9b6345bacdada346685e440 master
-terraform ${BLOCK_PATH}/terraform git@github.com:imma/terraform 725883e7dfdb1bfa43d0fd2e81fff175fc47398d master
+terraform ${BLOCK_PATH}/terraform git@github.com:imma/terraform 45a6db4be8a8074c26b977dcb85bce52c3e29294 master
 fogg ${BLOCK_PATH}/fogg git@github.com:imma/fogg 6e25868872626b99bd13d4bb63712bdbfe1b25ba master
 packer ${BLOCK_PATH}/packer git@github.com:imma/packer 636ad61cab3b7bc72b0665ab8c713768818fcbc4 master
 runit ${BLOCK_PATH}/runit git@github.com:imma/runit eeef0a8a21b81ad5ceeb16c16e3c7f7a9d3107d6 master
