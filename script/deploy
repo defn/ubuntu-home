@@ -7,7 +7,12 @@ function main {
   set -exfu
 
   if ! "$@" test -d .git; then
+    "$@" sudo install -d -o ubuntu -g ubuntu /data
+    "$@" sudo install -d -o ubuntu -g ubuntu /data/cache
+    "$@" sudo install -d -o ubuntu -g ubuntu /config
+
     "$@" -A ssh -o StrictHostKeyChecking=no git@github.com true || true
+
     "$@" -A git clone git@github.com:imma/ubuntu
     "$@" mv ubuntu/.git .
     "$@" rm -rf ubuntu
