@@ -15,11 +15,13 @@ function main {
 
   "$@" git pull
 
-  "$@" home enable cache || true
-  "$@" -t -A script/cibuild || true
-
-  "$@" home disable cache
-  "$@" -t -A script/cibuild
+  if curl -s http://cache.nih | grep Nexus; then
+    "$@" home enable cache 2>/dev/null || true
+    "$@" -t -A script/cibuild
+    "$@" home disable cache
+  else
+    "$@" -t -A script/cibuild
+  fi
 }
 
 main "$@"
