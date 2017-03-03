@@ -238,3 +238,7 @@
 	path = work/fogg
 	url = git@github.com:imma/fogg
 	branch = master
+[submodule "work/packer"]
+	path = work/packer
+	url = git@github.com:imma/packer
+	branch = master

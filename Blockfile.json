@@ -2,7 +2,7 @@
   "require": [
     [ "site", "ubuntu-config", "base", "pkgsrc" ],
     [ "ruby", "python", "node", "java", "bash4", "go" ],
-    [ "lxd", "docker", "kubernetes", "fogg" ],
+    [ "lxd", "docker", "kubernetes", "fogg", "packer" ],
     [ "sshd", "etcd", "flannel", "consul-agent", "vault", "linkerd", "buildkite", "syslog-ng" ],
     [ "deploy", "awesome", "defn", "sysadmin", "junas" ],
     [ "confd", "ansible", "gpg", "git-crypt" ],
