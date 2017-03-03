@@ -17,6 +17,7 @@ curl ${BLOCK_PATH}/curl git@github.com:imma/curl a2a155263a40fa2e5f7efc387e0878d
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
 node ${BLOCK_PATH}/node git@github.com:imma/node fb90d95fa304cc6034c2a56e86bd741854041b04 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
+go ${BLOCK_PATH}/go git@github.com:imma/go c623a60ac0fdcc162a94c84a86e7e0ec0444fefc master
 lxd ${BLOCK_PATH}/lxd git@github.com:imma/lxd af34116726722214775e2c4edd7840f3fe68cfd1 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 0c8527566f445a39f71607cdf57573c9c09d0fd0 master
 context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272efd228b3a37fd6d1ebbc master
@@ -24,6 +25,8 @@ parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose c449d51c33b14f918e91c532d61acfe6c0d7818c master
 docker ${BLOCK_PATH}/docker git@github.com:imma/docker 9f91ad42a5ae8a8752cac8473b0c517cdf651460 master
 kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes e613eb9744d52733a9b6345bacdada346685e440 master
+terraform ${BLOCK_PATH}/terraform git@github.com:imma/terraform 725883e7dfdb1bfa43d0fd2e81fff175fc47398d master
+fogg ${BLOCK_PATH}/fogg git@github.com:imma/fogg 6e25868872626b99bd13d4bb63712bdbfe1b25ba master
 runit ${BLOCK_PATH}/runit git@github.com:imma/runit eeef0a8a21b81ad5ceeb16c16e3c7f7a9d3107d6 master
 service ${BLOCK_PATH}/service git@github.com:imma/service 3514336e1f75db34f9aa80139de795080d0e7337 master
 sshd ${BLOCK_PATH}/sshd git@github.com:imma/sshd 66839a7292f3d7e379a029263aaa854d5ae3eca9 master
