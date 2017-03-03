@@ -61,4 +61,4 @@ git-crypt ${BLOCK_PATH}/git-crypt git@github.com:imma/git-crypt 5edfb8a7ef8a97c8
 slate ${BLOCK_PATH}/slate git@github.com:imma/slate b69ab2c34b0a853e930a76a152be78295293375c master
 hugo ${BLOCK_PATH}/hugo git@github.com:imma/hugo 94cca02e6deb3e733873fc00e536ac7e84612517 master
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs cc705858414eaa71519d048e9b3c1a65a2091615 master
-docs ${BLOCK_PATH}/docs git@github.com:imma/docs e54de02f8042d0f289f1e90fbce6d71b16940190 master
+docs ${BLOCK_PATH}/docs git@github.com:imma/docs 6ce639a6c26f0d4a130f1f4401c0662b6accdf89 master
