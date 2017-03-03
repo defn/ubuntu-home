@@ -27,12 +27,11 @@ virtualbox:
 	time script/deploy plane vagrant ssh --
 	time plane reuse
 
-virtualbox-docker:
-	plane recycle
-	time plane vagrant ssh -- script/cloud-init-wait
-	time plane vagrant ssh -- script/cloud-init-update
-	time plane vagrant ssh -- script/cloud-init-bootstrap
-	#time plane reuse docker
+aws:
+	van recycle
+	van vagrant ssh -- sudo aptitude update
+	time script/deploy van vagrant ssh --
+	time van reuse
 
 .ssh/ssh-container:
 	@mkdir -p .ssh
