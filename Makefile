@@ -65,6 +65,12 @@ nih: cidata.iso
 	runmany 'cd work/$$1 && make up' admin nexus gogs
 	sudo systemctl restart dnsmasq
 
+update:
+	git pull
+	git submodule update --init
+	git submodule foreach git checkout master
+	home update
+
 upgrade:
 	script/cibuild
 
