@@ -14,11 +14,12 @@ function main {
   fi
 
   "$@" git pull
+
+  "$@" home enable cache
   "$@" -t -A script/cibuild || true
 
   "$@" home disable cache
   "$@" -t -A script/cibuild
-  "$@" home enable cache
 }
 
 main "$@"
