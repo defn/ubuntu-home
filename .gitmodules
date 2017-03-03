@@ -242,3 +242,7 @@
 	path = work/packer
 	url = git@github.com:imma/packer
 	branch = master
+[submodule "work/terragrunt"]
+	path = work/terragrunt
+	url = git@github.com:imma/terragrunt
+	branch = master
