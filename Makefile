@@ -52,20 +52,20 @@ cidata.iso: cidata/user-data cidata/meta-data
 	mkisofs -R -V cidata -o $@.tmp cidata
 	mv $@.tmp $@
 
-vagrant: cidata.iso
+vagrant:
 	vagrant up
 	vagrant reload
 	vagrant ssh -- make nih
 	vagrant snapshot save nih
 
-nih: cidata.iso
+nih:
 	script/update
 	if ! ping -c 1 -t 3 172.28.128.1; then sudo ifconfig lo:1 "172.28.128.1" up; fi
-	echo 'server=/consul/127.0.0.1#5353' | sudo tee /etc/dnsmasq.d/nih
-	echo 'address=172.28.128.1' | sudo tee -a /etc/dnsmasq.d/nih
-	echo 'server=8.8.4.4' | sudo tee -a /etc/dnsmasq.d/nih
+	@echo 'server=/consul/127.0.0.1#5354' | sudo tee /etc/dnsmasq.d/nih
+	@echo 'address=/nih/172.28.128.1' | sudo tee -a /etc/dnsmasq.d/nih
+	@echo 'server=8.8.4.4' | sudo tee -a /etc/dnsmasq.d/nih
 	sudo systemctl restart dnsmasq
-	echo 'DOCKER_OPTS="--dns 172.28.128.1"' | sudo tee /etc/default/docker
+	@echo 'DOCKER_OPTS="--dns 172.28.128.1"' | sudo tee /etc/default/docker
 	sudo systemctl restart docker
 	runmany 'git clone git@github.com:imma/$$1 work/$$1' all admin app nexus gogs nginx
 	time make download
