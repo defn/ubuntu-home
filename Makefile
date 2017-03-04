@@ -61,8 +61,17 @@ vagrant: cidata.iso
 nih: cidata.iso
 	script/update
 	if ! ping -c 1 -t 3 172.28.128.1; then sudo ifconfig lo:1 "172.28.128.1" up; fi
-	runmany 'cd work/$$1 && make up' admin nexus gogs
+	echo 'server=/consul/127.0.0.1#5353' | sudo tee /etc/dnsmasq.d/nih
+	echo 'address=172.28.128.1' | sudo tee -a /etc/dnsmasq.d/nih
+	echo 'server=8.8.4.4' | sudo tee -a /etc/dnsmasq.d/nih
 	sudo systemctl restart dnsmasq
+	echo 'DOCKER_OPTS="--dns 172.28.128.1"' | sudo tee /etc/default/docker
+	sudo systemctl restart docker
+	runmany 'git clone git@github.com:imma/$$1 work/$$1' all admin app nexus gogs nginx
+	time make download
+	cd work/all && time make download
+	touch .gitconfig
+	home sync
 
 update:
 	git pull
