@@ -58,7 +58,6 @@ junas ${BLOCK_PATH}/junas git@github.com:imma/junas 3957db80c9c8b70a267689e3c2a9
 confd ${BLOCK_PATH}/confd git@github.com:imma/confd 09c4bbc024a4a35834e64089204e6f7f06f5d035 master
 gpg ${BLOCK_PATH}/gpg git@github.com:imma/gpg d1ad1d94b87233a2a8bd3d7fc0ed748c31abad9e master
 git-crypt ${BLOCK_PATH}/git-crypt git@github.com:imma/git-crypt 5edfb8a7ef8a97c8642e1b9b987309c23dd11a90 master
-slate ${BLOCK_PATH}/slate git@github.com:imma/slate b69ab2c34b0a853e930a76a152be78295293375c master
 hugo ${BLOCK_PATH}/hugo git@github.com:imma/hugo 94cca02e6deb3e733873fc00e536ac7e84612517 master
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs cc705858414eaa71519d048e9b3c1a65a2091615 master
-docs ${BLOCK_PATH}/docs git@github.com:imma/docs 6ce639a6c26f0d4a130f1f4401c0662b6accdf89 master
+docs ${BLOCK_PATH}/docs git@github.com:imma/docs d5799525ced858856c42ee3464125c4846eac066 master
