@@ -254,3 +254,27 @@
 	path = work/docs
 	url = git@github.com:imma/docs
 	branch = master
+[submodule "work/imma"]
+	path = work/imma
+	url = git@github.com:imma/imma
+	branch = master
+[submodule "work/provision"]
+	path = work/provision
+	url = git@github.com:imma/provision
+	branch = master
+[submodule "work/dream"]
+	path = work/dream
+	url = git@github.com:imma/dream
+	branch = master
+[submodule "work/vagrant"]
+	path = work/vagrant
+	url = git@github.com:imma/vagrant
+	branch = master
+[submodule "work/limbo"]
+	path = work/limbo
+	url = git@github.com:imma/limbo
+	branch = master
+[submodule "work/inception"]
+	path = work/inception
+	url = git@github.com:imma/inception
+	branch = master
