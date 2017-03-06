@@ -27,7 +27,7 @@ docker ${BLOCK_PATH}/docker git@github.com:imma/docker 50dc27d92b1e707e2df65c737
 kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes e613eb9744d52733a9b6345bacdada346685e440 master
 terraform ${BLOCK_PATH}/terraform git@github.com:imma/terraform 45a6db4be8a8074c26b977dcb85bce52c3e29294 master
 terragrunt ${BLOCK_PATH}/terragrunt git@github.com:imma/terragrunt bb77acee9e1f879e82a6ffbecef5d9c876970f18 master
-fogg ${BLOCK_PATH}/fogg git@github.com:imma/fogg cb64552305f8a874320cebb7adbd25518a03cb97 master
+fogg ${BLOCK_PATH}/fogg git@github.com:imma/fogg 5e5df69c93571f1d79993a5cf9be741c9b16ae1f master
 aws ${BLOCK_PATH}/aws git@github.com:imma/aws d5f8c051d90f61a7abad1e0d9345bf89b4e286a2 master
 awesome ${BLOCK_PATH}/awesome git@github.com:imma/awesome b6cb789ffb3ac77d9648a62a7dec033884172f26 master
 imma ${BLOCK_PATH}/imma git@github.com:imma/imma 54bdbb828a30a65e74e39ed0176133de994fda9c master
