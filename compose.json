@@ -27,7 +27,7 @@
       ],
       "networks": {
         "default": {
-          "ipv4_address": "${NET_PREFIX}.100"
+          "ipv4_address": "${NET_PREFIX}.97"
         }
       },
       "dns_search": "node.consul",
@@ -47,7 +47,7 @@
       ],
       "networks": {
         "default": {
-          "ipv4_address": "${NET_PREFIX}.101"
+          "ipv4_address": "${NET_PREFIX}.98"
         }
       },
       "dns_search": "node.consul",
