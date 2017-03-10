@@ -24,7 +24,7 @@ context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272ef
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose c449d51c33b14f918e91c532d61acfe6c0d7818c master
 docker ${BLOCK_PATH}/docker git@github.com:imma/docker 50dc27d92b1e707e2df65c737322a23e49fcdb1c master
-kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes e613eb9744d52733a9b6345bacdada346685e440 master
+kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes dddb8bd62d50869acdab353d007c9ce908c86add master
 terraform ${BLOCK_PATH}/terraform git@github.com:imma/terraform 45a6db4be8a8074c26b977dcb85bce52c3e29294 master
 terragrunt ${BLOCK_PATH}/terragrunt git@github.com:imma/terragrunt bb77acee9e1f879e82a6ffbecef5d9c876970f18 master
 fogg ${BLOCK_PATH}/fogg git@github.com:imma/fogg 5e5df69c93571f1d79993a5cf9be741c9b16ae1f master
