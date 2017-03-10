@@ -278,3 +278,7 @@
 	path = work/inception
 	url = git@github.com:imma/inception
 	branch = master
+[submodule "work/virtualbox"]
+	path = work/virtualbox
+	url = git@github.com:imma/virtualbox
+	branch = master
