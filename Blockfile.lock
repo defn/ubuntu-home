@@ -27,7 +27,7 @@ docker ${BLOCK_PATH}/docker git@github.com:imma/docker 50dc27d92b1e707e2df65c737
 kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes dddb8bd62d50869acdab353d007c9ce908c86add master
 terraform ${BLOCK_PATH}/terraform git@github.com:imma/terraform 45a6db4be8a8074c26b977dcb85bce52c3e29294 master
 terragrunt ${BLOCK_PATH}/terragrunt git@github.com:imma/terragrunt bb77acee9e1f879e82a6ffbecef5d9c876970f18 master
-fogg ${BLOCK_PATH}/fogg git@github.com:imma/fogg 5e5df69c93571f1d79993a5cf9be741c9b16ae1f master
+fogg ${BLOCK_PATH}/fogg git@github.com:imma/fogg 548175332af37517190cc954f9f2f437309c4ae4 master
 aws ${BLOCK_PATH}/aws git@github.com:imma/aws d5f8c051d90f61a7abad1e0d9345bf89b4e286a2 master
 awesome ${BLOCK_PATH}/awesome git@github.com:imma/awesome b6cb789ffb3ac77d9648a62a7dec033884172f26 master
 imma ${BLOCK_PATH}/imma git@github.com:imma/imma 54bdbb828a30a65e74e39ed0176133de994fda9c master
@@ -54,7 +54,7 @@ syslog-ng ${BLOCK_PATH}/syslog-ng git@github.com:imma/syslog-ng 2eb227af3c85f684
 aq ${BLOCK_PATH}/aq git@github.com:imma/aq efce7ff4bb1c9632a5c904f294765eed59412b0f master
 aqq ${BLOCK_PATH}/aqq git@github.com:imma/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 master
 inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory 9e165119dedb2daa5e9eba3dd0f3a0f7c314cc49 master
-deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy 470908ea58ceaf954ae4a9fc8346fc90826f126b master
+deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy 273ab7a804f6606c3ce3fd3d212c4856d771488a master
 talign ${BLOCK_PATH}/talign git@github.com:imma/talign 1db084ed06de0c10679e2384c8f88be047934909 master
 cue ${BLOCK_PATH}/cue git@github.com:imma/cue 36543eac165edc2577ee98b19ea82a9aae66803f master
 defn ${BLOCK_PATH}/defn git@github.com:imma/defn ba48835dabee093d9a5a7c3c84130d9765673d89 master
