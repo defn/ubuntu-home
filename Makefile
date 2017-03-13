@@ -74,7 +74,7 @@ nih:
 	home sync
 
 sync:
-	git pull
+	git pull || true
 	git submodule update --init
 	git submodule foreach git checkout master
 
