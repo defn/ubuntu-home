@@ -73,10 +73,13 @@ nih:
 	touch .gitconfig
 	home sync
 
-update:
+sync:
 	git pull
 	git submodule update --init
 	git submodule foreach git checkout master
+
+update:
+	$(make) sync
 	home update
 
 upgrade:
