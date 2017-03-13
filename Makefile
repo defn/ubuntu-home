@@ -74,9 +74,10 @@ nih:
 	home sync
 
 sync:
-	git pull || true
+	git pull
 	git submodule update --init
 	git submodule foreach git checkout master
+	git submodule foreach git reset --hard origin/master
 
 update:
 	$(make) sync
