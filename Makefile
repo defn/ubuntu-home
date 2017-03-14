@@ -92,4 +92,7 @@ upgrade:
 add-modules:
 	block list | awk '/\/work\// {print $$3, $$2}' | perl -pe 's{[^\s]+?/work/}{work/}' | runmany 1 2 'git submodule add -f -b master $$1 $$2'
 
+$(BLOCK_PATH)/docs/Makefile.docs:
+	git submodule update --init -j 10
+
 include $(BLOCK_PATH)/docs/Makefile.docs
