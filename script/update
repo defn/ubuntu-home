@@ -6,10 +6,11 @@ function main {
 
   local vip="${1:-172.28.29.250}"
 
+  VBoxManage hostonlyif ipconfig vboxnet0 --ip 172.28.128.1
   case "$(uname -s)" in
     Darwin)
-      VBoxManage hostonlyif ipconfig vboxnet0 --ip 172.28.128.1
       sudo ifconfig lo0 alias "$vip" netmask 255.255.255.0
+      sudo brew services restart dnsmasq
       ;;
     Linux)
       sudo ifconfig lo:0 "$vip" netmask 255.255.255.0 up
