@@ -1,0 +1,5 @@
+---
+- name: Updating ubuntu block
+  command: git pull
+- name: Sync and build dependencies
+  command: make sync
