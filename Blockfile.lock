@@ -54,7 +54,7 @@ syslog-ng ${BLOCK_PATH}/syslog-ng git@github.com:imma/syslog-ng 2eb227af3c85f684
 aq ${BLOCK_PATH}/aq git@github.com:imma/aq efce7ff4bb1c9632a5c904f294765eed59412b0f master
 aqq ${BLOCK_PATH}/aqq git@github.com:imma/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 master
 inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory 6af9cfbb9e62781e5113cc1a18d20f3bc897a5f5 master
-deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy b7a0a5fb15f84da21c3844665e040c22b656ce64 master
+deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy 9f00abc033ec2e3af798534c30dc3105632a92eb master
 talign ${BLOCK_PATH}/talign git@github.com:imma/talign 1db084ed06de0c10679e2384c8f88be047934909 master
 cue ${BLOCK_PATH}/cue git@github.com:imma/cue 36543eac165edc2577ee98b19ea82a9aae66803f master
 defn ${BLOCK_PATH}/defn git@github.com:imma/defn ba48835dabee093d9a5a7c3c84130d9765673d89 master
