@@ -1,6 +1,5 @@
 ---
 - hosts: all
-  gather_facts: no
   roles:
     - { role: deploy,
         repo: 'git@github.com:imma/example',
