@@ -1,5 +1,9 @@
 ---
 - name: Updating ubuntu block
   command: git pull
-- name: Sync and build dependencies
-  command: make sync
+- name: Sync dependencies
+  shell : make sync
+- name: Build dependencies
+  shell: block bootstrap
+- name: Generate .bashrc.cache
+  shell : make cache
