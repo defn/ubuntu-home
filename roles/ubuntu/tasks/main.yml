@@ -33,10 +33,10 @@
   command: git pull
 
 - name: Sync dependencies
-  shell : make sync
+  shell : bin/home make sync
 
 - name: Build dependencies
-  shell: block bootstrap
+  shell: bin/home block bootstrap
 
 - name: Generate .bashrc.cache
-  shell: make cache
+  shell: bin/home make cache
