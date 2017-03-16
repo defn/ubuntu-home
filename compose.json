@@ -15,6 +15,9 @@
   },
   "services": {
     "base": {
+      "enviroment": [
+        "SERVICE_2222_NAME=ssh"
+      ],
       "volumes": [
         "/data:/data",
         "/config:/config"
@@ -35,6 +38,9 @@
       "hostname": "base"
     },
     "ubuntu": {
+      "enviroment": [
+        "SERVICE_2222_NAME=ssh"
+      ],
       "volumes": [
         "/data:/data",
         "/config:/config"
