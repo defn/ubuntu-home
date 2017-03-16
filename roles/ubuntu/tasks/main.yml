@@ -1,13 +1,42 @@
 ---
+- name: Add /etc/hosts entry
+  lineinfile: >
+    dest=/etc/hosts 
+    regexp="^127\.0\.1\.1" 
+    state=present 
+    line="127.0.1.1 {{hostname}}"
+  become: yes
+  when: hostname is defined and hostname != ""
+
+- name: Set /etc/hostname
+  template: >
+    src=hostname.j2
+    dest=/etc/hostname
+    owner=root
+    group=root
+    mode=0644
+  become: yes
+  when: hostname is defined and hostname != ""
+
+- name: Rename host
+  hostname: name={{ hostname }} 
+  become: yes
+  when: hostname is defined and hostname != ""
+
 - name: Reset Blockfile.lock
   command: git checkout Blockfile.lock
+
 - name: Get ssh-agent status
   command: ssh-add -l
+
 - name: Updating ubuntu block
   command: git pull
+
 - name: Sync dependencies
   shell : make sync
+
 - name: Build dependencies
   shell: block bootstrap
+
 - name: Generate .bashrc.cache
-  shell : make cache
+  shell: make cache
