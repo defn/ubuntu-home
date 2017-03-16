@@ -1,4 +1,6 @@
 ---
+- name: Reset Blockfile.json.lock
+  command: git checkout Blockfile.json.lock
 - name: Updating ubuntu block
   command: git pull
 - name: Sync dependencies
