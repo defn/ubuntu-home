@@ -1,6 +1,8 @@
 ---
 - name: Reset Blockfile.lock
   command: git checkout Blockfile.lock
+- name: Get ssh-agent status
+  command: ssh-add -l
 - name: Updating ubuntu block
   command: git pull
 - name: Sync dependencies
