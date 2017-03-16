@@ -46,6 +46,7 @@
 /.wget-hsts
 /.vault-token
 /.env.d
+/.rnd
 
 # macos
 /.CFUserTextEncoding
