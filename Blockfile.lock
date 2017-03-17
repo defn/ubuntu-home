@@ -29,7 +29,9 @@ terraform ${BLOCK_PATH}/terraform git@github.com:imma/terraform 45a6db4be8a8074c
 terragrunt ${BLOCK_PATH}/terragrunt git@github.com:imma/terragrunt bb77acee9e1f879e82a6ffbecef5d9c876970f18 master
 fogg ${BLOCK_PATH}/fogg git@github.com:imma/fogg c140487be01f4603f25e0c60b4d5362832581060 master
 aws ${BLOCK_PATH}/aws git@github.com:imma/aws d5f8c051d90f61a7abad1e0d9345bf89b4e286a2 master
-awesome ${BLOCK_PATH}/awesome git@github.com:imma/awesome b6cb789ffb3ac77d9648a62a7dec033884172f26 master
+aq ${BLOCK_PATH}/aq git@github.com:imma/aq efce7ff4bb1c9632a5c904f294765eed59412b0f master
+aqq ${BLOCK_PATH}/aqq git@github.com:imma/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 master
+awesome ${BLOCK_PATH}/awesome git@github.com:imma/awesome 6351e9af188f613373ee43005c8748be889762ee master
 imma ${BLOCK_PATH}/imma git@github.com:imma/imma 54bdbb828a30a65e74e39ed0176133de994fda9c master
 packer ${BLOCK_PATH}/packer git@github.com:imma/packer 636ad61cab3b7bc72b0665ab8c713768818fcbc4 master
 provision ${BLOCK_PATH}/provision git@github.com:imma/provision daba298d51226d0be7613a9d4ef41b10da256399 master
@@ -51,9 +53,7 @@ vault ${BLOCK_PATH}/vault git@github.com:imma/vault f03cd0994f8d5b6777777d06a804
 linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd 91993b9784ddec7c6cddf1efac7e1dfdfd3c15fa master
 buildkite ${BLOCK_PATH}/buildkite git@github.com:imma/buildkite 10fe320cbd4bcc832f82e18a9210a7e6677b5def master
 syslog-ng ${BLOCK_PATH}/syslog-ng git@github.com:imma/syslog-ng 2eb227af3c85f684032bef87ed2f7dfbbc475bf2 master
-aq ${BLOCK_PATH}/aq git@github.com:imma/aq efce7ff4bb1c9632a5c904f294765eed59412b0f master
-aqq ${BLOCK_PATH}/aqq git@github.com:imma/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 master
-inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory f830ddbb7f73e292238546fd1825469d2cdc7fa4 master
+inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory 57dea9182356c5fc77e27977648761beccc3473b master
 deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy ac29fbce1ea140e2d9d859c8d97a7da92c8608ea master
 talign ${BLOCK_PATH}/talign git@github.com:imma/talign 1db084ed06de0c10679e2384c8f88be047934909 master
 cue ${BLOCK_PATH}/cue git@github.com:imma/cue d2e348d7877e1ac1d3f1d981e80564b67b773a7f master
