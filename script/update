@@ -6,7 +6,10 @@ function main {
 
   local vip="${1:-172.28.29.250}"
 
-  VBoxManage hostonlyif ipconfig vboxnet0 --ip 172.28.128.1
+  if [[ "$(facts '.virtualization_role')" != "guest" ]]; then
+    VBoxManage hostonlyif ipconfig vboxnet0 --ip 172.28.128.1
+  fi
+
   case "$(uname -s)" in
     Darwin)
       sudo ifconfig lo0 alias "$vip" netmask 255.255.255.0
