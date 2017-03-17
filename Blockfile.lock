@@ -10,8 +10,11 @@ base ${BLOCK_PATH}/base git@github.com:imma/base 34f9e09715289a3bdfb10aa07ad8648
 jq ${BLOCK_PATH}/jq git@github.com:imma/jq dbe05747d63b166a59abe182761efba531ea2b32 master
 java ${BLOCK_PATH}/java git@github.com:imma/java 79ddfd5bdee3f776cd6d5ac16d65a859cc47858b master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 3b500656953dde4a1a67cf1346e530312b3c5e67 master
-ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby f65e74343e7984e4d2b038457c7a941867e16a8e master
 python ${BLOCK_PATH}/python git@github.com:imma/python 99210c56484a58fc94d6932c6516e9723b5be749 master
+ansible ${BLOCK_PATH}/ansible git@github.com:imma/ansible b556292216ad9ec316830b362c63da70b0ed8f7c master
+inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory 57dea9182356c5fc77e27977648761beccc3473b master
+deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy ac29fbce1ea140e2d9d859c8d97a7da92c8608ea master
+ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby f65e74343e7984e4d2b038457c7a941867e16a8e master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache 131f2bf7232d02d6c15ba88eca796f36a7608d50 master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl d86a9966a8b0b7aa5a85cb73b139847f9e4ce055 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
@@ -39,7 +42,6 @@ dream ${BLOCK_PATH}/dream git@github.com:imma/dream 1cc345f6895d8355ec9865d4e4a5
 vagrant ${BLOCK_PATH}/vagrant git@github.com:imma/vagrant b91a377f0b5bdee0b841ee5cfe8f7c04d3c3e3c5 master
 limbo ${BLOCK_PATH}/limbo git@github.com:imma/limbo 78a481def09d98796feea4656852ec982ea6ba00 master
 inception ${BLOCK_PATH}/inception git@github.com:imma/inception 444e613d60cd869168b2142154e7f489cd428e89 master
-ansible ${BLOCK_PATH}/ansible git@github.com:imma/ansible b556292216ad9ec316830b362c63da70b0ed8f7c master
 facts ${BLOCK_PATH}/facts git@github.com:imma/facts c640273962fa4c4095e8b7f531caa94ac372438d master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:imma/virtualbox 2c13fa541b049a90f4a182b15d88680a6dd87451 master
 runit ${BLOCK_PATH}/runit git@github.com:imma/runit eeef0a8a21b81ad5ceeb16c16e3c7f7a9d3107d6 master
@@ -53,8 +55,6 @@ vault ${BLOCK_PATH}/vault git@github.com:imma/vault f03cd0994f8d5b6777777d06a804
 linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd 91993b9784ddec7c6cddf1efac7e1dfdfd3c15fa master
 buildkite ${BLOCK_PATH}/buildkite git@github.com:imma/buildkite 10fe320cbd4bcc832f82e18a9210a7e6677b5def master
 syslog-ng ${BLOCK_PATH}/syslog-ng git@github.com:imma/syslog-ng 2eb227af3c85f684032bef87ed2f7dfbbc475bf2 master
-inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory 57dea9182356c5fc77e27977648761beccc3473b master
-deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy ac29fbce1ea140e2d9d859c8d97a7da92c8608ea master
 talign ${BLOCK_PATH}/talign git@github.com:imma/talign 1db084ed06de0c10679e2384c8f88be047934909 master
 cue ${BLOCK_PATH}/cue git@github.com:imma/cue d2e348d7877e1ac1d3f1d981e80564b67b773a7f master
 defn ${BLOCK_PATH}/defn git@github.com:imma/defn ba48835dabee093d9a5a7c3c84130d9765673d89 master
