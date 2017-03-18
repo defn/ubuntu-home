@@ -7,6 +7,12 @@ function main {
   cd "$shome"
   script/update
   make up
+
+  if curl -s http://cache.nih | grep Nexus; then
+    home enable cache
+  else
+    home disable cache
+  fi
 }
 
 main "$@"

@@ -6,7 +6,7 @@ function main {
   source normalize  
 
   cd "$shome"
-  git grep cache.nih | grep template: | cut -d: -f1 | uniq | runmany 'cp $1 ${1%.template}'
+  git grep cache.nih | grep template: | grep -v exec/ | cut -d: -f1 | uniq | runmany 'cp $1 ${1%.template}'
 }
 
 source sub "$BASH_SOURCE" "$@"
