@@ -28,7 +28,7 @@ parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose c449d51c33b14f918e91c532d61acfe6c0d7818c master
 docker ${BLOCK_PATH}/docker git@github.com:imma/docker 50dc27d92b1e707e2df65c737322a23e49fcdb1c master
 kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes dddb8bd62d50869acdab353d007c9ce908c86add master
-terraform ${BLOCK_PATH}/terraform git@github.com:imma/terraform 45a6db4be8a8074c26b977dcb85bce52c3e29294 master
+terraform ${BLOCK_PATH}/terraform git@github.com:imma/terraform fac94384759dbf91a464ef621bb7bf6ed5ccebdc master
 terragrunt ${BLOCK_PATH}/terragrunt git@github.com:imma/terragrunt bb77acee9e1f879e82a6ffbecef5d9c876970f18 master
 fogg ${BLOCK_PATH}/fogg git@github.com:imma/fogg 3f50c2e0856f5ef483c5704e605e8a9af8055152 master
 aws ${BLOCK_PATH}/aws git@github.com:imma/aws d5f8c051d90f61a7abad1e0d9345bf89b4e286a2 master
@@ -51,7 +51,7 @@ etcd ${BLOCK_PATH}/etcd git@github.com:imma/etcd 29d1bd6a9c8d1502bc824af55756a5f
 flannel ${BLOCK_PATH}/flannel git@github.com:imma/flannel f12f8f91e40c2264d5f3049cd5163855416f2ada master
 consul ${BLOCK_PATH}/consul git@github.com:imma/consul 66f5ec7b3d035fcf8c6c19d9ae592b8fec4638ac master
 consul-agent ${BLOCK_PATH}/consul-agent git@github.com:imma/consul-agent 9b781e267ef1a11d75a244c04c57d42ba5a27942 master
-vault ${BLOCK_PATH}/vault git@github.com:imma/vault f03cd0994f8d5b6777777d06a8047f9d9aff01a6 master
+vault ${BLOCK_PATH}/vault git@github.com:imma/vault 97fb9f4168dbbd204d9006d7cb656d5c7c6b0830 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd e55925d77e82d70a85301ff8c102e43ecd83e9dc master
 buildkite ${BLOCK_PATH}/buildkite git@github.com:imma/buildkite 10fe320cbd4bcc832f82e18a9210a7e6677b5def master
 syslog-ng ${BLOCK_PATH}/syslog-ng git@github.com:imma/syslog-ng 2eb227af3c85f684032bef87ed2f7dfbbc475bf2 master
