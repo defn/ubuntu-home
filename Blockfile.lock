@@ -30,7 +30,7 @@ docker ${BLOCK_PATH}/docker git@github.com:imma/docker 50dc27d92b1e707e2df65c737
 kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes dddb8bd62d50869acdab353d007c9ce908c86add master
 terraform ${BLOCK_PATH}/terraform git@github.com:imma/terraform fac94384759dbf91a464ef621bb7bf6ed5ccebdc master
 terragrunt ${BLOCK_PATH}/terragrunt git@github.com:imma/terragrunt bb77acee9e1f879e82a6ffbecef5d9c876970f18 master
-fogg ${BLOCK_PATH}/fogg git@github.com:imma/fogg 3f50c2e0856f5ef483c5704e605e8a9af8055152 master
+fogg ${BLOCK_PATH}/fogg git@github.com:imma/fogg a1f6feac3187aa663d7a788601297912271071fb master
 aws ${BLOCK_PATH}/aws git@github.com:imma/aws d5f8c051d90f61a7abad1e0d9345bf89b4e286a2 master
 aq ${BLOCK_PATH}/aq git@github.com:imma/aq efce7ff4bb1c9632a5c904f294765eed59412b0f master
 aqq ${BLOCK_PATH}/aqq git@github.com:imma/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 master
@@ -48,7 +48,7 @@ runit ${BLOCK_PATH}/runit git@github.com:imma/runit eeef0a8a21b81ad5ceeb16c16e3c
 service ${BLOCK_PATH}/service git@github.com:imma/service 3514336e1f75db34f9aa80139de795080d0e7337 master
 sshd ${BLOCK_PATH}/sshd git@github.com:imma/sshd 66839a7292f3d7e379a029263aaa854d5ae3eca9 master
 etcd ${BLOCK_PATH}/etcd git@github.com:imma/etcd 29d1bd6a9c8d1502bc824af55756a5f9046bd881 master
-flannel ${BLOCK_PATH}/flannel git@github.com:imma/flannel f12f8f91e40c2264d5f3049cd5163855416f2ada master
+flannel ${BLOCK_PATH}/flannel git@github.com:imma/flannel b780c05bc1a4c318d1f87bc5cce91de420451a77 master
 consul ${BLOCK_PATH}/consul git@github.com:imma/consul 66f5ec7b3d035fcf8c6c19d9ae592b8fec4638ac master
 consul-agent ${BLOCK_PATH}/consul-agent git@github.com:imma/consul-agent ff4d32421ffc112e59a5bec2d029939d0f62fd22 master
 vault ${BLOCK_PATH}/vault git@github.com:imma/vault 97fb9f4168dbbd204d9006d7cb656d5c7c6b0830 master
