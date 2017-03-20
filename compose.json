@@ -20,7 +20,8 @@
       ],
       "volumes": [
         "/data:/data",
-        "/config:/config"
+        "/config:/config",
+        "${HOME}/.ssh/authorized_keys:/home/ubuntu/.ssh/authorized_keys"
       ],
       "ports": [
         "${BLOCK_SSH_PORT}"
@@ -43,7 +44,8 @@
       ],
       "volumes": [
         "/data:/data",
-        "/config:/config"
+        "/config:/config",
+        "${HOME}/.ssh/authorized_keys:/home/ubuntu/.ssh/authorized_keys"
       ],
       "ports": [
         "${BLOCK_SSH_PORT}"
