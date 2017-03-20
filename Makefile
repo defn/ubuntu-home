@@ -33,13 +33,9 @@ aws:
 	time script/deploy van vagrant ssh --
 	time van reuse
 
-.ssh/ssh-container:
-	@mkdir -p .ssh
-	@ssh-keygen -f $@ -P '' -C "provision@$(shell uname -n)"
-
-cidata/user-data: .ssh/ssh-container cidata/user-data.template
+cidata/user-data: /config/ssh/authorized_keys cidata/user-data.template
 	mkdir -p cidata
-	cat cidata/user-data.template | env CONTAINER_SSH_KEY="$(shell cat .ssh/ssh-container.pub)" envsubst '$$USER $$CONTAINER_SSH_KEY $$CACHE_VIP' | tee "$@.tmp"
+	cat cidata/user-data.template | env CONTAINER_SSH_KEY="$(shell head -1 /config/ssh/authorized_keys)" envsubst '$$USER $$CONTAINER_SSH_KEY $$CACHE_VIP' | tee "$@.tmp"
 	mv "$@.tmp" "$@"
 
 cidata/meta-data:
