@@ -12,8 +12,6 @@ users:
  - name: ubuntu
    shell: /bin/bash
    sudo: "ALL=(ALL) NOPASSWD: ALL"
-   ssh-authorized-keys:
-    - ${CONTAINER_SSH_KEY}
 
 manage_etc_hosts: true
 

@@ -35,7 +35,7 @@ aws:
 
 cidata/user-data: /config/ssh/authorized_keys cidata/user-data.template
 	mkdir -p cidata
-	cat cidata/user-data.template | env CONTAINER_SSH_KEY="$(shell head -1 /config/ssh/authorized_keys)" envsubst '$$USER $$CONTAINER_SSH_KEY $$CACHE_VIP' | tee "$@.tmp"
+	cat cidata/user-data.template | envsubst '$$USER $$CACHE_VIP' | tee "$@.tmp"
 	mv "$@.tmp" "$@"
 
 cidata/meta-data:
