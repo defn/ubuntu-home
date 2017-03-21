@@ -6,7 +6,7 @@ sub ${BLOCK_PATH}/sub git@github.com:imma/sub 062a65e087e86659f212da82f0311815a1
 runmany ${BLOCK_PATH}/runmany git@github.com:imma/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
 block ${BLOCK_PATH}/block git@github.com:imma/block fe673e2d6e3fb3bbaa49d44f06c81c958047a696 master
 ubuntu-config ${BLOCK_PATH}/ubuntu-config git@github.com:imma/ubuntu-config e6e1f5f18ede05178fd76a4ee015621a070a0277 master
-base ${BLOCK_PATH}/base git@github.com:imma/base d53101e35dc830b39d1a783a02cd2d67395c7898 master
+base ${BLOCK_PATH}/base git@github.com:imma/base 2db63ac018ee673adc2e7ca1ee13fb5e01d03b36 master
 jq ${BLOCK_PATH}/jq git@github.com:imma/jq dbe05747d63b166a59abe182761efba531ea2b32 master
 java ${BLOCK_PATH}/java git@github.com:imma/java 79ddfd5bdee3f776cd6d5ac16d65a859cc47858b master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 3b500656953dde4a1a67cf1346e530312b3c5e67 master
@@ -21,7 +21,7 @@ nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e
 node ${BLOCK_PATH}/node git@github.com:imma/node 974991c9b26e164ec67e7bca77f325082c96b852 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
 go ${BLOCK_PATH}/go git@github.com:imma/go c623a60ac0fdcc162a94c84a86e7e0ec0444fefc master
-lxd ${BLOCK_PATH}/lxd git@github.com:imma/lxd 13bc47a42637d687f91270d232eab103a8eef79b master
+lxd ${BLOCK_PATH}/lxd git@github.com:imma/lxd 886a5ee608eb21da48d619298a4a20abf4511ad0 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 0c8527566f445a39f71607cdf57573c9c09d0fd0 master
 context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272efd228b3a37fd6d1ebbc master
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
@@ -53,7 +53,7 @@ consul ${BLOCK_PATH}/consul git@github.com:imma/consul 66f5ec7b3d035fcf8c6c19d9a
 consul-agent ${BLOCK_PATH}/consul-agent git@github.com:imma/consul-agent df8b37118603e22c4ebb617df6118f007c52137f master
 vault ${BLOCK_PATH}/vault git@github.com:imma/vault 97fb9f4168dbbd204d9006d7cb656d5c7c6b0830 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd e55925d77e82d70a85301ff8c102e43ecd83e9dc master
-buildkite ${BLOCK_PATH}/buildkite git@github.com:imma/buildkite 2b7c0cb3e3dd7e3e044ba5ef3af8353f278b0e75 master
+buildkite ${BLOCK_PATH}/buildkite git@github.com:imma/buildkite 80c0c7a21f5bbef553a78bef8032ba7afddafc19 master
 syslog-ng ${BLOCK_PATH}/syslog-ng git@github.com:imma/syslog-ng 2eb227af3c85f684032bef87ed2f7dfbbc475bf2 master
 talign ${BLOCK_PATH}/talign git@github.com:imma/talign 1db084ed06de0c10679e2384c8f88be047934909 master
 cue ${BLOCK_PATH}/cue git@github.com:imma/cue d2e348d7877e1ac1d3f1d981e80564b67b773a7f master
