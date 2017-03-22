@@ -25,6 +25,8 @@ virtualbox:
 	plane vagrant ssh -- sudo aptitude update
 	plane vagrant ssh -- ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
 	time script/deploy plane vagrant ssh --
+	cd work/base && $(MAKE) clean-cidata
+	cd work/base && $(MAKE)
 	time plane reuse
 
 aws:
