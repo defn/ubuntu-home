@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+function main {
+  local nm_container="ubuntu-$$-${RANDOM}"
+
+  docker inspect "$nm_container" >/dev/null 2>&1 || docker run -d -v /data:/data -v /config:/config --network ubuntu_default --name "$nm_container" docker.nih/block:ubuntu > /dev/null
+
+  local ip_container="$(docker inspect "$nm_container" | jq -r '.[].NetworkSettings.Networks["ubuntu_default"].IPAddress')"
+  while ! nc -z -w 1 "$ip_container" 2222; do
+    sleep 1
+  done
+  ssh -A -p 2222 -o StrictHostKeyChecking=no "$ip_container" || true
+  docker rm -f "$nm_container"
+}
+
+main "$@"
