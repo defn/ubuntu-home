@@ -38,7 +38,7 @@ awesome ${BLOCK_PATH}/awesome git@github.com:imma/awesome 6351e9af188f613373ee43
 imma ${BLOCK_PATH}/imma git@github.com:imma/imma eba561e38ea8a1b5c9d6be5a5a6b2d362a8ed84c master
 packer ${BLOCK_PATH}/packer git@github.com:imma/packer 636ad61cab3b7bc72b0665ab8c713768818fcbc4 master
 provision ${BLOCK_PATH}/provision git@github.com:imma/provision daba298d51226d0be7613a9d4ef41b10da256399 master
-dream ${BLOCK_PATH}/dream git@github.com:imma/dream f11ce5680c71e656c79f28fa01c7b1b78e41ecbc master
+dream ${BLOCK_PATH}/dream git@github.com:imma/dream 27bbe07441003a6eb9dceb049d3775fa1ce0947b master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:imma/vagrant 3e296fa08d4c67d84caac86eb5db904146a477dd master
 limbo ${BLOCK_PATH}/limbo git@github.com:imma/limbo 5cd43ecd1174956452b54ac545efa1a7fd54fae7 master
 inception ${BLOCK_PATH}/inception git@github.com:imma/inception 444e613d60cd869168b2142154e7f489cd428e89 master
