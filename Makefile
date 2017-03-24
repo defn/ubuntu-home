@@ -20,6 +20,10 @@ docker-update:
 	time $(make) build
 	$(make) clean
 
+docker-save:
+	docker images | grep docker.nih  | perl -ne '@w = split /\s+/, $$_; print "$$w[0]:$$w[1]\n" unless $$base; $$base = 1 if $$w[1] eq "base"' | xargs docker save -o /data/cache/box/docker/inception.tar.1
+	mv -f /data/cache/box/docker/inception.tar.1 /data/cache/box/docker/inception.tar
+
 virtualbox:
 	plane recycle
 	plane vagrant ssh -- sudo aptitude update
