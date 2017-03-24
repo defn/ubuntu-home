@@ -18,7 +18,7 @@ ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby f65e74343e7984e4d2b038457c7a941
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache 1a681ad8e8b2365be56d263fd4e9012d14ff0bed master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl d86a9966a8b0b7aa5a85cb73b139847f9e4ce055 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
-node ${BLOCK_PATH}/node git@github.com:imma/node 974991c9b26e164ec67e7bca77f325082c96b852 master
+node ${BLOCK_PATH}/node git@github.com:imma/node 4abf90a2ec446506541feb8a31c546dbda2da23c master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
 go ${BLOCK_PATH}/go git@github.com:imma/go c623a60ac0fdcc162a94c84a86e7e0ec0444fefc master
 lxd ${BLOCK_PATH}/lxd git@github.com:imma/lxd 886a5ee608eb21da48d619298a4a20abf4511ad0 master
@@ -27,7 +27,7 @@ context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272ef
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose c449d51c33b14f918e91c532d61acfe6c0d7818c master
 docker ${BLOCK_PATH}/docker git@github.com:imma/docker 50dc27d92b1e707e2df65c737322a23e49fcdb1c master
-kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes dddb8bd62d50869acdab353d007c9ce908c86add master
+kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes 1a8685042d0df13fda94503c3f7abc8fe11cda72 master
 terraform ${BLOCK_PATH}/terraform git@github.com:imma/terraform fac94384759dbf91a464ef621bb7bf6ed5ccebdc master
 terragrunt ${BLOCK_PATH}/terragrunt git@github.com:imma/terragrunt bb77acee9e1f879e82a6ffbecef5d9c876970f18 master
 fogg ${BLOCK_PATH}/fogg git@github.com:imma/fogg 7d9684b18d5d43758c536d16be31f166e7141b1f master
@@ -39,7 +39,7 @@ imma ${BLOCK_PATH}/imma git@github.com:imma/imma eba561e38ea8a1b5c9d6be5a5a6b2d3
 packer ${BLOCK_PATH}/packer git@github.com:imma/packer 636ad61cab3b7bc72b0665ab8c713768818fcbc4 master
 provision ${BLOCK_PATH}/provision git@github.com:imma/provision daba298d51226d0be7613a9d4ef41b10da256399 master
 dream ${BLOCK_PATH}/dream git@github.com:imma/dream 27bbe07441003a6eb9dceb049d3775fa1ce0947b master
-vagrant ${BLOCK_PATH}/vagrant git@github.com:imma/vagrant 3e296fa08d4c67d84caac86eb5db904146a477dd master
+vagrant ${BLOCK_PATH}/vagrant git@github.com:imma/vagrant 7a5b60343c585a0b67cd327909ecb525fb9736aa master
 limbo ${BLOCK_PATH}/limbo git@github.com:imma/limbo fd1ea4b4c23fffe77505fb6e7915900c635f653c master
 inception ${BLOCK_PATH}/inception git@github.com:imma/inception 444e613d60cd869168b2142154e7f489cd428e89 master
 facts ${BLOCK_PATH}/facts git@github.com:imma/facts c640273962fa4c4095e8b7f531caa94ac372438d master
@@ -47,7 +47,7 @@ virtualbox ${BLOCK_PATH}/virtualbox git@github.com:imma/virtualbox cf55c0c412542
 runit ${BLOCK_PATH}/runit git@github.com:imma/runit eeef0a8a21b81ad5ceeb16c16e3c7f7a9d3107d6 master
 service ${BLOCK_PATH}/service git@github.com:imma/service 3514336e1f75db34f9aa80139de795080d0e7337 master
 sshd ${BLOCK_PATH}/sshd git@github.com:imma/sshd 66839a7292f3d7e379a029263aaa854d5ae3eca9 master
-etcd ${BLOCK_PATH}/etcd git@github.com:imma/etcd 29d1bd6a9c8d1502bc824af55756a5f9046bd881 master
+etcd ${BLOCK_PATH}/etcd git@github.com:imma/etcd a05f3fcc18ab2360d45aac183c2d07ae2fcdc99b master
 flannel ${BLOCK_PATH}/flannel git@github.com:imma/flannel b780c05bc1a4c318d1f87bc5cce91de420451a77 master
 consul ${BLOCK_PATH}/consul git@github.com:imma/consul 66f5ec7b3d035fcf8c6c19d9ae592b8fec4638ac master
 consul-agent ${BLOCK_PATH}/consul-agent git@github.com:imma/consul-agent df8b37118603e22c4ebb617df6118f007c52137f master
