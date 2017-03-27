@@ -8,7 +8,7 @@ block ${BLOCK_PATH}/block git@github.com:imma/block fe673e2d6e3fb3bbaa49d44f06c8
 ubuntu-config ${BLOCK_PATH}/ubuntu-config git@github.com:imma/ubuntu-config e6e1f5f18ede05178fd76a4ee015621a070a0277 master
 base ${BLOCK_PATH}/base git@github.com:imma/base e4b9b055d4ee5ba839e48e0d1f22e37c6e3bf8f4 master
 jq ${BLOCK_PATH}/jq git@github.com:imma/jq dbe05747d63b166a59abe182761efba531ea2b32 master
-java ${BLOCK_PATH}/java git@github.com:imma/java 79ddfd5bdee3f776cd6d5ac16d65a859cc47858b master
+java ${BLOCK_PATH}/java git@github.com:imma/java e958768182c24aa7c853bf497159676567733f9f master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc e3149352d98a024943ac7098bff9e2250f4ff28f master
 python ${BLOCK_PATH}/python git@github.com:imma/python 99210c56484a58fc94d6932c6516e9723b5be749 master
 ansible ${BLOCK_PATH}/ansible git@github.com:imma/ansible b556292216ad9ec316830b362c63da70b0ed8f7c master
@@ -40,7 +40,7 @@ packer ${BLOCK_PATH}/packer git@github.com:imma/packer 636ad61cab3b7bc72b0665ab8
 provision ${BLOCK_PATH}/provision git@github.com:imma/provision daba298d51226d0be7613a9d4ef41b10da256399 master
 dream ${BLOCK_PATH}/dream git@github.com:imma/dream 71e2403fe33099e3bf85bb126cfcfd767e027915 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:imma/vagrant 7a5b60343c585a0b67cd327909ecb525fb9736aa master
-limbo ${BLOCK_PATH}/limbo git@github.com:imma/limbo 3ccc65c823f24831a0fa672fe87ac67ab144f54b master
+limbo ${BLOCK_PATH}/limbo git@github.com:imma/limbo 06857c4926da8dbf906b3e831ea79b2fc8d024b9 master
 inception ${BLOCK_PATH}/inception git@github.com:imma/inception 444e613d60cd869168b2142154e7f489cd428e89 master
 facts ${BLOCK_PATH}/facts git@github.com:imma/facts c640273962fa4c4095e8b7f531caa94ac372438d master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:imma/virtualbox cf55c0c412542c39b923c1b8b70fcc4cad42b6ce master
