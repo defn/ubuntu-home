@@ -1,3 +1,8 @@
+ifeq (aws,$(firstword $(MAKECMDGOALS)))
+KEYPAIR := $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
+$(eval $(KEYPAIR):;@:)
+endif
+
 SHELL = bash
 
 all: cidata.iso
@@ -34,10 +39,10 @@ virtualbox:
 	time plane reuse
 
 aws:
-	van recycle
-	van vagrant ssh -- sudo aptitude update
-	time script/deploy van vagrant ssh --
-	time van reuse
+	env AWS_KEYPAIR=$(KEYPAIR) van recycle
+	env AWS_KEYPAIR=$(KEYPAIR) van vagrant ssh -- sudo aptitude update
+	time env AWS_KEYPAIR=$(KEYPAIR) script/deploy van vagrant ssh --
+	time env AWS_KEYPAIR=$(KEYPAIR) van reuse
 
 cidata/user-data: /config/ssh/authorized_keys cidata/user-data.template
 	mkdir -p cidata
