@@ -8,7 +8,7 @@ block ${BLOCK_PATH}/block git@github.com:imma/block fe673e2d6e3fb3bbaa49d44f06c8
 ubuntu-config ${BLOCK_PATH}/ubuntu-config git@github.com:imma/ubuntu-config e6e1f5f18ede05178fd76a4ee015621a070a0277 master
 base ${BLOCK_PATH}/base git@github.com:imma/base e4b9b055d4ee5ba839e48e0d1f22e37c6e3bf8f4 master
 jq ${BLOCK_PATH}/jq git@github.com:imma/jq dbe05747d63b166a59abe182761efba531ea2b32 master
-java ${BLOCK_PATH}/java git@github.com:imma/java e958768182c24aa7c853bf497159676567733f9f master
+java ${BLOCK_PATH}/java git@github.com:imma/java ffc3d4b1a644c1258509980916152a07629a1cc6 master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc e3149352d98a024943ac7098bff9e2250f4ff28f master
 python ${BLOCK_PATH}/python git@github.com:imma/python 99210c56484a58fc94d6932c6516e9723b5be749 master
 ansible ${BLOCK_PATH}/ansible git@github.com:imma/ansible b556292216ad9ec316830b362c63da70b0ed8f7c master
