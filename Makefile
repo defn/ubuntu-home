@@ -80,6 +80,7 @@ nih:
 	@echo 'DOCKER_OPTS="--dns $(VIP)"' | sudo tee /etc/default/docker
 	sudo systemctl restart docker
 	touch .gitconfig
+	$(MAKE) up
 
 sync:
 	git pull
