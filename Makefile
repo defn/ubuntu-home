@@ -3,6 +3,12 @@ KEYPAIR := $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
 $(eval $(KEYPAIR):;@:)
 endif
 
+ifeq (nih,$(firstword $(MAKECMDGOALS)))
+VIP := $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
+$(eval $(VIP):;@:)
+endif
+VIP ?= 172.28.128.1
+
 SHELL = bash
 
 all: cidata.iso
@@ -68,10 +74,10 @@ vagrant:
 nih:
 	script/update
 	@echo 'server=/consul/127.0.0.1#5354' | sudo tee /etc/dnsmasq.d/nih
-	@echo 'address=/nih/172.28.128.1' | sudo tee -a /etc/dnsmasq.d/nih
+	@echo 'address=/nih/$(VIP)' | sudo tee -a /etc/dnsmasq.d/nih
 	@echo 'server=8.8.4.4' | sudo tee -a /etc/dnsmasq.d/nih
 	sudo systemctl restart dnsmasq
-	@echo 'DOCKER_OPTS="--dns 172.28.128.1"' | sudo tee /etc/default/docker
+	@echo 'DOCKER_OPTS="--dns $(VIP)"' | sudo tee /etc/default/docker
 	sudo systemctl restart docker
 	touch .gitconfig
 
