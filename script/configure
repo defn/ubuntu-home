@@ -28,12 +28,6 @@ function main {
       sudo systemctl restart docker
       ;;
   esac
-
-  if curl -s http://cache.nih | grep Nexus; then
-    home enable cache
-  else
-    home disable cache
-  fi
 }
 
 main "$@"
