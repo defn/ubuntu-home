@@ -72,14 +72,7 @@ vagrant:
 	vagrant snapshot save nih
 
 nih:
-	script/update
-	@echo 'server=/consul/127.0.0.1#5354' | sudo tee /etc/dnsmasq.d/nih
-	@echo 'address=/nih/$(VIP)' | sudo tee -a /etc/dnsmasq.d/nih
-	@echo 'server=8.8.4.4' | sudo tee -a /etc/dnsmasq.d/nih
-	sudo systemctl restart dnsmasq
-	@echo 'DOCKER_OPTS="--dns $(VIP)"' | sudo tee /etc/default/docker
-	sudo systemctl restart docker
-	touch .gitconfig
+	script/configure
 	$(MAKE) up
 
 sync:

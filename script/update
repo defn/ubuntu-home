@@ -6,7 +6,7 @@ function main {
 
   local vip="${1:-172.28.29.250}"
 
-  if [[ "$(facts '.virtualization_role')" != "guest" ]]; then
+  if ifconfig vboxnet0 2>/dev/null; then
     VBoxManage hostonlyif ipconfig vboxnet0 --ip 172.28.128.1
   fi
 
