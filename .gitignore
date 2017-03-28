@@ -61,6 +61,7 @@
 /.DS_Store
 /.Trash/
 /Applications/
+/.cups/
 
 # cache
 /.gemrc
