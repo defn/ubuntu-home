@@ -47,13 +47,13 @@ virtualbox ${BLOCK_PATH}/virtualbox git@github.com:imma/virtualbox cf55c0c412542
 runit ${BLOCK_PATH}/runit git@github.com:imma/runit eeef0a8a21b81ad5ceeb16c16e3c7f7a9d3107d6 master
 service ${BLOCK_PATH}/service git@github.com:imma/service 3514336e1f75db34f9aa80139de795080d0e7337 master
 sshd ${BLOCK_PATH}/sshd git@github.com:imma/sshd 66839a7292f3d7e379a029263aaa854d5ae3eca9 master
-etcd ${BLOCK_PATH}/etcd git@github.com:imma/etcd a05f3fcc18ab2360d45aac183c2d07ae2fcdc99b master
+etcd ${BLOCK_PATH}/etcd git@github.com:imma/etcd ee0ea9f975c8fe1caef43f8565df7b2d378f9af3 master
 flannel ${BLOCK_PATH}/flannel git@github.com:imma/flannel b780c05bc1a4c318d1f87bc5cce91de420451a77 master
 consul ${BLOCK_PATH}/consul git@github.com:imma/consul 66f5ec7b3d035fcf8c6c19d9ae592b8fec4638ac master
 consul-agent ${BLOCK_PATH}/consul-agent git@github.com:imma/consul-agent df8b37118603e22c4ebb617df6118f007c52137f master
 vault ${BLOCK_PATH}/vault git@github.com:imma/vault 97fb9f4168dbbd204d9006d7cb656d5c7c6b0830 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd e55925d77e82d70a85301ff8c102e43ecd83e9dc master
-buildkite ${BLOCK_PATH}/buildkite git@github.com:imma/buildkite c445aa1544f18429cd2749d097a97c542566e6f1 master
+buildkite ${BLOCK_PATH}/buildkite git@github.com:imma/buildkite 669549d04cfaba4617be0171f3ea2e5b797f88ea master
 syslog-ng ${BLOCK_PATH}/syslog-ng git@github.com:imma/syslog-ng 2eb227af3c85f684032bef87ed2f7dfbbc475bf2 master
 talign ${BLOCK_PATH}/talign git@github.com:imma/talign 1db084ed06de0c10679e2384c8f88be047934909 master
 cue ${BLOCK_PATH}/cue git@github.com:imma/cue d2e348d7877e1ac1d3f1d981e80564b67b773a7f master
