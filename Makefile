@@ -71,7 +71,13 @@ vagrant:
 	vagrant ssh -- make nih
 	vagrant snapshot save nih
 
-nih:
+/config/ssh/authorized_keys:
+	git clone git@github.com:imma/imma-config /config 2>/dev/null || true
+	rsync -ia .ssh/authorized_keys /config/ssh/
+
+nih: /config/ssh/authorized_keys
+	script/configure
+	$(MAKE) up
 	script/configure
 	$(MAKE) up
 
