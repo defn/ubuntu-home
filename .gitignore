@@ -6,6 +6,7 @@
 /work/
 /.viminfo
 /.bash_history
+/.bash_sessions
 /.bashrc.cache
 /install/
 /sv
