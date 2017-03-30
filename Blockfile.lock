@@ -8,7 +8,8 @@ block ${BLOCK_PATH}/block git@github.com:imma/block fe673e2d6e3fb3bbaa49d44f06c8
 ubuntu-config ${BLOCK_PATH}/ubuntu-config git@github.com:imma/ubuntu-config e6e1f5f18ede05178fd76a4ee015621a070a0277 master
 base ${BLOCK_PATH}/base git@github.com:imma/base e4b9b055d4ee5ba839e48e0d1f22e37c6e3bf8f4 master
 jq ${BLOCK_PATH}/jq git@github.com:imma/jq dbe05747d63b166a59abe182761efba531ea2b32 master
-java ${BLOCK_PATH}/java git@github.com:imma/java ffc3d4b1a644c1258509980916152a07629a1cc6 master
+homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew ecd157fcfa339c6d7ac0d8ba1ba816451b305a19 master
+java ${BLOCK_PATH}/java git@github.com:imma/java 80425b0b2fb02a75e9aa185a30a35cddaf26dca0 master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 7e540887df5fe2f7b8fe9c1113b5f28a6c0aeb2a master
 python ${BLOCK_PATH}/python git@github.com:imma/python 99210c56484a58fc94d6932c6516e9723b5be749 master
 ansible ${BLOCK_PATH}/ansible git@github.com:imma/ansible fb672c606c3d4d23fe3d00c2bcda9f16f73ce8df master
@@ -22,7 +23,6 @@ node ${BLOCK_PATH}/node git@github.com:imma/node 4abf90a2ec446506541feb8a31c546d
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
 go ${BLOCK_PATH}/go git@github.com:imma/go e267101ba498700e41ca323713bfb11d7917f5e0 master
 lxd ${BLOCK_PATH}/lxd git@github.com:imma/lxd 886a5ee608eb21da48d619298a4a20abf4511ad0 master
-homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew ecd157fcfa339c6d7ac0d8ba1ba816451b305a19 master
 context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272efd228b3a37fd6d1ebbc master
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose c449d51c33b14f918e91c532d61acfe6c0d7818c master
