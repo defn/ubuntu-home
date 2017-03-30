@@ -22,7 +22,7 @@ node ${BLOCK_PATH}/node git@github.com:imma/node 4abf90a2ec446506541feb8a31c546d
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
 go ${BLOCK_PATH}/go git@github.com:imma/go e267101ba498700e41ca323713bfb11d7917f5e0 master
 lxd ${BLOCK_PATH}/lxd git@github.com:imma/lxd 886a5ee608eb21da48d619298a4a20abf4511ad0 master
-homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 0c8527566f445a39f71607cdf57573c9c09d0fd0 master
+homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew ecd157fcfa339c6d7ac0d8ba1ba816451b305a19 master
 context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272efd228b3a37fd6d1ebbc master
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose c449d51c33b14f918e91c532d61acfe6c0d7818c master
