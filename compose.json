@@ -33,7 +33,7 @@
           "ipv4_address": "${NET_PREFIX}.97"
         }
       },
-      "dns_search": "node.consul",
+      "dns_search": "node.dc1.consul",
       "image": "${BLOCK_REGISTRY}/block:base",
       "hostname": "base"
     },
@@ -56,7 +56,7 @@
           "ipv4_address": "${NET_PREFIX}.98"
         }
       },
-      "dns_search": "node.consul",
+      "dns_search": "node.dc1.consul",
       "image": "${BLOCK_REGISTRY}/block:ubuntu",
       "hostname": "ubuntu"
     }

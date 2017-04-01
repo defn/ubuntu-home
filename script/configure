@@ -20,7 +20,7 @@ function main {
       true
       ;;
     *)
-      echo 'server=/consul/127.0.0.1#5354' | sudo tee /etc/dnsmasq.d/nih
+      echo 'server=/dc1.consul/127.0.0.1#5354' | sudo tee /etc/dnsmasq.d/nih
       echo "address=/nih/$vip_cache" | sudo tee -a /etc/dnsmasq.d/nih
       echo 'server=8.8.4.4' | sudo tee -a /etc/dnsmasq.d/nih
       sudo systemctl restart dnsmasq
