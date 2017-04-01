@@ -20,7 +20,9 @@ function main {
       done
       ;;
     default)
-      sudo '/etc/rc.local'
+      if [[ -f /etc/rc.local ]]; then
+        sudo '/etc/rc.local'
+      fi
       exec "$BLOCK_PATH/runit/script/server" "$@"
       ;;
     docker)
