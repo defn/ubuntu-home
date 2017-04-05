@@ -15,7 +15,7 @@ python ${BLOCK_PATH}/python git@github.com:imma/python c8798a31215c3f1135de78cfd
 ansible ${BLOCK_PATH}/ansible git@github.com:imma/ansible d16339969c85cbd38419cd7d521d9115d85c2c24 master
 inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory 57dea9182356c5fc77e27977648761beccc3473b master
 deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy fdab36011cf953d3d2eb5cb1c4fba72f6a2aa4e8 master
-ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby f65e74343e7984e4d2b038457c7a941867e16a8e master
+ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby 5f7a409314db4ffcd89e6e73799932bff00c5691 ruby-2.3
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache 1a681ad8e8b2365be56d263fd4e9012d14ff0bed master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl d86a9966a8b0b7aa5a85cb73b139847f9e4ce055 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
