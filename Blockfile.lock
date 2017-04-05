@@ -11,7 +11,7 @@ jq ${BLOCK_PATH}/jq git@github.com:imma/jq dbe05747d63b166a59abe182761efba531ea2
 homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew ecd157fcfa339c6d7ac0d8ba1ba816451b305a19 master
 java ${BLOCK_PATH}/java git@github.com:imma/java 80425b0b2fb02a75e9aa185a30a35cddaf26dca0 master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 265e3fca269b26cbd65c51e3805083f5876a8e82 pkgsrc_2017Q1
-python ${BLOCK_PATH}/python git@github.com:imma/python 985b3421b0070548452764b13cfcf2a8ca3aba8c python-3.6
+python ${BLOCK_PATH}/python git@github.com:imma/python c8798a31215c3f1135de78cfd2ba7ba152331cb7 python-3.6
 ansible ${BLOCK_PATH}/ansible git@github.com:imma/ansible d16339969c85cbd38419cd7d521d9115d85c2c24 master
 inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory 57dea9182356c5fc77e27977648761beccc3473b master
 deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy fdab36011cf953d3d2eb5cb1c4fba72f6a2aa4e8 master
