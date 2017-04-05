@@ -87,8 +87,7 @@ sync:
 
 sync_fr:
 	git submodule update --init
-	git submodule foreach git checkout master
-	git submodule foreach git reset --hard origin/master
+	cat Blockfile.lock  | envsubst | runmany 1 5 'set -x; cd $$2 && git checkout --force $$5 && git reset --hard $$4 || (cd $$2 && git fetch && git checkout --force $$5 && git reset --hard)'
 
 update:
 	$(make) sync
