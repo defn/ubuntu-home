@@ -10,8 +10,8 @@ base ${BLOCK_PATH}/base git@github.com:imma/base e4b9b055d4ee5ba839e48e0d1f22e37
 jq ${BLOCK_PATH}/jq git@github.com:imma/jq dbe05747d63b166a59abe182761efba531ea2b32 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew ecd157fcfa339c6d7ac0d8ba1ba816451b305a19 master
 java ${BLOCK_PATH}/java git@github.com:imma/java 80425b0b2fb02a75e9aa185a30a35cddaf26dca0 master
-pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 7e540887df5fe2f7b8fe9c1113b5f28a6c0aeb2a master
-python ${BLOCK_PATH}/python git@github.com:imma/python 87d9f5555e214ac9212452d844e71c919f044343 master
+pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 265e3fca269b26cbd65c51e3805083f5876a8e82 pkgsrc_2017Q1
+python ${BLOCK_PATH}/python git@github.com:imma/python 985b3421b0070548452764b13cfcf2a8ca3aba8c python-3.6
 ansible ${BLOCK_PATH}/ansible git@github.com:imma/ansible d16339969c85cbd38419cd7d521d9115d85c2c24 master
 inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory 57dea9182356c5fc77e27977648761beccc3473b master
 deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy fdab36011cf953d3d2eb5cb1c4fba72f6a2aa4e8 master
@@ -27,7 +27,7 @@ context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272ef
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose c449d51c33b14f918e91c532d61acfe6c0d7818c master
 docker ${BLOCK_PATH}/docker git@github.com:imma/docker 50dc27d92b1e707e2df65c737322a23e49fcdb1c master
-kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes 556aeae0c102d54a1d9f192a25848230a58d465e master
+kubernetes ${BLOCK_PATH}/kubernetes git@github.com:imma/kubernetes 613f82f6a3b53da3bf0dd943a5a7149764241b76 master
 terraform ${BLOCK_PATH}/terraform git@github.com:imma/terraform 383ff636a1b82d112861399cc749094013490c30 master
 terragrunt ${BLOCK_PATH}/terragrunt git@github.com:imma/terragrunt bb77acee9e1f879e82a6ffbecef5d9c876970f18 master
 fogg ${BLOCK_PATH}/fogg git@github.com:imma/fogg 1e6a0714b463ca8f0c2f3c1926dc2e2b3e1cf4dd master
