@@ -6,7 +6,7 @@ function main {
 
   cd "$shome"
 
-  script/update
+  "$shome/script/update"
 
   local vip_cache=
   if ifconfig vboxnet0 2>/dev/null; then	
@@ -17,7 +17,10 @@ function main {
 
   case "$(uname -s)" in
     Darwin)
-      true
+      echo 'server=/dc1.consul/127.0.0.1#5354' | tee -a "$HOME/homebrew/etc/dnsmasq.conf"
+      echo "address=/nih/$vip_cache" | tee -a "$HOME/homebrew/etc/dnsmasq.conf"
+      echo 'server=8.8.4.4' | tee -a "$HOME/homebrew/etc/dnsmasq.conf"
+      brew services restart dnsmasq
       ;;
     *)
       echo 'server=/dc1.consul/127.0.0.1#5354' | sudo tee /etc/dnsmasq.d/nih
