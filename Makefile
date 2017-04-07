@@ -77,12 +77,6 @@ vagrant:
 	git clone git@github.com:imma/imma-config /config 2>/dev/null || true
 	rsync -ia .ssh/authorized_keys /config/ssh/
 
-nih: /config/ssh/authorized_keys
-	script/configure
-	$(MAKE) up
-	script/configure
-	$(MAKE) up
-
 sync:
 	git pull
 	$(make) sync_fr
