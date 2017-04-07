@@ -26,6 +26,9 @@ function main {
     "$@" home enable cache 2>/dev/null || true
   fi
 
+  "$@" make sync || true
+  "$@" make cache
+  "$@" work/block/script/cibuild
   "$@" make sync cache
   "$@" block clone
   "$@" block bootstrap

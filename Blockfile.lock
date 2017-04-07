@@ -1,13 +1,13 @@
 site               ${BLOCK_PATH}/site               git@github.com:imma/site               1a201d7847400deb19c729e46147be421146c539 develop 
+jq                 ${BLOCK_PATH}/jq                 git@github.com:imma/jq                 dbe05747d63b166a59abe182761efba531ea2b32 develop 
 shflags            ${BLOCK_PATH}/shflags            git@github.com:imma/shflags            9eb940b600afcc6d2507aa519db7640f9c6c686e develop 
 normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normalize          b156ba1ec79f2da218d463c9b86f4192bcbeab54 develop 
 bash-preexec       ${BLOCK_PATH}/bash-preexec       git@github.com:imma/bash-preexec       15618152d6ec511810e68d7b70b4ea5046cbeddd develop 
 sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub                062a65e087e86659f212da82f0311815a12244f1 develop 
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 develop 
-block              ${BLOCK_PATH}/block              git@github.com:imma/block              dd4fc8e45c2524b49777c85ded0017cfc6c69020 develop 
+block              ${BLOCK_PATH}/block              git@github.com:imma/block              e397b6326b01822a0073739d6704a1e86776485d develop 
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      e6e1f5f18ede05178fd76a4ee015621a070a0277 develop 
 base               ${BLOCK_PATH}/base               git@github.com:imma/base               e4b9b055d4ee5ba839e48e0d1f22e37c6e3bf8f4 develop 
-jq                 ${BLOCK_PATH}/jq                 git@github.com:imma/jq                 dbe05747d63b166a59abe182761efba531ea2b32 develop 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           ecd157fcfa339c6d7ac0d8ba1ba816451b305a19 develop 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               80425b0b2fb02a75e9aa185a30a35cddaf26dca0 develop 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             265e3fca269b26cbd65c51e3805083f5876a8e82 develop 
@@ -16,7 +16,7 @@ ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible 
 inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          57dea9182356c5fc77e27977648761beccc3473b develop 
 deploy             ${BLOCK_PATH}/deploy             git@github.com:imma/deploy             fdab36011cf953d3d2eb5cb1c4fba72f6a2aa4e8 develop 
 ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby               f65e74343e7984e4d2b038457c7a941867e16a8e develop 
-cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              1a681ad8e8b2365be56d263fd4e9012d14ff0bed develop 
+cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              a211926686682e82f193fc0073827cc921ff98e3 develop 
 curl               ${BLOCK_PATH}/curl               git@github.com:imma/curl               d86a9966a8b0b7aa5a85cb73b139847f9e4ce055 develop 
 nodeenv            ${BLOCK_PATH}/nodeenv            git@github.com:imma/nodeenv            29401e313bca9abf28a83e1dcf0174b95488bcd0 develop 
 node               ${BLOCK_PATH}/node               git@github.com:imma/node               f4686c657bf3619198a8a763eaf5cde9a605f156 develop 
