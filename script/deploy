@@ -33,7 +33,7 @@ if [[ "${1:-}" == "remote" ]]; then
     home enable cache 2>/dev/null || true
   fi
 
-  aptitude install -y gettext-base
+  sudo aptitude install -y gettext-base
 
   git pull
   git submodule update --init
