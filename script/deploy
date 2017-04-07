@@ -26,6 +26,7 @@ function main {
     "$@" home enable cache 2>/dev/null || true
   fi
 
+  "$@" git pull
   "$@" make sync cache reset-sshd
   "$@" script/cibuild
 
