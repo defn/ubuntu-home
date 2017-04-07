@@ -29,14 +29,6 @@ sync_fr:
 	git submodule update --init
 	cat Blockfile.lock  | envsubst | runmany 1 5 'set -x; cd $$2 && git checkout --force $$5 && git reset --hard $$4 || (cd $$2 && git fetch && git checkout --force $$5 && git reset --hard)'
 
-$(BLOCK_PATH)/base/Makefile.docker:
-	git submodule update --init
-	cat Blockfile.lock  | envsubst | runmany 1 5 'set -x; cd $$2 && git checkout --force $$5 && git reset --hard $$4 || (cd $$2 && git fetch && git checkout --force $$5 && git reset --hard)'
-
-$(BLOCK_PATH)/docs/Makefile.docs:
-	git submodule update --init
-	cat Blockfile.lock  | envsubst | runmany 1 5 'set -x; cd $$2 && git checkout --force $$5 && git reset --hard $$4 || (cd $$2 && git fetch && git checkout --force $$5 && git reset --hard)'
-
 include $(BLOCK_PATH)/base/Makefile.docker
 
 docker_default = docker-image

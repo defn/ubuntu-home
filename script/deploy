@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-function main {
-  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
-  source "$shome/script/profile"
+shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+source "$shome/script/profile"
 
+function main {
   set -exfu
 
   if ! "$@" test -d .git; then
@@ -15,24 +15,36 @@ function main {
     "$@" git reset --hard
   fi
 
-  if ! "$@" test -d /config/.git; then
-    "$@" sudo install -d -o ubuntu -g ubuntu /data
-    "$@" sudo install -d -o ubuntu -g ubuntu /data/cache
-    "$@" sudo install -d -o ubuntu -g ubuntu /config
-    "$@" -A git clone -b "$(cd "$shome" && git rev-parse --abbrev-ref HEAD)" git@github.com:imma/imma-config /config
-  fi
+  "$@" -A script/deploy remote
 
-  if "$@" curl -s http://cache.nih | grep Nexus; then
-    "$@" home enable cache 2>/dev/null || true
-  fi
-
-  "$@" git pull
-  "$@" make sync cache reset-sshd
-  "$@" script/cibuild
-
-  if "$@" curl -s http://cache.nih | grep Nexus; then
-    "$@" home disable cache
-  fi
 }
 
-main "$@"
+if [[ "${1:-}" == "remote" ]]; then
+  set -exfu
+
+  if ! test -d /config/.git; then
+    sudo install -d -o ubuntu -g ubuntu /data
+    sudo install -d -o ubuntu -g ubuntu /data/cache
+    sudo install -d -o ubuntu -g ubuntu /config
+    git clone -b "$(cd "$shome" && git rev-parse --abbrev-ref HEAD)" git@github.com:imma/imma-config /config
+  fi
+
+  if curl -s http://cache.nih | grep Nexus; then
+    home enable cache 2>/dev/null || true
+  fi
+
+  aptitude install -y gettext-base
+
+  git pull
+  git submodule update --init
+
+  make sync cache reset-sshd
+
+  script/cibuild
+
+  if curl -s http://cache.nih | grep Nexus; then
+    home disable cache
+  fi
+else
+  main "$@"
+fi
