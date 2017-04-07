@@ -105,7 +105,7 @@ $(BLOCK_PATH)/docs/Makefile.docs:
 	git submodule update --init -j 10
 
 lock:
-	$(make) update-modules
+	$(make) update-modules || true
 	block lock
 	git add -u work Blockfile.lock
 	gs
