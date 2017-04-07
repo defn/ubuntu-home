@@ -19,7 +19,7 @@ ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby    
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              a211926686682e82f193fc0073827cc921ff98e3 develop 
 curl               ${BLOCK_PATH}/curl               git@github.com:imma/curl               d86a9966a8b0b7aa5a85cb73b139847f9e4ce055 develop 
 nodeenv            ${BLOCK_PATH}/nodeenv            git@github.com:imma/nodeenv            29401e313bca9abf28a83e1dcf0174b95488bcd0 develop 
-node               ${BLOCK_PATH}/node               git@github.com:imma/node               0de56dbde3ac7d2ec15552de447f319b526b07e7 develop 
+node               ${BLOCK_PATH}/node               git@github.com:imma/node               2a31dc2a11860fe304867cd92e7c5f2db6e8f104 develop 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 develop 
 go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 e267101ba498700e41ca323713bfb11d7917f5e0 develop 
 lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                886a5ee608eb21da48d619298a4a20abf4511ad0 develop 
