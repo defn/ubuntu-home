@@ -93,9 +93,6 @@ update:
 	$(make) sync
 	home update
 
-upgrade:
-	script/cibuild
-
 add-modules:
 	block list | awk '/\/work\// {print $$3, $$2}' | perl -pe 's{[^\s]+?/work/}{work/}' | runmany 1 2 'git submodule add -f -b $(shell git rev-parse --abbrev-ref HEAD) $$1 $$2'
 

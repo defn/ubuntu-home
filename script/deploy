@@ -7,26 +7,30 @@ function main {
   set -exfu
 
   if ! "$@" test -d .git; then
+    "$@" -A ssh -o StrictHostKeyChecking=no git@github.com true || true
+
     "$@" sudo install -d -o ubuntu -g ubuntu /data
     "$@" sudo install -d -o ubuntu -g ubuntu /data/cache
     "$@" sudo install -d -o ubuntu -g ubuntu /config
 
-    "$@" -A ssh -o StrictHostKeyChecking=no git@github.com true || true
+    "$@" -A git clone -b "$(cd "$shome" && git rev-parse --abbrev-ref HEAD)" git@github.com:imma/imma-config /config
 
-    "$@" -A git clone git@github.com:imma/ubuntu
+    "$@" -A git clone -b "$(cd "$shome" && git rev-parse --abbrev-ref HEAD)" git@github.com:imma/ubuntu
     "$@" mv ubuntu/.git .
     "$@" rm -rf ubuntu
     "$@" git reset --hard
   fi
 
-  "$@" git pull
-
   if "$@" curl -s http://cache.nih | grep Nexus; then
     "$@" home enable cache 2>/dev/null || true
-    "$@" -t -A script/cibuild
+  fi
+
+  "$@" make sync cache
+  "$@" block clone
+  "$@" block bootstrap
+
+  if "$@" curl -s http://cache.nih | grep Nexus; then
     "$@" home disable cache
-  else
-    "$@" -t -A script/cibuild
   fi
 }
 
