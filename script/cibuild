@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+function main {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "$shome/script/profile"
+
+  sudo aptitude install -y gettext-base
+  make sync || true
+  make cache
+  work/block/script/cibuild
+  make sync cache
+  block clone
+  block bootstrap
+}
+
+main "$@"
