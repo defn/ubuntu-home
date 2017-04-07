@@ -21,6 +21,14 @@ cache:
 	@bash .bashrc
 	@bash .bashrc
 
+sync:
+	git pull
+	$(make) sync_fr
+
+sync_fr:
+	git submodule update --init
+	cat Blockfile.lock  | envsubst | runmany 1 5 'set -x; cd $$2 && git checkout --force $$5 && git reset --hard $$4 || (cd $$2 && git fetch && git checkout --force $$5 && git reset --hard)'
+
 include $(BLOCK_PATH)/base/Makefile.docker
 
 docker_default = docker-image
@@ -77,14 +85,6 @@ vagrant:
 	git clone git@github.com:imma/imma-config /config 2>/dev/null || true
 	rsync -ia .ssh/authorized_keys /config/ssh/
 
-sync:
-	git pull
-	$(make) sync_fr
-
-sync_fr:
-	git submodule update --init
-	cat Blockfile.lock  | envsubst | runmany 1 5 'set -x; cd $$2 && git checkout --force $$5 && git reset --hard $$4 || (cd $$2 && git fetch && git checkout --force $$5 && git reset --hard)'
-
 update:
 	$(make) sync
 	home update
@@ -108,6 +108,3 @@ include $(BLOCK_PATH)/docs/Makefile.docs
 
 reset-sshd:
 	chmod -v 600 work/sshd/etc/*key
-
-$(BLOCK_PATH)/docs/Makefile.docs:
-	make sync
