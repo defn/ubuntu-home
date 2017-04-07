@@ -5,6 +5,7 @@ function main {
   source "$shome/script/profile"
 
   pkg ensure sysutils/cdrtools
+  pkg ensure sysutils/findutils
 }
 
 main "$@"
