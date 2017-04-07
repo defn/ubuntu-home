@@ -1,6 +1,5 @@
 FROM docker.nih/block:ubuntu
 
-ARG SERIAL
 ARG CACHE
 
 USER root
