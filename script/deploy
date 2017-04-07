@@ -37,8 +37,9 @@ if [[ "${1:-}" == "remote" ]]; then
 
   git pull
   git submodule update --init
-
-  make sync cache reset-sshd
+  make cache
+  source .bashrc
+  make sync reset-sshd
 
   script/cibuild
 
