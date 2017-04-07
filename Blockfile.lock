@@ -29,8 +29,7 @@ docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-c
 docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             50dc27d92b1e707e2df65c737322a23e49fcdb1c develop 
 kubernetes         ${BLOCK_PATH}/kubernetes         git@github.com:imma/kubernetes         613f82f6a3b53da3bf0dd943a5a7149764241b76 develop 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          383ff636a1b82d112861399cc749094013490c30 develop 
-terragrunt         ${BLOCK_PATH}/terragrunt         git@github.com:imma/terragrunt         bb77acee9e1f879e82a6ffbecef5d9c876970f18 develop 
-fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               1e6a0714b463ca8f0c2f3c1926dc2e2b3e1cf4dd develop 
+fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               8d01f1802d6ad2a9e86c6a1219eee81893fba3c0 develop 
 aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                a89db53b626aa43ab4549f961032870d91e3ddaf develop 
 aq                 ${BLOCK_PATH}/aq                 git@github.com:imma/aq                 efce7ff4bb1c9632a5c904f294765eed59412b0f develop 
 aqq                ${BLOCK_PATH}/aqq                git@github.com:imma/aqq                5fcbd9a9594684346c79d0f20099db59f157bd18 develop 

@@ -242,10 +242,6 @@
 	path = work/packer
 	url = git@github.com:imma/packer
 	branch = develop
-[submodule "work/terragrunt"]
-	path = work/terragrunt
-	url = git@github.com:imma/terragrunt
-	branch = develop
 [submodule "work/slate"]
 	path = work/slate
 	url = git@github.com:imma/slate
