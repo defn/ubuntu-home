@@ -5,11 +5,7 @@ function main {
   source "$shome/script/profile"
 
   sudo aptitude install -y gettext-base
-  make sync || true
-  make cache
-  work/block/script/cibuild
-  make sync cache
-  block clone
+  "$shome/work/block/script/cibuild"
   block bootstrap
 }
 

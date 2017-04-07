@@ -26,6 +26,7 @@ function main {
     "$@" home enable cache 2>/dev/null || true
   fi
 
+  "$@" make sync cache
   "$@" script/cibuild
 
   if "$@" curl -s http://cache.nih | grep Nexus; then
