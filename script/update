@@ -13,7 +13,6 @@ function main {
   case "$(uname -s)" in
     Darwin)
       sudo ifconfig lo0 alias "$vip" netmask 255.255.255.0
-      brew install dnsmasq
       brew services restart dnsmasq
       ;;
     Linux)
