@@ -11,6 +11,8 @@ VIP ?= 172.28.128.1
 
 SHELL = bash
 
+BLOCK_PATH ?= $(HOME)/work
+
 all: cidata.iso
 	@true
 
