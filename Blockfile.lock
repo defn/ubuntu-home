@@ -5,9 +5,9 @@ normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normaliz
 bash-preexec       ${BLOCK_PATH}/bash-preexec       git@github.com:imma/bash-preexec       15618152d6ec511810e68d7b70b4ea5046cbeddd develop 
 sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub                062a65e087e86659f212da82f0311815a12244f1 develop 
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 develop 
-block              ${BLOCK_PATH}/block              git@github.com:imma/block              e397b6326b01822a0073739d6704a1e86776485d develop 
+block              ${BLOCK_PATH}/block              git@github.com:imma/block              e3bdcd68c61ebd8749403e7d5bc6cafd2e94a004 develop 
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      e6e1f5f18ede05178fd76a4ee015621a070a0277 develop 
-base               ${BLOCK_PATH}/base               git@github.com:imma/base               e4b9b055d4ee5ba839e48e0d1f22e37c6e3bf8f4 develop 
+base               ${BLOCK_PATH}/base               git@github.com:imma/base               2f52202e3182d39167415a5d16f6235b0f6d70a1 develop 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           ecd157fcfa339c6d7ac0d8ba1ba816451b305a19 develop 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               80425b0b2fb02a75e9aa185a30a35cddaf26dca0 develop 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             265e3fca269b26cbd65c51e3805083f5876a8e82 develop 
