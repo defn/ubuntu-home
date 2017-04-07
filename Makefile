@@ -108,3 +108,6 @@ include $(BLOCK_PATH)/docs/Makefile.docs
 
 reset-sshd:
 	chmod -v 600 work/sshd/etc/*key
+
+$(BLOCK_PATH)/docs/Makefile.docs:
+	make sync
