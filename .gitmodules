@@ -1,284 +1,284 @@
 [submodule "work/shflags"]
 	path = work/shflags
 	url = git@github.com:imma/shflags
-	branch = master
+	branch = develop
 [submodule "work/normalize"]
 	path = work/normalize
 	url = git@github.com:imma/normalize
-	branch = master
+	branch = develop
 [submodule "work/bash-preexec"]
 	path = work/bash-preexec
 	url = git@github.com:imma/bash-preexec
-	branch = master
+	branch = develop
 [submodule "work/sub"]
 	path = work/sub
 	url = git@github.com:imma/sub
-	branch = master
+	branch = develop
 [submodule "work/runmany"]
 	path = work/runmany
 	url = git@github.com:imma/runmany
-	branch = master
+	branch = develop
 [submodule "work/block"]
 	path = work/block
 	url = git@github.com:imma/block
-	branch = master
+	branch = develop
 [submodule "work/ubuntu-config"]
 	path = work/ubuntu-config
 	url = git@github.com:imma/ubuntu-config
-	branch = master
+	branch = develop
 [submodule "work/context"]
 	path = work/context
 	url = git@github.com:imma/context
-	branch = master
+	branch = develop
 [submodule "work/parity"]
 	path = work/parity
 	url = git@github.com:imma/parity
-	branch = master
+	branch = develop
 [submodule "work/docker"]
 	path = work/docker
 	url = git@github.com:imma/docker
-	branch = master
+	branch = develop
 [submodule "work/pkgsrc"]
 	path = work/pkgsrc
 	url = git@github.com:imma/pkgsrc
-	branch = master
+	branch = develop
 [submodule "work/jq"]
 	path = work/jq
 	url = git@github.com:imma/jq
-	branch = master
+	branch = develop
 [submodule "work/base"]
 	path = work/base
 	url = git@github.com:imma/base
-	branch = master
+	branch = develop
 [submodule "work/ruby"]
 	path = work/ruby
 	url = git@github.com:imma/ruby
-	branch = master
+	branch = develop
 [submodule "work/python"]
 	path = work/python
 	url = git@github.com:imma/python
-	branch = master
+	branch = develop
 [submodule "work/cache"]
 	path = work/cache
 	url = git@github.com:imma/cache
-	branch = master
+	branch = develop
 [submodule "work/curl"]
 	path = work/curl
 	url = git@github.com:imma/curl
-	branch = master
+	branch = develop
 [submodule "work/nodeenv"]
 	path = work/nodeenv
 	url = git@github.com:imma/nodeenv
-	branch = master
+	branch = develop
 [submodule "work/node"]
 	path = work/node
 	url = git@github.com:imma/node
-	branch = master
+	branch = develop
 [submodule "work/java"]
 	path = work/java
 	url = git@github.com:imma/java
-	branch = master
+	branch = develop
 [submodule "work/bash4"]
 	path = work/bash4
 	url = git@github.com:imma/bash4
-	branch = master
+	branch = develop
 [submodule "work/kubernetes"]
 	path = work/kubernetes
 	url = git@github.com:imma/kubernetes
-	branch = master
+	branch = develop
 [submodule "work/homebrew"]
 	path = work/homebrew
 	url = git@github.com:imma/homebrew
-	branch = master
+	branch = develop
 [submodule "work/runit"]
 	path = work/runit
 	url = git@github.com:imma/runit
-	branch = master
+	branch = develop
 [submodule "work/service"]
 	path = work/service
 	url = git@github.com:imma/service
-	branch = master
+	branch = develop
 [submodule "work/sshd"]
 	path = work/sshd
 	url = git@github.com:imma/sshd
-	branch = master
+	branch = develop
 [submodule "work/ansible"]
 	path = work/ansible
 	url = git@github.com:imma/ansible
-	branch = master
+	branch = develop
 [submodule "work/facts"]
 	path = work/facts
 	url = git@github.com:imma/facts
-	branch = master
+	branch = develop
 [submodule "work/consul"]
 	path = work/consul
 	url = git@github.com:imma/consul
-	branch = master
+	branch = develop
 [submodule "work/consul-agent"]
 	path = work/consul-agent
 	url = git@github.com:imma/consul-agent
-	branch = master
+	branch = develop
 [submodule "work/vault"]
 	path = work/vault
 	url = git@github.com:imma/vault
-	branch = master
+	branch = develop
 [submodule "work/linkerd"]
 	path = work/linkerd
 	url = git@github.com:imma/linkerd
-	branch = master
+	branch = develop
 [submodule "work/aq"]
 	path = work/aq
 	url = git@github.com:imma/aq
-	branch = master
+	branch = develop
 [submodule "work/aqq"]
 	path = work/aqq
 	url = git@github.com:imma/aqq
-	branch = master
+	branch = develop
 [submodule "work/inventory"]
 	path = work/inventory
 	url = git@github.com:imma/inventory
-	branch = master
+	branch = develop
 [submodule "work/deploy"]
 	path = work/deploy
 	url = git@github.com:imma/deploy
-	branch = master
+	branch = develop
 [submodule "work/aws"]
 	path = work/aws
 	url = git@github.com:imma/aws
-	branch = master
+	branch = develop
 [submodule "work/awesome"]
 	path = work/awesome
 	url = git@github.com:imma/awesome
-	branch = master
+	branch = develop
 [submodule "work/talign"]
 	path = work/talign
 	url = git@github.com:imma/talign
-	branch = master
+	branch = develop
 [submodule "work/git"]
 	path = work/git
 	url = git@github.com:imma/git
-	branch = master
+	branch = develop
 [submodule "work/junas"]
 	path = work/junas
 	url = git@github.com:imma/junas
-	branch = master
+	branch = develop
 [submodule "work/cue"]
 	path = work/cue
 	url = git@github.com:imma/cue
-	branch = master
+	branch = develop
 [submodule "work/defn"]
 	path = work/defn
 	url = git@github.com:imma/defn
-	branch = master
+	branch = develop
 [submodule "work/htop"]
 	path = work/htop
 	url = git@github.com:imma/htop
-	branch = master
+	branch = develop
 [submodule "work/sysadmin"]
 	path = work/sysadmin
 	url = git@github.com:imma/sysadmin
-	branch = master
+	branch = develop
 [submodule "work/buildkite"]
 	path = work/buildkite
 	url = git@github.com:imma/buildkite
-	branch = master
+	branch = develop
 [submodule "work/docker-compose"]
 	path = work/docker-compose
 	url = git@github.com:imma/docker-compose
-	branch = master
+	branch = develop
 [submodule "work/lxd"]
 	path = work/lxd
 	url = git@github.com:imma/lxd
-	branch = master
+	branch = develop
 [submodule "work/syslog-ng"]
 	path = work/syslog-ng
 	url = git@github.com:imma/syslog-ng
-	branch = master
+	branch = develop
 [submodule "work/confd"]
 	path = work/confd
 	url = git@github.com:imma/confd
-	branch = master
+	branch = develop
 [submodule "work/gpg"]
 	path = work/gpg
 	url = git@github.com:imma/gpg
-	branch = master
+	branch = develop
 [submodule "work/git-crypt"]
 	path = work/git-crypt
 	url = git@github.com:imma/git-crypt
-	branch = master
+	branch = develop
 [submodule "work/etcd"]
 	path = work/etcd
 	url = git@github.com:imma/etcd
-	branch = master
+	branch = develop
 [submodule "work/flannel"]
 	path = work/flannel
 	url = git@github.com:imma/flannel
-	branch = master
+	branch = develop
 [submodule "work/site"]
 	path = work/site
 	url = git@github.com:imma/site
-	branch = master
+	branch = develop
 [submodule "work/hugo-material-docs"]
 	path = work/hugo-material-docs
 	url = git@github.com:imma/hugo-material-docs
-	branch = master
+	branch = develop
 [submodule "work/hugo"]
 	path = work/hugo
 	url = git@github.com:imma/hugo
-	branch = master
+	branch = develop
 [submodule "work/go"]
 	path = work/go
 	url = git@github.com:imma/go
-	branch = master
+	branch = develop
 [submodule "work/terraform"]
 	path = work/terraform
 	url = git@github.com:imma/terraform
-	branch = master
+	branch = develop
 [submodule "work/fogg"]
 	path = work/fogg
 	url = git@github.com:imma/fogg
-	branch = master
+	branch = develop
 [submodule "work/packer"]
 	path = work/packer
 	url = git@github.com:imma/packer
-	branch = master
+	branch = develop
 [submodule "work/terragrunt"]
 	path = work/terragrunt
 	url = git@github.com:imma/terragrunt
-	branch = master
+	branch = develop
 [submodule "work/slate"]
 	path = work/slate
 	url = git@github.com:imma/slate
-	branch = master
+	branch = develop
 [submodule "work/docs"]
 	path = work/docs
 	url = git@github.com:imma/docs
-	branch = master
+	branch = develop
 [submodule "work/imma"]
 	path = work/imma
 	url = git@github.com:imma/imma
-	branch = master
+	branch = develop
 [submodule "work/provision"]
 	path = work/provision
 	url = git@github.com:imma/provision
-	branch = master
+	branch = develop
 [submodule "work/dream"]
 	path = work/dream
 	url = git@github.com:imma/dream
-	branch = master
+	branch = develop
 [submodule "work/vagrant"]
 	path = work/vagrant
 	url = git@github.com:imma/vagrant
-	branch = master
+	branch = develop
 [submodule "work/limbo"]
 	path = work/limbo
 	url = git@github.com:imma/limbo
-	branch = master
+	branch = develop
 [submodule "work/inception"]
 	path = work/inception
 	url = git@github.com:imma/inception
-	branch = master
+	branch = develop
 [submodule "work/virtualbox"]
 	path = work/virtualbox
 	url = git@github.com:imma/virtualbox
-	branch = master
+	branch = develop
