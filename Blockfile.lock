@@ -19,7 +19,7 @@ ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby f65e74343e7984e4d2b038457c7a941
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache 1a681ad8e8b2365be56d263fd4e9012d14ff0bed develop
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl d86a9966a8b0b7aa5a85cb73b139847f9e4ce055 develop
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 develop
-node ${BLOCK_PATH}/node git@github.com:imma/node 4abf90a2ec446506541feb8a31c546dbda2da23c develop
+node ${BLOCK_PATH}/node git@github.com:imma/node f4686c657bf3619198a8a763eaf5cde9a605f156 develop
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 develop
 go ${BLOCK_PATH}/go git@github.com:imma/go e267101ba498700e41ca323713bfb11d7917f5e0 develop
 lxd ${BLOCK_PATH}/lxd git@github.com:imma/lxd 886a5ee608eb21da48d619298a4a20abf4511ad0 develop
@@ -36,7 +36,7 @@ aq ${BLOCK_PATH}/aq git@github.com:imma/aq efce7ff4bb1c9632a5c904f294765eed59412
 aqq ${BLOCK_PATH}/aqq git@github.com:imma/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 develop
 awesome ${BLOCK_PATH}/awesome git@github.com:imma/awesome 6351e9af188f613373ee43005c8748be889762ee develop
 imma ${BLOCK_PATH}/imma git@github.com:imma/imma eba561e38ea8a1b5c9d6be5a5a6b2d362a8ed84c develop
-packer ${BLOCK_PATH}/packer git@github.com:imma/packer 636ad61cab3b7bc72b0665ab8c713768818fcbc4 develop
+packer ${BLOCK_PATH}/packer git@github.com:imma/packer 7baa228caf7ecc1758dd4bd85d6a44136f6cef19 develop
 provision ${BLOCK_PATH}/provision git@github.com:imma/provision daba298d51226d0be7613a9d4ef41b10da256399 develop
 dream ${BLOCK_PATH}/dream git@github.com:imma/dream 71e2403fe33099e3bf85bb126cfcfd767e027915 develop
 vagrant ${BLOCK_PATH}/vagrant git@github.com:imma/vagrant 7a5b60343c585a0b67cd327909ecb525fb9736aa develop
