@@ -7,7 +7,7 @@
           {
             "subnet": "${NET_SUBNET}.0/23",
             "gateway": "${NET_SUBNET}.1",
-            "ip_range": "${NET_PREFIX}.192/26"
+            "ip_range": "${NET_PREFIX}.128/25"
           }
         ]
       }
