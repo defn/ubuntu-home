@@ -4,7 +4,7 @@
     [ "ruby", "python", "node", "java", "bash4", "go" ],
     [ "lxd", "docker", "kubernetes" ],
     [ "fogg", "imma", "inception", "virtualbox" ],
-    [ "sshd", "etcd", "flannel", "consul-agent", "vault", "linkerd", "buildkite", "syslog-ng" ],
+    [ "sshd", "etcd", "consul-agent", "vault", "linkerd", "buildkite", "syslog-ng" ],
     [ "awesome", "defn", "sysadmin", "junas" ],
     [ "confd", "ansible", "gpg", "git-crypt" ],
     [ "docs" ]
