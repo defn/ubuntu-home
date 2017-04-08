@@ -210,10 +210,6 @@
 	path = work/etcd
 	url = git@github.com:imma/etcd
 	branch = develop
-[submodule "work/flannel"]
-	path = work/flannel
-	url = git@github.com:imma/flannel
-	branch = develop
 [submodule "work/site"]
 	path = work/site
 	url = git@github.com:imma/site
