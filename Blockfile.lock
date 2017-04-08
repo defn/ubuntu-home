@@ -7,7 +7,7 @@ sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub     
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 develop 
 block              ${BLOCK_PATH}/block              git@github.com:imma/block              e3bdcd68c61ebd8749403e7d5bc6cafd2e94a004 develop 
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      e6e1f5f18ede05178fd76a4ee015621a070a0277 develop 
-base               ${BLOCK_PATH}/base               git@github.com:imma/base               2d14b986ae58dfe3c670281829f023e093888ca2 develop 
+base               ${BLOCK_PATH}/base               git@github.com:imma/base               b6ad7e795e827eb7ad6e8ecdb05b498963d006e7 develop 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           3c19cc05a3597cf829654948ea95b95f48982c79 develop 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               80425b0b2fb02a75e9aa185a30a35cddaf26dca0 develop 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             5ef6e47b679795a7aff8515c7a6a2be90b4e8c43 develop 
@@ -19,9 +19,9 @@ ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby    
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              a211926686682e82f193fc0073827cc921ff98e3 develop 
 curl               ${BLOCK_PATH}/curl               git@github.com:imma/curl               d86a9966a8b0b7aa5a85cb73b139847f9e4ce055 develop 
 nodeenv            ${BLOCK_PATH}/nodeenv            git@github.com:imma/nodeenv            29401e313bca9abf28a83e1dcf0174b95488bcd0 develop 
-node               ${BLOCK_PATH}/node               git@github.com:imma/node               2a31dc2a11860fe304867cd92e7c5f2db6e8f104 develop 
+node               ${BLOCK_PATH}/node               git@github.com:imma/node               2661a4ef3c70deceb51b350833225dc7039170f0 develop 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 develop 
-go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 e267101ba498700e41ca323713bfb11d7917f5e0 develop 
+go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 2966b5162640661455727b122847488455dc9013 develop 
 lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                886a5ee608eb21da48d619298a4a20abf4511ad0 develop 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            a18ab2e5d9764c406272efd228b3a37fd6d1ebbc develop 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             932ae42c1975401fa8f2df8e1d9b77ce1ad90775 develop 
