@@ -47,8 +47,8 @@ runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit   
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            3514336e1f75db34f9aa80139de795080d0e7337 develop 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               66839a7292f3d7e379a029263aaa854d5ae3eca9 develop 
 etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               ee0ea9f975c8fe1caef43f8565df7b2d378f9af3 develop 
-consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             3171d4ecb9f8568f90472b382c02251cb7c9529c develop 
-consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       6943eb64d461a04b9b7506e19dbf2b4737483e90 develop 
+consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             49f97b0a486e33303e7324d4f9f386d16e998940 develop 
+consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       faf769858d96c7183b5227c68ebbc62ef86ed49e develop 
 vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault              97fb9f4168dbbd204d9006d7cb656d5c7c6b0830 develop 
 linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            b1f76d8a2600df99e0e8e8b4cd2bf93c917037ce develop 
 buildkite          ${BLOCK_PATH}/buildkite          git@github.com:imma/buildkite          579c510c72b1682f9b0d4ea7ef01b5efd61ce2ae develop 
