@@ -49,6 +49,7 @@
 /.env.d
 /.rnd
 /.cargo
+/.name
 
 # macos
 /.CFUserTextEncoding
