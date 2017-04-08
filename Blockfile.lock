@@ -7,7 +7,7 @@ sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub     
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 develop 
 block              ${BLOCK_PATH}/block              git@github.com:imma/block              e3bdcd68c61ebd8749403e7d5bc6cafd2e94a004 develop 
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      e6e1f5f18ede05178fd76a4ee015621a070a0277 develop 
-base               ${BLOCK_PATH}/base               git@github.com:imma/base               86863980972dbc95e23f468a45d06c5f211c2071 develop 
+base               ${BLOCK_PATH}/base               git@github.com:imma/base               3049caf9b4dd698b0455969b6b108ecac0a829cf develop 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           3c19cc05a3597cf829654948ea95b95f48982c79 develop 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               80425b0b2fb02a75e9aa185a30a35cddaf26dca0 develop 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             5ef6e47b679795a7aff8515c7a6a2be90b4e8c43 develop 
@@ -47,7 +47,6 @@ runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit   
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            3514336e1f75db34f9aa80139de795080d0e7337 develop 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               66839a7292f3d7e379a029263aaa854d5ae3eca9 develop 
 etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               ee0ea9f975c8fe1caef43f8565df7b2d378f9af3 develop 
-flannel            ${BLOCK_PATH}/flannel            git@github.com:imma/flannel            b780c05bc1a4c318d1f87bc5cce91de420451a77 develop 
 consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             06d8acac5391e51a1037022712d848cbcfdda858 develop 
 consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       3221a70abb96ef514b4f636968037df3759b1a49 develop 
 vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault              97fb9f4168dbbd204d9006d7cb656d5c7c6b0830 develop 
