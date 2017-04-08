@@ -7,7 +7,7 @@ sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub     
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 develop 
 block              ${BLOCK_PATH}/block              git@github.com:imma/block              e3bdcd68c61ebd8749403e7d5bc6cafd2e94a004 develop 
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      e6e1f5f18ede05178fd76a4ee015621a070a0277 develop 
-base               ${BLOCK_PATH}/base               git@github.com:imma/base               b379ad6e0e5ea38cd48e3d56f631a790f11878a9 develop 
+base               ${BLOCK_PATH}/base               git@github.com:imma/base               2d14b986ae58dfe3c670281829f023e093888ca2 develop 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           3c19cc05a3597cf829654948ea95b95f48982c79 develop 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               80425b0b2fb02a75e9aa185a30a35cddaf26dca0 develop 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             5ef6e47b679795a7aff8515c7a6a2be90b4e8c43 develop 
@@ -48,7 +48,7 @@ service            ${BLOCK_PATH}/service            git@github.com:imma/service 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               66839a7292f3d7e379a029263aaa854d5ae3eca9 develop 
 etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               ee0ea9f975c8fe1caef43f8565df7b2d378f9af3 develop 
 consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             06d8acac5391e51a1037022712d848cbcfdda858 develop 
-consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       a73a0972d16e6855de04c5da6714dfcabf45c053 develop 
+consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       26372f1527afd88e502a0349017ed824385db38a develop 
 vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault              97fb9f4168dbbd204d9006d7cb656d5c7c6b0830 develop 
 linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            e55925d77e82d70a85301ff8c102e43ecd83e9dc develop 
 buildkite          ${BLOCK_PATH}/buildkite          git@github.com:imma/buildkite          4bb0730df8aeac8d6527a1f696419ee8fd2bd1cd develop 
