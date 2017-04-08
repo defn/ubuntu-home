@@ -7,7 +7,7 @@
           {
             "subnet": "${NET_SUBNET}.0/23",
             "gateway": "${NET_SUBNET}.1",
-            "ip_range": "${NET_PREFIX}.0/24"
+            "ip_range": "${NET_PREFIX}.192/26"
           }
         ]
       }
@@ -16,7 +16,7 @@
   "services": {
     "base": {
       "environment": [
-        "SERVICE_2222_NAME=ssh"
+        "SERVICE_2222_NAME=base"
       ],
       "volumes": [
         "/data:/data",
@@ -28,18 +28,12 @@
       "cap_add": [
         "NET_ADMIN"
       ],
-      "networks": {
-        "default": {
-          "ipv4_address": "${NET_PREFIX}.97"
-        }
-      },
-      "dns_search": "node.dc1.consul",
-      "image": "${BLOCK_REGISTRY}/block:base",
-      "hostname": "base"
+      "dns_search": "node.dc1.consul service.dc1.consul",
+      "image": "${BLOCK_REGISTRY}/block:base"
     },
     "ubuntu": {
       "environment": [
-        "SERVICE_2222_NAME=ssh"
+        "SERVICE_2222_NAME=ubuntu"
       ],
       "volumes": [
         "/data:/data",
@@ -51,14 +45,8 @@
       "cap_add": [
         "NET_ADMIN"
       ],
-      "networks": {
-        "default": {
-          "ipv4_address": "${NET_PREFIX}.98"
-        }
-      },
-      "dns_search": "node.dc1.consul",
-      "image": "${BLOCK_REGISTRY}/block:ubuntu",
-      "hostname": "ubuntu"
+      "dns_search": "node.dc1.consul service.dc1.consul",
+      "image": "${BLOCK_REGISTRY}/block:ubuntu"
     }
   }
 }
