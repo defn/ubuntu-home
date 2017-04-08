@@ -16,7 +16,6 @@
   "services": {
     "base": {
       "environment": [
-        "SERVICE_2222_NAME=base"
       ],
       "volumes": [
         "/data:/data",
@@ -33,7 +32,6 @@
     },
     "ubuntu": {
       "environment": [
-        "SERVICE_2222_NAME=ubuntu"
       ],
       "volumes": [
         "/data:/data",
