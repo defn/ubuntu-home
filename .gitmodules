@@ -274,3 +274,7 @@
 	path = work/helm
 	url = git@github.com:imma/helm
 	branch = develop
+[submodule "work/calico"]
+	path = work/calico
+	url = git@github.com:imma/calico
+	branch = develop
