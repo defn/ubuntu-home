@@ -26,7 +26,7 @@ lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd     
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            a18ab2e5d9764c406272efd228b3a37fd6d1ebbc develop 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             932ae42c1975401fa8f2df8e1d9b77ce1ad90775 develop 
 docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     9f82424257985b3acb7cd964902eb715e441669f develop 
-docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             50dc27d92b1e707e2df65c737322a23e49fcdb1c develop 
+docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             eeb315e3e63ef037aa681a2f6e75c914ff9df0dd develop 
 kubernetes         ${BLOCK_PATH}/kubernetes         git@github.com:imma/kubernetes         613f82f6a3b53da3bf0dd943a5a7149764241b76 develop 
 helm               ${BLOCK_PATH}/helm               git@github.com:imma/helm               cef3b0d5f7d50b8e5fdff3aab60fa0390a2f07f3 develop 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          383ff636a1b82d112861399cc749094013490c30 develop 
