@@ -238,10 +238,6 @@
 	path = work/packer
 	url = git@github.com:imma/packer
 	branch = develop
-[submodule "work/slate"]
-	path = work/slate
-	url = git@github.com:imma/slate
-	branch = develop
 [submodule "work/docs"]
 	path = work/docs
 	url = git@github.com:imma/docs
