@@ -50,6 +50,8 @@
 /.rnd
 /.cargo
 /.name
+/tmp
+/homebrew
 
 # macos
 /.CFUserTextEncoding
@@ -76,3 +78,40 @@
 # docs
 /themes
 /public
+
+# more ignores on osx
+/.BuildServer/
+/.Xauthority
+/.Xdisplay
+/.Xmodmap
+/.Xresources
+/.block-name
+/.cpan/
+/.dropbox/
+/.git-crypt/
+/.gitattributes
+/.hammerspoon/
+/.host-name
+/.inputrc
+/.ipython/
+/.ivy2/
+/.jenkins/
+/.jupyter/
+/.lein/
+/.lein_history
+/.local/
+/.m2/repository
+/.node-gyp/
+/.ovftool.ssldb
+/.pentadactyl/
+/.ptpython/
+/.ruby-version
+/.run
+/.sbt/
+/.sh_history
+/.subversion/
+/.tmux.conf
+/.trc
+/.tugboat
+/.xinitrc
+/.xsession
