@@ -2,7 +2,7 @@
   "require": [
     [ "site", "ubuntu-config", "base", "deploy" ],
     [ "ruby", "python", "node", "java", "bash4", "go" ],
-    [ "lxd", "docker", "kubernetes" ],
+    [ "lxd", "docker", "kubernetes", "helm" ],
     [ "fogg", "imma", "inception", "virtualbox" ],
     [ "sshd", "etcd", "consul-agent", "vault", "linkerd", "buildkite", "syslog-ng" ],
     [ "awesome", "defn", "sysadmin", "junas" ],

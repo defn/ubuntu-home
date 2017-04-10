@@ -270,3 +270,7 @@
 	path = work/virtualbox
 	url = git@github.com:imma/virtualbox
 	branch = develop
+[submodule "work/helm"]
+	path = work/helm
+	url = git@github.com:imma/helm
+	branch = develop

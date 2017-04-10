@@ -28,6 +28,7 @@ parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity  
 docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     9f82424257985b3acb7cd964902eb715e441669f develop 
 docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             50dc27d92b1e707e2df65c737322a23e49fcdb1c develop 
 kubernetes         ${BLOCK_PATH}/kubernetes         git@github.com:imma/kubernetes         613f82f6a3b53da3bf0dd943a5a7149764241b76 develop 
+helm               ${BLOCK_PATH}/helm               git@github.com:imma/helm               cef3b0d5f7d50b8e5fdff3aab60fa0390a2f07f3 develop 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          383ff636a1b82d112861399cc749094013490c30 develop 
 fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               8d01f1802d6ad2a9e86c6a1219eee81893fba3c0 develop 
 aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                a89db53b626aa43ab4549f961032870d91e3ddaf develop 
