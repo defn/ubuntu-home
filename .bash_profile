@@ -8,7 +8,7 @@ function home_profile {
   else
     case "$?" in
       1)
-        check_ssh_agent=
+        check_ssh_agent=1
         ;;
     esac
   fi

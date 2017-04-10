@@ -52,6 +52,7 @@
 /.name
 /tmp
 /homebrew
+/.ssh-agent
 
 # macos
 /.CFUserTextEncoding
