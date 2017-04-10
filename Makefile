@@ -28,6 +28,7 @@ sync:
 sync_fr:
 	git submodule update --init
 	cat Blockfile.lock  | envsubst | runmany 1 5 'set -x; cd $$2 && git checkout --force $$5 && git reset --hard $$4 || (cd $$2 && git fetch && git checkout --force $$5 && git reset --hard)'
+	$(make) cache
 
 include $(BLOCK_PATH)/base/Makefile.docker
 
