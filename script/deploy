@@ -42,6 +42,7 @@ if [[ "${1:-}" == "remote" ]]; then
   make cache
   source .bashrc
   make sync
+  (set +f; chmod 0600 ~/work/sshd/etc/*key)
 
   script/cibuild
 
