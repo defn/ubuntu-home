@@ -66,5 +66,5 @@ confd              ${BLOCK_PATH}/confd              git@github.com:imma/confd   
 gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                d1ad1d94b87233a2a8bd3d7fc0ed748c31abad9e develop 
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          5edfb8a7ef8a97c8642e1b9b987309c23dd11a90 develop 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               a0f87758e3006844e3c749a79a63bfcbfee3fb58 develop 
-hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 924d5a836f382ce664cc8ab9383a61d08fcd965a develop 
+hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs be9aa978756e6f572a5e11ce3eb69691ebee0ede develop 
 docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               d5799525ced858856c42ee3464125c4846eac066 develop 
