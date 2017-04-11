@@ -2,7 +2,7 @@ site               ${BLOCK_PATH}/site               git@github.com:imma/site    
 jq                 ${BLOCK_PATH}/jq                 git@github.com:imma/jq                 dbe05747d63b166a59abe182761efba531ea2b32 develop 
 shflags            ${BLOCK_PATH}/shflags            git@github.com:imma/shflags            13758de68182760622dd14637f780683f2ca8466 develop 
 normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normalize          b156ba1ec79f2da218d463c9b86f4192bcbeab54 develop 
-bash-preexec       ${BLOCK_PATH}/bash-preexec       git@github.com:imma/bash-preexec       15618152d6ec511810e68d7b70b4ea5046cbeddd develop 
+bash-preexec       ${BLOCK_PATH}/bash-preexec       git@github.com:imma/bash-preexec       27a59a60ca7eb9231f0052e779b2a96387a3a725 develop 
 sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub                062a65e087e86659f212da82f0311815a12244f1 develop 
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 develop 
 block              ${BLOCK_PATH}/block              git@github.com:imma/block              e3bdcd68c61ebd8749403e7d5bc6cafd2e94a004 develop 
