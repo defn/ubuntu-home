@@ -33,4 +33,5 @@ function home_bashrc {
   fi
 }
 
+umask 0022
 home_bashrc
