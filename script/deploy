@@ -21,6 +21,7 @@ function main {
 
 if [[ "${1:-}" == "remote" ]]; then
   set -exfu
+  umask 0022
 
   if ! test -d /config/.git; then
     sudo install -d -o ubuntu -g ubuntu /data
@@ -39,7 +40,7 @@ if [[ "${1:-}" == "remote" ]]; then
   git submodule update --init
   make cache
   source .bashrc
-  make sync reset-sshd
+  make sync
 
   script/cibuild
 
