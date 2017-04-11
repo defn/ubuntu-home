@@ -7,7 +7,7 @@ sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub     
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 develop 
 block              ${BLOCK_PATH}/block              git@github.com:imma/block              e3bdcd68c61ebd8749403e7d5bc6cafd2e94a004 develop 
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      e6e1f5f18ede05178fd76a4ee015621a070a0277 develop 
-base               ${BLOCK_PATH}/base               git@github.com:imma/base               c67381e47618ff2ccfad19b87575baab1957f5b2 develop 
+base               ${BLOCK_PATH}/base               git@github.com:imma/base               d911c62d07285495e2d6a14484acb2b8f850fba9 develop 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           3c19cc05a3597cf829654948ea95b95f48982c79 develop 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               80425b0b2fb02a75e9aa185a30a35cddaf26dca0 develop 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             1dec71cd70fe13032f4148622fc33f339674fa07 develop 
@@ -31,7 +31,7 @@ kubernetes         ${BLOCK_PATH}/kubernetes         git@github.com:imma/kubernet
 helm               ${BLOCK_PATH}/helm               git@github.com:imma/helm               c97cd05a224b7899fc2b704a05fe0e35c7aee3d5 develop 
 calico             ${BLOCK_PATH}/calico             git@github.com:imma/calico             930f19d7207e4cef3b70dd9793610c7e7fe4e4dc develop 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          383ff636a1b82d112861399cc749094013490c30 develop 
-fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               55cd0a064fdb05db01b8075cd135b73e0f10bb85 develop 
+fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               52b2724adef7d82fa7f76b7ffc80f7d915de5a69 develop 
 aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                a89db53b626aa43ab4549f961032870d91e3ddaf develop 
 aq                 ${BLOCK_PATH}/aq                 git@github.com:imma/aq                 efce7ff4bb1c9632a5c904f294765eed59412b0f develop 
 aqq                ${BLOCK_PATH}/aqq                git@github.com:imma/aqq                5fcbd9a9594684346c79d0f20099db59f157bd18 develop 
