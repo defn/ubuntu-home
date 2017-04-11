@@ -6,6 +6,7 @@ function main {
 
   pkg ensure sysutils/cdrtools
   pkg ensure sysutils/findutils
+  pkg ensure security/openssh
 }
 
 main "$@"

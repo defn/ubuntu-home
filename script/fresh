@@ -12,6 +12,10 @@ function main {
     return 1
   fi
 
+  if [[ "$(type -P ssh)" != "$PKG_HOME/install/bin/ssh" ]]; then
+    return 1
+  fi
+
   return 0
 }
 
