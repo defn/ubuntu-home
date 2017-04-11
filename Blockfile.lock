@@ -7,7 +7,7 @@ sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub     
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 develop 
 block              ${BLOCK_PATH}/block              git@github.com:imma/block              e3bdcd68c61ebd8749403e7d5bc6cafd2e94a004 develop 
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      e6e1f5f18ede05178fd76a4ee015621a070a0277 develop 
-base               ${BLOCK_PATH}/base               git@github.com:imma/base               400c7d284d41533e4745ccc6712d61121e001569 develop 
+base               ${BLOCK_PATH}/base               git@github.com:imma/base               9e76762951b8e6f21cd9d2082b43f94430cb7ce4 develop 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           3c19cc05a3597cf829654948ea95b95f48982c79 develop 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               80425b0b2fb02a75e9aa185a30a35cddaf26dca0 develop 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             1dec71cd70fe13032f4148622fc33f339674fa07 develop 
