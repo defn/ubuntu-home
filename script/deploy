@@ -35,6 +35,7 @@ if [[ "${1:-}" == "remote" ]]; then
 
   sudo aptitude install -y gettext-base
 
+  chmod -v 640 ~/.ssh/config
   git pull
   git submodule update --init
   make cache
