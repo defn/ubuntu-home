@@ -42,6 +42,7 @@ function main {
     "$@" mv ubuntu/.git .
     "$@" rm -rf ubuntu
     "$@" git reset --hard
+    "$@" chmod 0640 .ssh/config
   fi
 
   "$@" -A script/deploy remote
