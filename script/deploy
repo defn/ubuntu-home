@@ -3,26 +3,8 @@
 shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 source "$shome/script/profile"
 
-function main {
+function remote {
   set -exfu
-
-  if ! "$@" test -d .git; then
-    "$@" -A ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
-
-    "$@" -A git clone -b "$(cd "$shome" && git rev-parse --abbrev-ref HEAD)" git@github.com:imma/ubuntu
-    "$@" mv ubuntu/.git .
-    "$@" rm -rf ubuntu
-    "$@" git reset --hard
-    "$@" chmod 0640 .ssh/config
-  fi
-
-  "$@" -A script/deploy remote
-
-}
-
-if [[ "${1:-}" == "remote" ]]; then
-  set -exfu
-  umask 0022
 
   if ! test -d /config/.git; then
     sudo install -d -o ubuntu -g ubuntu /data
@@ -49,6 +31,29 @@ if [[ "${1:-}" == "remote" ]]; then
   if curl -s http://cache.nih | grep Nexus; then
     home disable cache
   fi
+}
+
+function main {
+  set -exfu
+
+  if ! "$@" test -d .git; then
+    "$@" -A ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
+
+    "$@" -A git clone -b "$(cd "$shome" && git rev-parse --abbrev-ref HEAD)" git@github.com:imma/ubuntu
+    "$@" mv ubuntu/.git .
+    "$@" rm -rf ubuntu
+    "$@" git reset --hard
+    "$@" chmod 0640 .ssh/config
+  fi
+
+  "$@" -A script/deploy remote
+
+}
+
+umask 0022
+if [[ "${1:-}" == "remote" ]]; then
+  shift
+  remote "$@"
 else
   main "$@"
 fi
