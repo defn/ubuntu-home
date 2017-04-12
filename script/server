@@ -8,6 +8,7 @@ function main {
     set -- default
   fi
 
+  umask 0022
   source "$shome/.bashrc"
 
   case "${1:-}" in
