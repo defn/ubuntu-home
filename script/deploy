@@ -24,7 +24,6 @@ function remote {
   make cache
   source .bashrc
   make sync
-  (set +f; chmod 0600 ~/work/sshd/etc/*key)
 
   script/cibuild
 
@@ -43,7 +42,6 @@ function main {
     "$@" mv ubuntu/.git .
     "$@" rm -rf ubuntu
     "$@" git reset --hard
-    "$@" chmod 0640 .ssh/config
   fi
 
   "$@" -A script/deploy remote
