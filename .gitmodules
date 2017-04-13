@@ -282,3 +282,7 @@
 	path = work/nginx
 	url = git@github.com:imma/nginx
 	branch = develop
+[submodule "work/yarn"]
+	path = work/yarn
+	url = git@github.com:imma/yarn
+	branch = develop
