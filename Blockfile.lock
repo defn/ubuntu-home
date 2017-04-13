@@ -13,7 +13,7 @@ java               ${BLOCK_PATH}/java               git@github.com:imma/java    
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             1dec71cd70fe13032f4148622fc33f339674fa07 develop 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             bd45f9f578d34f00f441747c5134a6c395674eae develop 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            58812b8634b30ce5e343e505d7a106efddd6fec6 develop 
-inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          57dea9182356c5fc77e27977648761beccc3473b develop 
+inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          04ec58d5040ac69589ed359762eda2446faae34e develop 
 deploy             ${BLOCK_PATH}/deploy             git@github.com:imma/deploy             fdab36011cf953d3d2eb5cb1c4fba72f6a2aa4e8 develop 
 ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby               9dc7b8d5a6df6e8538b1388a72b8b1a00c1c39c6 develop 
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              78e63a78389753931f9da67f145615e93f95f40d develop 

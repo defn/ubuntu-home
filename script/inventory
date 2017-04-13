@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function main {
-  inventory-consul "$@"
+  inventory-docker "$@"
 }
 
 main "$@"
