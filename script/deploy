@@ -13,7 +13,7 @@ function remote {
     git clone -b "$(cd "$shome" && git rev-parse --abbrev-ref HEAD)" git@github.com:imma/imma-config /config
   fi
 
-  if curl -s http://cache.nih | grep Nexus; then
+  if curl -s --max-time 30 http://cache.nih | grep Nexus; then
     home enable cache 2>/dev/null || true
   fi
 
@@ -27,9 +27,7 @@ function remote {
 
   script/cibuild
 
-  if curl -s http://cache.nih | grep Nexus; then
-    home disable cache
-  fi
+  home disable cache
 }
 
 function main {
