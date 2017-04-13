@@ -68,4 +68,4 @@ gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg     
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          5edfb8a7ef8a97c8642e1b9b987309c23dd11a90 develop 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               a0f87758e3006844e3c749a79a63bfcbfee3fb58 develop 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs be9aa978756e6f572a5e11ce3eb69691ebee0ede develop 
-docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               18323e031d56a56eb5d7478191d7b93858626d9a develop 
+docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               30e129bea52c71cfea0fd2d69527f7d4fe2229f0 develop 
