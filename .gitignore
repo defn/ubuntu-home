@@ -53,6 +53,7 @@
 /tmp
 /homebrew
 /.ssh-agent
+/node_modules
 
 # macos
 /.CFUserTextEncoding
