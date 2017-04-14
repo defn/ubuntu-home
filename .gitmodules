@@ -278,10 +278,6 @@
 	path = work/calico
 	url = git@github.com:imma/calico
 	branch = develop
-[submodule "work/nginx"]
-	path = work/nginx
-	url = git@github.com:imma/nginx
-	branch = develop
 [submodule "work/yarn"]
 	path = work/yarn
 	url = git@github.com:imma/yarn
