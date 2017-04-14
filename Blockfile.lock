@@ -10,7 +10,7 @@ ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-c
 base               ${BLOCK_PATH}/base               git@github.com:imma/base               0dbb41b67e621fdbe49291d70e6b4e5cccc2219a develop 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           3c19cc05a3597cf829654948ea95b95f48982c79 develop 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               80425b0b2fb02a75e9aa185a30a35cddaf26dca0 develop 
-pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             1dec71cd70fe13032f4148622fc33f339674fa07 develop 
+pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             9cb61fd20987ae8bb968420017a0f4eb46bebc44 develop 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             bd45f9f578d34f00f441747c5134a6c395674eae develop 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            58812b8634b30ce5e343e505d7a106efddd6fec6 develop 
 inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          2f8c210642a53a25a36bf435f1ece4d3a023d8dc develop 
