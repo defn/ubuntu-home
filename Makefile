@@ -32,13 +32,13 @@ sync_fr:
 
 include $(BLOCK_PATH)/base/Makefile.docker
 
-docker_default = docker-image
+docker_default = docker-ubuntu
 
-docker-image:
-	time $(make) home=$(block) nc home
+docker-ubuntu:
+	time $(make) home=$(block) daemon home-deploy image-update
 
 docker-update:
-	time $(make) daemon $(pre_block) block-finish $(after_block) commit
+	time $(make) daemon home-deploy block-finish minimize commit
 	time $(make) build
 	$(make) clean
 
@@ -106,3 +106,6 @@ lock:
 	gs
 
 include $(BLOCK_PATH)/docs/Makefile.docs
+
+reset:
+	docker tag $(registry)/block:base $(registry)/$(image)
