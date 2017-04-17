@@ -40,7 +40,7 @@ awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome 
 imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               477e58600f65ffbb40f10fb4db347687755740c4 develop 
 packer             ${BLOCK_PATH}/packer             git@github.com:imma/packer             7baa228caf7ecc1758dd4bd85d6a44136f6cef19 develop 
 provision          ${BLOCK_PATH}/provision          git@github.com:imma/provision          33a37d672b52651f52528c92e4209e5889cd51c6 develop 
-dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream              34a0bbcf339f086ef4800fb1729f9a6079da74c9 develop 
+dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream              cc8f8b01e12d242ee90b20aa23122c0a432bcad3 develop 
 vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            7a5b60343c585a0b67cd327909ecb525fb9736aa develop 
 limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              e77954b777bd8ca8c3edc15f30a5949b3faa6af3 develop 
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          444e613d60cd869168b2142154e7f489cd428e89 develop 
