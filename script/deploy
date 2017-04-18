@@ -28,6 +28,8 @@ function remote {
   script/cibuild
 
   home disable cache
+
+  sync
 }
 
 function main {
