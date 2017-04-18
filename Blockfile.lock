@@ -37,7 +37,7 @@ aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws     
 aq                 ${BLOCK_PATH}/aq                 git@github.com:imma/aq                 efce7ff4bb1c9632a5c904f294765eed59412b0f develop 
 aqq                ${BLOCK_PATH}/aqq                git@github.com:imma/aqq                5fcbd9a9594684346c79d0f20099db59f157bd18 develop 
 awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            6351e9af188f613373ee43005c8748be889762ee develop 
-imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               477e58600f65ffbb40f10fb4db347687755740c4 develop 
+imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               876be999e424be544b39c373afac2c8fbf71c13e develop 
 packer             ${BLOCK_PATH}/packer             git@github.com:imma/packer             7baa228caf7ecc1758dd4bd85d6a44136f6cef19 develop 
 provision          ${BLOCK_PATH}/provision          git@github.com:imma/provision          33a37d672b52651f52528c92e4209e5889cd51c6 develop 
 dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream              f0e25cc292ef592b3e534cf7509d2ebd1312a949 develop 
@@ -64,7 +64,7 @@ sysadmin           ${BLOCK_PATH}/sysadmin           git@github.com:imma/sysadmin
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                7ab025940249fcb1fb6bbde9ebd19a4ca66882f3 develop 
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              63780375a885465904148d6a98fcb7cd50b88357 develop 
 confd              ${BLOCK_PATH}/confd              git@github.com:imma/confd              09c4bbc024a4a35834e64089204e6f7f06f5d035 develop 
-gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                d1ad1d94b87233a2a8bd3d7fc0ed748c31abad9e develop 
+gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                c87a3b17c8287f26f7059d1a2c718c881637f49d develop 
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          5edfb8a7ef8a97c8642e1b9b987309c23dd11a90 develop 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               8cf5fc53dd0dba94403b5240a688950f912a9e5d develop 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs be9aa978756e6f572a5e11ce3eb69691ebee0ede develop 
