@@ -12,6 +12,10 @@ function main {
     return 1
   fi
 
+  if ! type -P gdate >/dev/null; then
+    return 1
+  fi
+
   return 0
 }
 
