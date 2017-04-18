@@ -64,7 +64,7 @@ sysadmin           ${BLOCK_PATH}/sysadmin           git@github.com:imma/sysadmin
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                7ab025940249fcb1fb6bbde9ebd19a4ca66882f3 develop 
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              63780375a885465904148d6a98fcb7cd50b88357 develop 
 confd              ${BLOCK_PATH}/confd              git@github.com:imma/confd              09c4bbc024a4a35834e64089204e6f7f06f5d035 develop 
-gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                853f96729fa2656512d5d6b302561c1f7f091ce8 develop 
+gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                a7702a28330c15e284f35a92a699455def5e2ff7 develop 
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          5edfb8a7ef8a97c8642e1b9b987309c23dd11a90 develop 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               8cf5fc53dd0dba94403b5240a688950f912a9e5d develop 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs be9aa978756e6f572a5e11ce3eb69691ebee0ede develop 
