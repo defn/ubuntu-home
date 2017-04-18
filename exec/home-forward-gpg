@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+function main {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "$shome/script/profile"
+  source normalize
+  
+  local pth_socket="$("$@" gpgconf --list-dir agent-socket)"
+  "$@" rm -fv "${pth_socket}"
+  "$@" -At -R "${pth_socket}":/tmp/S.forwarded 
+
+}
+
+source sub "$BASH_SOURCE" "$@"
