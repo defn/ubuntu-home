@@ -6,7 +6,7 @@ function main {
 
   pkg ensure sysutils/cdrtools
   pkg ensure sysutils/findutils
-  pkg ensure time/dateutils
+  pkg ensure sysutils/coreutils
 }
 
 main "$@"
