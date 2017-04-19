@@ -117,3 +117,11 @@ reset-virtualbox:
 
 reset-aws:
 	vagrant box add -f inception /data/cache/box/aws/inception-packer.box
+
+docker-ubuntu:
+	$(make) sync
+	script/configure
+	runmany 'cd $1 && make reset && make nc docker' ~/work/base ~
+	script/unconfigure
+	$(make) prune
+	sync
