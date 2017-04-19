@@ -7,7 +7,7 @@ sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub     
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 develop 
 block              ${BLOCK_PATH}/block              git@github.com:imma/block              e3bdcd68c61ebd8749403e7d5bc6cafd2e94a004 develop 
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      e6e1f5f18ede05178fd76a4ee015621a070a0277 develop 
-base               ${BLOCK_PATH}/base               git@github.com:imma/base               08b372814d848a15baaa1b398882e8c771925d03 develop 
+base               ${BLOCK_PATH}/base               git@github.com:imma/base               a47320a1155aaf89e55018f24788e676e9292d2c develop 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           3c19cc05a3597cf829654948ea95b95f48982c79 develop 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               80425b0b2fb02a75e9aa185a30a35cddaf26dca0 develop 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             9cb61fd20987ae8bb968420017a0f4eb46bebc44 develop 
@@ -50,7 +50,7 @@ facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts   
 virtualbox         ${BLOCK_PATH}/virtualbox         git@github.com:imma/virtualbox         45c8775c09809ca9c7e17748823d8e402cee5a4b develop 
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              eeef0a8a21b81ad5ceeb16c16e3c7f7a9d3107d6 develop 
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            3514336e1f75db34f9aa80139de795080d0e7337 develop 
-sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               cc01c3791be6d6f96224981d537d36c5a27ce808 develop 
+sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               570f92047ec6141c36ae071526f0f7b3f4e581f1 develop 
 etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               ee0ea9f975c8fe1caef43f8565df7b2d378f9af3 develop 
 consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             30a29e3171eb5293525aeb2e8c029049568395a3 develop 
 consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       faf769858d96c7183b5227c68ebbc62ef86ed49e develop 
