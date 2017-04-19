@@ -28,9 +28,9 @@ sync_fr:
 
 include $(BLOCK_PATH)/base/Makefile.docker
 
-docker_default = docker-ubuntu
+docker_default = docker-image
 
-docker-ubuntu:
+docker-image:
 	time $(make) home=$(block) daemon home-deploy image-update
 
 docker-update:
