@@ -109,3 +109,9 @@ include $(BLOCK_PATH)/docs/Makefile.docs
 
 reset:
 	docker tag $(registry)/block:base $(registry)/$(image)
+
+reset-virtualbox:
+	vagrant box add -f inception /data/cache/box/virtualbox/inception-packer.box
+
+reset-aws:
+	vagrant box add -f inception /data/cache/box/aws/inception-packer.box
