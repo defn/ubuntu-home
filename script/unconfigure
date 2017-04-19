@@ -13,7 +13,7 @@ function main {
       ;;
   esac
 
-  rm -f /data/ssh/authorized_keys
+  rm -f /config/ssh/authorized_keys
 }
 
 main "$@"

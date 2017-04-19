@@ -43,12 +43,9 @@ function main {
       ;;
   esac
 
-  if [[ ! -f /data/ssh/authorized_keys ]]; then
-    if ! mkdir -p /data/ssh; then
-      sudo install -d -o ubuntu -g ubuntu -m 0755 /data
-      mkdir -p /data/ssh
-    fi
-    rsync -ia ~/.ssh/authorized_keys /data/ssh/authorized_keys
+  if [[ ! -f /config/ssh/authorized_keys ]]; then
+    mkdir -p /config/ssh
+    rsync -ia ~/.ssh/authorized_keys /config/ssh/authorized_keys
   fi
 }
 
