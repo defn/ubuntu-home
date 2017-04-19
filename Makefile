@@ -51,7 +51,7 @@ virtualbox:
 
 virtualbox-docker:
 	plane recycle
-	plane vagrant ssh -- make docker-ubuntu
+	plane vagrant ssh -- make nc docker-ubuntu
 	time plane reuse docker
 
 aws:
@@ -62,7 +62,7 @@ aws:
 
 aws-docker:
 	van recycle
-	van vagrant ssh -- make docker-ubuntu
+	van vagrant ssh -- make nc docker-ubuntu
 	time van reuse docker
 
 cidata/user-data: /config/ssh/authorized_keys cidata/user-data.template
@@ -126,7 +126,7 @@ docker-ubuntu:
 
 docker-ubuntu-fr:
 	script/configure
-	runmany 'cd $$1 && make reset && make nc docker' ~/work/base ~
+	runmany 'cd $$1 && $(make) reset && $(make) nc docker' ~/work/base ~
 	script/unconfigure
 	$(make) prune
 	sync
