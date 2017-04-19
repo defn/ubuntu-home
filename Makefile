@@ -1,8 +1,3 @@
-ifeq (aws,$(firstword $(MAKECMDGOALS)))
-KEYPAIR := $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
-$(eval $(KEYPAIR):;@:)
-endif
-
 ifeq (nih,$(firstword $(MAKECMDGOALS)))
 VIP := $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
 $(eval $(VIP):;@:)
@@ -51,17 +46,24 @@ docker-save:
 virtualbox:
 	plane recycle
 	plane vagrant ssh -- sudo aptitude update
-	plane vagrant ssh -- ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
 	time script/deploy plane vagrant ssh --
-	cd $(BLOCK_PATH)/base && $(MAKE) clean-cidata
-	cd $(BLOCK_PATH)/base && $(MAKE)
 	time plane reuse
 
+virtualbox-docker:
+	plane recycle
+	plane vagrant ssh -- make docker-ubuntu
+	time plane reuse docker
+
 aws:
-	env AWS_KEYPAIR=$(KEYPAIR) van recycle
-	env AWS_KEYPAIR=$(KEYPAIR) van vagrant ssh -- sudo aptitude update
-	time env AWS_KEYPAIR=$(KEYPAIR) script/deploy van vagrant ssh --
-	time env AWS_KEYPAIR=$(KEYPAIR) van reuse
+	van recycle
+	van vagrant ssh -- sudo aptitude update
+	time script/deploy van vagrant ssh --
+	time van reuse
+
+aws-docker:
+	van recycle
+	van vagrant ssh -- make docker-ubuntu
+	time van reuse docker
 
 cidata/user-data: /config/ssh/authorized_keys cidata/user-data.template
 	mkdir -p cidata
