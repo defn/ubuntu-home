@@ -120,6 +120,9 @@ reset-aws:
 
 docker-ubuntu:
 	$(make) sync
+	$(make) docker-ubuntu-fr
+
+docker-ubuntu-fr:
 	script/configure
 	runmany 'cd $1 && make reset && make nc docker' ~/work/base ~
 	script/unconfigure
