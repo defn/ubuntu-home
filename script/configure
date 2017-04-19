@@ -6,6 +6,18 @@ function main {
 
   cd "$shome"
 
+  local nm_network="$(docker network inspect ubuntu_default | jq -r '.[].Name')"
+
+  if [[ "$nm_network" != "ubuntu_default" ]]; then
+    make up || true
+  fi
+  
+  nm_network="$(docker network inspect ubuntu_default | jq -r '.[].Name')"
+  if [[ "$nm_network" != "ubuntu_default" ]]; then
+    echo "ERROR: could not bring up docker network for ubuntu" 1>&2
+    return 1
+  fi
+
   "$shome/script/update"
 
   local vip_cache=
@@ -31,6 +43,10 @@ function main {
       sudo systemctl restart docker
       ;;
   esac
+
+  if [[ ! -f /data/ssh/authorized_keys ]]; then
+    rsync -ia ~/.ssh/authorized_keys /data/ssh/authorized_keys
+  fi
 }
 
 main "$@"
