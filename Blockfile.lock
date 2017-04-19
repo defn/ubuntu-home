@@ -47,7 +47,7 @@ vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant 
 limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              d01f22e57ee7715a4352df1cc42a1e670838c73e develop 
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          444e613d60cd869168b2142154e7f489cd428e89 develop 
 facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts              c640273962fa4c4095e8b7f531caa94ac372438d develop 
-virtualbox         ${BLOCK_PATH}/virtualbox         git@github.com:imma/virtualbox         91422ec6c66f2f8f603a33d48efde01bb7559bec develop 
+virtualbox         ${BLOCK_PATH}/virtualbox         git@github.com:imma/virtualbox         45c8775c09809ca9c7e17748823d8e402cee5a4b develop 
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              eeef0a8a21b81ad5ceeb16c16e3c7f7a9d3107d6 develop 
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            3514336e1f75db34f9aa80139de795080d0e7337 develop 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               cc01c3791be6d6f96224981d537d36c5a27ce808 develop 
