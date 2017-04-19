@@ -37,7 +37,6 @@ function main {
     *)
       echo 'server=/dc1.consul/127.0.0.1#5354' | sudo tee /etc/dnsmasq.d/nih
       echo "address=/nih/$vip_cache" | sudo tee -a /etc/dnsmasq.d/nih
-      echo 'server=8.8.4.4' | sudo tee -a /etc/dnsmasq.d/nih
       sudo systemctl restart dnsmasq
       echo "DOCKER_OPTS="--dns $vip_cache"" | sudo tee /etc/default/docker
       sudo systemctl restart docker
