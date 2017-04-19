@@ -35,7 +35,7 @@ git                ${BLOCK_PATH}/git                git@github.com:imma/git     
 apex               ${BLOCK_PATH}/apex               git@github.com:imma/apex               6afd436893deaad45a2bdec1be435f91a3ff0de4 develop 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          08f90855a71fa920f37b85928b5160b65ae79fe7 develop 
 fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               ac121a62e6b43f0c25391a2d1423d80b31d17c9c develop 
-aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                936dac50f0facca649b6239a8d3f2e7c49305acf develop 
+aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                6b90f70bcc1aaedcb7f2dcf77c85c5a1a34e80de develop 
 aq                 ${BLOCK_PATH}/aq                 git@github.com:imma/aq                 efce7ff4bb1c9632a5c904f294765eed59412b0f develop 
 aqq                ${BLOCK_PATH}/aqq                git@github.com:imma/aqq                5fcbd9a9594684346c79d0f20099db59f157bd18 develop 
 awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            6351e9af188f613373ee43005c8748be889762ee develop 
