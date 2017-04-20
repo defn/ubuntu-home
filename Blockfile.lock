@@ -28,7 +28,7 @@ context            ${BLOCK_PATH}/context            git@github.com:imma/context 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             932ae42c1975401fa8f2df8e1d9b77ce1ad90775 develop 
 docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     9f82424257985b3acb7cd964902eb715e441669f develop 
 docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             eeb315e3e63ef037aa681a2f6e75c914ff9df0dd develop 
-kubernetes         ${BLOCK_PATH}/kubernetes         git@github.com:imma/kubernetes         0ff634b99babc648c7e6d92a1b233e7c01f45bd3 develop 
+kubernetes         ${BLOCK_PATH}/kubernetes         git@github.com:imma/kubernetes         ebb604ef503dca2c43fb075baf678d14936432aa develop 
 helm               ${BLOCK_PATH}/helm               git@github.com:imma/helm               efdb2eda694372d91da6ef9e3ca091f9ff10fc34 develop 
 calico             ${BLOCK_PATH}/calico             git@github.com:imma/calico             930f19d7207e4cef3b70dd9793610c7e7fe4e4dc develop 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                7ab025940249fcb1fb6bbde9ebd19a4ca66882f3 develop 
@@ -51,7 +51,7 @@ virtualbox         ${BLOCK_PATH}/virtualbox         git@github.com:imma/virtualb
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              eeef0a8a21b81ad5ceeb16c16e3c7f7a9d3107d6 develop 
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            3514336e1f75db34f9aa80139de795080d0e7337 develop 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               570f92047ec6141c36ae071526f0f7b3f4e581f1 develop 
-etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               ee0ea9f975c8fe1caef43f8565df7b2d378f9af3 develop 
+etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               08d8ce30caf002d4a8776c67c77b5c46ad9be13c develop 
 consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             30a29e3171eb5293525aeb2e8c029049568395a3 develop 
 consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       faf769858d96c7183b5227c68ebbc62ef86ed49e develop 
 vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault              97fb9f4168dbbd204d9006d7cb656d5c7c6b0830 develop 
