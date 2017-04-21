@@ -57,7 +57,7 @@ packer             ${BLOCK_PATH}/packer             git@github.com:imma/packer  
 provision          ${BLOCK_PATH}/provision          git@github.com:imma/provision          33a37d672b52651f52528c92e4209e5889cd51c6 develop 
 dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream              f0e25cc292ef592b3e534cf7509d2ebd1312a949 develop 
 vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            7a5b60343c585a0b67cd327909ecb525fb9736aa develop 
-limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              cd4e48d67d0e8b0fe7d319254a5830496f9bc9b2 develop 
+limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              3d18a94bc9ba4a9333573939a204aa7048a28997 develop 
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          444e613d60cd869168b2142154e7f489cd428e89 develop 
 virtualbox         ${BLOCK_PATH}/virtualbox         git@github.com:imma/virtualbox         45c8775c09809ca9c7e17748823d8e402cee5a4b develop 
 confd              ${BLOCK_PATH}/confd              git@github.com:imma/confd              09c4bbc024a4a35834e64089204e6f7f06f5d035 develop 
