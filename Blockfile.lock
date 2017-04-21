@@ -8,7 +8,7 @@ runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany 
 block              ${BLOCK_PATH}/block              git@github.com:imma/block              e3bdcd68c61ebd8749403e7d5bc6cafd2e94a004 develop 
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      e6e1f5f18ede05178fd76a4ee015621a070a0277 develop 
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              78e63a78389753931f9da67f145615e93f95f40d develop 
-base               ${BLOCK_PATH}/base               git@github.com:imma/base               ebfa7126a51a711045fc0c459658a9b56fa43729 develop 
+base               ${BLOCK_PATH}/base               git@github.com:imma/base               cfd7341f109c73a9ca85c3f9d7f8466a69224fbb develop 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           3c19cc05a3597cf829654948ea95b95f48982c79 develop 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               09f725c41e6cc62fd828105dc2e71a28f44dcefd develop 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             f2b8adc7481a58e49baba9f584a32f8f496c92ec develop 
