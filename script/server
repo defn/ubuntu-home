@@ -27,10 +27,6 @@ function main {
       exec "$BLOCK_PATH/runit/script/server" "$@"
       ;;
     docker)
-      sudo rm -f /var/lib/cloud/instance
-      sudo cloud-init init
-      sudo cloud-init modules
-      sudo cloud-init modules -m final
       exec "$shome/script/server"
       ;;
     *)
