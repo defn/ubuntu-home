@@ -138,3 +138,5 @@ clone-nih:
 update-nih:
 	for a in admin cache docs buildkite irssi; do cd ~/work/$$a && git checkout $(shell git rev-parse --abbrev-ref HEAD) && git pull && home update && block runmany 4 'cd $$1 && git checkout $(shell git rev-parse --abbrev-ref HEAD) && git pull'; done
 
+rebuild-ubuntu:
+	$(make) docker-update up daemon-ssh ssh
