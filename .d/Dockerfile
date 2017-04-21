@@ -15,4 +15,3 @@ WORKDIR /home/ubuntu
 RUN rm -f service/ubuntu
 
 ENTRYPOINT [ "/home/ubuntu/script/server" ]
-CMD [ "docker" ]

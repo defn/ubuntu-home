@@ -26,9 +26,6 @@ function main {
       fi
       exec "$BLOCK_PATH/runit/script/server" "$@"
       ;;
-    docker)
-      exec "$shome/script/server"
-      ;;
     *)
       exec "$@"
       ;;
