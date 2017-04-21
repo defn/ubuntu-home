@@ -130,3 +130,11 @@ docker-ubuntu-fr:
 	script/unconfigure
 	$(make) prune
 	sync
+
+clone-nih:
+	runmany 4 'git clone git@github.com:imma/$$1 work/$$1 || true' admin cache docs buildkite irssi
+	for a in admin cache docs buildkite irssi; do cd ~/work/$$a && git checkout $(shell git rev-parse --abbrev-ref HEAD) && block clone && block runmany 4 'cd $$1 && git checkout $(shell git rev-parse --abbrev-ref HEAD) && git pull'; done
+
+update-nih:
+	for a in admin cache docs buildkite irssi; do cd ~/work/$$a && git checkout $(shell git rev-parse --abbrev-ref HEAD) && git pull && home update && block runmany 4 'cd $$1 && git checkout $(shell git rev-parse --abbrev-ref HEAD) && git pull'; done
+
