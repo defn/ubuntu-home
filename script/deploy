@@ -17,6 +17,7 @@ function remote {
     home enable cache 2>/dev/null || true
   fi
 
+  sudo aptitude update
   sudo aptitude install -y gettext-base
 
   git pull
