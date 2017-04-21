@@ -131,5 +131,9 @@ docker-ubuntu-fr:
 	$(make) prune
 	sync
 
-rebuild-ubuntu:
+rebase:
+	$(make) reset
+	$(make) docker
+
+rebuild:
 	$(make) docker-update up daemon-ssh ssh
