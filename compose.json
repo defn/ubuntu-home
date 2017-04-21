@@ -20,7 +20,8 @@
       ],
       "volumes": [
         "/data:/data",
-        "/config:/config"
+        "/config:/config",
+        "/var/run/docker.sock:/var/run/docker.sock"
       ],
       "ports": [
         "${BLOCK_SSH_PORT}"
