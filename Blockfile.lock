@@ -74,3 +74,4 @@ build              ${BLOCK_PATH}/build              git@github.com:imma/build   
 irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              b0570b10eb0cebbcd6ef58090c07a91a9bfe40aa develop 
 chat               ${BLOCK_PATH}/chat               git@github.com:imma/chat               ae42f7fc1c02ac23075146933ecaebc6df7433c3 develop 
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              68cf873fc1ccb68d5ae36142f7fc58a19f7de6fa develop 
+cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue                d2e348d7877e1ac1d3f1d981e80564b67b773a7f develop 

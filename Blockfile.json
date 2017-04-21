@@ -7,7 +7,7 @@
     [ "fogg", "imma", "awesome", "inception", "virtualbox" ],
     [ "confd", "ansible", "gpg", "git-crypt" ],
     [ "docs", "admin", "build", "chat" ],
-    [ "defn", "junas" ]
+    [ "defn", "junas", "cue" ]
   ],
   "run": {
     "sshd": {},
