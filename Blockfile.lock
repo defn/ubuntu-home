@@ -74,4 +74,4 @@ buildkite          ${BLOCK_PATH}/buildkite          git@github.com:imma/buildkit
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              6768c9799886ea1569dfe92eec6e1b3317d7d0c3 develop 
 irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              b0570b10eb0cebbcd6ef58090c07a91a9bfe40aa develop 
 chat               ${BLOCK_PATH}/chat               git@github.com:imma/chat               ae42f7fc1c02ac23075146933ecaebc6df7433c3 develop 
-junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              63780375a885465904148d6a98fcb7cd50b88357 develop 
+junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              68cf873fc1ccb68d5ae36142f7fc58a19f7de6fa develop 
