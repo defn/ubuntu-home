@@ -12,6 +12,12 @@ function main {
 
   case "$(uname -s)" in
     Darwin)
+      VBoxManage hostonlyif ipconfig vboxnet0 --ip 172.28.128.1
+      ;;
+  esac
+
+  case "$(uname -s)" in
+    Darwin)
       sudo ifconfig lo0 alias "$vip" netmask 255.255.255.0
       sudo brew services restart dnsmasq
       ;;
