@@ -298,3 +298,11 @@
 	path = work/namerd
 	url = git@github.com:imma/namerd
 	branch = develop
+[submodule "work/build"]
+	path = work/build
+	url = git@github.com:imma/build
+	branch = develop
+[submodule "work/chat"]
+	path = work/chat
+	url = git@github.com:imma/chat
+	branch = develop

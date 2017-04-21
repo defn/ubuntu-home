@@ -1,13 +1,13 @@
 {
   "require": [
-    [ "site", "ubuntu-config", "base", "deploy" ],
+    [ "site", "ubuntu-config", "cache", "base", "deploy", "sysadmin" ],
     [ "ruby", "python", "node", "yarn", "java", "bash4", "go" ],
-    [ "lxd", "docker", "kubernetes", "helm", "calico", "apex" ],
-    [ "fogg", "imma", "inception", "virtualbox" ],
     [ "sshd", "etcd", "consul-agent", "vault", "linkerd", "namerd", "syslog-ng" ],
-    [ "awesome", "defn", "sysadmin", "junas" ],
+    [ "lxd", "docker", "kubernetes", "helm", "calico", "apex" ],
+    [ "fogg", "imma", "awesome", "inception", "virtualbox" ],
     [ "confd", "ansible", "gpg", "git-crypt" ],
-    [ "docs", "admin", "irssi", "buildkite" ]
+    [ "docs", "admin", "build", "chat" ],
+    [ "defn", "junas" ]
   ],
   "run": {
     "sshd": {},
