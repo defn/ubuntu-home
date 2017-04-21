@@ -67,8 +67,7 @@ hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo    
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs be9aa978756e6f572a5e11ce3eb69691ebee0ede develop 
 docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               30e129bea52c71cfea0fd2d69527f7d4fe2229f0 develop 
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             1db084ed06de0c10679e2384c8f88be047934909 develop 
-cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue                d2e348d7877e1ac1d3f1d981e80564b67b773a7f develop 
-defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               ba48835dabee093d9a5a7c3c84130d9765673d89 develop 
+defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               a525523f848ac85202270c500461489f21202223 develop 
 admin              ${BLOCK_PATH}/admin              git@github.com:imma/admin              a898486b9407431f3dad63516b7d9cd2aa4fe55d develop 
 buildkite          ${BLOCK_PATH}/buildkite          git@github.com:imma/buildkite          edccf01a8c2abe08e93f767e21aa81c6095c8843 develop 
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              6768c9799886ea1569dfe92eec6e1b3317d7d0c3 develop 
