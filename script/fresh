@@ -16,7 +16,7 @@ function main {
     return 1
   fi
 
-  if ! type -P powerline >/dev/null; then
+  if type -P powerline >/dev/null; then
     return 1
   fi
 

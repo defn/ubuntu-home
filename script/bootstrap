@@ -8,8 +8,7 @@ function main {
   pkg ensure sysutils/findutils
   pkg ensure sysutils/coreutils
   
-  block compile virtualenv
-  (set +f; cd "$shome/bin" && ln -nfs ../vendor/virtualenv/bin/powerline* "$shome/bin/")
+  (set +f; rm -f "$shome/bin/"powerline*)
 }
 
 main "$@"
