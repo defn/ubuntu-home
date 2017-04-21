@@ -56,6 +56,7 @@ consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul  
 consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       faf769858d96c7183b5227c68ebbc62ef86ed49e develop 
 vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault              97fb9f4168dbbd204d9006d7cb656d5c7c6b0830 develop 
 linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            b1f76d8a2600df99e0e8e8b4cd2bf93c917037ce develop 
+namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             509dcbdd3a6758d2f4a87479744e0cd8c01dfe8a develop 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          2eb227af3c85f684032bef87ed2f7dfbbc475bf2 develop 
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             1db084ed06de0c10679e2384c8f88be047934909 develop 
 cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue                d2e348d7877e1ac1d3f1d981e80564b67b773a7f develop 

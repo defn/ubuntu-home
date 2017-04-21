@@ -294,3 +294,7 @@
 	path = work/irssi
 	url = git@github.com:imma/irssi
 	branch = develop
+[submodule "work/namerd"]
+	path = work/namerd
+	url = git@github.com:imma/namerd
+	branch = develop
