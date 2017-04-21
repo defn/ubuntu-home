@@ -4,10 +4,10 @@
     [ "ruby", "python", "node", "yarn", "java", "bash4", "go" ],
     [ "lxd", "docker", "kubernetes", "helm", "calico", "apex" ],
     [ "fogg", "imma", "inception", "virtualbox" ],
-    [ "sshd", "etcd", "consul-agent", "vault", "linkerd", "buildkite", "syslog-ng" ],
+    [ "sshd", "etcd", "consul-agent", "vault", "linkerd", "syslog-ng" ],
     [ "awesome", "defn", "sysadmin", "junas" ],
     [ "confd", "ansible", "gpg", "git-crypt" ],
-    [ "docs" ]
+    [ "docs", "admin", "irssi", "buildkite" ]
   ],
   "run": {
     "sshd": {},

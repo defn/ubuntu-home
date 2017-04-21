@@ -56,7 +56,6 @@ consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul  
 consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       faf769858d96c7183b5227c68ebbc62ef86ed49e develop 
 vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault              97fb9f4168dbbd204d9006d7cb656d5c7c6b0830 develop 
 linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            b1f76d8a2600df99e0e8e8b4cd2bf93c917037ce develop 
-buildkite          ${BLOCK_PATH}/buildkite          git@github.com:imma/buildkite          fb01289c3f7090b4407d92ea9114df8ca32ee627 develop 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          2eb227af3c85f684032bef87ed2f7dfbbc475bf2 develop 
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             1db084ed06de0c10679e2384c8f88be047934909 develop 
 cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue                d2e348d7877e1ac1d3f1d981e80564b67b773a7f develop 
@@ -70,3 +69,6 @@ git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-cryp
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               8cf5fc53dd0dba94403b5240a688950f912a9e5d develop 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs be9aa978756e6f572a5e11ce3eb69691ebee0ede develop 
 docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               30e129bea52c71cfea0fd2d69527f7d4fe2229f0 develop 
+admin              ${BLOCK_PATH}/admin              git@github.com:imma/admin              a898486b9407431f3dad63516b7d9cd2aa4fe55d develop 
+irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              6544829f281ed54c19499a126669c4f167a975f8 develop 
+buildkite          ${BLOCK_PATH}/buildkite          git@github.com:imma/buildkite          fb01289c3f7090b4407d92ea9114df8ca32ee627 develop 
