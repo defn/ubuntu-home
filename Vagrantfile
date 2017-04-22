@@ -1,4 +1,33 @@
+require "net/ssh"
+
+module Net::SSH
+  class << self
+    alias_method :old_start, :start
+
+    def start(host, username, opts)
+      opts[:keys_only] = false
+      self.old_start(host, username, opts)
+    end
+  end
+end
+
+Vagrant.configure("2") do |config|
+  module Vagrant
+    module Util
+      class Platform
+        class << self
+          def solaris?
+            true
+          end
+        end
+      end
+		end
+	end
+end
+
 shome=File.expand_path("..", __FILE__)
+
+ci_script = "#{shome}/script/cloud-init-wait"
 
 Vagrant.configure("2") do |config|
   config.ssh.shell = "bash"
@@ -14,7 +43,7 @@ Vagrant.configure("2") do |config|
     override.vm.synced_folder '/data', '/data', type: "nfs"
     override.vm.synced_folder '/config', '/config', type: "nfs"
 
-    override.vm.provision "shell", path: "script/cloud-init-wait", args: [], privileged: false
+    override.vm.provision "shell", path: ci_script, args: [], privileged: false
 
     v.linked_clone = true
     v.memory = 1024
@@ -31,7 +60,7 @@ Vagrant.configure("2") do |config|
       '--port', 1, 
       '--device', 0, 
       '--type', 'dvddrive', 
-      '--medium', "cidata.iso"
+      '--medium', "#{shome}/cidata.iso"
     ]
     v.customize [
       'storagectl', :id,
