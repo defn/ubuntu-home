@@ -306,3 +306,7 @@
 	path = work/chat
 	url = git@github.com:imma/chat
 	branch = develop
+[submodule "work/home"]
+	path = work/home
+	url = git@github.com:imma/home
+	branch = develop
