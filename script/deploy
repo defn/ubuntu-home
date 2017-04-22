@@ -39,7 +39,7 @@ function main {
   if ! "$@" test -d .git; then
     "$@" -A ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
 
-    "$@" -A git clone -b "$(cd "$shome" && git rev-parse --abbrev-ref HEAD)" git@github.com:imma/ubuntu
+    "$@" -A git clone -b "$(cd "$shome" && git rev-parse --abbrev-ref HEAD)" "$(git config --get remote.origin.url)"
     "$@" mv ubuntu/.git .
     "$@" rm -rf ubuntu
     "$@" git reset --hard
