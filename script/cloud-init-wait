@@ -12,8 +12,6 @@ function main {
 			done
 		fi
 	fi
-
-  ssh -o StrictHostKeyChecking=no github.com 2>/dev/null || true
 }
 
 main "$@"
