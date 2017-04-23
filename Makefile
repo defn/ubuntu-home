@@ -44,10 +44,10 @@ docker-save:
 	mv -f /data/cache/box/docker/inception.tar.1 /data/cache/box/docker/inception.tar
 
 virtualbox:
-	plane recycle
+	plane recycle block:ubuntu
 	plane vagrant ssh -- sudo aptitude update
 	time script/deploy plane vagrant ssh --
-	time plane reuse
+	time plane reuse ubuntu
 
 virtualbox-docker:
 	plane recycle
@@ -58,7 +58,7 @@ aws:
 	van recycle
 	van vagrant ssh -- sudo aptitude update
 	time script/deploy van vagrant ssh --
-	time van reuse
+	time van reuse ubuntu
 
 aws-docker:
 	van recycle
@@ -115,10 +115,10 @@ reset:
 	docker tag $(registry)/block:base $(registry)/$(image)
 
 reset-virtualbox:
-	vagrant box add -f block /data/cache/box/virtualbox/block-base.box
+	vagrant box add -f block:ubuntu /data/cache/box/virtualbox/block-base.box
 
 reset-aws:
-	vagrant box add -f block /data/cache/box/aws/block-base.box
+	vagrant box add -f block:ubuntu /data/cache/box/aws/block-base.box
 
 docker-ubuntu:
 	$(make) sync
