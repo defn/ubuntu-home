@@ -47,22 +47,26 @@ virtualbox:
 	plane recycle block:ubuntu
 	plane vagrant ssh -- sudo aptitude update
 	time script/deploy plane vagrant ssh --
+	(cd work/base && make new-cidata)
 	time plane reuse ubuntu
 
 virtualbox-docker:
 	plane recycle
 	plane vagrant ssh -- make nc docker-ubuntu
+	(cd work/base && make new-cidata)
 	time plane reuse docker
 
 aws:
 	van recycle
 	van vagrant ssh -- sudo aptitude update
 	time script/deploy van vagrant ssh --
+	(cd work/base && make new-cidata)
 	time van reuse ubuntu
 
 aws-docker:
 	van recycle
 	van vagrant ssh -- make nc docker-ubuntu
+	(cd work/base && make new-cidata)
 	time van reuse docker
 
 cidata/user-data: /config/ssh/authorized_keys cidata/user-data.template
