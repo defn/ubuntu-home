@@ -36,8 +36,7 @@ Vagrant.configure("2") do |config|
   config.ssh.insert_key = false
 
   config.vm.provider "virtualbox" do |v, override|
-    override.vm.box = "inception"
-    override.vm.network "private_network", ip: '172.28.128.11', nic_type: 'virtio'
+    override.vm.box = "ubuntu"
 
     override.vm.synced_folder ENV['HOME'], '/vagrant', disabled: true
     override.vm.synced_folder '/data', '/data', type: "nfs"
@@ -67,5 +66,17 @@ Vagrant.configure("2") do |config|
       '--name', 'SATA Controller',
       '--hostiocache', 'on'
     ]
+  end
+
+  config.vm.define "bleh", primary: true do |machine|
+    machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.11'
+  end
+
+  config.vm.define "meh", autostart: false do |machine|
+    machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.12'
+  end
+
+  config.vm.define "feh", autostart: false do |machine|
+    machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.13'
   end
 end

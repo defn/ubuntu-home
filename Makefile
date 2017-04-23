@@ -115,10 +115,10 @@ reset:
 	docker tag $(registry)/block:base $(registry)/$(image)
 
 reset-virtualbox:
-	vagrant box add -f inception /data/cache/box/virtualbox/inception-packer.box
+	vagrant box add -f ubuntu /data/cache/box/virtualbox/block-base.box
 
 reset-aws:
-	vagrant box add -f inception /data/cache/box/aws/inception-packer.box
+	vagrant box add -f ubuntu /data/cache/box/aws/block-base.box
 
 docker-ubuntu:
 	$(make) sync
