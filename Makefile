@@ -115,10 +115,10 @@ reset:
 	docker tag $(registry)/block:base $(registry)/$(image)
 
 reset-virtualbox:
-	vagrant box add -f ubuntu /data/cache/box/virtualbox/block-base.box
+	vagrant box add -f block /data/cache/box/virtualbox/block-base.box
 
 reset-aws:
-	vagrant box add -f ubuntu /data/cache/box/aws/block-base.box
+	vagrant box add -f block /data/cache/box/aws/block-base.box
 
 docker-ubuntu:
 	$(make) sync
