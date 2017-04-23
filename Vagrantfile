@@ -36,7 +36,7 @@ Vagrant.configure("2") do |config|
   config.ssh.insert_key = false
 
   config.vm.provider "virtualbox" do |v, override|
-    override.vm.box = "ubuntu"
+    override.vm.box = "block:ubuntu"
 
     override.vm.synced_folder ENV['HOME'], '/vagrant', disabled: true
     override.vm.synced_folder '/data', '/data', type: "nfs"
