@@ -66,15 +66,19 @@ Vagrant.configure("2") do |config|
     ]
   end
 
-  config.vm.define "ubuntu_1", primary: true do |machine|
+  config.vm.define "default", primary: true do |machine|
     machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.11'
   end
 
-  config.vm.define "ubuntu_2", autostart: false do |machine|
+  config.vm.define "master", autostart: false do |machine|
     machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.12'
   end
 
-  config.vm.define "ubuntu_3", autostart: false do |machine|
+  config.vm.define "node1", autostart: false do |machine|
+    machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.13'
+  end
+
+  config.vm.define "node2", autostart: false do |machine|
     machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.13'
   end
 end
