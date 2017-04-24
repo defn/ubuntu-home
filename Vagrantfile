@@ -70,15 +70,15 @@ Vagrant.configure("2") do |config|
     machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.11'
   end
 
-  config.vm.define "master", autostart: false do |machine|
+  config.vm.define "k8s-master", autostart: false do |machine|
     machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.12'
   end
 
-  config.vm.define "node1", autostart: false do |machine|
+  config.vm.define "k8s-node1", autostart: false do |machine|
     machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.13'
   end
 
-  config.vm.define "node2", autostart: false do |machine|
+  config.vm.define "k8s-node2", autostart: false do |machine|
     machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.13'
   end
 end
