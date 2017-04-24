@@ -25,24 +25,22 @@ Vagrant.configure("2") do |config|
 	end
 end
 
-shome=File.expand_path("..", __FILE__)
-
-ci_script = "#{shome}/script/cloud-init-wait"
-
 Vagrant.configure("2") do |config|
+  shome=File.expand_path("..", __FILE__)
+
   config.ssh.shell = "bash"
   config.ssh.username = "ubuntu"
   config.ssh.forward_agent = true
   config.ssh.insert_key = false
 
   config.vm.provider "virtualbox" do |v, override|
-    override.vm.box = "block"
+    override.vm.box = "block:ubuntu"
 
     override.vm.synced_folder ENV['HOME'], '/vagrant', disabled: true
     override.vm.synced_folder '/data', '/data', type: "nfs"
     override.vm.synced_folder '/config', '/config', type: "nfs"
 
-    override.vm.provision "shell", path: ci_script, args: [], privileged: false
+    override.vm.provision "shell", path: "#{shome}/script/cloud-init-wait", args: [], privileged: false
 
     v.linked_clone = true
     v.memory = 1024
@@ -68,15 +66,15 @@ Vagrant.configure("2") do |config|
     ]
   end
 
-  config.vm.define "bleh", primary: true do |machine|
+  config.vm.define "ubuntu_1", primary: true do |machine|
     machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.11'
   end
 
-  config.vm.define "meh", autostart: false do |machine|
+  config.vm.define "ubuntu_2", autostart: false do |machine|
     machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.12'
   end
 
-  config.vm.define "feh", autostart: false do |machine|
+  config.vm.define "ubuntu_3", autostart: false do |machine|
     machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.13'
   end
 end
