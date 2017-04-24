@@ -20,11 +20,14 @@ function main {
 
   "$shome/script/update"
 
-  local vip_cache=
   if ifconfig vboxnet0 2>/dev/null; then	
     vip_cache="172.28.128.1"
   else
-    vip_cache="172.28.130.1"
+    if [[ -n "${1:-}" ]]; then
+      vip_cache="$1"; shift
+    else
+      vip_cache="172.28.130.1"
+    fi
   fi
 
   case "$(uname -s)" in
