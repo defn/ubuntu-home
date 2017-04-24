@@ -44,6 +44,7 @@ docker-save:
 	mv -f /data/cache/box/docker/inception.tar.1 /data/cache/box/docker/inception.tar
 
 virtualbox:
+	(cd work/base && make new-cidata)
 	plane recycle block:ubuntu
 	plane vagrant ssh -- sudo aptitude update
 	time script/deploy plane vagrant ssh --
@@ -51,8 +52,9 @@ virtualbox:
 	time plane reuse ubuntu
 
 virtualbox-docker:
-	plane recycle
-	plane vagrant ssh -- make nc docker-ubuntu
+	(cd work/base && make new-cidata)
+	plane recycle block:ubuntu
+	plane vagrant ssh -- make docker-ubuntu
 	(cd work/base && make new-cidata)
 	time plane reuse docker
 
@@ -65,7 +67,7 @@ aws:
 
 aws-docker:
 	van recycle
-	van vagrant ssh -- make nc docker-ubuntu
+	van vagrant ssh -- make docker-ubuntu
 	(cd work/base && make new-cidata)
 	time van reuse docker
 
