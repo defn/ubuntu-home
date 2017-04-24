@@ -32,6 +32,9 @@
 - name: Updating ubuntu block
   command: git pull
 
+- name: Get new submodules
+  command: git submodule update --init
+
 - name: Sync dependencies
   shell : bin/home make sync
 
