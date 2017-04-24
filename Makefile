@@ -44,6 +44,9 @@ docker-save:
 	mv -f /data/cache/box/docker/inception.tar.1 /data/cache/box/docker/inception.tar
 
 virtualbox:
+	env BASEBOX_NAME_OVERRIDE=block:ubuntu $(make) virtualbox_fr
+
+virtualbox_fr:
 	(cd work/base && make new-cidata)
 	plane recycle block:ubuntu
 	plane vagrant ssh -- sudo aptitude update
@@ -59,6 +62,9 @@ virtualbox-docker:
 	time plane reuse docker
 
 aws:
+	env BASEBOX_NAME_OVERRIDE=block:ubuntu $(make) aws_fr
+
+aws_fr:
 	van recycle
 	van vagrant ssh -- sudo aptitude update
 	time script/deploy van vagrant ssh --
