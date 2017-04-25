@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+function main {
+  case "$(uname -s)" in
+    Darwin)
+      exec "$HOME/homebrew/bin/pinentry-mac" "$@"
+      ;;
+    *)
+      exec "$HOME/install/bin/pinentry-curses" "$@"
+      ;;
+  esac
+}
+
+main "$@"
