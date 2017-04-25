@@ -149,3 +149,6 @@ rebase:
 
 rebuild:
 	$(make) docker-update up daemon-ssh ssh
+
+rebuild-all:
+	runmany 'cd work/$$1 && make rebuild-all' admin cache docs build chat
