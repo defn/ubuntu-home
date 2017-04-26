@@ -63,7 +63,7 @@ virtualbox         ${BLOCK_PATH}/virtualbox         git@github.com:imma/virtualb
 confd              ${BLOCK_PATH}/confd              git@github.com:imma/confd              09c4bbc024a4a35834e64089204e6f7f06f5d035 develop 
 gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                a7702a28330c15e284f35a92a699455def5e2ff7 develop 
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          5edfb8a7ef8a97c8642e1b9b987309c23dd11a90 develop 
-hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               f476213cd2004f8e0e15992cb5281ad92b74f8e4 develop 
+hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               5549e7e0cb0ebd8da3847f513ba6cadb6a5a0f1f develop 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 1918882e7bb16ff6c17f9376715dd56b6ddb052f develop 
 docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               30e129bea52c71cfea0fd2d69527f7d4fe2229f0 develop 
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             1db084ed06de0c10679e2384c8f88be047934909 develop 
