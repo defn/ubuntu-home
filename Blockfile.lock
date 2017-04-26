@@ -33,8 +33,8 @@ facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts   
 consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             d0d976285aacb1788e12d01d557b99f77f4c6a75 develop 
 consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       238b69a38e1c176e95155fb18ab28df555311bd1 develop 
 vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault              97fb9f4168dbbd204d9006d7cb656d5c7c6b0830 develop 
-linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            b1f76d8a2600df99e0e8e8b4cd2bf93c917037ce develop 
-namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             509dcbdd3a6758d2f4a87479744e0cd8c01dfe8a develop 
+linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            7f665894e8df83eabbb78c3944a8919a994d1b66 develop 
+namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             fcf6d746b6863c7b02c0cde07027808d14b91507 develop 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          2eb227af3c85f684032bef87ed2f7dfbbc475bf2 develop 
 lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                60792a7da2716df6441d037c4f3d1c94c75a9127 develop 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            a18ab2e5d9764c406272efd228b3a37fd6d1ebbc develop 
@@ -56,14 +56,14 @@ imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma    
 packer             ${BLOCK_PATH}/packer             git@github.com:imma/packer             7baa228caf7ecc1758dd4bd85d6a44136f6cef19 develop 
 provision          ${BLOCK_PATH}/provision          git@github.com:imma/provision          33a37d672b52651f52528c92e4209e5889cd51c6 develop 
 dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream              dbb4194908afc3898ae8b9012fcb5bed89948423 develop 
-vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            7a5b60343c585a0b67cd327909ecb525fb9736aa develop 
+vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            a7c2b881ed159dd9017d8a32a8226ab33c7b765f develop 
 limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              b3f92a3233796955ee28c4a12c248e9f8185605d develop 
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          11af2e288570f8b41547828f5d6cdb456af73b47 develop 
 virtualbox         ${BLOCK_PATH}/virtualbox         git@github.com:imma/virtualbox         45c8775c09809ca9c7e17748823d8e402cee5a4b develop 
 confd              ${BLOCK_PATH}/confd              git@github.com:imma/confd              09c4bbc024a4a35834e64089204e6f7f06f5d035 develop 
 gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                a7702a28330c15e284f35a92a699455def5e2ff7 develop 
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          5edfb8a7ef8a97c8642e1b9b987309c23dd11a90 develop 
-hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               8cf5fc53dd0dba94403b5240a688950f912a9e5d develop 
+hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               f476213cd2004f8e0e15992cb5281ad92b74f8e4 develop 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 1918882e7bb16ff6c17f9376715dd56b6ddb052f develop 
 docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               30e129bea52c71cfea0fd2d69527f7d4fe2229f0 develop 
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             1db084ed06de0c10679e2384c8f88be047934909 develop 
