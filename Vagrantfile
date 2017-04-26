@@ -64,54 +64,56 @@ Vagrant.configure("2") do |config|
       '--name', 'SATA Controller',
       '--hostiocache', 'on'
     ]
+
+    config.vm.define "default", primary: true do |machine|
+      machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.11' unless ENV['AWS_SG']
+    end
+
+    config.vm.define "k8s-master", autostart: false do |machine|
+      machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.12' unless ENV['AWS_SG']
+    end
+
+    config.vm.define "k8s-node1", autostart: false do |machine|
+      machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.13' unless ENV['AWS_SG']
+    end
+
+    config.vm.define "k8s-node2", autostart: false do |machine|
+      machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.13' unless ENV['AWS_SG']
+    end
   end
 
   config.vm.provider "aws" do |v, override|
     override.vm.box = "block:ubuntu"
     override.nfs.functional = false
     override.vm.synced_folder ENV['HOME'], '/vagrant', disabled: true
-    override.vm.synced_folder '/data/cache/nodist', '/data/cache/nodist', type: "rsync", rsync__args: [ "-ia" ]
-    override.vm.synced_folder ENV['AWS_SYNC'], ENV['AWS_SYNC'], type: "rsync", rsync__args: [ "-ia" ] if ENV['AWS_SYNC']
 
     override.vm.provision "shell", path: "#{shome}/script/cloud-init-wait", args: [], privileged: false
 
     v.region = ENV['AWS_DEFAULT_REGION']
     v.access_key_id = ENV['AWS_ACCESS_KEY_ID']
     v.secret_access_key = ENV['AWS_SECRET_ACCESS_KEY']
-    v.session_token = ENV['AWS_SESSION_TOKEN'] if ENV['AWS_SESSION_TOKEN']
+    v.session_token = ENV['AWS_SESSION_TOKEN']
 
     v.associate_public_ip = false
     v.ssh_host_attribute = :private_ip_address
-    v.subnet_id = ENV['AWS_SUBNET'] if ENV['AWS_SUBNET']
+    v.subnet_id = ENV['AWS_SUBNET']
     v.security_groups = [ ENV['AWS_SG'] ]
 
     v.keypair_name = ENV['AWS_KEYPAIR']
-    v.instance_type = ENV['AWS_TYPE'] || 't2.small'
-    v.block_device_mapping = [
-      { 'DeviceName' => '/dev/sda1', 'Ebs.VolumeSize' => 40 },
-      { 'DeviceName' => '/dev/sdb', 'VirtualName' => 'ephemeral0', },
-      { 'DeviceName' => '/dev/sdc', 'VirtualName' => 'ephemeral1', },
-      { 'DeviceName' => '/dev/sdd', 'VirtualName' => 'ephemeral2', },
-      { 'DeviceName' => '/dev/sde', 'VirtualName' => 'ephemeral3', }
-    ]
-    v.tags = {
-      'Provisioner' => 'vagrant'
-    }
-  end
+    v.instance_type = ENV['AWS_TYPE'] || 't2.nano'
+    v.block_device_mapping = [ { 'DeviceName' => '/dev/sda1', 'Ebs.VolumeSize' => 40 } ]
+    v.tags = { 'Provisioner' => 'vagrant' }
 
-  config.vm.define "default", primary: true do |machine|
-    machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.11' unless ENV['AWS_SG']
-  end
+    config.vm.define "default", primary: true do |machine|
+    end
 
-  config.vm.define "k8s-master", autostart: false do |machine|
-    machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.12' unless ENV['AWS_SG']
-  end
+    config.vm.define "k8s-master", autostart: false do |machine|
+    end
 
-  config.vm.define "k8s-node1", autostart: false do |machine|
-    machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.13' unless ENV['AWS_SG']
-  end
+    config.vm.define "k8s-node1", autostart: false do |machine|
+    end
 
-  config.vm.define "k8s-node2", autostart: false do |machine|
-    machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.13' unless ENV['AWS_SG']
+    config.vm.define "k8s-node2", autostart: false do |machine|
+    end
   end
 end
