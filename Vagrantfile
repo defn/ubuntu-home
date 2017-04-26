@@ -64,22 +64,6 @@ Vagrant.configure("2") do |config|
       '--name', 'SATA Controller',
       '--hostiocache', 'on'
     ]
-
-    config.vm.define "default", primary: true do |machine|
-      machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.11' unless ENV['AWS_SG']
-    end
-
-    config.vm.define "k8s-master", autostart: false do |machine|
-      machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.12' unless ENV['AWS_SG']
-    end
-
-    config.vm.define "k8s-node1", autostart: false do |machine|
-      machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.13' unless ENV['AWS_SG']
-    end
-
-    config.vm.define "k8s-node2", autostart: false do |machine|
-      machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.13' unless ENV['AWS_SG']
-    end
   end
 
   config.vm.provider "aws" do |v, override|
@@ -103,17 +87,17 @@ Vagrant.configure("2") do |config|
     v.instance_type = ENV['AWS_TYPE'] || 't2.nano'
     v.block_device_mapping = [ { 'DeviceName' => '/dev/sda1', 'Ebs.VolumeSize' => 40 } ]
     v.tags = { 'Provisioner' => 'vagrant' }
+  end
 
-    config.vm.define "default", primary: true do |machine|
-    end
+  config.vm.define "default", primary: true do |machine|
+  end
 
-    config.vm.define "k8s-master", autostart: false do |machine|
-    end
+  config.vm.define "k8s-master", autostart: false do |machine|
+  end
 
-    config.vm.define "k8s-node1", autostart: false do |machine|
-    end
+  config.vm.define "k8s-node1", autostart: false do |machine|
+  end
 
-    config.vm.define "k8s-node2", autostart: false do |machine|
-    end
+  config.vm.define "k8s-node2", autostart: false do |machine|
   end
 end
