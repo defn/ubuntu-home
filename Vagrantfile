@@ -90,6 +90,7 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.define "default", primary: true do |machine|
+    machine.vm.network "private_network", nic_type: 'virtio', ip: '172.28.128.11'
   end
 
   config.vm.define "k8s-master", autostart: false do |machine|
