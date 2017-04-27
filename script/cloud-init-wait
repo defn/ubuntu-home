@@ -12,10 +12,6 @@ function main {
 			done
 		fi
 	fi
-
-  make sync
-  source .bash_profile
-  block bootstrap
 }
 
 main "$@"
