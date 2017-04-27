@@ -36,7 +36,7 @@ vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault   
 linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            7f665894e8df83eabbb78c3944a8919a994d1b66 develop 
 namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             fcf6d746b6863c7b02c0cde07027808d14b91507 develop 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          2eb227af3c85f684032bef87ed2f7dfbbc475bf2 develop 
-lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                60792a7da2716df6441d037c4f3d1c94c75a9127 develop 
+lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                4e8570adb6900c0ff08e00164dcb6fe4954634e5 develop 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            a18ab2e5d9764c406272efd228b3a37fd6d1ebbc develop 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             932ae42c1975401fa8f2df8e1d9b77ce1ad90775 develop 
 docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     9f82424257985b3acb7cd964902eb715e441669f develop 
