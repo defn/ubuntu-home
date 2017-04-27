@@ -36,6 +36,7 @@
 /.npm
 /.vbox_version
 /.bashrc.cache.*
+/.bashrc.secret*
 /VirtualBox VMs
 /cidata.iso
 /cidata/user-data
