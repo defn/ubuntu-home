@@ -28,7 +28,7 @@ go                 ${BLOCK_PATH}/go                 git@github.com:imma/go      
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              8947e2c384bdeee21c94455a23536928f35a1b46 develop 
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            3514336e1f75db34f9aa80139de795080d0e7337 develop 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               570f92047ec6141c36ae071526f0f7b3f4e581f1 develop 
-etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               08d8ce30caf002d4a8776c67c77b5c46ad9be13c develop 
+etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               e8f59198fcdfbc980f2e3378bad4f6991b1f2fd3 develop 
 facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts              c640273962fa4c4095e8b7f531caa94ac372438d develop 
 consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             d0d976285aacb1788e12d01d557b99f77f4c6a75 develop 
 consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       238b69a38e1c176e95155fb18ab28df555311bd1 develop 
