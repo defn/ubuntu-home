@@ -31,7 +31,7 @@ sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd    
 etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               e8f59198fcdfbc980f2e3378bad4f6991b1f2fd3 develop 
 facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts              c640273962fa4c4095e8b7f531caa94ac372438d develop 
 consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             d0d976285aacb1788e12d01d557b99f77f4c6a75 develop 
-consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       441563035833d5ffb14b7ce6c04e0ef526c33a8d develop 
+consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       315da2eb07089675c2fe771a91699fd236c9d726 develop 
 vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault              97fb9f4168dbbd204d9006d7cb656d5c7c6b0830 develop 
 linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            6424b76fbb36adbf1a96e21b26b548686be136f3 develop 
 namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             60251518932ee8afa1894c6200b3946e051f7970 develop 
