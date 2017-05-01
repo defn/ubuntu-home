@@ -33,7 +33,7 @@ facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts   
 consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             d0d976285aacb1788e12d01d557b99f77f4c6a75 develop 
 consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       238b69a38e1c176e95155fb18ab28df555311bd1 develop 
 vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault              97fb9f4168dbbd204d9006d7cb656d5c7c6b0830 develop 
-linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            7f665894e8df83eabbb78c3944a8919a994d1b66 develop 
+linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            6424b76fbb36adbf1a96e21b26b548686be136f3 develop 
 namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             60251518932ee8afa1894c6200b3946e051f7970 develop 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          2eb227af3c85f684032bef87ed2f7dfbbc475bf2 develop 
 lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                4e8570adb6900c0ff08e00164dcb6fe4954634e5 develop 
@@ -59,7 +59,7 @@ dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream   
 vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            a7c2b881ed159dd9017d8a32a8226ab33c7b765f develop 
 limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              c94a20f3e499facca8a3667fce786cef799616a6 develop 
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          11af2e288570f8b41547828f5d6cdb456af73b47 develop 
-virtualbox         ${BLOCK_PATH}/virtualbox         git@github.com:imma/virtualbox         45c8775c09809ca9c7e17748823d8e402cee5a4b develop 
+virtualbox         ${BLOCK_PATH}/virtualbox         git@github.com:imma/virtualbox         452ec8bce8d63c389d2f761b9d193157341ecb3b develop 
 confd              ${BLOCK_PATH}/confd              git@github.com:imma/confd              09c4bbc024a4a35834e64089204e6f7f06f5d035 develop 
 gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                a7702a28330c15e284f35a92a699455def5e2ff7 develop 
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          5edfb8a7ef8a97c8642e1b9b987309c23dd11a90 develop 
