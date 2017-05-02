@@ -16,7 +16,9 @@ function remote {
   sudo aptitude update
   sudo aptitude install -y gettext-base
 
-  git pull
+  chmod 700 ~/.gnupg
+
+  (cd /config & git pull)
   git submodule update --init
   make cache
   source .bashrc
@@ -39,7 +41,8 @@ function main {
     "$@" git reset --hard
     "$@" chmod 0640 .ssh/config
   fi
-
+  
+  "$@" -A git pull
   "$@" -A script/deploy remote
 
 }
