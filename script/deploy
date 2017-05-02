@@ -13,12 +13,6 @@ function remote {
     git clone -b "$(cd "$shome" && git rev-parse --abbrev-ref HEAD)" git@github.com:imma/imma-config /config
   fi
 
-  if curl -s --max-time 30 http://cache.nih | grep Nexus; then
-    if [[ -n "${http_proxy:-}" && "$http_proxy" != "http://:3128" ]]; then
-      home enable cache 2>/dev/null || true
-    fi
-  fi
-
   sudo aptitude update
   sudo aptitude install -y gettext-base
 
@@ -29,8 +23,6 @@ function remote {
   make sync
 
   script/cibuild
-
-  home disable cache
 
   sync
 }
