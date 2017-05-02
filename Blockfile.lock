@@ -57,8 +57,8 @@ packer             ${BLOCK_PATH}/packer             git@github.com:imma/packer  
 provision          ${BLOCK_PATH}/provision          git@github.com:imma/provision          33a37d672b52651f52528c92e4209e5889cd51c6 develop 
 dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream              93558c66e775a61410e323de435c6bf6cca55334 develop 
 vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            a7c2b881ed159dd9017d8a32a8226ab33c7b765f develop 
-limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              51faccbadc7f6ceb396ce27b3f0c700210e14d04 develop 
-inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          239045902c34e7e83f5c74ab2e52feda8263f2da develop 
+limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              0a8175692d4c2955275f878b443a6ff7fc09aa67 develop 
+inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          df88740fb331220767be27cb99f5cfc559c8c75f develop 
 virtualbox         ${BLOCK_PATH}/virtualbox         git@github.com:imma/virtualbox         452ec8bce8d63c389d2f761b9d193157341ecb3b develop 
 confd              ${BLOCK_PATH}/confd              git@github.com:imma/confd              09c4bbc024a4a35834e64089204e6f7f06f5d035 develop 
 gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                a7702a28330c15e284f35a92a699455def5e2ff7 develop 
