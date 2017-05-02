@@ -14,7 +14,9 @@ function remote {
   fi
 
   if curl -s --max-time 30 http://cache.nih | grep Nexus; then
-    home enable cache 2>/dev/null || true
+    if [[ -n "${http_proxy:-}" && "$http_proxy" != "http://:3128" ]]; then
+      home enable cache 2>/dev/null || true
+    fi
   fi
 
   sudo aptitude update
