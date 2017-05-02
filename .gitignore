@@ -122,3 +122,5 @@
 /.vue-templates/
 /.apex
 /vendor
+
+/.selected_editor
