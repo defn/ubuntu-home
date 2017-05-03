@@ -1,39 +1,7 @@
-require "net/ssh"
-
-module Net::SSH
-  class << self
-    alias_method :old_start, :start
-
-    def start(host, username, opts)
-      opts[:keys_only] = false
-      self.old_start(host, username, opts)
-    end
-  end
-end
-
 Vagrant.configure("2") do |config|
-  module Vagrant
-    module Util
-      class Platform
-        class << self
-          def solaris?
-            true
-          end
-        end
-      end
-		end
-	end
-end
-
-Vagrant.configure("2") do |config|
-  shome=File.expand_path("..", __FILE__)
-
-  config.ssh.shell = "bash"
-  config.ssh.username = "ubuntu"
-  config.ssh.forward_agent = true
-  config.ssh.insert_key = false
-
   config.vm.provider "virtualbox" do |v, override|
+    shome=File.expand_path("..", __FILE__)
+
     override.vm.box = "block:ubuntu"
 
     override.vm.synced_folder ENV['HOME'], '/vagrant', disabled: true
@@ -64,29 +32,6 @@ Vagrant.configure("2") do |config|
       '--name', 'SATA Controller',
       '--hostiocache', 'on'
     ]
-  end
-
-  config.vm.provider "aws" do |v, override|
-    override.vm.box = "block:ubuntu"
-    override.nfs.functional = false
-    override.vm.synced_folder ENV['HOME'], '/vagrant', disabled: true
-
-    override.vm.provision "shell", path: "#{shome}/script/cloud-init-wait", args: [], privileged: false
-
-    v.region = ENV['AWS_DEFAULT_REGION']
-    v.access_key_id = ENV['AWS_ACCESS_KEY_ID']
-    v.secret_access_key = ENV['AWS_SECRET_ACCESS_KEY']
-    v.session_token = ENV['AWS_SESSION_TOKEN']
-
-    v.associate_public_ip = false
-    v.ssh_host_attribute = :private_ip_address
-    v.subnet_id = ENV['AWS_SUBNET']
-    v.security_groups = (ENV['AWS_SG']||"").split(/\s+/)
-
-    v.keypair_name = ENV['AWS_KEYPAIR']
-    v.instance_type = ENV['AWS_TYPE'] || 't2.small'
-    v.block_device_mapping = [ { 'DeviceName' => '/dev/sda1', 'Ebs.VolumeSize' => 40 } ]
-    v.tags = { 'Provisioner' => 'vagrant' }
   end
 
   config.vm.define "default", primary: true do |machine|
