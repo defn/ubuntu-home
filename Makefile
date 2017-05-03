@@ -8,7 +8,7 @@ SHELL = bash
 
 BLOCK_PATH ?= $(HOME)/work
 
-all: cidata.iso
+all:
 	@true
 
 cache:
@@ -54,13 +54,6 @@ virtualbox_fr:
 	(cd work/base && make new-cidata)
 	time plane reuse ubuntu
 
-virtualbox-docker:
-	(cd work/base && make new-cidata)
-	plane recycle block:ubuntu
-	plane vagrant ssh -- make docker-ubuntu
-	(cd work/base && make new-cidata)
-	time plane reuse docker
-
 aws:
 	env BASEBOX_NAME_OVERRIDE=block:ubuntu $(make) aws_fr
 
@@ -70,33 +63,6 @@ aws_fr:
 	time script/deploy van vagrant ssh --
 	(cd work/base && make new-cidata)
 	time van reuse ubuntu
-
-aws-docker:
-	van recycle
-	van vagrant ssh -- make docker-ubuntu
-	(cd work/base && make new-cidata)
-	time van reuse docker
-
-cidata/user-data: /config/ssh/authorized_keys cidata/user-data.template
-	mkdir -p cidata
-	cat cidata/user-data.template | envsubst '$$USER $$CACHE_VIP' | tee "$@.tmp"
-	mv "$@.tmp" "$@"
-
-cidata/meta-data:
-	mkdir -p cidata
-	echo --- | tee $@.tmp
-	echo instance-id: $(shell basename $(shell pwd)) | tee -a $@.tmp
-	mv $@.tmp $@
-
-cidata.iso: cidata/user-data cidata/meta-data
-	mkisofs -R -V cidata -o $@.tmp cidata
-	mv $@.tmp $@
-
-vagrant:
-	vagrant up
-	vagrant reload
-	vagrant ssh -- make nih
-	vagrant snapshot save nih
 
 /config/ssh/authorized_keys:
 	git clone git@github.com:imma/imma-config /config 2>/dev/null || true
@@ -131,21 +97,6 @@ reset-virtualbox:
 
 reset-aws:
 	vagrant box add -f block:ubuntu /data/cache/box/aws/block-base.box
-
-docker-ubuntu:
-	$(make) sync
-	$(make) docker-ubuntu-fr
-
-docker-ubuntu-fr:
-	script/configure
-	runmany 'cd $$1 && $(make) reset && $(make) nc docker' ~/work/base ~
-	script/unconfigure
-	$(make) prune
-	sync
-
-rebase:
-	$(make) reset
-	$(make) docker
 
 rebuild:
 	$(make) docker-update up daemon-ssh ssh
