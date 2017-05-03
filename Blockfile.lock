@@ -43,7 +43,7 @@ docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-c
 docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             eeb315e3e63ef037aa681a2f6e75c914ff9df0dd develop 
 kubernetes         ${BLOCK_PATH}/kubernetes         git@github.com:imma/kubernetes         ebb604ef503dca2c43fb075baf678d14936432aa develop 
 helm               ${BLOCK_PATH}/helm               git@github.com:imma/helm               c4d91ad73895c5f1420161974639e2a8d20a511a develop 
-calico             ${BLOCK_PATH}/calico             git@github.com:imma/calico             930f19d7207e4cef3b70dd9793610c7e7fe4e4dc develop 
+calico             ${BLOCK_PATH}/calico             git@github.com:imma/calico             441d665845f472d741363adff3c9b1ab2e83d60f develop 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                7ab025940249fcb1fb6bbde9ebd19a4ca66882f3 develop 
 apex               ${BLOCK_PATH}/apex               git@github.com:imma/apex               6afd436893deaad45a2bdec1be435f91a3ff0de4 develop 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          08f90855a71fa920f37b85928b5160b65ae79fe7 develop 
