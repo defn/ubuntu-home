@@ -61,7 +61,7 @@ limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo   
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          df88740fb331220767be27cb99f5cfc559c8c75f develop 
 virtualbox         ${BLOCK_PATH}/virtualbox         git@github.com:imma/virtualbox         452ec8bce8d63c389d2f761b9d193157341ecb3b develop 
 confd              ${BLOCK_PATH}/confd              git@github.com:imma/confd              09c4bbc024a4a35834e64089204e6f7f06f5d035 develop 
-gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                a7702a28330c15e284f35a92a699455def5e2ff7 develop 
+gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                190b7ceb1e5d54e41dc6cdfc914ecc3ec8e5f54c develop 
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          5edfb8a7ef8a97c8642e1b9b987309c23dd11a90 develop 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               a94be197d9060cde02c96f3f80863ef989d691e9 develop 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 1918882e7bb16ff6c17f9376715dd56b6ddb052f develop 
