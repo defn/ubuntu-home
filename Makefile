@@ -55,7 +55,7 @@ virtualbox_fr:
 	time plane reuse ubuntu
 
 aws:
-	env BASEBOX_NAME_OVERRIDE=block:ubuntu $(make) aws_fr
+	env BASEBOX_NAME_OVERRIDE=block:ubuntu AWS_SYNC=/data/cache/packages/$(ID_INSTALL) $(make) aws_fr
 
 aws_fr:
 	van recycle
