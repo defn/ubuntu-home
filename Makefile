@@ -99,6 +99,10 @@ reset-aws:
 	vagrant box add -f block:ubuntu /data/cache/box/aws/block-base.box
 
 rebuild:
+	$(make) rebuild-ubuntu
+	$(make) remote rebuild-nih
+
+rebuild-ubuntu:
 	$(make) docker-update up daemon-ssh ssh
 
 rebuild-nih:
