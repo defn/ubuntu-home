@@ -47,7 +47,7 @@ calico             ${BLOCK_PATH}/calico             git@github.com:imma/calico  
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                7ab025940249fcb1fb6bbde9ebd19a4ca66882f3 develop 
 apex               ${BLOCK_PATH}/apex               git@github.com:imma/apex               6afd436893deaad45a2bdec1be435f91a3ff0de4 develop 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          08f90855a71fa920f37b85928b5160b65ae79fe7 develop 
-fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               51fee531774d411615c74fdd72ed06906a5c6701 develop 
+fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               f61d75eb031168e2ca07e9fe8662052038375b51 develop 
 aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                b569ecb9a2abdff460994acc369f9e98ce067890 develop 
 aq                 ${BLOCK_PATH}/aq                 git@github.com:imma/aq                 efce7ff4bb1c9632a5c904f294765eed59412b0f develop 
 aqq                ${BLOCK_PATH}/aqq                git@github.com:imma/aqq                5fcbd9a9594684346c79d0f20099db59f157bd18 develop 
