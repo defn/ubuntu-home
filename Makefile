@@ -103,7 +103,7 @@ rebuild:
 	$(make) remote rebuild-nih
 
 rebuild-ubuntu:
-	$(make) docker-update up daemon-ssh ssh
+	$(make) docker-update up wait-ssh ssh
 
 rebuild-nih:
 	runmany 'cd work/$$1 && make rebuild-all' admin cache docs build chat
