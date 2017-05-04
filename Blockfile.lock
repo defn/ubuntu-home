@@ -39,7 +39,7 @@ syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-n
 lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                4e8570adb6900c0ff08e00164dcb6fe4954634e5 develop 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            a18ab2e5d9764c406272efd228b3a37fd6d1ebbc develop 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             932ae42c1975401fa8f2df8e1d9b77ce1ad90775 develop 
-docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     1f4c91870fcdb11640a4c598280e66980262ce19 develop 
+docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     a067e7b478fb29c06ec4d5f0c75ca86e8b820aa5 develop 
 docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             eeb315e3e63ef037aa681a2f6e75c914ff9df0dd develop 
 kubernetes         ${BLOCK_PATH}/kubernetes         git@github.com:imma/kubernetes         ebb604ef503dca2c43fb075baf678d14936432aa develop 
 helm               ${BLOCK_PATH}/helm               git@github.com:imma/helm               c4d91ad73895c5f1420161974639e2a8d20a511a develop 
