@@ -100,10 +100,14 @@ reset-aws:
 
 rebuild:
 	$(make) rebuild-ubuntu
+	$(make) up wait-ssh
 	$(make) remote rebuild-nih
+	$(make) clean
+	$(make) up
+	$(make) up-nih
 
 rebuild-ubuntu:
-	$(make) docker-update up wait-ssh ssh
+	$(make) docker-update
 
 rebuild-nih:
 	runmany 'cd work/$$1 && make rebuild-all' admin cache docs build chat
