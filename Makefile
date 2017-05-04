@@ -31,10 +31,10 @@ include $(BLOCK_PATH)/base/Makefile.docker
 docker_default = docker-image
 
 docker-image:
-	time $(make) home=$(block) daemon home-deploy image-update
+	time $(make) home=$(block) recycle home-deploy image-update
 
 docker-update:
-	time $(make) daemon home-deploy block-finish minimize commit
+	time $(make) reyccle home-deploy block-finish minimize commit
 	time $(make) build
 	$(make) clean
 
