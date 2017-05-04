@@ -34,7 +34,7 @@ docker-image:
 	time $(make) home=$(block) recycle home-deploy image-update
 
 docker-update:
-	time $(make) reycle home-deploy block-finish minimize commit
+	time $(make) recycle home-deploy block-finish minimize commit
 	time $(make) build
 	$(make) clean
 
