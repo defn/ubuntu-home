@@ -75,4 +75,4 @@ irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi   
 chat               ${BLOCK_PATH}/chat               git@github.com:imma/chat               ae42f7fc1c02ac23075146933ecaebc6df7433c3 develop 
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              60506feb5b7b907810ff62a9d3c327754a02c372 develop 
 cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue                d2e348d7877e1ac1d3f1d981e80564b67b773a7f develop 
-home               ${BLOCK_PATH}/home               git@github.com:imma/home               ad087861808dc6bec87e7de8b104fb23d4085166 develop 
+home               ${BLOCK_PATH}/home               git@github.com:imma/home               fa63fad044723f90ee6edf478fed8964c4df642e develop 
