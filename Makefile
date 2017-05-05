@@ -30,8 +30,20 @@ include $(BLOCK_PATH)/base/Makefile.docker
 
 docker_default = docker-image
 
+aws_default = aws-image
+
 docker-image:
 	time $(make) home=$(block) recycle home-deploy image-update
+
+aws-image:
+	time env BASEBOX_NAME_OVERRIDE=block:ubuntu AWS_SYNC=/data/cache/packages/$(ID_INSTALL) AWS_TYPE=$(aws_type) $(make) home=$(block) aws-image-fr
+
+aws-image-fr:
+	van recycle
+	van vagrant ssh -- sudo aptitude update
+	time script/deploy van vagrant ssh --
+	(cd work/base && make new-cidata)
+	time van reuse ubuntu
 
 docker-update:
 	time $(make) recycle home-deploy block-finish minimize commit
@@ -53,16 +65,6 @@ virtualbox_fr:
 	time script/deploy plane vagrant ssh --
 	(cd work/base && make new-cidata)
 	time plane reuse ubuntu
-
-aws:
-	env BASEBOX_NAME_OVERRIDE=block:ubuntu AWS_SYNC=/data/cache/packages/$(ID_INSTALL) $(make) aws_fr
-
-aws_fr:
-	van recycle
-	van vagrant ssh -- sudo aptitude update
-	time script/deploy van vagrant ssh --
-	(cd work/base && make new-cidata)
-	time van reuse ubuntu
 
 /config/ssh/authorized_keys:
 	git clone git@github.com:imma/imma-config /config 2>/dev/null || true
