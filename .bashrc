@@ -25,6 +25,7 @@ function bashrc {
 function home_bashrc {
   local shome="$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"
 
+  export BOARD_PATH="$shome"
   PATH="$(echo $PATH | tr ':' '\n' | uniq | grep -v "$shome" | grep -v "${PKG_HOME:-"$shome"}" | perl -ne 'm{^\s*$} && next; s{\s*$}{:}; print')"
   if [[ "$(type -t require)" != "function" ]]; then
     if ! bashrc; then
