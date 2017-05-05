@@ -69,7 +69,7 @@ docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs    
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             1db084ed06de0c10679e2384c8f88be047934909 develop 
 defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               a525523f848ac85202270c500461489f21202223 develop 
 admin              ${BLOCK_PATH}/admin              git@github.com:imma/admin              8690fea9d2c8988a12b58881d2733380f1ade2dd develop 
-buildkite          ${BLOCK_PATH}/buildkite          git@github.com:imma/buildkite          34f08cbb2ada165348fa4a7c48ce2734e2b967ce develop 
+buildkite          ${BLOCK_PATH}/buildkite          git@github.com:imma/buildkite          6bd0c4af5218a87a764f3ca0387aefb8bb73f9d4 develop 
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              6768c9799886ea1569dfe92eec6e1b3317d7d0c3 develop 
 irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              b0570b10eb0cebbcd6ef58090c07a91a9bfe40aa develop 
 chat               ${BLOCK_PATH}/chat               git@github.com:imma/chat               ae42f7fc1c02ac23075146933ecaebc6df7433c3 develop 
