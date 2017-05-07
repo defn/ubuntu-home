@@ -24,7 +24,7 @@
   when: hostname is defined and hostname != ""
 
 - name: Reset Blockfile.lock
-  command: git checkout Blockfile.lock
+  command: chdir="{{ansible_env.HOME}}" git checkout Blockfile.lock
 
 - name: Get ssh-agent status
   command: ssh-add -l
@@ -32,16 +32,16 @@
   ignore_errors: yes
 
 - name: Updating ubuntu block
-  command: git pull
+  command: chdir="{{ansible_env.HOME}}" git pull
   when: ssh_agent.rc == 0
 
 - name: Get new submodules
-  command: git submodule update --init
+  command: chdir="{{ansible_env.HOME}}" git submodule update --init
   when: ssh_agent.rc == 0
 
 - name: Sync dependencies
-  shell : bin/home make sync
+  command: chdir="{{ansible_env.HOME}}" bin/home make sync
   when: ssh_agent.rc == 0
 
 - name: Generate .bashrc.cache
-  shell: bin/home make cache
+  command: chdir="{{ansible_env.HOME}}" bin/home make cache
