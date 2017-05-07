@@ -24,19 +24,19 @@
   when: hostname is defined and hostname != ""
 
 - name: Reset Blockfile.lock
-  command: git checkout Blockfile.lock
+  command: chdir="{{ansible_env.HOME}}" git checkout Blockfile.lock
 
 - name: Get ssh-agent status
   command: ssh-add -l
 
 - name: Updating ubuntu block
-  command: git pull
+  command: chdir="{{ansible_env.HOME}}" git pull
 
 - name: Get new submodules
-  command: git submodule update --init
+  command: chdir="{{ansible_env.HOME}}" git submodule update --init
 
 - name: Sync dependencies
-  shell : bin/home make sync
+  command: chdir="{{ansible_env.HOME}}" bin/home make sync
 
 - name: Generate .bashrc.cache
-  shell: bin/home make cache
+  command: chdir="{{ansible_env.HOME}}" bin/home make cache
