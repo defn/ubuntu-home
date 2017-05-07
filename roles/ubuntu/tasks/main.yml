@@ -38,8 +38,5 @@
 - name: Sync dependencies
   shell : bin/home make sync
 
-- name: Build dependencies
-  shell: bin/home block bootstrap
-
 - name: Generate .bashrc.cache
   shell: bin/home make cache
