@@ -1,3 +1,9 @@
 #!/usr/bin/env bash
 
-exec "${BLOCK_PATH}/home/bin/home" "$@"
+function main {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "$shome/.bashrc"
+  exec "${BLOCK_PATH}/home/bin/home" "$@"
+}
+
+main "$@"
