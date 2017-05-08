@@ -2,11 +2,11 @@
 - name: Get the fogg hostname
   command: fogg hostname
   register: fogg_hostname
-	when: hostname is not defined
+  when: hostname is not defined
 - name: Set hostname fact using fogg
   set_fact:
     hostname: "{{ fogg_hostname.stdout }}"
-	when: hostname is not defined
+  when: hostname is not defined
 - name: Add /etc/hosts entry
   lineinfile: >
     dest=/etc/hosts 
