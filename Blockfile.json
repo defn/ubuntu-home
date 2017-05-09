@@ -5,7 +5,7 @@
     [ "sshd", "etcd", "consul-agent", "vault", "linkerd", "namerd", "syslog-ng" ],
     [ "lxd", "docker", "kubernetes", "helm", "calico", "apex" ],
     [ "fogg", "imma", "awesome", "inception", "virtualbox" ],
-    [ "confd", "ansible", "gpg", "git-crypt" ],
+    [ "confd", "ansible", "gpg", "git-crypt", "pt" ],
     [ "docs", "admin", "build", "chat" ],
     [ "defn", "junas", "cue", "home" ]
   ],

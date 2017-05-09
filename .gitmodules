@@ -310,3 +310,7 @@
 	path = work/home
 	url = git@github.com:imma/home
 	branch = develop
+[submodule "work/pt"]
+	path = work/pt
+	url = git@github.com:imma/pt
+	branch = develop
