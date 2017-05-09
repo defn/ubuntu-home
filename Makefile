@@ -39,13 +39,13 @@ docker-image:
 	time $(make) home=$(block) recycle home-deploy image-update
 
 aws-image:
-	cd work/base/fogg && time env BASEBOX_NAME_OVERRIDE=block:ubuntu AWS_SYNC=/data/cache/packages/$(ID_INSTALL) AWS_TYPE=$(aws_type) fogg exec chexec $(current_dir) $(make) home=$(block) aws-image-fr
+	cd $(BLOCK_PATH)/base/fogg && time env BASEBOX_NAME_OVERRIDE=block:ubuntu AWS_SYNC=/data/cache/packages/$(ID_INSTALL) AWS_TYPE=$(aws_type) fogg exec chexec $(current_dir) $(make) home=$(block) aws-image-fr
 
 aws-image-fr:
 	van recycle
 	van vagrant ssh -- sudo aptitude update
 	time script/deploy van vagrant ssh --
-	(cd work/base && make new-cidata)
+	(cd $(BLOCK_PATH)/base && make new-cidata)
 	time van reuse ubuntu
 
 docker-update:
@@ -62,11 +62,11 @@ virtualbox:
 	env BASEBOX_NAME_OVERRIDE=block:ubuntu $(make) virtualbox_fr
 
 virtualbox_fr:
-	(cd work/base && make new-cidata)
+	(cd $(BLOCK_PATH)/base && make new-cidata)
 	plane recycle block:ubuntu
 	plane vagrant ssh -- sudo aptitude update
 	time script/deploy plane vagrant ssh --
-	(cd work/base && make new-cidata)
+	(cd $(BLOCK_PATH)/base && make new-cidata)
 	time plane reuse ubuntu
 
 /config/ssh/authorized_keys:
@@ -116,7 +116,7 @@ rebuild-ubuntu:
 	$(make) docker-update
 
 rebuild-nih:
-	runmany 'cd work/$$1 && make rebuild-all' admin cache docs build chat
+	runmany 'cd $(BLOCK_PATH)/$$1 && make rebuild-all' admin cache docs build chat
 
 up-nih:
-	runmany 'cd work/$$1 && make up' admin cache docs build chat
+	runmany 'cd $(BLOCK_PATH)/$$1 && make up' admin cache docs build chat
