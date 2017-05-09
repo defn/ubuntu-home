@@ -8,6 +8,9 @@ SHELL = bash
 
 BLOCK_PATH ?= $(HOME)/work
 
+mkfile_path := $(abspath $(lastword $(MAKEFILE_LIST)))
+current_dir := $(patsubst %/,%,$(dir $(mkfile_path)))
+
 all:
 	@true
 
@@ -36,7 +39,7 @@ docker-image:
 	time $(make) home=$(block) recycle home-deploy image-update
 
 aws-image:
-	time env BASEBOX_NAME_OVERRIDE=block:ubuntu AWS_SYNC=/data/cache/packages/$(ID_INSTALL) AWS_TYPE=$(aws_type) $(make) home=$(block) aws-image-fr
+	cd work/base/fogg && time env BASEBOX_NAME_OVERRIDE=block:ubuntu AWS_SYNC=/data/cache/packages/$(ID_INSTALL) AWS_TYPE=$(aws_type) fogg exec chexec $(current_dir) $(make) home=$(block) aws-image-fr
 
 aws-image-fr:
 	van recycle
