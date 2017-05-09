@@ -9,6 +9,7 @@ Vagrant.configure("2") do |config|
     v.image = "docker.nih/block:#{Dir.pwd.split("/")[-1]}"
     v.has_ssh = true
     v.ports = [ ":2222" ]
+    v.create_args = [ "--network", "ubuntu_default" ]
 
     override.vm.synced_folder '/data', '/data'
     override.vm.synced_folder '/config', '/config'
