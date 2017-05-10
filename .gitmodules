@@ -306,3 +306,11 @@
 	path = work/home
 	url = git@github.com:imma/home
 	branch = develop
+[submodule "work/monitor"]
+	path = work/monitor
+	url = git@github.com:imma/monitor
+	branch = develop
+[submodule "work/netdata"]
+	path = work/netdata
+	url = git@github.com:imma/netdata
+	branch = develop

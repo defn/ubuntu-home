@@ -3,11 +3,11 @@
     [ "site", "ubuntu-config", "cache", "base", "deploy", "sysadmin" ],
     [ "ruby", "python", "node", "yarn", "java", "bash4", "go" ],
     [ "sshd", "etcd", "consul-agent", "vault", "linkerd", "namerd", "syslog-ng" ],
-    [ "lxd", "docker", "kubernetes", "helm", "calico" ],
-    [ "fogg", "imma", "awesome", "inception", "virtualbox" ],
+    [ "virtualbox", "lxd", "docker", "kubernetes", "helm", "calico" ],
+    [ "fogg", "imma", "awesome", "inception" ],
     [ "confd", "ansible", "gpg", "git-crypt" ],
-    [ "docs", "admin", "build", "chat" ],
-    [ "defn", "junas", "cue", "home" ]
+    [ "docs", "admin", "build", "chat", "monitor", "home" ],
+    [ "defn", "junas", "cue" ]
   ],
   "run": {
     "sshd": {},
