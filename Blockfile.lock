@@ -9,7 +9,7 @@ block              ${BLOCK_PATH}/block              git@github.com:imma/block   
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      c07d1b9cb46b3d93ff77c63b4e4d99cff8e81573 develop 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           8cbfd917b49731c9947386ad1573a48519e745e2 develop 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               09f725c41e6cc62fd828105dc2e71a28f44dcefd develop 
-base               ${BLOCK_PATH}/base               git@github.com:imma/base               b8162599965c72dbe383edba2ba35d5effb0d6a9 develop 
+base               ${BLOCK_PATH}/base               git@github.com:imma/base               5916ec2f6e02cda6650210c859a514cb5ef67c49 develop 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             dd04d4bdc271cf1fc1d2d1cae33e77d2f71ca49e develop 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             aa7afe4e1813fdf6e0938199bb3e93ad3fd26ad4 develop 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            af29122dbf6fd6f434448336e518f147b80b4d0b develop 
@@ -28,13 +28,13 @@ go                 ${BLOCK_PATH}/go                 git@github.com:imma/go      
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              8947e2c384bdeee21c94455a23536928f35a1b46 develop 
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            3514336e1f75db34f9aa80139de795080d0e7337 develop 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               570f92047ec6141c36ae071526f0f7b3f4e581f1 develop 
-etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               e8f59198fcdfbc980f2e3378bad4f6991b1f2fd3 develop 
+etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               2aede49b3f4aa31e81e509426ca37f5c31d8a0e1 develop 
 facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts              c640273962fa4c4095e8b7f531caa94ac372438d develop 
-consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             d0d976285aacb1788e12d01d557b99f77f4c6a75 develop 
+consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             02a73a04a73c8ecd82828a322a05b14a9482e7a5 develop 
 consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       315da2eb07089675c2fe771a91699fd236c9d726 develop 
 vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault              44079480c8d9539c04d5e82bbc4c4552f05b6057 develop 
 linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            118b1cf38a2baabba789da38e5f2e21bdba3b697 develop 
-namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             60251518932ee8afa1894c6200b3946e051f7970 develop 
+namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             2dce8bf4a6ff4874473e1ebbbb740ade5c10cc5e develop 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          2eb227af3c85f684032bef87ed2f7dfbbc475bf2 develop 
 lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                4e8570adb6900c0ff08e00164dcb6fe4954634e5 develop 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            a18ab2e5d9764c406272efd228b3a37fd6d1ebbc develop 
@@ -70,9 +70,9 @@ docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs    
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             1db084ed06de0c10679e2384c8f88be047934909 develop 
 defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               22bce631d594895203413f620af71c14729114d3 develop 
 admin              ${BLOCK_PATH}/admin              git@github.com:imma/admin              0102dc8fed723168bcf1cc075675ddda4f45fde1 develop 
-buildkite          ${BLOCK_PATH}/buildkite          git@github.com:imma/buildkite          6bd0c4af5218a87a764f3ca0387aefb8bb73f9d4 develop 
+buildkite          ${BLOCK_PATH}/buildkite          git@github.com:imma/buildkite          712d9797a7ea0148c111e36b6f4fbfb4faf736c3 develop 
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              3d8c7d787f857c4f1c43f7ad7d276c7449861b2d develop 
-irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              b0570b10eb0cebbcd6ef58090c07a91a9bfe40aa develop 
+irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              0c91453b9b5eccc1bc93992194261be712d79b8d develop 
 chat               ${BLOCK_PATH}/chat               git@github.com:imma/chat               cebb75165e95b2b9cdb8e628821fbda60307599a develop 
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              60506feb5b7b907810ff62a9d3c327754a02c372 develop 
 cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue                d2e348d7877e1ac1d3f1d981e80564b67b773a7f develop 
