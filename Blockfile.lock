@@ -32,7 +32,7 @@ etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd    
 facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts              c640273962fa4c4095e8b7f531caa94ac372438d develop 
 consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             d0d976285aacb1788e12d01d557b99f77f4c6a75 develop 
 consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       315da2eb07089675c2fe771a91699fd236c9d726 develop 
-vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault              44079480c8d9539c04d5e82bbc4c4552f05b6057 develop 
+vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault              0f9ab63a3482660a734149eadc5752ef911951f9 develop 
 linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            118b1cf38a2baabba789da38e5f2e21bdba3b697 develop 
 namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             60251518932ee8afa1894c6200b3946e051f7970 develop 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          2eb227af3c85f684032bef87ed2f7dfbbc475bf2 develop 
