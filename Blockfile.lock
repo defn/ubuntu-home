@@ -1,4 +1,3 @@
-secrets            ${BLOCK_PATH}/secrets            git@github.com:imma/secrets            3098a4a9980997986001a8128c8de09fd4af583f develop 
 site               ${BLOCK_PATH}/site               git@github.com:imma/site               1a201d7847400deb19c729e46147be421146c539 develop 
 jq                 ${BLOCK_PATH}/jq                 git@github.com:imma/jq                 dbe05747d63b166a59abe182761efba531ea2b32 develop 
 shflags            ${BLOCK_PATH}/shflags            git@github.com:imma/shflags            13758de68182760622dd14637f780683f2ca8466 develop 
