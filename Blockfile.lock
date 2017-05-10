@@ -14,8 +14,8 @@ pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc  
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             aa7afe4e1813fdf6e0938199bb3e93ad3fd26ad4 develop 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            af29122dbf6fd6f434448336e518f147b80b4d0b develop 
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              a459c8ca0c88710583cf8b52e9e482def94bdab6 develop 
-inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          60006fdcddc42b2fe53a3d821aee96456ba9ffa4 develop 
-deploy             ${BLOCK_PATH}/deploy             git@github.com:imma/deploy             e2a531f8a5dd0a71feaf54d7ca2b237135e46d2f develop 
+inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          2ef34555669df615b981325551749686cd61e3e3 develop 
+deploy             ${BLOCK_PATH}/deploy             git@github.com:imma/deploy             6e8912a7917b55409735d7b8953ae96fcbf91bbb develop 
 htop               ${BLOCK_PATH}/htop               git@github.com:imma/htop               36918cf01b385f47ed1e857d5139a27dc9b1366c develop 
 sysadmin           ${BLOCK_PATH}/sysadmin           git@github.com:imma/sysadmin           26bc3ecc48302ae2fa927b9ef2de74624ce6f05c develop 
 ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby               9dc7b8d5a6df6e8538b1388a72b8b1a00c1c39c6 develop 
