@@ -71,7 +71,7 @@ buildkite          ${BLOCK_PATH}/buildkite          git@github.com:imma/buildkit
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              3d8c7d787f857c4f1c43f7ad7d276c7449861b2d develop 
 irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              0c91453b9b5eccc1bc93992194261be712d79b8d develop 
 chat               ${BLOCK_PATH}/chat               git@github.com:imma/chat               cebb75165e95b2b9cdb8e628821fbda60307599a develop 
-netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            ada84f37c42596ecd72deebfae7240e7c454e361 master  
+netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            6b1ca3834b83b1e719950e0a146bc7cf5b8afc2c master  
 monitor            ${BLOCK_PATH}/monitor            git@github.com:imma/monitor            4bfdc25c320385fa1d8d85a70a7df1c049ba0299 develop 
 home               ${BLOCK_PATH}/home               git@github.com:imma/home               f1719997e57835fb8a40030696448f4ed9eb3fe4 develop 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                7ab025940249fcb1fb6bbde9ebd19a4ca66882f3 develop 
