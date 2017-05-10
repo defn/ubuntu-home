@@ -44,8 +44,6 @@ docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker  
 kubernetes         ${BLOCK_PATH}/kubernetes         git@github.com:imma/kubernetes         ebb604ef503dca2c43fb075baf678d14936432aa develop 
 helm               ${BLOCK_PATH}/helm               git@github.com:imma/helm               256df5da02b46b4cb7ef71db44df02813f62818b develop 
 calico             ${BLOCK_PATH}/calico             git@github.com:imma/calico             441d665845f472d741363adff3c9b1ab2e83d60f develop 
-git                ${BLOCK_PATH}/git                git@github.com:imma/git                7ab025940249fcb1fb6bbde9ebd19a4ca66882f3 develop 
-apex               ${BLOCK_PATH}/apex               git@github.com:imma/apex               6afd436893deaad45a2bdec1be435f91a3ff0de4 develop 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          8aa810c24b013949a86c320845ccd1ebd0c364b5 develop 
 fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               be7af7c2e4facc1557e7d38b96b4a8fa08ac1741 develop 
 aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                b569ecb9a2abdff460994acc369f9e98ce067890 develop 
@@ -74,6 +72,7 @@ buildkite          ${BLOCK_PATH}/buildkite          git@github.com:imma/buildkit
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              3d8c7d787f857c4f1c43f7ad7d276c7449861b2d develop 
 irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              0c91453b9b5eccc1bc93992194261be712d79b8d develop 
 chat               ${BLOCK_PATH}/chat               git@github.com:imma/chat               cebb75165e95b2b9cdb8e628821fbda60307599a develop 
+git                ${BLOCK_PATH}/git                git@github.com:imma/git                7ab025940249fcb1fb6bbde9ebd19a4ca66882f3 develop 
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              60506feb5b7b907810ff62a9d3c327754a02c372 develop 
 cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue                d2e348d7877e1ac1d3f1d981e80564b67b773a7f develop 
 home               ${BLOCK_PATH}/home               git@github.com:imma/home               f1719997e57835fb8a40030696448f4ed9eb3fe4 develop 

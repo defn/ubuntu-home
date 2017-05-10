@@ -282,10 +282,6 @@
 	path = work/yarn
 	url = git@github.com:imma/yarn
 	branch = develop
-[submodule "work/apex"]
-	path = work/apex
-	url = git@github.com:imma/apex
-	branch = develop
 [submodule "work/admin"]
 	path = work/admin
 	url = git@github.com:imma/admin
