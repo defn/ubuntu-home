@@ -1,3 +1,4 @@
+secrets            ${BLOCK_PATH}/secrets            git@github.com:imma/secrets            3098a4a9980997986001a8128c8de09fd4af583f develop 
 site               ${BLOCK_PATH}/site               git@github.com:imma/site               1a201d7847400deb19c729e46147be421146c539 develop 
 jq                 ${BLOCK_PATH}/jq                 git@github.com:imma/jq                 dbe05747d63b166a59abe182761efba531ea2b32 develop 
 shflags            ${BLOCK_PATH}/shflags            git@github.com:imma/shflags            13758de68182760622dd14637f780683f2ca8466 develop 
@@ -54,7 +55,7 @@ imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma    
 packer             ${BLOCK_PATH}/packer             git@github.com:imma/packer             7baa228caf7ecc1758dd4bd85d6a44136f6cef19 develop 
 provision          ${BLOCK_PATH}/provision          git@github.com:imma/provision          33a37d672b52651f52528c92e4209e5889cd51c6 develop 
 dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream              d7a4de600c9d3a7c2ddd85aed288bc4bbdeaa9f2 develop 
-vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            a7c2b881ed159dd9017d8a32a8226ab33c7b765f develop 
+vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            b394bbc373baf23318bf5f2a7d024ec910e9d90b develop 
 limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              33834bc1820168926ba9895bd7bb1a234bac7cdb develop 
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          ebb55bb93680df1208f6631551fbadb484a9e844 develop 
 virtualbox         ${BLOCK_PATH}/virtualbox         git@github.com:imma/virtualbox         452ec8bce8d63c389d2f761b9d193157341ecb3b develop 
