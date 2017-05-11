@@ -2,7 +2,7 @@
 - name: Get the fogg hostname
   command: fogg hostname
   register: fogg_hostname
-  when: hostname is not defined and ansible_virtualization_type == "xen"
+  when: (hostname is not defined) and (ansible_virtualization_type == "xen")
 - name: Set hostname fact using fogg
   set_fact:
     hostname: "{{ fogg_hostname.stdout }}"
