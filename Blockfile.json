@@ -11,6 +11,7 @@
   ],
   "run": {
     "sshd": {},
+    "netdata": {},
     "consul-agent": {}
   }
 }
