@@ -42,7 +42,7 @@ virtualbox         ${BLOCK_PATH}/virtualbox         git@github.com:imma/virtualb
 lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                4e8570adb6900c0ff08e00164dcb6fe4954634e5 develop 
 docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     a067e7b478fb29c06ec4d5f0c75ca86e8b820aa5 develop 
 docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             eeb315e3e63ef037aa681a2f6e75c914ff9df0dd develop 
-kubernetes         ${BLOCK_PATH}/kubernetes         git@github.com:imma/kubernetes         ebb604ef503dca2c43fb075baf678d14936432aa develop 
+kubernetes         ${BLOCK_PATH}/kubernetes         git@github.com:imma/kubernetes         4b9b9ed699029135668c5ee900a09c4a256af972 develop 
 helm               ${BLOCK_PATH}/helm               git@github.com:imma/helm               256df5da02b46b4cb7ef71db44df02813f62818b develop 
 calico             ${BLOCK_PATH}/calico             git@github.com:imma/calico             441d665845f472d741363adff3c9b1ab2e83d60f develop 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          8aa810c24b013949a86c320845ccd1ebd0c364b5 develop 
