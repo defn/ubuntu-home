@@ -36,9 +36,10 @@ vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault   
 linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            118b1cf38a2baabba789da38e5f2e21bdba3b697 develop 
 namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             2dce8bf4a6ff4874473e1ebbbb740ade5c10cc5e develop 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          2eb227af3c85f684032bef87ed2f7dfbbc475bf2 develop 
-lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                4e8570adb6900c0ff08e00164dcb6fe4954634e5 develop 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            a18ab2e5d9764c406272efd228b3a37fd6d1ebbc develop 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             932ae42c1975401fa8f2df8e1d9b77ce1ad90775 develop 
+virtualbox         ${BLOCK_PATH}/virtualbox         git@github.com:imma/virtualbox         452ec8bce8d63c389d2f761b9d193157341ecb3b develop 
+lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                4e8570adb6900c0ff08e00164dcb6fe4954634e5 develop 
 docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     a067e7b478fb29c06ec4d5f0c75ca86e8b820aa5 develop 
 docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             eeb315e3e63ef037aa681a2f6e75c914ff9df0dd develop 
 kubernetes         ${BLOCK_PATH}/kubernetes         git@github.com:imma/kubernetes         ebb604ef503dca2c43fb075baf678d14936432aa develop 
@@ -57,11 +58,9 @@ dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream   
 vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            b394bbc373baf23318bf5f2a7d024ec910e9d90b develop 
 limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              33834bc1820168926ba9895bd7bb1a234bac7cdb develop 
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          ebb55bb93680df1208f6631551fbadb484a9e844 develop 
-virtualbox         ${BLOCK_PATH}/virtualbox         git@github.com:imma/virtualbox         452ec8bce8d63c389d2f761b9d193157341ecb3b develop 
 confd              ${BLOCK_PATH}/confd              git@github.com:imma/confd              09c4bbc024a4a35834e64089204e6f7f06f5d035 develop 
 gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                190b7ceb1e5d54e41dc6cdfc914ecc3ec8e5f54c develop 
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          5edfb8a7ef8a97c8642e1b9b987309c23dd11a90 develop 
-pt                 ${BLOCK_PATH}/pt                 git@github.com:imma/pt                 3e41bbdac50e0da26864189edd0569debfcb087b develop 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               54dabe148a46181226f5598283f2cb15e2d4654e develop 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 1918882e7bb16ff6c17f9376715dd56b6ddb052f develop 
 docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               3c0c58a34afac14839b7cca74f74baa31b558de2 develop 
@@ -72,7 +71,9 @@ buildkite          ${BLOCK_PATH}/buildkite          git@github.com:imma/buildkit
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              3d8c7d787f857c4f1c43f7ad7d276c7449861b2d develop 
 irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              0c91453b9b5eccc1bc93992194261be712d79b8d develop 
 chat               ${BLOCK_PATH}/chat               git@github.com:imma/chat               cebb75165e95b2b9cdb8e628821fbda60307599a develop 
+netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            6b1ca3834b83b1e719950e0a146bc7cf5b8afc2c master  
+monitor            ${BLOCK_PATH}/monitor            git@github.com:imma/monitor            4bfdc25c320385fa1d8d85a70a7df1c049ba0299 develop 
+home               ${BLOCK_PATH}/home               git@github.com:imma/home               f1719997e57835fb8a40030696448f4ed9eb3fe4 develop 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                7ab025940249fcb1fb6bbde9ebd19a4ca66882f3 develop 
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              60506feb5b7b907810ff62a9d3c327754a02c372 develop 
 cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue                d2e348d7877e1ac1d3f1d981e80564b67b773a7f develop 
-home               ${BLOCK_PATH}/home               git@github.com:imma/home               f1719997e57835fb8a40030696448f4ed9eb3fe4 develop 
