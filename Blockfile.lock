@@ -14,8 +14,8 @@ pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc  
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             aa7afe4e1813fdf6e0938199bb3e93ad3fd26ad4 develop 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            af29122dbf6fd6f434448336e518f147b80b4d0b develop 
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              a459c8ca0c88710583cf8b52e9e482def94bdab6 develop 
-inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          2ef34555669df615b981325551749686cd61e3e3 develop 
-deploy             ${BLOCK_PATH}/deploy             git@github.com:imma/deploy             6e8912a7917b55409735d7b8953ae96fcbf91bbb develop 
+inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          8819c216d1071bd6c3556e70277e37546203b20b develop 
+deploy             ${BLOCK_PATH}/deploy             git@github.com:imma/deploy             62e49380ab9e77c14a2d3d1e59dadd08558a5f83 develop 
 htop               ${BLOCK_PATH}/htop               git@github.com:imma/htop               36918cf01b385f47ed1e857d5139a27dc9b1366c develop 
 sysadmin           ${BLOCK_PATH}/sysadmin           git@github.com:imma/sysadmin           26bc3ecc48302ae2fa927b9ef2de74624ce6f05c develop 
 ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby               9dc7b8d5a6df6e8538b1388a72b8b1a00c1c39c6 develop 
@@ -45,7 +45,7 @@ kubernetes         ${BLOCK_PATH}/kubernetes         git@github.com:imma/kubernet
 helm               ${BLOCK_PATH}/helm               git@github.com:imma/helm               256df5da02b46b4cb7ef71db44df02813f62818b develop 
 calico             ${BLOCK_PATH}/calico             git@github.com:imma/calico             441d665845f472d741363adff3c9b1ab2e83d60f develop 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          8aa810c24b013949a86c320845ccd1ebd0c364b5 develop 
-fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               be7af7c2e4facc1557e7d38b96b4a8fa08ac1741 develop 
+fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               5b4365df221b8180623aee7be009f33a056fadda develop 
 aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                b569ecb9a2abdff460994acc369f9e98ce067890 develop 
 aq                 ${BLOCK_PATH}/aq                 git@github.com:imma/aq                 efce7ff4bb1c9632a5c904f294765eed59412b0f develop 
 aqq                ${BLOCK_PATH}/aqq                git@github.com:imma/aqq                5fcbd9a9594684346c79d0f20099db59f157bd18 develop 
