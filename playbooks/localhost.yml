@@ -1,6 +1,0 @@
----
-- hosts: localhost
-  connection: local
-  roles:
-    - {  role: localhost }
-    - {  role: ubuntu }
