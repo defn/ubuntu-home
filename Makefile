@@ -111,6 +111,9 @@ rebuild:
 	$(make) clean
 	$(make) up
 	$(make) up-nih
+	$(make) prune
+	docker images | grep docker.nih
+	$(make) docker-save
 
 rebuild-ubuntu:
 	$(make) docker-update
