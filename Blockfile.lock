@@ -45,7 +45,7 @@ docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker  
 kubernetes         ${BLOCK_PATH}/kubernetes         git@github.com:imma/kubernetes         4b9b9ed699029135668c5ee900a09c4a256af972 develop 
 helm               ${BLOCK_PATH}/helm               git@github.com:imma/helm               256df5da02b46b4cb7ef71db44df02813f62818b develop 
 calico             ${BLOCK_PATH}/calico             git@github.com:imma/calico             441d665845f472d741363adff3c9b1ab2e83d60f develop 
-terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          8aa810c24b013949a86c320845ccd1ebd0c364b5 develop 
+terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          95b83ee3a980eae8aeddab48ca48e04f177d87b5 develop 
 fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               5b4365df221b8180623aee7be009f33a056fadda develop 
 aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                b569ecb9a2abdff460994acc369f9e98ce067890 develop 
 aq                 ${BLOCK_PATH}/aq                 git@github.com:imma/aq                 efce7ff4bb1c9632a5c904f294765eed59412b0f develop 
