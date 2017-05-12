@@ -6,7 +6,7 @@
     [ "virtualbox", "lxd", "docker", "kubernetes", "helm", "calico" ],
     [ "fogg", "imma", "awesome", "inception" ],
     [ "confd", "ansible", "gpg", "git-crypt" ],
-    [ "docs", "admin", "build", "chat", "monitor", "home" ],
+    [ "docs", "admin", "build", "chat", "monitor", "crypto", "home" ],
     [ "defn", "junas", "cue" ]
   ],
   "run": {

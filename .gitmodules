@@ -314,3 +314,7 @@
 	path = work/netdata
 	url = git@github.com:imma/netdata
 	branch = develop
+[submodule "work/crypto"]
+	path = work/crypto
+	url = git@github.com:imma/crypto
+	branch = develop
