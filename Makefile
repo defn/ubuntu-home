@@ -53,10 +53,15 @@ docker-update:
 	time $(make) build
 	$(make) clean
 
+docker-save-all:
+	mkdir -p /data/cache/box/docker
+	docker images | grep docker.nih  | perl -ne '@w = split /\s+/, $$_; print "$$w[0]:$$w[1]\n" unless $$base; $$base = 1 if $$w[1] eq "base"' | xargs docker save -o /data/cache/box/docker/block-all.tar.1
+	mv -f /data/cache/box/docker/block-all.tar.1 /data/cache/box/docker/block-all.tar
+
 docker-save:
 	mkdir -p /data/cache/box/docker
-	docker images | grep docker.nih  | perl -ne '@w = split /\s+/, $$_; print "$$w[0]:$$w[1]\n" unless $$base; $$base = 1 if $$w[1] eq "base"' | xargs docker save -o /data/cache/box/docker/inception.tar.1
-	mv -f /data/cache/box/docker/inception.tar.1 /data/cache/box/docker/inception.tar
+	docker save -o /data/cache/box/docker/block-ubuntu.tar.1 docker.nih/block:{base,ubuntu}
+	mv -f /data/cache/box/docker/block-ubuntu.tar.1 /data/cache/box/docker/block-ubuntu.tar
 
 virtualbox:
 	env BASEBOX_NAME_OVERRIDE=block:ubuntu $(make) virtualbox_fr
