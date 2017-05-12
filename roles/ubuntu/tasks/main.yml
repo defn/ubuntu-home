@@ -26,10 +26,15 @@
   become: yes
   when: hostname is defined and hostname != ""
 
-- name: Rename host
-  hostname: name={{ hostname }} 
-  become: yes
+- name: Get hostname
+  command: uname -n
+  register: get_hostname
   when: hostname is defined and hostname != ""
+
+- name: Rename host
+  command: hostname {{ hostname }}
+  become: yes
+  when: hostname is defined and hostname != "" and get_hostname.stdout != hostname
 
 - name: Reset Blockfile.lock
   command: chdir="{{ansible_env.HOME}}" git checkout Blockfile.lock
