@@ -22,7 +22,7 @@ ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby    
 curl               ${BLOCK_PATH}/curl               git@github.com:imma/curl               d86a9966a8b0b7aa5a85cb73b139847f9e4ce055 develop 
 nodeenv            ${BLOCK_PATH}/nodeenv            git@github.com:imma/nodeenv            29401e313bca9abf28a83e1dcf0174b95488bcd0 develop 
 node               ${BLOCK_PATH}/node               git@github.com:imma/node               8bdaed3f6d40f6a0efa1cfcbbfd999ea071d97b0 develop 
-yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               0b5455b3280e04d916d648c304b35d53bb63637a develop 
+yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               28e24eae3a8a5f95c76e630e59c8aeb10e39c588 develop 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 develop 
 go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 2966b5162640661455727b122847488455dc9013 develop 
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              8947e2c384bdeee21c94455a23536928f35a1b46 develop 
