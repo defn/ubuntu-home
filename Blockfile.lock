@@ -30,11 +30,11 @@ service            ${BLOCK_PATH}/service            git@github.com:imma/service 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               570f92047ec6141c36ae071526f0f7b3f4e581f1 develop 
 etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               2aede49b3f4aa31e81e509426ca37f5c31d8a0e1 develop 
 facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts              c640273962fa4c4095e8b7f531caa94ac372438d develop 
-consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             8b03a884895e1f8042aec6766316bf8694782d45 develop 
+consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             e32746713c9e1e6960c766203fc8f1e845a402f6 develop 
 consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       6c90d491b98efba6b9de9b3b47758f7298321f9c develop 
 vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault              0f9ab63a3482660a734149eadc5752ef911951f9 develop 
-linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            7188fd2b7ddeb1d4475ca05001764a0ab30bd096 develop 
-namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             bbbef24772bbdccf3c0f682e6c52082a27838adf develop 
+linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            118b1cf38a2baabba789da38e5f2e21bdba3b697 develop 
+namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             2dce8bf4a6ff4874473e1ebbbb740ade5c10cc5e develop 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          2eb227af3c85f684032bef87ed2f7dfbbc475bf2 develop 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            a18ab2e5d9764c406272efd228b3a37fd6d1ebbc develop 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             932ae42c1975401fa8f2df8e1d9b77ce1ad90775 develop 
