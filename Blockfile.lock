@@ -74,7 +74,7 @@ chat               ${BLOCK_PATH}/chat               git@github.com:imma/chat    
 netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            ee36c2628dd2576c518f1881b8e1a118ca684fb5 develop 
 monitor            ${BLOCK_PATH}/monitor            git@github.com:imma/monitor            4bfdc25c320385fa1d8d85a70a7df1c049ba0299 develop 
 crypto             ${BLOCK_PATH}/crypto             git@github.com:imma/crypto             3645f1e1b963686812af0218debab1df74031eb7 develop 
-home               ${BLOCK_PATH}/home               git@github.com:imma/home               f1719997e57835fb8a40030696448f4ed9eb3fe4 develop 
+home               ${BLOCK_PATH}/home               git@github.com:imma/home               bedd65fdf4899c892de0f33d4f87dc6ffef6b600 develop 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                7ab025940249fcb1fb6bbde9ebd19a4ca66882f3 develop 
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              60506feb5b7b907810ff62a9d3c327754a02c372 develop 
 cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue                d2e348d7877e1ac1d3f1d981e80564b67b773a7f develop 
