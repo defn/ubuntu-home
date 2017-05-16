@@ -118,10 +118,10 @@ rebuild:
 	$(make) up-nih
 	$(make) prune
 	docker images | grep docker.nih
-	$(make) docker-save
 
 rebuild-ubuntu:
 	$(make) docker-update
+	$(make) docker-save
 
 rebuild-nih:
 	runmany 'cd $(BLOCK_PATH)/$$1 && make rebuild-all' admin cache docs build chat
