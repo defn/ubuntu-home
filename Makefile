@@ -48,10 +48,13 @@ aws-image-fr:
 	(cd $(BLOCK_PATH)/base && make new-cidata)
 	time van reuse ubuntu
 
-docker-update:
+docker-update: /config/.ssh/authorized_keys
 	time $(make) recycle home-deploy block-finish minimize commit
 	time $(make) build
 	$(make) clean
+
+/config/.ssh/authorized_keys:
+	rsync -ia ~/.ssh/authorized_keys /config/.ssh/authorized_keys
 
 docker-save-all:
 	mkdir -p /data/cache/box/docker
