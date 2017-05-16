@@ -5,7 +5,7 @@ normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normaliz
 bash-preexec       ${BLOCK_PATH}/bash-preexec       git@github.com:imma/bash-preexec       27a59a60ca7eb9231f0052e779b2a96387a3a725 develop 
 sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub                062a65e087e86659f212da82f0311815a12244f1 develop 
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 develop 
-block              ${BLOCK_PATH}/block              git@github.com:imma/block              670217a4e8a649df2151bd661d2d49625ef7823f develop 
+block              ${BLOCK_PATH}/block              git@github.com:imma/block              6e9e00c7269523cb12c4f4a5b6b2cf30e680c84b develop 
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      c07d1b9cb46b3d93ff77c63b4e4d99cff8e81573 develop 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           70abc94acafa05236cfd704ab63632ef6de8038c develop 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               09f725c41e6cc62fd828105dc2e71a28f44dcefd develop 
@@ -22,7 +22,7 @@ ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby    
 curl               ${BLOCK_PATH}/curl               git@github.com:imma/curl               d86a9966a8b0b7aa5a85cb73b139847f9e4ce055 develop 
 nodeenv            ${BLOCK_PATH}/nodeenv            git@github.com:imma/nodeenv            29401e313bca9abf28a83e1dcf0174b95488bcd0 develop 
 node               ${BLOCK_PATH}/node               git@github.com:imma/node               8bdaed3f6d40f6a0efa1cfcbbfd999ea071d97b0 develop 
-yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               28e24eae3a8a5f95c76e630e59c8aeb10e39c588 develop 
+yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               7361e9aa6c04ac52922a9e649dc9c3d9d8a535fc develop 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 develop 
 go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 2966b5162640661455727b122847488455dc9013 develop 
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              8947e2c384bdeee21c94455a23536928f35a1b46 develop 
@@ -47,7 +47,7 @@ helm               ${BLOCK_PATH}/helm               git@github.com:imma/helm    
 calico             ${BLOCK_PATH}/calico             git@github.com:imma/calico             441d665845f472d741363adff3c9b1ab2e83d60f develop 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          15dc7aa32afbe21381ab4dabe833d84ffb8e9e8b develop 
 fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               3e1dd6834e51ec13cd658f0f9e72dc070811abd6 develop 
-aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                b569ecb9a2abdff460994acc369f9e98ce067890 develop 
+aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                bc726b2e3c11d3986857bd180ade31c67d31a77e develop 
 aq                 ${BLOCK_PATH}/aq                 git@github.com:imma/aq                 efce7ff4bb1c9632a5c904f294765eed59412b0f develop 
 aqq                ${BLOCK_PATH}/aqq                git@github.com:imma/aqq                5fcbd9a9594684346c79d0f20099db59f157bd18 develop 
 awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            6351e9af188f613373ee43005c8748be889762ee develop 
