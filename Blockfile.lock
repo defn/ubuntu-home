@@ -51,7 +51,7 @@ aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws     
 aq                 ${BLOCK_PATH}/aq                 git@github.com:imma/aq                 efce7ff4bb1c9632a5c904f294765eed59412b0f develop 
 aqq                ${BLOCK_PATH}/aqq                git@github.com:imma/aqq                5fcbd9a9594684346c79d0f20099db59f157bd18 develop 
 awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            6351e9af188f613373ee43005c8748be889762ee develop 
-imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               19b755bc1cf299f6e8ca9ec6ce78a2c350a66f88 develop 
+imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               3d82b6a16a93cb44fb047bb6ded7f1fac697951f develop 
 packer             ${BLOCK_PATH}/packer             git@github.com:imma/packer             7baa228caf7ecc1758dd4bd85d6a44136f6cef19 develop 
 provision          ${BLOCK_PATH}/provision          git@github.com:imma/provision          33a37d672b52651f52528c92e4209e5889cd51c6 develop 
 dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream              10d40ccd938ace92c8a50ab4899dd202f1fae9d0 develop 
