@@ -13,6 +13,7 @@ function remote {
     git clone -b "$(cd "$shome" && git rev-parse --abbrev-ref HEAD)" git@github.com:imma/imma-config /config
   fi
 
+  sudo dpkg --configure -a
   sudo apt-get update
   sudo apt-get install -y gettext-base
 
@@ -24,7 +25,8 @@ function remote {
   source .bashrc
   make sync
 
-  script/cibuild
+  "$shome/work/block/script/cibuild"
+  block bootstrap
 
   sync
 }
