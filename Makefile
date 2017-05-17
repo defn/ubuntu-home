@@ -43,7 +43,8 @@ aws-image:
 
 aws-image-fr:
 	van recycle
-	van vagrant ssh -- sudo aptitude update
+	van vagrant ssh -- sudo apt-get clean
+	van vagrant ssh -- sudo apt-get update
 	time script/deploy van vagrant ssh --
 	(cd $(BLOCK_PATH)/base && make new-cidata)
 	time van reuse ubuntu
