@@ -48,7 +48,7 @@ aws-image-fr:
 	(cd $(BLOCK_PATH)/base && make new-cidata)
 	time van reuse ubuntu
 
-docker-update:
+docker-update: /config/ssh/authorized_keys
 	time $(make) recycle home-deploy block-finish minimize commit
 	time $(make) build
 	$(make) clean
@@ -118,10 +118,10 @@ rebuild:
 	$(make) up-nih
 	$(make) prune
 	docker images | grep docker.nih
-	$(make) docker-save
 
 rebuild-ubuntu:
 	$(make) docker-update
+	$(make) docker-save
 
 rebuild-nih:
 	runmany 'cd $(BLOCK_PATH)/$$1 && make rebuild-all' admin cache docs build chat
