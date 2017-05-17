@@ -9,7 +9,7 @@ block              ${BLOCK_PATH}/block              git@github.com:imma/block   
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      c07d1b9cb46b3d93ff77c63b4e4d99cff8e81573 develop 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           70abc94acafa05236cfd704ab63632ef6de8038c develop 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               09f725c41e6cc62fd828105dc2e71a28f44dcefd develop 
-base               ${BLOCK_PATH}/base               git@github.com:imma/base               8b228acc865d9e3190082f804f676e8ef3e818c0 develop 
+base               ${BLOCK_PATH}/base               git@github.com:imma/base               970173d416f699e31d6572be7236df58d5c2c761 develop 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             bb638228d5aad0fc82ce0f167fd01619c5729cd0 develop 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             aa7afe4e1813fdf6e0938199bb3e93ad3fd26ad4 develop 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            7a90268b6f5d4f34ce37fd88173b6d9b7aa09255 develop 
@@ -38,8 +38,8 @@ namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd  
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          2eb227af3c85f684032bef87ed2f7dfbbc475bf2 develop 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            a18ab2e5d9764c406272efd228b3a37fd6d1ebbc develop 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             932ae42c1975401fa8f2df8e1d9b77ce1ad90775 develop 
-virtualbox         ${BLOCK_PATH}/virtualbox         git@github.com:imma/virtualbox         452ec8bce8d63c389d2f761b9d193157341ecb3b develop 
-lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                4e8570adb6900c0ff08e00164dcb6fe4954634e5 develop 
+virtualbox         ${BLOCK_PATH}/virtualbox         git@github.com:imma/virtualbox         71f3590189ed51a6e3e4632d78e0653eb92c3d28 develop 
+lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                857bd3017df568fbfc5481c9573af51fc05068fc develop 
 docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     a067e7b478fb29c06ec4d5f0c75ca86e8b820aa5 develop 
 docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             eeb315e3e63ef037aa681a2f6e75c914ff9df0dd develop 
 kubernetes         ${BLOCK_PATH}/kubernetes         git@github.com:imma/kubernetes         4b9b9ed699029135668c5ee900a09c4a256af972 develop 

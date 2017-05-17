@@ -70,7 +70,7 @@ virtualbox:
 virtualbox_fr:
 	(cd $(BLOCK_PATH)/base && make new-cidata)
 	plane recycle block:ubuntu
-	plane vagrant ssh -- sudo aptitude update
+	plane vagrant ssh -- sudo apt-get update
 	time script/deploy plane vagrant ssh --
 	(cd $(BLOCK_PATH)/base && make new-cidata)
 	time plane reuse ubuntu
