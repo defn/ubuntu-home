@@ -43,7 +43,7 @@ aws-image:
 
 aws-image-fr:
 	van recycle
-	van vagrant ssh -- sudo apt-get clean
+	van vagrant ssh -- sudo sudo dpkg --configure -a
 	van vagrant ssh -- sudo apt-get update
 	time script/deploy van vagrant ssh --
 	(cd $(BLOCK_PATH)/base && make new-cidata)
@@ -70,6 +70,7 @@ virtualbox:
 virtualbox_fr:
 	(cd $(BLOCK_PATH)/base && make new-cidata)
 	plane recycle block:ubuntu
+	plane vagrant ssh -- sudo sudo dpkg --configure -a
 	plane vagrant ssh -- sudo apt-get update
 	time script/deploy plane vagrant ssh --
 	(cd $(BLOCK_PATH)/base && make new-cidata)
