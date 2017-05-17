@@ -111,6 +111,9 @@ reset-aws:
 rebuild:
 	$(make) rebuild-ubuntu
 	$(make) save-ubuntu
+	$(make) rebuild-kids
+
+rebuild-kits:
 	$(make) up
 	$(make) wait-ssh
 	$(make) remote rebuild-nih
