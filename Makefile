@@ -110,6 +110,7 @@ reset-aws:
 
 rebuild:
 	$(make) rebuild-ubuntu
+	$(make) save-ubuntu
 	$(make) up
 	$(make) wait-ssh
 	$(make) remote rebuild-nih
@@ -121,6 +122,8 @@ rebuild:
 
 rebuild-ubuntu:
 	$(make) docker-update
+
+save-ubuntu:
 	$(make) docker-save
 
 rebuild-nih:
