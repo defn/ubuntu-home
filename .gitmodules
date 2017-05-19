@@ -170,10 +170,6 @@
 	path = work/sysadmin
 	url = git@github.com:imma/sysadmin
 	branch = develop
-[submodule "work/buildkite"]
-	path = work/buildkite
-	url = git@github.com:imma/buildkite
-	branch = develop
 [submodule "work/docker-compose"]
 	path = work/docker-compose
 	url = git@github.com:imma/docker-compose
@@ -249,10 +245,6 @@
 [submodule "work/admin"]
 	path = work/admin
 	url = git@github.com:imma/admin
-	branch = develop
-[submodule "work/build"]
-	path = work/build
-	url = git@github.com:imma/build
 	branch = develop
 [submodule "work/home"]
 	path = work/home

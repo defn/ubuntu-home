@@ -6,7 +6,7 @@
     [ "docker" ],
     [ "fogg", "imma", "awesome", "inception" ],
     [ "ansible", "gpg", "git-crypt" ],
-    [ "docs", "admin", "build", "monitor", "crypto", "home" ],
+    [ "docs", "admin", "monitor", "crypto", "home" ],
     [ "defn", "junas", "cue" ]
   ],
   "run": {
