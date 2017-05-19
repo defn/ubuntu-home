@@ -4,7 +4,7 @@
     [ "ruby", "python", "node", "yarn", "java", "bash4" ],
     [ "sshd", "consul-agent", "linkerd", "syslog-ng" ],
     [ "docker" ],
-    [ "imma", "awesome" ],
+    [ "imma", "fogg", "awesome" ],
     [ "ansible", "gpg", "git-crypt" ],
     [ "admin", "monitor", "crypto", "home" ],
     [ "defn", "junas", "cue" ]

@@ -218,3 +218,7 @@
 	path = work/crypto
 	url = git@github.com:imma/crypto
 	branch = develop
+[submodule "work/fogg"]
+	path = work/fogg
+	url = git@github.com:imma/fogg
+	branch = develop
