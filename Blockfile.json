@@ -1,12 +1,12 @@
 {
   "require": [
     [ "site", "ubuntu-config", "cache", "base", "deploy", "sysadmin" ],
-    [ "ruby", "python", "node", "yarn", "java", "bash4", "go" ],
-    [ "sshd", "etcd", "consul-agent", "vault", "linkerd", "namerd", "syslog-ng" ],
-    [ "virtualbox", "lxd", "docker", "kubernetes", "helm", "calico" ],
+    [ "ruby", "python", "node", "yarn", "java", "bash4" ],
+    [ "sshd", "consul-agent", "linkerd", "namerd", "syslog-ng" ],
+    [ "docker" ],
     [ "fogg", "imma", "awesome", "inception" ],
-    [ "confd", "ansible", "gpg", "git-crypt" ],
-    [ "docs", "admin", "build", "chat", "monitor", "crypto", "home" ],
+    [ "ansible", "gpg", "git-crypt" ],
+    [ "docs", "admin", "build", "monitor", "crypto", "home" ],
     [ "defn", "junas", "cue" ]
   ],
   "run": {

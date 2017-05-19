@@ -82,10 +82,6 @@
 	path = work/bash4
 	url = git@github.com:imma/bash4
 	branch = develop
-[submodule "work/kubernetes"]
-	path = work/kubernetes
-	url = git@github.com:imma/kubernetes
-	branch = develop
 [submodule "work/homebrew"]
 	path = work/homebrew
 	url = git@github.com:imma/homebrew
@@ -117,10 +113,6 @@
 [submodule "work/consul-agent"]
 	path = work/consul-agent
 	url = git@github.com:imma/consul-agent
-	branch = develop
-[submodule "work/vault"]
-	path = work/vault
-	url = git@github.com:imma/vault
 	branch = develop
 [submodule "work/linkerd"]
 	path = work/linkerd
@@ -186,17 +178,9 @@
 	path = work/docker-compose
 	url = git@github.com:imma/docker-compose
 	branch = develop
-[submodule "work/lxd"]
-	path = work/lxd
-	url = git@github.com:imma/lxd
-	branch = develop
 [submodule "work/syslog-ng"]
 	path = work/syslog-ng
 	url = git@github.com:imma/syslog-ng
-	branch = develop
-[submodule "work/confd"]
-	path = work/confd
-	url = git@github.com:imma/confd
 	branch = develop
 [submodule "work/gpg"]
 	path = work/gpg
@@ -205,10 +189,6 @@
 [submodule "work/git-crypt"]
 	path = work/git-crypt
 	url = git@github.com:imma/git-crypt
-	branch = develop
-[submodule "work/etcd"]
-	path = work/etcd
-	url = git@github.com:imma/etcd
 	branch = develop
 [submodule "work/site"]
 	path = work/site
@@ -221,10 +201,6 @@
 [submodule "work/hugo"]
 	path = work/hugo
 	url = git@github.com:imma/hugo
-	branch = develop
-[submodule "work/go"]
-	path = work/go
-	url = git@github.com:imma/go
 	branch = develop
 [submodule "work/terraform"]
 	path = work/terraform
@@ -266,18 +242,6 @@
 	path = work/inception
 	url = git@github.com:imma/inception
 	branch = develop
-[submodule "work/virtualbox"]
-	path = work/virtualbox
-	url = git@github.com:imma/virtualbox
-	branch = develop
-[submodule "work/helm"]
-	path = work/helm
-	url = git@github.com:imma/helm
-	branch = develop
-[submodule "work/calico"]
-	path = work/calico
-	url = git@github.com:imma/calico
-	branch = develop
 [submodule "work/yarn"]
 	path = work/yarn
 	url = git@github.com:imma/yarn
@@ -286,10 +250,6 @@
 	path = work/admin
 	url = git@github.com:imma/admin
 	branch = develop
-[submodule "work/irssi"]
-	path = work/irssi
-	url = git@github.com:imma/irssi
-	branch = develop
 [submodule "work/namerd"]
 	path = work/namerd
 	url = git@github.com:imma/namerd
@@ -297,10 +257,6 @@
 [submodule "work/build"]
 	path = work/build
 	url = git@github.com:imma/build
-	branch = develop
-[submodule "work/chat"]
-	path = work/chat
-	url = git@github.com:imma/chat
 	branch = develop
 [submodule "work/home"]
 	path = work/home
