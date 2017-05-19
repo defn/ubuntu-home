@@ -1,0 +1,3 @@
+vagrant ssh -- $(echo aws ecr get-login)
+vagrant ssh -- $(echo docker pull $(aws ecr describe-repositories | jq -r --arg repo block '.repositories | map(select(.repositoryName == $repo))[].repositoryUri'):ubuntu)
+vagrant ssh -- .docker/config.json
