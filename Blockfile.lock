@@ -31,7 +31,6 @@ facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts   
 consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             8b03a884895e1f8042aec6766316bf8694782d45 develop 
 consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       c78d0751aff2c417ce9b67c7504ff3ff2746ca46 develop 
 linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            7188fd2b7ddeb1d4475ca05001764a0ab30bd096 develop 
-namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             2dce8bf4a6ff4874473e1ebbbb740ade5c10cc5e develop 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          2eb227af3c85f684032bef87ed2f7dfbbc475bf2 develop 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            a18ab2e5d9764c406272efd228b3a37fd6d1ebbc develop 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             932ae42c1975401fa8f2df8e1d9b77ce1ad90775 develop 

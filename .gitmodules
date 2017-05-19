@@ -250,10 +250,6 @@
 	path = work/admin
 	url = git@github.com:imma/admin
 	branch = develop
-[submodule "work/namerd"]
-	path = work/namerd
-	url = git@github.com:imma/namerd
-	branch = develop
 [submodule "work/build"]
 	path = work/build
 	url = git@github.com:imma/build
