@@ -122,10 +122,6 @@
 	path = work/aq
 	url = git@github.com:imma/aq
 	branch = develop
-[submodule "work/aqq"]
-	path = work/aqq
-	url = git@github.com:imma/aqq
-	branch = develop
 [submodule "work/inventory"]
 	path = work/inventory
 	url = git@github.com:imma/inventory
@@ -190,14 +186,6 @@
 	path = work/site
 	url = git@github.com:imma/site
 	branch = develop
-[submodule "work/hugo-material-docs"]
-	path = work/hugo-material-docs
-	url = git@github.com:imma/hugo-material-docs
-	branch = develop
-[submodule "work/packer"]
-	path = work/packer
-	url = git@github.com:imma/packer
-	branch = develop
 [submodule "work/imma"]
 	path = work/imma
 	url = git@github.com:imma/imma
@@ -205,10 +193,6 @@
 [submodule "work/provision"]
 	path = work/provision
 	url = git@github.com:imma/provision
-	branch = develop
-[submodule "work/vagrant"]
-	path = work/vagrant
-	url = git@github.com:imma/vagrant
 	branch = develop
 [submodule "work/yarn"]
 	path = work/yarn
