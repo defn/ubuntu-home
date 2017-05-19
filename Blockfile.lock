@@ -39,8 +39,7 @@ docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         e
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            369eab48bda95c56601651d010ca669f619301ea develop 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        c01a2081b301b30ce22e0d5ce43a147b5496d04b develop 
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           c94ebfa0b178284465d1bb9f016c90f474d444a3 develop 
-terraform      ${BLOCK_PATH}/terraform      git@github.com:imma/terraform      15dc7aa32afbe21381ab4dabe833d84ffb8e9e8b develop 
-fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           3c6a23078bb7d8dab4ef6be112b3d9907f09f415 develop 
+fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           071b615b2623d363599a064b22046b175c5b7158 develop 
 gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            190b7ceb1e5d54e41dc6cdfc914ecc3ec8e5f54c develop 
 git-crypt      ${BLOCK_PATH}/git-crypt      git@github.com:imma/git-crypt      5edfb8a7ef8a97c8642e1b9b987309c23dd11a90 develop 
 talign         ${BLOCK_PATH}/talign         git@github.com:imma/talign         1db084ed06de0c10679e2384c8f88be047934909 develop 
