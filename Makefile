@@ -90,16 +90,11 @@ add-modules:
 update-modules:
 	block list | awk '/\/work\// {print $$3, $$2}' | perl -pe 's{[^\s]+?/work/}{work/}' | grep -v 'work/ubuntu' | runmany 1 2 'git update-index --cacheinfo 160000 $$(cd $(BLOCK_PATH)/../$$2 && git rev-parse HEAD) $$2'
 
-$(BLOCK_PATH)/docs/Makefile.docs:
-	git submodule update --init -j 10
-
 lock:
 	$(make) update-modules || true
 	block lock
 	git add -u work Blockfile.lock
 	gs
-
-include $(BLOCK_PATH)/docs/Makefile.docs
 
 reset:
 	docker tag $(registry)/block:base $(registry)/$(image)
@@ -130,9 +125,3 @@ rebuild-ubuntu:
 
 save-ubuntu:
 	$(make) docker-save
-
-rebuild-nih:
-	runmany 'cd $(BLOCK_PATH)/$$1 && make rebuild-all' admin cache docs build chat
-
-up-nih:
-	runmany 'cd $(BLOCK_PATH)/$$1 && make up' admin cache docs build chat

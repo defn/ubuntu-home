@@ -4,9 +4,9 @@
     [ "ruby", "python", "node", "yarn", "java", "bash4" ],
     [ "sshd", "consul-agent", "linkerd", "syslog-ng" ],
     [ "docker" ],
-    [ "fogg", "imma", "awesome", "inception" ],
+    [ "imma", "awesome" ],
     [ "ansible", "gpg", "git-crypt" ],
-    [ "docs", "admin", "monitor", "crypto", "home" ],
+    [ "admin", "monitor", "crypto", "home" ],
     [ "defn", "junas", "cue" ]
   ],
   "run": {
