@@ -99,7 +99,7 @@ lock:
 	gs
 
 reset:
-	docker tag $(registry)/block:base $(registry)/$(image)
+	docker tag $(hub)/block:base $(registry)/$(image)
 
 reset-virtualbox:
 	vagrant box add -f block:ubuntu /data/cache/box/virtualbox/block-base.box
