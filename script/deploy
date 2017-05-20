@@ -62,9 +62,6 @@ function main {
   
   "$@" -A git pull
   "$@" -A script/deploy host
-  if [[ "$(facts | jq -r '.virtualization_type')" != "docker" ]]; then
-    "$@" -A script/deploy container
-  fi
 }
 
 set -exfu
@@ -76,7 +73,7 @@ case "${1:-}" in
     ;;
   container)
     shift
-    container"$@"
+    container "$@"
     ;;
   *)
     main "$@"
