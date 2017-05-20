@@ -43,10 +43,16 @@ docker-image:
 aws-image:
 	time env BASEBOX_NAME_OVERRIDE=block:ubuntu AWS_SYNC=/data/cache/packages/$(ID_INSTALL) AWS_TYPE=$(aws_type) chexec $(current_dir) $(make) home=$(block) aws-image-fr
 
+aws-continue:
+	time env BASEBOX_NAME_OVERRIDE=block:ubuntu AWS_SYNC=/data/cache/packages/$(ID_INSTALL) AWS_TYPE=$(aws_type) chexec $(current_dir) $(make) home=$(block) aws-continue-fr
+
 aws-image-fr:
 	van recycle
 	van vagrant ssh -- sudo sudo dpkg --configure -a
 	van vagrant ssh -- sudo apt-get update
+	$(make) aws-continue-fr
+
+aws-continue-fr:
 	time script/deploy van vagrant ssh --
 	(cd $(BLOCK_PATH)/base && make new-cidata)
 	time van reuse ubuntu
