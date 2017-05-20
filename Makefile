@@ -97,7 +97,6 @@ aws-image-fr-fast:
 	van vagrant ssh -- sudo apt-get update
 	$(make) aws-continue-fr-fast
 
-
 aws-continue-fr:
 	time script/deploy van vagrant ssh --
 	van vagrant ssh -- script/deploy container
@@ -109,6 +108,7 @@ aws-continue-fr-fast:
 	van vagrant ssh -- script/deploy container
 	(cd $(BLOCK_PATH)/base && make new-cidata)
 	time van export ubuntu
+	vagrant destroy -f
 
 docker-update: /config/ssh/authorized_keys
 	time $(make) recycle home-deploy block-finish minimize commit
