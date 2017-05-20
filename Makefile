@@ -62,11 +62,6 @@ docker-update: /config/ssh/authorized_keys
 	time $(make) build
 	$(make) clean
 
-docker-save-all:
-	mkdir -p /data/cache/box/docker
-	docker images | grep $(docker_host)| perl -ne '@w = split /\s+/, $$_; print "$$w[0]:$$w[1]\n" unless $$base; $$base = 1 if $$w[1] eq "base"' | xargs docker save -o /data/cache/box/docker/block-all.tar.1
-	mv -f /data/cache/box/docker/block-all.tar.1 /data/cache/box/docker/block-all.tar
-
 docker-save:
 	mkdir -p /data/cache/box/docker
 	docker save -o /data/cache/box/docker/block-ubuntu.tar.1 $(docker_host)/block:{base,ubuntu}
@@ -87,10 +82,6 @@ virtualbox_fr:
 /config/ssh/authorized_keys:
 	git clone git@github.com:imma/imma-config /config 2>/dev/null || true
 	rsync -ia .ssh/authorized_keys /config/ssh/
-
-update:
-	$(make) sync
-	home update
 
 add-modules:
 	block list | awk '/\/work\// {print $$3, $$2}' | perl -pe 's{[^\s]+?/work/}{work/}' | runmany 1 2 'git submodule add -f -b $(shell git rev-parse --abbrev-ref HEAD) $$1 $$2'
@@ -115,18 +106,6 @@ reset-aws:
 
 rebuild:
 	$(make) rebuild-ubuntu
-	$(make) save-ubuntu
-	$(make) rebuild-kids
-
-rebuild-kits:
-	$(make) up
-	$(make) wait-ssh
-	$(make) remote rebuild-nih
-	$(make) clean
-	$(make) up
-	$(make) up-nih
-	$(make) prune
-	docker images | grep $(docker_host)
 
 rebuild-ubuntu:
 	$(make) docker-update
