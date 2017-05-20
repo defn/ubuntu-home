@@ -79,6 +79,9 @@ docker-image:
 aws-image:
 	time env AWS_SYNC=/data/cache/packages/$(ID_INSTALL) chexec $(current_dir) $(make) home=$(block) aws-image-fr
 
+aws-image-fast:
+	time env AWS_SYNC=/data/cache/packages/$(ID_INSTALL) chexec $(current_dir) $(make) home=$(block) aws-image-fr-fast
+
 aws-continue:
 	time env AWS_SYNC=/data/cache/packages/$(ID_INSTALL) chexec $(current_dir) $(make) home=$(block) aws-continue-fr
 
@@ -88,11 +91,24 @@ aws-image-fr:
 	van vagrant ssh -- sudo apt-get update
 	$(make) aws-continue-fr
 
+aws-image-fr-fast:
+	van recycle
+	van vagrant ssh -- sudo sudo dpkg --configure -a
+	van vagrant ssh -- sudo apt-get update
+	$(make) aws-continue-fr-fast
+
+
 aws-continue-fr:
 	time script/deploy van vagrant ssh --
 	van vagrant ssh -- script/deploy container
 	(cd $(BLOCK_PATH)/base && make new-cidata)
 	time van reuse ubuntu
+
+aws-continue-fr-fast:
+	time script/deploy van vagrant ssh --
+	van vagrant ssh -- script/deploy container
+	(cd $(BLOCK_PATH)/base && make new-cidata)
+	time van export ubuntu
 
 docker-update: /config/ssh/authorized_keys
 	time $(make) recycle home-deploy block-finish minimize commit
