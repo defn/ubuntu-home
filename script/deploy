@@ -3,9 +3,7 @@
 shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 source "$shome/script/profile"
 
-function remote {
-  set -exfu
-
+function host {
   if ! test -d /config/.git; then
     sudo install -d -o ubuntu -g ubuntu /data
     sudo install -d -o ubuntu -g ubuntu /data/cache
@@ -31,6 +29,24 @@ function remote {
   sync
 }
 
+function container {
+  eval $(aws ecr get-login)
+
+  local image="$(docker images | grep "$(aws ecr describe-repositories | jq -r --arg repo block '.repositories | map(select(.repositoryName == $repo))[].repositoryUri')" | awk '$2 == "ubuntu" { print $3 }')"
+
+  if [[ -z "$image" ]]; then
+    return
+  fi
+
+  make reset-docker-update
+  script/configure
+  make docker
+  make clean
+  make prune
+
+  sync
+}
+
 function main {
   set -exfu
 
@@ -45,14 +61,23 @@ function main {
   fi
   
   "$@" -A git pull
-  "$@" -A script/deploy remote
+  "$@" -A script/deploy host
+  "$@" -A script/deploy container
 
 }
 
+set -exfu
 umask 0022
-if [[ "${1:-}" == "remote" ]]; then
-  shift
-  remote "$@"
-else
-  main "$@"
-fi
+case "${1:-}" in
+  host)
+    shift
+    host "$@"
+    ;;
+  container)
+    shift
+    container"$@"
+    ;;
+  *)
+    main "$@"
+    ;;
+esac

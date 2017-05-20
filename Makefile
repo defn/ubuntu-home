@@ -61,6 +61,9 @@ lock:
 reset-docker:
 	docker tag $(hub)/block:base $(registry)/$(image)
 
+reset-docker-ubuntu:
+	docker tag $(hub)/block:ubuntu $(registry)/$(image)
+
 reset-virtualbox:
 	vagrant box add -f block:ubuntu /data/cache/box/virtualbox/block-base.box
 
