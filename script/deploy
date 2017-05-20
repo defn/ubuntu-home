@@ -20,7 +20,7 @@ function host {
   (cd /config & git pull)
   git submodule update --init
   make cache
-  source .bashrc
+  set +x; source .bashrc; set -x;
   make sync
 
   "$shome/work/block/script/cibuild"
