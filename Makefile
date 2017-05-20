@@ -90,7 +90,7 @@ aws-image-fr:
 
 aws-continue-fr:
 	time script/deploy van vagrant ssh --
-	time script/deploy container van vagrant ssh --
+	van vagrant ssh -- script/deploy container
 	(cd $(BLOCK_PATH)/base && make new-cidata)
 	time van reuse ubuntu
 
