@@ -74,16 +74,16 @@ rebuild-docker:
 	$(make) docker-update
 
 docker-image:
-	time $(make) home=$(block) recycle home-deploy image-update
+	$(make) home=$(block) recycle home-deploy image-update
 
 aws-image:
-	time env AWS_SYNC=/data/cache/packages/$(ID_INSTALL) chexec $(current_dir) $(make) home=$(block) aws-image-fr
+	env AWS_SYNC=/data/cache/packages/$(ID_INSTALL) chexec $(current_dir) $(make) home=$(block) aws-image-fr
 
 aws-image-fast:
-	time env AWS_SYNC=/data/cache/packages/$(ID_INSTALL) chexec $(current_dir) $(make) home=$(block) aws-image-fr-fast
+	env AWS_SYNC=/data/cache/packages/$(ID_INSTALL) chexec $(current_dir) $(make) home=$(block) aws-image-fr-fast
 
 aws-continue:
-	time env AWS_SYNC=/data/cache/packages/$(ID_INSTALL) chexec $(current_dir) $(make) home=$(block) aws-continue-fr
+	env AWS_SYNC=/data/cache/packages/$(ID_INSTALL) chexec $(current_dir) $(make) home=$(block) aws-continue-fr
 
 aws-image-fr:
 	van recycle
@@ -98,32 +98,27 @@ aws-image-fr-fast:
 	$(make) aws-continue-fr-fast
 
 aws-continue-fr:
-	time script/deploy van vagrant ssh --
+	script/deploy van vagrant ssh --
 	van vagrant ssh -- script/deploy container
-	(cd $(BLOCK_PATH)/base && make new-cidata)
-	time van reuse ubuntu
+	van reuse ubuntu
 
 aws-continue-fr-fast:
-	time script/deploy van vagrant ssh --
-	van vagrant ssh -- script/deploy container
-	(cd $(BLOCK_PATH)/base && make new-cidata)
-	time van export ubuntu
+	script/deploy van vagrant ssh -- & van vagrant ssh -- script/deploy container & wait
+	van export ubuntu
 	vagrant destroy -f
 
 docker-update: /config/ssh/authorized_keys
-	time $(make) recycle home-deploy block-finish minimize commit
-	time $(make) build
+	$(make) recycle home-deploy block-finish minimize commit
+	$(make) build
 	$(make) clean
 
 virtualbox:
 	env $(make) virtualbox_fr
 
 virtualbox_fr:
-	(cd $(BLOCK_PATH)/base && make new-cidata)
 	plane recycle block:ubuntu
 	plane vagrant ssh -- sudo sudo dpkg --configure -a
 	plane vagrant ssh -- sudo apt-get update
-	time script/deploy plane vagrant ssh --
-	(cd $(BLOCK_PATH)/base && make new-cidata)
-	time plane reuse ubuntu
+	script/deploy plane vagrant ssh --
+	plane reuse ubuntu
 
