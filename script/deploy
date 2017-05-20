@@ -38,7 +38,7 @@ function container {
     return
   fi
 
-  make reset-docker-update
+  make reset-docker-ubuntu
   script/configure
   make docker
   make clean
