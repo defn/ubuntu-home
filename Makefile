@@ -37,6 +37,39 @@ docker_default = docker-image
 
 aws_default = aws-image
 
+docker-save:
+	mkdir -p /data/cache/box/docker
+	docker save -o /data/cache/box/docker/block-ubuntu.tar.1 $(docker_host)/block:{base,ubuntu}
+	mv -f /data/cache/box/docker/block-ubuntu.tar.1 /data/cache/box/docker/block-ubuntu.tar
+
+/config/ssh/authorized_keys:
+	git clone git@github.com:imma/imma-config /config 2>/dev/null || true
+	rsync -ia .ssh/authorized_keys /config/ssh/
+
+add-modules:
+	block list | awk '/\/work\// {print $$3, $$2}' | perl -pe 's{[^\s]+?/work/}{work/}' | runmany 1 2 'git submodule add -f -b $(shell git rev-parse --abbrev-ref HEAD) $$1 $$2'
+
+update-modules:
+	block list | awk '/\/work\// {print $$3, $$2}' | perl -pe 's{[^\s]+?/work/}{work/}' | grep -v 'work/ubuntu' | runmany 1 2 'git update-index --cacheinfo 160000 $$(cd $(BLOCK_PATH)/../$$2 && git rev-parse HEAD) $$2'
+
+lock:
+	$(make) update-modules || true
+	block lock
+	git add -u work Blockfile.lock
+	gs
+
+reset-docker:
+	docker tag $(hub)/block:base $(registry)/$(image)
+
+reset-virtualbox:
+	vagrant box add -f block:ubuntu /data/cache/box/virtualbox/block-base.box
+
+reset-aws:
+	vagrant box add -f block:ubuntu /data/cache/box/aws/block-base.box
+
+rebuild-docker:
+	$(make) docker-update
+
 docker-image:
 	time $(make) home=$(block) recycle home-deploy image-update
 
@@ -62,11 +95,6 @@ docker-update: /config/ssh/authorized_keys
 	time $(make) build
 	$(make) clean
 
-docker-save:
-	mkdir -p /data/cache/box/docker
-	docker save -o /data/cache/box/docker/block-ubuntu.tar.1 $(docker_host)/block:{base,ubuntu}
-	mv -f /data/cache/box/docker/block-ubuntu.tar.1 /data/cache/box/docker/block-ubuntu.tar
-
 virtualbox:
 	env BASEBOX_NAME_OVERRIDE=block:ubuntu $(make) virtualbox_fr
 
@@ -79,36 +107,3 @@ virtualbox_fr:
 	(cd $(BLOCK_PATH)/base && make new-cidata)
 	time plane reuse ubuntu
 
-/config/ssh/authorized_keys:
-	git clone git@github.com:imma/imma-config /config 2>/dev/null || true
-	rsync -ia .ssh/authorized_keys /config/ssh/
-
-add-modules:
-	block list | awk '/\/work\// {print $$3, $$2}' | perl -pe 's{[^\s]+?/work/}{work/}' | runmany 1 2 'git submodule add -f -b $(shell git rev-parse --abbrev-ref HEAD) $$1 $$2'
-
-update-modules:
-	block list | awk '/\/work\// {print $$3, $$2}' | perl -pe 's{[^\s]+?/work/}{work/}' | grep -v 'work/ubuntu' | runmany 1 2 'git update-index --cacheinfo 160000 $$(cd $(BLOCK_PATH)/../$$2 && git rev-parse HEAD) $$2'
-
-lock:
-	$(make) update-modules || true
-	block lock
-	git add -u work Blockfile.lock
-	gs
-
-reset:
-	docker tag $(hub)/block:base $(registry)/$(image)
-
-reset-virtualbox:
-	vagrant box add -f block:ubuntu /data/cache/box/virtualbox/block-base.box
-
-reset-aws:
-	vagrant box add -f block:ubuntu /data/cache/box/aws/block-base.box
-
-rebuild:
-	$(make) rebuild-ubuntu
-
-rebuild-ubuntu:
-	$(make) docker-update
-
-save-ubuntu:
-	$(make) docker-save
