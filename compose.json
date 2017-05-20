@@ -15,19 +15,10 @@
   },
   "services": {
     "ubuntu": {
-      "environment": [
-        "SERVICE=ubuntu"
-      ],
       "volumes": [
         "/data:/data",
         "/config:/config",
         "/var/run/docker.sock:/var/run/docker.sock"
-      ],
-      "ports": [
-        "${BLOCK_SSH_PORT}"
-      ],
-      "cap_add": [
-        "NET_ADMIN"
       ],
       "dns_search": "node.dc1.consul service.dc1.consul",
       "image": "${BLOCK_REGISTRY}/block:ubuntu"
