@@ -51,5 +51,5 @@ monitor        ${BLOCK_PATH}/monitor        git@github.com:imma/monitor        4
 crypto         ${BLOCK_PATH}/crypto         git@github.com:imma/crypto         3645f1e1b963686812af0218debab1df74031eb7 develop 
 home           ${BLOCK_PATH}/home           git@github.com:imma/home           bedd65fdf4899c892de0f33d4f87dc6ffef6b600 develop 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            7ab025940249fcb1fb6bbde9ebd19a4ca66882f3 develop 
-junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          60506feb5b7b907810ff62a9d3c327754a02c372 develop 
+junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          b24c5082329b54a65bd09e7ce5aa2bb735dfa56e develop 
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            d2e348d7877e1ac1d3f1d981e80564b67b773a7f develop 
