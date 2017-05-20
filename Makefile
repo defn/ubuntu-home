@@ -91,18 +91,13 @@ aws-image-fr:
 	van vagrant ssh -- sudo apt-get update
 	$(make) aws-continue-fr
 
-aws-image-fr-fast:
-	van recycle
-	van vagrant ssh -- sudo sudo dpkg --configure -a
-	van vagrant ssh -- sudo apt-get update
-	$(make) aws-continue-fr-fast
-
 aws-continue-fr:
 	script/deploy van vagrant ssh --
 	van vagrant ssh -- script/deploy container
 	van reuse ubuntu
 
-aws-continue-fr-fast:
+aws-image-fr-fast:
+	van recycle
 	script/deploy van vagrant ssh -- & van vagrant ssh -- script/deploy container & wait
 	van export ubuntu
 	vagrant destroy -f
