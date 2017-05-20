@@ -40,7 +40,7 @@ vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        3
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            369eab48bda95c56601651d010ca669f619301ea develop 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        c01a2081b301b30ce22e0d5ce43a147b5496d04b develop 
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           c94ebfa0b178284465d1bb9f016c90f474d444a3 develop 
-fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           6ae73c6952d8826b9aef15ff0dfe811030e78921 develop 
+fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           b9bc72cff322a0617833b7eb21c86da4feb187a7 develop 
 gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            190b7ceb1e5d54e41dc6cdfc914ecc3ec8e5f54c develop 
 git-crypt      ${BLOCK_PATH}/git-crypt      git@github.com:imma/git-crypt      5edfb8a7ef8a97c8642e1b9b987309c23dd11a90 develop 
 talign         ${BLOCK_PATH}/talign         git@github.com:imma/talign         1db084ed06de0c10679e2384c8f88be047934909 develop 
