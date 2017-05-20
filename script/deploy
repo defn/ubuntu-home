@@ -62,8 +62,9 @@ function main {
   
   "$@" -A git pull
   "$@" -A script/deploy host
-  "$@" -A script/deploy container
-
+  if [[ "$(facts | jq -r '.virtualization_type')" != "docker" ]]; then
+    "$@" -A script/deploy container
+  fi
 }
 
 set -exfu
