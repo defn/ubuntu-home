@@ -77,10 +77,10 @@ docker-image:
 	time $(make) home=$(block) recycle home-deploy image-update
 
 aws-image:
-	time env BASEBOX_NAME_OVERRIDE=block:ubuntu AWS_SYNC=/data/cache/packages/$(ID_INSTALL) AWS_TYPE=$(aws_type) chexec $(current_dir) $(make) home=$(block) aws-image-fr
+	time env AWS_SYNC=/data/cache/packages/$(ID_INSTALL) chexec $(current_dir) $(make) home=$(block) aws-image-fr
 
 aws-continue:
-	time env BASEBOX_NAME_OVERRIDE=block:ubuntu AWS_SYNC=/data/cache/packages/$(ID_INSTALL) AWS_TYPE=$(aws_type) chexec $(current_dir) $(make) home=$(block) aws-continue-fr
+	time env AWS_SYNC=/data/cache/packages/$(ID_INSTALL) chexec $(current_dir) $(make) home=$(block) aws-continue-fr
 
 aws-image-fr:
 	van recycle
@@ -100,7 +100,7 @@ docker-update: /config/ssh/authorized_keys
 	$(make) clean
 
 virtualbox:
-	env BASEBOX_NAME_OVERRIDE=block:ubuntu $(make) virtualbox_fr
+	env $(make) virtualbox_fr
 
 virtualbox_fr:
 	(cd $(BLOCK_PATH)/base && make new-cidata)
