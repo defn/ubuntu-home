@@ -77,7 +77,7 @@ docker-image:
 	$(make) home=$(block) recycle home-deploy image-update
 
 aws-image:
-	env AWS_SYNC=/data/cache/packages/$(ID_INSTALL) AWS_TYPE=c4.large BASEBOX_NAME_OVERRIDE=block:ubuntu chexec $(current_dir) $(make) home=$(block) aws-image-fr
+	env AWS_SYNC=/data/cache/packages/$(ID_INSTALL) AWS_TYPE=c4.large BASEBOX_NAME_OVERRIDE=block:ubuntu GOLDEN_NAME=block-ubuntu chexec $(current_dir) $(make) home=$(block) aws-image-fr
 
 aws-image-fast:
 	env AWS_SYNC=/data/cache/packages/$(ID_INSTALL) chexec $(current_dir) $(make) home=$(block) aws-image-fr-fast
