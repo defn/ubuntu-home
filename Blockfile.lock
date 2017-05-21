@@ -9,7 +9,7 @@ block          ${BLOCK_PATH}/block          git@github.com:imma/block          b
 ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  c07d1b9cb46b3d93ff77c63b4e4d99cff8e81573 develop 
 homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       70abc94acafa05236cfd704ab63632ef6de8038c develop 
 java           ${BLOCK_PATH}/java           git@github.com:imma/java           09f725c41e6cc62fd828105dc2e71a28f44dcefd develop 
-base           ${BLOCK_PATH}/base           git@github.com:imma/base           4aef7c33f17194d386ff0708a0bf794190a5ee51 develop 
+base           ${BLOCK_PATH}/base           git@github.com:imma/base           3d8f646b638afd5c0db329676111fa9e44fb647e develop 
 pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         bb638228d5aad0fc82ce0f167fd01619c5729cd0 develop 
 python         ${BLOCK_PATH}/python         git@github.com:imma/python         aa7afe4e1813fdf6e0938199bb3e93ad3fd26ad4 develop 
 ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        7a90268b6f5d4f34ce37fd88173b6d9b7aa09255 develop 
@@ -36,7 +36,7 @@ context        ${BLOCK_PATH}/context        git@github.com:imma/context        a
 parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         932ae42c1975401fa8f2df8e1d9b77ce1ad90775 develop 
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose a067e7b478fb29c06ec4d5f0c75ca86e8b820aa5 develop 
 docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         eeb315e3e63ef037aa681a2f6e75c914ff9df0dd develop 
-vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        f8648b8ecb7190356a5d97b4b024313e917655db develop 
+vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        c706fdca707c1345215f99f39f49c35e0f71d44d develop 
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            369eab48bda95c56601651d010ca669f619301ea develop 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        c01a2081b301b30ce22e0d5ce43a147b5496d04b develop 
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           c94ebfa0b178284465d1bb9f016c90f474d444a3 develop 
