@@ -5,7 +5,7 @@ normalize      ${BLOCK_PATH}/normalize      git@github.com:imma/normalize      b
 bash-preexec   ${BLOCK_PATH}/bash-preexec   git@github.com:imma/bash-preexec   27a59a60ca7eb9231f0052e779b2a96387a3a725 develop 
 sub            ${BLOCK_PATH}/sub            git@github.com:imma/sub            062a65e087e86659f212da82f0311815a12244f1 develop 
 runmany        ${BLOCK_PATH}/runmany        git@github.com:imma/runmany        f138f78b689768490d4b9aa589bc02d80bc7079d develop 
-block          ${BLOCK_PATH}/block          git@github.com:imma/block          a7d470b6e8334889e2266cde09aedbd7915b47ff develop 
+block          ${BLOCK_PATH}/block          git@github.com:imma/block          bbd2e8be4b6ce0570ecedf7d3bc4c8efa731c231 develop 
 ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  c07d1b9cb46b3d93ff77c63b4e4d99cff8e81573 develop 
 homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       70abc94acafa05236cfd704ab63632ef6de8038c develop 
 java           ${BLOCK_PATH}/java           git@github.com:imma/java           09f725c41e6cc62fd828105dc2e71a28f44dcefd develop 
@@ -15,7 +15,7 @@ python         ${BLOCK_PATH}/python         git@github.com:imma/python         a
 ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        7a90268b6f5d4f34ce37fd88173b6d9b7aa09255 develop 
 cache          ${BLOCK_PATH}/cache          git@github.com:imma/cache          a459c8ca0c88710583cf8b52e9e482def94bdab6 develop 
 inventory      ${BLOCK_PATH}/inventory      git@github.com:imma/inventory      76ec08a46c205d78380830d81d4d68d9139a37a2 develop 
-deploy         ${BLOCK_PATH}/deploy         git@github.com:imma/deploy         dd22f8a10642495f6cb06485902ab8b4cedeb120 develop 
+deploy         ${BLOCK_PATH}/deploy         git@github.com:imma/deploy         1591e41c596eb1aec01b7fa02f13d4a36b5c3844 develop 
 htop           ${BLOCK_PATH}/htop           git@github.com:imma/htop           36918cf01b385f47ed1e857d5139a27dc9b1366c develop 
 sysadmin       ${BLOCK_PATH}/sysadmin       git@github.com:imma/sysadmin       26bc3ecc48302ae2fa927b9ef2de74624ce6f05c develop 
 ruby           ${BLOCK_PATH}/ruby           git@github.com:imma/ruby           9dc7b8d5a6df6e8538b1388a72b8b1a00c1c39c6 develop 
