@@ -32,12 +32,6 @@ function host {
 function container {
   eval $(aws ecr get-login)
 
-  local image="$(docker images | grep "$(aws ecr describe-repositories | jq -r --arg repo block '.repositories | map(select(.repositoryName == $repo))[].repositoryUri')" | awk '$2 == "ubuntu" { print $3 }')"
-
-  if [[ -z "$image" ]]; then
-    return
-  fi
-
   docker pull $(aws ecr describe-repositories | jq -r --arg repo block '.repositories | map(select(.repositoryName == $repo))[].repositoryUri'):ubuntu
   make reset-docker-ubuntu
   script/configure
