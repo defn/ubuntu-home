@@ -1,5 +1,12 @@
-#[user]
-#  name = Tom Bombadil
-#  email = amanibhavam@destructuring.org
+[user]
+  name = Defn Nghiem
+  email = iam@defn.sh
 [push]
   default = simple
+[core]
+	quotepath = false
+[url "https://github.com/"]
+  insteadOf = git://github.com/
+  insteadOf = https://github.com/
+  insteadOf = ssh://git@github.com/
+  insteadOf = git@github.com:
