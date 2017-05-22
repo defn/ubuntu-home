@@ -34,10 +34,6 @@
 	path = work/parity
 	url = git@github.com:imma/parity
 	branch = develop
-[submodule "work/docker"]
-	path = work/docker
-	url = git@github.com:imma/docker
-	branch = develop
 [submodule "work/pkgsrc"]
 	path = work/pkgsrc
 	url = git@github.com:imma/pkgsrc
