@@ -111,6 +111,8 @@ virtualbox:
 	env $(make) virtualbox_fr
 
 virtualbox_fr:
+	cd $(BLOCK_PATH)/base && make clean-cidata
+	cd $(BLOCK_PATH)/base && make >/dev/null
 	plane recycle block:ubuntu
 	plane vagrant ssh -- sudo sudo dpkg --configure -a
 	plane vagrant ssh -- sudo apt-get update
