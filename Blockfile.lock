@@ -24,6 +24,7 @@ nodeenv        ${BLOCK_PATH}/nodeenv        git@github.com:imma/nodeenv        2
 node           ${BLOCK_PATH}/node           git@github.com:imma/node           8bdaed3f6d40f6a0efa1cfcbbfd999ea071d97b0 develop 
 yarn           ${BLOCK_PATH}/yarn           git@github.com:imma/yarn           7361e9aa6c04ac52922a9e649dc9c3d9d8a535fc develop 
 bash4          ${BLOCK_PATH}/bash4          git@github.com:imma/bash4          00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 develop 
+jqq            ${BLOCK_PATH}/jqq            git@github.com:imma/jqq            b4721f736563c779365dfecf1ff137d99f31a184 develop 
 runit          ${BLOCK_PATH}/runit          git@github.com:imma/runit          8947e2c384bdeee21c94455a23536928f35a1b46 develop 
 service        ${BLOCK_PATH}/service        git@github.com:imma/service        3514336e1f75db34f9aa80139de795080d0e7337 develop 
 sshd           ${BLOCK_PATH}/sshd           git@github.com:imma/sshd           570f92047ec6141c36ae071526f0f7b3f4e581f1 develop 
@@ -37,7 +38,7 @@ vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        c
 context        ${BLOCK_PATH}/context        git@github.com:imma/context        a18ab2e5d9764c406272efd228b3a37fd6d1ebbc develop 
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose a067e7b478fb29c06ec4d5f0c75ca86e8b820aa5 develop 
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            369eab48bda95c56601651d010ca669f619301ea develop 
-awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        c01a2081b301b30ce22e0d5ce43a147b5496d04b develop 
+awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        a85a8931f7d3b396be0422ef9ec23610b7d71b9f develop 
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           c94ebfa0b178284465d1bb9f016c90f474d444a3 develop 
 fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           5d44153f940412875795afd29e3e8ff69226f883 develop 
 gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            190b7ceb1e5d54e41dc6cdfc914ecc3ec8e5f54c develop 
