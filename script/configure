@@ -16,7 +16,7 @@ function main {
       brew services restart dnsmasq
       ;;
     *)
-      sudo ifconfig lo:0 -172.28.29.250 netmask 255.255.255.0 up
+      sudo ifconfig lo:0 172.28.29.250 netmask 255.255.255.0 up
       sudo systemctl restart dnsmasq
 
       local nm_network='ubuntu_default'
