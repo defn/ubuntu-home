@@ -222,3 +222,7 @@
 	path = work/vagrant
 	url = git@github.com:imma/vagrant
 	branch = develop
+[submodule "work/jqq"]
+	path = work/jqq
+	url = git@github.com:imma/jqq
+	branch = devel

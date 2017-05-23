@@ -24,6 +24,7 @@ nodeenv        ${BLOCK_PATH}/nodeenv        git@github.com:imma/nodeenv        2
 node           ${BLOCK_PATH}/node           git@github.com:imma/node           8bdaed3f6d40f6a0efa1cfcbbfd999ea071d97b0 develop 
 yarn           ${BLOCK_PATH}/yarn           git@github.com:imma/yarn           7361e9aa6c04ac52922a9e649dc9c3d9d8a535fc develop 
 bash4          ${BLOCK_PATH}/bash4          git@github.com:imma/bash4          00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 develop 
+jqq            ${BLOCK_PATH}/jqq            git@github.com:imma/jqq            b4721f736563c779365dfecf1ff137d99f31a184 develop 
 runit          ${BLOCK_PATH}/runit          git@github.com:imma/runit          8947e2c384bdeee21c94455a23536928f35a1b46 develop 
 service        ${BLOCK_PATH}/service        git@github.com:imma/service        3514336e1f75db34f9aa80139de795080d0e7337 develop 
 sshd           ${BLOCK_PATH}/sshd           git@github.com:imma/sshd           570f92047ec6141c36ae071526f0f7b3f4e581f1 develop 
