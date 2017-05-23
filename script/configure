@@ -6,22 +6,6 @@ function main {
 
   cd "$shome"
 
-  local nm_network='ubuntu_default'
-
-  local nm_network_found="$(docker network inspect "$nm_network" 2>/dev/null | jq -r '.[].Name')"
-
-  if [[ "$nm_network_found" != "$nm_network" ]]; then
-    make up || true
-  fi
-
-  nm_network_found="$(docker network inspect "$nm_network" | jq -r '.[].Name')"
-  if [[ "$nm_network_found" != "$nm_network" ]]; then
-    echo "ERROR: could not bring up docker network $nm_network" 1>&2
-    return 1
-  fi
-
-  "$shome/script/update"
-
   case "$(uname -s)" in
     Darwin)
       sudo route -n add -net 172.28.130.0/23 172.28.128.10
@@ -32,6 +16,23 @@ function main {
       brew services restart dnsmasq
       ;;
     *)
+      sudo ifconfig lo:0 -172.28.29.250 netmask 255.255.255.0 up
+      sudo systemctl restart dnsmasq
+
+      local nm_network='ubuntu_default'
+
+      local nm_network_found="$(docker network inspect "$nm_network" 2>/dev/null | jq -r '.[].Name')"
+
+      if [[ "$nm_network_found" != "$nm_network" ]]; then
+        make up || true
+      fi
+
+      nm_network_found="$(docker network inspect "$nm_network" | jq -r '.[].Name')"
+      if [[ "$nm_network_found" != "$nm_network" ]]; then
+        echo "ERROR: could not bring up docker network $nm_network" 1>&2
+        return 1
+      fi
+
       sudo iptables -t nat -A POSTROUTING -s "$(docker network inspect "$nm_network" | jq -r '.[].IPAM.Config[].Subnet')" ! -o "$(facts | jq -r --arg gateway "$(docker network inspect "$nm_network" | jq -r '.[].IPAM.Config[].Gateway')"  'map(select(type == "object")) | map(select(.type == "bridge")) | map(select({gateway: .ipv4.address} == {gateway: $gateway})) | .[].device')" -j MASQUERADE
       sudo sysctl -w net.ipv4.ip_forward=1
     
