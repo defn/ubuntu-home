@@ -115,6 +115,7 @@ virtualbox_fr:
 	plane vagrant ssh -- sudo sudo dpkg --configure -a
 	plane vagrant ssh -- sudo apt-get update
 	script/deploy plane vagrant ssh --
-	cd $(BLOCK_PATH)/base && make clean-cidata >/dev/null
+	cd $(BLOCK_PATH)/base && make clean-cidata
+	cd $(BLOCK_PATH)/base && make >/dev/null
 	plane reuse ubuntu
 
