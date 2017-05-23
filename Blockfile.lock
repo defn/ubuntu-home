@@ -39,7 +39,7 @@ context        ${BLOCK_PATH}/context        git@github.com:imma/context        a
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose a067e7b478fb29c06ec4d5f0c75ca86e8b820aa5 develop 
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            369eab48bda95c56601651d010ca669f619301ea develop 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        a85a8931f7d3b396be0422ef9ec23610b7d71b9f develop 
-imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           c94ebfa0b178284465d1bb9f016c90f474d444a3 develop 
+imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           1bbd4c0a7927c039365bd7a9b61fa71d184d74fe develop 
 fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           5d44153f940412875795afd29e3e8ff69226f883 develop 
 gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            190b7ceb1e5d54e41dc6cdfc914ecc3ec8e5f54c develop 
 git-crypt      ${BLOCK_PATH}/git-crypt      git@github.com:imma/git-crypt      5edfb8a7ef8a97c8642e1b9b987309c23dd11a90 develop 
