@@ -38,7 +38,7 @@ vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        c
 context        ${BLOCK_PATH}/context        git@github.com:imma/context        a18ab2e5d9764c406272efd228b3a37fd6d1ebbc develop 
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose a067e7b478fb29c06ec4d5f0c75ca86e8b820aa5 develop 
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            369eab48bda95c56601651d010ca669f619301ea develop 
-awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        c01a2081b301b30ce22e0d5ce43a147b5496d04b develop 
+awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        a85a8931f7d3b396be0422ef9ec23610b7d71b9f develop 
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           c94ebfa0b178284465d1bb9f016c90f474d444a3 develop 
 fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           5d44153f940412875795afd29e3e8ff69226f883 develop 
 gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            190b7ceb1e5d54e41dc6cdfc914ecc3ec8e5f54c develop 
