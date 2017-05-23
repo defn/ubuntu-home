@@ -22,20 +22,12 @@ function main {
 
   "$shome/script/update"
 
-  if ifconfig vboxnet0 2>/dev/null; then	
-    vip_cache="172.28.128.1"
-  else
-    if [[ -n "${1:-}" ]]; then
-      vip_cache="$1"; shift
-    else
-      vip_cache="172.28.130.1"
-    fi
-  fi
-
   case "$(uname -s)" in
     Darwin)
-      echo 'server=/dc1.consul/127.0.0.1#5354' | tee -a "$HOME/homebrew/etc/dnsmasq.conf"
-      echo "address=/nih/$vip_cache" | tee -a "$HOME/homebrew/etc/dnsmasq.conf"
+      sudo route -n add -net 172.28.130.0/23 172.28.128.10
+      
+      echo 'server=/dc1.consul/172.28.128.10' | tee -a "$HOME/homebrew/etc/dnsmasq.conf"
+      echo "address=/nih/172.28.128.10" | tee -a "$HOME/homebrew/etc/dnsmasq.conf"
       echo 'server=8.8.4.4' | tee -a "$HOME/homebrew/etc/dnsmasq.conf"
       brew services restart dnsmasq
       ;;
@@ -44,9 +36,10 @@ function main {
       sudo sysctl -w net.ipv4.ip_forward=1
     
       echo 'server=/dc1.consul/127.0.0.1#5354' | sudo tee /etc/dnsmasq.d/nih
-      echo "address=/nih/$vip_cache" | sudo tee -a /etc/dnsmasq.d/nih
+      echo "address=/nih/172.28.130.1" | sudo tee -a /etc/dnsmasq.d/nih
       sudo systemctl restart dnsmasq
-      echo "DOCKER_OPTS=\"--dns $vip_cache --iptables=false\"" | sudo tee /etc/default/docker
+
+      echo "DOCKER_OPTS=\"--dns 172.28.130.1 --iptables=false\"" | sudo tee /etc/default/docker
       sudo systemctl restart docker
       ;;
   esac
