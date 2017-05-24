@@ -4,11 +4,10 @@ shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 source "$shome/script/profile"
 
 function host {
-  if ! test -d /config/.git; then
+  if ! test -d /data/cache; then
     sudo install -d -o ubuntu -g ubuntu /data
     sudo install -d -o ubuntu -g ubuntu /data/cache
     sudo install -d -o ubuntu -g ubuntu /config
-    git clone -b "$(cd "$shome" && git rev-parse --abbrev-ref HEAD)" git@github.com:imma/imma-config /config
   fi
 
   sudo dpkg --configure -a
@@ -17,7 +16,6 @@ function host {
 
   chmod 700 ~/.gnupg
 
-  (cd /config & git pull)
   git submodule update --init
   make cache
   set +x; source .bashrc; set -x;
