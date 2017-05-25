@@ -55,6 +55,7 @@ function main {
     "$@" chmod 0640 .ssh/config
   fi
   
+  "$@" git reset --hard
   "$@" -A git pull
   "$@" -A script/deploy host
 }
