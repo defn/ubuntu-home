@@ -25,6 +25,7 @@ function host {
 
   "$shome/work/block/script/cibuild"
   block bootstrap
+  rm -f Blockfile.json.sitee
   make lock
 
   sync
