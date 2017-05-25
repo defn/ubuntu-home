@@ -25,6 +25,7 @@ function host {
 
   "$shome/work/block/script/cibuild"
   block bootstrap
+  make lock
 
   sync
 }
