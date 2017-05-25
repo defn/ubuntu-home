@@ -98,7 +98,7 @@ aws-continue-fr:
 
 aws-image-fr-fast:
 	van recycle
-	cat "${GOLDEN_BLOCK}" | vagrant ssh -- tee Blockfile.json.siteee
+	cat "${GOLDEN_BLOCK}" | vagrant ssh -- tee Blockfile.json.sitee
 	script/deploy van vagrant ssh -- & van vagrant ssh -- script/deploy container $(shell echo $${GOLDEN_NAME#block-}) & wait
 	van export ubuntu
 	vagrant destroy -f
