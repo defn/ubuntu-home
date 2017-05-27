@@ -54,3 +54,4 @@ crypto         ${BLOCK_PATH}/crypto         git@github.com:imma/crypto         3
 home           ${BLOCK_PATH}/home           git@github.com:imma/home           6df1f54676e757101f67bb04538598ca714e1119 develop 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          b24c5082329b54a65bd09e7ce5aa2bb735dfa56e develop 
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            d2e348d7877e1ac1d3f1d981e80564b67b773a7f develop 
+example        ${BLOCK_PATH}/example        git@github.com:imma/example        ab898788e847df11514dd968db3f6e45ca061e3b develop 

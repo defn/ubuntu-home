@@ -230,3 +230,7 @@
 	path = work/github
 	url = git@github.com:imma/github
 	branch = develop
+[submodule "work/example"]
+	path = work/example
+	url = git@github.com:imma/example
+	branch = develop

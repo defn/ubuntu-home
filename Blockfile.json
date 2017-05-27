@@ -7,7 +7,7 @@
     [ "imma", "fogg", "awesome" ],
     [ "ansible", "gpg", "git-crypt", "github" ],
     [ "admin", "monitor", "crypto", "home" ],
-    [ "defn", "junas", "cue" ]
+    [ "defn", "junas", "cue", "example" ]
   ],
   "run": {
     "sshd": {},
