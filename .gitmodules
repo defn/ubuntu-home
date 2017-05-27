@@ -226,3 +226,7 @@
 	path = work/jqq
 	url = git@github.com:imma/jqq
 	branch = devel
+[submodule "work/github"]
+	path = work/github
+	url = git@github.com:imma/github
+	branch = develop

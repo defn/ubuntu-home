@@ -5,7 +5,7 @@
     [ "sshd", "consul-agent", "linkerd", "syslog-ng" ],
     [ "vagrant", "docker-compose" ],
     [ "imma", "fogg", "awesome" ],
-    [ "ansible", "gpg", "git-crypt" ],
+    [ "ansible", "gpg", "git-crypt", "github" ],
     [ "admin", "monitor", "crypto", "home" ],
     [ "defn", "junas", "cue" ]
   ],
