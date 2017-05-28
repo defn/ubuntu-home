@@ -101,7 +101,7 @@ aws-image-fr-fast:
 
 aws-continue-fr:
 	script/deploy van vagrant ssh --
-	van vagrant ssh -- $(aws ecr get-login)
+	van vagrant ssh -- $(shell aws ecr get-login)
 	van vagrant ssh -- script/deploy container
 
 docker-update: /config/ssh/authorized_keys
