@@ -102,7 +102,7 @@ aws-image-fr-fast:
 aws-continue-fr:
 	script/deploy van vagrant ssh --
 	van vagrant ssh -- $(shell aws ecr get-login)
-	van vagrant ssh -- script/deploy container
+	van vagrant ssh -- script/deploy container $(shell echo $${GOLDEN_NAME#block-})
 
 docker-update: /config/ssh/authorized_keys
 	$(make) recycle home-deploy block-finish minimize commit
