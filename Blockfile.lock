@@ -37,7 +37,7 @@ parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         9
 vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        c706fdca707c1345215f99f39f49c35e0f71d44d develop 
 context        ${BLOCK_PATH}/context        git@github.com:imma/context        a18ab2e5d9764c406272efd228b3a37fd6d1ebbc develop 
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose a067e7b478fb29c06ec4d5f0c75ca86e8b820aa5 develop 
-aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            9c43e6c9d7fe56f13d6985f134832ebc9d1867d5 develop 
+aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            41304cc1b07d7cf8c3a114330a23bf3f989c1334 develop 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        09ccb22f506074f4e03c4a497a303e6b24ff1377 develop 
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           d7ddf7c332b41e89522a02028db0df9064a5c4df develop 
 fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           5d44153f940412875795afd29e3e8ff69226f883 develop 
