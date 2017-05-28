@@ -84,24 +84,25 @@ aws-image-fast:
 
 aws-continue:
 	env AWS_SYNC=/data/cache/packages/$(ID_INSTALL) $(make) home=$(block) aws-continue-fr
+	van reuse ubuntu
 
 aws-image-fr:
 	van recycle
 	van vagrant ssh -- sudo sudo dpkg --configure -a
 	van vagrant ssh -- sudo apt-get update
 	$(make) aws-continue-fr
-
-aws-continue-fr:
-	script/deploy van vagrant ssh --
-	van vagrant ssh -- script/deploy container
 	van reuse ubuntu
 
 aws-image-fr-fast:
 	van recycle
-	cat "${GOLDEN_BLOCK}" | vagrant ssh -- tee Blockfile.json.sitee
-	script/deploy van vagrant ssh -- & van vagrant ssh -- script/deploy container $(shell echo $${GOLDEN_NAME#block-}) & wait
+	$(make) aws-continue-fr
 	van export ubuntu
 	vagrant destroy -f
+
+aws-continue-fr:
+	script/deploy van vagrant ssh --
+	van vagrant ssh -- $(aws ecr get-login)
+	van vagrant ssh -- script/deploy container
 
 docker-update: /config/ssh/authorized_keys
 	$(make) recycle home-deploy block-finish minimize commit
