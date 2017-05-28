@@ -5,7 +5,7 @@ normalize      ${BLOCK_PATH}/normalize      git@github.com:imma/normalize      b
 bash-preexec   ${BLOCK_PATH}/bash-preexec   git@github.com:imma/bash-preexec   27a59a60ca7eb9231f0052e779b2a96387a3a725 develop 
 sub            ${BLOCK_PATH}/sub            git@github.com:imma/sub            062a65e087e86659f212da82f0311815a12244f1 develop 
 runmany        ${BLOCK_PATH}/runmany        git@github.com:imma/runmany        f138f78b689768490d4b9aa589bc02d80bc7079d develop 
-block          ${BLOCK_PATH}/block          git@github.com:imma/block          da9272ce040dc0ddf195d62ea86b37eec470df8e develop 
+block          ${BLOCK_PATH}/block          git@github.com:imma/block          1f460550cfb954d141b64eddbd19a2884a7ca3e5 develop 
 ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  c07d1b9cb46b3d93ff77c63b4e4d99cff8e81573 develop 
 homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       70abc94acafa05236cfd704ab63632ef6de8038c develop 
 java           ${BLOCK_PATH}/java           git@github.com:imma/java           09f725c41e6cc62fd828105dc2e71a28f44dcefd develop 
@@ -29,7 +29,7 @@ runit          ${BLOCK_PATH}/runit          git@github.com:imma/runit          8
 service        ${BLOCK_PATH}/service        git@github.com:imma/service        3514336e1f75db34f9aa80139de795080d0e7337 develop 
 sshd           ${BLOCK_PATH}/sshd           git@github.com:imma/sshd           570f92047ec6141c36ae071526f0f7b3f4e581f1 develop 
 facts          ${BLOCK_PATH}/facts          git@github.com:imma/facts          c640273962fa4c4095e8b7f531caa94ac372438d develop 
-consul         ${BLOCK_PATH}/consul         git@github.com:imma/consul         8b03a884895e1f8042aec6766316bf8694782d45 develop 
+consul         ${BLOCK_PATH}/consul         git@github.com:imma/consul         c045f580aff79a37bf2e09f765af96528c55c173 develop 
 consul-agent   ${BLOCK_PATH}/consul-agent   git@github.com:imma/consul-agent   401441da60f96906f53529267d932ce0986dbf7b develop 
 linkerd        ${BLOCK_PATH}/linkerd        git@github.com:imma/linkerd        7188fd2b7ddeb1d4475ca05001764a0ab30bd096 develop 
 syslog-ng      ${BLOCK_PATH}/syslog-ng      git@github.com:imma/syslog-ng      2eb227af3c85f684032bef87ed2f7dfbbc475bf2 develop 
