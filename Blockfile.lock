@@ -21,7 +21,7 @@ sysadmin       ${BLOCK_PATH}/sysadmin       git@github.com:imma/sysadmin       2
 ruby           ${BLOCK_PATH}/ruby           git@github.com:imma/ruby           9dc7b8d5a6df6e8538b1388a72b8b1a00c1c39c6 develop 
 curl           ${BLOCK_PATH}/curl           git@github.com:imma/curl           d86a9966a8b0b7aa5a85cb73b139847f9e4ce055 develop 
 nodeenv        ${BLOCK_PATH}/nodeenv        git@github.com:imma/nodeenv        29401e313bca9abf28a83e1dcf0174b95488bcd0 develop 
-node           ${BLOCK_PATH}/node           git@github.com:imma/node           8bdaed3f6d40f6a0efa1cfcbbfd999ea071d97b0 develop 
+node           ${BLOCK_PATH}/node           git@github.com:imma/node           102ecab60c8215973e90b53a730694a512b45196 develop 
 yarn           ${BLOCK_PATH}/yarn           git@github.com:imma/yarn           fd1f90366a5748ae84c80e6b7035d988d3ec067d develop 
 bash4          ${BLOCK_PATH}/bash4          git@github.com:imma/bash4          00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 develop 
 jqq            ${BLOCK_PATH}/jqq            git@github.com:imma/jqq            b4721f736563c779365dfecf1ff137d99f31a184 develop 
