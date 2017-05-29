@@ -6,7 +6,7 @@
     [ "vagrant", "docker-compose" ],
     [ "imma", "fogg", "awesome" ],
     [ "ansible", "gpg", "git-crypt", "github" ],
-    [ "admin", "monitor", "crypto", "home" ],
+    [ "monitor", "crypto", "home" ],
     [ "defn", "junas", "cue", "example" ]
   ],
   "run": {

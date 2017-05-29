@@ -194,10 +194,6 @@
 	path = work/yarn
 	url = git@github.com:imma/yarn
 	branch = develop
-[submodule "work/admin"]
-	path = work/admin
-	url = git@github.com:imma/admin
-	branch = develop
 [submodule "work/home"]
 	path = work/home
 	url = git@github.com:imma/home
