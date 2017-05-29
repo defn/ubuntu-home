@@ -234,3 +234,7 @@
 	path = work/nothing
 	url = git@github.com:imma/nothing
 	branch = develop
+[submodule "work/app"]
+	path = work/app
+	url = git@github.com:imma/app
+	branch = develop

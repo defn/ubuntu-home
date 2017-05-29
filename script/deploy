@@ -26,6 +26,7 @@ function host {
   "$shome/work/block/script/cibuild"
   block bootstrap
   make lock
+  rm -rf work/admin
 
   sync
 }
