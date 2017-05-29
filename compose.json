@@ -1,21 +1,16 @@
 {
   "version": "2.1",
   "networks": {
-    "default": {
-      "external": {
-        "name": "ubuntu_default"
+    "ubuntu_default": {
+      "ipam": {
+        "config": [
+          {
+            "subnet": "${NET_SUBNET}.0/23",
+            "gateway": "${NET_SUBNET}.1",
+            "ip_range": "${NET_PREFIX}.128/25"
+          }
+        ]
       }
-    }
-  },
-  "services": {
-    "ubuntu": {
-      "volumes": [
-        "/data:/data",
-        "/config:/config",
-        "/var/run/docker.sock:/var/run/docker.sock"
-      ],
-      "dns_search": "node.dc1.consul service.dc1.consul",
-      "image": "${BLOCK_REGISTRY}/block:ubuntu"
     }
   }
 }

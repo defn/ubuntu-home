@@ -22,7 +22,7 @@ function main {
       local nm_network='ubuntu_default'
       local nm_network_found="$(docker network inspect "$nm_network" 2>/dev/null | jq -r '.[].Name')"
       if [[ "$nm_network_found" != "$nm_network" ]]; then
-        (cd "$shome/network" && make up)
+        make up
       fi
 
       nm_network_found="$(docker network inspect "$nm_network" | jq -r '.[].Name')"
