@@ -127,3 +127,7 @@ commit-virtualbox:
 	cd $(BLOCK_PATH)/base && make clean-cidata
 	cd $(BLOCK_PATH)/base && make >/dev/null
 	plane reuse ubuntu
+
+golden:
+	$(MAKE) docker
+	$(MAKE) upload
