@@ -1,4 +1,4 @@
 ---
-- hosts: vagrant:localhost_all
+- hosts: vagrant:docker:localhost_all
   roles:
     - {  role: ubuntu }
