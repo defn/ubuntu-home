@@ -238,3 +238,11 @@
 	path = work/app
 	url = git@github.com:imma/app
 	branch = develop
+[submodule "work/cfssl"]
+	path = work/cfssl
+	url = git@github.com:imma/cfssl
+	branch = develop
+[submodule "work/go"]
+	path = work/go
+	url = git@github.com:imma/go
+	branch = develop
