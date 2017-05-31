@@ -45,4 +45,6 @@ function home_bashrc {
 umask 0022
 home_bashrc
 
-for __a in "$@"; do pushd "$__a" >/dev/null && { require; popd >/dev/null; }; done
+if [[ "$#" -gt 1  && "$1" == "" ]]; then
+  for __a in "$@"; do pushd "$__a" >/dev/null && { require; popd >/dev/null; }; done
+fi
