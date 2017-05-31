@@ -43,6 +43,7 @@
 /.gpg-agent-info
 *.retry
 /.ansible
+/.ansible.cfg
 /.yarnrc
 /.wget-hsts
 /.vault-token
