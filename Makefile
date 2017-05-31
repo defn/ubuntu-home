@@ -74,7 +74,12 @@ rebuild-docker:
 	$(make) docker-update
 
 docker-image:
-	$(make) home=$(block) recycle home-deploy image-update
+	$(make) home=$(block) recycle home-update home-deploy image-update
+
+home-update:
+	$(service_ssh_exec) -- sudo dpkg --configure -a
+	$(service_ssh_exec) -- sudo apt-get update
+	$(service_ssh_exec) -- sudo env DEBIAN_FRONTEND=noninteractive apt-get upgrade -y
 
 aws-image:
 	env AWS_SYNC=/data/cache/packages/$(ID_INSTALL) $(make) home=$(block) aws-image-fr
