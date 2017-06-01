@@ -9,7 +9,7 @@ block          ${BLOCK_PATH}/block          git@github.com:imma/block          b
 ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  c07d1b9cb46b3d93ff77c63b4e4d99cff8e81573 develop 
 homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       70abc94acafa05236cfd704ab63632ef6de8038c develop 
 java           ${BLOCK_PATH}/java           git@github.com:imma/java           09f725c41e6cc62fd828105dc2e71a28f44dcefd develop 
-base           ${BLOCK_PATH}/base           git@github.com:imma/base           d0df8a75b067d778f35464095c5e8d6cbb1a2b68 develop 
+base           ${BLOCK_PATH}/base           git@github.com:imma/base           3f9884933b66bf60b40b773ee7979ced9b6656db develop 
 pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         bb638228d5aad0fc82ce0f167fd01619c5729cd0 develop 
 python         ${BLOCK_PATH}/python         git@github.com:imma/python         aa7afe4e1813fdf6e0938199bb3e93ad3fd26ad4 develop 
 ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        9b995c157089157184f8e2f4b860e623cf0e47b0 develop 
