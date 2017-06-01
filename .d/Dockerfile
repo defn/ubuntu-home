@@ -15,6 +15,5 @@ WORKDIR /home/ubuntu
 RUN rm -rf service sv
 RUN git checkout service sv
 RUN source .bashrc && block compile service sshd
-RUN ln -nfs ../sv/sshd service/
 
 ENTRYPOINT [ "/home/ubuntu/script/server" ]
