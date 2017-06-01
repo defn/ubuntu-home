@@ -1,0 +1,20 @@
+{
+  "version": "2.1",
+  "networks": {
+    "default": {
+      "external": {
+        "name": "ubuntu_default"
+      }
+    }
+  },
+  "services": {
+    "admin": {
+      "volumes": [
+        "/data:/data",
+        "/config:/config"
+      ],
+      "image": "${BLOCK_REGISTRY}/block:ubuntu",
+      "hostname": "ubuntu"
+    }
+  }
+}
