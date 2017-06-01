@@ -74,7 +74,7 @@ rebuild-docker:
 	$(make) docker-update
 
 docker-image:
-	$(make) home=$(block) recycle home-update home-deploy image-update
+	$(make) rebuild=ubuntu home=$(block) recycle home-update home-deploy image-update
 
 home-update:
 	$(service_ssh_exec) -- sudo dpkg --configure -a
