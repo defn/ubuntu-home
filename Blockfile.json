@@ -9,10 +9,5 @@
     [ "monitor", "crypto", "home" ],
     [ "defn", "junas", "cue", "example" ],
     [ "app" ]
-  ],
-  "run": {
-    "sshd": {},
-    "netdata": {},
-    "consul-agent": {}
-  }
+  ]
 }
