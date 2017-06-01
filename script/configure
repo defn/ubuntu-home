@@ -22,7 +22,7 @@ function main {
       local nm_network='ubuntu_default'
       local nm_network_found="$(docker network inspect "$nm_network" 2>/dev/null | jq -r '.[].Name')"
       if [[ "$nm_network_found" != "$nm_network" ]]; then
-        make up
+        docker network create -d bridge --gateway=172.28.130.1 --subnet 172.28.130.0/23 --ip-range 172.28.130.128/25 ubuntu_default
       fi
 
       nm_network_found="$(docker network inspect "$nm_network" | jq -r '.[].Name')"
