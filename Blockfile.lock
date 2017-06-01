@@ -26,7 +26,7 @@ yarn           ${BLOCK_PATH}/yarn           git@github.com:imma/yarn           f
 bash4          ${BLOCK_PATH}/bash4          git@github.com:imma/bash4          00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 develop 
 jqq            ${BLOCK_PATH}/jqq            git@github.com:imma/jqq            b4721f736563c779365dfecf1ff137d99f31a184 develop 
 runit          ${BLOCK_PATH}/runit          git@github.com:imma/runit          8947e2c384bdeee21c94455a23536928f35a1b46 develop 
-service        ${BLOCK_PATH}/service        git@github.com:imma/service        3514336e1f75db34f9aa80139de795080d0e7337 develop 
+service        ${BLOCK_PATH}/service        git@github.com:imma/service        9f794cdb71611747dfac451b82a60c9ce9c99f15 develop 
 sshd           ${BLOCK_PATH}/sshd           git@github.com:imma/sshd           570f92047ec6141c36ae071526f0f7b3f4e581f1 develop 
 facts          ${BLOCK_PATH}/facts          git@github.com:imma/facts          c640273962fa4c4095e8b7f531caa94ac372438d develop 
 consul         ${BLOCK_PATH}/consul         git@github.com:imma/consul         c045f580aff79a37bf2e09f765af96528c55c173 develop 
