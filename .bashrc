@@ -46,5 +46,6 @@ umask 0022
 home_bashrc
 
 if [[ "$#" -gt 1  && "$1" == "" ]]; then
+  shift
   for __a in "$@"; do pushd "$__a" >/dev/null && { require; popd >/dev/null; }; done
 fi
