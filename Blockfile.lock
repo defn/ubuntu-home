@@ -15,7 +15,7 @@ python         ${BLOCK_PATH}/python         git@github.com:imma/python         a
 ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        9b995c157089157184f8e2f4b860e623cf0e47b0 develop 
 cache          ${BLOCK_PATH}/cache          git@github.com:imma/cache          9215e0cc2590a048528cb12c55a234d01224d14c develop 
 inventory      ${BLOCK_PATH}/inventory      git@github.com:imma/inventory      951f98595a35284149717656daa921b35fb687f8 develop 
-deploy         ${BLOCK_PATH}/deploy         git@github.com:imma/deploy         f734b89682966541939336d6fd6739db7318932f develop 
+deploy         ${BLOCK_PATH}/deploy         git@github.com:imma/deploy         f51912ce55a03c79949596fad6b20b744075ce82 develop 
 htop           ${BLOCK_PATH}/htop           git@github.com:imma/htop           36918cf01b385f47ed1e857d5139a27dc9b1366c develop 
 sysadmin       ${BLOCK_PATH}/sysadmin       git@github.com:imma/sysadmin       26bc3ecc48302ae2fa927b9ef2de74624ce6f05c develop 
 ruby           ${BLOCK_PATH}/ruby           git@github.com:imma/ruby           9dc7b8d5a6df6e8538b1388a72b8b1a00c1c39c6 develop 
@@ -55,5 +55,5 @@ talign         ${BLOCK_PATH}/talign         git@github.com:imma/talign         1
 defn           ${BLOCK_PATH}/defn           git@github.com:imma/defn           22bce631d594895203413f620af71c14729114d3 develop 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          b24c5082329b54a65bd09e7ce5aa2bb735dfa56e develop 
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            d2e348d7877e1ac1d3f1d981e80564b67b773a7f develop 
-example        ${BLOCK_PATH}/example        git@github.com:imma/example        269697e7e7f8b992f22f5c12e84b29ff6ee28fbc develop 
+example        ${BLOCK_PATH}/example        git@github.com:imma/example        275d6eb1b6b131c37a2988f5c3c008f3abfe9ece develop 
 app            ${BLOCK_PATH}/app            git@github.com:imma/app            be7efc69e9b66c1aee0cd8f9e839df9613a97c60 develop 
