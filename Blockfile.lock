@@ -6,7 +6,7 @@ bash-preexec   ${BLOCK_PATH}/bash-preexec   git@github.com:imma/bash-preexec   2
 sub            ${BLOCK_PATH}/sub            git@github.com:imma/sub            6c3f1f8c89e66f7e8bb11cb9a185a1865e8cc0b3 develop 
 runmany        ${BLOCK_PATH}/runmany        git@github.com:imma/runmany        c8cb43196e6d1ff160d3495385da98861ca5828c develop 
 block          ${BLOCK_PATH}/block          git@github.com:imma/block          80822ee55762fa54a2be6c363ef3cc7e8efe9c46 develop 
-ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  6ed4b3b8afe715c7e41f29e873a8201f39230c3a develop 
+ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  6ca1926b2382225c34a7b8c88b151f0ef7adcfef develop 
 homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       8a1722aa461ff5624c1808d7fa8b4d919383ee53 develop 
 java           ${BLOCK_PATH}/java           git@github.com:imma/java           ccf213b029b765741b6929dfb21c1c059f448cae develop 
 base           ${BLOCK_PATH}/base           git@github.com:imma/base           1e35f8d9d0d947360dfae5d440cdb2b3df54d5d0 develop 
