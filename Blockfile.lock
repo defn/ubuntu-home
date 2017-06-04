@@ -6,10 +6,10 @@ bash-preexec   ${BLOCK_PATH}/bash-preexec   git@github.com:imma/bash-preexec   2
 sub            ${BLOCK_PATH}/sub            git@github.com:imma/sub            062a65e087e86659f212da82f0311815a12244f1 develop 
 runmany        ${BLOCK_PATH}/runmany        git@github.com:imma/runmany        f138f78b689768490d4b9aa589bc02d80bc7079d develop 
 block          ${BLOCK_PATH}/block          git@github.com:imma/block          394a42fcaff1875fd3f1f1427b6caebea312ed49 develop 
-ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  c07d1b9cb46b3d93ff77c63b4e4d99cff8e81573 develop 
+ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  4c363cedeb83f0d645382529c2efa57d69f9c70f develop 
 homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       70abc94acafa05236cfd704ab63632ef6de8038c develop 
 java           ${BLOCK_PATH}/java           git@github.com:imma/java           09f725c41e6cc62fd828105dc2e71a28f44dcefd develop 
-base           ${BLOCK_PATH}/base           git@github.com:imma/base           3f9884933b66bf60b40b773ee7979ced9b6656db develop 
+base           ${BLOCK_PATH}/base           git@github.com:imma/base           d2bf112a577185c35c8354658dccfb3e014fdaf5 develop 
 pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         bb638228d5aad0fc82ce0f167fd01619c5729cd0 develop 
 python         ${BLOCK_PATH}/python         git@github.com:imma/python         aa7afe4e1813fdf6e0938199bb3e93ad3fd26ad4 develop 
 ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        d3be051dad325ec48bbf55d9dc3a9b74e8c7b56a develop 
@@ -34,9 +34,9 @@ consul-agent   ${BLOCK_PATH}/consul-agent   git@github.com:imma/consul-agent   4
 linkerd        ${BLOCK_PATH}/linkerd        git@github.com:imma/linkerd        7188fd2b7ddeb1d4475ca05001764a0ab30bd096 develop 
 syslog-ng      ${BLOCK_PATH}/syslog-ng      git@github.com:imma/syslog-ng      2eb227af3c85f684032bef87ed2f7dfbbc475bf2 develop 
 parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         932ae42c1975401fa8f2df8e1d9b77ce1ad90775 develop 
-vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        c706fdca707c1345215f99f39f49c35e0f71d44d develop 
+vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        8fa06235fc5936def255ae8dfefc5492cde99520 develop 
 context        ${BLOCK_PATH}/context        git@github.com:imma/context        a18ab2e5d9764c406272efd228b3a37fd6d1ebbc develop 
-docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose a067e7b478fb29c06ec4d5f0c75ca86e8b820aa5 develop 
+docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 21c268990987d5906c65ef49f626c4be9d641a72 develop 
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            41304cc1b07d7cf8c3a114330a23bf3f989c1334 develop 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        09ccb22f506074f4e03c4a497a303e6b24ff1377 develop 
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           d7ddf7c332b41e89522a02028db0df9064a5c4df develop 

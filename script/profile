@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 function _ubuntu_home_profile {
-  local shome="${_ubuntu_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
+  local shome="${_ubuntu_home_home:="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
   PATH="$shome/bin:$shome/exec:$PATH"
-  export ANSIBLE_ROLES_PATH="${ANSIBLE_ROLES_PATH:+${ANSIBLE_ROLES_PATH}:}$shome/roles"
+  export ANSIBLE_ROLES_PATH="$shome/roles${ANSIBLE_ROLES_PATH:+:${ANSIBLE_ROLES_PATH}}"
 
   if [[ ! -f "$HOME/.aws/credentials" ]]; then
     if [[ -f "/config/aws/credentials" ]]; then

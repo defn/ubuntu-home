@@ -31,7 +31,7 @@ sync_fr:
 	cat Blockfile.lock  | envsubst | runmany 1 5 'set -x; cd $$2 && git checkout --force $$5 && git reset --hard $$4 || (cd $$2 && git fetch && git checkout --force $$5 && git reset --hard)'
 	$(make) cache
 
-include $(BLOCK_PATH)/base/Makefile.docker
+include $(_base_home)/Makefile.docker
 
 docker_default = docker-image
 
@@ -118,19 +118,19 @@ virtualbox:
 	env $(make) virtualbox_fr
 
 virtualbox_fr:
-	cd $(BLOCK_PATH)/base && make clean-cidata
-	cd $(BLOCK_PATH)/base && make >/dev/null
+	cd $(_base_home) && make clean-cidata
+	cd $(_base_home) && make >/dev/null
 	plane recycle block:ubuntu
 	plane vagrant ssh -- sudo sudo dpkg --configure -a
 	plane vagrant ssh -- sudo apt-get update
 	script/deploy plane vagrant ssh --
-	cd $(BLOCK_PATH)/base && make clean-cidata
-	cd $(BLOCK_PATH)/base && make >/dev/null
+	cd $(_base_home) && make clean-cidata
+	cd $(_base_home) && make >/dev/null
 	plane reuse ubuntu
 
 commit-virtualbox:
-	cd $(BLOCK_PATH)/base && make clean-cidata
-	cd $(BLOCK_PATH)/base && make >/dev/null
+	cd $(_base_home) && make clean-cidata
+	cd $(_base_home) && make >/dev/null
 	plane reuse ubuntu
 
 golden:
