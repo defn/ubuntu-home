@@ -15,7 +15,7 @@ python         ${BLOCK_PATH}/python         git@github.com:imma/python         e
 ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        eb3007a85af01080ea00e862f3e91e5ee5aafb55 develop 
 cache          ${BLOCK_PATH}/cache          git@github.com:imma/cache          edb19bfac1c2793adc98b708ac8ac34831bb8b6c develop 
 inventory      ${BLOCK_PATH}/inventory      git@github.com:imma/inventory      5c111fba62acf826d1a6f6dd31048102830e68d5 develop 
-deploy         ${BLOCK_PATH}/deploy         git@github.com:imma/deploy         1cd7b39598ae6bf199b3005b1030eb89a401394d develop 
+deploy         ${BLOCK_PATH}/deploy         git@github.com:imma/deploy         7af27482e9e2f84c13cd4286f94b188ce3055d3c develop 
 htop           ${BLOCK_PATH}/htop           git@github.com:imma/htop           4d9594fbe7a1908d4581bc1ac5e1fc5e568c071e develop 
 sysadmin       ${BLOCK_PATH}/sysadmin       git@github.com:imma/sysadmin       e9f613650fd6cc0f2c6fb06c77b7a86021f2d3e1 develop 
 ruby           ${BLOCK_PATH}/ruby           git@github.com:imma/ruby           b84a502116f5779d8b4827fb07e3fb1915395ac3 develop 
@@ -40,7 +40,7 @@ docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose f
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            d13721fe275aa8f52e066e49c044180edfa74cf7 develop 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        3b5a6c666311a4156932a45ef9d84358a4190e65 develop 
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           bc06b3a5c6556a70eb40e05f293fb4085bd50f69 develop 
-fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           a053b6d0c5d59afa13322ee6329940414d723a1f develop 
+fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           5385324a74a7b3e6d7f76ef7fa704ee22097a69c develop 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            a7704f94fb1d787a69e23a8c6558e955b576b034 develop 
 github         ${BLOCK_PATH}/github         git@github.com:imma/github         a2a4e60ccf93559bbd38c063025d779ba4316dd4 develop 
 netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        7d14284602fbf60d80d6de85f23a26eb9e5112ef develop 
