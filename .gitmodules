@@ -250,3 +250,11 @@
 	path = work/instance
 	url = git@github.com:imma/instance
 	branch = develop
+[submodule "work/cloud"]
+	path = work/cloud
+	url = git@github.com:imma/cloud
+	branch = develop
+[submodule "work/digitalocean"]
+	path = work/digitalocean
+	url = git@github.com:imma/digitalocean
+	branch = develop

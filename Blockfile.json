@@ -4,7 +4,7 @@
     [ "ruby", "python", "node", "yarn", "java", "bash4", "jqq" ],
     [ "sshd", "consul-agent", "linkerd", "syslog-ng" ],
     [ "vagrant", "docker-compose" ],
-    [ "imma", "fogg", "awesome" ],
+    [ "cloud", "imma", "fogg" ],
     [ "ansible", "github" ],
     [ "monitor", "crypto", "home" ],
     [ "defn", "junas", "cue", "example" ],
