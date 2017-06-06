@@ -246,3 +246,7 @@
 	path = work/go
 	url = git@github.com:imma/go
 	branch = develop
+[submodule "work/instance"]
+	path = work/instance
+	url = git@github.com:imma/instance
+	branch = develop

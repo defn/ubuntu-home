@@ -9,7 +9,8 @@ block          ${BLOCK_PATH}/block          git@github.com:imma/block          8
 ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  6ca1926b2382225c34a7b8c88b151f0ef7adcfef develop 
 homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       8a1722aa461ff5624c1808d7fa8b4d919383ee53 develop 
 java           ${BLOCK_PATH}/java           git@github.com:imma/java           ccf213b029b765741b6929dfb21c1c059f448cae develop 
-base           ${BLOCK_PATH}/base           git@github.com:imma/base           cd36dc9ec4e13f255a4a4b3dad357363d9a86de9 develop 
+instance       ${BLOCK_PATH}/instance       git@github.com:imma/instance       b3399dec5a791050b08c26216c14c5d8fed1bc56 develop 
+base           ${BLOCK_PATH}/base           git@github.com:imma/base           b07de25df5c7907f7215d3360e16d9f7b81a473c develop 
 pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         da329bdb2075af5a47772962ba64ee91851bb36c develop 
 python         ${BLOCK_PATH}/python         git@github.com:imma/python         ebbe02d0df8cd39cf752fbcca5f6c3af9ec62dc5 develop 
 ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        eb3007a85af01080ea00e862f3e91e5ee5aafb55 develop 
