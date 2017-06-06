@@ -105,9 +105,9 @@ aws-image-fr-fast:
 	vagrant destroy -f
 
 aws-continue-fr:
-	script/deploy van vagrant ssh --
+	script/deployx van vagrant ssh --
 	van vagrant ssh -- $(shell aws ecr get-login)
-	van vagrant ssh -- script/deploy container $(shell echo $${GOLDEN_NAME#block-})
+	van vagrant ssh -- script/deployx container $(shell echo $${GOLDEN_NAME#block-})
 
 docker-update: /config/ssh/authorized_keys
 	$(make) recycle home-deploy block-finish minimize commit
@@ -123,7 +123,7 @@ virtualbox_fr:
 	plane recycle block:ubuntu
 	plane vagrant ssh -- sudo sudo dpkg --configure -a
 	plane vagrant ssh -- sudo apt-get update
-	script/deploy plane vagrant ssh --
+	script/deployx plane vagrant ssh --
 	cd $(_base_home) && make clean-cidata
 	cd $(_base_home) && make >/dev/null
 	plane reuse ubuntu
