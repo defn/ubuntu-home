@@ -17,7 +17,7 @@ cache          ${BLOCK_PATH}/cache          git@github.com:imma/cache          e
 inventory      ${BLOCK_PATH}/inventory      git@github.com:imma/inventory      5c111fba62acf826d1a6f6dd31048102830e68d5 develop 
 deploy         ${BLOCK_PATH}/deploy         git@github.com:imma/deploy         2b747cbe2c1c5f253b57c04f0fa648677fb9e59e develop 
 htop           ${BLOCK_PATH}/htop           git@github.com:imma/htop           4d9594fbe7a1908d4581bc1ac5e1fc5e568c071e develop 
-sysadmin       ${BLOCK_PATH}/sysadmin       git@github.com:imma/sysadmin       e9f613650fd6cc0f2c6fb06c77b7a86021f2d3e1 develop 
+sysadmin       ${BLOCK_PATH}/sysadmin       git@github.com:imma/sysadmin       33d2492a8991951d2ee9ebfc7023bf03d55c22fe develop 
 ruby           ${BLOCK_PATH}/ruby           git@github.com:imma/ruby           b84a502116f5779d8b4827fb07e3fb1915395ac3 develop 
 curl           ${BLOCK_PATH}/curl           git@github.com:imma/curl           ff14720d677cefc91af396cb6830f81ea8e7a68a develop 
 nodeenv        ${BLOCK_PATH}/nodeenv        git@github.com:imma/nodeenv        c888c284019ec5df68e4283feeeedb287e298d4b develop 
