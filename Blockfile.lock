@@ -46,10 +46,10 @@ imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           b
 fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           d6e31c9c1574afc9a3959b4a4e20cf91f5841e5f develop 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            a7704f94fb1d787a69e23a8c6558e955b576b034 develop 
 github         ${BLOCK_PATH}/github         git@github.com:imma/github         a2a4e60ccf93559bbd38c063025d779ba4316dd4 develop 
-netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        7d14284602fbf60d80d6de85f23a26eb9e5112ef develop 
+netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        a66adc5a736a740afa7845c4b12f5d28c3103d09 develop 
 monitor        ${BLOCK_PATH}/monitor        git@github.com:imma/monitor        4bfdc25c320385fa1d8d85a70a7df1c049ba0299 develop 
 gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            803dad2e698da41fd44a6b1c5ad258eac73f7e8f develop 
-git-crypt      ${BLOCK_PATH}/git-crypt      git@github.com:imma/git-crypt      d00ec3658894745f9e80f3f0c5e2d314a963ccfb develop 
+git-crypt      ${BLOCK_PATH}/git-crypt      git@github.com:imma/git-crypt      625709505a2cab83b9b0c908a796512a86f6fb38 develop 
 go             ${BLOCK_PATH}/go             git@github.com:imma/go             c2d06a419c684614a30b3071b115907b96ab28ce develop 
 cfssl          ${BLOCK_PATH}/cfssl          git@github.com:imma/cfssl          b7324400a72d76e04bc631f47fa4f6a8126c5cd7 develop 
 crypto         ${BLOCK_PATH}/crypto         git@github.com:imma/crypto         05de03a055cdc032a4a75d1fbe6dadd5e625c3a3 develop 
