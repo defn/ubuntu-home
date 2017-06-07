@@ -13,7 +13,7 @@ function host {
 
   sudo dpkg --configure -a
   sudo apt-get update
-  sudo apt-get install -y make python build-essentials
+  sudo apt-get install -y make python build-essential
 
   chmod 700 ~/.gnupg
 
