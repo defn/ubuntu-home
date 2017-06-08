@@ -260,5 +260,5 @@
 	branch = develop
 [submodule "work/docker-machine"]
 	path = work/docker-machine
-	url = gitgithub.com:imma/docker-machine
+	url = git@github.com:imma/docker-machine
 	branch = develop
