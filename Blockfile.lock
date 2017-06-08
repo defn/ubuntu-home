@@ -47,7 +47,7 @@ imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           b
 fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           d6e31c9c1574afc9a3959b4a4e20cf91f5841e5f develop 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            a7704f94fb1d787a69e23a8c6558e955b576b034 develop 
 github         ${BLOCK_PATH}/github         git@github.com:imma/github         a2a4e60ccf93559bbd38c063025d779ba4316dd4 develop 
-netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        a66adc5a736a740afa7845c4b12f5d28c3103d09 develop 
+netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        4dbed75a8cf0eab9e57743ee053d60ac0b156a35 develop 
 monitor        ${BLOCK_PATH}/monitor        git@github.com:imma/monitor        4bfdc25c320385fa1d8d85a70a7df1c049ba0299 develop 
 gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            803dad2e698da41fd44a6b1c5ad258eac73f7e8f develop 
 git-crypt      ${BLOCK_PATH}/git-crypt      git@github.com:imma/git-crypt      625709505a2cab83b9b0c908a796512a86f6fb38 develop 
