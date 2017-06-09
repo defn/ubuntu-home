@@ -35,7 +35,7 @@ consul-agent   ${BLOCK_PATH}/consul-agent   git@github.com:imma/consul-agent   4
 linkerd        ${BLOCK_PATH}/linkerd        git@github.com:imma/linkerd        f43e56f8c6514146c50e67dc5107c39e50277733 develop 
 syslog-ng      ${BLOCK_PATH}/syslog-ng      git@github.com:imma/syslog-ng      4711d92b96e06d4527194b0709396dbba265b574 develop 
 parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         f4906450dc590c48b73328efe7374f2f3d6e910a develop 
-vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        e55cfb4c626cedf7ee2e20151670a9b38829d6a6 develop 
+vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        e609b24658fa7faf61a2fb19a9a3206c8ae46aeb develop 
 context        ${BLOCK_PATH}/context        git@github.com:imma/context        5704ecc5c5f15ce23975a86612ed7617ce1be527 develop 
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose fac7fe1b73fcc6911f0e4b403bfe830cf19471b1 develop 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine b96d08c2f8615f50d57881cbb47dd25f3cd6f730 develop 
