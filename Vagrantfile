@@ -10,6 +10,7 @@ Vagrant.configure("2") do |config|
   config.ssh.keys_only = false
 
   config.vm.provider "docker" do |v, override|
+    override.vm.synced_folder ENV['HOME'], '/vagrant', disabled: true
     override.vm.synced_folder '/data', '/data'
     override.vm.synced_folder '/config', '/config'
 
@@ -45,6 +46,7 @@ Vagrant.configure("2") do |config|
   config.vm.provider "aws" do |v, override|
     override.vm.box = ENV['SOURCE_NAME'] ? ENV['SOURCE_NAME'] : "block:ubuntu"
 
+    override.vm.synced_folder ENV['HOME'], '/vagrant', disabled: true
     override.vm.synced_folder '/data/cache/nodist', '/data/cache/nodist', type: "rsync", rsync__args: [ "-ia" ]
     override.vm.synced_folder ENV['AWS_SYNC'], ENV['AWS_SYNC'], type: "rsync", rsync__args: [ "-ia" ] if ENV['AWS_SYNC']
 
@@ -62,9 +64,6 @@ Vagrant.configure("2") do |config|
 
   (0..0).each do |d|
     config.vm.define "#{Socket.gethostname}-v#{d}", primary: (d == 0), autostart: (d == 0) do |dcker|
-      config.vm.provider "docker" do |v, override|
-        v.name = "#{Socket.gethostname}-d#{d}"
-      end
     end
   end
 end
