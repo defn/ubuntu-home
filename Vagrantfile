@@ -22,6 +22,32 @@ Vagrant.configure("2") do |config|
     v.has_ssh = true
   end
 
+  config.vm.provider "aws" do |v, override|
+    pth_sync = ENV['AWS_SYNC']
+    nm_env = "build"
+    nm_app = "vagrant"
+
+    override.vm.synced_folder ENV['HOME'], '/vagrant', disabled: true
+    override.vm.synced_folder '/data/cache/nodist', '/data/cache/nodist', type: "rsync", rsync__args: [ "-ia" ], rsync__verbose: true
+    override.vm.synced_folder pth_sync, pth_sync, type: "rsync", rsync__args: [ "-ia" ], rsync__verbose: true if File.directory?(pth_sync)
+
+    override.vm.box = ENV['SOURCE_NAME'] ? ENV['SOURCE_NAME'] : "block:ubuntu"
+
+    override.vm.provision "shell", path: ci_script, args: [], privileged: true
+
+    v.iam_instance_profile_name = ENV['AWS_IAM'] || "id-iam-role-not-set"
+    v.region_config ENV['AWS_DEFAULT_REGION'], 
+      ami: ENV['AWS_AMI'] || 'id-aws-ami-not-set'
+
+    v.tags = {
+      "ManagedBy" => "vagrant",
+      "Env" => nm_env,
+      "App" => nm_app,
+      "Service" => Dir.pwd.split("/")[-1],
+      "Color" => "vagrant"
+    }
+  end
+
   config.vm.provider "virtualbox" do |v, override|
     override.vm.box = ENV['SOURCE_NAME'] ? ENV['SOURCE_NAME'] : "block:ubuntu"
 
@@ -43,30 +69,12 @@ Vagrant.configure("2") do |config|
     ]
   end
 
-  config.vm.provider "aws" do |v, override|
-    override.vm.box = ENV['SOURCE_NAME'] ? ENV['SOURCE_NAME'] : "block:ubuntu"
-
-    override.vm.synced_folder ENV['HOME'], '/vagrant', disabled: true
-    override.vm.synced_folder '/data/cache/nodist', '/data/cache/nodist', type: "rsync", rsync__args: [ "-ia" ]
-    override.vm.synced_folder ENV['AWS_SYNC'], ENV['AWS_SYNC'], type: "rsync", rsync__args: [ "-ia" ] if ENV['AWS_SYNC']
-
-    override.vm.provision "shell", path: ci_script, args: [], privileged: true
-
-    v.iam_instance_profile_name = ENV['AWS_IAM'] || "id-iam-role-not-set"
-    v.ami = ENV['AWS_AMI'] || 'id-aws-ami-not-set'
-		v.tags = {
-			"ManagedBy" => "vagrant",
-			"Env" => "build",
-			"App" => "vagrant",
-      "Service" => Dir.pwd.split("/")[-1]
-		}
-  end
-
   (0..9).each do |d|
-    config.vm.define "#{Socket.gethostname}-v#{d}", primary: (d == 0), autostart: (d == 0) do |vagrant|
+    nm_vagrant = "#{Socket.gethostname}-v#{d}"
+    config.vm.define nm_vagrant, primary: (d == 0), autostart: (d == 0) do |vagrant|
       vagrant.vm.provider "docker" do |docker|
-        docker.name = "#{Socket.gethostname}-v#{d}"
-        config.vm.hostname = "#{Socket.gethostname}-v#{d}"
+        docker.name = nm_vagrant
+        config.vm.hostname = nm_vagrant
       end
     end
   end
