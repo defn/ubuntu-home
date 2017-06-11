@@ -30,7 +30,7 @@ runit          ${BLOCK_PATH}/runit          git@github.com:imma/runit          3
 service        ${BLOCK_PATH}/service        git@github.com:imma/service        64d580eddf8a9d2130b87517739208b944abf567 develop 
 sshd           ${BLOCK_PATH}/sshd           git@github.com:imma/sshd           570f92047ec6141c36ae071526f0f7b3f4e581f1 develop 
 facts          ${BLOCK_PATH}/facts          git@github.com:imma/facts          30880a630197a3d54742e03b172e50d6eb23da97 develop 
-consul         ${BLOCK_PATH}/consul         git@github.com:imma/consul         825f94b98fd8b2779a0f1808beb10cbb09443f40 develop 
+consul         ${BLOCK_PATH}/consul         git@github.com:imma/consul         146b86a88ec11892d880d3767c76a3e315fd3dd2 develop 
 consul-agent   ${BLOCK_PATH}/consul-agent   git@github.com:imma/consul-agent   4382e1fc4716417ddc395a13a699bfb7f48e83ce develop 
 linkerd        ${BLOCK_PATH}/linkerd        git@github.com:imma/linkerd        d744b28b147ee7ee071133af05787f4e0af05044 develop 
 syslog-ng      ${BLOCK_PATH}/syslog-ng      git@github.com:imma/syslog-ng      4711d92b96e06d4527194b0709396dbba265b574 develop 
