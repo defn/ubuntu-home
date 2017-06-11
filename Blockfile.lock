@@ -41,7 +41,7 @@ context        ${BLOCK_PATH}/context        git@github.com:imma/context        5
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose fac7fe1b73fcc6911f0e4b403bfe830cf19471b1 develop 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine b96d08c2f8615f50d57881cbb47dd25f3cd6f730 develop 
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            6edabf1d8a3816115330429a3e8bf250e2f6480a develop 
-awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        958d10460fe0c42b794ab7b55ce36d7d8718ae35 develop 
+awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        98043326b97227852f83a492c6657b272423bb50 develop 
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   ef1cac452cafa956e3f2bb0efa9c90abc6b69ab2 develop 
 cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          de04949fbaadf6e9a64629dedfb962b11ab08e60 develop 
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           b2803d723a843a7aa25e99cae88d2188970767cb develop 
