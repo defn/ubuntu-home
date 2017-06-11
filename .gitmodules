@@ -262,3 +262,7 @@
 	path = work/docker-machine
 	url = git@github.com:imma/docker-machine
 	branch = develop
+[submodule "work/etcd"]
+	path = work/etcd
+	url = git@github.com:imma/etcd
+	branch = develop
