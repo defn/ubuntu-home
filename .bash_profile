@@ -5,7 +5,7 @@ function home_profile {
   for a in $shome/.env.d/*; do
     if [[ ! -f "$a" ]]; then break; fi
     local name="${a##*/}"
-    export "$(printf '%s' "$name")"="$(printf '%q' "$(cat "$a")")"
+    export "$name"="$(cat "$a")"
   done
 
   source "$shome/.bashrc"
