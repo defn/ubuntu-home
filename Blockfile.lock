@@ -43,7 +43,7 @@ docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine b
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            a772943b60111e77d141d114973a7214d9237aa0 develop 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            44d1f760fa06766cd41c686e4fd57c02a4d48276 develop 
 apex           ${BLOCK_PATH}/apex           git@github.com:imma/apex           fda778af0fe6e41e5ff7ebf3f7785e16cad97370 develop 
-awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        fc4ca535c070aba4a3137bfb7658dc1dec9982e6 develop 
+awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        a91b622666d53636e831381884ce082fd330c5c2 develop 
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   c5ff1e96cca75f95ca1b78e2a1b8f09629bce2ea develop 
 cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          433419835cabd0d940e99c838a94d766a72ff83b develop 
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           45ba743ba5d5ad5089e017ba49255f1be2ccb3c6 develop 
