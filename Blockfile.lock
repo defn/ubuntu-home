@@ -46,7 +46,7 @@ apex           ${BLOCK_PATH}/apex           git@github.com:imma/apex           f
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        a91b622666d53636e831381884ce082fd330c5c2 develop 
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   c5ff1e96cca75f95ca1b78e2a1b8f09629bce2ea develop 
 cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          433419835cabd0d940e99c838a94d766a72ff83b develop 
-imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           45ba743ba5d5ad5089e017ba49255f1be2ccb3c6 develop 
+imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           f0a1e06c706665dc70e91f05f7e00e4bf1a50d2b develop 
 fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           156c8392477ccec14fc3ada3579c81b5cbce8d03 develop 
 github         ${BLOCK_PATH}/github         git@github.com:imma/github         f04ac8a6f3a9032a74f778d54a3c4b6ba9c560cd develop 
 netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        eef844c5629c3228fdb502efe10c65d33ea3fc98 develop 
