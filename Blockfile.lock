@@ -62,5 +62,5 @@ defn           ${BLOCK_PATH}/defn           git@github.com:imma/defn           2
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          2ead0e38a547acfa79b3fe6b8f79bccf1629b1f6 develop 
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            b45ac5a2171cd84e4678240b629f570292c1b87c develop 
 example        ${BLOCK_PATH}/example        git@github.com:imma/example        4d80aad286ce86bb64aa04fcd69b239f7bbac787 develop 
-nothing        ${BLOCK_PATH}/nothing        git@github.com:imma/nothing        b99b55d280c669d9e7a289d6a78db5f0280d1084 develop 
+nothing        ${BLOCK_PATH}/nothing        git@github.com:imma/nothing        1e22377cb3dc2322321ddb9f2dda739463099ac5 develop 
 app            ${BLOCK_PATH}/app            git@github.com:imma/app            9ebca8dc4d05321af129e1f5939db2b1f599e36b develop 
