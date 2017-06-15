@@ -7,7 +7,7 @@
     [ "cloud", "imma", "fogg" ],
     [ "ansible", "github" ],
     [ "monitor", "crypto", "home" ],
-    [ "defn", "junas", "cue", "example" ],
+    [ "defn", "junas", "cue", "example", "nothing" ],
     [ "app" ]
   ]
 }
