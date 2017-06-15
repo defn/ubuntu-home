@@ -13,7 +13,7 @@ instance       ${BLOCK_PATH}/instance       git@github.com:imma/instance       b
 base           ${BLOCK_PATH}/base           git@github.com:imma/base           2d9df55e81501ed7a5882f40984d326aa10d726d develop 
 pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         36bb89822f3a42909365928513d293f52076682b develop 
 python         ${BLOCK_PATH}/python         git@github.com:imma/python         4a6282286a6bd149d0d4553515e44cf06c36ac63 develop 
-ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        41c7bd8565146ccaee8d6f157af002c5fb40ac21 develop 
+ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        19e97047dc6cd96bb8603e69302b75d55e1425a2 develop 
 cache          ${BLOCK_PATH}/cache          git@github.com:imma/cache          1a7930e8dab98bde0fc5c6777f2c0bb9a58255b7 develop 
 inventory      ${BLOCK_PATH}/inventory      git@github.com:imma/inventory      b7e8edce542330782d62d854b5acddf0e634aea9 develop 
 deploy         ${BLOCK_PATH}/deploy         git@github.com:imma/deploy         2c777c3494c775f238c9c8b7a1ca9adfd9480b16 develop 
