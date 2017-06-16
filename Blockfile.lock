@@ -47,7 +47,7 @@ awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        2
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   d0b799ed3203637c6e116efa057bbd589db37c21 develop 
 cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          433419835cabd0d940e99c838a94d766a72ff83b develop 
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           f0a1e06c706665dc70e91f05f7e00e4bf1a50d2b develop 
-fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           513cf3c7246e37d9fa1507e65900ada2476b4628 develop 
+fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           af49ea16ecfb3c1abe11befb0807810cc0496ce6 develop 
 github         ${BLOCK_PATH}/github         git@github.com:imma/github         f04ac8a6f3a9032a74f778d54a3c4b6ba9c560cd develop 
 netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        eef844c5629c3228fdb502efe10c65d33ea3fc98 develop 
 monitor        ${BLOCK_PATH}/monitor        git@github.com:imma/monitor        819b20fe47584ce98ecfd650b79be5b95b91e276 develop 
@@ -63,7 +63,4 @@ junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          2
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            b45ac5a2171cd84e4678240b629f570292c1b87c develop 
 example        ${BLOCK_PATH}/example        git@github.com:imma/example        4d80aad286ce86bb64aa04fcd69b239f7bbac787 develop 
 nothing        ${BLOCK_PATH}/nothing        git@github.com:imma/nothing        1e22377cb3dc2322321ddb9f2dda739463099ac5 develop 
-docs           ${BLOCK_PATH}/docs           git@github.com:imma/docs           
-k8s            ${BLOCK_PATH}/k8s            git@github.com:imma/k8s            
-namerd         ${BLOCK_PATH}/namerd         git@github.com:imma/namerd         
 app            ${BLOCK_PATH}/app            git@github.com:imma/app            387e50f26e7a4a8652a61a6652569f41a030c0be develop 
