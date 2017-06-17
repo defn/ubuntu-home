@@ -35,7 +35,7 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.provider "aws" do |v, override|
-    pth_sync = ENV['AWS_SYNC']
+    pth_sync = ENV['AWS_SYNC'] || ''
     nm_env = "build"
     nm_app = "vagrant"
     pth_userdata = ""
