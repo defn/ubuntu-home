@@ -186,10 +186,6 @@
 	path = work/imma
 	url = git@github.com:imma/imma
 	branch = v20170617
-[submodule "work/provision"]
-	path = work/provision
-	url = git@github.com:imma/provision
-	branch = v20170617
 [submodule "work/yarn"]
 	path = work/yarn
 	url = git@github.com:imma/yarn
