@@ -28,7 +28,6 @@ sync:
 	$(make) sync_fr
 
 sync_fr:
-	cd /config && git pull
 	git submodule update --init
 	cat Blockfile.lock  | envsubst | runmany 1 5 'set -x; cd $$2 && git checkout --force $$5 && git reset --hard $$4 || (cd $$2 && git fetch && git checkout --force $$5 && git reset --hard)'
 	$(make) cache
@@ -43,10 +42,6 @@ docker-save:
 	mkdir -p /data/cache/box/docker
 	docker save -o /data/cache/box/docker/block-ubuntu.tar.1 $(docker_host)/block:{base,ubuntu}
 	mv -f /data/cache/box/docker/block-ubuntu.tar.1 /data/cache/box/docker/block-ubuntu.tar
-
-/config/ssh/authorized_keys:
-	git clone git@github.com:imma/imma-config /config 2>/dev/null || true
-	rsync -ia .ssh/authorized_keys /config/ssh/
 
 add-modules:
 	block list | awk '/\/work\// {print $$3, $$2}' | perl -pe 's{[^\s]+?/work/}{work/}' | runmany 1 2 'git submodule add -f -b $(shell git rev-parse --abbrev-ref HEAD) $$1 $$2'
@@ -114,7 +109,7 @@ aws-continue-fr:
 	van vagrant ssh -- $(shell aws ecr get-login)
 	van vagrant ssh -- script/deployx container $(shell echo $${GOLDEN_NAME#block-})
 
-docker-update: /config/ssh/authorized_keys
+docker-update:
 	$(make) recycle home-deploy block-finish minimize commit
 	$(make) build
 	$(make) clean
