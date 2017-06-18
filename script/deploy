@@ -48,8 +48,9 @@ function main {
     "$@" git reset --hard
     "$@" chmod 0640 .ssh/config
   else
-    "$@" -A git remote remove origin || true
-    "$@" -A git remote add origin "${url_origin}"
+    "$@" git remote remove origin || true
+    "$@" git remote add origin "${url_origin}"
+    "$@" rsync -ia .gitconfig.template .gitconfig
     "$@" -A git fetch
     "$@" git reset --hard "${nm_branch}"
     "$@" chmod 0640 .ssh/config
