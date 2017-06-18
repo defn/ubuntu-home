@@ -52,9 +52,10 @@ function main {
     "$@" git remote add origin "${url_origin}"
     "$@" rsync -ia .gitconfig.template .gitconfig
     "$@" -A git fetch
-    "$@" git reset --hard "${nm_branch}"
+    "$@" git reset --hard "origin/${nm_branch}"
     "$@" chmod 0640 .ssh/config
-    "$@" git checkout "${nm_branch}"
+    "$@" -A git checkout "${nm_branch}"
+    "$@" -A git branch --set-upstream-to "origin/$nm_block_branch"
   fi
   
   "$@" -A script/deploy host
