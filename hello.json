@@ -1,0 +1,39 @@
+{
+  "volumes": [
+    {
+      "name": "config",
+      "host": {
+        "sourcePath": "/config"
+      }
+    },
+    {
+      "name": "data",
+      "host": {
+        "sourcePath": "/data"
+      }
+    }
+  ],
+  "containerDefinitions": [
+    {
+      "name": "test",
+      "image": "545070380609.dkr.ecr.us-east-1.amazonaws.com/block:admin-bastion",
+      "cpu": 100,
+      "entryPoint": [
+        "/home/ubuntu/script/server"
+      ],
+      "memory": 100,
+      "essential": true,
+      "mountPoints": [
+        {
+          "sourceVolume": "config",
+          "containerPath": "/config"
+        },
+        {
+          "sourceVolume": "data",
+          "containerPath": "/data"
+        }
+      ]
+    }
+  ],
+  "family": "adm-admin-bastion"
+}
