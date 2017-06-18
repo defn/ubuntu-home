@@ -38,6 +38,7 @@ function main {
   esac
 
   block clone
+  cd work/block & git pull
   block list | awk '{print $1,$2,$3}' | while read -r nm_block pth_block git_block; do
     pushd "$pth_block"
       local nm_remote="$(git remote get-url origin)"
