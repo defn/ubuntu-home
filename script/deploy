@@ -55,7 +55,7 @@ function main {
     "$@" git reset --hard "origin/${nm_branch}"
     "$@" chmod 0640 .ssh/config
     "$@" -A git checkout "${nm_branch}"
-    "$@" -A git branch --set-upstream-to "origin/$nm_block_branch"
+    "$@" -A git branch --set-upstream-to "origin/$nm_branch"
   fi
   
   "$@" -A script/deploy host
