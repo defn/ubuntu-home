@@ -37,16 +37,19 @@ function main {
   set -exfu
 
   local nm_branch="$(cd "$shome" && git rev-parse --abbrev-ref HEAD)"
+  local url_origin="$(git config --get remote.origin.url)"
 
   if ! "$@" test -d .git; then
     "$@" -A ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
 
-    "$@" -A git clone -b "${nm_branch}" "$(git config --get remote.origin.url)"
+    "$@" -A git clone -b "${nm_branch}" "${url_origin}"
     "$@" mv ubuntu/.git .
     "$@" rm -rf ubuntu
     "$@" git reset --hard
     "$@" chmod 0640 .ssh/config
   else
+    "$@" -A git remote remove origin || true
+    "$@" -A git remote add origin "${url_origin}"
     "$@" -A git fetch
     "$@" git reset --hard "${nm_branch}"
     "$@" chmod 0640 .ssh/config

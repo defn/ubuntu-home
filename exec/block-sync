@@ -1,0 +1,60 @@
+#!/usr/bin/env bash
+
+function main {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "$shome/script/profile"
+  source normalize
+
+  set -x
+
+  local nm_branch=
+  if [[ "$#" == 0 ]]; then
+    nm_branch="$(cat Blockfile.json | jq -r '.branch//""')"
+  else
+    nm_branch="$1"; shift
+  fi
+
+  if [[ -z "$nm_branch" ]]; then
+    nm_branch="$(git rev-parse --abbrev-ref HEAD)"
+  fi
+
+  git fetch
+  git reset --hard "origin/$nm_branch"
+  git checkout "$nm_branch"
+
+  local nm_block_branch="$(cat Blockfile.json | jq -r '.blocks//""')"
+  if [[ -z "$nm_block_branch" ]]; then
+    nm_block_branch="$nm_branch"
+  fi
+
+  local nm_origin="$(git remote get-url origin)"
+  case "$nm_origin" in
+    http*)
+      export GIT_CC_PREFIX="${nm_origin%/*}/"
+      ;;
+    git@*)
+      export GIT_CC_PREFIX="${nm_origin%:*}:"
+      ;;
+  esac
+
+  block clone
+  block list | awk '{print $1,$2,$3}' | while read -r nm_block pth_block git_block; do
+    pushd "$pth_block"
+      local nm_remote="$(git remote get-url origin)"
+      if [[ "$nm_remote" != "$git_block" ]]; then
+        git remote remove origin
+        git remote add origin "$git_block"
+        git fetch
+      fi
+
+      git branch --set-upstream-to "origin/$nm_block_branch" || { git fetch && git branch --set-upstream-to "origin/$nm_block_branch"; }
+    popd
+  done
+
+  if [[ -f "Blockfile.lock" ]]; then
+	  git submodule update --init
+  	cat Blockfile.lock  | envsubst | runmany 1 5 'set -x; cd $2 && git checkout --force $5 && git reset --hard $4 || (cd $2 && git fetch && git checkout --force $5 && git reset --hard)'
+  fi
+}
+
+source sub "$BASH_SOURCE" "$@"

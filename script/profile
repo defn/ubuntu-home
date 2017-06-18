@@ -2,7 +2,7 @@
 
 function _ubuntu_home_profile {
   local shome="${_ubuntu_home_home:="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
-  PATH="$shome/bin:$shome/exec:$PATH"
+  PATH="$PATH:$shome/bin:$shome/exec"
   export ANSIBLE_ROLES_PATH="$shome/roles${ANSIBLE_ROLES_PATH:+:${ANSIBLE_ROLES_PATH}}"
 
   if [[ ! -f "$HOME/.aws/credentials" ]]; then
