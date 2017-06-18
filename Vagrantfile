@@ -29,7 +29,7 @@ Vagrant.configure("2") do |config|
     override.ssh.guest_port = "2222"
     override.vm.network "forwarded_port", id: "ssh", disabled: true, host: 2222, guest: 2222
 
-    v.docker_network = "ubuntu_default"
+    v.docker_network = "bridge"
     v.image = nm_image
     v.has_ssh = true
   end

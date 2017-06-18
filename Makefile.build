@@ -48,7 +48,7 @@ ssh_remote_home ?= /home/ubuntu
 
 service ?= $(CONTAINER)
 service_ssh_port = $(shell docker inspect $(service) 2>/dev/null | jq -r '.[].NetworkSettings | .Ports["$(ssh_port)/tcp"] // [] | .[].HostPort // 2222')
-service_ssh_ip =$(shell docker inspect $(service) 2>/dev/null | jq -r '.[].NetworkSettings | if (.Ports["$(ssh_port)/tcp"] // [] | .[].HostPort // false) then "172.28.29.250" else .Networks.ubuntu_default.IPAddress end')
+service_ssh_ip =$(shell docker inspect $(service) 2>/dev/null | jq -r '.[].NetworkSettings | if (.Ports["$(ssh_port)/tcp"] // [] | .[].HostPort // false) then "172.28.29.250" else .Networks.bridge.IPAddress end')
 
 ssh_prefix ?= ssh
 ssh_suffix ?= -p $(service_ssh_port) $(ssh_remote_user)@$(service_ssh_ip)
@@ -99,7 +99,7 @@ recycle:
 	$(make) wait-ssh
 
 docker-run:
-	docker run -d -ti -v /data:/data -v /config:/config --name $(service) --network ubuntu_default $(registry)/$(image)
+	docker run -d -ti -v /data:/data -v /config:/config --name $(service) $(registry)/$(image)
 
 wait-ssh:
 	$(service_ssh_exec) -- true 2>/dev/null || { sleep 1; $(make) wait-ssh; }
