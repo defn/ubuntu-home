@@ -10,15 +10,12 @@ function host {
 
   chmod 700 ~/.gnupg
 
-  git submodule update --init
+  exec/block-sync
   make cache
   set +x; source .bashrc; set -x;
-  make sync
 
   "$shome/work/block/script/cibuild"
   block bootstrap
-  make lock
-  rm -rf work/admin
 
   sync
 }
