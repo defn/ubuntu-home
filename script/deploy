@@ -36,18 +36,23 @@ function container {
 function main {
   set -exfu
 
+  local nm_branch="$(cd "$shome" && git rev-parse --abbrev-ref HEAD)"
+
   if ! "$@" test -d .git; then
     "$@" -A ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
 
-    "$@" -A git clone -b "$(cd "$shome" && git rev-parse --abbrev-ref HEAD)" "$(git config --get remote.origin.url)"
+    "$@" -A git clone -b "${nm_branch}" "$(git config --get remote.origin.url)"
     "$@" mv ubuntu/.git .
     "$@" rm -rf ubuntu
     "$@" git reset --hard
     "$@" chmod 0640 .ssh/config
+  else
+    "$@" -A git fetch
+    "$@" git reset --hard "${nm_branch}"
+    "$@" chmod 0640 .ssh/config
+    "$@" git checkout "${nm_branch}"
   fi
   
-  "$@" git reset --hard
-  "$@" -A git pull
   "$@" -A script/deploy host
 }
 
