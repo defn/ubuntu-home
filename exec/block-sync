@@ -50,7 +50,9 @@ function main {
         git fetch
       fi
 
-      git branch --set-upstream-to "origin/$nm_block_branch" || { git fetch && git branch --set-upstream-to "origin/$nm_block_branch"; }
+      if [[ -w ".git" ]]; then
+        git branch --set-upstream-to "origin/$nm_block_branch" || { git fetch && git branch --set-upstream-to "origin/$nm_block_branch"; }
+      fi
     popd
   done
 
