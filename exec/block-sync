@@ -54,7 +54,7 @@ function main {
       fi
 
       if [[ -w ".git" ]]; then
-        git branch --set-upstream-to "${nm_branch}/$nm_block_branch" || { git fetch && git branch --set-upstream-to "${nm_branch}/$nm_block_branch"; }
+        git branch --set-upstream-to "${nm_remote}/$nm_block_branch" || { git fetch && git branch --set-upstream-to "${nm_remote}/$nm_block_branch"; }
       fi
     popd
   done
