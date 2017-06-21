@@ -18,8 +18,12 @@ function main {
     nm_branch="$(git rev-parse --abbrev-ref HEAD)"
   fi
 
+  local nm_branch="$(git rev-parse --abbrev-ref HEAD)"
+  local nm_remote="$(git rev-parse --abbrev-ref "${nm_branch}@{upstream}")"
+  nm_remote="${nm_remote%%/*}"
+
   git fetch
-  git reset --hard "origin/$nm_branch"
+  git reset --hard "$nm_remote/$nm_branch"
   git checkout "$nm_branch"
 
   local nm_block_branch="$(cat Blockfile.json | jq -r '.blocks//""')"
@@ -27,13 +31,13 @@ function main {
     nm_block_branch="$nm_branch"
   fi
 
-  local nm_origin="$(git remote get-url origin)"
-  case "$nm_origin" in
+  local url_remote="$(git remote get-url "${nm_remote}")"
+  case "$url_remote" in
     http*)
-      export GIT_CC_PREFIX="${nm_origin%/*}/"
+      export GIT_CC_PREFIX="${url_remote%/*}/"
       ;;
     git@*)
-      export GIT_CC_PREFIX="${nm_origin%:*}:"
+      export GIT_CC_PREFIX="${url_remote%:*}:"
       ;;
   esac
 
@@ -43,15 +47,14 @@ function main {
   fi
   block list | awk '{print $1,$2,$3}' | while read -r nm_block pth_block git_block; do
     pushd "$pth_block"
-      local nm_remote="$(git remote get-url origin)"
-      if [[ "$nm_remote" != "$git_block" ]]; then
-        git remote remove origin
-        git remote add origin "$git_block"
+      local git_url="$(git remote get-url ${nm_remote})"
+      if [[ "$git_url" != "$git_block" ]]; then
+        git remote add "$nm_remote" "$git_block" 2>/dev/null || git remote set-url "$nm_remote" "$git_block"
         git fetch
       fi
 
       if [[ -w ".git" ]]; then
-        git branch --set-upstream-to "origin/$nm_block_branch" || { git fetch && git branch --set-upstream-to "origin/$nm_block_branch"; }
+        git branch --set-upstream-to "${nm_branch}/$nm_block_branch" || { git fetch && git branch --set-upstream-to "${nm_branch}/$nm_block_branch"; }
       fi
     popd
   done
