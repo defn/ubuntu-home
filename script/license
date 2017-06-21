@@ -3,7 +3,7 @@
 function main {
   local shome="${_ubuntu_home_home:="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
 
-  jq -n --arg license "MIT" '{license: $license}'
+  jq -n --arg license "APL2" '{license: $license}'
 }
 
 main "$@"
