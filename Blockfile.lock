@@ -43,7 +43,7 @@ docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine b
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            77aa6f2a8d8429795f62cb99ba8c55b770d1e3a0 v20170617 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            44d1f760fa06766cd41c686e4fd57c02a4d48276 v20170617 
 apex           ${BLOCK_PATH}/apex           git@github.com:imma/apex           fda778af0fe6e41e5ff7ebf3f7785e16cad97370 v20170617 
-awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        2d0c177ca3b4f18ae7cc3c42e7fb994971a04d68 v20170617 
+awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        720321fe937bad8e1e6b7b40e2a8312506c1b503 v20170617 
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   d0b799ed3203637c6e116efa057bbd589db37c21 v20170617 
 cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          433419835cabd0d940e99c838a94d766a72ff83b v20170617 
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           f0a1e06c706665dc70e91f05f7e00e4bf1a50d2b v20170617 
@@ -60,7 +60,7 @@ home           ${BLOCK_PATH}/home           git@github.com:imma/home           9
 talign         ${BLOCK_PATH}/talign         git@github.com:imma/talign         0a6478a6e005c859dea798f608a8381c044312b8 v20170617 
 defn           ${BLOCK_PATH}/defn           git@github.com:imma/defn           2ee3a9b54c99ddb58ff1be0b401a788f12b3844d v20170617 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          2ead0e38a547acfa79b3fe6b8f79bccf1629b1f6 v20170617 
-cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            b45ac5a2171cd84e4678240b629f570292c1b87c v20170617 
+cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            89e3f2f5f0f99a7cbfb1f0bf8fbe2606c25ea702 v20170617 
 example        ${BLOCK_PATH}/example        git@github.com:imma/example        4d80aad286ce86bb64aa04fcd69b239f7bbac787 v20170617 
 nothing        ${BLOCK_PATH}/nothing        git@github.com:imma/nothing        1e22377cb3dc2322321ddb9f2dda739463099ac5 v20170617 
 app            ${BLOCK_PATH}/app            git@github.com:imma/app            387e50f26e7a4a8652a61a6652569f41a030c0be v20170617 
