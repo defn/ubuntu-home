@@ -50,11 +50,10 @@ function main {
       local git_url="$(git remote get-url ${nm_remote})"
       if [[ "$git_url" != "$git_block" ]]; then
         git remote add "$nm_remote" "$git_block" 2>/dev/null || git remote set-url "$nm_remote" "$git_block"
-        git fetch
       fi
 
       if [[ -w ".git" ]]; then
-        git branch --set-upstream-to "${nm_remote}/$nm_block_branch" || { git fetch && git branch --set-upstream-to "${nm_remote}/$nm_block_branch"; }
+        git branch --set-upstream-to "${nm_remote}/$nm_block_branch" || { git fetch "${nm_remote}" && git branch --set-upstream-to "${nm_remote}/$nm_block_branch"; }
       fi
     popd
   done
