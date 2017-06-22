@@ -44,8 +44,8 @@ function main {
   block clone
   if [[ -d work/block ]]; then
     pushd work/block
-    git cc "${nm_remote}" imma/block
     git checkout "$nm_block_branch" || true
+    git cc "${nm_remote}" imma/block
     git pull
     popd
   fi
