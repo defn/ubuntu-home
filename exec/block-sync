@@ -48,7 +48,13 @@ function main {
     git pull
     popd
   fi
+
+  local pth_caller="${PWD}"
   block list | awk '{print $1,$2,$3}' | while read -r nm_block pth_block git_block; do
+    if [[ $pth_block/ != $pth_caller/* ]]; then
+      continue
+    fi
+
     pushd "$pth_block"
     if [[ -w ".git" ]]; then
       local git_url="$(git remote get-url ${nm_remote})"
