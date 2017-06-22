@@ -44,6 +44,7 @@ function main {
     (cd "$_ubuntu_home" && tar cfz - .git) | "$@" tar xvfz -
     "$@" git reset --hard
     "$@" rsync -ia .gitconfig.template .gitconfig
+    "$@" sudo env DEBIAN_FRONTEND=noninteractive apt install -y awscli
     "$@" chmod 0640 .ssh/config
     "$@" git submodule update --init
     "$@" work/block/script/cibuild
