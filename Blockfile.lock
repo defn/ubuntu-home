@@ -39,7 +39,7 @@ vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        1
 context        ${BLOCK_PATH}/context        git@github.com:imma/context        969fd3cb1259f4f81d5886cdbb8e6d6393d06b8c v20170617 
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose d3de0b7fbea3a854dfd70a70d6205c78ecbcec64 v20170617 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine b891802a4844460a31458ef16892ab71cb895ac4 v20170617 
-aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            d4b43ed13bd8677f9f388c036682201293b7b16f v20170617 
+aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            f20426c264ccd9aa9acc6635851571d37148346a v20170617 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        6c35969b35c0087c2404250e1cf50a93480508ad v20170617 
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   d0b799ed3203637c6e116efa057bbd589db37c21 v20170617 
 cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          433419835cabd0d940e99c838a94d766a72ff83b v20170617 
