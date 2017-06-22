@@ -53,7 +53,7 @@ function main {
       fi
 
       if [[ -w ".git" ]]; then
-        git branch --set-upstream-to "${nm_remote}/$nm_block_branch" || { git fetch "${nm_remote}" && git branch --set-upstream-to "${nm_remote}/$nm_block_branch"; }
+        git branch --set-upstream-to "${nm_remote}/$nm_block_branch" 2>/dev/null || { git fetch "${nm_remote}" && git branch --set-upstream-to "${nm_remote}/$nm_block_branch"; }
       fi
     popd
   done
