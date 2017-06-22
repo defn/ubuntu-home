@@ -34,25 +34,28 @@ function main {
   set -exfu
 
   local nm_branch="$(cd "$shome" && git rev-parse --abbrev-ref HEAD)"
-  local url_origin="$(git config --get remote.origin.url)"
+  local nm_branch="$(git rev-parse --abbrev-ref HEAD)"
+  local nm_remote="$(git rev-parse --abbrev-ref "${nm_branch}@{upstream}")"
+  nm_remote="${nm_remote%%/*}"
+  local url_remote="$(git config --get remote.${nm_remote}.url)"
 
   if ! "$@" test -d .git; then
     "$@" -A ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
 
-    "$@" -A git clone -b "${nm_branch}" "${url_origin}"
+    "$@" -A git clone -b "${nm_branch}" "${url_remote}"
     "$@" mv ubuntu/.git .
     "$@" rm -rf ubuntu
     "$@" git reset --hard
     "$@" chmod 0640 .ssh/config
   else
-    "$@" git remote remove origin || true
-    "$@" git remote add origin "${url_origin}"
+    "$@" git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
+    "$@" git remote set-url "${nm_remote}" "${url_remote}"
     "$@" rsync -ia .gitconfig.template .gitconfig
     "$@" -A git fetch
-    "$@" git reset --hard "origin/${nm_branch}"
+    "$@" git reset --hard "${nm_remote}/${nm_branch}"
     "$@" chmod 0640 .ssh/config
     "$@" -A git checkout "${nm_branch}"
-    "$@" -A git branch --set-upstream-to "origin/$nm_branch"
+    "$@" -A git branch --set-upstream-to "${nm_remote}/$nm_branch"
   fi
   
   "$@" -A script/deploy host
