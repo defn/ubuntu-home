@@ -50,13 +50,16 @@ function main {
   fi
   block list | awk '{print $1,$2,$3}' | while read -r nm_block pth_block git_block; do
     pushd "$pth_block"
-    local git_url="$(git remote get-url ${nm_remote})"
-    if [[ "$git_url" != "$git_block" ]]; then
-      git remote add "$nm_remote" "$git_block" 2>/dev/null || git remote set-url "$nm_remote" "$git_block"
-    fi
-
     if [[ -w ".git" ]]; then
-      git branch --set-upstream-to "${nm_remote}/$nm_block_branch" 2>/dev/null || { git fetch "${nm_remote}" && git branch --set-upstream-to "${nm_remote}/$nm_block_branch"; }
+      local git_url="$(git remote get-url ${nm_remote})"
+      if [[ "$git_url" != "$git_block" ]]; then
+        git remote add "$nm_remote" "$git_block" 2>/dev/null || git remote set-url "$nm_remote" "$git_block"
+      fi
+
+      git branch --set-upstream-to "${nm_remote}/$nm_block_branch" 2>/dev/null || { git fetch "${nm_remote}" && git branch --set-upstream-to "${nm_remote}/$nm_block_branch"; } || true
+      git remote -v
+      git branch -a
+      git branch -vv
     fi
     popd
   done
