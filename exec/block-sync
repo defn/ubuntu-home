@@ -57,9 +57,9 @@ function main {
       fi
 
       git branch --set-upstream-to "${nm_remote}/$nm_block_branch" 2>/dev/null || { git fetch "${nm_remote}" && git branch --set-upstream-to "${nm_remote}/$nm_block_branch"; } || true
-      git remote -v
-      git branch -a
-      git branch -vv
+      git remote -v || true
+      git branch -a || true
+      git branch -vv || true
     fi
     popd
   done
