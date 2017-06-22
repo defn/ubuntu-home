@@ -45,6 +45,7 @@ function main {
   if [[ -d work/block ]]; then
     pushd work/block
     git cc "${nm_remote}" imma/block
+    git checkout "$nm_block_branch" || true
     git pull
     popd
   fi
