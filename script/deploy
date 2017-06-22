@@ -14,7 +14,6 @@ function host {
   make cache
   set +x; source .bashrc; set -x;
 
-  "$shome/work/block/script/cibuild"
   block bootstrap
 
   sync
@@ -42,11 +41,13 @@ function main {
   if ! "$@" test -d .git; then
     "$@" -A ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
 
-    "$@" -A git clone -b "${nm_branch}" "${url_remote}"
-    "$@" mv ubuntu/.git .
-    "$@" rm -rf ubuntu
+    (cd "$_ubuntu_home" && tar cfz - .git) | "$@" tar xvfz -
     "$@" git reset --hard
+    "$@" rsync -ia .gitconfig.template .gitconfig
     "$@" chmod 0640 .ssh/config
+    "$@" git submodule update --init
+    "$@" work/block/script/cibuild
+    "$@" make cache
   else
     "$@" rsync -ia .gitconfig.template .gitconfig
     "$@" git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
