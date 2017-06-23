@@ -21,6 +21,7 @@ function host {
 
 function container {
   runmany docker pull $(aws ecr describe-repositories | jq -r --arg repo block '.repositories | map(select(.repositoryName == $repo))[].repositoryUri'):'$1'  -- base ubuntu "$@"
+  runmany  'docker pull $1' amazon/amazon-ecs-agent gliderlabs/registrator
   make reset-docker-ubuntu
   script/configure
   make clean

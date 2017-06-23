@@ -1,5 +1,0 @@
-vagrant ssh -- $(aws ecr get-login)
-vagrant ssh -- docker pull $(aws ecr describe-repositories | jq -r --arg repo block '.repositories | map(select(.repositoryName == $repo))[].repositoryUri'):ubuntu
-vagrant ssh -- docker pull $(aws ecr describe-repositories | jq -r --arg repo block '.repositories | map(select(.repositoryName == $repo))[].repositoryUri'):base
-vagrant ssh -- rm -f .docker/config.json
-vagrant ssh -- history -c
