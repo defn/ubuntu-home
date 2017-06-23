@@ -159,7 +159,7 @@ aws-block-fast:
 
 block-setup:
 	if [[ -e .git ]]; then jq -n --arg block $(block) --arg org $(org) --arg version $(version) '{ require: [ "\($$org)/\($$block)@\($$version)" ], run: { "\($$block)": {}} }' | $(service_ssh_exec) -- tee Blockfile.json.site \&\& block clone \&\& make cache; fi
-	if [[ ! -e .git ]]; then cat Blockfile.json | $(service_ssh_exec) -- tee $(BLOCK_PATH)/app/Blockfile.json \&\& cd $(BLOCK_PATH)/app \&\& block sync; fi
+	if [[ ! -e .git ]]; then cat Blockfile.json | $(service_ssh_exec) -- tee $(BLOCK_PATH)/app/Blockfile.json \&\& cd $(BLOCK_PATH)/app \&\& block meta sync; fi
 
 block-bootstrap:
 	$(service_ssh_exec) -- block bootstrap $(REBUILD)
