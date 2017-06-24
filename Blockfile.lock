@@ -54,7 +54,7 @@ git-crypt      ${BLOCK_PATH}/git-crypt      git@github.com:imma/git-crypt      a
 go             ${BLOCK_PATH}/go             git@github.com:imma/go             62a11ecd769ab6c2832efc0c5f24f7a54aaf997d v20170617 
 cfssl          ${BLOCK_PATH}/cfssl          git@github.com:imma/cfssl          538e1d5599190ffaab59a40086a307023f4bb0d9 v20170617 
 crypto         ${BLOCK_PATH}/crypto         git@github.com:imma/crypto         92292e0b8b6f5dd953a0f3a63f3b9020128d4db1 v20170617 
-home           ${BLOCK_PATH}/home           git@github.com:imma/home           e2ceaf7de6d2c51282cfb3bfda0849eff18cae80 v20170617 
+home           ${BLOCK_PATH}/home           git@github.com:imma/home           35e075e4e7153916b2534bb291b968e9bc8532a5 v20170617 
 talign         ${BLOCK_PATH}/talign         git@github.com:imma/talign         0a6478a6e005c859dea798f608a8381c044312b8 v20170617 
 defn           ${BLOCK_PATH}/defn           git@github.com:imma/defn           2ee3a9b54c99ddb58ff1be0b401a788f12b3844d v20170617 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          2ead0e38a547acfa79b3fe6b8f79bccf1629b1f6 v20170617 
