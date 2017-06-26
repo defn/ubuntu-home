@@ -31,7 +31,7 @@ sshd           ${BLOCK_PATH}/sshd           git@github.com:imma/sshd           8
 facts          ${BLOCK_PATH}/facts          git@github.com:imma/facts          d0c788bbf95ca7db87bde6e13eabd893be522129 v20170617 
 consul         ${BLOCK_PATH}/consul         git@github.com:imma/consul         c31e06224c1b26d67d2fef2c43d5d79d08c60382 v20170617 
 consul-agent   ${BLOCK_PATH}/consul-agent   git@github.com:imma/consul-agent   882a66c7da62c575aa015cdd7164fc9c3d6434e3 v20170617 
-etcd           ${BLOCK_PATH}/etcd           git@github.com:imma/etcd           f7e707053bf4a9d6c9a70640ea9cf9817828def8 v20170617 
+etcd           ${BLOCK_PATH}/etcd           git@github.com:imma/etcd           5395503fbd896c0a67b35b0387ba0962f0688b11 v20170617 
 linkerd        ${BLOCK_PATH}/linkerd        git@github.com:imma/linkerd        e29c8cc3cf3fa8161ca3e8607d78286bcc3e5b17 v20170617 
 syslog-ng      ${BLOCK_PATH}/syslog-ng      git@github.com:imma/syslog-ng      a04ac0a0941f8f3b566a811ca2219707b52ba5b1 v20170617 
 parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         07caabe2d5d14aab4cfbd861995adf44fd4fd8b0 v20170617 
@@ -39,7 +39,7 @@ vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        1
 context        ${BLOCK_PATH}/context        git@github.com:imma/context        969fd3cb1259f4f81d5886cdbb8e6d6393d06b8c v20170617 
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose d3de0b7fbea3a854dfd70a70d6205c78ecbcec64 v20170617 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine b891802a4844460a31458ef16892ab71cb895ac4 v20170617 
-aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            38cb0534a0881f650896ed4a6b03ccedee3972f3 v20170617 
+aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            6ffc1edc7c9e4a08738b6da3a89f23e7060d84db v20170617 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        6c35969b35c0087c2404250e1cf50a93480508ad v20170617 
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   d0b799ed3203637c6e116efa057bbd589db37c21 v20170617 
 cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          433419835cabd0d940e99c838a94d766a72ff83b v20170617 
