@@ -17,4 +17,4 @@ RUN git checkout service sv
 
 ENTRYPOINT [ "/home/ubuntu/script/server" ]
 
-COMMAND [ "sshd", "default" ]
+CMD [ "sshd", "default" ]
