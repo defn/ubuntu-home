@@ -167,7 +167,6 @@ block-bootstrap:
 
 block-finish:
 	$(service_ssh_exec) -- make cache
-	$(service_ssh_exec) -- cd work/app \&\& block compile service
 
 minimize:
 	@true
