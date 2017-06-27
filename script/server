@@ -11,25 +11,27 @@ function main {
   umask 0022
   source "$shome/.bashrc"
 
-  case "${1:-}" in
-    screen)
-      shift
-      while ! screen -S runit -X status; do
-        screen -S runit -d -m "$shome/script/server" "$@"
-        sleep 1
-        echo "detaching..." 1>&2
-      done
-      ;;
-    default)
-      if [[ -f /etc/rc.local ]]; then
-        sudo '/etc/rc.local'
-      fi
-      exec "$BLOCK_PATH/runit/script/server" "$@"
-      ;;
-    *)
-      exec "$@"
-      ;;
-  esac
+  for nm_service in "$@"; do
+    case "$nm_service" in
+      screen)
+        shift
+        while ! screen -S runit -X status; do
+          screen -S runit -d -m "$shome/script/server" "$@"
+          sleep 1
+          echo "detaching..." 1>&2
+        done
+        ;;
+      default)
+        if [[ -f /etc/rc.local ]]; then
+          sudo '/etc/rc.local'
+        fi
+        exec "$BLOCK_PATH/runit/script/server" "$@"
+        ;;
+      *)
+        block compile service "$nm_service"
+        ;;
+    esac
+  done
 }
 
 main "$@"
