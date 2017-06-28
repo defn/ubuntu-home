@@ -29,7 +29,7 @@ runit          ${BLOCK_PATH}/runit          git@github.com:imma/runit          6
 service        ${BLOCK_PATH}/service        git@github.com:imma/service        a56fe191f357ca69015a2eaffbfe10bf1e45641b v20170617 
 sshd           ${BLOCK_PATH}/sshd           git@github.com:imma/sshd           8841803c46e4c6eff510962fd88efc47008987a2 v20170617 
 facts          ${BLOCK_PATH}/facts          git@github.com:imma/facts          d0c788bbf95ca7db87bde6e13eabd893be522129 v20170617 
-consul         ${BLOCK_PATH}/consul         git@github.com:imma/consul         c31e06224c1b26d67d2fef2c43d5d79d08c60382 v20170617 
+consul         ${BLOCK_PATH}/consul         git@github.com:imma/consul         997a8c67cd9f77d94cd8dc2f6c31731897bfb5ef v20170617 
 consul-agent   ${BLOCK_PATH}/consul-agent   git@github.com:imma/consul-agent   882a66c7da62c575aa015cdd7164fc9c3d6434e3 v20170617 
 etcd           ${BLOCK_PATH}/etcd           git@github.com:imma/etcd           5395503fbd896c0a67b35b0387ba0962f0688b11 v20170617 
 linkerd        ${BLOCK_PATH}/linkerd        git@github.com:imma/linkerd        e29c8cc3cf3fa8161ca3e8607d78286bcc3e5b17 v20170617 
