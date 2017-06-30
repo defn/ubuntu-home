@@ -35,10 +35,11 @@ etcd           ${BLOCK_PATH}/etcd           git@github.com:imma/etcd           5
 linkerd        ${BLOCK_PATH}/linkerd        git@github.com:imma/linkerd        e29c8cc3cf3fa8161ca3e8607d78286bcc3e5b17 v20170617 
 syslog-ng      ${BLOCK_PATH}/syslog-ng      git@github.com:imma/syslog-ng      a04ac0a0941f8f3b566a811ca2219707b52ba5b1 v20170617 
 parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         07caabe2d5d14aab4cfbd861995adf44fd4fd8b0 v20170617 
-vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        1d5161ed6afc51054dc05c4d03de93af32d1571d v20170617 
+vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        35c6dfaaa71c9023f9ed463581ef8dda9de9b4e5 v20170617 
 context        ${BLOCK_PATH}/context        git@github.com:imma/context        969fd3cb1259f4f81d5886cdbb8e6d6393d06b8c v20170617 
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose d3de0b7fbea3a854dfd70a70d6205c78ecbcec64 v20170617 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine b891802a4844460a31458ef16892ab71cb895ac4 v20170617 
+docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         dbc5338360a1da471f178ad7e30fef919baaf08c v20170617 
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            6ffc1edc7c9e4a08738b6da3a89f23e7060d84db v20170617 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        6c35969b35c0087c2404250e1cf50a93480508ad v20170617 
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   d0b799ed3203637c6e116efa057bbd589db37c21 v20170617 

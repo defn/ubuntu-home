@@ -262,3 +262,7 @@
 	path = work/etcd
 	url = git@github.com:imma/etcd
 	branch = v20170617
+[submodule "work/docker"]
+	path = work/docker
+	url = git@github.com:imma/docker
+	branch = v20170617
