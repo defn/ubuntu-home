@@ -37,7 +37,7 @@ function main {
   "$@" git remote set-url "${nm_remote}" "${url_remote}"
   "$@" -A git fetch "${nm_remote}"
   "$@" -A git branch -D "${nm_remote}/$nm_branch" || true
-  "$@" -A git branch --track "${nm_remote}/$nm_branch"
+  "$@" -A git branch --set-upstream-to "${nm_remote}/$nm_branch"
   "$@" git reset --hard "${nm_remote}/${nm_branch}"
   "$@" -A git checkout "${nm_branch}" 
 
