@@ -4,7 +4,7 @@ normalize      ${BLOCK_PATH}/normalize      git@github.com:imma/normalize      2
 bash-preexec   ${BLOCK_PATH}/bash-preexec   git@github.com:imma/bash-preexec   14971620ead7aae465d700ccb236d811131bf4fd v20170617 
 sub            ${BLOCK_PATH}/sub            git@github.com:imma/sub            d451a5b8d80966dbe0a9f11e4a514207ab34d7b3 v20170617 
 runmany        ${BLOCK_PATH}/runmany        git@github.com:imma/runmany        c1e251bdf423282b29c11db428e0d5b712adef7e v20170617 
-block          ${BLOCK_PATH}/block          git@github.com:imma/block          2fcdd03c2473b61fb50757be1720a6d604aaab66 v20170617 
+block          ${BLOCK_PATH}/block          git@github.com:imma/block          6a7573d7c82ac3807302fdc6f28b1d4b7f6fc427 v20170617 
 instance       ${BLOCK_PATH}/instance       git@github.com:imma/instance       be0f454ce683a4572e028c3a1f18299cfd234bc1 v20170617 
 base           ${BLOCK_PATH}/base           git@github.com:imma/base           a7d2c949ab3f307f29110e92729c54813aa1f160 v20170617 
 ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  fae0942090ed22a8bbf74731a1cbe5822a60d4fd v20170617 
@@ -31,7 +31,7 @@ sshd           ${BLOCK_PATH}/sshd           git@github.com:imma/sshd           8
 facts          ${BLOCK_PATH}/facts          git@github.com:imma/facts          d0c788bbf95ca7db87bde6e13eabd893be522129 v20170617 
 consul         ${BLOCK_PATH}/consul         git@github.com:imma/consul         997a8c67cd9f77d94cd8dc2f6c31731897bfb5ef v20170617 
 consul-agent   ${BLOCK_PATH}/consul-agent   git@github.com:imma/consul-agent   ebba6ff039aab3e7d47fe7f61dec05a00b7176ea v20170617 
-etcd           ${BLOCK_PATH}/etcd           git@github.com:imma/etcd           5395503fbd896c0a67b35b0387ba0962f0688b11 v20170617 
+etcd           ${BLOCK_PATH}/etcd           git@github.com:imma/etcd           743a42ce8ad97393a9f3c35eb3aadbae196e6775 v20170617 
 linkerd        ${BLOCK_PATH}/linkerd        git@github.com:imma/linkerd        e29c8cc3cf3fa8161ca3e8607d78286bcc3e5b17 v20170617 
 syslog-ng      ${BLOCK_PATH}/syslog-ng      git@github.com:imma/syslog-ng      a04ac0a0941f8f3b566a811ca2219707b52ba5b1 v20170617 
 parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         07caabe2d5d14aab4cfbd861995adf44fd4fd8b0 v20170617 
@@ -45,7 +45,7 @@ awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        6
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   d0b799ed3203637c6e116efa057bbd589db37c21 v20170617 
 cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          433419835cabd0d940e99c838a94d766a72ff83b v20170617 
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           f0a1e06c706665dc70e91f05f7e00e4bf1a50d2b v20170617 
-fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           803a2761804a0b091937853d90d3bbc15407cfd5 v20170617 
+fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           5b6dfc95d7a7b9d5702218e3c7680e0e95cbb4aa v20170617 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            44d1f760fa06766cd41c686e4fd57c02a4d48276 v20170617 
 github         ${BLOCK_PATH}/github         git@github.com:imma/github         6b0c76f045cd393df24924e3c4ba4caa053d7d18 v20170617 
 netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        eef844c5629c3228fdb502efe10c65d33ea3fc98 v20170617 
