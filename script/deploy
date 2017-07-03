@@ -3,22 +3,6 @@
 shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 source "$shome/script/profile"
 
-function host {
-  sudo dpkg --configure -a
-  sudo apt-get update
-  sudo apt-get install -y make python build-essential aptitude
-
-  chmod 700 ~/.gnupg
-
-  exec/block-sync
-  make cache
-  set +x; source .bashrc; set -x;
-
-  block bootstrap
-
-  sync
-}
-
 function container {
   runmany docker pull $(aws ecr describe-repositories | jq -r --arg repo block '.repositories | map(select(.repositoryName == $repo))[].repositoryUri'):'$1'  -- base ubuntu "$@"
   runmany  'docker pull $1' amazon/amazon-ecs-agent gliderlabs/registrator
@@ -33,44 +17,48 @@ function container {
 function main {
   set -exfu
 
+  if ! "$@" test -d .git; then
+    "$@" -A ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
+  fi
+
   local nm_branch="$(cd "$shome" && git rev-parse --abbrev-ref HEAD)"
   local nm_branch="$(git rev-parse --abbrev-ref HEAD)"
   local nm_remote="$(git rev-parse --abbrev-ref "${nm_branch}@{upstream}")"
   nm_remote="${nm_remote%%/*}"
   local url_remote="$(git config --get remote.${nm_remote}.url)"
 
-  if ! "$@" test -d .git; then
-    "$@" -A ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
+  (cd "$_ubuntu_home" && tar cfz - .git) | "$@" tar xvfz -
+  "$@" git reset --hard
+  "$@" rsync -ia .gitconfig.template .gitconfig
+  "$@" sudo env DEBIAN_FRONTEND=noninteractive apt install -y awscli
+  "$@" work/block/script/cibuild
 
-    (cd "$_ubuntu_home" && tar cfz - .git) | "$@" tar xvfz -
-    "$@" git reset --hard
-    "$@" rsync -ia .gitconfig.template .gitconfig
-    "$@" sudo env DEBIAN_FRONTEND=noninteractive apt install -y awscli
-    "$@" chmod 0640 .ssh/config
-    "$@" git submodule update --init
-    "$@" work/block/script/cibuild
-    "$@" make cache
-  else
-    "$@" rsync -ia .gitconfig.template .gitconfig
-    "$@" git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
-    "$@" git remote set-url "${nm_remote}" "${url_remote}"
-    "$@" -A git fetch aws
-    "$@" -A git branch --set-upstream-to "${nm_remote}/$nm_branch"
-    "$@" git reset --hard "${nm_remote}/${nm_branch}"
-    "$@" chmod 0640 .ssh/config
-    "$@" -A git checkout "${nm_branch}"
-  fi
-  
-  "$@" -A script/deploy host
+  "$@" git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
+  "$@" git remote set-url "${nm_remote}" "${url_remote}"
+  "$@" -A git fetch "${nm_remote}"
+  "$@" -A git branch -D "${nm_remote}/$nm_branch" || true
+  "$@" -A git branch --track "${nm_remote}/$nm_branch"
+  "$@" git reset --hard "${nm_remote}/${nm_branch}"
+  "$@" -A git checkout "${nm_branch}" 
+
+  "$@" make cache
+
+  "$@" sudo dpkg --configure -a
+  "$@" sudo apt-get update
+  #"$@" sudo apt-get install -y make python build-essential aptitude
+  "$@" sudo apt-get upgrade -y
+
+  "$@" chmod 700 .gnupg
+
+  "$@" block sync
+  "$@" block bootstrap
+
+  "$@" sync
 }
 
 set -exfu
 umask 0022
 case "${1:-}" in
-  host)
-    shift
-    host "$@"
-    ;;
   container)
     shift
     container "$@"
