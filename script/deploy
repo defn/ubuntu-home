@@ -17,6 +17,8 @@ function container {
 function main {
   set -exfu
 
+  local loader='env DEBIAN_FRONTEND=noninteractive'
+
   if ! "$@" test -d .git; then
     "$@" -A ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
   fi
@@ -30,7 +32,7 @@ function main {
   (cd "$_ubuntu_home" && tar cfz - .git) | "$@" tar xvfz -
   "$@" git reset --hard
   "$@" rsync -ia .gitconfig.template .gitconfig
-  "$@" sudo env DEBIAN_FRONTEND=noninteractive apt install -y awscli
+  "$@" sudo $loader apt-get install -y awscli
   "$@" work/block/script/cibuild
 
   "$@" git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
@@ -45,8 +47,9 @@ function main {
 
   "$@" sudo dpkg --configure -a
   "$@" sudo apt-get update
-  "$@" sudo apt-get install -y make python build-essential aptitude
-  "$@" sudo apt-get upgrade -y
+  "$@" sudo $loader apt-get install -y make python build-essential aptitude
+  "$@" sudo $loader aptitude hold grub-legacy-ec2 docker-ce lxd
+  "$@" sudo $loader apt-get upgrade -y
 
   "$@" chmod 700 .gnupg
 
