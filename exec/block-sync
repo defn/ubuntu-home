@@ -39,10 +39,14 @@ function main {
       ;;
   esac
 
+  export GIT_CC_REMOTE="$nm_remote"
   block clone
-  if [[ -d work/block ]]; then
-    pushd work/block
-    git checkout "$nm_block_branch" || true
+  : ${_block_home:="${PWD}/work/block"}
+  if [[ -d "${_block_home}" ]]; then
+    pushd "${_block_home}"
+    git fetch
+    git reset --hard "$nm_block_branch"
+    git checkout "$nm_block_branch"
     git cc "${nm_remote}" imma/block
     git pull
     popd

@@ -24,12 +24,7 @@ cache:
 	@bash .bashrc
 
 sync:
-	git pull
-	$(make) sync_fr
-
-sync_fr:
-	git submodule update --init
-	cat Blockfile.lock  | envsubst | runmany 1 5 'set -x; cd $$2 && git checkout --force $$5 && git reset --hard $$4 || (cd $$2 && git fetch && git checkout --force $$5 && git reset --hard)'
+	block sync
 	$(make) cache
 
 include $(_base_home)/Makefile.docker
@@ -37,14 +32,6 @@ include $(_base_home)/Makefile.docker
 docker_default = docker-image
 
 aws_default = aws-image
-
-docker-save:
-	mkdir -p /data/cache/box/docker
-	docker save -o /data/cache/box/docker/block-ubuntu.tar.1 $(docker_host)/block:{base,ubuntu}
-	mv -f /data/cache/box/docker/block-ubuntu.tar.1 /data/cache/box/docker/block-ubuntu.tar
-
-add-modules:
-	block list | awk '/\/work\// {print $$3, $$2}' | perl -pe 's{[^\s]+?/work/}{work/}' | runmany 1 2 'git submodule add -f -b $(shell git rev-parse --abbrev-ref HEAD) $$1 $$2'
 
 update-modules:
 	block list | awk '/\/work\// {print $$3, $$2}' | perl -pe 's{[^\s]+?/work/}{work/}' | grep -v 'work/ubuntu' | runmany 1 2 'git update-index --cacheinfo 160000 $$(cd $(BLOCK_PATH)/../$$2 && git rev-parse HEAD) $$2'
