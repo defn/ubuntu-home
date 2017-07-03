@@ -35,7 +35,7 @@ etcd           ${BLOCK_PATH}/etcd           git@github.com:imma/etcd           7
 linkerd        ${BLOCK_PATH}/linkerd        git@github.com:imma/linkerd        e29c8cc3cf3fa8161ca3e8607d78286bcc3e5b17 v20170617 
 syslog-ng      ${BLOCK_PATH}/syslog-ng      git@github.com:imma/syslog-ng      a04ac0a0941f8f3b566a811ca2219707b52ba5b1 v20170617 
 parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         07caabe2d5d14aab4cfbd861995adf44fd4fd8b0 v20170617 
-vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        35c6dfaaa71c9023f9ed463581ef8dda9de9b4e5 v20170617 
+vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        1e9b35e5eedc639df242d41120bca2efb15fb876 v20170617 
 context        ${BLOCK_PATH}/context        git@github.com:imma/context        969fd3cb1259f4f81d5886cdbb8e6d6393d06b8c v20170617 
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose d3de0b7fbea3a854dfd70a70d6205c78ecbcec64 v20170617 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 1e008af941712580a8327a409cf58bf2d8240d92 v20170617 
