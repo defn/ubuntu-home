@@ -10,9 +10,6 @@ function source_blocks {
 function source_cache {
   source "$shome/.bashrc.cache"
   _profile
-  pushd "$_app_home" >/dev/null
-  require
-  popd >/dev/null
 }
 
 function bashrc {
