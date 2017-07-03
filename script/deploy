@@ -45,11 +45,12 @@ function main {
 
   "$@" sudo dpkg --configure -a
   "$@" sudo apt-get update
-  #"$@" sudo apt-get install -y make python build-essential aptitude
+  "$@" sudo apt-get install -y make python build-essential aptitude
   "$@" sudo apt-get upgrade -y
 
   "$@" chmod 700 .gnupg
 
+  "$@" block sync
   "$@" block sync
   "$@" block bootstrap
 
