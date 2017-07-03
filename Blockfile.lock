@@ -7,7 +7,7 @@ runmany        ${BLOCK_PATH}/runmany        git@github.com:imma/runmany        c
 block          ${BLOCK_PATH}/block          git@github.com:imma/block          a25b760734c19563bafd1ad862b0f7acc0409274 v20170617 
 instance       ${BLOCK_PATH}/instance       git@github.com:imma/instance       be0f454ce683a4572e028c3a1f18299cfd234bc1 v20170617 
 base           ${BLOCK_PATH}/base           git@github.com:imma/base           a7d2c949ab3f307f29110e92729c54813aa1f160 v20170617 
-ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  fae0942090ed22a8bbf74731a1cbe5822a60d4fd v20170617 
+ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  3103c65cb853aaa41268962e11ad538f0f0caa14 v20170617 
 homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       fefa3f9839ce7ddb195fb0e236f135107df038fa v20170617 
 java           ${BLOCK_PATH}/java           git@github.com:imma/java           c6653c2bbd3b61ade1acac48c63980a60bc39e5e v20170617 
 pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         36bb89822f3a42909365928513d293f52076682b v20170617 

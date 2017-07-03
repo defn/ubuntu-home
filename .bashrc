@@ -30,6 +30,7 @@ function clean_path {
 function home_bashrc {
   local shome="$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"
 
+  export BOARD_PATH="${shome}"
   export CALLING_PATH="${CALLING_PATH:-"$(clean_path)"}"
 
   PATH="${CALLING_PATH}"
