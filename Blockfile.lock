@@ -4,7 +4,7 @@ normalize      ${BLOCK_PATH}/normalize      git@github.com:imma/normalize      2
 bash-preexec   ${BLOCK_PATH}/bash-preexec   git@github.com:imma/bash-preexec   14971620ead7aae465d700ccb236d811131bf4fd v20170617 
 sub            ${BLOCK_PATH}/sub            git@github.com:imma/sub            d451a5b8d80966dbe0a9f11e4a514207ab34d7b3 v20170617 
 runmany        ${BLOCK_PATH}/runmany        git@github.com:imma/runmany        c1e251bdf423282b29c11db428e0d5b712adef7e v20170617 
-block          ${BLOCK_PATH}/block          git@github.com:imma/block          020537509d43763b0aa92055a2fbcc7b94cda320 v20170617 
+block          ${BLOCK_PATH}/block          git@github.com:imma/block          978eacdc04e73ab4a6bb2fdcfee4842a38dfeae5 v20170617 
 instance       ${BLOCK_PATH}/instance       git@github.com:imma/instance       be0f454ce683a4572e028c3a1f18299cfd234bc1 v20170617 
 base           ${BLOCK_PATH}/base           git@github.com:imma/base           f9b02934f02190a93d3f2f8956c784a6f92715a2 v20170617 
 ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  3103c65cb853aaa41268962e11ad538f0f0caa14 v20170617 
