@@ -114,10 +114,6 @@
 	path = work/linkerd
 	url = git@github.com:imma/linkerd
 	branch = v20170617
-[submodule "work/aq"]
-	path = work/aq
-	url = git@github.com:imma/aq
-	branch = v20170617
 [submodule "work/inventory"]
 	path = work/inventory
 	url = git@github.com:imma/inventory
