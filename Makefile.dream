@@ -1,0 +1,62 @@
+all: .d/cidata/user-data .d/cidata/meta-data cidata/user-data cidata/meta-data cidata.iso cidata/.iso/user-data cidata/.iso/meta-data cidata.vagrant.iso cidata/.vagrant/user-data cidata/.vagrant/meta-data
+	@true
+
+cidata/user-data: cidata/user-data.template
+	mkdir -p cidata
+	cat "$<" | envsubst '$$USER $$CACHE_VIP' | tee "$@.tmp"
+	mv "$@.tmp" "$@"
+
+cidata/meta-data:
+	mkdir -p cidata
+	echo --- | tee $@.tmp
+	echo instance-id: $(shell basename $(shell pwd))-$(shell date +%s) | tee -a $@.tmp
+	mv $@.tmp $@
+
+.d/cidata/user-data: cidata/user-data.docker
+	mkdir -p .d/cidata
+	cat "$<" | envsubst '$$USER $$CACHE_VIP' | tee "$@.tmp"
+	mv "$@.tmp" "$@"
+
+.d/cidata/meta-data: cidata/meta-data
+	mkdir -p .d/cidata
+	cp "$<" "$@"
+
+cidata/.iso/user-data: cidata/user-data.iso .ssh/ssh-iso.pub
+	mkdir -p cidata/.iso
+	cat "$<" | env INSTANCE_ID="packer-$(shell date +%s)" CONTAINER_SSH_KEY="\"$(shell cat .ssh/ssh-iso.pub)\"," envsubst '$$USER $$CACHE_VIP $$CONTAINER_SSH_KEY' | tee "$@.tmp"
+	mv "$@.tmp" "$@"
+
+cidata/.iso/meta-data: cidata/meta-data
+	mkdir -p cidata/.iso
+	cp "$<" "$@"
+
+cidata.iso: cidata/.iso/user-data cidata/.iso/meta-data
+	mkisofs -R -V cidata -o $@.tmp cidata/.iso
+	mv $@.tmp $@
+
+.ssh/ssh-iso.pub: .ssh/ssh-iso
+
+.ssh/ssh-iso:
+	@mkdir -p .ssh
+	@ssh-keygen -f $@ -P '' -C "packer-iso@$(shell uname -n)"
+
+cidata/.vagrant/user-data: cidata/user-data.iso
+	mkdir -p cidata/.vagrant
+	cat "$<" | env INSTANCE_ID="vagrant-$(shell date +%s)" CONTAINER_SSH_KEY='$(shell cat /config/ssh/authorized_keys | while read -r a; do echo -n "\"$$a\","; done)' envsubst '$$USER $$CACHE_VIP $$CONTAINER_SSH_KEY' | tee "$@.tmp"
+	mv "$@.tmp" "$@"
+
+cidata/.vagrant/meta-data: cidata/meta-data
+	mkdir -p cidata/.vagrant
+	cp "$<" "$@"
+
+cidata.vagrant.iso: cidata/.vagrant/user-data cidata/.vagrant/meta-data
+	mkisofs -R -V cidata -o $@.tmp cidata/.vagrant
+	mv $@.tmp $@
+
+clean-cidata:
+	rm -rf cidata/.iso cidata/.vagrant
+	rm -rf .d/cidata
+	rm -f cidata/meta-data
+	rm -f cidata/user-data
+	rm -f .ssh/ssh-iso .ssh/ssh-iso.pub
+	rm -f cidata.iso cidata.vagrant.iso

@@ -27,7 +27,7 @@ sync:
 	block sync
 	$(make) cache
 
-include $(_base_home)/Makefile.docker
+include Makefile.build
 
 docker_default = docker-image
 
