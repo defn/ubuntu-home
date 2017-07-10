@@ -15,7 +15,7 @@ python         ${BLOCK_PATH}/python         git@github.com:imma/python         c
 ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        c724795de96a1a71fddab5e88b4d2111d7fa959b v20170617 
 cache          ${BLOCK_PATH}/cache          git@github.com:imma/cache          1a7930e8dab98bde0fc5c6777f2c0bb9a58255b7 v20170617 
 inventory      ${BLOCK_PATH}/inventory      git@github.com:imma/inventory      b7e8edce542330782d62d854b5acddf0e634aea9 v20170617 
-deploy         ${BLOCK_PATH}/deploy         git@github.com:imma/deploy         33ab194d739dfc3b65ff4483992b8cebd2ae4fc2 v20170617 
+deploy         ${BLOCK_PATH}/deploy         git@github.com:imma/deploy         d9b1c780412f8d7758ec51aeedda5b6fbc193a7c v20170617 
 htop           ${BLOCK_PATH}/htop           git@github.com:imma/htop           cfce3a3d4a90b91e9103d3ddcf63004c689616d1 v20170617 
 sysadmin       ${BLOCK_PATH}/sysadmin       git@github.com:imma/sysadmin       aeef00cedc9c02d720cfc26c4f07e9e632f1db23 v20170617 
 ruby           ${BLOCK_PATH}/ruby           git@github.com:imma/ruby           4416ebc51eea60a6d19a3fa0a9ce725742d2e38f v20170617 
@@ -45,7 +45,7 @@ awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        6
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   d0b799ed3203637c6e116efa057bbd589db37c21 v20170617 
 cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          433419835cabd0d940e99c838a94d766a72ff83b v20170617 
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           2b085c26ed3fe27b33f47b3e70a07e755efe6915 v20170617 
-fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           365ed9c8020f1c6f4d88a2d6de48ca263c7af2fe v20170617 
+fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           66fa388371afe3bd574dcbbf594d72bd6b1c2d35 v20170617 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            ac582715ff72de3f55069d23b0bbadf883996ad2 v20170617 
 github         ${BLOCK_PATH}/github         git@github.com:imma/github         0d82b16507290b9192971a46951c8f73e9bcb5de v20170617 
 netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        eef844c5629c3228fdb502efe10c65d33ea3fc98 v20170617 
