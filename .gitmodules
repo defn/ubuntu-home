@@ -202,10 +202,6 @@
 	path = work/crypto
 	url = git@github.com:imma/crypto
 	branch = v20170617
-[submodule "work/fogg"]
-	path = work/fogg
-	url = git@github.com:imma/fogg
-	branch = v20170617
 [submodule "work/vagrant"]
 	path = work/vagrant
 	url = git@github.com:imma/vagrant
