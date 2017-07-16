@@ -18,7 +18,7 @@ inventory      ${BLOCK_PATH}/inventory      git@github.com:imma/inventory      b
 deploy         ${BLOCK_PATH}/deploy         git@github.com:imma/deploy         d9b1c780412f8d7758ec51aeedda5b6fbc193a7c v20170617 
 htop           ${BLOCK_PATH}/htop           git@github.com:imma/htop           cfce3a3d4a90b91e9103d3ddcf63004c689616d1 v20170617 
 sysadmin       ${BLOCK_PATH}/sysadmin       git@github.com:imma/sysadmin       aeef00cedc9c02d720cfc26c4f07e9e632f1db23 v20170617 
-ruby           ${BLOCK_PATH}/ruby           git@github.com:imma/ruby           4416ebc51eea60a6d19a3fa0a9ce725742d2e38f v20170617 
+ruby           ${BLOCK_PATH}/ruby           git@github.com:imma/ruby           d1be67a42e345e961f97e2196d652942417304b1 v20170617 
 curl           ${BLOCK_PATH}/curl           git@github.com:imma/curl           50173dd212e2fac14241bd4f3de31011230a8958 v20170617 
 nodeenv        ${BLOCK_PATH}/nodeenv        git@github.com:imma/nodeenv        449c2e90cb76e46f934f27cb99b9b1ad9085df13 v20170617 
 node           ${BLOCK_PATH}/node           git@github.com:imma/node           ea1bc30f0935773fffa98c2fceef619b03f9ff9b v20170617 
@@ -39,7 +39,7 @@ parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         0
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose d3de0b7fbea3a854dfd70a70d6205c78ecbcec64 v20170617 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 1e008af941712580a8327a409cf58bf2d8240d92 v20170617 
 docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         b28a2357b263b8307e90860e390cf82e637baa0d v20170617 
-aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            f15404b4be38d383a0cedebb6c62e33de0c8b535 v20170617 
+aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            62a1571d7ba12083cdaa72676c29b9f1ecddfdd2 v20170617 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        6c35969b35c0087c2404250e1cf50a93480508ad v20170617 
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   d0b799ed3203637c6e116efa057bbd589db37c21 v20170617 
 cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          433419835cabd0d940e99c838a94d766a72ff83b v20170617 
