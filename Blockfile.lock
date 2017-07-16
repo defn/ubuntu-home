@@ -40,7 +40,7 @@ docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose d
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 6aa68893f8515acfae3318d3fed856d8e86f1140 v20170617 
 docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         b28a2357b263b8307e90860e390cf82e637baa0d v20170617 
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            62a1571d7ba12083cdaa72676c29b9f1ecddfdd2 v20170617 
-awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        6c35969b35c0087c2404250e1cf50a93480508ad v20170617 
+awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        971ab429c67f1f0dce23c25b7ad17738f1cd8acb v20170617 
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   d0b799ed3203637c6e116efa057bbd589db37c21 v20170617 
 cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          433419835cabd0d940e99c838a94d766a72ff83b v20170617 
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           2b085c26ed3fe27b33f47b3e70a07e755efe6915 v20170617 
