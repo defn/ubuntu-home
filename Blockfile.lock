@@ -34,9 +34,8 @@ consul-agent   ${BLOCK_PATH}/consul-agent   git@github.com:imma/consul-agent   e
 etcd           ${BLOCK_PATH}/etcd           git@github.com:imma/etcd           743a42ce8ad97393a9f3c35eb3aadbae196e6775 v20170617 
 linkerd        ${BLOCK_PATH}/linkerd        git@github.com:imma/linkerd        046648be4f4cd90c3ee895175237dd036e45b891 v20170617 
 syslog-ng      ${BLOCK_PATH}/syslog-ng      git@github.com:imma/syslog-ng      a04ac0a0941f8f3b566a811ca2219707b52ba5b1 v20170617 
-parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         07caabe2d5d14aab4cfbd861995adf44fd4fd8b0 v20170617 
-vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        4bcc7b72c2d7bae7de2b88108068f91515a20a2e v20170617 
 context        ${BLOCK_PATH}/context        git@github.com:imma/context        969fd3cb1259f4f81d5886cdbb8e6d6393d06b8c v20170617 
+parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         07caabe2d5d14aab4cfbd861995adf44fd4fd8b0 v20170617 
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose d3de0b7fbea3a854dfd70a70d6205c78ecbcec64 v20170617 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 1e008af941712580a8327a409cf58bf2d8240d92 v20170617 
 docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         b28a2357b263b8307e90860e390cf82e637baa0d v20170617 
