@@ -46,7 +46,7 @@ cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          4
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           2b085c26ed3fe27b33f47b3e70a07e755efe6915 v20170617 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            ac582715ff72de3f55069d23b0bbadf883996ad2 v20170617 
 github         ${BLOCK_PATH}/github         git@github.com:imma/github         0d82b16507290b9192971a46951c8f73e9bcb5de v20170617 
-netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        eef844c5629c3228fdb502efe10c65d33ea3fc98 v20170617 
+netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        36b44df0cadd66c09add48f69988e0c364839b0a v20170617 
 monitor        ${BLOCK_PATH}/monitor        git@github.com:imma/monitor        819b20fe47584ce98ecfd650b79be5b95b91e276 v20170617 
 gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            bad51ca2ac0c7f347804a1668bb0675fbe02f8f5 v20170617 
 git-crypt      ${BLOCK_PATH}/git-crypt      git@github.com:imma/git-crypt      a20b4fa2657cc930f7d0f910e6f45af35cba5fb3 v20170617 
