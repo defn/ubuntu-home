@@ -41,16 +41,6 @@ function main {
 
   export GIT_CC_REMOTE="$nm_remote"
   block clone
-  : ${_block_home:="${PWD}/work/block"}
-  if [[ -d "${_block_home}" ]]; then
-    pushd "${_block_home}"
-    git fetch
-    git reset --hard "$nm_block_branch"
-    git checkout "$nm_block_branch"
-    git cc "${nm_remote}" imma/block
-    git pull
-    popd
-  fi
 
   local pth_caller="${PWD}"
   block list | awk '{print $1,$2,$3}' | awk 'NR>2 {print l} {l=$0}' | while read -r nm_block pth_block git_block; do
@@ -58,22 +48,24 @@ function main {
       continue
     fi
 
-    pushd "$pth_block"
-    if [[ -w ".git" ]]; then
-      local git_url="$(git remote get-url ${nm_remote})"
-      if [[ "$git_url" != "$git_block" ]]; then
-        git remote add "$nm_remote" "$git_block" 2>/dev/null || git remote set-url "$nm_remote" "$git_block"
-      fi
-
-      git branch --set-upstream-to "${nm_remote}/$nm_block_branch" 2>/dev/null \
-        || { git fetch "${nm_remote}" \
-              && git checkout -f -b "$nm_block_branch" "${nm_remote}/$nm_block_branch" \
-              && git branch --set-upstream-to "${nm_remote}/$nm_block_branch"; } || true
-      git symbolic-ref refs/remotes/origin/HEAD "refs/remotes/${nm_remote}/${nm_block_branch}"
-      git remote -v || true
-      git branch -a || true
-      git branch -vv || true
+    if [[ ! -w "$pth_block/.git" ]]; then
+      continue
     fi
+
+    pushd "$pth_block"
+    local git_url="$(git remote get-url ${nm_remote})"
+    if [[ "$git_url" != "$git_block" ]]; then
+      git remote add "$nm_remote" "$git_block" 2>/dev/null || git remote set-url "$nm_remote" "$git_block"
+    fi
+
+    git branch --set-upstream-to "${nm_remote}/$nm_block_branch" 2>/dev/null \
+      || { git fetch "${nm_remote}" \
+            && git checkout -f -b "$nm_block_branch" "${nm_remote}/$nm_block_branch" \
+            && git branch --set-upstream-to "${nm_remote}/$nm_block_branch"; } || true
+    git symbolic-ref refs/remotes/origin/HEAD "refs/remotes/${nm_remote}/${nm_block_branch}"
+    git remote -v || true
+    git branch -a || true
+    git branch -vv || true
     popd
   done
 
