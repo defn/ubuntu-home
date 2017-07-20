@@ -69,6 +69,7 @@ function main {
         || { git fetch "${nm_remote}" \
               && git checkout -f -b "$nm_block_branch" "${nm_remote}/$nm_block_branch" \
               && git branch --set-upstream-to "${nm_remote}/$nm_block_branch"; } || true
+      git symbolic-ref refs/remotes/origin/HEAD "refs/remotes/${nm_remote}/${nm_block_branch}"
       git remote -v || true
       git branch -a || true
       git branch -vv || true
