@@ -5,6 +5,8 @@ function main {
   source "$shome/script/profile"
   source normalize
 
+  set -x
+
   local nm_branch=
   if [[ "$#" == 0 ]]; then
     nm_branch="$(cat Blockfile.json | jq -r '.branch//""')"
