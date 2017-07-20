@@ -33,6 +33,7 @@ function main {
   "$@" git reset --hard
   "$@" rsync -ia .gitconfig.template .gitconfig
   "$@" sudo $loader apt-get install -y awscli
+  "$@" git submodule update --init
   "$@" work/block/script/cibuild
 
   "$@" git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
@@ -52,6 +53,7 @@ function main {
   "$@" sudo $loader apt-get upgrade -y
 
   "$@" chmod 700 .gnupg
+  "$@" chmod 600 .ssh/config
 
   "$@" block sync
   "$@" block sync
