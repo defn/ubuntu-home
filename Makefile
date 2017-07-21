@@ -20,8 +20,8 @@ all:
 
 cache:
 	rm -f .bashrc.cache
-	@bash .bashrc
-	@bash .bashrc
+	block gen profile > .bashrc.cache.1
+	mv .bashrc.cache.1 .bashrc.cache
 
 sync:
 	block sync

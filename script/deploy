@@ -35,10 +35,9 @@ function main {
   "$@" sudo $loader apt-get install -y awscli
   "$@" git submodule update --init
   "$@" work/base/script/bootstrap
-  "$@" work/jq/script/bootstrap
   "$@" work/block/script/cibuild
+  "$@" ls -ltrhd /data /config
   "$@" make cache
-  "$@" cat .bashrc.cache
 
   "$@" git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
   "$@" git remote set-url "${nm_remote}" "${url_remote}"
