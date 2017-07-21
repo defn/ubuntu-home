@@ -125,7 +125,7 @@ docker_default = docker-block
 aws_default = aws-block
 
 docker:
-	$(make) docker_fr tag="$(shell basename $(PWD))"
+	$(make) docker_fr
 
 docker_fr:
 	$(make) $(docker_default)
