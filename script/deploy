@@ -29,22 +29,24 @@ function main {
   nm_remote="${nm_remote%%/*}"
   local url_remote="$(git config --get remote.${nm_remote}.url)"
 
-  (cd "$_ubuntu_home" && tar cfz - .git) | "$@" tar xvfz -
-  "$@" git reset --hard
-  "$@" rsync -ia .gitconfig.template .gitconfig
-  "$@" sudo $loader apt-get install -y awscli
-  "$@" git submodule update --init
-  "$@" work/base/script/bootstrap
-  "$@" work/block/script/cibuild
-  "$@" make cache
+  if ! "$@" test -d .git; then
+    (cd "$_ubuntu_home" && tar cfz - .git) | "$@" tar xvfz -
+    "$@" git reset --hard
+    "$@" rsync -ia .gitconfig.template .gitconfig
+    "$@" sudo $loader apt-get install -y awscli
+    "$@" git submodule update --init
+    "$@" work/base/script/bootstrap
+    "$@" work/block/script/cibuild
+    "$@" make cache
 
-  "$@" git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
-  "$@" git remote set-url "${nm_remote}" "${url_remote}"
-  "$@" -A git fetch "${nm_remote}"
-  "$@" -A git branch -D "${nm_remote}/$nm_branch" || true
-  "$@" -A git branch --set-upstream-to "${nm_remote}/$nm_branch"
-  "$@" git reset --hard "${nm_remote}/${nm_branch}"
-  "$@" -A git checkout "${nm_branch}" 
+    "$@" git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
+    "$@" git remote set-url "${nm_remote}" "${url_remote}"
+    "$@" -A git fetch "${nm_remote}"
+    "$@" -A git branch -D "${nm_remote}/$nm_branch" || true
+    "$@" -A git branch --set-upstream-to "${nm_remote}/$nm_branch"
+    "$@" git reset --hard "${nm_remote}/${nm_branch}"
+    "$@" -A git checkout "${nm_branch}" 
+  fi
 
   "$@" sudo dpkg --configure -a
   "$@" sudo apt-get update
@@ -57,6 +59,7 @@ function main {
 
   "$@" block sync
   "$@" block sync
+  "$@" make cache
   "$@" block bootstrap
 
   "$@" sync
