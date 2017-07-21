@@ -93,7 +93,7 @@ aws-image-fr-fast:
 
 aws-continue-fr:
 	script/deploy van vagrant ssh --
-	van vagrant ssh -- $(shell aws ecr get-login)
+	van vagrant ssh -- $(shell aws ecr get-login --no-include-email)
 	van vagrant ssh -- script/deploy container $(shell echo $${GOLDEN_NAME#block-})
 
 docker-update:
