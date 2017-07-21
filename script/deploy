@@ -34,7 +34,11 @@ function main {
   "$@" rsync -ia .gitconfig.template .gitconfig
   "$@" sudo $loader apt-get install -y awscli
   "$@" git submodule update --init
+  "$@" work/base/script/bootstrap
+  "$@" work/jq/script/bootstrap
   "$@" work/block/script/cibuild
+  "$@" make cache
+  "$@" cat .bashrc.cache
 
   "$@" git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
   "$@" git remote set-url "${nm_remote}" "${url_remote}"
@@ -43,8 +47,6 @@ function main {
   "$@" -A git branch --set-upstream-to "${nm_remote}/$nm_branch"
   "$@" git reset --hard "${nm_remote}/${nm_branch}"
   "$@" -A git checkout "${nm_branch}" 
-
-  "$@" make cache
 
   "$@" sudo dpkg --configure -a
   "$@" sudo apt-get update
