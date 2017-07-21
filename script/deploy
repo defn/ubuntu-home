@@ -36,6 +36,7 @@ function main {
     "$@" sudo $loader apt-get install -y awscli
     "$@" git submodule update --init
     "$@" work/base/script/bootstrap
+    "$@" work/jq/script/bootstrap
     "$@" work/block/script/cibuild
     "$@" make cache
 
