@@ -48,6 +48,7 @@ Vagrant.configure("2") do |config|
 
     override.vm.box = ENV['SOURCE_NAME'] ? ENV['SOURCE_NAME'] : "block:ubuntu"
 
+    override.vm.provision "shell", path: "#{ENV['_limbo_home']}/script/fixup-data", args: [], privileged: true
     override.vm.provision "shell", path: ci_script, args: [], privileged: true
 
     if File.exists?(pth_userdata)
