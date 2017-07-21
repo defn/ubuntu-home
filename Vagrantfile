@@ -44,6 +44,9 @@ Vagrant.configure("2") do |config|
 
     override.vm.synced_folder ENV['HOME'], '/vagrant', disabled: true
     override.vm.synced_folder '/data/cache/nodist', '/data/cache/nodist', type: "rsync", rsync__args: [ "-ia" ], rsync__verbose: true
+    override.vm.synced_folder '/data/cache/git', '/data/cache/git', type: "rsync", rsync__args: [ "-ia" ], rsync__verbose: true
+    override.vm.synced_folder '/data/cache/packages', '/data/cache/packages', type: "rsync", rsync__args: [ "-ia" ], rsync__verbose: true
+    override.vm.synced_folder '/data/cache/wheels', '/data/cache/wheels', type: "rsync", rsync__args: [ "-ia" ], rsync__verbose: true
     override.vm.synced_folder pth_sync, pth_sync, type: "rsync", rsync__args: [ "-ia" ], rsync__verbose: true if File.directory?(pth_sync)
 
     override.vm.box = ENV['SOURCE_NAME'] ? ENV['SOURCE_NAME'] : "block:ubuntu"
