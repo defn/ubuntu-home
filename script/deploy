@@ -36,7 +36,6 @@ function main {
   "$@" git submodule update --init
   "$@" work/base/script/bootstrap
   "$@" work/block/script/cibuild
-  "$@" ls -ltrhd /data /config
   "$@" make cache
 
   "$@" git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
