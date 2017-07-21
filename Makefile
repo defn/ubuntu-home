@@ -19,7 +19,6 @@ all:
 	@true
 
 cache:
-	rm -f .bashrc.cache
 	source work/block/script/profile && require && block gen profile > .bashrc.cache.1
 	mv .bashrc.cache.1 .bashrc.cache
 
