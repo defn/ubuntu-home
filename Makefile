@@ -10,8 +10,8 @@ BLOCK_PATH ?= $(HOME)/work
 
 mkfile_path := $(abspath $(lastword $(MAKEFILE_LIST)))
 current_dir := $(patsubst %/,%,$(dir $(mkfile_path)))
-region := $(shell curl -s http://169.254.169.254/latest/dynamic/instance-identity/document | jq -r '.region')
-docker_host = $(shell aws --region $(region) ecr describe-repositories | jq -r --arg repo block '.repositories | map(select(.repositoryName == $$repo))[].repositoryUri' | cut -d/ -f1 2>/dev/null || true)
+
+docker_host = $(shell aws ecr describe-repositories | jq -r --arg repo block '.repositories | map(select(.repositoryName == $$repo))[].repositoryUri' | cut -d/ -f1 2>/dev/null || true)
 
 _base_home ?= $(HOME)/work/base
 
