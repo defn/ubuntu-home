@@ -199,7 +199,7 @@ current_dir := $(shell basename $(PWD))
 vendor_ami = $(shell aws ami)
 base_ami   = $(shell aws ec2 describe-images --owner self --filter Name=tag:Block,Values='block-base-*' | jq -r '.Images | sort_by(.CreationDate) | .[-1].ImageId')
 ubuntu_ami = $(shell aws ec2 describe-images --owner self --filter Name=tag:Block,Values='block-ubuntu-*' | jq -r '.Images | sort_by(.CreationDate) | .[-1].ImageId')
-golden_ami = $(shell aws ec2 describe-images --owner self --filter Name=tag:Block,Values='block-$(shell basename $(PWD))-*' | jq -r '.Images | sort_by(.CreationDate) | .[-1].ImageId')
+golden_ami = $(shell aws ec2 describe-images --owner self --filter Name=tag:Block,Values='block-$(shell cat .block-name)-*' | jq -r '.Images | sort_by(.CreationDate) | .[-1].ImageId')
 
 base-aws:
 	env FOGG_AMI="$(vendor_ami)" \

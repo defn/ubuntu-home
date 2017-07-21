@@ -75,14 +75,14 @@ aws-image-fast:
 
 aws-continue:
 	env AWS_SYNC=/data/cache/packages/$(ID_INSTALL) $(make) home=$(block) aws-continue-fr
-	van reuse ubuntu
+	$(make) reuse-aws
 
 aws-image-fr:
 	van recycle
 	van vagrant ssh -- sudo sudo dpkg --configure -a
 	van vagrant ssh -- sudo apt-get update
 	$(make) aws-continue-fr
-	van reuse ubuntu
+	$(make) reuse-aws
 
 aws-image-fr-fast:
 	van recycle
@@ -94,6 +94,9 @@ aws-continue-fr:
 	script/deploy van vagrant ssh --
 	van vagrant ssh -- $(shell aws ecr get-login --no-include-email)
 	van vagrant ssh -- script/deploy container $(shell echo $${GOLDEN_NAME#block-})
+
+reuse-aws:
+	env FOGG_AMI=$(ubuntu_ami) van reuse ubuntu
 
 docker-update:
 	$(make) recycle home-deploy block-finish minimize commit
