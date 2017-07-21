@@ -49,6 +49,8 @@ function main {
     "$@" -A git checkout "${nm_branch}" 
   fi
 
+  "$@" make cache
+
   "$@" sudo dpkg --configure -a
   "$@" sudo apt-get update
   "$@" sudo $loader apt-get install -y make python build-essential aptitude
@@ -58,10 +60,10 @@ function main {
   "$@" chmod 700 .gnupg
   "$@" chmod 600 .ssh/config
 
-  "$@" block sync
-  "$@" block sync
+  "$@" bin/home block sync
+  "$@" bin/home block sync
   "$@" make cache
-  "$@" block bootstrap
+  "$@" bin/home block bootstrap
 
   "$@" sync
 }
