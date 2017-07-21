@@ -49,10 +49,10 @@ reset-docker-ubuntu:
 	docker tag $(hub)/block:ubuntu $(registry)/$(image)
 
 reset-virtualbox:
-	vagrant box add -f block:ubuntu /data/cache/box/virtualbox/block-base.box
+	vagrant box add -f block:ubuntu /data/cache/box/virtualbox/block:base.box
 
 reset-aws:
-	vagrant box add -f block:ubuntu /data/cache/box/aws/block-base.box
+	vagrant box add -f block:ubuntu /data/cache/box/aws/block:base.box
 
 rebuild-docker:
 	$(make) docker-update
@@ -61,7 +61,7 @@ docker-image:
 	$(make) home=$(block) recycle home-update home-deploy image-update
 
 home-deploy:
-	script/deployx $(service_ssh_exec)
+	script/deploy $(service_ssh_exec)
 
 home-update:
 	$(service_ssh_exec) -- sudo dpkg --configure -a
@@ -92,9 +92,9 @@ aws-image-fr-fast:
 	vagrant destroy -f
 
 aws-continue-fr:
-	script/deployx van vagrant ssh --
+	script/deploy van vagrant ssh --
 	van vagrant ssh -- $(shell aws ecr get-login)
-	van vagrant ssh -- script/deployx container $(shell echo $${GOLDEN_NAME#block-})
+	van vagrant ssh -- script/deploy container $(shell echo $${GOLDEN_NAME#block-})
 
 docker-update:
 	$(make) recycle home-deploy block-finish minimize commit
@@ -110,7 +110,7 @@ virtualbox_fr:
 	plane recycle block:ubuntu
 	plane vagrant ssh -- sudo sudo dpkg --configure -a
 	plane vagrant ssh -- sudo apt-get update
-	script/deployx plane vagrant ssh --
+	script/deploy plane vagrant ssh --
 	cd $(_base_home) && make clean-cidata
 	cd $(_base_home) && make >/dev/null
 	plane reuse ubuntu
