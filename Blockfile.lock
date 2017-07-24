@@ -12,7 +12,7 @@ homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       f
 java           ${BLOCK_PATH}/java           git@github.com:imma/java           c6653c2bbd3b61ade1acac48c63980a60bc39e5e v20170617 
 pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         84c779b7db1bfa68e60eb309a2da19c8c7f96b87 v20170617 
 python         ${BLOCK_PATH}/python         git@github.com:imma/python         cbee166276ca4fa10bbbb3b316256ba8eef941ca v20170617 
-ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        c724795de96a1a71fddab5e88b4d2111d7fa959b v20170617 
+ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        221e63c8ada0664f6ec0e66f1cb14548cd2ceecd v20170617 
 cache          ${BLOCK_PATH}/cache          git@github.com:imma/cache          1a7930e8dab98bde0fc5c6777f2c0bb9a58255b7 v20170617 
 inventory      ${BLOCK_PATH}/inventory      git@github.com:imma/inventory      b7e8edce542330782d62d854b5acddf0e634aea9 v20170617 
 deploy         ${BLOCK_PATH}/deploy         git@github.com:imma/deploy         d9b1c780412f8d7758ec51aeedda5b6fbc193a7c v20170617 
@@ -20,7 +20,7 @@ htop           ${BLOCK_PATH}/htop           git@github.com:imma/htop           c
 sysadmin       ${BLOCK_PATH}/sysadmin       git@github.com:imma/sysadmin       aeef00cedc9c02d720cfc26c4f07e9e632f1db23 v20170617 
 ruby           ${BLOCK_PATH}/ruby           git@github.com:imma/ruby           03a0072a5e0c25a73415c7bb057e85edcfbf9533 v20170617 
 curl           ${BLOCK_PATH}/curl           git@github.com:imma/curl           50173dd212e2fac14241bd4f3de31011230a8958 v20170617 
-nodeenv        ${BLOCK_PATH}/nodeenv        git@github.com:imma/nodeenv        449c2e90cb76e46f934f27cb99b9b1ad9085df13 v20170617 
+nodeenv        ${BLOCK_PATH}/nodeenv        git@github.com:imma/nodeenv        7dcb40bc977cc83b0cdfa903824a6d54201edd21 v20170617 
 node           ${BLOCK_PATH}/node           git@github.com:imma/node           ea1bc30f0935773fffa98c2fceef619b03f9ff9b v20170617 
 yarn           ${BLOCK_PATH}/yarn           git@github.com:imma/yarn           607ce0fff249ae33b4ac649f73762430d730890a v20170617 
 bash4          ${BLOCK_PATH}/bash4          git@github.com:imma/bash4          05cf9222fc5aa954822ca75345b9f276db4a38b6 v20170617 
