@@ -1,6 +1,6 @@
 ---
 - name: Get the fogg hostname
-  command: fogg hostname
+  command: fogg-hostname
   register: fogg_hostname
   when: (hostname is not defined) and (ansible_virtualization_type == "xen")
 - name: Set hostname fact using fogg
@@ -35,9 +35,6 @@
   command: hostname {{ hostname }}
   become: yes
   when: hostname is defined and hostname != "" and get_hostname.stdout != hostname
-
-- name: Reset Blockfile.lock
-  command: chdir="{{ansible_env.HOME}}" git checkout Blockfile.lock
 
 - name: Get ssh-agent status
   command: ssh-add -l
