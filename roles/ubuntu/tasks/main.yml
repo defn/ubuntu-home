@@ -36,9 +36,6 @@
   become: yes
   when: hostname is defined and hostname != "" and get_hostname.stdout != hostname
 
-- name: Reset Blockfile.lock
-  command: chdir="{{ansible_env.HOME}}" git checkout Blockfile.lock
-
 - name: Get ssh-agent status
   command: ssh-add -l
   register: ssh_agent
