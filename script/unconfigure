@@ -6,10 +6,10 @@ function main {
 
   case "$(uname -s)" in
     Linux)
-      sudo rm -f /etc/dnsmasq.d/nih
-      sudo rm -f /etc/default/docker
-      sudo systemctl restart dnsmasq
-      sudo systemctl restart docker
+      ${NOSUDO} sudo rm -f /etc/dnsmasq.d/nih
+      ${NOSUDO} sudo rm -f /etc/default/docker
+      ${NOSUDO} sudo systemctl restart dnsmasq
+      ${NOSUDO} sudo systemctl restart docker
       ;;
   esac
 
