@@ -16,7 +16,7 @@ ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        2
 cache          ${BLOCK_PATH}/cache          git@github.com:imma/cache          dd613844da542e7e64cf8093b85d2d8a3650f7bc v20170617 
 inventory      ${BLOCK_PATH}/inventory      git@github.com:imma/inventory      b7e8edce542330782d62d854b5acddf0e634aea9 v20170617 
 deploy         ${BLOCK_PATH}/deploy         git@github.com:imma/deploy         d9b1c780412f8d7758ec51aeedda5b6fbc193a7c v20170617 
-htop           ${BLOCK_PATH}/htop           git@github.com:imma/htop           cfce3a3d4a90b91e9103d3ddcf63004c689616d1 v20170617 
+htop           ${BLOCK_PATH}/htop           git@github.com:imma/htop           cf6ea15ecf1cc2eca98d95bc91feb98beeeba129 v20170617 
 sysadmin       ${BLOCK_PATH}/sysadmin       git@github.com:imma/sysadmin       aeef00cedc9c02d720cfc26c4f07e9e632f1db23 v20170617 
 ruby           ${BLOCK_PATH}/ruby           git@github.com:imma/ruby           03a0072a5e0c25a73415c7bb057e85edcfbf9533 v20170617 
 curl           ${BLOCK_PATH}/curl           git@github.com:imma/curl           50173dd212e2fac14241bd4f3de31011230a8958 v20170617 
