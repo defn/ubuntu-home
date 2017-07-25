@@ -7,13 +7,13 @@ runmany        ${BLOCK_PATH}/runmany        git@github.com:imma/runmany        c
 block          ${BLOCK_PATH}/block          git@github.com:imma/block          da57ec5c941576b0a32451cfaf19dbd955c96202 v20170617 
 instance       ${BLOCK_PATH}/instance       git@github.com:imma/instance       be0f454ce683a4572e028c3a1f18299cfd234bc1 v20170617 
 base           ${BLOCK_PATH}/base           git@github.com:imma/base           88a2c150eeb35ace54015b3fa2e27b1a2ed05936 v20170617 
-ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  3103c65cb853aaa41268962e11ad538f0f0caa14 v20170617 
+ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  788ad47f709c64ccf44c106d79ab7cdeb0b1caf8 v20170617 
 homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       fefa3f9839ce7ddb195fb0e236f135107df038fa v20170617 
 java           ${BLOCK_PATH}/java           git@github.com:imma/java           eeeb5e976ce609131a19cfeb8379b4eb084f63ef v20170617 
-pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         1f040f6445c4e6a36ee9f81a7f101af20e1eeee1 v20170617 
+pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         c49a011951ab2bf087b44cf5737fb13423aa51ff v20170617 
 python         ${BLOCK_PATH}/python         git@github.com:imma/python         cbee166276ca4fa10bbbb3b316256ba8eef941ca v20170617 
 ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        221e63c8ada0664f6ec0e66f1cb14548cd2ceecd v20170617 
-cache          ${BLOCK_PATH}/cache          git@github.com:imma/cache          1a7930e8dab98bde0fc5c6777f2c0bb9a58255b7 v20170617 
+cache          ${BLOCK_PATH}/cache          git@github.com:imma/cache          dd613844da542e7e64cf8093b85d2d8a3650f7bc v20170617 
 inventory      ${BLOCK_PATH}/inventory      git@github.com:imma/inventory      b7e8edce542330782d62d854b5acddf0e634aea9 v20170617 
 deploy         ${BLOCK_PATH}/deploy         git@github.com:imma/deploy         d9b1c780412f8d7758ec51aeedda5b6fbc193a7c v20170617 
 htop           ${BLOCK_PATH}/htop           git@github.com:imma/htop           cfce3a3d4a90b91e9103d3ddcf63004c689616d1 v20170617 

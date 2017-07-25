@@ -130,3 +130,5 @@
 /.pt
 /.aws/shell
 /org
+/data
+/config
