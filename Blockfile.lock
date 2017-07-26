@@ -41,7 +41,7 @@ docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 3
 docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         e78c9e3279b08cd98168285ab4eb273fac14a22e v20170617 
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            4773f3327d0a8fa6215ac504d8a5c716e5e2386f v20170617 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        971ab429c67f1f0dce23c25b7ad17738f1cd8acb v20170617 
-digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   d0b799ed3203637c6e116efa057bbd589db37c21 v20170617 
+digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   297b03a640e6b533a69a5e2e22201cd9ef5ee770 v20170617 
 cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          433419835cabd0d940e99c838a94d766a72ff83b v20170617 
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           2b085c26ed3fe27b33f47b3e70a07e755efe6915 v20170617 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            ac582715ff72de3f55069d23b0bbadf883996ad2 v20170617 
