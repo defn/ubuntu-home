@@ -262,3 +262,7 @@
 	path = work/credstash
 	url = git@github.com:imma/credstash
 	branch = v20170617
+[submodule "work/vault"]
+	path = work/vault
+	url = git@github.com:imma/vault
+	branch = v20170617
