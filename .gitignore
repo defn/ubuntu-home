@@ -134,3 +134,4 @@
 /config
 /.gh.json
 /bin/gpg
+/.lpass
