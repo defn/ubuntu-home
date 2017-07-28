@@ -266,3 +266,7 @@
 	path = work/vault
 	url = git@github.com:imma/vault
 	branch = v20170617
+[submodule "work/getssl"]
+	path = work/getssl
+	url = git@github.com:imma/getssl
+	branch = v20170617
