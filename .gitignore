@@ -135,3 +135,4 @@
 /.gh.json
 /bin/gpg
 /.lpass
+/.getssl
