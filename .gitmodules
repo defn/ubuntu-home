@@ -274,3 +274,7 @@
 	path = work/ruby
 	url = git@github.com:imma/ruby
 	branch = v20170617
+[submodule "work/chef"]
+	path = work/chef
+	url = git@github.com:imma/chef
+	branch = v20170617

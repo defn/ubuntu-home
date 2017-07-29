@@ -5,7 +5,7 @@
     [ "sshd", "consul-agent", "etcd", "linkerd", "syslog-ng" ],
     [ "docker" ],
     [ "cloud", "imma" ],
-    [ "ansible", "github" ],
+    [ "ansible", "chef", "github" ],
     [ "monitor", "crypto", "home" ],
     [ "defn", "junas", "cue", "example", "nothing" ],
     [ "app" ]
