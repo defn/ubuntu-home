@@ -18,7 +18,7 @@ inventory      ${BLOCK_PATH}/inventory      git@github.com:imma/inventory      b
 deploy         ${BLOCK_PATH}/deploy         git@github.com:imma/deploy         d9b1c780412f8d7758ec51aeedda5b6fbc193a7c v20170617 
 htop           ${BLOCK_PATH}/htop           git@github.com:imma/htop           cf6ea15ecf1cc2eca98d95bc91feb98beeeba129 v20170617 
 sysadmin       ${BLOCK_PATH}/sysadmin       git@github.com:imma/sysadmin       35fa59112f1dd2c42644aca49a90c130b8a8c4db v20170617 
-ruby           ${BLOCK_PATH}/ruby           git@github.com:imma/ruby           6cdfba617c7b1a1732a25876c6dad74b816dcc2c v20170617 
+rbenv          ${BLOCK_PATH}/rbenv          git@github.com:imma/rbenv          f91f75f544b3a3620825d3da91f1431283eba7cd v20170617 
 curl           ${BLOCK_PATH}/curl           git@github.com:imma/curl           2372974d7dafe106435aebc57722c8a6ca17b15e v20170617 
 nodeenv        ${BLOCK_PATH}/nodeenv        git@github.com:imma/nodeenv        7dcb40bc977cc83b0cdfa903824a6d54201edd21 v20170617 
 node           ${BLOCK_PATH}/node           git@github.com:imma/node           ea1bc30f0935773fffa98c2fceef619b03f9ff9b v20170617 
@@ -26,6 +26,7 @@ yarn           ${BLOCK_PATH}/yarn           git@github.com:imma/yarn           6
 bash4          ${BLOCK_PATH}/bash4          git@github.com:imma/bash4          05cf9222fc5aa954822ca75345b9f276db4a38b6 v20170617 
 jqq            ${BLOCK_PATH}/jqq            git@github.com:imma/jqq            a36bcaa962339c61bd605fcb366dfb2a077fcb6a v20170617 
 runit          ${BLOCK_PATH}/runit          git@github.com:imma/runit          684bc2d3688fb466b763053929b1dff0367dce8c v20170617 
+ruby           ${BLOCK_PATH}/ruby           git@github.com:imma/ruby           2f793203a636bb042bcab21692b9fe8f5c7d165d v20170617 
 service        ${BLOCK_PATH}/service        git@github.com:imma/service        7ab1620e879138df13265a2ce4ef8409e9529c3f v20170617 
 sshd           ${BLOCK_PATH}/sshd           git@github.com:imma/sshd           8841803c46e4c6eff510962fd88efc47008987a2 v20170617 
 facts          ${BLOCK_PATH}/facts          git@github.com:imma/facts          d0c788bbf95ca7db87bde6e13eabd893be522129 v20170617 

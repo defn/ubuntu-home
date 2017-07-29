@@ -46,10 +46,6 @@
 	path = work/base
 	url = git@github.com:imma/base
 	branch = v20170617
-[submodule "work/ruby"]
-	path = work/ruby
-	url = git@github.com:imma/ruby
-	branch = v20170617
 [submodule "work/python"]
 	path = work/python
 	url = git@github.com:imma/python
@@ -269,4 +265,8 @@
 [submodule "work/getssl"]
 	path = work/getssl
 	url = git@github.com:imma/getssl
+	branch = v20170617
+[submodule "work/rbenv"]
+	path = work/rbenv
+	url = git@github.com:imma/rbenv
 	branch = v20170617
