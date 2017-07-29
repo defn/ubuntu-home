@@ -44,7 +44,7 @@ aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            9
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        971ab429c67f1f0dce23c25b7ad17738f1cd8acb v20170617 
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   5c64684fa1614888db9a2eb93fdb0a835e0bbfb5 v20170617 
 cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          433419835cabd0d940e99c838a94d766a72ff83b v20170617 
-imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           ad84592e074d9ad8f5185c1d8ec02fffe9444ee3 v20170617 
+imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           681f72e8acc4344d274edfbf1a4bcde5cb5c9d76 v20170617 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            ba43458b97aef7991d1959d77faae1fda8e812ab v20170617 
 github         ${BLOCK_PATH}/github         git@github.com:imma/github         0d82b16507290b9192971a46951c8f73e9bcb5de v20170617 
 netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        c480e644fbbee96119121a30a47693918f5af7e3 v20170617 
