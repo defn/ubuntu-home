@@ -1,7 +1,7 @@
 {
   "require": [
     [ "site", "ubuntu-config", "cache", "base", "deploy", "sysadmin" ],
-    [ "ruby", "rbenv", "python", "node", "yarn", "java", "bash4", "jqq" ],
+    [ "ruby", "python", "node", "yarn", "java", "bash4", "jqq" ],
     [ "sshd", "consul-agent", "etcd", "linkerd", "syslog-ng" ],
     [ "docker" ],
     [ "cloud", "imma" ],
