@@ -270,3 +270,7 @@
 	path = work/rbenv
 	url = git@github.com:imma/rbenv
 	branch = v20170617
+[submodule "work/ruby"]
+	path = work/ruby
+	url = git@github.com:imma/ruby
+	branch = v20170617
