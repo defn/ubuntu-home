@@ -24,6 +24,7 @@ function main {
 
   git fetch
   git reset --hard "$nm_remote/$nm_branch"
+  git submodule update --init
   git checkout "$nm_branch"
 
   local nm_block_branch="$(cat Blockfile.json | jq -r '.blocks//""')"
