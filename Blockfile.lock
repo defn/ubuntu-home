@@ -42,14 +42,14 @@ docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 3
 docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         e78c9e3279b08cd98168285ab4eb273fac14a22e v20170617 
 ssm            ${BLOCK_PATH}/ssm            git@github.com:imma/ssm            2483cf03f7aef70a8df71c6f76ae3f4f35cba9c2 v20170617 
 codecommit     ${BLOCK_PATH}/codecommit     git@github.com:imma/codecommit     8eec67a72c734a41bb194cd993c992d80a34e3df v20170617 
-buildkite      ${BLOCK_PATH}/buildkite      git@github.com:imma/buildkite      08f8fc24972b7f0fe624b1ae737c867a843df299 v20170617 
+buildkite      ${BLOCK_PATH}/buildkite      git@github.com:imma/buildkite      91698e227b6e005c8d93e8964efc55a49f0d0ba3 v20170617 
 codedeploy     ${BLOCK_PATH}/codedeploy     git@github.com:imma/codedeploy     77acbe1fe07f50655f9dcb51940732a452318537 v20170617 
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            97032b49e9653e6fd831f3a00d0a1f4367d65c01 v20170617 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        d796317112f2624fdf91bee49e09f7f7c639e16f v20170617 
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   5c64684fa1614888db9a2eb93fdb0a835e0bbfb5 v20170617 
 cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          433419835cabd0d940e99c838a94d766a72ff83b v20170617 
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           681f72e8acc4344d274edfbf1a4bcde5cb5c9d76 v20170617 
-chef           ${BLOCK_PATH}/chef           git@github.com:imma/chef           b4001bbf730b831cd836f7d6ee13baf5255c4d15 v20170617 
+chef           ${BLOCK_PATH}/chef           git@github.com:imma/chef           613259e3c9f150bfa2d6d2625f09dffcb318a8a8 v20170617 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            ba43458b97aef7991d1959d77faae1fda8e812ab v20170617 
 github         ${BLOCK_PATH}/github         git@github.com:imma/github         0d82b16507290b9192971a46951c8f73e9bcb5de v20170617 
 netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        c480e644fbbee96119121a30a47693918f5af7e3 v20170617 
