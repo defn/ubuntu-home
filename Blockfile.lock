@@ -40,10 +40,10 @@ parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         0
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 5fb8460a2f5990b200b5cd1d7e60976bbfa92f3d v20170617 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 3b0b03974bff1716064e43405404da07879dbe08 v20170617 
 docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         e78c9e3279b08cd98168285ab4eb273fac14a22e v20170617 
-ssm            ${BLOCK_PATH}/ssm            git@github.com:imma/ssm            77ce9b1d3861dc7bb5008703d32691aa941ef1a0 v20170617 
+ssm            ${BLOCK_PATH}/ssm            git@github.com:imma/ssm            2012040796eae8cd96e18a06b34a3928c25b2d23 v20170617 
 codecommit     ${BLOCK_PATH}/codecommit     git@github.com:imma/codecommit     8eec67a72c734a41bb194cd993c992d80a34e3df v20170617 
 buildkite      ${BLOCK_PATH}/buildkite      git@github.com:imma/buildkite      08f8fc24972b7f0fe624b1ae737c867a843df299 v20170617 
-codedeploy     ${BLOCK_PATH}/codedeploy     git@github.com:imma/codedeploy     357f8023b2dc882b93b450fc309e1e3f83a1c232 v20170617 
+codedeploy     ${BLOCK_PATH}/codedeploy     git@github.com:imma/codedeploy     5813861670a311e5bdc59243b2ca53f218783352 v20170617 
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            97032b49e9653e6fd831f3a00d0a1f4367d65c01 v20170617 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        d796317112f2624fdf91bee49e09f7f7c639e16f v20170617 
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   5c64684fa1614888db9a2eb93fdb0a835e0bbfb5 v20170617 
@@ -56,7 +56,7 @@ netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        c
 monitor        ${BLOCK_PATH}/monitor        git@github.com:imma/monitor        819b20fe47584ce98ecfd650b79be5b95b91e276 v20170617 
 gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            47dec4cf01eeb9e1ac8f8da028f650f5083b3b16 v20170617 
 git-crypt      ${BLOCK_PATH}/git-crypt      git@github.com:imma/git-crypt      4996825cc917730980ba953cd10e85212b244bab v20170617 
-go             ${BLOCK_PATH}/go             git@github.com:imma/go             80df28fae57cae3ca5608267730f38964533d375 v20170617 
+go             ${BLOCK_PATH}/go             git@github.com:imma/go             2cf72713b6e05d7c246eb726f6b5b496e9ec9a98 v20170617 
 cfssl          ${BLOCK_PATH}/cfssl          git@github.com:imma/cfssl          538e1d5599190ffaab59a40086a307023f4bb0d9 v20170617 
 lastpass       ${BLOCK_PATH}/lastpass       git@github.com:imma/lastpass       c35365843c01e7ff0c41d9cab751498d790b6fbc v20170617 
 credstash      ${BLOCK_PATH}/credstash      git@github.com:imma/credstash      806d66b4ed52351e39cc092e7d5207341fb42f99 v20170617 
