@@ -62,7 +62,9 @@ function main {
     fi
 
     git checkout -f "$nm_block_branch"
-    git branch --set-upstream-to "${nm_remote}/$nm_block_branch"
+    if ! git branch --set-upstream-to "${nm_remote}/$nm_block_branch"; then
+      git cc "${nm_remote}"
+    fi
     git symbolic-ref refs/remotes/origin/HEAD "refs/remotes/${nm_remote}/${nm_block_branch}"
 
     git remote -v || true
