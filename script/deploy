@@ -49,6 +49,7 @@ function main {
     "$@" -A git branch --set-upstream-to "${nm_remote}/$nm_branch"
     "$@" git reset --hard "${nm_remote}/${nm_branch}"
     "$@" -A git checkout "${nm_branch}" 
+    "$@" rm -f .ssh/config
   fi
 
   "$@" bin/home make cache
@@ -63,7 +64,7 @@ function main {
   "$@" chmod 600 .ssh/config
 
   "$@" bin/home block sync
-  "$@" bin/home block sync
+  "$@" rm -f .ssh/config
   "$@" bin/home make cache
   "$@" bin/home block bootstrap
   "$@" git checkout .ssh
