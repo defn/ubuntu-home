@@ -40,10 +40,10 @@ parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         0
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 5fb8460a2f5990b200b5cd1d7e60976bbfa92f3d v20170617 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 3b0b03974bff1716064e43405404da07879dbe08 v20170617 
 docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         e78c9e3279b08cd98168285ab4eb273fac14a22e v20170617 
-ssm            ${BLOCK_PATH}/ssm            git@github.com:imma/ssm            2012040796eae8cd96e18a06b34a3928c25b2d23 v20170617 
+ssm            ${BLOCK_PATH}/ssm            git@github.com:imma/ssm            2483cf03f7aef70a8df71c6f76ae3f4f35cba9c2 v20170617 
 codecommit     ${BLOCK_PATH}/codecommit     git@github.com:imma/codecommit     8eec67a72c734a41bb194cd993c992d80a34e3df v20170617 
 buildkite      ${BLOCK_PATH}/buildkite      git@github.com:imma/buildkite      08f8fc24972b7f0fe624b1ae737c867a843df299 v20170617 
-codedeploy     ${BLOCK_PATH}/codedeploy     git@github.com:imma/codedeploy     5813861670a311e5bdc59243b2ca53f218783352 v20170617 
+codedeploy     ${BLOCK_PATH}/codedeploy     git@github.com:imma/codedeploy     77acbe1fe07f50655f9dcb51940732a452318537 v20170617 
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            97032b49e9653e6fd831f3a00d0a1f4367d65c01 v20170617 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        d796317112f2624fdf91bee49e09f7f7c639e16f v20170617 
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   5c64684fa1614888db9a2eb93fdb0a835e0bbfb5 v20170617 
