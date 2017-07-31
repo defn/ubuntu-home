@@ -4,7 +4,7 @@ normalize      ${BLOCK_PATH}/normalize      git@github.com:imma/normalize      2
 bash-preexec   ${BLOCK_PATH}/bash-preexec   git@github.com:imma/bash-preexec   14971620ead7aae465d700ccb236d811131bf4fd v20170617 
 sub            ${BLOCK_PATH}/sub            git@github.com:imma/sub            d451a5b8d80966dbe0a9f11e4a514207ab34d7b3 v20170617 
 runmany        ${BLOCK_PATH}/runmany        git@github.com:imma/runmany        c1e251bdf423282b29c11db428e0d5b712adef7e v20170617 
-block          ${BLOCK_PATH}/block          git@github.com:imma/block          da57ec5c941576b0a32451cfaf19dbd955c96202 v20170617 
+block          ${BLOCK_PATH}/block          git@github.com:imma/block          bd13834400f1619670c36ac978913166421c0aa6 v20170617 
 instance       ${BLOCK_PATH}/instance       git@github.com:imma/instance       be0f454ce683a4572e028c3a1f18299cfd234bc1 v20170617 
 base           ${BLOCK_PATH}/base           git@github.com:imma/base           653604d9d074e538dbdac23e08ea9d3356097455 v20170617 
 ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  f10ee2ef81d7dacae1aa5f59531c73141ca632fe v20170617 
@@ -40,9 +40,9 @@ parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         0
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 5fb8460a2f5990b200b5cd1d7e60976bbfa92f3d v20170617 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 3b0b03974bff1716064e43405404da07879dbe08 v20170617 
 docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         e78c9e3279b08cd98168285ab4eb273fac14a22e v20170617 
-ssm            ${BLOCK_PATH}/ssm            git@github.com:imma/ssm            0aa3d96b09bfc09e30000c27603ff687e1653004 v20170617 
+ssm            ${BLOCK_PATH}/ssm            git@github.com:imma/ssm            77ce9b1d3861dc7bb5008703d32691aa941ef1a0 v20170617 
 buildkite      ${BLOCK_PATH}/buildkite      git@github.com:imma/buildkite      08f8fc24972b7f0fe624b1ae737c867a843df299 v20170617 
-codedeploy     ${BLOCK_PATH}/codedeploy     git@github.com:imma/codedeploy     368463a823806cfa44289f32bb1f1efe212dfe58 v20170617 
+codedeploy     ${BLOCK_PATH}/codedeploy     git@github.com:imma/codedeploy     357f8023b2dc882b93b450fc309e1e3f83a1c232 v20170617 
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            97032b49e9653e6fd831f3a00d0a1f4367d65c01 v20170617 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        971ab429c67f1f0dce23c25b7ad17738f1cd8acb v20170617 
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   5c64684fa1614888db9a2eb93fdb0a835e0bbfb5 v20170617 
@@ -67,6 +67,6 @@ talign         ${BLOCK_PATH}/talign         git@github.com:imma/talign         0
 defn           ${BLOCK_PATH}/defn           git@github.com:imma/defn           2ee3a9b54c99ddb58ff1be0b401a788f12b3844d v20170617 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          2ead0e38a547acfa79b3fe6b8f79bccf1629b1f6 v20170617 
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            6ebd4c398683496267800665c7e18d1a5a02dd37 v20170617 
-example        ${BLOCK_PATH}/example        git@github.com:imma/example        4d80aad286ce86bb64aa04fcd69b239f7bbac787 v20170617 
+example        ${BLOCK_PATH}/example        git@github.com:imma/example        20fe3030063681895af3a3d8a5c3bfb22c809a3c v20170617 
 nothing        ${BLOCK_PATH}/nothing        git@github.com:imma/nothing        1e22377cb3dc2322321ddb9f2dda739463099ac5 v20170617 
 app            ${BLOCK_PATH}/app            git@github.com:imma/app            387e50f26e7a4a8652a61a6652569f41a030c0be v20170617 
