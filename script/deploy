@@ -61,13 +61,13 @@ function main {
   "$@" sudo $loader apt-get upgrade -y
 
   "$@" chmod 700 .gnupg
-  "$@" chmod 600 .ssh/config
 
   "$@" bin/home block sync
   "$@" rm -f .ssh/config
   "$@" bin/home make cache
   "$@" bin/home block bootstrap
   "$@" git checkout .ssh
+  "$@" chmod 600 .ssh/config
 
   "$@" sync
 }
