@@ -206,7 +206,7 @@ base-aws:
 		make base-image
 
 base-image:
-	block require env AWS_TYPE=c4.large \
+	block require env AWS_TYPE=t2.small \
 		SOURCE_NAME="block:base" \
 		GOLDEN_NAME="block-base" \
 		fogg env chexec "$(_base_home)" \
@@ -221,7 +221,7 @@ ubuntu-aws:
 		make ubuntu-image
 
 ubuntu-image:
-	block require env AWS_TYPE=c4.large \
+	block require env AWS_TYPE=t2.small \
 		SOURCE_NAME="block:ubuntu" \
 		GOLDEN_NAME="block-ubuntu" \
 		fogg env chexec "$(_ubuntu_home)" \
@@ -236,7 +236,7 @@ golden-aws:
 		make golden-image
 
 golden-image:
-	block require env AWS_TYPE=c4.large \
+	block require env AWS_TYPE=t2.small \
 		SOURCE_NAME="block:ubuntu" \
 		GOLDEN_NAME="block-$(current_dir)" \
 		GOLDEN_BLOCK="$(PWD)/Blockfile.json" \

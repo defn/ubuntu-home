@@ -39,7 +39,7 @@ Vagrant.configure("2") do |config|
     nm_app = "vagrant"
     pth_userdata = ""
     nm_ami = ENV['FOGG_AMI'] || 'id-aws-ami-not-set'
-    nm_type = ENV['AWS_TYPE'] || "t2.nano"
+    nm_type = ENV['AWS_TYPE'] || "t2.small"
 
     override.vm.synced_folder ENV['HOME'], '/vagrant', disabled: true
     override.vm.synced_folder '/data/cache/nodist', '/data/cache/nodist', type: "rsync", rsync__args: [ "-ia" ], rsync__verbose: true
