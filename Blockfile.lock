@@ -19,7 +19,7 @@ deploy         ${BLOCK_PATH}/deploy         git@github.com:imma/deploy         d
 htop           ${BLOCK_PATH}/htop           git@github.com:imma/htop           971659b476f3d50c01a41ada5655d870237d1f67 v20170617 
 sysadmin       ${BLOCK_PATH}/sysadmin       git@github.com:imma/sysadmin       35fa59112f1dd2c42644aca49a90c130b8a8c4db v20170617 
 rbenv          ${BLOCK_PATH}/rbenv          git@github.com:imma/rbenv          15abbe88023c04be7670d55949e5c1ba44f81769 v20170617 
-ruby           ${BLOCK_PATH}/ruby           git@github.com:imma/ruby           c80132556a8c8d8495d699eaa43232ef9cac656d v20170617 
+ruby           ${BLOCK_PATH}/ruby           git@github.com:imma/ruby           113d2f7b9f84450b6d1f54ececdf42ee105e5fd2 v20170617 
 curl           ${BLOCK_PATH}/curl           git@github.com:imma/curl           2372974d7dafe106435aebc57722c8a6ca17b15e v20170617 
 nodeenv        ${BLOCK_PATH}/nodeenv        git@github.com:imma/nodeenv        7dcb40bc977cc83b0cdfa903824a6d54201edd21 v20170617 
 node           ${BLOCK_PATH}/node           git@github.com:imma/node           ea1bc30f0935773fffa98c2fceef619b03f9ff9b v20170617 
