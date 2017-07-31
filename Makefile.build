@@ -210,7 +210,7 @@ base-image:
 		SOURCE_NAME="block:base" \
 		GOLDEN_NAME="block-base" \
 		fogg env chexec "$(_base_home)" \
-			env AWS_AMI=$(FOGG_AMI) make aws
+			make aws
 
 base-ubuntu-aws:
 	env FOGG_AMI=$(base_ami) \
@@ -225,7 +225,7 @@ ubuntu-image:
 		SOURCE_NAME="block:ubuntu" \
 		GOLDEN_NAME="block-ubuntu" \
 		fogg env chexec "$(_ubuntu_home)" \
-			env AWS_AMI=$(FOGG_AMI) make aws
+			make aws
 
 ubuntu-golden-aws:
 	env FOGG_AMI=$(ubuntu_ami) \
@@ -241,7 +241,7 @@ golden-image:
 		GOLDEN_NAME="block-$(current_dir)" \
 		GOLDEN_BLOCK="$(PWD)/Blockfile.json" \
 		fogg env chexec "$(_ubuntu_home)" \
-			env AWS_AMI=$(FOGG_AMI) make aws-fast
+			make aws-fast
 
 ubuntu-docker:
 	block require env \
