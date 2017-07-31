@@ -294,3 +294,7 @@
 	path = work/buildkite
 	url = git@github.com:imma/buildkite
 	branch = v20170617
+[submodule "work/codecommit"]
+	path = work/codecommit
+	url = git@github.com:imma/codecommit
+	branch = v20170617
