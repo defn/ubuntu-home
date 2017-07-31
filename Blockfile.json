@@ -3,7 +3,7 @@
     [ "site", "ubuntu-config", "cache", "base", "deploy", "sysadmin" ],
     [ "ruby", "python", "node", "yarn", "java", "bash4", "jqq" ],
     [ "sshd", "consul-agent", "etcd", "linkerd", "syslog-ng" ],
-    [ "docker" ],
+    [ "docker", "ssm", "codedeploy" ],
     [ "cloud", "imma" ],
     [ "ansible", "chef", "github" ],
     [ "monitor", "crypto", "home" ],

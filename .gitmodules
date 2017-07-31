@@ -278,3 +278,11 @@
 	path = work/chef
 	url = git@github.com:imma/chef
 	branch = v20170617
+[submodule "work/ssm"]
+	path = work/ssm
+	url = git@github.com:imma/ssm
+	branch = v20170617
+[submodule "work/codedeploy"]
+	path = work/codedeploy
+	url = git@github.com:imma/codedeploy
+	branch = v20170617

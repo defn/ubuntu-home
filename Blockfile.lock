@@ -40,6 +40,8 @@ parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         0
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 5fb8460a2f5990b200b5cd1d7e60976bbfa92f3d v20170617 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 3b0b03974bff1716064e43405404da07879dbe08 v20170617 
 docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         e78c9e3279b08cd98168285ab4eb273fac14a22e v20170617 
+ssm            ${BLOCK_PATH}/ssm            git@github.com:imma/ssm            0aa3d96b09bfc09e30000c27603ff687e1653004 v20170617 
+codedeploy     ${BLOCK_PATH}/codedeploy     git@github.com:imma/codedeploy     368463a823806cfa44289f32bb1f1efe212dfe58 v20170617 
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            97032b49e9653e6fd831f3a00d0a1f4367d65c01 v20170617 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        971ab429c67f1f0dce23c25b7ad17738f1cd8acb v20170617 
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   5c64684fa1614888db9a2eb93fdb0a835e0bbfb5 v20170617 
