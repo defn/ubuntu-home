@@ -44,6 +44,9 @@ function main {
 
   export GIT_CC_REMOTE="$nm_remote"
   block clone
+  source .bash_profile
+  make cache
+  source .bash_profile
 
   local pth_caller="${PWD}"
   block list | awk '{print $1,$2,$3}' | awk 'NR>2 {print l} {l=$0}' | while read -r nm_block pth_block git_block; do
