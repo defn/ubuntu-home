@@ -40,7 +40,6 @@ function main {
     "$@" work/jq/script/bootstrap
     "$@" work/block/script/cibuild
     "$@" bin/home make cache
-    "$@" rm -f .ssh/config
 
     "$@" git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
     "$@" git remote set-url "${nm_remote}" "${url_remote}"
@@ -49,7 +48,6 @@ function main {
     "$@" -A git branch --set-upstream-to "${nm_remote}/$nm_branch"
     "$@" git reset --hard "${nm_remote}/${nm_branch}"
     "$@" -A git checkout "${nm_branch}" 
-    "$@" rm -f .ssh/config
   fi
 
   "$@" bin/home make cache
@@ -61,13 +59,11 @@ function main {
   "$@" sudo $loader apt-get upgrade -y
 
   "$@" chmod 700 .gnupg
+  "$@" chmod 600 .ssh/config
 
   "$@" bin/home block sync
-  "$@" rm -f .ssh/config
   "$@" bin/home make cache
   "$@" bin/home block bootstrap
-  "$@" git checkout .ssh
-  "$@" chmod 600 .ssh/config
 
   "$@" sync
 }
