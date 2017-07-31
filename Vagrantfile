@@ -39,7 +39,7 @@ Vagrant.configure("2") do |config|
     nm_env = "build"
     nm_app = "vagrant"
     pth_userdata = ""
-    nm_ami = ENV['AWS_AMI'] || 'id-aws-ami-not-set'
+    nm_ami = ENV['FOGG_AMI'] || 'id-aws-ami-not-set'
     nm_type = ENV['AWS_TYPE'] || "t2.nano"
 
     override.vm.synced_folder ENV['HOME'], '/vagrant', disabled: true
