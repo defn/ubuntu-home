@@ -39,7 +39,8 @@ function main {
     "$@" work/base/script/bootstrap
     "$@" work/jq/script/bootstrap
     "$@" work/block/script/cibuild
-    "$@" make cache
+    "$@" bin/home make cache
+    "$@" rm -f .ssh/config
 
     "$@" git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
     "$@" git remote set-url "${nm_remote}" "${url_remote}"
@@ -50,7 +51,7 @@ function main {
     "$@" -A git checkout "${nm_branch}" 
   fi
 
-  "$@" make cache
+  "$@" bin/home make cache
 
   "$@" sudo dpkg --configure -a
   "$@" sudo apt-get update
@@ -63,8 +64,9 @@ function main {
 
   "$@" bin/home block sync
   "$@" bin/home block sync
-  "$@" make cache
+  "$@" bin/home make cache
   "$@" bin/home block bootstrap
+  "$@" git checkout .ssh
 
   "$@" sync
 }
