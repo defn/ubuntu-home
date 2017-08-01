@@ -35,7 +35,7 @@ function main {
   local url_remote="$(git remote get-url "${nm_remote}")"
   case "$url_remote" in
     http*)
-      export GIT_CC_PREFIX="${url_remote%/*}/"
+      export GIT_CC_PREFIX="${url_remote%/*/*}/"
       ;;
     git@*)
       export GIT_CC_PREFIX="${url_remote%:*}:"
