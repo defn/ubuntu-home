@@ -138,3 +138,4 @@
 /.getssl
 /.chef
 /.rbenv
+/.buildkite
