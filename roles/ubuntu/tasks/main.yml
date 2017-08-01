@@ -35,8 +35,3 @@
   command: hostname {{ hostname }}
   become: yes
   when: hostname is defined and hostname != "" and get_hostname.stdout != hostname
-
-- name: Get ssh-agent status
-  command: ssh-add -l
-  register: ssh_agent
-  ignore_errors: yes
