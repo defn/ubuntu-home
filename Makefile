@@ -8,6 +8,8 @@ SHELL = bash
 
 BLOCK_PATH ?= $(HOME)/work
 
+FOGG_EMBED_CONTAINER ?= true
+
 mkfile_path := $(abspath $(lastword $(MAKEFILE_LIST)))
 current_dir := $(patsubst %/,%,$(dir $(mkfile_path)))
 
@@ -93,7 +95,7 @@ aws-image-fr-fast:
 aws-continue-fr:
 	script/deploy van vagrant ssh --
 	van vagrant ssh -- $(shell aws ecr get-login --no-include-email)
-	van vagrant ssh -- script/deploy container $(shell echo $${GOLDEN_NAME#block-})
+	${FOGG_EMBED_CONTAINER} van vagrant ssh -- script/deploy container
 
 reuse-aws:
 	env FOGG_AMI=$(ubuntu_ami) van reuse ubuntu
