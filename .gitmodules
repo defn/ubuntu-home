@@ -290,3 +290,7 @@
 	path = work/codecommit
 	url = git@github.com:imma/codecommit
 	branch = v20170617
+[submodule "work/inspec"]
+	path = work/inspec
+	url = git@github.com:imma/inspec
+	branch = v20170617
