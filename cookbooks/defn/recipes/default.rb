@@ -2,4 +2,4 @@
 # Cookbook:: defn
 # Recipe:: default
 #
-# Copyright:: 2017, The Authors, All Rights Reserved.
+# Copyright:: 2017, defn ghiem, All Rights Reserved.
