@@ -139,3 +139,4 @@
 /.chef
 /.rbenv
 /.buildkite
+/.kitchen
