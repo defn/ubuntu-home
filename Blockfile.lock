@@ -64,7 +64,7 @@ getssl         ${BLOCK_PATH}/getssl         git@github.com:imma/getssl         3
 crypto         ${BLOCK_PATH}/crypto         git@github.com:imma/crypto         7c444975c5c08f3791a2b26a5de1e3f6ce69e76f v20170617 
 home           ${BLOCK_PATH}/home           git@github.com:imma/home           99415fe07b19aa6de78088f20e4892dcb6b3cb05 v20170617 
 talign         ${BLOCK_PATH}/talign         git@github.com:imma/talign         0a6478a6e005c859dea798f608a8381c044312b8 v20170617 
-defn           ${BLOCK_PATH}/defn           git@github.com:imma/defn           9e6fdb4e81bbb31883f1f4d21146908d49aafe24 v20170617 
+defn           ${BLOCK_PATH}/defn           git@github.com:imma/defn           f2af13cbf241c4e3a223e9c66b12eb660f1be559 v20170617 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          2ead0e38a547acfa79b3fe6b8f79bccf1629b1f6 v20170617 
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            6ebd4c398683496267800665c7e18d1a5a02dd37 v20170617 
 example        ${BLOCK_PATH}/example        git@github.com:imma/example        20fe3030063681895af3a3d8a5c3bfb22c809a3c v20170617 
