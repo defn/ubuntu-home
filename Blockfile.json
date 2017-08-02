@@ -3,9 +3,9 @@
     [ "site", "ubuntu-config", "cache", "base", "deploy", "sysadmin" ],
     [ "ruby", "python", "node", "yarn", "java", "bash4", "jqq" ],
     [ "sshd", "consul-agent", "etcd", "linkerd", "syslog-ng" ],
-    [ "docker", "codecommit", "buildkite" ],
+    [ "docker", "codecommit", "buildkite", "github" ],
     [ "cloud", "imma" ],
-    [ "ansible", "chef", "inspec", "github" ],
+    [ "ansible", "chef", "inspec", "kitchen" ],
     [ "monitor", "crypto", "home" ],
     [ "defn", "junas", "cue", "example", "nothing" ],
     [ "app" ]
