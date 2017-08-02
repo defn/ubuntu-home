@@ -140,3 +140,4 @@
 /.rbenv
 /.buildkite
 /.kitchen
+/.berkshelf

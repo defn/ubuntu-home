@@ -49,9 +49,9 @@ awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        d
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   5c64684fa1614888db9a2eb93fdb0a835e0bbfb5 v20170617 
 cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          433419835cabd0d940e99c838a94d766a72ff83b v20170617 
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           681f72e8acc4344d274edfbf1a4bcde5cb5c9d76 v20170617 
-chef           ${BLOCK_PATH}/chef           git@github.com:imma/chef           022146dec3173ae0736c3c2aa07e28084a8378b2 v20170617 
+chef           ${BLOCK_PATH}/chef           git@github.com:imma/chef           152460e3e4a3c0e5981da141efb43752e106ed13 v20170617 
 inspec         ${BLOCK_PATH}/inspec         git@github.com:imma/inspec         42c5f46970250996deb58077ecd2f1e095f8a67e v20170617 
-kitchen        ${BLOCK_PATH}/kitchen        git@github.com:imma/kitchen        4a7cc3ea2cd621fe5955aadcb83dbfa6704964d4 v20170617 
+kitchen        ${BLOCK_PATH}/kitchen        git@github.com:imma/kitchen        ba6953ff7b9cd2d9ea50bc3376152a7ed2930fa2 v20170617 
 netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        c480e644fbbee96119121a30a47693918f5af7e3 v20170617 
 monitor        ${BLOCK_PATH}/monitor        git@github.com:imma/monitor        819b20fe47584ce98ecfd650b79be5b95b91e276 v20170617 
 gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            47dec4cf01eeb9e1ac8f8da028f650f5083b3b16 v20170617 
@@ -65,7 +65,7 @@ getssl         ${BLOCK_PATH}/getssl         git@github.com:imma/getssl         3
 crypto         ${BLOCK_PATH}/crypto         git@github.com:imma/crypto         7c444975c5c08f3791a2b26a5de1e3f6ce69e76f v20170617 
 home           ${BLOCK_PATH}/home           git@github.com:imma/home           99415fe07b19aa6de78088f20e4892dcb6b3cb05 v20170617 
 talign         ${BLOCK_PATH}/talign         git@github.com:imma/talign         0a6478a6e005c859dea798f608a8381c044312b8 v20170617 
-defn           ${BLOCK_PATH}/defn           git@github.com:imma/defn           a0dee71efacc39a32002a806db408ec3da12b953 v20170617 
+defn           ${BLOCK_PATH}/defn           git@github.com:imma/defn           c09a45d8fe5a4c9c264b50140c07daff452f1161 v20170617 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          2ead0e38a547acfa79b3fe6b8f79bccf1629b1f6 v20170617 
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            6ebd4c398683496267800665c7e18d1a5a02dd37 v20170617 
 example        ${BLOCK_PATH}/example        git@github.com:imma/example        20fe3030063681895af3a3d8a5c3bfb22c809a3c v20170617 
