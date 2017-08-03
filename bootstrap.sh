@@ -47,7 +47,6 @@ function main {
   bin/home block bootstrap
 
   rsync -ia .gitconfig.template .gitconfig
-  bin/home block sync
 
   sync
 }
