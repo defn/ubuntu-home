@@ -2,8 +2,8 @@
 driver:
   name: vagrant
   synced_folders:
-    - ["/data", "/data"]
-    - [".", "/tmp/home"]
+    - ["/data", "/data", "type: :nfs"]
+    - [".", "/tmp/home", "type: :nfs"]
 
 transport:
   forward_agent: true
