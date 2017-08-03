@@ -67,7 +67,7 @@ home           ${BLOCK_PATH}/home           git@github.com:imma/home           9
 talign         ${BLOCK_PATH}/talign         git@github.com:imma/talign         0a6478a6e005c859dea798f608a8381c044312b8 v20170617 
 defn           ${BLOCK_PATH}/defn           git@github.com:imma/defn           3a44ab0c27541f4a70fb6a0f1ab7c3566718144a v20170617 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          2ead0e38a547acfa79b3fe6b8f79bccf1629b1f6 v20170617 
-cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            6ebd4c398683496267800665c7e18d1a5a02dd37 v20170617 
+cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            ee5a8598aadd14ed6a908566ad39cd2d3e98f4be v20170617 
 example        ${BLOCK_PATH}/example        git@github.com:imma/example        20fe3030063681895af3a3d8a5c3bfb22c809a3c v20170617 
 nothing        ${BLOCK_PATH}/nothing        git@github.com:imma/nothing        1e22377cb3dc2322321ddb9f2dda739463099ac5 v20170617 
 app            ${BLOCK_PATH}/app            git@github.com:imma/app            387e50f26e7a4a8652a61a6652569f41a030c0be v20170617 
