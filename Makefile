@@ -29,6 +29,7 @@ sync:
 	$(make) cache
 
 include Makefile.build
+include $(_kitchen_home)/Makefile.kitchen
 
 docker_default = docker-image
 

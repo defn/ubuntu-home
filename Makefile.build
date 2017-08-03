@@ -110,9 +110,6 @@ up:
 down:
 	$(docker_compose) stop $(opt)
 
-destroy:
-	$(docker_compose) down --remove-orphans $(opt)
-
 ssh:
 	@ssh-keygen -R '[$(service_ssh_ip)]:$(service_ssh_port)' 2>/dev/null >/dev/null
 	$(ssh_prefix) -t -A -o BatchMode=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null $(ssh_suffix)

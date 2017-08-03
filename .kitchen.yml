@@ -1,0 +1,24 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: shell
+
+verifier:
+  name: inspec
+
+platforms:
+  - name: ubuntu-16.04
+    driver:
+      linked_clone: true
+  - name: ubuntu-14.04
+    driver:
+      linked_clone: true
+
+suites:
+  - name: default
+    verifier:
+      inspec_tests:
+        - test/smoke/default
+    attributes:
