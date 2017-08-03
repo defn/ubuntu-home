@@ -26,6 +26,7 @@ function main {
   git branch --set-upstream-to "${nm_remote}/$nm_branch"
   git reset --hard "${nm_remote}/${nm_branch}"
   git checkout "${nm_branch}" 
+  git submodule update --init || git submodule foreach 'git reset --hard; git clean -ffd'
   git submodule update --init
 
   $loader apt-get install -y awscli
