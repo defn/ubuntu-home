@@ -13,10 +13,7 @@ function main {
   local nm_remote="gh"
   local url_remote="https://github.com/imma/ubuntu"
 
-  rsync -ia /tmp/home/.git .
-
   git reset --hard
-
   rsync -ia .gitconfig.template-https .gitconfig
 
   git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
@@ -57,7 +54,21 @@ function main {
 
 case "$(id -u -n)" in
   root)
-    useradd -m -s /bin/bash ubuntu
+    cat > /etc/sudoers.d/90-cloud-init-users <<____EOF
+    # Created by cloud-init v. 0.7.9 on Fri, 21 Jul 2017 08:42:58 +0000
+    # User rules for ubuntu
+    ubuntu ALL=(ALL) NOPASSWD:ALL
+____EOF
+
+    if ! id -u -n ubuntu; then
+      useradd -m -s /bin/bash ubuntu
+    fi
+
+    if ! [[ -d ~ubuntu/.git ]]; then
+      sudo rsync -ia /tmp/home/.git/. ~ubuntu/.git/
+      sudo chown -R ubuntu:ubuntu ~ubuntu
+    fi
+
     sudo -H -u ubuntu bash -c "cd; $0"
     ;;
   *)
