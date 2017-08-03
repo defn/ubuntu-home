@@ -17,7 +17,7 @@ function main {
 
   git reset --hard
 
-  rsync -ia .gitconfig.template .gitconfig
+  rsync -ia .gitconfig.template-https .gitconfig
 
   git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
   git remote set-url "${nm_remote}" "${url_remote}"
@@ -49,7 +49,18 @@ function main {
   bin/home make cache
   bin/home block bootstrap
 
+  rsync -ia .gitconfig.template .gitconfig
+  bin/home block sync
+
   sync
 }
 
-main "$@"
+case "$(id -u -n)" in
+  root)
+    useradd -m -s /bin/bash ubuntu
+    sudo -H -u ubuntu bash -c "cd; $0"
+    ;;
+  *)
+    main "$@"
+    ;;
+esac
