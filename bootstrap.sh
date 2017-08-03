@@ -14,7 +14,7 @@ function main {
   local url_remote="https://github.com/imma/ubuntu"
 
   git reset --hard
-  rsync -ia .gitconfig.template-https .gitconfig
+  rsync -ia .gitconfig.template .gitconfig
 
   git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
   git remote set-url "${nm_remote}" "${url_remote}"
@@ -37,22 +37,22 @@ function main {
   work/jq/script/bootstrap
   work/block/script/cibuild
   source work/block/script/profile ~
-  bin/home make cache
+  make cache
+  require
 
   chmod 700 .gnupg
   chmod 600 .ssh/config
 
-  bin/home block sync
-  bin/home make cache
-  bin/home block bootstrap
-
-  rsync -ia .gitconfig.template .gitconfig
+  block sync
+  block bootstrap
 
   sync
 }
 
 case "$(id -u -n)" in
   root)
+    umask 022
+
     cat > /etc/sudoers.d/90-cloud-init-users <<____EOF
     # Created by cloud-init v. 0.7.9 on Fri, 21 Jul 2017 08:42:58 +0000
     # User rules for ubuntu
@@ -64,11 +64,15 @@ ____EOF
     fi
 
     if ! [[ -d ~ubuntu/.git ]]; then
-      sudo rsync -ia /tmp/home/.git/. ~ubuntu/.git/
-      sudo chown -R ubuntu:ubuntu ~ubuntu
+      rsync -ia /tmp/home/.git/. ~ubuntu/.git/
+      chown -R ubuntu:ubuntu ~ubuntu
     fi
 
-    sudo -H -u ubuntu bash -c "cd; $0"
+    mkdir -p ~ubuntu/.ssh
+    rsync -ia /tmp/home/.ssh/authorized_keys ~ubuntu/.ssh/
+    chown -R ubuntu:ubuntu ~ubuntu/.ssh
+
+    ssh -A -o BatchMode=yes -o StrictHostKeyChecking=no ubuntu@localhost "$0"
     ;;
   *)
     main "$@"
