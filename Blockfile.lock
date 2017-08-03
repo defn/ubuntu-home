@@ -61,7 +61,7 @@ cfssl          ${BLOCK_PATH}/cfssl          git@github.com:imma/cfssl          5
 lastpass       ${BLOCK_PATH}/lastpass       git@github.com:imma/lastpass       c35365843c01e7ff0c41d9cab751498d790b6fbc v20170617 
 credstash      ${BLOCK_PATH}/credstash      git@github.com:imma/credstash      806d66b4ed52351e39cc092e7d5207341fb42f99 v20170617 
 vault          ${BLOCK_PATH}/vault          git@github.com:imma/vault          5dee156f74478467af25de4407f3cc64807687a8 v20170617 
-getssl         ${BLOCK_PATH}/getssl         git@github.com:imma/getssl         3fbcd106ceab1d3d674877985760668dc24c264c v20170617 
+getssl         ${BLOCK_PATH}/getssl         git@github.com:imma/getssl         679de3b6bed7ed728d3dd2a89388eed7c72ca1ed v20170617 
 crypto         ${BLOCK_PATH}/crypto         git@github.com:imma/crypto         7c444975c5c08f3791a2b26a5de1e3f6ce69e76f v20170617 
 home           ${BLOCK_PATH}/home           git@github.com:imma/home           99415fe07b19aa6de78088f20e4892dcb6b3cb05 v20170617 
 talign         ${BLOCK_PATH}/talign         git@github.com:imma/talign         0a6478a6e005c859dea798f608a8381c044312b8 v20170617 
