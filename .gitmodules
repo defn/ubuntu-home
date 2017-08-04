@@ -250,10 +250,6 @@
 	path = work/docker
 	url = git@github.com:imma/docker
 	branch = v20170617
-[submodule "work/lastpass"]
-	path = work/lastpass
-	url = git@github.com:imma/lastpass
-	branch = v20170617
 [submodule "work/credstash"]
 	path = work/credstash
 	url = git@github.com:imma/credstash
