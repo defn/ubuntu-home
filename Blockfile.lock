@@ -63,7 +63,7 @@ credstash      ${BLOCK_PATH}/credstash      git@github.com:imma/credstash      8
 vault          ${BLOCK_PATH}/vault          git@github.com:imma/vault          5dee156f74478467af25de4407f3cc64807687a8 v20170617 
 getssl         ${BLOCK_PATH}/getssl         git@github.com:imma/getssl         b98aa8e4e0b1168e627b17a718a5668391c5e81d v20170617 
 crypto         ${BLOCK_PATH}/crypto         git@github.com:imma/crypto         de271d2556cf20ffa3de947c4795e38aacaf5fc9 v20170617 
-home           ${BLOCK_PATH}/home           git@github.com:imma/home           99415fe07b19aa6de78088f20e4892dcb6b3cb05 v20170617 
+home           ${BLOCK_PATH}/home           git@github.com:imma/home           f45e3463411eecf1b2b788ea4e48710ea31c1b79 v20170617 
 talign         ${BLOCK_PATH}/talign         git@github.com:imma/talign         0a6478a6e005c859dea798f608a8381c044312b8 v20170617 
 defn           ${BLOCK_PATH}/defn           git@github.com:imma/defn           3a44ab0c27541f4a70fb6a0f1ab7c3566718144a v20170617 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          2ead0e38a547acfa79b3fe6b8f79bccf1629b1f6 v20170617 
