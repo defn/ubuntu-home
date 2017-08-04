@@ -45,6 +45,9 @@ function main {
     chmod 600 .ssh/config
   fi
 
+  git fetch
+  git reset --hard
+  git clean -ffd
   block sync
   block bootstrap
   sync
