@@ -2,10 +2,10 @@
 driver:
   name: vagrant
   network:
-    -  ["private_network", {ip: "172.28.128.11", nic_type: "virtio"}]
+    - [ "private_network", { ip: "172.28.128.11", nic_type: "virtio" } ]
   synced_folders:
-    - ["/data", "/data", "type: :nfs"]
-    - [".", "/tmp/home", "type: :nfs"]
+    - [ "/data", "/data", "type: :nfs" ]
+    - [ ".", "/tmp/home", "type: :nfs" ]
 
 transport:
   forward_agent: true
