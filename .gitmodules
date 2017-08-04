@@ -294,3 +294,7 @@
 	path = work/kitchen
 	url = git@github.com:imma/kitchen
 	branch = v20170617
+[submodule "work/caddy"]
+	path = work/caddy
+	url = git@github.com:imma/caddy
+	branch = v20170617
