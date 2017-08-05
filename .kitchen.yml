@@ -4,7 +4,7 @@ driver:
   ssh:
     insert_key: false
   network:
-    - [ "private_network", { type: "dhcp", nic_type: "virtio" } ]
+    - [ "private_network", { ip: "172.28.128.11", nic_type: "virtio" } ]
   synced_folders:
     - [ "/data", "/data", "type: :nfs" ]
     - [ ".", "/tmp/home", "type: :nfs" ]
