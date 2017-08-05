@@ -3,8 +3,6 @@ driver:
   name: vagrant
   ssh:
     insert_key: false
-  network:
-    - [ "private_network", { ip: "172.28.128.11", nic_type: "virtio" } ]
   synced_folders:
     - [ "/data", "/data", "type: :nfs" ]
     - [ ".", "/tmp/home", "type: :nfs" ]
@@ -25,7 +23,20 @@ platforms:
       linked_clone: true
 
 suites:
-  - name: default
+  - name: virtualbox
+    driver:
+      provider: virtualbox
+      network:
+        - [ "private_network", { ip: "172.28.128.11" } ]
+    verifier:
+      inspec_tests:
+        - test/smoke/default
+    attributes:
+  - name: vmware
+    driver:
+      provider: vmware_fusion
+      network:
+        - [ "private_network", { ip: "172.28.129.11" } ]
     verifier:
       inspec_tests:
         - test/smoke/default
