@@ -82,7 +82,7 @@ ____EOF
     chown -R ubuntu:ubuntu ~ubuntu/.ssh
 
     useradd -s /bin/bash vagrant || true
-    chown -R vagrant:vagrant ~vagrant
+    chown -R vagrant:vagrant ~vagrant /tmp/kitchen
 
     ls -ltrhd ~ubuntu ~vagrant /data
 
