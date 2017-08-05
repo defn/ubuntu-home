@@ -52,7 +52,7 @@ cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          4
 imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           681f72e8acc4344d274edfbf1a4bcde5cb5c9d76 v20170617 
 chef           ${BLOCK_PATH}/chef           git@github.com:imma/chef           152460e3e4a3c0e5981da141efb43752e106ed13 v20170617 
 inspec         ${BLOCK_PATH}/inspec         git@github.com:imma/inspec         b9baa4137600866fd5c534bae32892a8b2b489a1 v20170617 
-kitchen        ${BLOCK_PATH}/kitchen        git@github.com:imma/kitchen        1cc9a04c77b02a7fe13e707e2a04ad73a69e5c95 v20170617 
+kitchen        ${BLOCK_PATH}/kitchen        git@github.com:imma/kitchen        20ceb22154428f3f669eb3c06644a29a10b1c36e v20170617 
 netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        c480e644fbbee96119121a30a47693918f5af7e3 v20170617 
 monitor        ${BLOCK_PATH}/monitor        git@github.com:imma/monitor        819b20fe47584ce98ecfd650b79be5b95b91e276 v20170617 
 gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            47dec4cf01eeb9e1ac8f8da028f650f5083b3b16 v20170617 
