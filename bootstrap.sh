@@ -61,7 +61,12 @@ case "$(id -u -n)" in
     # Created by cloud-init v. 0.7.9 on Fri, 21 Jul 2017 08:42:58 +0000
     # User rules for ubuntu
     ubuntu ALL=(ALL) NOPASSWD:ALL
+    vagrant ALL=(ALL) NOPASSWD:ALL
 ____EOF
+
+    if [[ "$(id -u vagrant 2>/dev/null)" == "1000" ]]; then
+      userdel -f vagrant || true
+    fi
 
     if ! id -u -n ubuntu; then
       useradd -m -s /bin/bash ubuntu
@@ -75,6 +80,11 @@ ____EOF
     mkdir -p ~ubuntu/.ssh
     rsync -ia /tmp/home/.ssh/authorized_keys ~ubuntu/.ssh/
     chown -R ubuntu:ubuntu ~ubuntu/.ssh
+
+    useradd -s /bin/bash vagrant || true
+    chown -R vagrant:vagrant ~vagrant
+
+    ls -ltrhd ~ubuntu ~vagrant /data
 
     ssh -A -o BatchMode=yes -o StrictHostKeyChecking=no ubuntu@localhost "$0"
     ;;
