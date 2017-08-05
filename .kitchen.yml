@@ -35,8 +35,6 @@ suites:
   - name: vmware
     driver:
       provider: vmware_fusion
-      network:
-        - [ "private_network", { ip: "172.28.129.11" } ]
     verifier:
       inspec_tests:
         - test/smoke/default
