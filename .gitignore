@@ -142,3 +142,4 @@
 /.kitchen
 /.berkshelf
 /.caddy
+/*.box

@@ -8,6 +8,7 @@ driver:
   synced_folders:
     - [ "/data", "/data", "type: :nfs" ]
     - [ ".", "/tmp/home", "type: :nfs" ]
+  box_check_update: false
 
 transport:
   forward_agent: true
