@@ -9,7 +9,8 @@ function main {
   local nm_remote="gh"
   local url_remote="https://github.com/imma/ubuntu"
 
-  if [[ ! -d .git ]]; then
+  if [[ ! -d .git || -f .bootstrapping ]]; then
+    touch .bootstrapping
     ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
 
     mv .git2 .git
@@ -43,6 +44,7 @@ function main {
 
     chmod 700 .gnupg
     chmod 600 .ssh/config
+    rm -f .bootstrapping
   fi
 
   git fetch
