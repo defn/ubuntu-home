@@ -84,6 +84,7 @@ ____EOF
     mkdir -p ~ubuntu/.ssh
     rsync -ia /tmp/home/.ssh/authorized_keys ~ubuntu/.ssh/
     chown -R ubuntu:ubuntu ~ubuntu/.ssh
+    install -d -o ubuntu -g ubuntu /data /data/cache /data/git
 
     if [[ -n "$found_vagrant" ]]; then
       useradd -s /bin/bash vagrant || true
