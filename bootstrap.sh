@@ -64,8 +64,10 @@ case "$(id -u -n)" in
     vagrant ALL=(ALL) NOPASSWD:ALL
 ____EOF
 
+    found_vagrant=
     if [[ "$(id -u vagrant 2>/dev/null)" == "1000" ]]; then
       userdel -f vagrant || true
+      found_vagrant=1
     fi
 
     if ! id -u -n ubuntu; then
@@ -81,7 +83,7 @@ ____EOF
     rsync -ia /tmp/home/.ssh/authorized_keys ~ubuntu/.ssh/
     chown -R ubuntu:ubuntu ~ubuntu/.ssh
 
-    if id vagrant; then
+    if [[ -n "$found_vagrant" ]]; then
       useradd -s /bin/bash vagrant || true
       chown -R vagrant:vagrant ~vagrant /tmp/kitchen
     fi
