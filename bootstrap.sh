@@ -81,10 +81,10 @@ ____EOF
     rsync -ia /tmp/home/.ssh/authorized_keys ~ubuntu/.ssh/
     chown -R ubuntu:ubuntu ~ubuntu/.ssh
 
-    useradd -s /bin/bash vagrant || true
-    chown -R vagrant:vagrant ~vagrant /tmp/kitchen
-
-    ls -ltrhd ~ubuntu ~vagrant /data
+    if id vagrant; then
+      useradd -s /bin/bash vagrant || true
+      chown -R vagrant:vagrant ~vagrant /tmp/kitchen
+    fi
 
     ssh -A -o BatchMode=yes -o StrictHostKeyChecking=no ubuntu@localhost "$0"
     ;;
