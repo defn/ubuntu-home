@@ -21,7 +21,7 @@ sysadmin       ${BLOCK_PATH}/sysadmin       git@github.com:imma/sysadmin       3
 rbenv          ${BLOCK_PATH}/rbenv          git@github.com:imma/rbenv          15abbe88023c04be7670d55949e5c1ba44f81769 v20170617 
 ruby           ${BLOCK_PATH}/ruby           git@github.com:imma/ruby           3e6acd482d51824156ec7bf9110ea3182534f465 v20170617 
 curl           ${BLOCK_PATH}/curl           git@github.com:imma/curl           2372974d7dafe106435aebc57722c8a6ca17b15e v20170617 
-nvm            ${BLOCK_PATH}/nvm            git@github.com:imma/nvm            120f36081e5bec2b7b7a746381a002b4782d9431 v20170617 
+nvm            ${BLOCK_PATH}/nvm            git@github.com:imma/nvm            761666100da815d73726325d9f124f4a0b7485e8 v20170617 
 node           ${BLOCK_PATH}/node           git@github.com:imma/node           ca220e3d3a5174373756d4394b19cfa0aafc0e5c v20170617 
 yarn           ${BLOCK_PATH}/yarn           git@github.com:imma/yarn           607ce0fff249ae33b4ac649f73762430d730890a v20170617 
 bash4          ${BLOCK_PATH}/bash4          git@github.com:imma/bash4          05cf9222fc5aa954822ca75345b9f276db4a38b6 v20170617 
