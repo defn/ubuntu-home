@@ -146,3 +146,4 @@
 /.nvm
 /.node_repl_history
 npm-debug*
+/.ipfs
