@@ -71,3 +71,4 @@ cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            e
 example        ${BLOCK_PATH}/example        git@github.com:imma/example        20fe3030063681895af3a3d8a5c3bfb22c809a3c v20170617 
 nothing        ${BLOCK_PATH}/nothing        git@github.com:imma/nothing        1e22377cb3dc2322321ddb9f2dda739463099ac5 v20170617 
 app            ${BLOCK_PATH}/app            git@github.com:imma/app            387e50f26e7a4a8652a61a6652569f41a030c0be v20170617 
+ipfs           ${BLOCK_PATH}/ipfs           git@github.com:imma/ipfs           f1edb8a285370c12abb2bf4d4822e591d602279b v20170617 

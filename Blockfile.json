@@ -8,6 +8,6 @@
     [ "ansible", "chef", "inspec", "kitchen" ],
     [ "monitor", "crypto", "home" ],
     [ "defn", "junas", "cue", "example", "nothing" ],
-    [ "app" ]
+    [ "app", "ipfs" ]
   ]
 }

@@ -302,3 +302,7 @@
 	path = work/nvm
 	url = git@github.com:imma/nvm
 	branch = v20170617
+[submodule "work/ipfs"]
+	path = work/ipfs
+	url = git@github.com:imma/ipfs
+	branch = v20170617
