@@ -306,3 +306,7 @@
 	path = work/ipfs
 	url = git@github.com:imma/ipfs
 	branch = v20170617
+[submodule "work/irssi"]
+	path = work/irssi
+	url = git@github.com:imma/irssi
+	branch = v2017617

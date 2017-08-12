@@ -7,7 +7,7 @@
     [ "cloud", "imma" ],
     [ "ansible", "chef", "inspec", "kitchen" ],
     [ "monitor", "crypto", "home" ],
-    [ "defn", "junas", "cue", "example", "nothing" ],
+    [ "defn", "junas", "irssi", "cue", "example", "nothing" ],
     [ "app", "ipfs" ]
   ]
 }
