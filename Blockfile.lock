@@ -12,7 +12,7 @@ homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       f
 java           ${BLOCK_PATH}/java           git@github.com:imma/java           0fa6f7e9b2e748e4c87de15447b820a0152ca639 v20170617 
 pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         3199bee02c50352d9fd5851f17568267a30c4972 v20170617 
 python         ${BLOCK_PATH}/python         git@github.com:imma/python         ecd25a519ec83ccca9251f0a52b424e12384d307 v20170617 
-ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        221e63c8ada0664f6ec0e66f1cb14548cd2ceecd v20170617 
+ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        f1b858ca144b7182cf3c43e2038b363b809823dd v20170617 
 cache          ${BLOCK_PATH}/cache          git@github.com:imma/cache          ad401e5608e98edfc580834b64c210e1f268a1a9 v20170617 
 inventory      ${BLOCK_PATH}/inventory      git@github.com:imma/inventory      b7e8edce542330782d62d854b5acddf0e634aea9 v20170617 
 deploy         ${BLOCK_PATH}/deploy         git@github.com:imma/deploy         d9b1c780412f8d7758ec51aeedda5b6fbc193a7c v20170617 
@@ -30,10 +30,10 @@ runit          ${BLOCK_PATH}/runit          git@github.com:imma/runit          6
 service        ${BLOCK_PATH}/service        git@github.com:imma/service        405528c965791929d9075a51975f9286a7d170f9 v20170617 
 sshd           ${BLOCK_PATH}/sshd           git@github.com:imma/sshd           8841803c46e4c6eff510962fd88efc47008987a2 v20170617 
 facts          ${BLOCK_PATH}/facts          git@github.com:imma/facts          d0c788bbf95ca7db87bde6e13eabd893be522129 v20170617 
-consul         ${BLOCK_PATH}/consul         git@github.com:imma/consul         d80455812e53e6e6beb7b6c83807b06d9e9d49cf v20170617 
+consul         ${BLOCK_PATH}/consul         git@github.com:imma/consul         7dc8d95680b79c775f04b375466ee033c3534a1b v20170617 
 consul-agent   ${BLOCK_PATH}/consul-agent   git@github.com:imma/consul-agent   f26e57866055471b7c9d441bb514c889a5818cc9 v20170617 
-etcd           ${BLOCK_PATH}/etcd           git@github.com:imma/etcd           54c4d6781a0c0fff1ade735398e241cdb5e2ee60 v20170617 
-linkerd        ${BLOCK_PATH}/linkerd        git@github.com:imma/linkerd        c8205e646a9c47ac14d7531c4b04873eead368d1 v20170617 
+etcd           ${BLOCK_PATH}/etcd           git@github.com:imma/etcd           2a3ddd9c34383728400c43208b5de99b0a74eeb1 v20170617 
+linkerd        ${BLOCK_PATH}/linkerd        git@github.com:imma/linkerd        44b35dbfd3fdc9397163715e54cc323943d444fc v20170617 
 caddy          ${BLOCK_PATH}/caddy          git@github.com:imma/caddy          373b52ea8b9faa82cf3ad29b2859f4f5144d3af8 v20170617 
 syslog-ng      ${BLOCK_PATH}/syslog-ng      git@github.com:imma/syslog-ng      a04ac0a0941f8f3b566a811ca2219707b52ba5b1 v20170617 
 context        ${BLOCK_PATH}/context        git@github.com:imma/context        969fd3cb1259f4f81d5886cdbb8e6d6393d06b8c v20170617 
@@ -45,7 +45,7 @@ codecommit     ${BLOCK_PATH}/codecommit     git@github.com:imma/codecommit     8
 buildkite      ${BLOCK_PATH}/buildkite      git@github.com:imma/buildkite      b1e27abbfe1e092bc3adeb0dabd678583bdcf74f v20170617 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            ba43458b97aef7991d1959d77faae1fda8e812ab v20170617 
 github         ${BLOCK_PATH}/github         git@github.com:imma/github         0d82b16507290b9192971a46951c8f73e9bcb5de v20170617 
-aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            2f979b3af6f7fe009bf11f75b69d9c4bb351c810 v20170617 
+aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            93b65d26b071d4fccc7cefafc6d6453c25827208 v20170617 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        614eb205914ba8f24d52152749fb57887472a2da v20170617 
 digitalocean   ${BLOCK_PATH}/digitalocean   git@github.com:imma/digitalocean   c8c10bacee2d05105cd429cd2b03245962d6513c v20170617 
 cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          61e7699809859c08990ce541729ba446b2f49ba1 v20170617 
@@ -60,7 +60,7 @@ git-crypt      ${BLOCK_PATH}/git-crypt      git@github.com:imma/git-crypt      4
 go             ${BLOCK_PATH}/go             git@github.com:imma/go             2cf72713b6e05d7c246eb726f6b5b496e9ec9a98 v20170617 
 cfssl          ${BLOCK_PATH}/cfssl          git@github.com:imma/cfssl          538e1d5599190ffaab59a40086a307023f4bb0d9 v20170617 
 credstash      ${BLOCK_PATH}/credstash      git@github.com:imma/credstash      806d66b4ed52351e39cc092e7d5207341fb42f99 v20170617 
-vault          ${BLOCK_PATH}/vault          git@github.com:imma/vault          ddb5f5ef4f4bc83c147f2538c11ded789dc5d8a8 v20170617 
+vault          ${BLOCK_PATH}/vault          git@github.com:imma/vault          84cc208b67faf72697554ed5e9e75d79d3826d62 v20170617 
 getssl         ${BLOCK_PATH}/getssl         git@github.com:imma/getssl         b98aa8e4e0b1168e627b17a718a5668391c5e81d v20170617 
 crypto         ${BLOCK_PATH}/crypto         git@github.com:imma/crypto         de271d2556cf20ffa3de947c4795e38aacaf5fc9 v20170617 
 home           ${BLOCK_PATH}/home           git@github.com:imma/home           81bb1731b25fd9a1ab1627a4f125e3e945a77dcb v20170617 
