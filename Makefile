@@ -49,9 +49,6 @@ reset-docker:
 reset-docker-ubuntu:
 	docker tag $(hub)/block:ubuntu $(registry)/$(image)
 
-reset-virtualbox:
-	vagrant box add -f block:ubuntu /data/cache/box/virtualbox/block:base.box
-
 reset-aws:
 	vagrant box add -f block:ubuntu /data/cache/box/aws/block:base.box
 
@@ -104,25 +101,6 @@ docker-update:
 	$(make) recycle home-deploy block-finish minimize commit
 	$(make) build
 	$(make) clean
-
-virtualbox:
-	env $(make) virtualbox_fr
-
-virtualbox_fr:
-	cd $(_base_home) && make clean-cidata
-	cd $(_base_home) && make >/dev/null
-	plane recycle block:ubuntu
-	plane vagrant ssh -- sudo sudo dpkg --configure -a
-	plane vagrant ssh -- sudo apt-get update
-	script/deploy plane vagrant ssh --
-	cd $(_base_home) && make clean-cidata
-	cd $(_base_home) && make >/dev/null
-	plane reuse ubuntu
-
-commit-virtualbox:
-	cd $(_base_home) && make clean-cidata
-	cd $(_base_home) && make >/dev/null
-	plane reuse ubuntu
 
 golden:
 	$(MAKE) docker
