@@ -130,6 +130,7 @@
 /.pt
 /.aws/shell
 /org
+/app-*
 /data
 /config
 /.gh.json
