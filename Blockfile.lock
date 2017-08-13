@@ -40,7 +40,8 @@ context        ${BLOCK_PATH}/context        git@github.com:imma/context        9
 parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         07caabe2d5d14aab4cfbd861995adf44fd4fd8b0 v20170617 
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 5fb8460a2f5990b200b5cd1d7e60976bbfa92f3d v20170617 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 84ebea9d1f83af7a9a96ee91c9a87863423bdd80 v20170617 
-docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         107604863816be15f3253b74f7c5c6a50f0a67a9 v20170617 
+docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         1af1ef5febc7491499098967ee004551ae33442e v20170617 
+lxd            ${BLOCK_PATH}/lxd            git@github.com:imma/lxd            5e2f15941e47e5c5b666a361eda640ce4ffd83c9 v20170617 
 codecommit     ${BLOCK_PATH}/codecommit     git@github.com:imma/codecommit     8eec67a72c734a41bb194cd993c992d80a34e3df v20170617 
 buildkite      ${BLOCK_PATH}/buildkite      git@github.com:imma/buildkite      b1e27abbfe1e092bc3adeb0dabd678583bdcf74f v20170617 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            ba43458b97aef7991d1959d77faae1fda8e812ab v20170617 
@@ -63,6 +64,7 @@ credstash      ${BLOCK_PATH}/credstash      git@github.com:imma/credstash      8
 vault          ${BLOCK_PATH}/vault          git@github.com:imma/vault          df74a8829176322f4c927fb8af3b95dc96947dae v20170617 
 getssl         ${BLOCK_PATH}/getssl         git@github.com:imma/getssl         b98aa8e4e0b1168e627b17a718a5668391c5e81d v20170617 
 crypto         ${BLOCK_PATH}/crypto         git@github.com:imma/crypto         de271d2556cf20ffa3de947c4795e38aacaf5fc9 v20170617 
+ipfs           ${BLOCK_PATH}/ipfs           git@github.com:imma/ipfs           f1edb8a285370c12abb2bf4d4822e591d602279b v20170617 
 home           ${BLOCK_PATH}/home           git@github.com:imma/home           81bb1731b25fd9a1ab1627a4f125e3e945a77dcb v20170617 
 talign         ${BLOCK_PATH}/talign         git@github.com:imma/talign         0a6478a6e005c859dea798f608a8381c044312b8 v20170617 
 defn           ${BLOCK_PATH}/defn           git@github.com:imma/defn           3a44ab0c27541f4a70fb6a0f1ab7c3566718144a v20170617 
@@ -72,4 +74,3 @@ cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            e
 example        ${BLOCK_PATH}/example        git@github.com:imma/example        20fe3030063681895af3a3d8a5c3bfb22c809a3c v20170617 
 nothing        ${BLOCK_PATH}/nothing        git@github.com:imma/nothing        1e22377cb3dc2322321ddb9f2dda739463099ac5 v20170617 
 app            ${BLOCK_PATH}/app            git@github.com:imma/app            387e50f26e7a4a8652a61a6652569f41a030c0be v20170617 
-ipfs           ${BLOCK_PATH}/ipfs           git@github.com:imma/ipfs           f1edb8a285370c12abb2bf4d4822e591d602279b v20170617 

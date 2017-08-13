@@ -3,11 +3,12 @@
     [ "site", "ubuntu-config", "cache", "base", "deploy", "sysadmin" ],
     [ "ruby", "python", "node", "yarn", "java", "bash4", "jqq" ],
     [ "sshd", "consul-agent", "etcd", "linkerd", "caddy", "syslog-ng" ],
-    [ "docker", "codecommit", "buildkite", "github" ],
+    [ "docker", "lxd" ],
+    [ "codecommit", "buildkite", "github" ],
     [ "cloud", "imma" ],
     [ "ansible", "chef", "inspec", "kitchen" ],
-    [ "monitor", "crypto", "home" ],
+    [ "monitor", "crypto", "ipfs", "home" ],
     [ "defn", "junas", "irssi", "cue", "example", "nothing" ],
-    [ "app", "ipfs" ]
+    [ "app" ]
   ]
 }
