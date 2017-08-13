@@ -211,18 +211,19 @@ base-image:
 
 base-ubuntu-aws:
 	env FOGG_AMI=$(base_ami) \
-		make ubuntu-image
+		block require env AWS_TYPE=t2.small \
+			SOURCE_NAME="block:ubuntu" \
+			GOLDEN_NAME="block-ubuntu" \
+			fogg env chexec "$(_ubuntu_home)" \
+				make aws
 
 ubuntu-aws:
 	env FOGG_AMI=$(ubuntu_ami) \
-		make ubuntu-image
-
-ubuntu-image:
-	block require env AWS_TYPE=t2.small \
-		SOURCE_NAME="block:ubuntu" \
-		GOLDEN_NAME="block-ubuntu" \
-		fogg env chexec "$(_ubuntu_home)" \
-			make aws
+		block require env AWS_TYPE=t2.small \
+			SOURCE_NAME="block:ubuntu" \
+			GOLDEN_NAME="block-ubuntu" \
+			fogg env chexec "$(_ubuntu_home)" \
+				make aws-fast
 
 ubuntu-golden-aws:
 	env FOGG_AMI=$(ubuntu_ami) \
