@@ -12,7 +12,7 @@ homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       f
 java           ${BLOCK_PATH}/java           git@github.com:imma/java           0fa6f7e9b2e748e4c87de15447b820a0152ca639 v20170617 
 pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         3199bee02c50352d9fd5851f17568267a30c4972 v20170617 
 python         ${BLOCK_PATH}/python         git@github.com:imma/python         ecd25a519ec83ccca9251f0a52b424e12384d307 v20170617 
-ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        f1b858ca144b7182cf3c43e2038b363b809823dd v20170617 
+ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        ed2b7c2ac947aff6c9b0f91995f67374be3568b6 v20170617 
 cache          ${BLOCK_PATH}/cache          git@github.com:imma/cache          ad401e5608e98edfc580834b64c210e1f268a1a9 v20170617 
 inventory      ${BLOCK_PATH}/inventory      git@github.com:imma/inventory      b7e8edce542330782d62d854b5acddf0e634aea9 v20170617 
 deploy         ${BLOCK_PATH}/deploy         git@github.com:imma/deploy         d9b1c780412f8d7758ec51aeedda5b6fbc193a7c v20170617 
@@ -41,7 +41,7 @@ parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         0
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 5fb8460a2f5990b200b5cd1d7e60976bbfa92f3d v20170617 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 84ebea9d1f83af7a9a96ee91c9a87863423bdd80 v20170617 
 docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         86fd356dd84107ddfda28be464e954d9d27599c4 v20170617 
-lxd            ${BLOCK_PATH}/lxd            git@github.com:imma/lxd            52504caed9e43c3100503992d17b642c344ed9ea v20170617 
+lxd            ${BLOCK_PATH}/lxd            git@github.com:imma/lxd            fe8f2e7ae40b0f73f748d702f4b435566fa9c07f v20170617 
 codecommit     ${BLOCK_PATH}/codecommit     git@github.com:imma/codecommit     8eec67a72c734a41bb194cd993c992d80a34e3df v20170617 
 buildkite      ${BLOCK_PATH}/buildkite      git@github.com:imma/buildkite      b1e27abbfe1e092bc3adeb0dabd678583bdcf74f v20170617 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            ba43458b97aef7991d1959d77faae1fda8e812ab v20170617 
