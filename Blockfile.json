@@ -9,6 +9,6 @@
     [ "ansible", "chef", "inspec", "kitchen" ],
     [ "monitor", "crypto", "ipfs", "home" ],
     [ "defn", "junas", "irssi", "cue", "example", "nothing" ],
-    [ "app" ]
+    [ "block", "app" ]
   ]
 }

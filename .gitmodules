@@ -314,3 +314,53 @@
 	path = work/lxd
 	url = git@github.com:imma/lxd
 	branch = v20170617
+[submodule "work/asciinema"]
+	path = work/asciinema
+	url = git@github.com:imma/asciinema
+	branch = v20170617
+[submodule "work/build"]
+	path = work/build
+	url = git@github.com:imma/build
+	branch = v20170617
+[submodule "work/docs"]
+	path = work/docs
+	url = git@github.com:imma/docs
+	branch = v20170617
+[submodule "work/dream"]
+	path = work/dream
+	url = git@github.com:imma/dream
+	branch = v20170617
+[submodule "work/fogg"]
+	path = work/fogg
+	url = git@github.com:imma/fogg
+	branch = v20170617
+[submodule "work/hugo"]
+	path = work/hugo
+	url = git@github.com:imma/hugo
+	branch = v20170617
+[submodule "work/inception"]
+	path = work/inception
+	url = git@github.com:imma/inception
+	branch = v20170617
+[submodule "work/jenkins"]
+	path = work/jenkins
+	url = git@github.com:imma/jenkins
+	branch = v20170617
+[submodule "work/limbo"]
+	path = work/limbo
+[submodule "work/packer"]
+	path = work/packer
+	url = git@github.com:imma/packer
+	branch = v20170617
+[submodule "work/terraform"]
+	path = work/terraform
+	url = git@github.com:imma/terraform
+	branch = v20170617
+[submodule "work/tfenv"]
+	path = work/tfenv
+	url = git@github.com:imma/tfenv
+	branch = v20170617
+[submodule "work/vagrant"]
+	path = work/vagrant
+	url = git@github.com:imma/vagrant
+	branch = v20170617
