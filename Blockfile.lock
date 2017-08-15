@@ -65,7 +65,7 @@ vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault   
 getssl             ${BLOCK_PATH}/getssl             git@github.com:imma/getssl             b98aa8e4e0b1168e627b17a718a5668391c5e81d v20170617 
 crypto             ${BLOCK_PATH}/crypto             git@github.com:imma/crypto             de271d2556cf20ffa3de947c4795e38aacaf5fc9 v20170617 
 ipfs               ${BLOCK_PATH}/ipfs               git@github.com:imma/ipfs               f1edb8a285370c12abb2bf4d4822e591d602279b v20170617 
-home               ${BLOCK_PATH}/home               git@github.com:imma/home               19133f23ec127d9d86c247ae56e54148bb7bcf3c v20170617 
+home               ${BLOCK_PATH}/home               git@github.com:imma/home               a6112361377be6867dda9d8af39945aaa423177c v20170617 
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             0a6478a6e005c859dea798f608a8381c044312b8 v20170617 
 defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               e87f7bcd6104f422bbfed648d4637dc994aca089 v20170617 
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              2ead0e38a547acfa79b3fe6b8f79bccf1629b1f6 v20170617 
