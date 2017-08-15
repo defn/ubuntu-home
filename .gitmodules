@@ -338,6 +338,10 @@
 	path = work/hugo
 	url = git@github.com:imma/hugo
 	branch = v20170617
+[submodule "work/hugo-material-docs"]
+	path = work/hugo-material-docs
+	url = git@github.com:imma/hugo-material-docs
+	branch = v20170617
 [submodule "work/inception"]
 	path = work/inception
 	url = git@github.com:imma/inception
