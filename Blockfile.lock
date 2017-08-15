@@ -47,7 +47,7 @@ buildkite          ${BLOCK_PATH}/buildkite          git@github.com:imma/buildkit
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                ba43458b97aef7991d1959d77faae1fda8e812ab v20170617 
 github             ${BLOCK_PATH}/github             git@github.com:imma/github             0d82b16507290b9192971a46951c8f73e9bcb5de v20170617 
 aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                6b24e2739561c94b6e302bc9702f4c1cc5736935 v20170617 
-awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            614eb205914ba8f24d52152749fb57887472a2da v20170617 
+awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            317376c82c9ae3cd695d4ee872c1a931ec4aec07 v20170617 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       c8c10bacee2d05105cd429cd2b03245962d6513c v20170617 
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              61e7699809859c08990ce541729ba446b2f49ba1 v20170617 
 imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               7eae136dd93fdac314ff7f83d34fba497b46831d v20170617 
