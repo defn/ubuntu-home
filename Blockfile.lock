@@ -50,7 +50,7 @@ aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws     
 awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            317376c82c9ae3cd695d4ee872c1a931ec4aec07 v20170617 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       c8c10bacee2d05105cd429cd2b03245962d6513c v20170617 
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              61e7699809859c08990ce541729ba446b2f49ba1 v20170617 
-imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               7eae136dd93fdac314ff7f83d34fba497b46831d v20170617 
+imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               12a9835673e323cf867ee7bb13a07e7722d29136 v20170617 
 chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               6347225f869231859fad4a78c29e767c506c1572 v20170617 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             f1b546fe85f60e243fa8ee5cb608d8ed9bad6c18 v20170617 
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            eccff396215599b021abb00f90b0264ebf90d0fb v20170617 
@@ -70,7 +70,7 @@ talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign  
 defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               e87f7bcd6104f422bbfed648d4637dc994aca089 v20170617 
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              2ead0e38a547acfa79b3fe6b8f79bccf1629b1f6 v20170617 
 irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              4b536c4d52bfcd8c3be2580a2d21df83a647c677 v20170617 
-cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue                ee5a8598aadd14ed6a908566ad39cd2d3e98f4be v20170617 
+cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue                21d49adc02fbcb17b7570a3932adb5eb38d8f561 v20170617 
 example            ${BLOCK_PATH}/example            git@github.com:imma/example            20fe3030063681895af3a3d8a5c3bfb22c809a3c v20170617 
 nothing            ${BLOCK_PATH}/nothing            git@github.com:imma/nothing            1e22377cb3dc2322321ddb9f2dda739463099ac5 v20170617 
 packer             ${BLOCK_PATH}/packer             git@github.com:imma/packer             46c945190d89c71f61703ef814d8a72f06591e6c v20170617 
