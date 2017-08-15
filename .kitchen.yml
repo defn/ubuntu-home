@@ -10,6 +10,7 @@ driver:
 
 transport:
   forward_agent: true
+  username: ubuntu
 
 provisioner:
   name: shell
@@ -48,3 +49,15 @@ suites:
       inspec_tests:
         - test/smoke/default
     attributes:
+  - name: aws
+    driver:
+      name: ec2
+      image_id: ami-1d4e7a66
+      interface: private_dns
+      aws_ssh_key_id: terraform-0061b86515b826cf28edd6f5c8
+      security_group_ids: [ sg-135b7c6c, sg-df587fa0, sg-aa5d5ed5 ]
+      subnet_id: subnet-e6a849bc
+      associate_public_ip: true
+      iam_profile_name: adm-admin-build
+    provisioner:
+      script: bootstrap-aws.sh
