@@ -40,15 +40,6 @@ suites:
       inspec_tests:
         - test/smoke/default
     attributes:
-  - name: digitalocean
-    driver:
-      name: digitalocean
-      region: sfo1
-      size: 512mb
-    verifier:
-      inspec_tests:
-        - test/smoke/default
-    attributes:
   - name: aws
     driver:
       name: ec2
