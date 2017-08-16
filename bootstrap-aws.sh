@@ -14,6 +14,7 @@ function main {
     $loader apt-get install -y nfs-common
     $loader mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 efs.adm.immanent.io:/ /mnt
   fi
+  $loader ln -nfs /mnt/data /data
 
   ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
 
@@ -70,4 +71,45 @@ function main {
   sync
 }
 
-main "$@"
+case "$(id -u -n)" in
+  root)
+    umask 022
+
+    cat > /etc/sudoers.d/90-cloud-init-users <<____EOF
+    # Created by cloud-init v. 0.7.9 on Fri, 21 Jul 2017 08:42:58 +0000
+    # User rules for ubuntu
+    ubuntu ALL=(ALL) NOPASSWD:ALL
+    vagrant ALL=(ALL) NOPASSWD:ALL
+____EOF
+
+    found_vagrant=
+    if [[ "$(id -u vagrant 2>/dev/null)" == "1000" ]]; then
+      userdel -f vagrant || true
+      found_vagrant=1
+    fi
+
+    if ! id -u -n ubuntu; then
+      useradd -m -s /bin/bash ubuntu
+    fi
+
+    if ! [[ -d ~ubuntu/.git ]]; then
+      rsync -ia /tmp/home/.git/. ~ubuntu/.git2/
+      chown -R ubuntu:ubuntu ~ubuntu
+    fi
+
+    mkdir -p ~ubuntu/.ssh
+    rsync -ia /tmp/home/.ssh/authorized_keys ~ubuntu/.ssh/
+    chown -R ubuntu:ubuntu ~ubuntu/.ssh
+    install -d -o ubuntu -g ubuntu /data /data/cache /data/git
+
+    if [[ -n "$found_vagrant" ]]; then
+      useradd -s /bin/bash vagrant || true
+      chown -R vagrant:vagrant ~vagrant /tmp/kitchen
+    fi
+
+    ssh -A -o BatchMode=yes -o StrictHostKeyChecking=no ubuntu@localhost "$0"
+    ;;
+  *)
+    main "$@"
+    ;;
+esac
