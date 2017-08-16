@@ -61,8 +61,11 @@ suites:
       name: docker
       image:  ubuntu:xenial
       require_chef_omnibus: false
+      use_sudo: false
+      username: ubuntu
+      build_context: false
       volume:
         - /data:/data
-        - /config:/data
+        - /config:/config
     provisioner:
       script: bootstrap-docker.sh

@@ -19,6 +19,14 @@ function main {
 
   if [[ ! -d .git || -f .bootstrapping ]]; then
     touch .bootstrapping
+
+    $loader apt-get install -y awscli
+    $loader dpkg --configure -a
+    $loader apt-get update
+    $loader apt-get install -y make python build-essential aptitude git rsync
+    $loader aptitude hold grub-legacy-ec2 docker-ce lxd
+    $loader apt-get upgrade -y
+
     ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
 
     tar xvfz /data/cache/git/ubuntu-v20170616.tar.gz
@@ -36,12 +44,9 @@ function main {
     git submodule update --init || git submodule foreach 'git reset --hard; git clean -ffd'
     git submodule update --init
 
-    $loader apt-get install -y awscli
-    $loader dpkg --configure -a
-    $loader apt-get update
-    $loader apt-get install -y make python build-essential aptitude
-    $loader aptitude hold grub-legacy-ec2 docker-ce lxd
-    $loader apt-get upgrade -y
+    pushd work/base
+    script/bootstrap
+    popd
 
     rm -f .bootstrapping
   fi
@@ -74,6 +79,14 @@ function main {
 
 case "$(id -u -n)" in
   root)
+    umask 022
+
+    cat > /etc/sudoers.d/90-cloud-init-users <<____EOF
+    # Created by cloud-init v. 0.7.9 on Fri, 21 Jul 2017 08:42:58 +0000
+    # User rules for ubuntu
+    ubuntu ALL=(ALL) NOPASSWD:ALL
+____EOF
+
     ssh -A -o BatchMode=yes -o StrictHostKeyChecking=no ubuntu@localhost "$0"
     ;;
   *)
