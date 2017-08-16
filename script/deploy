@@ -51,7 +51,12 @@ function main {
 
   "$@" bin/home make cache
 
-  "$@" sudo dpkg --configure -a
+  while true; do
+    if "$@" sudo dpkg --configure -a; then
+      break
+    fi
+    sleep 5
+  done
   "$@" sudo apt-get update
   "$@" sudo $loader apt-get install -y make python build-essential aptitude
   "$@" sudo $loader aptitude hold grub-legacy-ec2 docker-ce lxd
