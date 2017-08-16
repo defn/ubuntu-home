@@ -9,8 +9,6 @@ function main {
   local nm_remote="gh"
   local url_remote="https://github.com/imma/ubuntu"
 
-  export DATA="/data"
-
   ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
 
   if [[ ! -d .git || -f .bootstrapping ]]; then

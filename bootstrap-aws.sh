@@ -9,7 +9,6 @@ function main {
   local nm_remote="gh"
   local url_remote="https://github.com/imma/ubuntu"
 
-  export DATA="/mnt/data"
   if [[ ! -d /mnt/data ]]; then
     $loader apt-get install -y nfs-common
     $loader mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 efs.adm.immanent.io:/ /mnt
