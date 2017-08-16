@@ -15,7 +15,7 @@ function main {
     touch .bootstrapping
     ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
 
-    tar xvfz ${DATA}/cache/git/ubuntu-v20170616.tar.gz
+    tar xvfz /data/cache/git/ubuntu-v20170616.tar.gz
     git reset --hard
     rsync -ia .gitconfig.template .gitconfig
 
