@@ -19,7 +19,7 @@ deploy             ${BLOCK_PATH}/deploy             git@github.com:imma/deploy  
 htop               ${BLOCK_PATH}/htop               git@github.com:imma/htop               971659b476f3d50c01a41ada5655d870237d1f67 v20170617 
 sysadmin           ${BLOCK_PATH}/sysadmin           git@github.com:imma/sysadmin           35fa59112f1dd2c42644aca49a90c130b8a8c4db v20170617 
 rbenv              ${BLOCK_PATH}/rbenv              git@github.com:imma/rbenv              15abbe88023c04be7670d55949e5c1ba44f81769 v20170617 
-ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby               3e6acd482d51824156ec7bf9110ea3182534f465 v20170617 
+ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby               ed4e7bc828c19f6ecb65212ddc293bda882e1af8 v20170617 
 curl               ${BLOCK_PATH}/curl               git@github.com:imma/curl               2372974d7dafe106435aebc57722c8a6ca17b15e v20170617 
 nvm                ${BLOCK_PATH}/nvm                git@github.com:imma/nvm                fd3f23a7a2129b375d2a871916e61232d026c43e v20170617 
 node               ${BLOCK_PATH}/node               git@github.com:imma/node               ca220e3d3a5174373756d4394b19cfa0aafc0e5c v20170617 
@@ -51,9 +51,9 @@ awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       c8c10bacee2d05105cd429cd2b03245962d6513c v20170617 
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              61e7699809859c08990ce541729ba446b2f49ba1 v20170617 
 imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               b7058ac7c3c17b183114b7b84e69a9bfa6ebe45f v20170617 
-chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               6347225f869231859fad4a78c29e767c506c1572 v20170617 
+chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               4d4d7092c0e9dfacfc441ff2ff4f06c70eeca895 v20170617 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             f1b546fe85f60e243fa8ee5cb608d8ed9bad6c18 v20170617 
-kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            eccff396215599b021abb00f90b0264ebf90d0fb v20170617 
+kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            69211fd0d522347735e8f4f312041c1f3ce87541 v20170617 
 netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            c480e644fbbee96119121a30a47693918f5af7e3 v20170617 
 monitor            ${BLOCK_PATH}/monitor            git@github.com:imma/monitor            819b20fe47584ce98ecfd650b79be5b95b91e276 v20170617 
 gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                47dec4cf01eeb9e1ac8f8da028f650f5083b3b16 v20170617 
