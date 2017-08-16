@@ -10,7 +10,7 @@ base               ${BLOCK_PATH}/base               git@github.com:imma/base    
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      d21d1048b153b4cd4ce1bbc654357ea5d6416776 v20170617 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           fefa3f9839ce7ddb195fb0e236f135107df038fa v20170617 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               329af97b48894b56819744b4fa2b09cb2695442f v20170617 
-pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             288f903aab9ed4a954042a9c20d080a493c1b72e v20170617 
+pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             a1464277169cd5682bfcc2a10acdf3498281cbc8 v20170617 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             ecd25a519ec83ccca9251f0a52b424e12384d307 v20170617 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            ed2b7c2ac947aff6c9b0f91995f67374be3568b6 v20170617 
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              ad401e5608e98edfc580834b64c210e1f268a1a9 v20170617 
