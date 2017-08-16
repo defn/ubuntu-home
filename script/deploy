@@ -55,7 +55,7 @@ function main {
     if "$@" sudo dpkg --configure -a; then
       break
     fi
-    sleep 1
+    sleep 5
   done
   "$@" sudo apt-get update
   "$@" sudo $loader apt-get install -y make python build-essential aptitude
