@@ -30,7 +30,7 @@ suites:
       network:
         - [ "private_network", { ip: "172.28.128.11" } ]
     provisioner:
-      script: bootstrap-shared.sh
+      script: bootstrap-vagrant.sh
     verifier:
       inspec_tests:
         - test/smoke/default
@@ -39,7 +39,7 @@ suites:
     driver:
       provider: vmware_fusion
     provisioner:
-      script: bootstrap-shared.sh
+      script: bootstrap-vagrant.sh
     verifier:
       inspec_tests:
         - test/smoke/default
@@ -56,3 +56,13 @@ suites:
       iam_profile_name: adm-admin-build
     provisioner:
       script: bootstrap-aws.sh
+  - name: docker
+    driver:
+      name: docker
+      image:  ubuntu:xenial
+      require_chef_omnibus: false
+      volume:
+        - /data:/data
+        - /config:/data
+    provisioner:
+      script: bootstrap-docker.sh
