@@ -21,7 +21,7 @@ function main {
     touch .bootstrapping
     ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
 
-    tar xvfz /mnt/data/cache/git/ubuntu-v20170616.tar.gz
+    tar xvfz ${DATA}/cache/git/ubuntu-v20170616.tar.gz
     git reset --hard
     rsync -ia .gitconfig.template .gitconfig
 
@@ -59,12 +59,9 @@ function main {
   require
   set -x
 
-  echo 'export DATA="/mnt/data"' >> work/site/script/profile
-
   chmod 700 .gnupg
   chmod 600 .ssh/config
 
-  ssh-add -l
   git fetch
   git reset --hard
   git clean -ffd

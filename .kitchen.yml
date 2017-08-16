@@ -29,6 +29,8 @@ suites:
       provider: virtualbox
       network:
         - [ "private_network", { ip: "172.28.128.11" } ]
+    provisioner:
+      script: bootstrap-shared.sh
     verifier:
       inspec_tests:
         - test/smoke/default
@@ -36,6 +38,8 @@ suites:
   - name: vmware
     driver:
       provider: vmware_fusion
+    provisioner:
+      script: bootstrap-shared.sh
     verifier:
       inspec_tests:
         - test/smoke/default
