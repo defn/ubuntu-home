@@ -29,8 +29,8 @@ custom_js  = []
 highlight_css  = ""
 
 [params.palette]
-primary = "red"
-accent  = "teal"
+primary = "teal"
+accent  = "blue"
 
 [params.font]
 text = "Ubuntu"
