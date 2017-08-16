@@ -79,7 +79,6 @@
 /.pydistutils.cfg
 
 # docs
-/themes
 /public
 
 # more ignores on osx
