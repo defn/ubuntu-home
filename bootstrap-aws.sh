@@ -11,6 +11,7 @@ function main {
 
   export DATA="/mnt/data"
   if [[ ! -d /mnt/data ]]; then
+    $loader apt-get install -y nfs-common
     $loader mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 efs.adm.immanent.io:/ /mnt
   fi
 
@@ -41,30 +42,28 @@ function main {
     $loader aptitude hold grub-legacy-ec2 docker-ce lxd
     $loader apt-get upgrade -y
 
-    work/base/script/bootstrap
-    work/jq/script/bootstrap
-    work/block/script/cibuild
-    set +x
-    source work/block/script/profile ~
-    set -x
-    make cache
-    set +x
-    require
-    set -x
-    echo 'export DATA="/mnt/data"' >> work/site/script/profile
-
-    chmod 700 .gnupg
-    chmod 600 .ssh/config
     rm -f .bootstrapping
   fi
+
+  work/base/script/bootstrap
+  work/jq/script/bootstrap
+  work/block/script/cibuild
 
   set +x
   source work/block/script/profile ~
   set -x
+
   make cache
+
   set +x
   require
   set -x
+
+  echo 'export DATA="/mnt/data"' >> work/site/script/profile
+
+  chmod 700 .gnupg
+  chmod 600 .ssh/config
+
   ssh-add -l
   git fetch
   git reset --hard
