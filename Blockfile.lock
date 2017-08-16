@@ -9,7 +9,7 @@ instance           ${BLOCK_PATH}/instance           git@github.com:imma/instance
 base               ${BLOCK_PATH}/base               git@github.com:imma/base               89df8f16b47fd1bb80e0919282632a8ba85bdfd5 v20170617 
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      d21d1048b153b4cd4ce1bbc654357ea5d6416776 v20170617 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           fefa3f9839ce7ddb195fb0e236f135107df038fa v20170617 
-java               ${BLOCK_PATH}/java               git@github.com:imma/java               0fa6f7e9b2e748e4c87de15447b820a0152ca639 v20170617 
+java               ${BLOCK_PATH}/java               git@github.com:imma/java               329af97b48894b56819744b4fa2b09cb2695442f v20170617 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             288f903aab9ed4a954042a9c20d080a493c1b72e v20170617 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             ecd25a519ec83ccca9251f0a52b424e12384d307 v20170617 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            ed2b7c2ac947aff6c9b0f91995f67374be3568b6 v20170617 
@@ -43,7 +43,7 @@ docker-machine     ${BLOCK_PATH}/docker-machine     git@github.com:imma/docker-m
 docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             86fd356dd84107ddfda28be464e954d9d27599c4 v20170617 
 lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                fe8f2e7ae40b0f73f748d702f4b435566fa9c07f v20170617 
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         8eec67a72c734a41bb194cd993c992d80a34e3df v20170617 
-buildkite          ${BLOCK_PATH}/buildkite          git@github.com:imma/buildkite          b1e27abbfe1e092bc3adeb0dabd678583bdcf74f v20170617 
+buildkite          ${BLOCK_PATH}/buildkite          git@github.com:imma/buildkite          d6dadc00d98a288cf55c9d4980327edad72d8376 v20170617 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                ba43458b97aef7991d1959d77faae1fda8e812ab v20170617 
 github             ${BLOCK_PATH}/github             git@github.com:imma/github             0d82b16507290b9192971a46951c8f73e9bcb5de v20170617 
 aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                6b24e2739561c94b6e302bc9702f4c1cc5736935 v20170617 
