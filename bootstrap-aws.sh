@@ -28,6 +28,7 @@ function main {
 
     git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
     git remote set-url "${nm_remote}" "${url_remote}"
+    rm -f .ssh/config
     git fetch "${nm_remote}"
     git branch -D "${nm_remote}/$nm_branch" || true
     git branch --set-upstream-to "${nm_remote}/$nm_branch"
@@ -60,6 +61,7 @@ function main {
   require
   set -x
 
+  git reset --hard
   chmod 700 .gnupg
   chmod 600 .ssh/config
 
