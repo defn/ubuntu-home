@@ -43,7 +43,7 @@ docker-machine     ${BLOCK_PATH}/docker-machine     git@github.com:imma/docker-m
 docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             86fd356dd84107ddfda28be464e954d9d27599c4 v20170617 
 lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                fe8f2e7ae40b0f73f748d702f4b435566fa9c07f v20170617 
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         8eec67a72c734a41bb194cd993c992d80a34e3df v20170617 
-buildkite          ${BLOCK_PATH}/buildkite          git@github.com:imma/buildkite          d6dadc00d98a288cf55c9d4980327edad72d8376 v20170617 
+concourse          ${BLOCK_PATH}/concourse          git@github.com:imma/concourse          2a650be6c2497e19a2c676b87572386608a77b9d v20170617 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                ba43458b97aef7991d1959d77faae1fda8e812ab v20170617 
 github             ${BLOCK_PATH}/github             git@github.com:imma/github             0d82b16507290b9192971a46951c8f73e9bcb5de v20170617 
 aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                6b24e2739561c94b6e302bc9702f4c1cc5736935 v20170617 

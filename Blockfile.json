@@ -4,7 +4,7 @@
     [ "ruby", "python", "node", "yarn", "java", "bash4", "jqq" ],
     [ "sshd", "consul-agent", "etcd", "linkerd", "caddy", "syslog-ng" ],
     [ "docker", "lxd" ],
-    [ "codecommit", "buildkite", "github" ],
+    [ "codecommit", "concourse", "github" ],
     [ "cloud", "imma" ],
     [ "ansible", "chef", "inspec", "kitchen" ],
     [ "monitor", "crypto", "ipfs", "home" ],
