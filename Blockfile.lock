@@ -50,7 +50,7 @@ aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws     
 awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            317376c82c9ae3cd695d4ee872c1a931ec4aec07 v20170617 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       c8c10bacee2d05105cd429cd2b03245962d6513c v20170617 
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              61e7699809859c08990ce541729ba446b2f49ba1 v20170617 
-imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               77759e703b7f20e482e6e7b4aea681e664d72a2f v20170617 
+imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               da463a0788ac3d28651728f52e3ae96d4bcde6f7 v20170617 
 chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               6ac90e8801d74f0234702cd89bebc4b9636b8991 v20170617 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             f1b546fe85f60e243fa8ee5cb608d8ed9bad6c18 v20170617 
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            02b03e867080187055c14c31151be6d3d5c2ec79 v20170617 
@@ -61,9 +61,8 @@ git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-cryp
 go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 4945ba51fbc7d11be14f1a815a914ce8999c6d42 v20170617 
 cfssl              ${BLOCK_PATH}/cfssl              git@github.com:imma/cfssl              538e1d5599190ffaab59a40086a307023f4bb0d9 v20170617 
 credstash          ${BLOCK_PATH}/credstash          git@github.com:imma/credstash          806d66b4ed52351e39cc092e7d5207341fb42f99 v20170617 
-vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault              df74a8829176322f4c927fb8af3b95dc96947dae v20170617 
 getssl             ${BLOCK_PATH}/getssl             git@github.com:imma/getssl             b98aa8e4e0b1168e627b17a718a5668391c5e81d v20170617 
-crypto             ${BLOCK_PATH}/crypto             git@github.com:imma/crypto             de271d2556cf20ffa3de947c4795e38aacaf5fc9 v20170617 
+crypto             ${BLOCK_PATH}/crypto             git@github.com:imma/crypto             4f7d862b533513eb689a8b1710119bc78c05f493 v20170617 
 ipfs               ${BLOCK_PATH}/ipfs               git@github.com:imma/ipfs               f1edb8a285370c12abb2bf4d4822e591d602279b v20170617 
 home               ${BLOCK_PATH}/home               git@github.com:imma/home               b482c83014aec811e7eb50326c1e06537381d2c8 v20170617 
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             0a6478a6e005c859dea798f608a8381c044312b8 v20170617 
