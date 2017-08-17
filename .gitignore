@@ -149,3 +149,5 @@ npm-debug*
 /.ipfs
 /.awsvault
 /bin/docker
+/.psql_history
+/.flyrc

@@ -42,7 +42,7 @@ docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-c
 docker-machine     ${BLOCK_PATH}/docker-machine     git@github.com:imma/docker-machine     84ebea9d1f83af7a9a96ee91c9a87863423bdd80 v20170617 
 docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             86fd356dd84107ddfda28be464e954d9d27599c4 v20170617 
 lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                fe8f2e7ae40b0f73f748d702f4b435566fa9c07f v20170617 
-postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgresql         3de1fb27c396445e26dad9665f11ea2f14965a3d v20170617 
+postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgresql         710057dbc176138ccd4ccba541d9c7af68e74e03 v20170617 
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         8eec67a72c734a41bb194cd993c992d80a34e3df v20170617 
 concourse          ${BLOCK_PATH}/concourse          git@github.com:imma/concourse          0bc73993832ee4a197ca5eed3f9ba0d2f6382df4 v20170617 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                ba43458b97aef7991d1959d77faae1fda8e812ab v20170617 
