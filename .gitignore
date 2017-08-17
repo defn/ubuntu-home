@@ -148,3 +148,4 @@
 npm-debug*
 /.ipfs
 /.awsvault
+/bin/docker
