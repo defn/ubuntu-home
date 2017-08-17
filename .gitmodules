@@ -368,3 +368,11 @@
 	path = work/postgresql
 	url = git@github.com:imma/postgresql
 	branch = v20170617
+[submodule "work/chat"]
+	path = work/chat
+	url = git@github.com:imma/chat
+	branch = v20170617
+[submodule "work/bitlbee"]
+	path = work/bitlbee
+	url = git@github.com:imma/bitlbee
+	branch = v20170617

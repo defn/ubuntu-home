@@ -7,8 +7,9 @@
     [ "codecommit", "concourse", "github" ],
     [ "cloud", "imma" ],
     [ "ansible", "chef", "inspec", "kitchen" ],
-    [ "monitor", "crypto", "ipfs", "home" ],
-    [ "defn", "junas", "irssi", "cue", "example", "nothing" ],
-    [ "build", "app" ]
+    [ "monitor", "crypto", "build" ],
+    [ "home", "defn", "junas", "chat", "cue" ],
+    [ "example", "nothing", "app" ],
+    [ "ipfs" ]
   ]
 }
