@@ -79,7 +79,7 @@ asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinem
 docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               011b83065d24a2c078c8bd2a4daa0976f2cd6dd5 v20170617 
 jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins            89888e84d252b51999069abc39730014983b6135 v20170617 
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              3319bd1c190c8243ab3a5fc0f37c67c225b9b696 v20170617 
-home               ${BLOCK_PATH}/home               git@github.com:imma/home               b482c83014aec811e7eb50326c1e06537381d2c8 v20170617 
+home               ${BLOCK_PATH}/home               git@github.com:imma/home               0858fd1a5a393171298a03fd481c240c42bec977 v20170617 
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             0a6478a6e005c859dea798f608a8381c044312b8 v20170617 
 defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               139c5ca8b1dd1df9382f2dcee80683aa3a552b4c v20170617 
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              2ead0e38a547acfa79b3fe6b8f79bccf1629b1f6 v20170617 
