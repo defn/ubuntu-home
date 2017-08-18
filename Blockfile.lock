@@ -51,7 +51,7 @@ aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws     
 awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            317376c82c9ae3cd695d4ee872c1a931ec4aec07 v20170617 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       c8c10bacee2d05105cd429cd2b03245962d6513c v20170617 
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              61e7699809859c08990ce541729ba446b2f49ba1 v20170617 
-imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               da463a0788ac3d28651728f52e3ae96d4bcde6f7 v20170617 
+imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               e75291d472c2e47bf21c01565fb2b49c14787c91 v20170617 
 chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               6ac90e8801d74f0234702cd89bebc4b9636b8991 v20170617 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             f1b546fe85f60e243fa8ee5cb608d8ed9bad6c18 v20170617 
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            02b03e867080187055c14c31151be6d3d5c2ec79 v20170617 
@@ -71,7 +71,7 @@ limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo   
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          c2c493a30cc116f82ef47d1ae3af37f8ea8393b9 v20170617 
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              6d81c41975860aaec5ac8c27c4bfe48ae0032937 v20170617 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          a6a12186825094b70c5fdf219e5dc275aed64be3 v20170617 
-fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           6262ee1b01bafa17af179da1e09e11466abe172c v20170617 
+fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           0df774c5f388784f40ee852c979ad450d8c92d04 v20170617 
 fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               00b73d8469f558ae9ba8054831405a824246a6a3 v20170617 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               7a1f47399c65f1611fd0a7fb81ccdf8ac351a3a4 v20170617 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs ac892246c5130c554d4109b2929e5c5db46f5c1b v20170617 
