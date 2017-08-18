@@ -1,9 +1,11 @@
-baseurl = "http://docs.nih/ubuntu/"
+baseurl = "http://localhost:1313"
 languageCode = "en-us"
 title = "ubuntu block"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
 canonifyurls = true
+relativeURLS = true
+contentDir = ".content"
 
 [params]
 # General information
