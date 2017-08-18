@@ -41,7 +41,20 @@ function main {
     git branch --set-upstream-to "${nm_remote}/$nm_branch"
     git reset --hard "${nm_remote}/${nm_branch}"
     git checkout "${nm_branch}" 
-    git submodule update --init || git submodule foreach 'git reset --hard; git clean -ffd'
+    if ! git submodule update --init; then
+      set +f
+      for a in work/*/; do
+        a="${a%/}"
+        if [[ ! -L "$a" ]]; then
+          if ! git submodule update --init "$a"; then
+            rm -rf ".git/modules/$a" "$a"
+            git submodule update --init "$a"
+          fi
+        fi
+      done
+      set -f
+      git submodule foreach 'git reset --hard; git clean -ffd'
+    fi
     git submodule update --init
 
     pushd work/base
