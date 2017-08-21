@@ -25,7 +25,7 @@ nvm                ${BLOCK_PATH}/nvm                git@github.com:imma/nvm     
 node               ${BLOCK_PATH}/node               git@github.com:imma/node               ca220e3d3a5174373756d4394b19cfa0aafc0e5c v20170617 
 yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               607ce0fff249ae33b4ac649f73762430d730890a v20170617 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              05cf9222fc5aa954822ca75345b9f276db4a38b6 v20170617 
-jqq                ${BLOCK_PATH}/jqq                git@github.com:imma/jqq                e16a762008c9f06c9093d7694e5f8fcee01e0a39 v20170617 
+jqq                ${BLOCK_PATH}/jqq                git@github.com:imma/jqq                df36b59b41083fc91b71e90aa9f9799c7268d596 v20170617 
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              684bc2d3688fb466b763053929b1dff0367dce8c v20170617 
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            da337b93966afa73d500a47dde7fac0fe0b4d8f0 v20170617 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               8841803c46e4c6eff510962fd88efc47008987a2 v20170617 
