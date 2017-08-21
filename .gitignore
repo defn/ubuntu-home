@@ -151,3 +151,4 @@ npm-debug*
 /bin/docker
 /.psql_history
 /.flyrc
+/Parallels

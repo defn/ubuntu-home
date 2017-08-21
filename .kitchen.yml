@@ -26,6 +26,12 @@ suites:
   provisioner: {script: bootstrap-vagrant.sh}
   verifier:
     inspec_tests: [test/smoke/default]
+- attributes: null
+  driver: {provider: parallels}
+  name: parallels
+  provisioner: {script: bootstrap-vagrant.sh}
+  verifier:
+    inspec_tests: [test/smoke/default]
 - driver:
     associate_public_ip: true
     aws_ssh_key_id: terraform-0061b86515b826cf28edd6f5c8
