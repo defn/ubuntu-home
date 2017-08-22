@@ -74,7 +74,7 @@ terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terrafor
 fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           1bb742aae5a5a03e9d8e9505caa2d1995d8505d6 v20170617 
 fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               b2dfaf9e878ac67758091b6821ee00e03f11532d v20170617 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               7a1f47399c65f1611fd0a7fb81ccdf8ac351a3a4 v20170617 
-hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs ac892246c5130c554d4109b2929e5c5db46f5c1b v20170617 
+hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 86de5113d40af237c504a6f28680a692b95b2237 v20170617 
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          9653d18ba8ab62a71819ebbfe86c1703246354e9 v20170617 
 docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               011b83065d24a2c078c8bd2a4daa0976f2cd6dd5 v20170617 
 jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins            89888e84d252b51999069abc39730014983b6135 v20170617 
