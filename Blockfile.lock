@@ -82,7 +82,7 @@ build              ${BLOCK_PATH}/build              git@github.com:imma/build   
 home               ${BLOCK_PATH}/home               git@github.com:imma/home               6d0ed1668d61f9534f1f509fc330708602e918c4 v20170617 
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             0a6478a6e005c859dea798f608a8381c044312b8 v20170617 
 defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               139c5ca8b1dd1df9382f2dcee80683aa3a552b4c v20170617 
-junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              2ead0e38a547acfa79b3fe6b8f79bccf1629b1f6 v20170617 
+junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              8307504bca33ef767d2e90d1025664810a42e6c6 v20170617 
 irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              4b536c4d52bfcd8c3be2580a2d21df83a647c677 v20170617 
 bitlbee            ${BLOCK_PATH}/bitlbee            git@github.com:imma/bitlbee            a4f72c36d541cf6d92ca3bfe5ab1708a81de935d v20170617 
 chat               ${BLOCK_PATH}/chat               git@github.com:imma/chat               f3fd371653189b5c74759988a8e18dac02217742 v20170617 
