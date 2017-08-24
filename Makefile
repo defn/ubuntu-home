@@ -89,7 +89,7 @@ aws-image-fr-fast:
 aws-continue-fr:
 	script/deploy van vagrant ssh --
 	van vagrant ssh -- $(shell aws ecr get-login --no-include-email)
-	${FOGG_EMBED_CONTAINER} van vagrant ssh -- script/deploy container
+	ddlock enter ubuntu ami ${FOGG_EMBED_CONTAINER} van vagrant ssh -- script/deploy container
 
 reuse-aws:
 	env FOGG_AMI=$(ubuntu_ami) van reuse ubuntu
