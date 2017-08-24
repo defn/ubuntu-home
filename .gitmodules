@@ -338,10 +338,6 @@
 	path = work/inception
 	url = git@github.com:imma/inception
 	branch = v20170617
-[submodule "work/jenkins"]
-	path = work/jenkins
-	url = git@github.com:imma/jenkins
-	branch = v20170617
 [submodule "work/limbo"]
 	path = work/limbo
 [submodule "work/packer"]
