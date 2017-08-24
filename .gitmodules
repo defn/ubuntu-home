@@ -376,3 +376,7 @@
 	path = work/fogg-cli
 	url = git@github.com:imma/fogg-cli
 	branch = v20170617
+[submodule "work/lock"]
+	path = work/lock
+	url = git@github.com:imma/lock
+	branch = v20170617

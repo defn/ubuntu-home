@@ -90,3 +90,4 @@ example            ${BLOCK_PATH}/example            git@github.com:imma/example 
 nothing            ${BLOCK_PATH}/nothing            git@github.com:imma/nothing            1e22377cb3dc2322321ddb9f2dda739463099ac5 v20170617 
 app                ${BLOCK_PATH}/app                git@github.com:imma/app                387e50f26e7a4a8652a61a6652569f41a030c0be v20170617 
 ipfs               ${BLOCK_PATH}/ipfs               git@github.com:imma/ipfs               f1edb8a285370c12abb2bf4d4822e591d602279b v20170617 
+lock               ${BLOCK_PATH}/lock               git@github.com:imma/lock               c41983daaebdfc6aaa23df2eb244ca3034660a81 v20170617 
