@@ -155,3 +155,4 @@ npm-debug*
 /.parallel
 /.aqq
 /go
+/bin/goat
