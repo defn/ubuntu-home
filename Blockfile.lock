@@ -40,7 +40,7 @@ context            ${BLOCK_PATH}/context            git@github.com:imma/context 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             07caabe2d5d14aab4cfbd861995adf44fd4fd8b0 v20170617 
 docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     5fb8460a2f5990b200b5cd1d7e60976bbfa92f3d v20170617 
 docker-machine     ${BLOCK_PATH}/docker-machine     git@github.com:imma/docker-machine     84ebea9d1f83af7a9a96ee91c9a87863423bdd80 v20170617 
-docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             22b657cb77e0dd7b03f64b7743a0452b05a84636 v20170617 
+docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             51d10eec48c1f94d951924053749f718e41ffbe9 v20170617 
 lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                0eb28832456b7d45a54b79850631710d295cc69b v20170617 
 postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgresql         710057dbc176138ccd4ccba541d9c7af68e74e03 v20170617 
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         8eec67a72c734a41bb194cd993c992d80a34e3df v20170617 
