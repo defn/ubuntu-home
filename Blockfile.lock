@@ -32,7 +32,7 @@ sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd    
 facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts              d0c788bbf95ca7db87bde6e13eabd893be522129 v20170617 
 consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             7dc8d95680b79c775f04b375466ee033c3534a1b v20170617 
 consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       f26e57866055471b7c9d441bb514c889a5818cc9 v20170617 
-etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               2a3ddd9c34383728400c43208b5de99b0a74eeb1 v20170617 
+etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               93f9c7c3d2d66c3a03d56aa181ee8ccda5196186 v20170617 
 linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            44b35dbfd3fdc9397163715e54cc323943d444fc v20170617 
 caddy              ${BLOCK_PATH}/caddy              git@github.com:imma/caddy              373b52ea8b9faa82cf3ad29b2859f4f5144d3af8 v20170617 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          a04ac0a0941f8f3b566a811ca2219707b52ba5b1 v20170617 
@@ -44,10 +44,9 @@ docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker  
 lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                fe8f2e7ae40b0f73f748d702f4b435566fa9c07f v20170617 
 postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgresql         710057dbc176138ccd4ccba541d9c7af68e74e03 v20170617 
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         8eec67a72c734a41bb194cd993c992d80a34e3df v20170617 
-concourse          ${BLOCK_PATH}/concourse          git@github.com:imma/concourse          0bc73993832ee4a197ca5eed3f9ba0d2f6382df4 v20170617 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                ba43458b97aef7991d1959d77faae1fda8e812ab v20170617 
 github             ${BLOCK_PATH}/github             git@github.com:imma/github             0d82b16507290b9192971a46951c8f73e9bcb5de v20170617 
-aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                6b24e2739561c94b6e302bc9702f4c1cc5736935 v20170617 
+aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                976ea7183eb16cc51e2f244c18b2ebfe5302749f v20170617 
 awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            317376c82c9ae3cd695d4ee872c1a931ec4aec07 v20170617 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       c8c10bacee2d05105cd429cd2b03245962d6513c v20170617 
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              61e7699809859c08990ce541729ba446b2f49ba1 v20170617 
@@ -77,8 +76,8 @@ hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo    
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 86de5113d40af237c504a6f28680a692b95b2237 v20170617 
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          9653d18ba8ab62a71819ebbfe86c1703246354e9 v20170617 
 docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               011b83065d24a2c078c8bd2a4daa0976f2cd6dd5 v20170617 
-jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins            89888e84d252b51999069abc39730014983b6135 v20170617 
-build              ${BLOCK_PATH}/build              git@github.com:imma/build              3319bd1c190c8243ab3a5fc0f37c67c225b9b696 v20170617 
+concourse          ${BLOCK_PATH}/concourse          git@github.com:imma/concourse          0bc73993832ee4a197ca5eed3f9ba0d2f6382df4 v20170617 
+build              ${BLOCK_PATH}/build              git@github.com:imma/build              6474aad104b072ad344f8c6fe6bffe4a2aa554b8 v20170617 
 home               ${BLOCK_PATH}/home               git@github.com:imma/home               6d0ed1668d61f9534f1f509fc330708602e918c4 v20170617 
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             0a6478a6e005c859dea798f608a8381c044312b8 v20170617 
 defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               139c5ca8b1dd1df9382f2dcee80683aa3a552b4c v20170617 
