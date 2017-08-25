@@ -380,3 +380,7 @@
 	path = work/lock
 	url = git@github.com:imma/lock
 	branch = v20170617
+[submodule "work/bless"]
+	path = work/bless
+	url = git@github.com:imma/bless
+	branch = v20170617
