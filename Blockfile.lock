@@ -70,7 +70,7 @@ limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo   
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          c2c493a30cc116f82ef47d1ae3af37f8ea8393b9 v20170617 
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              6d81c41975860aaec5ac8c27c4bfe48ae0032937 v20170617 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          a6a12186825094b70c5fdf219e5dc275aed64be3 v20170617 
-fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           5f7c4660e10b992f3079a171402030c5288cdc12 v20170617 
+fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           65226c416c5e51433bfd550a8e2542b3e4ca9683 v20170617 
 fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               9d9c6afc7b8265bd85007963fcd6a3aa4eac0bf4 v20170617 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               7a1f47399c65f1611fd0a7fb81ccdf8ac351a3a4 v20170617 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 86de5113d40af237c504a6f28680a692b95b2237 v20170617 
@@ -90,4 +90,4 @@ example            ${BLOCK_PATH}/example            git@github.com:imma/example 
 nothing            ${BLOCK_PATH}/nothing            git@github.com:imma/nothing            1e22377cb3dc2322321ddb9f2dda739463099ac5 v20170617 
 app                ${BLOCK_PATH}/app                git@github.com:imma/app                387e50f26e7a4a8652a61a6652569f41a030c0be v20170617 
 ipfs               ${BLOCK_PATH}/ipfs               git@github.com:imma/ipfs               f1edb8a285370c12abb2bf4d4822e591d602279b v20170617 
-lock               ${BLOCK_PATH}/lock               git@github.com:imma/lock               184b6d46269371109a585a78e9fe544220cc9962 v20170617 
+lock               ${BLOCK_PATH}/lock               git@github.com:imma/lock               fc412318146fe9d4e59b7e44e870bef519496c31 v20170617 
