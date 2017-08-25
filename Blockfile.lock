@@ -11,7 +11,7 @@ ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-c
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           fefa3f9839ce7ddb195fb0e236f135107df038fa v20170617 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               329af97b48894b56819744b4fa2b09cb2695442f v20170617 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             a1464277169cd5682bfcc2a10acdf3498281cbc8 v20170617 
-python             ${BLOCK_PATH}/python             git@github.com:imma/python             ecd25a519ec83ccca9251f0a52b424e12384d307 v20170617 
+python             ${BLOCK_PATH}/python             git@github.com:imma/python             9a8d465460435cd012811f7f6af330c399b03699 v20170617 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            ed2b7c2ac947aff6c9b0f91995f67374be3568b6 v20170617 
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              01244b6fc0898b5380ddfc1e8e2a2c889deaac20 v20170617 
 inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          b7e8edce542330782d62d854b5acddf0e634aea9 v20170617 
@@ -91,3 +91,4 @@ nothing            ${BLOCK_PATH}/nothing            git@github.com:imma/nothing 
 app                ${BLOCK_PATH}/app                git@github.com:imma/app                387e50f26e7a4a8652a61a6652569f41a030c0be v20170617 
 ipfs               ${BLOCK_PATH}/ipfs               git@github.com:imma/ipfs               f1edb8a285370c12abb2bf4d4822e591d602279b v20170617 
 lock               ${BLOCK_PATH}/lock               git@github.com:imma/lock               fc412318146fe9d4e59b7e44e870bef519496c31 v20170617 
+bless              ${BLOCK_PATH}/bless              git@github.com:imma/bless              d9b2b9b6daff0129f8f4ec05eb409bf981a80aff v20170617 

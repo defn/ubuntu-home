@@ -156,3 +156,4 @@ npm-debug*
 /.aqq
 /go
 /bin/goat
+/.bless
