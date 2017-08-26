@@ -46,7 +46,7 @@ postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgres
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         8eec67a72c734a41bb194cd993c992d80a34e3df v20170617 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                ba43458b97aef7991d1959d77faae1fda8e812ab v20170617 
 github             ${BLOCK_PATH}/github             git@github.com:imma/github             0d82b16507290b9192971a46951c8f73e9bcb5de v20170617 
-aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                976ea7183eb16cc51e2f244c18b2ebfe5302749f v20170617 
+aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                2adc2402dc1266e0c8f3a417a2f669401f29b378 v20170617 
 awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            317376c82c9ae3cd695d4ee872c1a931ec4aec07 v20170617 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       c8c10bacee2d05105cd429cd2b03245962d6513c v20170617 
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              61e7699809859c08990ce541729ba446b2f49ba1 v20170617 
@@ -58,7 +58,7 @@ netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata 
 monitor            ${BLOCK_PATH}/monitor            git@github.com:imma/monitor            819b20fe47584ce98ecfd650b79be5b95b91e276 v20170617 
 gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                47dec4cf01eeb9e1ac8f8da028f650f5083b3b16 v20170617 
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          4996825cc917730980ba953cd10e85212b244bab v20170617 
-go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 4945ba51fbc7d11be14f1a815a914ce8999c6d42 v20170617 
+go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 bad586dd700daf468fc2cf9f4a0750f5fa8db74d v20170617 
 cfssl              ${BLOCK_PATH}/cfssl              git@github.com:imma/cfssl              538e1d5599190ffaab59a40086a307023f4bb0d9 v20170617 
 credstash          ${BLOCK_PATH}/credstash          git@github.com:imma/credstash          806d66b4ed52351e39cc092e7d5207341fb42f99 v20170617 
 getssl             ${BLOCK_PATH}/getssl             git@github.com:imma/getssl             b98aa8e4e0b1168e627b17a718a5668391c5e81d v20170617 
