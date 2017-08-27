@@ -384,3 +384,7 @@
 	path = work/bless
 	url = git@github.com:imma/bless
 	branch = v20170617
+[submodule "work/openvpn"]
+	path = work/openvpn
+	url = git@github.com:imma/openvpn
+	branch = v20170617
