@@ -388,3 +388,7 @@
 	path = work/openvpn
 	url = git@github.com:imma/openvpn
 	branch = v20170617
+[submodule "work/nat"]
+	path = work/nat
+	url = git@github.com:imma/nat
+	branch = v20170617
