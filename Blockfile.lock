@@ -28,7 +28,7 @@ bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4   
 jqq                ${BLOCK_PATH}/jqq                git@github.com:imma/jqq                0fc4031335b2cc363736887b7f4d3c54832a1136 v20170617 
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              684bc2d3688fb466b763053929b1dff0367dce8c v20170617 
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            da337b93966afa73d500a47dde7fac0fe0b4d8f0 v20170617 
-sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               a290598a2ebbee0ec2c92b2317ec5eda0e4405e7 v20170617 
+sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               8898dc0dec67f3b862c55a391445ff247172920a v20170617 
 facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts              d0c788bbf95ca7db87bde6e13eabd893be522129 v20170617 
 consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             7dc8d95680b79c775f04b375466ee033c3534a1b v20170617 
 consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       2b459385c37982ba42f7b94aad4f01f5a46fb964 v20170617 
@@ -78,7 +78,7 @@ asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinem
 docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               011b83065d24a2c078c8bd2a4daa0976f2cd6dd5 v20170617 
 concourse          ${BLOCK_PATH}/concourse          git@github.com:imma/concourse          0bc73993832ee4a197ca5eed3f9ba0d2f6382df4 v20170617 
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              6474aad104b072ad344f8c6fe6bffe4a2aa554b8 v20170617 
-home               ${BLOCK_PATH}/home               git@github.com:imma/home               6d0ed1668d61f9534f1f509fc330708602e918c4 v20170617 
+home               ${BLOCK_PATH}/home               git@github.com:imma/home               e39b102fd972bf339c1fe7ca3203bdc68b7abdf8 v20170617 
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             0a6478a6e005c859dea798f608a8381c044312b8 v20170617 
 defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               139c5ca8b1dd1df9382f2dcee80683aa3a552b4c v20170617 
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              8307504bca33ef767d2e90d1025664810a42e6c6 v20170617 
