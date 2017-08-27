@@ -28,10 +28,10 @@ bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4   
 jqq                ${BLOCK_PATH}/jqq                git@github.com:imma/jqq                0fc4031335b2cc363736887b7f4d3c54832a1136 v20170617 
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              684bc2d3688fb466b763053929b1dff0367dce8c v20170617 
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            da337b93966afa73d500a47dde7fac0fe0b4d8f0 v20170617 
-sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               8841803c46e4c6eff510962fd88efc47008987a2 v20170617 
+sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               a290598a2ebbee0ec2c92b2317ec5eda0e4405e7 v20170617 
 facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts              d0c788bbf95ca7db87bde6e13eabd893be522129 v20170617 
 consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             7dc8d95680b79c775f04b375466ee033c3534a1b v20170617 
-consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       f26e57866055471b7c9d441bb514c889a5818cc9 v20170617 
+consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       2b459385c37982ba42f7b94aad4f01f5a46fb964 v20170617 
 etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               93f9c7c3d2d66c3a03d56aa181ee8ccda5196186 v20170617 
 linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            44b35dbfd3fdc9397163715e54cc323943d444fc v20170617 
 caddy              ${BLOCK_PATH}/caddy              git@github.com:imma/caddy              373b52ea8b9faa82cf3ad29b2859f4f5144d3af8 v20170617 
