@@ -70,7 +70,7 @@ limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo   
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          c2c493a30cc116f82ef47d1ae3af37f8ea8393b9 v20170617  
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              6d81c41975860aaec5ac8c27c4bfe48ae0032937 v20170617  
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          a6a12186825094b70c5fdf219e5dc275aed64be3 v20170617  
-fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           d9020939a38351bc9bf37abe5e4ac8fca9d25ed3 v20170617  
+fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           47bdb15c4d9b1c1522a02da9cdda3a7df2ae24dc v20170617  
 fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               c17637f8e6591c28f1cc5ddfa0797e9043a44929 v20170617  
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               7a1f47399c65f1611fd0a7fb81ccdf8ac351a3a4 v20170617  
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 86de5113d40af237c504a6f28680a692b95b2237 v20170617  
