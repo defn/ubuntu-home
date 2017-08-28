@@ -15,7 +15,7 @@ python             ${BLOCK_PATH}/python             git@github.com:imma/python  
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            ed2b7c2ac947aff6c9b0f91995f67374be3568b6 v20170617  
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              01244b6fc0898b5380ddfc1e8e2a2c889deaac20 v20170617  
 inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          b7e8edce542330782d62d854b5acddf0e634aea9 v20170617  
-deploy             ${BLOCK_PATH}/deploy             git@github.com:imma/deploy             d9b1c780412f8d7758ec51aeedda5b6fbc193a7c v20170617  
+deploy             ${BLOCK_PATH}/deploy             git@github.com:imma/deploy             a1e0cd17bb5cd08e89475258c6768a93bb4fb12e v20170617  
 htop               ${BLOCK_PATH}/htop               git@github.com:imma/htop               971659b476f3d50c01a41ada5655d870237d1f67 v20170617  
 sysadmin           ${BLOCK_PATH}/sysadmin           git@github.com:imma/sysadmin           7d8c3419a142367f103c6979f10ddb0b126735be v20170617  
 rbenv              ${BLOCK_PATH}/rbenv              git@github.com:imma/rbenv              15abbe88023c04be7670d55949e5c1ba44f81769 v20170617  

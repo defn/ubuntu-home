@@ -1,2 +1,4 @@
 ---
-- hosts: all
+- hosts: all:!Tags_name_adm-admin-openvpn
+  roles:
+    - {  role: "{{deploy_role}}" }

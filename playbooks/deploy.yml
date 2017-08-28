@@ -1,4 +1,4 @@
 ---
 - hosts: vagrant:docker:localhost_all
   roles:
-    - {  role: ubuntu }
+    - {  role: "{{deploy_role}}" }
