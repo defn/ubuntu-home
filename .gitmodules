@@ -392,3 +392,6 @@
 	path = work/nat
 	url = git@github.com:imma/nat
 	branch = v20170617
+[submodule "work/easy-rsa"]
+	path = work/easy-rsa
+	url = git@github.com:imma/easy-rsa
