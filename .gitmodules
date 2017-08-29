@@ -395,3 +395,7 @@
 [submodule "work/easy-rsa"]
 	path = work/easy-rsa
 	url = git@github.com:imma/easy-rsa
+[submodule "work/kmsauth"]
+	path = work/kmsauth
+	url = git@github.com:imma/kmsauth
+	branch = v20170617

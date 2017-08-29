@@ -11,7 +11,7 @@ ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-c
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           fefa3f9839ce7ddb195fb0e236f135107df038fa v20170617  
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               329af97b48894b56819744b4fa2b09cb2695442f v20170617  
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             a1464277169cd5682bfcc2a10acdf3498281cbc8 v20170617  
-python             ${BLOCK_PATH}/python             git@github.com:imma/python             68cfc51681cb5cb6e09ec6a722baf92382d289a1 v20170617  
+python             ${BLOCK_PATH}/python             git@github.com:imma/python             0ab9ec9cc38e76d6242bf1f7e1e07e2496f3ffff v20170617  
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            ed2b7c2ac947aff6c9b0f91995f67374be3568b6 v20170617  
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              01244b6fc0898b5380ddfc1e8e2a2c889deaac20 v20170617  
 inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          b7e8edce542330782d62d854b5acddf0e634aea9 v20170617  
