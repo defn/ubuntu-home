@@ -1,3 +1,4 @@
+site               ${BLOCK_PATH}/site               git@github.com:imma/site               9e1872ee35d4a6dddfdff44a14b3476bc1b33833 v20170617  
 jq                 ${BLOCK_PATH}/jq                 git@github.com:imma/jq                 939d2d22f8d6148d15476a839b8b80093bc390c2 v20170617  
 shflags            ${BLOCK_PATH}/shflags            git@github.com:imma/shflags            588c0b9025e37c34f082aea5a2caf7461f68ca11 v20170617  
 normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normalize          2d0271c9ce9cc2e5b92aae6f7cc56f8b4dbe6193 v20170617  
@@ -71,7 +72,7 @@ inception          ${BLOCK_PATH}/inception          git@github.com:imma/inceptio
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              6d81c41975860aaec5ac8c27c4bfe48ae0032937 v20170617  
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          a6a12186825094b70c5fdf219e5dc275aed64be3 v20170617  
 fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           47bdb15c4d9b1c1522a02da9cdda3a7df2ae24dc v20170617  
-fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               c17637f8e6591c28f1cc5ddfa0797e9043a44929 v20170617  
+fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               88b5aa6adff4a19075d89a493f5a4e2e5e200968 v20170617  
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               7a1f47399c65f1611fd0a7fb81ccdf8ac351a3a4 v20170617  
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 86de5113d40af237c504a6f28680a692b95b2237 v20170617  
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          9653d18ba8ab62a71819ebbfe86c1703246354e9 v20170617  
