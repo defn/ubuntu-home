@@ -1,3 +1,4 @@
+site               ${BLOCK_PATH}/site               git@github.com:imma/site               9e1872ee35d4a6dddfdff44a14b3476bc1b33833 v20170617 
 jq                 ${BLOCK_PATH}/jq                 git@github.com:imma/jq                 939d2d22f8d6148d15476a839b8b80093bc390c2 v20170617 
 shflags            ${BLOCK_PATH}/shflags            git@github.com:imma/shflags            588c0b9025e37c34f082aea5a2caf7461f68ca11 v20170617 
 normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normalize          2d0271c9ce9cc2e5b92aae6f7cc56f8b4dbe6193 v20170617 
@@ -92,7 +93,7 @@ app                ${BLOCK_PATH}/app                git@github.com:imma/app     
 ipfs               ${BLOCK_PATH}/ipfs               git@github.com:imma/ipfs               f1edb8a285370c12abb2bf4d4822e591d602279b v20170617 
 lock               ${BLOCK_PATH}/lock               git@github.com:imma/lock               fc412318146fe9d4e59b7e44e870bef519496c31 v20170617 
 bless              ${BLOCK_PATH}/bless              git@github.com:imma/bless              873ce7894e901a90cf621844b8643ecd080ebd64 v20170617 
-easy-rsa           ${BLOCK_PATH}/easy-rsa           git@github.com:imma/easy-rsa           ebe44357f2802930b6996abf1890c6f0a48e5c78 v20170617 
+easy-rsa           ${BLOCK_PATH}/easy-rsa           git@github.com:imma/easy-rsa           3ad6ebd83659a2be330d12d956b70cff9e9d496a v20170617 
 openvpn            ${BLOCK_PATH}/openvpn            git@github.com:imma/openvpn            982e1810171197e5bab41c3f06230b549a77febb v20170617 
 nat                ${BLOCK_PATH}/nat                git@github.com:imma/nat                7e94386beae0c94deff0a11c12a44c5d814c3b52 v20170617 
 kmsauth            ${BLOCK_PATH}/kmsauth            git@github.com:imma/kmsauth            a68926cf2f8f82ad937bc3ba03526b7c5bf727dd v20170617 
