@@ -34,7 +34,7 @@ consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul  
 consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       1476c7b530cb8df4656222b86b2d8a0d6967c1f3 v20170617 
 etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               93f9c7c3d2d66c3a03d56aa181ee8ccda5196186 v20170617 
 linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            44b35dbfd3fdc9397163715e54cc323943d444fc v20170617 
-caddy              ${BLOCK_PATH}/caddy              git@github.com:imma/caddy              373b52ea8b9faa82cf3ad29b2859f4f5144d3af8 v20170617 
+caddy              ${BLOCK_PATH}/caddy              git@github.com:imma/caddy              5ff755898b33417256fc23142c4fbfa6f915e04a v20170617 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          a04ac0a0941f8f3b566a811ca2219707b52ba5b1 v20170617 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            969fd3cb1259f4f81d5886cdbb8e6d6393d06b8c v20170617 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             07caabe2d5d14aab4cfbd861995adf44fd4fd8b0 v20170617 
