@@ -1,4 +1,3 @@
-site               ${BLOCK_PATH}/site               git@github.com:imma/site               9e1872ee35d4a6dddfdff44a14b3476bc1b33833 v20170617 
 jq                 ${BLOCK_PATH}/jq                 git@github.com:imma/jq                 939d2d22f8d6148d15476a839b8b80093bc390c2 v20170617 
 shflags            ${BLOCK_PATH}/shflags            git@github.com:imma/shflags            588c0b9025e37c34f082aea5a2caf7461f68ca11 v20170617 
 normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normalize          2d0271c9ce9cc2e5b92aae6f7cc56f8b4dbe6193 v20170617 
@@ -11,7 +10,7 @@ base               ${BLOCK_PATH}/base               git@github.com:imma/base    
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      d21d1048b153b4cd4ce1bbc654357ea5d6416776 v20170617 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           25730a9acb904040fbb469b18349054c5d74d1fc v20170617 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               329af97b48894b56819744b4fa2b09cb2695442f v20170617 
-pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             a1464277169cd5682bfcc2a10acdf3498281cbc8 v20170617 
+pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             86f382ed9f719c758b1ca3adb6e49e1d199e7ca9 v20170617 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             68cfc51681cb5cb6e09ec6a722baf92382d289a1 v20170617 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            ed2b7c2ac947aff6c9b0f91995f67374be3568b6 v20170617 
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              01244b6fc0898b5380ddfc1e8e2a2c889deaac20 v20170617 
@@ -35,14 +34,14 @@ consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul  
 consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       1476c7b530cb8df4656222b86b2d8a0d6967c1f3 v20170617 
 etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               93f9c7c3d2d66c3a03d56aa181ee8ccda5196186 v20170617 
 linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            44b35dbfd3fdc9397163715e54cc323943d444fc v20170617 
-caddy              ${BLOCK_PATH}/caddy              git@github.com:imma/caddy              373b52ea8b9faa82cf3ad29b2859f4f5144d3af8 v20170617 
+caddy              ${BLOCK_PATH}/caddy              git@github.com:imma/caddy              5ff755898b33417256fc23142c4fbfa6f915e04a v20170617 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          a04ac0a0941f8f3b566a811ca2219707b52ba5b1 v20170617 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            969fd3cb1259f4f81d5886cdbb8e6d6393d06b8c v20170617 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             07caabe2d5d14aab4cfbd861995adf44fd4fd8b0 v20170617 
 docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     5fb8460a2f5990b200b5cd1d7e60976bbfa92f3d v20170617 
 docker-machine     ${BLOCK_PATH}/docker-machine     git@github.com:imma/docker-machine     84ebea9d1f83af7a9a96ee91c9a87863423bdd80 v20170617 
-docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             51d10eec48c1f94d951924053749f718e41ffbe9 v20170617 
-lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                d88f0dbff2b5070cc03bca2eed773dc67097376e v20170617 
+docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             f78cf8340919eb959c7f7fc7d66593ed29b043d0 v20170617 
+lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                a698a179d9ee24a01753b9047c08ad0634cfcbd5 v20170617 
 postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgresql         710057dbc176138ccd4ccba541d9c7af68e74e03 v20170617 
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         8eec67a72c734a41bb194cd993c992d80a34e3df v20170617 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                ba43458b97aef7991d1959d77faae1fda8e812ab v20170617 
