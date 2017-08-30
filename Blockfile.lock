@@ -47,7 +47,7 @@ postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgres
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         8eec67a72c734a41bb194cd993c992d80a34e3df v20170617 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                ba43458b97aef7991d1959d77faae1fda8e812ab v20170617 
 github             ${BLOCK_PATH}/github             git@github.com:imma/github             0d82b16507290b9192971a46951c8f73e9bcb5de v20170617 
-aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                2adc2402dc1266e0c8f3a417a2f669401f29b378 v20170617 
+aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                4e83b833db02778b0ee548f09e87c2778288c9ec v20170617 
 awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            317376c82c9ae3cd695d4ee872c1a931ec4aec07 v20170617 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       c8c10bacee2d05105cd429cd2b03245962d6513c v20170617 
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              61e7699809859c08990ce541729ba446b2f49ba1 v20170617 
@@ -72,7 +72,7 @@ inception          ${BLOCK_PATH}/inception          git@github.com:imma/inceptio
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              6d81c41975860aaec5ac8c27c4bfe48ae0032937 v20170617 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          a6a12186825094b70c5fdf219e5dc275aed64be3 v20170617 
 fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           47bdb15c4d9b1c1522a02da9cdda3a7df2ae24dc v20170617 
-fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               88b5aa6adff4a19075d89a493f5a4e2e5e200968 v20170617 
+fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               d00a9e7ce31e6993c2ea115ee1e265e43197d4b5 v20170617 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               7a1f47399c65f1611fd0a7fb81ccdf8ac351a3a4 v20170617 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 86de5113d40af237c504a6f28680a692b95b2237 v20170617 
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          9653d18ba8ab62a71819ebbfe86c1703246354e9 v20170617 
