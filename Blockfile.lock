@@ -1,3 +1,4 @@
+site               ${BLOCK_PATH}/site               git@github.com:imma/site               9e1872ee35d4a6dddfdff44a14b3476bc1b33833 v20170617 
 jq                 ${BLOCK_PATH}/jq                 git@github.com:imma/jq                 939d2d22f8d6148d15476a839b8b80093bc390c2 v20170617 
 shflags            ${BLOCK_PATH}/shflags            git@github.com:imma/shflags            588c0b9025e37c34f082aea5a2caf7461f68ca11 v20170617 
 normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normalize          2d0271c9ce9cc2e5b92aae6f7cc56f8b4dbe6193 v20170617 
@@ -11,7 +12,7 @@ ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-c
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           25730a9acb904040fbb469b18349054c5d74d1fc v20170617 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               329af97b48894b56819744b4fa2b09cb2695442f v20170617 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             86f382ed9f719c758b1ca3adb6e49e1d199e7ca9 v20170617 
-python             ${BLOCK_PATH}/python             git@github.com:imma/python             68cfc51681cb5cb6e09ec6a722baf92382d289a1 v20170617 
+python             ${BLOCK_PATH}/python             git@github.com:imma/python             0ab9ec9cc38e76d6242bf1f7e1e07e2496f3ffff v20170617 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            ed2b7c2ac947aff6c9b0f91995f67374be3568b6 v20170617 
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              01244b6fc0898b5380ddfc1e8e2a2c889deaac20 v20170617 
 inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          b7e8edce542330782d62d854b5acddf0e634aea9 v20170617 
@@ -28,7 +29,7 @@ bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4   
 jqq                ${BLOCK_PATH}/jqq                git@github.com:imma/jqq                997a49d9c1a28da687fb7d265986b63c15c0c187 v20170617 
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              21fd3c6c3fdc8e48c888e6c3e95dac770f2f8935 v20170617 
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            da337b93966afa73d500a47dde7fac0fe0b4d8f0 v20170617 
-sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               8898dc0dec67f3b862c55a391445ff247172920a v20170617 
+sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               86b685d75f2638e443b9e795ef4c4ca71d3ddc25 v20170617 
 facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts              d0c788bbf95ca7db87bde6e13eabd893be522129 v20170617 
 consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             7dc8d95680b79c775f04b375466ee033c3534a1b v20170617 
 consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       1476c7b530cb8df4656222b86b2d8a0d6967c1f3 v20170617 
