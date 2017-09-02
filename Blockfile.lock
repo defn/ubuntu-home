@@ -1,4 +1,3 @@
-site               ${BLOCK_PATH}/site               git@github.com:imma/site               9e1872ee35d4a6dddfdff44a14b3476bc1b33833 v20170617 
 jq                 ${BLOCK_PATH}/jq                 git@github.com:imma/jq                 939d2d22f8d6148d15476a839b8b80093bc390c2 v20170617 
 shflags            ${BLOCK_PATH}/shflags            git@github.com:imma/shflags            588c0b9025e37c34f082aea5a2caf7461f68ca11 v20170617 
 normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normalize          2d0271c9ce9cc2e5b92aae6f7cc56f8b4dbe6193 v20170617 
@@ -39,7 +38,7 @@ caddy              ${BLOCK_PATH}/caddy              git@github.com:imma/caddy   
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          a04ac0a0941f8f3b566a811ca2219707b52ba5b1 v20170617 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            969fd3cb1259f4f81d5886cdbb8e6d6393d06b8c v20170617 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             07caabe2d5d14aab4cfbd861995adf44fd4fd8b0 v20170617 
-docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     5fb8460a2f5990b200b5cd1d7e60976bbfa92f3d v20170617 
+docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     0c5c01f391ea160fc6d9b1684833b6946a29fa9d v20170617 
 docker-machine     ${BLOCK_PATH}/docker-machine     git@github.com:imma/docker-machine     84ebea9d1f83af7a9a96ee91c9a87863423bdd80 v20170617 
 docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             f78cf8340919eb959c7f7fc7d66593ed29b043d0 v20170617 
 lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                a698a179d9ee24a01753b9047c08ad0634cfcbd5 v20170617 
@@ -47,7 +46,7 @@ postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgres
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         8eec67a72c734a41bb194cd993c992d80a34e3df v20170617 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                ba43458b97aef7991d1959d77faae1fda8e812ab v20170617 
 github             ${BLOCK_PATH}/github             git@github.com:imma/github             0d82b16507290b9192971a46951c8f73e9bcb5de v20170617 
-aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                4e83b833db02778b0ee548f09e87c2778288c9ec v20170617 
+aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                e401c454b027028b87cf64b458bcd1aeca1d0d6f v20170617 
 awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            de569eac6f814c8f3431a9dc304adb5137d59f3e v20170617 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       c8c10bacee2d05105cd429cd2b03245962d6513c v20170617 
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              61e7699809859c08990ce541729ba446b2f49ba1 v20170617 
@@ -72,7 +71,7 @@ inception          ${BLOCK_PATH}/inception          git@github.com:imma/inceptio
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              6d81c41975860aaec5ac8c27c4bfe48ae0032937 v20170617 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          a6a12186825094b70c5fdf219e5dc275aed64be3 v20170617 
 fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           47bdb15c4d9b1c1522a02da9cdda3a7df2ae24dc v20170617 
-fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               5d1795982082a078171160011aa2204197b5a3e5 v20170617 
+fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               2c9d0561098ce5d96c3d6a613991bb0d21d48ee5 v20170617 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               7a1f47399c65f1611fd0a7fb81ccdf8ac351a3a4 v20170617 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 86de5113d40af237c504a6f28680a692b95b2237 v20170617 
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          9653d18ba8ab62a71819ebbfe86c1703246354e9 v20170617 
@@ -94,6 +93,6 @@ ipfs               ${BLOCK_PATH}/ipfs               git@github.com:imma/ipfs    
 lock               ${BLOCK_PATH}/lock               git@github.com:imma/lock               fc412318146fe9d4e59b7e44e870bef519496c31 v20170617 
 bless              ${BLOCK_PATH}/bless              git@github.com:imma/bless              873ce7894e901a90cf621844b8643ecd080ebd64 v20170617 
 easy-rsa           ${BLOCK_PATH}/easy-rsa           git@github.com:imma/easy-rsa           3ad6ebd83659a2be330d12d956b70cff9e9d496a v20170617 
-openvpn            ${BLOCK_PATH}/openvpn            git@github.com:imma/openvpn            982e1810171197e5bab41c3f06230b549a77febb v20170617 
+openvpn            ${BLOCK_PATH}/openvpn            git@github.com:imma/openvpn            a16a61c1d8de36900280ab20a283dfb7ba7492fd v20170617 
 nat                ${BLOCK_PATH}/nat                git@github.com:imma/nat                7e94386beae0c94deff0a11c12a44c5d814c3b52 v20170617 
 kmsauth            ${BLOCK_PATH}/kmsauth            git@github.com:imma/kmsauth            a68926cf2f8f82ad937bc3ba03526b7c5bf727dd v20170617 
