@@ -399,3 +399,7 @@
 	path = work/kmsauth
 	url = git@github.com:imma/kmsauth
 	branch = v20170617
+[submodule "work/make"]
+	path = work/make
+	url = git@github.com:imma/make
+	branch = v20170617

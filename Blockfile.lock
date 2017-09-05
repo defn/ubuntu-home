@@ -1,3 +1,4 @@
+site               ${BLOCK_PATH}/site               git@github.com:imma/site               9e1872ee35d4a6dddfdff44a14b3476bc1b33833 v20170617 
 jq                 ${BLOCK_PATH}/jq                 git@github.com:imma/jq                 939d2d22f8d6148d15476a839b8b80093bc390c2 v20170617 
 shflags            ${BLOCK_PATH}/shflags            git@github.com:imma/shflags            588c0b9025e37c34f082aea5a2caf7461f68ca11 v20170617 
 normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normalize          2d0271c9ce9cc2e5b92aae6f7cc56f8b4dbe6193 v20170617 
@@ -18,6 +19,7 @@ inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventor
 deploy             ${BLOCK_PATH}/deploy             git@github.com:imma/deploy             a1e0cd17bb5cd08e89475258c6768a93bb4fb12e v20170617 
 htop               ${BLOCK_PATH}/htop               git@github.com:imma/htop               971659b476f3d50c01a41ada5655d870237d1f67 v20170617 
 sysadmin           ${BLOCK_PATH}/sysadmin           git@github.com:imma/sysadmin           7d8c3419a142367f103c6979f10ddb0b126735be v20170617 
+make               ${BLOCK_PATH}/make               git@github.com:imma/make               950ab1e6a08f140c247ada2662f523cfc7f6354d v20170617 
 rbenv              ${BLOCK_PATH}/rbenv              git@github.com:imma/rbenv              15abbe88023c04be7670d55949e5c1ba44f81769 v20170617 
 ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby               63a60ed9ccab722639d171ba2a9c29949052abb8 v20170617 
 curl               ${BLOCK_PATH}/curl               git@github.com:imma/curl               2372974d7dafe106435aebc57722c8a6ca17b15e v20170617 
