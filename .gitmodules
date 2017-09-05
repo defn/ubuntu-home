@@ -403,3 +403,7 @@
 	path = work/make
 	url = git@github.com:imma/make
 	branch = v20170617
+[submodule "work/wtf"]
+	path = work/wtf
+	url = git@github.com:imma/wtf
+	branch = v20170617
