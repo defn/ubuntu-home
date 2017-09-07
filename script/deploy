@@ -33,6 +33,7 @@ function main {
     (cd "$_ubuntu_home" && tar cfz - .git) | "$@" tar xvfz -
     "$@" git reset --hard
     "$@" rsync -ia .gitconfig.template .gitconfig
+    "$@" rsync -ia .ssh/config.template .ssh/config
     "$@" sudo $loader apt-get install -y awscli
     "$@" git submodule update --init
     "$@" work/base/script/bootstrap
