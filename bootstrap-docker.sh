@@ -25,8 +25,10 @@ function main {
 
     tar xvfz /data/cache/git/ubuntu-v20170616.tar.gz
     git reset --hard
+    git checkout -b "$nm_branch"
     rsync -ia .gitconfig.template .gitconfig
     rsync -ia .ssh/config.template .ssh/config
+    git clean -ffd
 
     git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
     git remote set-url "${nm_remote}" "${url_remote}"
