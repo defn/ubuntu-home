@@ -79,7 +79,7 @@ hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo    
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 86de5113d40af237c504a6f28680a692b95b2237 v20170617 
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          9653d18ba8ab62a71819ebbfe86c1703246354e9 v20170617 
 docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               011b83065d24a2c078c8bd2a4daa0976f2cd6dd5 v20170617 
-concourse          ${BLOCK_PATH}/concourse          git@github.com:imma/concourse          0bc73993832ee4a197ca5eed3f9ba0d2f6382df4 v20170617 
+concourse          ${BLOCK_PATH}/concourse          git@github.com:imma/concourse          1236072bd5b3b2c7c2aef15c3cdbcb7c7b0cdff7 v20170617 
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              42edcb0a2e74c80c8781e02046d5dd8b60bc339c v20170617 
 home               ${BLOCK_PATH}/home               git@github.com:imma/home               e39b102fd972bf339c1fe7ca3203bdc68b7abdf8 v20170617 
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             0a6478a6e005c859dea798f608a8381c044312b8 v20170617 
