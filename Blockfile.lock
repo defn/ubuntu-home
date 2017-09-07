@@ -25,7 +25,7 @@ ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby    
 curl               ${BLOCK_PATH}/curl               git@github.com:imma/curl               2372974d7dafe106435aebc57722c8a6ca17b15e v20170617 
 nvm                ${BLOCK_PATH}/nvm                git@github.com:imma/nvm                fd3f23a7a2129b375d2a871916e61232d026c43e v20170617 
 node               ${BLOCK_PATH}/node               git@github.com:imma/node               e510988b85853c313b0d2f2bfa05ce8e277f91cc v20170617 
-yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               607ce0fff249ae33b4ac649f73762430d730890a v20170617 
+yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               133e35b7c2521ed9b1c249b14a20e526fc686312 v20170617 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              05cf9222fc5aa954822ca75345b9f276db4a38b6 v20170617 
 jqq                ${BLOCK_PATH}/jqq                git@github.com:imma/jqq                997a49d9c1a28da687fb7d265986b63c15c0c187 v20170617 
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              21fd3c6c3fdc8e48c888e6c3e95dac770f2f8935 v20170617 
@@ -48,7 +48,7 @@ postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgres
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         8eec67a72c734a41bb194cd993c992d80a34e3df v20170617 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                ba43458b97aef7991d1959d77faae1fda8e812ab v20170617 
 github             ${BLOCK_PATH}/github             git@github.com:imma/github             0d82b16507290b9192971a46951c8f73e9bcb5de v20170617 
-aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                4ef3f59898906a5e06c7a273e8ea19cd113c324b v20170617 
+aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                05df25ebd433b46126649300edc473f044b068c2 v20170617 
 awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            de569eac6f814c8f3431a9dc304adb5137d59f3e v20170617 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       c8c10bacee2d05105cd429cd2b03245962d6513c v20170617 
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              61e7699809859c08990ce541729ba446b2f49ba1 v20170617 
