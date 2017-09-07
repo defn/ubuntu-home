@@ -26,7 +26,6 @@ function main {
     tar xvfz /data/cache/git/ubuntu-v20170616.tar.gz
     git reset --hard
     rsync -ia .gitconfig.template .gitconfig
-    rsync -ia .ssh/config.template .ssh/config
 
     git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
     git remote set-url "${nm_remote}" "${url_remote}"
@@ -75,6 +74,7 @@ function main {
 
   git reset --hard
   chmod 700 .gnupg
+  rsync -ia .ssh/config.template .ssh/config
   chmod 600 .ssh/config
 
   git fetch
