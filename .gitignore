@@ -156,3 +156,4 @@ npm-debug*
 /go
 /bin/goat
 /.bless
+/.ssh/config
