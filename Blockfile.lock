@@ -53,7 +53,7 @@ awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       c8c10bacee2d05105cd429cd2b03245962d6513c v20170617 
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              61e7699809859c08990ce541729ba446b2f49ba1 v20170617 
 imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               7e5c2a80e116a644615c0e417aa13894e9d0bc1d v20170617 
-chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               a3d8a6e27805ffc83a0cd5a1ed92fa27e1f868f5 v20170617 
+chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               4b552c0f654cdadec4db73c3b018af20c3f2a7e6 v20170617 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             c336f0d53f9d5e3e9b42fb065648219dc7039fb3 v20170617 
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            cd572957f9d248ae2be0e1a264e7948495839cc1 v20170617 
 netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            c480e644fbbee96119121a30a47693918f5af7e3 v20170617 
