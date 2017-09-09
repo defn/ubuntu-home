@@ -1,4 +1,4 @@
-function home_profile {
+function bash_main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}" 2>/dev/null  && pwd -P)"
   if [[ -z "$shome" ]]; then
     shome="$HOME"
@@ -6,6 +6,7 @@ function home_profile {
 
   set +f
   for a in $shome/.env.d/*; do
+    set -f
     if [[ ! -f "$a" ]]; then break; fi
     local name="${a##*/}"
     export "$name"="$(cat "$a")"
@@ -14,4 +15,4 @@ function home_profile {
   source "$shome/.bashrc"
 }
 
-home_profile
+bash_main
