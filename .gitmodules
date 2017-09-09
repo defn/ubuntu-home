@@ -407,3 +407,7 @@
 	path = work/wtf
 	url = git@github.com:imma/wtf
 	branch = v20170617
+[submodule "work/namerd"]
+	path = work/namerd
+	url = git@github.com:imma/namerd
+	branch = v20170617
