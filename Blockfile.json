@@ -2,7 +2,7 @@
   "require": [
     [ "site", "ubuntu-config", "cache", "base", "deploy", "sysadmin" ],
     [ "make", "ruby", "python", "node", "yarn", "java", "bash4", "jqq" ],
-    [ "sshd", "consul-agent", "etcd", "linkerd", "caddy", "syslog-ng" ],
+    [ "sshd", "consul-agent", "etcd", "linkerd", "namerd", "caddy", "syslog-ng" ],
     [ "docker", "lxd", "postgresql" ],
     [ "codecommit", "github" ],
     [ "cloud", "imma" ],
