@@ -49,7 +49,7 @@ codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecomm
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                ba43458b97aef7991d1959d77faae1fda8e812ab v20170617 
 github             ${BLOCK_PATH}/github             git@github.com:imma/github             0d82b16507290b9192971a46951c8f73e9bcb5de v20170617 
 aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                c5bfc43f1759d1e8f3727812dc5de45c150a608a v20170617 
-awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            de569eac6f814c8f3431a9dc304adb5137d59f3e v20170617 
+awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            4d4a5ce5e82a72a24d26c8ab1779c7be551aac14 v20170617 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       c8c10bacee2d05105cd429cd2b03245962d6513c v20170617 
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              61e7699809859c08990ce541729ba446b2f49ba1 v20170617 
 imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               7e5c2a80e116a644615c0e417aa13894e9d0bc1d v20170617 
