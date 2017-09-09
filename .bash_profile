@@ -12,6 +12,7 @@ function bash_main {
     export "$name"="$(cat "$a")"
   done
 
+  source "$shome/script/rc"
   source "$shome/.bashrc"
 }
 
