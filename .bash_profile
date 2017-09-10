@@ -6,7 +6,6 @@ function bash_main {
 
   set +f
   for a in $shome/.env.d/*; do
-    set -f
     if [[ ! -f "$a" ]]; then break; fi
     local name="${a##*/}"
     export "$name"="$(cat "$a")"
