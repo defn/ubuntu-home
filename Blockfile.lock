@@ -94,7 +94,7 @@ nothing            ${BLOCK_PATH}/nothing            git@github.com:imma/nothing 
 app                ${BLOCK_PATH}/app                git@github.com:imma/app                387e50f26e7a4a8652a61a6652569f41a030c0be v20170617 
 ipfs               ${BLOCK_PATH}/ipfs               git@github.com:imma/ipfs               f1edb8a285370c12abb2bf4d4822e591d602279b v20170617 
 lock               ${BLOCK_PATH}/lock               git@github.com:imma/lock               fc412318146fe9d4e59b7e44e870bef519496c31 v20170617 
-bless              ${BLOCK_PATH}/bless              git@github.com:imma/bless              873ce7894e901a90cf621844b8643ecd080ebd64 v20170617 
+bless              ${BLOCK_PATH}/bless              git@github.com:imma/bless              7279b2b705d85922cf5ecfdd13f479a24ed7e0c2 v20170617 
 easy-rsa           ${BLOCK_PATH}/easy-rsa           git@github.com:imma/easy-rsa           3ad6ebd83659a2be330d12d956b70cff9e9d496a v20170617 
 openvpn            ${BLOCK_PATH}/openvpn            git@github.com:imma/openvpn            a16a61c1d8de36900280ab20a283dfb7ba7492fd v20170617 
 nat                ${BLOCK_PATH}/nat                git@github.com:imma/nat                7e94386beae0c94deff0a11c12a44c5d814c3b52 v20170617 
