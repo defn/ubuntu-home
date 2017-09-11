@@ -67,10 +67,7 @@ function main {
   set -x
 
   make cache
-
-  set +x
-  require
-  set -x
+  source .bash_profile
 
   git reset --hard
   chmod 700 .gnupg
