@@ -58,6 +58,8 @@ function main {
     rm -f .bootstrapping
   fi
 
+  export BOARD_PATH="$HOME"
+
   work/base/script/bootstrap
   work/jq/script/bootstrap
   work/block/script/cibuild
