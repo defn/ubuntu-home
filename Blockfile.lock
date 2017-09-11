@@ -13,7 +13,7 @@ java               ${BLOCK_PATH}/java               git@github.com:imma/java    
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             fb594a3e9fb5bb4fc5227986e3c36f44f3270a95 v20170617 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             5b2d978e507ab04f53d2ccef76e99f359745a59f v20170617 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            50b35a351df17793bf97b1e768f0c006169fb5c2 v20170617 
-cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              01244b6fc0898b5380ddfc1e8e2a2c889deaac20 v20170617 
+cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              4435b8783100140ea2278c2b8302ccaf06e42126 v20170617 
 inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          e0558ce46857002aa0f6eebf67b4449759e9c99e v20170617 
 deploy             ${BLOCK_PATH}/deploy             git@github.com:imma/deploy             a1e0cd17bb5cd08e89475258c6768a93bb4fb12e v20170617 
 htop               ${BLOCK_PATH}/htop               git@github.com:imma/htop               971659b476f3d50c01a41ada5655d870237d1f67 v20170617 
@@ -56,7 +56,7 @@ imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma    
 chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               bc3efd6e3184a31e1ae9fc0b64fb254a8af61434 v20170617 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             c336f0d53f9d5e3e9b42fb065648219dc7039fb3 v20170617 
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            54e38492f1c562a175072c8fe5c82f5e32e4d332 v20170617 
-netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            c480e644fbbee96119121a30a47693918f5af7e3 v20170617 
+netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            2b6c2705ef9dd4a1b6baa6bfa675cfeef1006022 v20170617 
 monitor            ${BLOCK_PATH}/monitor            git@github.com:imma/monitor            819b20fe47584ce98ecfd650b79be5b95b91e276 v20170617 
 gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                47dec4cf01eeb9e1ac8f8da028f650f5083b3b16 v20170617 
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          4996825cc917730980ba953cd10e85212b244bab v20170617 
