@@ -5,6 +5,8 @@ function bash_main {
   fi
 
   source "$shome/.bashrc"
+
+  set +f
 }
 
 bash_main

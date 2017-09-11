@@ -43,6 +43,8 @@ function bashrc_main {
     shift
     for __a in "$@"; do pushd "$__a" >/dev/null && { require; popd >/dev/null; }; done
   fi
+
+  set +f
 }
 
 bashrc_main "$@"
