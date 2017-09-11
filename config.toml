@@ -45,6 +45,6 @@ smartDashes = true
 plainIDAnchors = true
 
 [[menu.main]]
-name   = "Getting started"
-url    = "getting-started/"
+name   = ""
+url    = "/"
 weight = 10
