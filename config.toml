@@ -1,6 +1,6 @@
 baseurl = "http://localhost:1313"
 languageCode = "en-us"
-title = "ubuntu block"
+title = "Hasta Nunca!"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
 canonifyurls = true
@@ -10,7 +10,7 @@ contentDir = ".content"
 [params]
 # General information
 author = "defn"
-description = "Documentation for ubuntu block"
+description = "Hasta Nunca!"
 copyright = "Apache License, Version 2.0"
 
 # Repository
