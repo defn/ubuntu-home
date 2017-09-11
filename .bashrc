@@ -1,8 +1,24 @@
+function envrc {
+  set +f
+  for a in $shome/.env.d/*; do
+  	set -f
+    if [[ ! -f "$a" ]]; then break; fi
+    local name="${a##*/}"
+    export "$name"="$(cat "$a")"
+  done
+}
+
 function bashrc {
+	envrc
+
+  source "$shome/script/rc"
+
   if [[ -f "$shome/.bashrc.cache" ]]; then
     source "$shome/.bashrc.cache"
     _profile
   fi
+
+	envrc
 }
 
 function home_bashrc {
