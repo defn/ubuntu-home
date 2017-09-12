@@ -9,7 +9,7 @@ function main {
   local nm_remote="gh"
   local url_remote="https://github.com/imma/ubuntu"
 
-  ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
+  export BOARD_PATH="$HOME"
 
   if [[ ! -d .git || -f .bootstrapping ]]; then
     touch .bootstrapping
@@ -26,10 +26,11 @@ function main {
     tar xvfz /data/cache/git/ubuntu-v20170616.tar.gz
     git reset --hard
     rsync -ia .gitconfig.template .gitconfig
+    rsync -ia .ssh/config.template .ssh/config
+    chmod 600 .ssh/config
 
     git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
     git remote set-url "${nm_remote}" "${url_remote}"
-    rm -f .ssh/config
     git fetch "${nm_remote}"
     git branch -D "${nm_remote}/$nm_branch" || true
     git branch --set-upstream-to "${nm_remote}/$nm_branch"
@@ -51,34 +52,21 @@ function main {
     fi
     git submodule update --init
 
-    pushd work/base
-    script/bootstrap
-    popd
+    work/base/script/bootstrap
+    work/jq/script/bootstrap
+    work/block/script/cibuild
 
     rm -f .bootstrapping
   fi
 
-  export BOARD_PATH="$HOME"
-
-  work/base/script/bootstrap
-  work/jq/script/bootstrap
-  work/block/script/cibuild
-
-  set +x
-  source work/block/script/profile ~
-  set -x
-
-  make cache
-  source .bash_profile
-
-  git reset --hard
-  chmod 700 .gnupg
-  rsync -ia .ssh/config.template .ssh/config
-  chmod 600 .ssh/config
-
   git fetch
   git reset --hard
   git clean -ffd
+
+  source work/block/script/profile ~
+  make cache
+  source .bash_profile
+
   block sync
   block bootstrap
   sync
