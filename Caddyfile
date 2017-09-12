@@ -1,0 +1,3 @@
+http://*:2015 {
+  proxy / http://localhost:1313
+}

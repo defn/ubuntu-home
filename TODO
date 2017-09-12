@@ -3,3 +3,7 @@ cat .kitchen.yml | python2.7 -c 'import sys, yaml, json; y=yaml.load(sys.stdin.r
 echo "
 rdr pass inet proto tcp from any to any port 80 -> 127.0.0.1 port 2015
 " | sudo pfctl -ef -
+
+exec envdir ./env "${runhome}/run.impl" "default" --bind 0.0.0.0 --baseUrl localhost --appendPort=false
+
+exec envdir ./env "${runhome}/run.impl" "default" -conf ~/Caddyfile -agree -email xx@yy.zz
