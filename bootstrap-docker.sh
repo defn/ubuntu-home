@@ -60,6 +60,10 @@ function main {
 
   export BOARD_PATH="$HOME"
 
+  git fetch
+  git reset --hard
+  git clean -ffd
+
   work/base/script/bootstrap
   work/jq/script/bootstrap
   work/block/script/cibuild
@@ -74,9 +78,6 @@ function main {
   rsync -ia .ssh/config.template .ssh/config
   chmod 600 .ssh/config
 
-  git fetch
-  git reset --hard
-  git clean -ffd
   block sync
   block bootstrap
   sync
