@@ -1,4 +1,3 @@
-site               ${BLOCK_PATH}/site               git@github.com:imma/site               9e1872ee35d4a6dddfdff44a14b3476bc1b33833 v20170617 
 jq                 ${BLOCK_PATH}/jq                 git@github.com:imma/jq                 939d2d22f8d6148d15476a839b8b80093bc390c2 v20170617 
 shflags            ${BLOCK_PATH}/shflags            git@github.com:imma/shflags            588c0b9025e37c34f082aea5a2caf7461f68ca11 v20170617 
 normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normalize          2d0271c9ce9cc2e5b92aae6f7cc56f8b4dbe6193 v20170617 
@@ -79,7 +78,7 @@ fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg    
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               7a1f47399c65f1611fd0a7fb81ccdf8ac351a3a4 v20170617 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs e216b09f6c096f41743d883364e6291e1e46e1ae v20170617 
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          2315084cdaf7795e6f419f78edaa1d645706a267 v20170617 
-docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               a410e5c04a6eecb7786dafdc26fd2faba64ba1ea v20170617 
+docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               d9d5acc753c900cf78936a5671482e30c491b0c5 v20170617 
 concourse          ${BLOCK_PATH}/concourse          git@github.com:imma/concourse          7a3b72837fc6b2f4d353630c8325c1aa91487e16 v20170617 
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              42edcb0a2e74c80c8781e02046d5dd8b60bc339c v20170617 
 home               ${BLOCK_PATH}/home               git@github.com:imma/home               e39b102fd972bf339c1fe7ca3203bdc68b7abdf8 v20170617 
