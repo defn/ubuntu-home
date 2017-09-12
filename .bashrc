@@ -28,10 +28,8 @@ function home_bashrc {
   export CALLING_PATH="${CALLING_PATH:-"$PATH"}"
   export PATH="${CALLING_PATH}"
 
-  if [[ "$(type -t require)" != "function" ]]; then
-    if ! bashrc; then
-      echo WARNING: "Something's wrong with .bashrc"
-    fi
+  if ! bashrc; then
+    echo WARNING: "Something's wrong with .bashrc"
   fi
 }
 
