@@ -1,6 +1,5 @@
 {
   "languageCode": "en-us",
-  "title": "Hasta Nunca!",
   "theme": "hugo-material-docs",
   "metadataformat": "yaml",
   "canonifyurls": false,
@@ -8,18 +7,6 @@
   "contentDir": ".content",
   "publishDir": ".public",
   "params": {
-    "author": "defn",
-    "description": "Hasta Nunca!",
-    "copyright": "Apache License, Version 2.0",
-    "provider": "GitHub",
-    "repo_url": "https://github.com/imma/ubuntu",
-    "version": "0.9.0",
-    "logo": "images/logo.png",
-    "favicon": "",
-    "permalink": "#",
-    "custom_css": [],
-    "custom_js": [],
-    "highlight_css": "",
     "palette": {
       "primary": "teal",
       "accent": "blue"
