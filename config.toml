@@ -5,6 +5,7 @@ metadataformat = "yaml"
 canonifyurls = true
 relativeURLS = true
 contentDir = ".content"
+publishDir = ".public"
 
 [params]
 # General information
