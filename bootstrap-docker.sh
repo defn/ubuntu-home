@@ -64,9 +64,7 @@ function main {
   work/jq/script/bootstrap
   work/block/script/cibuild
 
-  set +x
   source work/block/script/profile ~
-  set -x
 
   make cache
   source .bash_profile
