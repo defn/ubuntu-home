@@ -5,7 +5,7 @@
   "metadataformat": "yaml",
   "canonifyurls": false,
   "relativeURLS": true,
-  "contentDir": "content",
+  "contentDir": ".content",
   "publishDir": ".public",
   "params": {
     "author": "defn",
