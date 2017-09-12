@@ -4,6 +4,6 @@ echo "
 rdr pass inet proto tcp from any to any port 80 -> 127.0.0.1 port 2015
 " | sudo pfctl -ef -
 
-exec envdir ./env "${runhome}/run.impl" "default" --config ~/config.json -s ~/ --bind 0.0.0.0 --baseUrl localhost --appendPort=false
+exec envdir ./env "${runhome}/run.impl" "default" --config ~/config.json -s ~/ --bind 0.0.0.0 --baseUrl localhost --appendPort=false --log --disableRSS --disableSitemap
 
 exec envdir ./env "${runhome}/run.impl" "default" -conf ~/Caddyfile -agree -email xx@yy.zz

@@ -3,6 +3,9 @@ http://*:2015 {
     without /h
   }
 
+  proxy /fonts/ http://localhost:1313 {
+  }
+
   proxy / http://localhost:8081 {
   }
 }

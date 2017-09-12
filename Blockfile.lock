@@ -79,7 +79,7 @@ fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg    
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               85794b43938d7a9908632a0870d3ec11e24273e8 v20170617 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs a40cc5253b5cf095c41048c0901f7b180f7e9398 v20170617 
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          75e28e9c860070cf6903184d5789bd82ef032cbe v20170617 
-docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               57caa4fd425269b97adb11d9d8b4a081d529640b v20170617 
+docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               f1b26b6fb67dc49c1a3d6ffa047b9593a0809a56 v20170617 
 concourse          ${BLOCK_PATH}/concourse          git@github.com:imma/concourse          5e441c5637f7734db19ce0d32e33db080850bd67 v20170617 
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              4a1610c75c64614aeb1bccfe5261c9b8e8ba8be1 v20170617 
 home               ${BLOCK_PATH}/home               git@github.com:imma/home               367057af6a29e1181d3053c68f75e04cec3420bb v20170617 
