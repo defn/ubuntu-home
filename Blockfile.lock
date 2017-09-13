@@ -25,7 +25,7 @@ ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby    
 curl               ${BLOCK_PATH}/curl               git@github.com:imma/curl               3596d1754a0f0ef3ead0e6699ef859dc97415745 v20170617 
 nvm                ${BLOCK_PATH}/nvm                git@github.com:imma/nvm                36f0ccedbc5f6183e6445b61297217ed17c80c92 v20170617 
 node               ${BLOCK_PATH}/node               git@github.com:imma/node               e82abb2d6c6a7583f4f95e3a74f74b1a75b3ea22 v20170617 
-yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               65c1c83c6b1ab0ade7ce548a485867df9142b3f7 v20170617 
+yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               0d06812f8752ee68941b08144ef943932112fdc1 v20170617 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              85c0fa7011908d257ab572426f0d9b6c9f3426be v20170617 
 jqq                ${BLOCK_PATH}/jqq                git@github.com:imma/jqq                79c3cf6391985878441d72452d7103adfb84b5a7 v20170617 
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              122dfaf4973ee55b181858e2fd97c8a70954740b v20170617 
