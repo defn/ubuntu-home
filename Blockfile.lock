@@ -28,6 +28,8 @@ node               ${BLOCK_PATH}/node               git@github.com:imma/node    
 yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               65c1c83c6b1ab0ade7ce548a485867df9142b3f7 v20170617 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              85c0fa7011908d257ab572426f0d9b6c9f3426be v20170617 
 jqq                ${BLOCK_PATH}/jqq                git@github.com:imma/jqq                79c3cf6391985878441d72452d7103adfb84b5a7 v20170617 
+tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              122dfaf4973ee55b181858e2fd97c8a70954740b v20170617 
+vmm                ${BLOCK_PATH}/vmm                git@github.com:imma/vmm                a840b495e31ef1a121b2332b5ecb7e3d8987cac1 v20170617 
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              e5e41838addcfd5a2ed8d6f306e6e743617c75de v20170617 
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            753bc272987cfc7c520d1b302158c07d6dadd9cc v20170617 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               44631a3c25a5648c09e223e0cef7a65bcdf8576a v20170617 
@@ -71,11 +73,10 @@ dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream   
 vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            c2373f0e5789a68f14b361e6e864a63e79078cd4 v20170617 
 limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              dd1d79328edc9f73ef834b8e680e3fa9f8f5694d v20170617 
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          4235628441389d842bfb62c84f223fec9158408b v20170617 
-tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              122dfaf4973ee55b181858e2fd97c8a70954740b v20170617 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          a7f8fd939a40928df4628b745ad7a7b7bc38cd6d v20170617 
-wtf                ${BLOCK_PATH}/wtf                git@github.com:imma/wtf                5d0b8fc7cdacf9e4a1a6ab0357f3014b896a83c5 v20170617 
+wtf                ${BLOCK_PATH}/wtf                git@github.com:imma/wtf                580b971cbd54bd5fa6191b39d539c5b42ce36ab5 v20170617 
 fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           e3bb113b6dd0d902fb254cb5ba4a31ceabe87904 v20170617 
-fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               bdf6a4b1f2a2e4c654beac0af51681f32949b0e7 v20170617 
+fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               5829e6ba271eccc826fac5abe42f5f36d4c64dc9 v20170617 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               85794b43938d7a9908632a0870d3ec11e24273e8 v20170617 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs a40cc5253b5cf095c41048c0901f7b180f7e9398 v20170617 
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          75e28e9c860070cf6903184d5789bd82ef032cbe v20170617 

@@ -407,3 +407,7 @@
 	path = work/namerd
 	url = git@github.com:imma/namerd
 	branch = v20170617
+[submodule "work/vmm"]
+	path = work/vmm
+	url = git@github.com:imma/vmm
+	branch = v20170617
