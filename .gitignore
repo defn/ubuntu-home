@@ -140,7 +140,6 @@
 /.buildkite
 /.kitchen
 /.berkshelf
-/.caddy
 /*.box
 /.nvm
 /.node_repl_history
