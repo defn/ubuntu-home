@@ -25,7 +25,7 @@ ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby    
 curl               ${BLOCK_PATH}/curl               git@github.com:imma/curl               3596d1754a0f0ef3ead0e6699ef859dc97415745 v20170617 
 nvm                ${BLOCK_PATH}/nvm                git@github.com:imma/nvm                36f0ccedbc5f6183e6445b61297217ed17c80c92 v20170617 
 node               ${BLOCK_PATH}/node               git@github.com:imma/node               e7457076008de1cee967afdadfafa58a46111296 v20170617 
-yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               0d06812f8752ee68941b08144ef943932112fdc1 v20170617 
+yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               f6d36411ae64272cfa5205d804029a62bfbce692 v20170617 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              85c0fa7011908d257ab572426f0d9b6c9f3426be v20170617 
 jqq                ${BLOCK_PATH}/jqq                git@github.com:imma/jqq                79c3cf6391985878441d72452d7103adfb84b5a7 v20170617 
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              122dfaf4973ee55b181858e2fd97c8a70954740b v20170617 
@@ -79,7 +79,7 @@ fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg    
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               85794b43938d7a9908632a0870d3ec11e24273e8 v20170617 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs a40cc5253b5cf095c41048c0901f7b180f7e9398 v20170617 
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          75e28e9c860070cf6903184d5789bd82ef032cbe v20170617 
-docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               f1b26b6fb67dc49c1a3d6ffa047b9593a0809a56 v20170617 
+docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               06f02a9a96087c36ca1e56172851bd301d60fb1f v20170617 
 concourse          ${BLOCK_PATH}/concourse          git@github.com:imma/concourse          5e441c5637f7734db19ce0d32e33db080850bd67 v20170617 
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              4a1610c75c64614aeb1bccfe5261c9b8e8ba8be1 v20170617 
 home               ${BLOCK_PATH}/home               git@github.com:imma/home               367057af6a29e1181d3053c68f75e04cec3420bb v20170617 
