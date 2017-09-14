@@ -29,7 +29,7 @@ yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn    
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              85c0fa7011908d257ab572426f0d9b6c9f3426be v20170617 
 jqq                ${BLOCK_PATH}/jqq                git@github.com:imma/jqq                79c3cf6391985878441d72452d7103adfb84b5a7 v20170617 
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              122dfaf4973ee55b181858e2fd97c8a70954740b v20170617 
-vmm                ${BLOCK_PATH}/vmm                git@github.com:imma/vmm                a840b495e31ef1a121b2332b5ecb7e3d8987cac1 v20170617 
+vmm                ${BLOCK_PATH}/vmm                git@github.com:imma/vmm                d478c1b69fbd72c342627fcd6e5f0b2e9e3e90ea v20170617 
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              e5e41838addcfd5a2ed8d6f306e6e743617c75de v20170617 
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            753bc272987cfc7c520d1b302158c07d6dadd9cc v20170617 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               44631a3c25a5648c09e223e0cef7a65bcdf8576a v20170617 
