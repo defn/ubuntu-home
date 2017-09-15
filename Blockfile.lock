@@ -20,7 +20,7 @@ deploy             ${BLOCK_PATH}/deploy             git@github.com:imma/deploy  
 htop               ${BLOCK_PATH}/htop               git@github.com:imma/htop               5ba1c0c5a184d17128420878e4902f5b2f31b268 v20170617 
 sysadmin           ${BLOCK_PATH}/sysadmin           git@github.com:imma/sysadmin           83fd54e5f1e40bf2bb43aeb23be8b1b633d529db v20170617 
 make               ${BLOCK_PATH}/make               git@github.com:imma/make               7f1876936d5d9d8ea352b457693cf187ac20dee9 v20170617 
-rbenv              ${BLOCK_PATH}/rbenv              git@github.com:imma/rbenv              407ecd81b119087a1ce0c6fa366656fae0e05fc9 v20170617 
+rbenv              ${BLOCK_PATH}/rbenv              git@github.com:imma/rbenv              3061a354d1fd88d70a8336a1821e74686f611cb3 v20170617 
 ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby               67c30987a615c23181dc83765a2c921a0e82ae7e v20170617 
 curl               ${BLOCK_PATH}/curl               git@github.com:imma/curl               3596d1754a0f0ef3ead0e6699ef859dc97415745 v20170617 
 nvm                ${BLOCK_PATH}/nvm                git@github.com:imma/nvm                36f0ccedbc5f6183e6445b61297217ed17c80c92 v20170617 
@@ -55,7 +55,7 @@ awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       ff862569d1f48cbbb2b27586040697c50e2f0856 v20170617 
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              9978c998f18e03dcfa1ae2eec7848d8d3694673a v20170617 
 imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               aa9ff31bd62a6eb4a231c702b31f5efa6000ca93 v20170617 
-chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               bbdf0d6717e83de74dec85e44ae77cc7d607b08c v20170617 
+chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               44041415612b506036de960d478b32afbd81c824 v20170617 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             5324408b931a0623ac3deae104fc7951010bc62d v20170617 
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            018c62a2d746d7dbdb0793fd1214b570193e5d45 v20170617 
 netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            625eba9db51e2c71531277847d59e2005e65c485 v20170617 
@@ -75,7 +75,7 @@ inception          ${BLOCK_PATH}/inception          git@github.com:imma/inceptio
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          a7f8fd939a40928df4628b745ad7a7b7bc38cd6d v20170617 
 wtf                ${BLOCK_PATH}/wtf                git@github.com:imma/wtf                580b971cbd54bd5fa6191b39d539c5b42ce36ab5 v20170617 
 fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           e3bb113b6dd0d902fb254cb5ba4a31ceabe87904 v20170617 
-fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               2d747ace9f03bbc9367191bc9dde22f93d33e505 v20170617 
+fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               32661dd2e647ce2ee36a086bfa0ccd79bd1d1f86 v20170617 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               85794b43938d7a9908632a0870d3ec11e24273e8 v20170617 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs a40cc5253b5cf095c41048c0901f7b180f7e9398 v20170617 
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          75e28e9c860070cf6903184d5789bd82ef032cbe v20170617 
