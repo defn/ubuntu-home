@@ -407,3 +407,7 @@
 	path = work/vmm
 	url = git@github.com:imma/vmm
 	branch = v20170617
+[submodule "work/openresty"]
+	path = work/openresty
+	url = git@github.com:imma.openresty
+	branch = 20170617
