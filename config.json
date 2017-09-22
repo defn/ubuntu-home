@@ -4,7 +4,7 @@
   "metadataformat": "yaml",
   "canonifyurls": false,
   "relativeURLS": true,
-  "contentDir": ".content",
+  "contentDir": "content",
   "publishDir": ".public",
   "params": {
     "palette": {
@@ -24,8 +24,8 @@
     "menu": {
       "main": [
         {
-          "name": "",
-          "url": "/",
+          "name": "ubuntu",
+          "url": "/ubuntu",
           "weight": 10
         }
       ]

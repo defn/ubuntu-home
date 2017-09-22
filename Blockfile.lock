@@ -5,7 +5,7 @@ normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normaliz
 bash-preexec       ${BLOCK_PATH}/bash-preexec       git@github.com:imma/bash-preexec       8658d4be458078d00b65cb5f34c6e79d27fd6c4e v20170617 
 sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub                7cf2c02e77f0555104b92b383f3634d503d38a79 v20170617 
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            a037a8ef17722cc23934262cfcaf7e72d9d3a7fa v20170617 
-block              ${BLOCK_PATH}/block              git@github.com:imma/block              7824de399cebaa706653fae52b404defbb0f7e95 v20170617 
+block              ${BLOCK_PATH}/block              git@github.com:imma/block              d2f10b6456b15a1cfbebf52f523b6a1b02d3a16f v20170617 
 instance           ${BLOCK_PATH}/instance           git@github.com:imma/instance           7f7d726ab81f7ebcc0eb3b65d78052fa9973dc59 v20170617 
 base               ${BLOCK_PATH}/base               git@github.com:imma/base               fa84232b6adb18ed07209ed246c8dafb663f4aaa v20170617 
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      a473e85695635a2a281f11e60a30ac7587b24a93 v20170617 
@@ -79,7 +79,7 @@ wtf                ${BLOCK_PATH}/wtf                git@github.com:imma/wtf     
 fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           b1d585d2d7688a7467960e68913d876fa14675e1 v20170617 
 fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               918d7b22a5367c289a9fc369030b157e61c342b3 v20170617 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               3d7baf26ac212c95b3e02bc32a4aa6f592f3504d v20170617 
-hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 766f64b16ae9e24dad7e57de23a5a358b0a05edf v20170617 
+hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 1440c707221b679ac6f5b744e3ff2432429b7d8a v20170617 
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          02520d7ae0711a745ceb1d593e221ce27434200c v20170617 
 docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               27539389005a806262695ce60e59caf3d734e6b3 v20170617 
 concourse          ${BLOCK_PATH}/concourse          git@github.com:imma/concourse          6c75322949b50ef61988415404bf5ead7fa8b75f v20170617 
