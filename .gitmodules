@@ -415,3 +415,15 @@
 	path = work/chalice
 	url = git@github.com:imma/chalice
 	branch = v20170617
+[submodule "work/aws-vault"]
+	path = work/aws-vault
+	url = git@github.com:imma/aws-vault
+	branch = v20170617
+[submodule "work/chamber"]
+	path = work/chamber
+	url = git@github.com:imma/chamber
+	branch = v20170617
+[submodule "work/awless"]
+	path = work/awless
+	url = git@github.com:imma/awless
+	branch = v20170617
