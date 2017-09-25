@@ -6,6 +6,14 @@
   "relativeURLS": true,
   "contentDir": "content",
   "publishDir": ".public",
+  "disableKinds": [
+    "taxonomy",
+    "taxonomyTerm",
+    "RSS",
+    "sitemap",
+    "robotsTXT",
+    "404"
+  ],
   "params": {
     "palette": {
       "primary": "teal",
