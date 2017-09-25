@@ -32,13 +32,18 @@
     "menu": {
       "main": [
         {
+          "name": "home",
+          "url": "/",
+          "weight": 10
+        },
+        {
           "name": "block",
-          "url": "/block/",
+          "url": "/block",
           "weight": 10
         },
         {
           "name": "ubuntu",
-          "url": "/ubuntu/",
+          "url": "/ubuntu",
           "weight": 10
         }
       ]
