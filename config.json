@@ -39,12 +39,12 @@
         {
           "name": "block",
           "url": "/block",
-          "weight": 10
+          "weight": 100
         },
         {
           "name": "ubuntu",
           "url": "/ubuntu",
-          "weight": 10
+          "weight": 101
         }
       ]
     }
