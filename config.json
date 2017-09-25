@@ -37,11 +37,6 @@
           "weight": 10
         },
         {
-          "name": "block",
-          "url": "/block",
-          "weight": 100
-        },
-        {
           "name": "ubuntu",
           "url": "/ubuntu",
           "weight": 101
