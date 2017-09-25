@@ -1,59 +1,71 @@
+---
 driver:
-  box_check_update: false
   name: vagrant
-  ssh: {insert_key: false}
+  ssh:
+    insert_key: false
   synced_folders:
-  - [/data, /data, 'type: :nfs']
-  - [., /tmp/home, 'type: :nfs']
-platforms:
-- driver: {linked_clone: true}
-  name: ubuntu-16.04
-provisioner: {name: shell}
-suites:
-- attributes: null
-  driver:
-    network:
-    - - private_network
-      - {ip: 172.28.128.11}
-    provider: virtualbox
-  name: virtualbox
-  provisioner: {script: bootstrap-vagrant.sh}
-  verifier:
-    inspec_tests: [test/smoke/default]
-- attributes: null
-  driver: {provider: vmware_fusion}
-  name: vmware
-  provisioner: {script: bootstrap-vagrant.sh}
-  verifier:
-    inspec_tests: [test/smoke/default]
-- attributes: null
-  driver: {provider: parallels}
-  name: parallels
-  provisioner: {script: bootstrap-vagrant.sh}
-  verifier:
-    inspec_tests: [test/smoke/default]
-- driver:
-    associate_public_ip: true
-    aws_ssh_key_id: terraform-0061b86515b826cf28edd6f5c8
-    iam_profile_name: adm-admin-build
-    image_id: ami-1d4e7a66
-    interface: private_dns
-    name: ec2
-    security_group_ids: [sg-135b7c6c, sg-df587fa0, sg-aa5d5ed5]
-    subnet_id: subnet-e6a849bc
-  name: aws
-  provisioner: {script: bootstrap-aws.sh}
-- driver:
-    build_context: false
-    image: ubuntu:xenial
-    name: docker
-    require_chef_omnibus: false
-    use_sudo: false
-    use_cache: false
-    username: ubuntu
-    volume: ['/data:/data', '/config:/config']
-  name: docker
-  provisioner: {script: bootstrap-docker.sh}
-transport: {forward_agent: true, username: ubuntu}
-verifier: {name: inspec}
+    - [ "/data", "/data", "type: :nfs" ]
+    - [ ".", "/tmp/home", "type: :nfs" ]
+  box_check_update: false
 
+transport:
+  forward_agent: true
+  username: ubuntu
+
+provisioner:
+  name: shell
+
+verifier:
+  name: inspec
+  inspec_tests:
+    - test/smoke/default
+
+platforms:
+  - name: ubuntu-16.04
+    driver:
+      linked_clone: true
+
+suites:
+  - name: virtualbox
+    provisioner:
+      script: bootstrap-vagrant.sh
+    driver:
+      provider: virtualbox
+      network:
+        - [ "private_network", { ip: "172.28.128.11" } ]
+  - name: vmware
+    provisioner:
+      script: bootstrap-vagrant.sh
+    driver:
+      provider: vmware_fusion
+  - name: parallels
+    provisioner:
+      script: bootstrap-vagrant.sh
+    driver:
+      provider: parallels
+  - name: aws
+    provisioner:
+      script: bootstrap-aws.sh
+    driver:
+      name: ec2
+      image_id: ami-1d4e7a66
+      interface: private_dns
+      aws_ssh_key_id: terraform-0061b86515b826cf28edd6f5c8
+      security_group_ids: [ sg-135b7c6c, sg-df587fa0, sg-aa5d5ed5 ]
+      subnet_id: subnet-e6a849bc
+      associate_public_ip: true
+      iam_profile_name: adm-admin-build
+  - name: docker
+    provisioner:
+      script: bootstrap-docker.sh
+    driver:
+      name: docker
+      image:  ubuntu:xenial
+      require_chef_omnibus: false
+      use_sudo: false
+      use_cache: false
+      username: ubuntu
+      build_context: false
+      volume:
+        - /data:/data
+        - /config:/config
