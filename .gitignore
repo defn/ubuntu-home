@@ -155,6 +155,5 @@ npm-debug*
 /bin/goat
 /.bless
 /.ssh/config
-/.public
 /.content
 /.awless
