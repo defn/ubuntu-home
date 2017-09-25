@@ -409,7 +409,7 @@
 	branch = v20170617
 [submodule "work/openresty"]
 	path = work/openresty
-	url = git@github.com:imma.openresty
+	url = git@github.com:imma/openresty
 	branch = 20170617
 [submodule "work/chalice"]
 	path = work/chalice
