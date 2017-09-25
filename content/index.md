@@ -1,7 +1,7 @@
 ---
 date: 2016-03-08T21:07:13+01:00
-title: ubuntu block
-type: single
+title: index
+type: index
 weight: 0
 ---
 Father Christmas. Santa Claus. Or as I've always known him: Jeff. All
