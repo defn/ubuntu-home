@@ -102,7 +102,3 @@ docker-update:
 golden:
 	$(MAKE) docker
 	$(MAKE) upload
-
-docs:
-	rm -rf .public
-	block runmany 'if test -f $$1/config.json; then cd $$1 && block compile docs; fi'
