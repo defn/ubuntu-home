@@ -41,6 +41,7 @@ linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd 
 namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             e426aa7074b0ad4dab396564ebab3ee5d7face4c v20170617 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          df51cabb1393edf88c24efb1a2034ad55e67dc48 v20170617 
 openresty          ${BLOCK_PATH}/openresty          git@github.com:imma/openresty          321d0c729ade3bc9a1d617b0de00c651b73ab5ea v20170617 
+chalice            ${BLOCK_PATH}/chalice            git@github.com:imma/chalice            78064b99d6c04e2b9dc00ba0b8b9c2aab9f20498 v20170617 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            edaced91a1fe73abd74c370dcc53a72c95bfabbc v20170617 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             71ba46f4bfe28602fc50e399733761429b16b409 v20170617 
 docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     3470e3d077ba9a7c97ae884efa9325a1994b70ea v20170617 
@@ -62,7 +63,7 @@ imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma    
 chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               1eba1f20843f14c6311057fa385364758b55dbe6 v20170617 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             de9cf2b8455b0d1a2082ec262e62f128f5e4941d v20170617 
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            7ca403ff5765d94038ed440e1f5fd7a44dc3650c v20170617 
-netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            bf1d91258523031586f554b2d8b0b0b2250f77b6 v20170617 
+netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            1b67980b0c64c2544428010fefead672f57acc26 v20170617 
 monitor            ${BLOCK_PATH}/monitor            git@github.com:imma/monitor            5ae926e7e2f4a26908950bc967b1b5eec1edbc94 v20170617 
 gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                37d59acc079eaccf3e3af0c2e542373c379da515 v20170617 
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          0e3d4bc065f1e77cd7d96a5c93ccca6e4e6cca2f v20170617 
