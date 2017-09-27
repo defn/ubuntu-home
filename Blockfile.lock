@@ -41,6 +41,7 @@ linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd 
 namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             e426aa7074b0ad4dab396564ebab3ee5d7face4c v20170617 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          df51cabb1393edf88c24efb1a2034ad55e67dc48 v20170617 
 openresty          ${BLOCK_PATH}/openresty          git@github.com:imma/openresty          321d0c729ade3bc9a1d617b0de00c651b73ab5ea v20170617 
+chalice            ${BLOCK_PATH}/chalice            git@github.com:imma/chalice            5446e15fede4c0c5b0be6a9bbf03f1ae8bbf9174 v20170617 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            edaced91a1fe73abd74c370dcc53a72c95bfabbc v20170617 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             71ba46f4bfe28602fc50e399733761429b16b409 v20170617 
 docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     3470e3d077ba9a7c97ae884efa9325a1994b70ea v20170617 
@@ -83,7 +84,7 @@ fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg    
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               3d7baf26ac212c95b3e02bc32a4aa6f592f3504d v20170617 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs a6272dbe757b27b15140af0e02dd8137ff8558df v20170617 
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          02520d7ae0711a745ceb1d593e221ce27434200c v20170617 
-docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               8bee766a4f14c857905e2248871e037018a1c127 v20170617 
+docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               c42d601f01fe42010145662746fa7da6ec0ebbe2 v20170617 
 concourse          ${BLOCK_PATH}/concourse          git@github.com:imma/concourse          6c75322949b50ef61988415404bf5ead7fa8b75f v20170617 
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              cbe4064813b0b58e83a22d56cb34fa855d5bf13a v20170617 
 home               ${BLOCK_PATH}/home               git@github.com:imma/home               1c7319f03d89cb3802f3b3b034d1f9d4150d711d v20170617 
