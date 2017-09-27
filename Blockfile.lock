@@ -58,7 +58,7 @@ awless             ${BLOCK_PATH}/awless             git@github.com:imma/awless  
 awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            e3c4f2b7b3784c4ff40f90f91b633216a377f485 v20170617 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       97ea85b4611c947507c6a1fd742f6449fdfc575e v20170617 
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              208508cd3addc552305debf8602c33f2510ccd7b v20170617 
-imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               182e3562becd12100e09668edcac76b28e9079b9 v20170617 
+imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               5c96b2aa0c5517a3b39f80328bfccca2edc6e24f v20170617 
 chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               1eba1f20843f14c6311057fa385364758b55dbe6 v20170617 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             de9cf2b8455b0d1a2082ec262e62f128f5e4941d v20170617 
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            7ca403ff5765d94038ed440e1f5fd7a44dc3650c v20170617 
@@ -82,8 +82,8 @@ fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli
 fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               cd8fe774b9c1fefb5e5cf97ce883d09416b3f4e4 v20170617 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               3d7baf26ac212c95b3e02bc32a4aa6f592f3504d v20170617 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs a6272dbe757b27b15140af0e02dd8137ff8558df v20170617 
-asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          02520d7ae0711a745ceb1d593e221ce27434200c v20170617 
-docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               8bee766a4f14c857905e2248871e037018a1c127 v20170617 
+asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          c678094f1b63d6cd5a376415ee008b3efc2d2eff v20170617 
+docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               f27effccf58189340cc228c738403d9f3c27b077 v20170617 
 concourse          ${BLOCK_PATH}/concourse          git@github.com:imma/concourse          6c75322949b50ef61988415404bf5ead7fa8b75f v20170617 
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              cbe4064813b0b58e83a22d56cb34fa855d5bf13a v20170617 
 home               ${BLOCK_PATH}/home               git@github.com:imma/home               1c7319f03d89cb3802f3b3b034d1f9d4150d711d v20170617 
@@ -103,4 +103,4 @@ bless              ${BLOCK_PATH}/bless              git@github.com:imma/bless   
 easy-rsa           ${BLOCK_PATH}/easy-rsa           git@github.com:imma/easy-rsa           150b13550913776d017761b65f2dd204056d2083 v20170617 
 openvpn            ${BLOCK_PATH}/openvpn            git@github.com:imma/openvpn            4f75a50d417e692ccdfe9397f3d57be872732609 v20170617 
 nat                ${BLOCK_PATH}/nat                git@github.com:imma/nat                ecd5239a7bd67711a205ce075f49acb85fff2107 v20170617 
-kmsauth            ${BLOCK_PATH}/kmsauth            git@github.com:imma/kmsauth            14c8fbda93ddf737bd329637fcb58e62ba08c6d3 v20170617 
+kmsauth            ${BLOCK_PATH}/kmsauth            git@github.com:imma/kmsauth            a382091e547aa6b98a18a8a48bc34d2f5cb78acc v20170617 

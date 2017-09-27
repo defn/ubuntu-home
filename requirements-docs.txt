@@ -1,0 +1,5 @@
+Markdown==2.6.9
+Pycco==0.5.1
+Pygments==2.2.0
+pystache==0.5.4
+smartypants==2.0.0
