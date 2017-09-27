@@ -51,7 +51,7 @@ postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgres
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         4571a4b6db51629504275c786a47fe849533cdce v20170617 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                d38caa96d5e89bc497488dfbbe88aad21ae28585 v20170617 
 github             ${BLOCK_PATH}/github             git@github.com:imma/github             3690b8e36e51ca22389f1398b338ac942fd39b51 v20170617 
-aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                89bbaec7a367741ba41d1f6244da7d94100bc23f v20170617 
+aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                a321571c2ae4edc3509007842409b479b7ed0c65 v20170617 
 aws-vault          ${BLOCK_PATH}/aws-vault          git@github.com:imma/aws-vault          2750ee7dcb86c092bfcb0a93c1406a4006fa054d v20170617 
 chamber            ${BLOCK_PATH}/chamber            git@github.com:imma/chamber            fda51cfbf77d4f5f54881ba425918950f09dbf5a v20170617 
 awless             ${BLOCK_PATH}/awless             git@github.com:imma/awless             0aa0e145ac303ddefffddb772cb27de673dbc770 v20170617 
