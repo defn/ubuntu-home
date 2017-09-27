@@ -13,7 +13,7 @@ homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               5c1a6837e24d57318a9ae00704143df1601d19ea v20170617 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             66fb48f43730f26132393763e52b570f79e77941 v20170617 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             b999776eeb63a47bff5bfcdb7394a29b4e2e6bac v20170617 
-ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            322c2a2bd60216ece8ec9d4f45b30ec71c0e563c v20170617 
+ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            07f9a3e29533d97a1bcb3990ab94af514632ba3a v20170617 
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              3f68bc981160f33754c1ff452eee921a6778e629 v20170617 
 inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          cb79f963c1ec56342996f5231865382a5ae32e44 v20170617 
 deploy             ${BLOCK_PATH}/deploy             git@github.com:imma/deploy             f43102a38a6d09e7072b82801f8cb258aa5222cd v20170617 
@@ -55,7 +55,7 @@ aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws     
 aws-vault          ${BLOCK_PATH}/aws-vault          git@github.com:imma/aws-vault          2750ee7dcb86c092bfcb0a93c1406a4006fa054d v20170617 
 chamber            ${BLOCK_PATH}/chamber            git@github.com:imma/chamber            fda51cfbf77d4f5f54881ba425918950f09dbf5a v20170617 
 awless             ${BLOCK_PATH}/awless             git@github.com:imma/awless             0aa0e145ac303ddefffddb772cb27de673dbc770 v20170617 
-awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            80ddb7da1eeb5e7db77f470dddb0aec5d3bf79d9 v20170617 
+awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            e3c4f2b7b3784c4ff40f90f91b633216a377f485 v20170617 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       97ea85b4611c947507c6a1fd742f6449fdfc575e v20170617 
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              208508cd3addc552305debf8602c33f2510ccd7b v20170617 
 imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               182e3562becd12100e09668edcac76b28e9079b9 v20170617 
@@ -68,7 +68,7 @@ gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg     
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          0e3d4bc065f1e77cd7d96a5c93ccca6e4e6cca2f v20170617 
 go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 0fc64ca4e3479a2662ba9b8492bb9767f0c02952 v20170617 
 cfssl              ${BLOCK_PATH}/cfssl              git@github.com:imma/cfssl              4c6d50457b51465e1e1c98e84b0e59f234e53fae v20170617 
-credstash          ${BLOCK_PATH}/credstash          git@github.com:imma/credstash          514e5604b89810b6e66a85034e627f4877a7964f v20170617 
+credstash          ${BLOCK_PATH}/credstash          git@github.com:imma/credstash          54f5ebae9ba7ceaaa645e1974ce22ee880cf2693 v20170617 
 getssl             ${BLOCK_PATH}/getssl             git@github.com:imma/getssl             ebe35d915474e0afb7095673cc483fd9a792a71a v20170617 
 crypto             ${BLOCK_PATH}/crypto             git@github.com:imma/crypto             424340308eaf3275845cdccb6a8bd5770063ddaf v20170617 
 packer             ${BLOCK_PATH}/packer             git@github.com:imma/packer             75e65a659b6c1b2d9dc435e5441bb54a5a4177bf v20170617 
@@ -79,7 +79,7 @@ inception          ${BLOCK_PATH}/inception          git@github.com:imma/inceptio
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          a8c612dfc8bdd27f281c2bcd9ca328b2002a992d v20170617 
 wtf                ${BLOCK_PATH}/wtf                git@github.com:imma/wtf                0f2bf97c7f7e08c93d03b020506e89fe64987e26 v20170617 
 fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           b1d585d2d7688a7467960e68913d876fa14675e1 v20170617 
-fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               918d7b22a5367c289a9fc369030b157e61c342b3 v20170617 
+fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               cd8fe774b9c1fefb5e5cf97ce883d09416b3f4e4 v20170617 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               3d7baf26ac212c95b3e02bc32a4aa6f592f3504d v20170617 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs a6272dbe757b27b15140af0e02dd8137ff8558df v20170617 
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          02520d7ae0711a745ceb1d593e221ce27434200c v20170617 
