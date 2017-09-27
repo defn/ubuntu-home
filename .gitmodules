@@ -293,7 +293,7 @@
 [submodule "work/irssi"]
 	path = work/irssi
 	url = git@github.com:imma/irssi
-	branch = v2017617
+	branch = v20170617
 [submodule "work/lxd"]
 	path = work/lxd
 	url = git@github.com:imma/lxd
