@@ -53,31 +53,19 @@ function main {
     make cache
   fi
 
+  git submodule foreach 'git checkout -f $(git config -f $toplevel/.gitmodules submodule.$name.branch) || (git fetch && git checkout -f $(git config -f $toplevel/.gitmodules submodule.$name.branch))'
   local pth_caller="${PWD}"
   block list | awk '{print $1,$2,$3}' | awk 'NR>2 {print l} {l=$0}' | while read -r nm_block pth_block git_block; do
-    if [[ $pth_block/ != $pth_caller/* ]]; then
-      continue
-    fi
-
-    if [[ ! -w "$pth_block/.git" ]]; then
-      continue
-    fi
-
     pushd "$pth_block"
     local git_url="$(git remote get-url ${nm_remote})"
     if [[ "$git_url" != "$git_block" ]]; then
       git remote add "$nm_remote" "$git_block" 2>/dev/null || git remote set-url "$nm_remote" "$git_block"
     fi
 
-    git checkout -f "$nm_block_branch" || true
     if ! git branch --set-upstream-to "${nm_remote}/$nm_block_branch"; then
       git cc "${nm_remote}"
     fi
     git symbolic-ref refs/remotes/origin/HEAD "refs/remotes/${nm_remote}/${nm_block_branch}"
-
-    git remote -v || true
-    git branch -a || true
-    git branch -vv || true
     popd
   done
 
