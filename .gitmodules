@@ -201,7 +201,7 @@
 [submodule "work/jqq"]
 	path = work/jqq
 	url = git@github.com:imma/jqq
-	branch = devel
+	branch = v20170617
 [submodule "work/github"]
 	path = work/github
 	url = git@github.com:imma/github
