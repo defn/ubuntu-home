@@ -97,7 +97,7 @@ cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue     
 example            ${BLOCK_PATH}/example            git@github.com:imma/example            580f6f9d333e36657fd7f90cee7c6d61e9108c36 v20170617 
 nothing            ${BLOCK_PATH}/nothing            git@github.com:imma/nothing            1f27fe2f0afd06bb09bd9f1c79cfc2dc687daff4 v20170617 
 app                ${BLOCK_PATH}/app                git@github.com:imma/app                58cfb51e5f520c664a22d4c4900463d0c05f71f8 v20170617 
-ipfs               ${BLOCK_PATH}/ipfs               git@github.com:imma/ipfs               2438c13562e693d90b4e90cab629364dcda9f1f1 v20170617 
+ipfs               ${BLOCK_PATH}/ipfs               git@github.com:imma/ipfs               dc590ee28db128cbc6316bbe59176fdf96029e43 v20170617 
 lock               ${BLOCK_PATH}/lock               git@github.com:imma/lock               53fa4e9396c7c2583600fea28afb5eb2676efde8 v20170617 
 bless              ${BLOCK_PATH}/bless              git@github.com:imma/bless              e80f769ab62f15df8abc08f1b10a390bf7175b63 v20170617 
 easy-rsa           ${BLOCK_PATH}/easy-rsa           git@github.com:imma/easy-rsa           150b13550913776d017761b65f2dd204056d2083 v20170617 
