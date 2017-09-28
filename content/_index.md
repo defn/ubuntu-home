@@ -4,6 +4,9 @@ title: ubuntu
 type: index
 weight: 0
 ---
+### Netdata
+- [localhost](/nd)
+
 ### Blocks
 Blocks with some documentation.
 
