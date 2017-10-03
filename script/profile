@@ -5,18 +5,8 @@ function _ubuntu_home_profile {
   PATH="$PATH:$shome/bin:$shome/exec"
   export ANSIBLE_ROLES_PATH="$shome/roles${ANSIBLE_ROLES_PATH:+:${ANSIBLE_ROLES_PATH}}"
 
-  if [[ ! -f "$HOME/.aws/credentials" ]]; then
-    if [[ -f "/config/aws/credentials" ]]; then
-      export AWS_SHARED_CREDENTIALS_FILE="/config/aws/credentials"
-    fi
-  fi
-
-	case "$(uname -s)" in
-		Darwin)
-			export LC_ALL=en_US.UTF-8  
-			export LANG=en_US.UTF-8
-			;;
-	esac
+  export LC_ALL=en_US.UTF-8  
+  export LANG=en_US.UTF-8
 }
 
 _ubuntu_home_profile
