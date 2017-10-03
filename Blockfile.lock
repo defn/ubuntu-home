@@ -79,7 +79,7 @@ inception          ${BLOCK_PATH}/inception          git@github.com:imma/inceptio
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          dd1059623a11b295322ad8e9d6a10b13abb25871 v20170617 
 wtf                ${BLOCK_PATH}/wtf                git@github.com:imma/wtf                0f2bf97c7f7e08c93d03b020506e89fe64987e26 v20170617 
 fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           b1d585d2d7688a7467960e68913d876fa14675e1 v20170617 
-fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               bdfd1ef01701e197163ee57dfbdd123701b7fe86 v20170617 
+fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               b05eabbfcb7fa2d9d9a04233fbb8bbcb218a9297 v20170617 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               3d7baf26ac212c95b3e02bc32a4aa6f592f3504d v20170617 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 4ca7bc271f76df5211eaa646626931e92bde285e v20170617 
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          c678094f1b63d6cd5a376415ee008b3efc2d2eff v20170617 
