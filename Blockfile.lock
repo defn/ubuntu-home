@@ -76,7 +76,7 @@ dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream   
 vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            b08da26c216a4f7180e01d39f6d164f807a3d68b v20170617 
 limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              99f7b6c19df07148254db6e641c45ce68b236e88 v20170617 
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          c41630295bc0390ead91a50b994648ed3d3ac66a v20170617 
-terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          a8c612dfc8bdd27f281c2bcd9ca328b2002a992d v20170617 
+terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          dd1059623a11b295322ad8e9d6a10b13abb25871 v20170617 
 wtf                ${BLOCK_PATH}/wtf                git@github.com:imma/wtf                0f2bf97c7f7e08c93d03b020506e89fe64987e26 v20170617 
 fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           b1d585d2d7688a7467960e68913d876fa14675e1 v20170617 
 fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               fdfd834959a344c76b811779849c933a7ff7e6c1 v20170617 
