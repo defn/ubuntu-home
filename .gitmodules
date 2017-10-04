@@ -344,10 +344,6 @@
 	path = work/vagrant
 	url = git@github.com:imma/vagrant
 	branch = v20170617
-[submodule "work/concourse"]
-	path = work/concourse
-	url = git@github.com:imma/concourse
-	branch = v20170617
 [submodule "work/postgresql"]
 	path = work/postgresql
 	url = git@github.com:imma/postgresql
