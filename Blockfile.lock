@@ -103,4 +103,4 @@ easy-rsa           ${BLOCK_PATH}/easy-rsa           git@github.com:imma/easy-rsa
 openvpn            ${BLOCK_PATH}/openvpn            git@github.com:imma/openvpn            4f75a50d417e692ccdfe9397f3d57be872732609 v20170617 
 nat                ${BLOCK_PATH}/nat                git@github.com:imma/nat                ecd5239a7bd67711a205ce075f49acb85fff2107 v20170617 
 kmsauth            ${BLOCK_PATH}/kmsauth            git@github.com:imma/kmsauth            a382091e547aa6b98a18a8a48bc34d2f5cb78acc v20170617 
-jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins            6313a0f740510e0ef2e72aade5217af642f0f552 v20170617 
+jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins            9aa915b19d7fbaa39ee4997d38a530d6804f7edd v20170617 
