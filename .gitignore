@@ -157,3 +157,5 @@ npm-debug*
 /.ssh/config
 /.content
 /.awless
+
+Dockerfile-kitchen*
