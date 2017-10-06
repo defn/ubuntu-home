@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+function main {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "${BLOCK_PATH:-"$shome/work"}/block/script/profile" ~
+  source normalize  
+
+  cd "$shome"
+  source .bash_profile
+  ki conv docker
+}
+
+source sub "$BASH_SOURCE" "$@"
