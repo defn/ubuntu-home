@@ -419,3 +419,7 @@
 	path = work/awless
 	url = git@github.com:imma/awless
 	branch = v20170617
+[submodule "work/jenkins"]
+	path = work/jenkins
+	url = git@github.com:imma/jenkins
+	branch = v201706717
