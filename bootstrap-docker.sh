@@ -68,6 +68,7 @@ function main {
   source .bash_profile
 
   block sync
+  source .bash_profile
   block bootstrap
   sync
 }
