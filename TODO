@@ -10,3 +10,9 @@ rdr pass inet proto tcp from any to any port 80 -> 127.0.0.1 port 2015
 https://github.com/mitchellh/vagrant/issues/4050
 
 --prefix=/jenkins
+
+sudo useradd -m -s /bin/bash -g ubuntu -u 1000 ubuntu
+sudo mkdir ~ubuntu/.ssh
+sudo cp ~ec2-user/.ssh/authorized_keys ~ubuntu/.ssh/
+sudo chown -R ubuntu:ubuntu ~ubuntu
+echo 'ubuntu ALL=(ALL) NOPASSWD:ALL' | sudo tee -a /etc/sudoers.d/cloud-init
