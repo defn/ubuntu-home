@@ -2,3 +2,6 @@
 - hosts: vagrant:docker:localhost_all
   roles:
     - {  role: "{{deploy_role}}" }
+- hosts: all
+  roles:
+    - {  role: "{{deploy_role}}" }
