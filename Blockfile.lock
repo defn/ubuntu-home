@@ -25,7 +25,7 @@ ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby    
 curl               ${BLOCK_PATH}/curl               git@github.com:imma/curl               d9de7d46a87aa27b7ce9b4b34a44737b29a08cc9 v20170617 
 nvm                ${BLOCK_PATH}/nvm                git@github.com:imma/nvm                8b18236c2cddce55971957afc1ce15a19d90db62 v20170617 
 node               ${BLOCK_PATH}/node               git@github.com:imma/node               ebeef99a21824f5d48fd92617b54b5b30bf091b9 v20170617 
-yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               4ad4fa1ae0e92bbe3bc7011921903b1b4ef2aa99 v20170617 
+yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               f1036553ae9ee38d7339b7e0d7364a4277ddd370 v20170617 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              6698310a0e04ae4daed8085242d6ab06812cedf2 v20170617 
 jqq                ${BLOCK_PATH}/jqq                git@github.com:imma/jqq                a4b97cf766b70777d81bf699a8e17b7915a90d4b v20170617 
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              3d5bf5749033c9728ada4c413d4bd7f545c2fb60 v20170617 
@@ -58,7 +58,8 @@ awless             ${BLOCK_PATH}/awless             git@github.com:imma/awless  
 credstash          ${BLOCK_PATH}/credstash          git@github.com:imma/credstash          54f5ebae9ba7ceaaa645e1974ce22ee880cf2693 v20170617 
 aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                333fd56b44821dff0e1255cd95070a397e2e2e90 v20170617 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       97ea85b4611c947507c6a1fd742f6449fdfc575e v20170617 
-cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              96ee4ff67a22a824918a8964ff2f175f10b3cbe3 v20170617 
+heroku             ${BLOCK_PATH}/heroku             git@github.com:imma/heroku             b65c721b4ee43f247515fa6cdadb1ca55b85044f v20170617 
+cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              24c6d571ed96dafb71ce144e5089f00e2e8e519b v20170617 
 imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               9a46b5a796f2b0282b6cdf3167739829170e55d0 v20170617 
 chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               4bbe1ba994feb425476b087863800a22d6676256 v20170617 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             de9cf2b8455b0d1a2082ec262e62f128f5e4941d v20170617 

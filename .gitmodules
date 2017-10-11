@@ -423,3 +423,7 @@
 	path = work/jenkins
 	url = git@github.com:imma/jenkins
 	branch = v201706717
+[submodule "work/heroku"]
+	path = work/heroku
+	url = git@github.com:imma/heroku
+	branch = v20170617
