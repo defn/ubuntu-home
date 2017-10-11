@@ -1,7 +1,5 @@
 ---
-- hosts: vagrant:docker:localhost_all
-  roles:
-    - {  role: "{{deploy_role}}" }
-- hosts: all
-  roles:
-    - {  role: "{{deploy_role}}" }
+- import_playbook: vagrant.yml
+- import_playbook: docker.yml
+- import_playbook: local.yml
+- import_playbook: aws-live.yml

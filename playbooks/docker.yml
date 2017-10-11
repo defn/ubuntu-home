@@ -1,0 +1,4 @@
+---
+- hosts: docker
+  roles:
+    - {  role: "{{deploy_role}}" }

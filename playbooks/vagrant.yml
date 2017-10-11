@@ -1,0 +1,4 @@
+---
+- hosts: vagrant
+  roles:
+    - {  role: "{{deploy_role}}" }

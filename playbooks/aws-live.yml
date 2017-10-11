@@ -1,0 +1,4 @@
+---
+- hosts: Tags_color_live
+  roles:
+    - {  role: "{{deploy_role}}" }

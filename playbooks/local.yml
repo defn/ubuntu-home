@@ -1,0 +1,4 @@
+---
+- hosts: localhost_all
+  roles:
+    - {  role: "{{deploy_role}}" }
