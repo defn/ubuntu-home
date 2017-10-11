@@ -431,3 +431,7 @@
 	path = work/packet
 	url = git@github.com:imma/packet
 	branch = v20170617
+[submodule "work/eb"]
+	path = work/eb
+	url = git@github.com:imma/eb
+	branch = v20170617
