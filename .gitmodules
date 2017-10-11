@@ -427,3 +427,7 @@
 	path = work/heroku
 	url = git@github.com:imma/heroku
 	branch = v20170617
+[submodule "work/packet"]
+	path = work/packet
+	url = git@github.com:imma/packet
+	branch = v20170617
