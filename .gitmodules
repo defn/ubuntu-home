@@ -435,3 +435,15 @@
 	path = work/eb
 	url = git@github.com:imma/eb
 	branch = v20170617
+[submodule "work/se"]
+	path = work/se
+	url = git@github.com:imma/se
+	branch = v20170617
+[submodule "work/haihero"]
+	path = work/haihero
+	url = git@github.com:imma/haihero
+	branch = v20170617
+[submodule "work/ftl"]
+	path = work/ftl
+	url = git@github.com:imma/ftl
+	branch = v20170617
