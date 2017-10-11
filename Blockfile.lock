@@ -15,7 +15,7 @@ pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc  
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             59ad1bc9e1c269d0b2e5b713f928f11aa500e0e9 v20170617 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            07f9a3e29533d97a1bcb3990ab94af514632ba3a v20170617 
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              3f68bc981160f33754c1ff452eee921a6778e629 v20170617 
-inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          c2c3d1524efdbb1af8bb6179f860d5a4ef8e17d1 v20170617 
+inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          3712ddf9437a227b25a86cdea24abf89635ae3e6 v20170617 
 deploy             ${BLOCK_PATH}/deploy             git@github.com:imma/deploy             f43102a38a6d09e7072b82801f8cb258aa5222cd v20170617 
 htop               ${BLOCK_PATH}/htop               git@github.com:imma/htop               cf92384d5a503fac1e5bb9d96a9eb298190eb11a v20170617 
 sysadmin           ${BLOCK_PATH}/sysadmin           git@github.com:imma/sysadmin           4e59cacf5bf5ac353c52d08b1ca04980fe179274 v20170617 

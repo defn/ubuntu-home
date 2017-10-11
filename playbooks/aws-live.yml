@@ -1,4 +1,4 @@
 ---
-- hosts: color_live
+- hosts: color-live
   roles:
     - {  role: "{{deploy_role}}" }
