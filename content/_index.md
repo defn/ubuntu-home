@@ -5,7 +5,10 @@ type: index
 weight: 0
 ---
 ### Netdata
-- [localhost](/nd)
+- [netdata](/nd)
+
+### Jenkins
+- [jenkins](/jenkins)
 
 ### Blocks
 Blocks with some documentation.
