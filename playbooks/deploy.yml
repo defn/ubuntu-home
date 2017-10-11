@@ -2,4 +2,4 @@
 - import_playbook: vagrant.yml
 - import_playbook: docker.yml
 - import_playbook: local.yml
-- import_playbook: aws-live.yml
+- import_playbook: aws.yml

@@ -1,0 +1,4 @@
+---
+- hosts: service-nat:service-vpn
+  roles:
+    - {  role: "{{deploy_role}}" }
