@@ -447,3 +447,7 @@
 	path = work/ftl
 	url = git@github.com:imma/ftl
 	branch = v20170617
+[submodule "work/rat"]
+	path = work/rat
+	url = git@github.com:imma/rat
+	branch = v20170617

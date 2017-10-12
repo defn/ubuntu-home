@@ -107,6 +107,7 @@ openvpn            ${BLOCK_PATH}/openvpn            git@github.com:imma/openvpn 
 nat                ${BLOCK_PATH}/nat                git@github.com:imma/nat                ecd5239a7bd67711a205ce075f49acb85fff2107 v20170617 
 kmsauth            ${BLOCK_PATH}/kmsauth            git@github.com:imma/kmsauth            a382091e547aa6b98a18a8a48bc34d2f5cb78acc v20170617 
 jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins            7fc869e130d8a85c73f3b96070f440d7bcff93ce v20170617 
+rat                ${BLOCK_PATH}/rat                git@github.com:imma/rat                d675e1e4484a4e5077718c7d9d52a2c44805f8d3 v20170617 
 ftl                ${BLOCK_PATH}/ftl                git@github.com:imma/ftl                77a67b439fc05afb402f9fbe0b44d67864c5a069 v20170617 
 se                 ${BLOCK_PATH}/se                 git@github.com:imma/se                 457a59b71a4781c098e2ee1069fb87c0747c94db v20170617 
 haihero            ${BLOCK_PATH}/haihero            git@github.com:imma/haihero            59e3b9d0a4ddccfddf6671290f705488c059a447 v20170617 
