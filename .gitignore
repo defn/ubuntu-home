@@ -159,3 +159,4 @@ npm-debug*
 /.awless
 
 Dockerfile-kitchen*
+/.httpie

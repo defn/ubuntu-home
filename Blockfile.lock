@@ -41,7 +41,7 @@ linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd 
 namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             e426aa7074b0ad4dab396564ebab3ee5d7face4c v20170617 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          df51cabb1393edf88c24efb1a2034ad55e67dc48 v20170617 
 openresty          ${BLOCK_PATH}/openresty          git@github.com:imma/openresty          321d0c729ade3bc9a1d617b0de00c651b73ab5ea v20170617 
-chalice            ${BLOCK_PATH}/chalice            git@github.com:imma/chalice            e612613c6c12358aabfb865de423bae202988bee v20170617 
+chalice            ${BLOCK_PATH}/chalice            git@github.com:imma/chalice            c70d6ff169a9a8649e08aacd5081f388ed325639 v20170617 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            edaced91a1fe73abd74c370dcc53a72c95bfabbc v20170617 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             71ba46f4bfe28602fc50e399733761429b16b409 v20170617 
 docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     3470e3d077ba9a7c97ae884efa9325a1994b70ea v20170617 
