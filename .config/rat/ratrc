@@ -1,6 +1,6 @@
 mode file
   annotate match file         -- ls -a1p | grep -v /
   bindkey  enter file preview -- >cat %(file)
-  bindkey  e     file         -- !vim %(file)
+  bindkey  e     file         -- !vim %(file) || true
   bindkey  S-x   file         -- ?!rm %(file)
 end
