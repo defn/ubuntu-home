@@ -9,7 +9,7 @@ mode aws
   annotate match instance     -- aqq 'keys[]'
   annotate match volume       -- aqq '$volumes.Volumes | keys[]'
   annotate match snapshot     -- aqq '$snapshots.Snapshots | keys[]'
-  bindkey  enter instance aws -- aqq --arg instance %(instance) '.[$instance]'
-  bindkey  enter volume   aws -- aqq --arg volume %(volume) '$volumes.Volumes[$volume]'
-  bindkey  enter snapshot aws -- aqq --arg snapshot %(snapshot) '$snapshots.Snapshots[$snapshot]'
+  bindkey  enter instance aws -- >aqq --arg instance %(instance) '.[$instance]'
+  bindkey  enter volume   aws -- >aqq --arg volume %(volume) '$volumes.Volumes[$volume]'
+  bindkey  enter snapshot aws -- >aqq --arg snapshot %(snapshot) '$snapshots.Snapshots[$snapshot]'
 end
