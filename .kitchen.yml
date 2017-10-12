@@ -24,9 +24,6 @@ platforms:
   - name: ubuntu
     driver:
       linked_clone: true
-  - name: rhel
-    driver:
-      linked_clone: true
 
 suites:
   - name: virtualbox
@@ -69,21 +66,6 @@ suites:
       use_sudo: false
       use_cache: false
       username: ubuntu
-      build_context: false
-      volume:
-        - /data:/data
-        - /config:/config
-  - name: docker-amazonlinux
-    provisioner:
-      script: bootstrap-docker.sh
-    driver:
-      name: docker
-      image: amazonlinux:latest
-      platform: rhel
-      require_chef_omnibus: false
-      use_sudo: false
-      use_cache: false
-      username: ec2-user
       build_context: false
       volume:
         - /data:/data
