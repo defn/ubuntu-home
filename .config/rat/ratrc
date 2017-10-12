@@ -4,3 +4,8 @@ mode file
   bindkey  e     file         -- !vim %(file) || true
   bindkey  S-x   file         -- ?!rm %(file)
 end
+
+mode aws
+  annotate match instance         -- aqq 'keys[]'
+  bindkey  enter instance preview -- aqq --arg instance %(instance) '.[$instance]'
+end
