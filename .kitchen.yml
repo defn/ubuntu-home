@@ -24,6 +24,11 @@ platforms:
   - name: ubuntu
     driver:
       linked_clone: true
+      image: ubuntu:xenial
+  - name: rhel
+    driver:
+      linked_clone: true
+      image: amazonlinux:latest
 
 suites:
   - name: virtualbox
@@ -60,13 +65,11 @@ suites:
       script: bootstrap-docker.sh
     driver:
       name: docker
-      image:  ubuntu:xenial
-      platform: ubuntu
       require_chef_omnibus: false
       use_sudo: false
       use_cache: false
-      username: ubuntu
       build_context: false
       volume:
         - /data:/data
         - /config:/config
+      username: ubuntu
