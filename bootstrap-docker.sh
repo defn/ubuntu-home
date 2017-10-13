@@ -4,22 +4,44 @@ set -exfu
 umask 0022
 
 function main {
-  local loader='sudo env DEBIAN_FRONTEND=noninteractive'
   local nm_branch="v20170617"
   local nm_remote="gh"
   local url_remote="https://github.com/imma/ubuntu"
 
   export BOARD_PATH="$HOME"
 
+  if [[ -f /etc/lsb-release ]]; then
+    . /etc/lsb-release
+  fi
+
+  : ${DISTRIB_ID:=}
+
+  case "$DISTRIB_ID" in
+    Ubuntu)
+      local loader='sudo env DEBIAN_FRONTEND=noninteractive'
+      ;;
+    *)
+      local loader='sudo env'
+      ;;
+  esac
+
   if [[ ! -d .git || -f .bootstrapping ]]; then
     touch .bootstrapping
 
-    $loader apt-get install -y awscli
-    $loader dpkg --configure -a
-    $loader apt-get update
-    $loader apt-get install -y make python build-essential aptitude git rsync
-    $loader aptitude hold grub-legacy-ec2 docker-ce lxd
-    $loader apt-get upgrade -y
+    case "$DISTRIB_ID" in
+      Ubuntu)
+        $loader apt-get install -y awscli
+        $loader dpkg --configure -a
+        $loader apt-get update
+        $loader apt-get install -y make python build-essential aptitude git rsync
+        $loader aptitude hold grub-legacy-ec2 docker-ce lxd
+        $loader apt-get upgrade -y
+        ;;
+      *)
+        $loader yum install -y aws-cli
+        $loader yum install -y git rsync make
+        ;;
+    esac
 
     ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
 
