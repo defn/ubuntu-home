@@ -37,15 +37,6 @@ function bashrc_main {
   umask 0022
   home_bashrc
 
-  if [[ -f /etc/lsb-release ]]; then
-    . /etc/lsb-release
-  fi
-
-  : ${DISTRIB_ID:=}
-  if [[ -z "${DISTRIB_ID}" ]]; then
-    DISTRIB_ID="$(uname -s)"
-  fi
-
   if [[ "$#" -gt 1  && "$1" == "" ]]; then
     shift
     for __a in "$@"; do pushd "$__a" >/dev/null && { require; popd >/dev/null; }; done
