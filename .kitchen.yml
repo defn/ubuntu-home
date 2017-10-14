@@ -28,7 +28,7 @@ platforms:
   - name: rhel
     driver:
       linked_clone: true
-      image: amazonlinux:latest
+      image: amazonlinux:2017.03
 
 suites:
   - name: virtualbox
