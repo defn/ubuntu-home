@@ -6,7 +6,7 @@ function main {
 
   cd "$shome"
 
-  case "$(uname -s)" in
+  case "${DISTRIB_ID}" in
     Darwin)
       ${NOSUDO} sudo route -n add -net 172.17.0.0/16 172.28.128.10
       
@@ -15,7 +15,7 @@ function main {
       echo 'server=8.8.4.4' | tee -a "$HOME/homebrew/etc/dnsmasq.conf"
       brew services restart dnsmasq
       ;;
-    Linux)
+    Ubuntu|Amazon)
       ${NOSUDO} sudo ifconfig lo:0 172.28.29.250 netmask 255.255.255.0 up
       ${NOSUDO} sudo systemctl restart dnsmasq
 
