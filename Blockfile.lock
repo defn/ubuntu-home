@@ -40,7 +40,7 @@ etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd    
 linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            0e8555446db6633bd1490ac4a789ce9aada80f78 v20170617 
 namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             5237da39da20d2ce9845819f78546c8a4450e3ea v20170617 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          c600e862e3a1c0c657a4f48f3d6938dd090f9118 v20170617 
-openresty          ${BLOCK_PATH}/openresty          git@github.com:imma/openresty          321d0c729ade3bc9a1d617b0de00c651b73ab5ea v20170617 
+openresty          ${BLOCK_PATH}/openresty          git@github.com:imma/openresty          10d75fcc83c1d4c8082159e66888f53dc21b30d7 v20170617 
 chalice            ${BLOCK_PATH}/chalice            git@github.com:imma/chalice            c70d6ff169a9a8649e08aacd5081f388ed325639 v20170617 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            edaced91a1fe73abd74c370dcc53a72c95bfabbc v20170617 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             71ba46f4bfe28602fc50e399733761429b16b409 v20170617 
