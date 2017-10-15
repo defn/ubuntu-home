@@ -76,7 +76,7 @@ getssl             ${BLOCK_PATH}/getssl             git@github.com:imma/getssl  
 crypto             ${BLOCK_PATH}/crypto             git@github.com:imma/crypto             424340308eaf3275845cdccb6a8bd5770063ddaf v20170617 
 packer             ${BLOCK_PATH}/packer             git@github.com:imma/packer             75e65a659b6c1b2d9dc435e5441bb54a5a4177bf v20170617 
 dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream              60f61c4c22fc9ce8bb1a49538551d3220e743c16 v20170617 
-vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            e625984b19196012f739c239fafddeec3e862d6b v20170617 
+vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            7e6fb3139c657ccd10b9e26db63196443f25d06b v20170617 
 limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              99f7b6c19df07148254db6e641c45ce68b236e88 v20170617 
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          c41630295bc0390ead91a50b994648ed3d3ac66a v20170617 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          dd1059623a11b295322ad8e9d6a10b13abb25871 v20170617 
