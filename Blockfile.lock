@@ -30,7 +30,7 @@ bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4   
 jqq                ${BLOCK_PATH}/jqq                git@github.com:imma/jqq                cdef4fc11a0498ca93e86637d46a814483c80465 v20170617 
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              3d5bf5749033c9728ada4c413d4bd7f545c2fb60 v20170617 
 vmm                ${BLOCK_PATH}/vmm                git@github.com:imma/vmm                f9ff7ea3ec4acdbe843f3044464c5865cd04512c v20170617 
-runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              715b90b2478ede62f6399ac78dda8602888ad405 v20170617 
+runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              d9e582e60181dbdee04509dd419d7b22ea503167 v20170617 
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            5fd508630279692f95e6cb355c935e8530a9097a v20170617 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               cf1b3c298f79842025fffcb1d7d32960e1f6ebc7 v20170617 
 facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts              b636f89374da959488421214c07f48eeace7c223 v20170617 
@@ -92,7 +92,7 @@ home               ${BLOCK_PATH}/home               git@github.com:imma/home    
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             fdc4b75ebc28512392abd1c865ee31d73917b1d4 v20170617 
 defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               bc78f4a9c9eee5f55b6ed053505c9c8fe257657b v20170617 
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              a3ea90c761592d90af4764a0010428c069f1db2f v20170617 
-irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              2669db1ecea12f6cdb637a289cf5f6de1e968eb6 v20170617 
+irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              9b2620eba311e787ebc1387e99df24270b416dff v20170617 
 bitlbee            ${BLOCK_PATH}/bitlbee            git@github.com:imma/bitlbee            ace163365ca3de995394683e4de99535765b926e v20170617 
 chat               ${BLOCK_PATH}/chat               git@github.com:imma/chat               9a1eb09590088e4d3e6a1a62c18ca31f45afd490 v20170617 
 cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue                b9383a102d3aeab9f567b8527ab609c7cf940797 v20170617 
