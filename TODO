@@ -23,3 +23,5 @@ up ip route add default via 10.0.0.1 dev eth1 table eth1_rt
 up ip rule add from 10.0.0.42/32 table eth1_rt
 up ip rule add to 10.0.0.42/32 table eth1_rt
 up ip route flush cache
+
+xcode-select --install
