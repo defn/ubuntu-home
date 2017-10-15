@@ -10,11 +10,20 @@ function main {
 
   export BOARD_PATH="$HOME"
 
+  : ${DISTRIB_ID:=}
+
   if [[ -f /etc/lsb-release ]]; then
     . /etc/lsb-release
   fi
 
-  : ${DISTRIB_ID:=}
+  if [[ -z "${DISTRIB_ID}" ]]; then
+    DISTRIB_ID="$(awk '{print $1}' /etc/system-release)"
+    if [[ "$DISTRIB_ID" != "Amazon" ]]; then
+      DISTRIB_ID="$(uname -s)"
+    fi
+  fi
+
+  export DISTRIB_ID
 
   case "$DISTRIB_ID" in
     Ubuntu)
@@ -37,7 +46,7 @@ function main {
         $loader aptitude hold grub-legacy-ec2 docker-ce lxd
         $loader apt-get upgrade -y
         ;;
-      *)
+      Amazon)
         $loader yum install -y aws-cli
         $loader yum install -y git rsync make
         ;;
