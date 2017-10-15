@@ -7,7 +7,7 @@ sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub     
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            a037a8ef17722cc23934262cfcaf7e72d9d3a7fa v20170617 
 block              ${BLOCK_PATH}/block              git@github.com:imma/block              597978fbc098adc857dd93e93a93d757b307c6f3 v20170617 
 instance           ${BLOCK_PATH}/instance           git@github.com:imma/instance           7f7d726ab81f7ebcc0eb3b65d78052fa9973dc59 v20170617 
-base               ${BLOCK_PATH}/base               git@github.com:imma/base               62b73d0ff3dde0faded97eefb5526365938274a7 v20170617 
+base               ${BLOCK_PATH}/base               git@github.com:imma/base               aa3873b9bc57bdc7924d2ff2527a585a7479b6bd v20170617 
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      a473e85695635a2a281f11e60a30ac7587b24a93 v20170617 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           742f7700e2ec34600e108265d3d4a33fd0b58894 v20170617 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               0e404a4dd55ef4f788dfb9cf0f09d586b59ecd03 v20170617 
@@ -66,7 +66,7 @@ imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma    
 chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               4bbe1ba994feb425476b087863800a22d6676256 v20170617 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             de9cf2b8455b0d1a2082ec262e62f128f5e4941d v20170617 
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            462a4bec8d4b669d49de38378581f29917b4a627 v20170617 
-netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            1b67980b0c64c2544428010fefead672f57acc26 v20170617 
+netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            3b81f9c50c853f5b92cda7d54670c9709a85f31c v20170617 
 monitor            ${BLOCK_PATH}/monitor            git@github.com:imma/monitor            5ae926e7e2f4a26908950bc967b1b5eec1edbc94 v20170617 
 gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                d71f8eb91cc7db606a1e18a743af94aa48b9779e v20170617 
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          89b82327c2b9f04ce10cc9e16a5b24f9b9cc128a v20170617 
