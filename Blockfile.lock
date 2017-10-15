@@ -11,7 +11,7 @@ base               ${BLOCK_PATH}/base               git@github.com:imma/base    
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      a473e85695635a2a281f11e60a30ac7587b24a93 v20170617 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           742f7700e2ec34600e108265d3d4a33fd0b58894 v20170617 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               0e404a4dd55ef4f788dfb9cf0f09d586b59ecd03 v20170617 
-pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             9d3678f90d4ea58aba1596eaa3427434837e22bb v20170617 
+pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             4d925a39e52f41844cda9c4fc28d89cb1f23e3ed v20170617 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             7bc90e8f195488b4914ed1b15e0ab6715373b3e8 v20170617 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            07f9a3e29533d97a1bcb3990ab94af514632ba3a v20170617 
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              1db14ad7537bf2edde2f9393e1f8e51ba1ad4d4c v20170617 
@@ -30,7 +30,7 @@ bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4   
 jqq                ${BLOCK_PATH}/jqq                git@github.com:imma/jqq                cdef4fc11a0498ca93e86637d46a814483c80465 v20170617 
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              3d5bf5749033c9728ada4c413d4bd7f545c2fb60 v20170617 
 vmm                ${BLOCK_PATH}/vmm                git@github.com:imma/vmm                f9ff7ea3ec4acdbe843f3044464c5865cd04512c v20170617 
-runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              22c0b5652ff93c1cdc6c30eaaf78c15eed2edb8e v20170617 
+runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              35f094c924d2feebf3f6e34e69a1997d9f283519 v20170617 
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            5fd508630279692f95e6cb355c935e8530a9097a v20170617 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               cf1b3c298f79842025fffcb1d7d32960e1f6ebc7 v20170617 
 facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts              b636f89374da959488421214c07f48eeace7c223 v20170617 
