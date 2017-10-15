@@ -47,7 +47,7 @@ parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity  
 docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     a326d4111505c24ba1463ce18ef0262a2d130e50 v20170617 
 docker-machine     ${BLOCK_PATH}/docker-machine     git@github.com:imma/docker-machine     753b7489ebdd3b62cf6f23a88c717722f2e622ba v20170617 
 docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             bafd7af034f3bb764fb07e4262bcd512bbeddd0a v20170617 
-lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                265e5bbeec28f8483e2ed1c246db5cbc1df4a528 v20170617 
+lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                9af5e43ed5382214090260c1e655f9c1ee0be481 v20170617 
 postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgresql         a438f69083d0ec49c7aa60fcc33ce85c997ea5ee v20170617 
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         4571a4b6db51629504275c786a47fe849533cdce v20170617 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                d38caa96d5e89bc497488dfbbe88aad21ae28585 v20170617 
