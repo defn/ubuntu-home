@@ -451,3 +451,7 @@
 	path = work/rat
 	url = git@github.com:imma/rat
 	branch = v20170617
+[submodule "work/gotty"]
+	path = work/gotty
+	url = git@github.com:imma/gotty
+	branch = v20170617
