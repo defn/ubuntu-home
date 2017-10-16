@@ -455,3 +455,7 @@
 	path = work/gotty
 	url = git@github.com:imma/gotty
 	branch = v20170617
+[submodule "work/rundeck"]
+	path = work/rundeck
+	url = git@github.com:imma/rundeck
+	branch = v20170617
