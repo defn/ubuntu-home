@@ -459,3 +459,7 @@
 	path = work/rundeck
 	url = git@github.com:imma/rundeck
 	branch = v20170617
+[submodule "work/yubikey"]
+	path = work/yubikey
+	url = git@gitub.com:imma/yubikey
+	branch = v20170617
