@@ -11,6 +11,6 @@
     [ "home", "defn", "junas", "chat", "cue" ],
     [ "example", "nothing", "app" ],
     [ "ipfs", "lock", "bless", "openvpn", "nat", "easy-rsa", "kmsauth", "jenkins", "rat" ],
-    [ "ftl", "se", "haihero", "gotty" ]
+    [ "ftl", "se", "haihero", "gotty", "yubikey" ]
   ]
 }
