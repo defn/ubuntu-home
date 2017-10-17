@@ -162,3 +162,4 @@ Dockerfile-kitchen*
 /.httpie
 /.rd
 /.neoman
+/.gotty*
