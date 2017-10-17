@@ -1,7 +1,7 @@
 cat .kitchen.yml | python2.7 -c 'import sys, yaml, json; y=yaml.load(sys.stdin.read()); print json.dumps(y)' | jq . | python2.7 -c 'import sys, yaml, json; j=json.loads(sys.stdin.read()); print yaml.safe_dump(j)'
 
 echo "
-rdr pass inet proto tcp from any to any port 80 -> 127.0.0.1 port 2015
+rdr pass inet proto tcp from any to any port 443 -> 127.0.0.1 port 2015
 " | sudo pfctl -ef -
 
 --config ~/config.json -s ~/ --bind 0.0.0.0 --baseUrl localhost --appendPort=false --log --disableRSS --disableSitemap
