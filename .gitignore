@@ -160,3 +160,4 @@ npm-debug*
 
 Dockerfile-kitchen*
 /.httpie
+/.rd
