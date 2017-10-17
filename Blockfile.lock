@@ -30,7 +30,7 @@ bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4   
 jqq                ${BLOCK_PATH}/jqq                git@github.com:imma/jqq                cdef4fc11a0498ca93e86637d46a814483c80465 v20170617 
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              3d5bf5749033c9728ada4c413d4bd7f545c2fb60 v20170617 
 vmm                ${BLOCK_PATH}/vmm                git@github.com:imma/vmm                f9ff7ea3ec4acdbe843f3044464c5865cd04512c v20170617 
-runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              d9e582e60181dbdee04509dd419d7b22ea503167 v20170617 
+runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              32c12c4a9eb2a6b132c422a49aea9dabfb0639e0 v20170617 
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            5fd508630279692f95e6cb355c935e8530a9097a v20170617 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               cf1b3c298f79842025fffcb1d7d32960e1f6ebc7 v20170617 
 facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts              b636f89374da959488421214c07f48eeace7c223 v20170617 
@@ -112,4 +112,3 @@ ftl                ${BLOCK_PATH}/ftl                git@github.com:imma/ftl     
 se                 ${BLOCK_PATH}/se                 git@github.com:imma/se                 457a59b71a4781c098e2ee1069fb87c0747c94db v20170617 
 haihero            ${BLOCK_PATH}/haihero            git@github.com:imma/haihero            59e3b9d0a4ddccfddf6671290f705488c059a447 v20170617 
 gotty              ${BLOCK_PATH}/gotty              git@github.com:imma/gotty              deeba14593600c74edae1ada5e9f3f43671478cf v20170617 
-rundeck            ${BLOCK_PATH}/rundeck            git@github.com:imma/rundeck            54903a31950840d87a5ee7c823855804a3257054 v20170617 
