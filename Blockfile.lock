@@ -111,5 +111,5 @@ rat                ${BLOCK_PATH}/rat                git@github.com:imma/rat     
 ftl                ${BLOCK_PATH}/ftl                git@github.com:imma/ftl                77a67b439fc05afb402f9fbe0b44d67864c5a069 v20170617 
 se                 ${BLOCK_PATH}/se                 git@github.com:imma/se                 457a59b71a4781c098e2ee1069fb87c0747c94db v20170617 
 haihero            ${BLOCK_PATH}/haihero            git@github.com:imma/haihero            59e3b9d0a4ddccfddf6671290f705488c059a447 v20170617 
-gotty              ${BLOCK_PATH}/gotty              git@github.com:imma/gotty              deeba14593600c74edae1ada5e9f3f43671478cf v20170617 
+gotty              ${BLOCK_PATH}/gotty              git@github.com:imma/gotty              a6fad2b1562124e0869480734f14a2e0a8adf99a v20170617 
 yubikey            ${BLOCK_PATH}/yubikey            git@github.com:imma/yubikey            c163429f6c733e9cf105c7b8eb81063f670682f9 v20170617 
