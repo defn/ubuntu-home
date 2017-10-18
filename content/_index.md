@@ -5,7 +5,7 @@ type: index
 weight: 0
 ---
 ### Netdata
-- [netdata](/nd)
+- [netdata](/netdata)
 
 ### Jenkins
 - [jenkins](/jenkins)
