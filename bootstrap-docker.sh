@@ -17,10 +17,15 @@ function main {
   fi
 
   if [[ -z "${DISTRIB_ID}" ]]; then
-    DISTRIB_ID="$(awk '{print $1}' /etc/system-release)"
-    if [[ "$DISTRIB_ID" != "Amazon" ]]; then
-      DISTRIB_ID="$(uname -s)"
-    fi
+    DISTRIB_ID="$(awk '{print $1}' /etc/system-release 2>/dev/null || true)"
+  fi
+
+  if [[ -z "${DISTRIB_ID}" ]]; then
+    DISTRIB_ID="$(awk '{print $1}' /etc/redhat-release 2>/dev/null || true)"
+  fi
+
+  if [[ -z "$DISTRIB_ID" ]]; then
+    DISTRIB_ID="$(uname -s)"
   fi
 
   export DISTRIB_ID
@@ -46,7 +51,7 @@ function main {
         $loader aptitude hold grub-legacy-ec2 docker-ce lxd
         $loader apt-get upgrade -y
         ;;
-      Amazon|CentOS)
+      Amazon)
         $loader yum install -y aws-cli
         $loader yum install -y git rsync make
         ;;
@@ -54,7 +59,7 @@ function main {
 
     ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
 
-    tar xvfz /data/cache/git/ubuntu-v20170616.tar.gz
+    tar xfz /data/cache/git/ubuntu-v20170616.tar.gz
     git reset --hard
     rsync -ia .gitconfig.template .gitconfig
     rsync -ia .ssh/config.template .ssh/config
