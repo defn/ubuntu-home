@@ -4,6 +4,11 @@ title: ubuntu
 type: index
 weight: 0
 ---
+### 'defn
+- ['defn](/defn)
+
+## Apps
+
 ### Shell
 - [shell](/shell)
 
@@ -13,7 +18,7 @@ weight: 0
 ### Jenkins
 - [jenkins](/jenkins)
 
-### Blocks
+## Blocks
 Blocks with some documentation.
 
 - [block](/block)
