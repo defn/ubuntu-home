@@ -457,5 +457,5 @@
 	branch = v20170617
 [submodule "work/yubikey"]
 	path = work/yubikey
-	url = git@gitub.com:imma/yubikey
+	url = git@github.com:imma/yubikey
 	branch = v20170617
