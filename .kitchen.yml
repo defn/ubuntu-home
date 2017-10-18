@@ -21,7 +21,7 @@ verifier:
     - test/smoke/default
 
 platforms:
-  - name: ubuntu
+  - name: ubuntu-16.04
     driver:
       linked_clone: true
       image: ubuntu:xenial
