@@ -25,6 +25,10 @@ platforms:
     driver:
       linked_clone: true
       image: ubuntu:xenial
+  - name: centos-7.4
+    driver:
+      linked_clone: true
+      image: centos:7.4.1708
   - name: rhel
     driver:
       linked_clone: true

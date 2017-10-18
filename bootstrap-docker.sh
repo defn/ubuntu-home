@@ -46,7 +46,7 @@ function main {
         $loader aptitude hold grub-legacy-ec2 docker-ce lxd
         $loader apt-get upgrade -y
         ;;
-      Amazon)
+      Amazon|CentOS)
         $loader yum install -y aws-cli
         $loader yum install -y git rsync make
         ;;
