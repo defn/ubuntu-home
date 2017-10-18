@@ -4,6 +4,9 @@ title: ubuntu
 type: index
 weight: 0
 ---
+### Shell
+- [shell](/shell)
+
 ### Netdata
 - [netdata](/netdata)
 
