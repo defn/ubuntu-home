@@ -59,12 +59,12 @@ function main {
         $loader yum install -y wget curl rsync make
 
         wget -nc https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-        (set +f; $loader rpm -Uvh epel-release-latest-7*.rpm)
+        (set +f; $loader rpm -Uvh epel-release-latest-7*.rpm || true)
 
-        wget -nc http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
-        (set +f; $loader rpm -Uvh remi-release-7*.rpm)
+        wget https://centos7.iuscommunity.org/ius-release.rpm
+        (set +f; $loader rpm -Uvh ius-release*.rpm || true)
 
-        $loader yum --enablerepo=remi install -y git
+        $loader yum install -y git2u
         ;;
     esac
 
