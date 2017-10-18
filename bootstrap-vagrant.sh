@@ -4,22 +4,53 @@ set -exfu
 umask 0022
 
 function main {
-  local loader='sudo env DEBIAN_FRONTEND=noninteractive'
   local nm_branch="v20170617"
   local nm_remote="gh"
   local url_remote="https://github.com/imma/ubuntu"
 
   export BOARD_PATH="$HOME"
 
+  : ${DISTRIB_ID:=}
+
+  if [[ -f /etc/lsb-release ]]; then
+    . /etc/lsb-release
+  fi
+
+  if [[ -z "${DISTRIB_ID}" ]]; then
+    DISTRIB_ID="$(awk '{print $1}' /etc/system-release)"
+    if [[ "$DISTRIB_ID" != "Amazon" ]]; then
+      DISTRIB_ID="$(uname -s)"
+    fi
+  fi
+
+  export DISTRIB_ID
+
+  case "$DISTRIB_ID" in
+    Ubuntu)
+      local loader='sudo env DEBIAN_FRONTEND=noninteractive'
+      ;;
+    *)
+      local loader='sudo env'
+      ;;
+  esac
+
   if [[ ! -d .git || -f .bootstrapping ]]; then
     touch .bootstrapping
 
+    case "$DISTRIB_ID" in
+      Ubuntu)
     $loader apt-get install -y awscli
     $loader dpkg --configure -a
     $loader apt-get update
     $loader apt-get install -y make python build-essential aptitude git rsync
     $loader aptitude hold grub-legacy-ec2 docker-ce lxd
     $loader apt-get upgrade -y
+        ;;
+      Amazon)
+        $loader yum install -y aws-cli
+        $loader yum install -y git rsync make
+        ;;
+    esac
 
     ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
 
@@ -68,6 +99,7 @@ function main {
   source .bash_profile
 
   block sync
+  source .bash_profile
   block bootstrap
   sync
 }
@@ -94,8 +126,10 @@ ____EOF
     fi
 
     if ! [[ -d ~ubuntu/.git ]]; then
-      rsync -ia /tmp/home/.git/. ~ubuntu/.git2/
-      chown -R ubuntu:ubuntu ~ubuntu
+      if [[ -d /tmp/home/.git/. ]]; then
+        rsync -ia /tmp/home/.git/. ~ubuntu/.git2/
+        chown -R ubuntu:ubuntu ~ubuntu
+      fi
     fi
 
     mkdir -p ~ubuntu/.ssh
