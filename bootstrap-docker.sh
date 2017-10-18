@@ -55,6 +55,17 @@ function main {
         $loader yum install -y aws-cli
         $loader yum install -y git rsync make
         ;;
+      CentOS)
+        $loader yum install -y wget curl rsync make
+
+        wget -nc https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+        (set +f; $loader rpm -Uvh epel-release-latest-7*.rpm)
+
+        wget -nc http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
+        (set +f; $loader rpm -Uvh remi-release-7*.rpm)
+
+        $loader yum --enablerepo=remi install -y git
+        ;;
     esac
 
     ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
