@@ -72,7 +72,7 @@ monitor            ${BLOCK_PATH}/monitor            git@github.com:imma/monitor 
 gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                d71f8eb91cc7db606a1e18a743af94aa48b9779e v20170617 
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          89b82327c2b9f04ce10cc9e16a5b24f9b9cc128a v20170617 
 cfssl              ${BLOCK_PATH}/cfssl              git@github.com:imma/cfssl              4c6d50457b51465e1e1c98e84b0e59f234e53fae v20170617 
-getssl             ${BLOCK_PATH}/getssl             git@github.com:imma/getssl             ebe35d915474e0afb7095673cc483fd9a792a71a v20170617 
+getssl             ${BLOCK_PATH}/getssl             git@github.com:imma/getssl             5ca198c8868ba149627e617f081a209deb8211f8 v20170617 
 crypto             ${BLOCK_PATH}/crypto             git@github.com:imma/crypto             424340308eaf3275845cdccb6a8bd5770063ddaf v20170617 
 packer             ${BLOCK_PATH}/packer             git@github.com:imma/packer             75e65a659b6c1b2d9dc435e5441bb54a5a4177bf v20170617 
 dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream              60f61c4c22fc9ce8bb1a49538551d3220e743c16 v20170617 
