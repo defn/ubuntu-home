@@ -141,12 +141,7 @@ ____EOF
       useradd -m -s /bin/bash ubuntu
     fi
 
-    if ! [[ -d ~ubuntu/.git ]]; then
-      if [[ -d /tmp/home/.git/. ]]; then
-        rsync -ia /tmp/home/.git/. ~ubuntu/.git2/
-        chown -R ubuntu:ubuntu ~ubuntu
-      fi
-    fi
+    chown -R ubuntu:ubuntu ~ubuntu
 
     mkdir -p ~ubuntu/.ssh
     rsync -ia /tmp/home/.ssh/authorized_keys ~ubuntu/.ssh/
