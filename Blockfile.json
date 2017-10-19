@@ -4,13 +4,13 @@
     [ "make", "ruby", "python", "node", "yarn", "java", "bash4", "jqq", "vmm" ],
     [ "sshd", "consul-agent", "etcd", "linkerd", "namerd", "syslog-ng", "openresty", "chalice" ],
     [ "docker", "lxd", "postgresql" ],
-    [ "codecommit", "github" ],
+    [ "cicd" ],
     [ "cloud", "imma" ],
-    [ "ansible", "chef", "inspec", "kitchen" ],
+    [ "ansible", "chef" ],
     [ "monitor", "crypto", "build" ],
     [ "home", "defn", "junas", "chat", "cue" ],
     [ "example", "nothing", "app" ],
-    [ "ipfs", "lock", "bless", "openvpn", "nat", "easy-rsa", "kmsauth", "jenkins", "rat" ],
+    [ "ipfs", "lock", "bless", "openvpn", "nat", "easy-rsa", "kmsauth", "rat" ],
     [ "ftl", "se", "haihero", "gotty", "yubikey" ]
   ]
 }

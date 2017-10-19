@@ -50,9 +50,14 @@ docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker  
 go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 fb6b3c75193fe22c9e52ed40e5da9afa00909bfd v20170617 
 lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                12bdbfaa50e78adc12c1e5e124a94ae2a1b56ffe v20170617 
 postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgresql         a438f69083d0ec49c7aa60fcc33ce85c997ea5ee v20170617 
+jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins            7fc869e130d8a85c73f3b96070f440d7bcff93ce v20170617 
+drone              ${BLOCK_PATH}/drone              git@github.com:imma/drone              4dbe022405ff00bb1028ca25094c47df9649c4e7 v20170617 
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         4571a4b6db51629504275c786a47fe849533cdce v20170617 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                d38caa96d5e89bc497488dfbbe88aad21ae28585 v20170617 
 github             ${BLOCK_PATH}/github             git@github.com:imma/github             9454cae4ed6ac7f0d319dc436bc208f2904bac39 v20170617 
+inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             de9cf2b8455b0d1a2082ec262e62f128f5e4941d v20170617 
+kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            462a4bec8d4b669d49de38378581f29917b4a627 v20170617 
+cicd               ${BLOCK_PATH}/cicd               git@github.com:imma/cicd               1506a87d95050b3e7050d9ed611860cba52ee72b v20170617 
 aws-vault          ${BLOCK_PATH}/aws-vault          git@github.com:imma/aws-vault          cd6f46ff2e3840fb843f265f582a3534190556b1 v20170617 
 chamber            ${BLOCK_PATH}/chamber            git@github.com:imma/chamber            9ec067e055fc0710742afc6947b89b71042fa052 v20170617 
 awless             ${BLOCK_PATH}/awless             git@github.com:imma/awless             8135de3aa3765baedc09fdee0a518e56795ad137 v20170617 
@@ -65,8 +70,6 @@ eb                 ${BLOCK_PATH}/eb                 git@github.com:imma/eb      
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              81d5c2a28ed2b8b9e23feeb4a9469939de20090c v20170617 
 imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               9a46b5a796f2b0282b6cdf3167739829170e55d0 v20170617 
 chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               4bbe1ba994feb425476b087863800a22d6676256 v20170617 
-inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             de9cf2b8455b0d1a2082ec262e62f128f5e4941d v20170617 
-kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            462a4bec8d4b669d49de38378581f29917b4a627 v20170617 
 netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            3b81f9c50c853f5b92cda7d54670c9709a85f31c v20170617 
 monitor            ${BLOCK_PATH}/monitor            git@github.com:imma/monitor            5ae926e7e2f4a26908950bc967b1b5eec1edbc94 v20170617 
 gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                b9e2e257a9aa48537a0ef27160bc73e1ccac1585 v20170617 
@@ -106,7 +109,6 @@ easy-rsa           ${BLOCK_PATH}/easy-rsa           git@github.com:imma/easy-rsa
 openvpn            ${BLOCK_PATH}/openvpn            git@github.com:imma/openvpn            4f75a50d417e692ccdfe9397f3d57be872732609 v20170617 
 nat                ${BLOCK_PATH}/nat                git@github.com:imma/nat                ecd5239a7bd67711a205ce075f49acb85fff2107 v20170617 
 kmsauth            ${BLOCK_PATH}/kmsauth            git@github.com:imma/kmsauth            a382091e547aa6b98a18a8a48bc34d2f5cb78acc v20170617 
-jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins            7fc869e130d8a85c73f3b96070f440d7bcff93ce v20170617 
 rat                ${BLOCK_PATH}/rat                git@github.com:imma/rat                7971c407a1b3596cce4f1f4725f9c57a048f1d83 v20170617 
 ftl                ${BLOCK_PATH}/ftl                git@github.com:imma/ftl                77a67b439fc05afb402f9fbe0b44d67864c5a069 v20170617 
 se                 ${BLOCK_PATH}/se                 git@github.com:imma/se                 457a59b71a4781c098e2ee1069fb87c0747c94db v20170617 

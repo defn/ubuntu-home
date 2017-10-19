@@ -459,3 +459,11 @@
 	path = work/yubikey
 	url = git@github.com:imma/yubikey
 	branch = v20170617
+[submodule "work/drone"]
+	path = work/drone
+	url = git@github.com:imma/drone
+	branch = v20170617
+[submodule "work/cicd"]
+	path = work/cicd
+	url = git@github.com:imma/cicd
+	branch = v20170617
