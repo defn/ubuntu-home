@@ -18,7 +18,7 @@ cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache   
 inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          3712ddf9437a227b25a86cdea24abf89635ae3e6 v20170617 
 deploy             ${BLOCK_PATH}/deploy             git@github.com:imma/deploy             f43102a38a6d09e7072b82801f8cb258aa5222cd v20170617 
 htop               ${BLOCK_PATH}/htop               git@github.com:imma/htop               cf92384d5a503fac1e5bb9d96a9eb298190eb11a v20170617 
-sysadmin           ${BLOCK_PATH}/sysadmin           git@github.com:imma/sysadmin           f15ba88dc0db207f921cadbbc87a20af4e355131 v20170617 
+sysadmin           ${BLOCK_PATH}/sysadmin           git@github.com:imma/sysadmin           fd4d22971331137fe3f6a94a5564aaf1e9655d0d v20170617 
 make               ${BLOCK_PATH}/make               git@github.com:imma/make               7b229e23b5b715dee164d14a8c496acd54ed4cf5 v20170617 
 rbenv              ${BLOCK_PATH}/rbenv              git@github.com:imma/rbenv              d3ba681fc6f5e8e34c801b4a2ed41bef633889c1 v20170617 
 ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby               30a817558029721207f7d03a7718b574e979f443 v20170617 
@@ -76,7 +76,7 @@ getssl             ${BLOCK_PATH}/getssl             git@github.com:imma/getssl  
 crypto             ${BLOCK_PATH}/crypto             git@github.com:imma/crypto             424340308eaf3275845cdccb6a8bd5770063ddaf v20170617 
 packer             ${BLOCK_PATH}/packer             git@github.com:imma/packer             75e65a659b6c1b2d9dc435e5441bb54a5a4177bf v20170617 
 dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream              60f61c4c22fc9ce8bb1a49538551d3220e743c16 v20170617 
-vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            7e6fb3139c657ccd10b9e26db63196443f25d06b v20170617 
+vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            a15a8f3db55c52307ead6bca0d888c8a202e2367 v20170617 
 limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              99f7b6c19df07148254db6e641c45ce68b236e88 v20170617 
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          c41630295bc0390ead91a50b994648ed3d3ac66a v20170617 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          dd1059623a11b295322ad8e9d6a10b13abb25871 v20170617 
@@ -101,7 +101,7 @@ nothing            ${BLOCK_PATH}/nothing            git@github.com:imma/nothing 
 app                ${BLOCK_PATH}/app                git@github.com:imma/app                58cfb51e5f520c664a22d4c4900463d0c05f71f8 v20170617 
 ipfs               ${BLOCK_PATH}/ipfs               git@github.com:imma/ipfs               dc590ee28db128cbc6316bbe59176fdf96029e43 v20170617 
 lock               ${BLOCK_PATH}/lock               git@github.com:imma/lock               1a1b74d38eb856a3efd00db803bc2cf8e0bb9531 v20170617 
-bless              ${BLOCK_PATH}/bless              git@github.com:imma/bless              9a1c520ae34879393e078b48875dd4e1b5313b04 v20170617 
+bless              ${BLOCK_PATH}/bless              git@github.com:imma/bless              d13995bce6d56f2cfdd8b10cbb5c72e24cd8fbb8 v20170617 
 easy-rsa           ${BLOCK_PATH}/easy-rsa           git@github.com:imma/easy-rsa           150b13550913776d017761b65f2dd204056d2083 v20170617 
 openvpn            ${BLOCK_PATH}/openvpn            git@github.com:imma/openvpn            4f75a50d417e692ccdfe9397f3d57be872732609 v20170617 
 nat                ${BLOCK_PATH}/nat                git@github.com:imma/nat                ecd5239a7bd67711a205ce075f49acb85fff2107 v20170617 
