@@ -69,7 +69,7 @@ inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec  
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            462a4bec8d4b669d49de38378581f29917b4a627 v20170617 
 netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            3b81f9c50c853f5b92cda7d54670c9709a85f31c v20170617 
 monitor            ${BLOCK_PATH}/monitor            git@github.com:imma/monitor            5ae926e7e2f4a26908950bc967b1b5eec1edbc94 v20170617 
-gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                d71f8eb91cc7db606a1e18a743af94aa48b9779e v20170617 
+gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                b9e2e257a9aa48537a0ef27160bc73e1ccac1585 v20170617 
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          89b82327c2b9f04ce10cc9e16a5b24f9b9cc128a v20170617 
 cfssl              ${BLOCK_PATH}/cfssl              git@github.com:imma/cfssl              4c6d50457b51465e1e1c98e84b0e59f234e53fae v20170617 
 getssl             ${BLOCK_PATH}/getssl             git@github.com:imma/getssl             5ca198c8868ba149627e617f081a209deb8211f8 v20170617 
@@ -90,7 +90,7 @@ docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs    
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              ddbd90fee698c69b2004861f5ab3120e294563a9 v20170617 
 home               ${BLOCK_PATH}/home               git@github.com:imma/home               1c7319f03d89cb3802f3b3b034d1f9d4150d711d v20170617 
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             fdc4b75ebc28512392abd1c865ee31d73917b1d4 v20170617 
-defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               6761c63b44b44bfb087d38fa1834b88c3a46f99f v20170617 
+defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               bc78f4a9c9eee5f55b6ed053505c9c8fe257657b v20170617 
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              a3ea90c761592d90af4764a0010428c069f1db2f v20170617 
 irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              acd2afe4839c95aa02a9c3161b3db53172841762 v20170617 
 bitlbee            ${BLOCK_PATH}/bitlbee            git@github.com:imma/bitlbee            ace163365ca3de995394683e4de99535765b926e v20170617 
