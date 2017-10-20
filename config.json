@@ -50,6 +50,11 @@
           "name": "defn",
           "url": "/defn",
           "weight": 300
+        },
+        {
+          "name": "grpc",
+          "url": "/grpc",
+          "weight": 400
         }
       ]
     }
