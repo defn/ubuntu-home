@@ -487,3 +487,7 @@
 	path = work/pyenv
 	url = git@github.com:imma/pyenv
 	branch = 20170617
+[submodule "work/grpc"]
+	path = work/grpc
+	url = git@github.com:imma/grpc
+	branch = 20170617
