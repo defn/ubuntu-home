@@ -4,16 +4,8 @@ title: ubuntu
 type: index
 weight: 0
 ---
-- ['defn](/defn)
-
 ## Apps
 
 - [shell](/shell)
 - [netdata](/netdata)
 - [jenkins](/jenkins)
-
-## Blocks
-Blocks with some documentation.
-
-- [block](/block)
-- [ubuntu](/ubuntu)

@@ -39,7 +39,17 @@
         {
           "name": "ubuntu",
           "url": "/ubuntu",
-          "weight": 101
+          "weight": 100
+        },
+        {
+          "name": "block",
+          "url": "/block",
+          "weight": 200
+        },
+        {
+          "name": "defn",
+          "url": "/defn",
+          "weight": 300
         }
       ]
     }
