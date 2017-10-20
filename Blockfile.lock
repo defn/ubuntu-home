@@ -64,7 +64,7 @@ awless             ${BLOCK_PATH}/awless             git@github.com:imma/awless  
 credstash          ${BLOCK_PATH}/credstash          git@github.com:imma/credstash          54f5ebae9ba7ceaaa645e1974ce22ee880cf2693 v20170617 
 aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                333fd56b44821dff0e1255cd95070a397e2e2e90 v20170617 
 packet             ${BLOCK_PATH}/packet             git@github.com:imma/packet             1d0da8288db173e5a4aa5b1348b82397a4a75274 v20170617 
-digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       93933ded21876641d349d14b46c3cc3c17b5260e v20170617 
+digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       dedf3d3f950896f738e035017ab554a05f07985e v20170617 
 heroku             ${BLOCK_PATH}/heroku             git@github.com:imma/heroku             b65c721b4ee43f247515fa6cdadb1ca55b85044f v20170617 
 eb                 ${BLOCK_PATH}/eb                 git@github.com:imma/eb                 26ddbc5713cc9fb8ff7e7667cd129000cc638e74 v20170617 
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              81d5c2a28ed2b8b9e23feeb4a9469939de20090c v20170617 
@@ -96,7 +96,7 @@ talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign  
 defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               a43cb5bbc88a82eabb4bce9d3e0140bda5360f61 v20170617 
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              a3ea90c761592d90af4764a0010428c069f1db2f v20170617 
 irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              acd2afe4839c95aa02a9c3161b3db53172841762 v20170617 
-bitlbee            ${BLOCK_PATH}/bitlbee            git@github.com:imma/bitlbee            ace163365ca3de995394683e4de99535765b926e v20170617 
+bitlbee            ${BLOCK_PATH}/bitlbee            git@github.com:imma/bitlbee            ca15ce92909cd07c10893ac53181840d7900a5a5 v20170617 
 chat               ${BLOCK_PATH}/chat               git@github.com:imma/chat               9a1eb09590088e4d3e6a1a62c18ca31f45afd490 v20170617 
 cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue                b9383a102d3aeab9f567b8527ab609c7cf940797 v20170617 
 example            ${BLOCK_PATH}/example            git@github.com:imma/example            580f6f9d333e36657fd7f90cee7c6d61e9108c36 v20170617 
