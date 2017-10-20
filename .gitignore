@@ -163,3 +163,4 @@ Dockerfile-kitchen*
 /.rd
 /.neoman
 /.gotty*
+/.virtualenvs
