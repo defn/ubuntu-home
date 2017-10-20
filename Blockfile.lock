@@ -63,11 +63,12 @@ chamber            ${BLOCK_PATH}/chamber            git@github.com:imma/chamber 
 awless             ${BLOCK_PATH}/awless             git@github.com:imma/awless             8135de3aa3765baedc09fdee0a518e56795ad137 v20170617 
 credstash          ${BLOCK_PATH}/credstash          git@github.com:imma/credstash          54f5ebae9ba7ceaaa645e1974ce22ee880cf2693 v20170617 
 aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                333fd56b44821dff0e1255cd95070a397e2e2e90 v20170617 
+awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            e3c4f2b7b3784c4ff40f90f91b633216a377f485 v20170617 
 packet             ${BLOCK_PATH}/packet             git@github.com:imma/packet             1d0da8288db173e5a4aa5b1348b82397a4a75274 v20170617 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       dedf3d3f950896f738e035017ab554a05f07985e v20170617 
 heroku             ${BLOCK_PATH}/heroku             git@github.com:imma/heroku             b65c721b4ee43f247515fa6cdadb1ca55b85044f v20170617 
 eb                 ${BLOCK_PATH}/eb                 git@github.com:imma/eb                 26ddbc5713cc9fb8ff7e7667cd129000cc638e74 v20170617 
-cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              81d5c2a28ed2b8b9e23feeb4a9469939de20090c v20170617 
+cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              69f6d0e2379c2f5d6cc88fe48bb6fabe31a54d8a v20170617 
 imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               9a46b5a796f2b0282b6cdf3167739829170e55d0 v20170617 
 chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               4bbe1ba994feb425476b087863800a22d6676256 v20170617 
 netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            3b81f9c50c853f5b92cda7d54670c9709a85f31c v20170617 
@@ -93,7 +94,7 @@ docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs    
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              ddbd90fee698c69b2004861f5ab3120e294563a9 v20170617 
 home               ${BLOCK_PATH}/home               git@github.com:imma/home               1c7319f03d89cb3802f3b3b034d1f9d4150d711d v20170617 
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             fdc4b75ebc28512392abd1c865ee31d73917b1d4 v20170617 
-defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               339b5fa4c2355955478ea802e36365717658acca v20170617 
+defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               79e723433a9bb58fa27671e9038461b763617b41 v20170617 
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              a3ea90c761592d90af4764a0010428c069f1db2f v20170617 
 irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              acd2afe4839c95aa02a9c3161b3db53172841762 v20170617 
 bitlbee            ${BLOCK_PATH}/bitlbee            git@github.com:imma/bitlbee            ca15ce92909cd07c10893ac53181840d7900a5a5 v20170617 
