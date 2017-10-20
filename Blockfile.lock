@@ -93,7 +93,7 @@ docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs    
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              ddbd90fee698c69b2004861f5ab3120e294563a9 v20170617 
 home               ${BLOCK_PATH}/home               git@github.com:imma/home               1c7319f03d89cb3802f3b3b034d1f9d4150d711d v20170617 
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             fdc4b75ebc28512392abd1c865ee31d73917b1d4 v20170617 
-defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               a9f74c6cc02af23a63658f5c192773e21082b186 v20170617 
+defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               339b5fa4c2355955478ea802e36365717658acca v20170617 
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              a3ea90c761592d90af4764a0010428c069f1db2f v20170617 
 irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              acd2afe4839c95aa02a9c3161b3db53172841762 v20170617 
 bitlbee            ${BLOCK_PATH}/bitlbee            git@github.com:imma/bitlbee            ca15ce92909cd07c10893ac53181840d7900a5a5 v20170617 
