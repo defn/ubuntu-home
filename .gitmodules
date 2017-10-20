@@ -483,3 +483,7 @@
 	path = work/py36
 	url = git@github.com:imma/py36
 	branch = 20170617
+[submodule "work/pyenv"]
+	path = work/pyenv
+	url = git@github.com:imma/pyenv
+	branch = 20170617
