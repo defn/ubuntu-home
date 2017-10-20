@@ -1,2 +1,6 @@
-grpcio
-grpcio-tools
+enum34==1.1.6
+futures==3.1.1
+grpcio==1.6.3
+grpcio-tools==1.6.3
+protobuf==3.4.0
+six==1.11.0
