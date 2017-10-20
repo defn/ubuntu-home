@@ -29,8 +29,8 @@ node               ${BLOCK_PATH}/node               git@github.com:imma/node    
 yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               f1036553ae9ee38d7339b7e0d7364a4277ddd370 v20170617 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              6698310a0e04ae4daed8085242d6ab06812cedf2 v20170617 
 go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 fb6b3c75193fe22c9e52ed40e5da9afa00909bfd v20170617 
-py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               c795012045a4b3cb16344dbc309d12bc80f0197a v20170617 
-py36               ${BLOCK_PATH}/py36               git@github.com:imma/py36               1667a4435e448e3efa12602cb74bf8368ec17adc v20170617 
+py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               2bd819fb3980876b923b13e7f9fba20a46d263eb v20170617 
+py36               ${BLOCK_PATH}/py36               git@github.com:imma/py36               b15b38587aeae52543b2e31cf74f690a048a372c v20170617 
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              3d5bf5749033c9728ada4c413d4bd7f545c2fb60 v20170617 
 pyenv              ${BLOCK_PATH}/pyenv              git@github.com:imma/pyenv              9ade26b2d3f5ead722790b07ac7a054befbca292 v20170617 
 vmm                ${BLOCK_PATH}/vmm                git@github.com:imma/vmm                210942cc7e077bdbb41e923531cecc4bd08f38f7 v20170617 
@@ -121,3 +121,4 @@ se                 ${BLOCK_PATH}/se                 git@github.com:imma/se      
 haihero            ${BLOCK_PATH}/haihero            git@github.com:imma/haihero            59e3b9d0a4ddccfddf6671290f705488c059a447 v20170617 
 gotty              ${BLOCK_PATH}/gotty              git@github.com:imma/gotty              a6fad2b1562124e0869480734f14a2e0a8adf99a v20170617 
 yubikey            ${BLOCK_PATH}/yubikey            git@github.com:imma/yubikey            c163429f6c733e9cf105c7b8eb81063f670682f9 v20170617 
+cookiecutter       ${BLOCK_PATH}/cookiecutter       git@github.com:imma/cookiecutter       9b15364f90e1fd41eedf3060a57d2e4ae76832da v20170617 

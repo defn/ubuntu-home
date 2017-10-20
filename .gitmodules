@@ -491,3 +491,7 @@
 	path = work/grpc
 	url = git@github.com:imma/grpc
 	branch = 20170617
+[submodule "work/cookiecutter"]
+	path = work/cookiecutter
+	url = git@github.com:imma/cookiecutter
+	branch = 20170617
