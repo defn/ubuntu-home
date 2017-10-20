@@ -29,12 +29,12 @@ node               ${BLOCK_PATH}/node               git@github.com:imma/node    
 yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               f1036553ae9ee38d7339b7e0d7364a4277ddd370 v20170617 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              6698310a0e04ae4daed8085242d6ab06812cedf2 v20170617 
 go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 fb6b3c75193fe22c9e52ed40e5da9afa00909bfd v20170617 
-py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               d7ec67cd946ac4e6ec481c6e7b4639ce5a778d68 v20170617 
-py36               ${BLOCK_PATH}/py36               git@github.com:imma/py36               2ab75d3c7d56b1628115f7a0857a6ba1e7a0a652 v20170617 
+py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               c795012045a4b3cb16344dbc309d12bc80f0197a v20170617 
+py36               ${BLOCK_PATH}/py36               git@github.com:imma/py36               1667a4435e448e3efa12602cb74bf8368ec17adc v20170617 
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              3d5bf5749033c9728ada4c413d4bd7f545c2fb60 v20170617 
 pyenv              ${BLOCK_PATH}/pyenv              git@github.com:imma/pyenv              9ade26b2d3f5ead722790b07ac7a054befbca292 v20170617 
 vmm                ${BLOCK_PATH}/vmm                git@github.com:imma/vmm                210942cc7e077bdbb41e923531cecc4bd08f38f7 v20170617 
-grpc               ${BLOCK_PATH}/grpc               git@github.com:imma/grpc               791663aad53a76911f11b1b6c8052551c1882d9a v20170617 
+grpc               ${BLOCK_PATH}/grpc               git@github.com:imma/grpc               f2707e0f5cdc6b1b825b0b47e4d7558dd9cb4f64 v20170617 
 lang               ${BLOCK_PATH}/lang               git@github.com:imma/lang               011752996a024676edcff23c8ee15e4d34d834f1 v20170617 
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              32c12c4a9eb2a6b132c422a49aea9dabfb0639e0 v20170617 
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            5fd508630279692f95e6cb355c935e8530a9097a v20170617 
