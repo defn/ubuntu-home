@@ -471,3 +471,15 @@
 	path = work/awesome
 	url = git@github.com:imma/awesome
 	branch = v20170617
+[submodule "work/lang"]
+	path = work/lang
+	url = git@github.com:imma/lang
+	branch = 20170617
+[submodule "work/py27"]
+	path = work/py27
+	url = git@github.com:imma/py27
+	branch = 20170617
+[submodule "work/py36"]
+	path = work/py36
+	url = git@github.com:imma/py36
+	branch = 20170617

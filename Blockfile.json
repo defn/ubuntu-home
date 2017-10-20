@@ -1,7 +1,7 @@
 {
   "require": [
     [ "site", "ubuntu-config", "cache", "base", "deploy", "sysadmin" ],
-    [ "make", "ruby", "python", "node", "yarn", "java", "bash4", "jqq", "vmm" ],
+    [ "make", "jqq", "lang" ],
     [ "sshd", "consul-agent", "etcd", "linkerd", "namerd", "syslog-ng", "openresty", "chalice" ],
     [ "docker", "lxd", "postgresql" ],
     [ "cicd" ],
