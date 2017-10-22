@@ -78,7 +78,7 @@ imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma    
 chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               4bbe1ba994feb425476b087863800a22d6676256 v20170617 
 netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            3b81f9c50c853f5b92cda7d54670c9709a85f31c v20170617 
 monitor            ${BLOCK_PATH}/monitor            git@github.com:imma/monitor            5ae926e7e2f4a26908950bc967b1b5eec1edbc94 v20170617 
-gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                b9e2e257a9aa48537a0ef27160bc73e1ccac1585 v20170617 
+gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                86f8d8e62e20b260db3d2c81c4b20237d8547dce v20170617 
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          89b82327c2b9f04ce10cc9e16a5b24f9b9cc128a v20170617 
 cfssl              ${BLOCK_PATH}/cfssl              git@github.com:imma/cfssl              4c6d50457b51465e1e1c98e84b0e59f234e53fae v20170617 
 getssl             ${BLOCK_PATH}/getssl             git@github.com:imma/getssl             5ca198c8868ba149627e617f081a209deb8211f8 v20170617 
