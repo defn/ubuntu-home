@@ -11,7 +11,7 @@ base               ${BLOCK_PATH}/base               git@github.com:imma/base    
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      a473e85695635a2a281f11e60a30ac7587b24a93 v20170617 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           742f7700e2ec34600e108265d3d4a33fd0b58894 v20170617 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               0e404a4dd55ef4f788dfb9cf0f09d586b59ecd03 v20170617 
-pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             3ccb96acdee506002f00dabf4693bcc0f8d43e04 v20170617 
+pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             198f86ca5531a70659215368fad34cc239401052 v20170617 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             d76f746dc7cd6a623d25f533fb9d3dc65f0172c0 v20170617 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            07f9a3e29533d97a1bcb3990ab94af514632ba3a v20170617 
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              1db14ad7537bf2edde2f9393e1f8e51ba1ad4d4c v20170617 
@@ -95,7 +95,7 @@ fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg    
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               3d7baf26ac212c95b3e02bc32a4aa6f592f3504d v20170617 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 4ca7bc271f76df5211eaa646626931e92bde285e v20170617 
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          c678094f1b63d6cd5a376415ee008b3efc2d2eff v20170617 
-docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               f0cac03d73003cab478f8057bcce2cebaf96e77a v20170617 
+docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               7081f0d9b6fbccca1c265f7c62ef99be33ef4df6 v20170617 
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              ddbd90fee698c69b2004861f5ab3120e294563a9 v20170617 
 home               ${BLOCK_PATH}/home               git@github.com:imma/home               1c7319f03d89cb3802f3b3b034d1f9d4150d711d v20170617 
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             fdc4b75ebc28512392abd1c865ee31d73917b1d4 v20170617 

@@ -37,7 +37,8 @@ update-modules:
 lock:
 	$(make) update-modules || true
 	block lock
-	git add -u work Blockfile.lock
+	git add -u work Blockfile.lock Blockfile.json
+	git add .public content
 	gs
 
 reset-docker:
