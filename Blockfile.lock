@@ -88,7 +88,6 @@ dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream   
 vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            a15a8f3db55c52307ead6bca0d888c8a202e2367 v20170617 
 limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              99f7b6c19df07148254db6e641c45ce68b236e88 v20170617 
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          c41630295bc0390ead91a50b994648ed3d3ac66a v20170617 
-terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          dd1059623a11b295322ad8e9d6a10b13abb25871 v20170617 
 wtf                ${BLOCK_PATH}/wtf                git@github.com:imma/wtf                0f2bf97c7f7e08c93d03b020506e89fe64987e26 v20170617 
 fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           b1d585d2d7688a7467960e68913d876fa14675e1 v20170617 
 fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               abca756f9f854f86a278b50ac347fef9420cfe3a v20170617 
@@ -112,11 +111,13 @@ ipfs               ${BLOCK_PATH}/ipfs               git@github.com:imma/ipfs    
 lock               ${BLOCK_PATH}/lock               git@github.com:imma/lock               1a1b74d38eb856a3efd00db803bc2cf8e0bb9531 v20170617 
 bless              ${BLOCK_PATH}/bless              git@github.com:imma/bless              d13995bce6d56f2cfdd8b10cbb5c72e24cd8fbb8 v20170617 
 easy-rsa           ${BLOCK_PATH}/easy-rsa           git@github.com:imma/easy-rsa           150b13550913776d017761b65f2dd204056d2083 v20170617 
+openvpn            ${BLOCK_PATH}/openvpn            git@github.com:imma/openvpn            4f75a50d417e692ccdfe9397f3d57be872732609 v20170617 
+nat                ${BLOCK_PATH}/nat                git@github.com:imma/nat                ecd5239a7bd67711a205ce075f49acb85fff2107 v20170617 
 kmsauth            ${BLOCK_PATH}/kmsauth            git@github.com:imma/kmsauth            a382091e547aa6b98a18a8a48bc34d2f5cb78acc v20170617 
 rat                ${BLOCK_PATH}/rat                git@github.com:imma/rat                7971c407a1b3596cce4f1f4725f9c57a048f1d83 v20170617 
 ftl                ${BLOCK_PATH}/ftl                git@github.com:imma/ftl                77a67b439fc05afb402f9fbe0b44d67864c5a069 v20170617 
 se                 ${BLOCK_PATH}/se                 git@github.com:imma/se                 457a59b71a4781c098e2ee1069fb87c0747c94db v20170617 
 haihero            ${BLOCK_PATH}/haihero            git@github.com:imma/haihero            59e3b9d0a4ddccfddf6671290f705488c059a447 v20170617 
 gotty              ${BLOCK_PATH}/gotty              git@github.com:imma/gotty              a6fad2b1562124e0869480734f14a2e0a8adf99a v20170617 
-yubikey            ${BLOCK_PATH}/yubikey            git@github.com:imma/yubikey            c163429f6c733e9cf105c7b8eb81063f670682f9 v20170617 
+yubikey            ${BLOCK_PATH}/yubikey            git@github.com:imma/yubikey            8d15f43b5c2773cbbd96d763d6c6a2a87a999239 v20170617 
 cookiecutter       ${BLOCK_PATH}/cookiecutter       git@github.com:imma/cookiecutter       9b15364f90e1fd41eedf3060a57d2e4ae76832da v20170617 
