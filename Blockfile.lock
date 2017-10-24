@@ -12,7 +12,7 @@ ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-c
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           742f7700e2ec34600e108265d3d4a33fd0b58894 v20170617 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               0e404a4dd55ef4f788dfb9cf0f09d586b59ecd03 v20170617 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             198f86ca5531a70659215368fad34cc239401052 v20170617 
-python             ${BLOCK_PATH}/python             git@github.com:imma/python             d76f746dc7cd6a623d25f533fb9d3dc65f0172c0 v20170617 
+python             ${BLOCK_PATH}/python             git@github.com:imma/python             49a7cea3584bfaf14f15fe2d507e30f31aef0128 v20170617 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            07f9a3e29533d97a1bcb3990ab94af514632ba3a v20170617 
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              1db14ad7537bf2edde2f9393e1f8e51ba1ad4d4c v20170617 
 inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          3712ddf9437a227b25a86cdea24abf89635ae3e6 v20170617 
@@ -88,7 +88,6 @@ dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream   
 vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            a15a8f3db55c52307ead6bca0d888c8a202e2367 v20170617 
 limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              99f7b6c19df07148254db6e641c45ce68b236e88 v20170617 
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          c41630295bc0390ead91a50b994648ed3d3ac66a v20170617 
-terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          dd1059623a11b295322ad8e9d6a10b13abb25871 v20170617 
 wtf                ${BLOCK_PATH}/wtf                git@github.com:imma/wtf                0f2bf97c7f7e08c93d03b020506e89fe64987e26 v20170617 
 fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           b1d585d2d7688a7467960e68913d876fa14675e1 v20170617 
 fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               abca756f9f854f86a278b50ac347fef9420cfe3a v20170617 
