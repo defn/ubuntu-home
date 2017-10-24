@@ -495,3 +495,9 @@
 	path = work/cookiecutter
 	url = git@github.com:imma/cookiecutter
 	branch = 20170617
+[submodule "work/fogg-tf"]
+	path = work/fogg-tf
+	url = git@github.com:imma/fogg-tf
+[submodule "work/imma-tf"]
+	path = work/imma-tf
+	url = git@github.com:imma/imma-tf
