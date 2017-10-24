@@ -103,3 +103,7 @@ docker-update:
 golden:
 	$(MAKE) docker
 	$(MAKE) upload
+
+docs:
+	md || true
+	make lock
