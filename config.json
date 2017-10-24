@@ -55,6 +55,11 @@
           "name": "grpc",
           "url": "/grpc",
           "weight": 400
+        },
+        {
+          "name": "yubikey",
+          "url": "/yubikey",
+          "weight": 500
         }
       ]
     }
