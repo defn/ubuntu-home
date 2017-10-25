@@ -90,8 +90,8 @@ limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo   
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          c41630295bc0390ead91a50b994648ed3d3ac66a v20170617 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          dd1059623a11b295322ad8e9d6a10b13abb25871 v20170617 
 wtf                ${BLOCK_PATH}/wtf                git@github.com:imma/wtf                5f9072b47096ac0eb116ef2cfd6e8ff14f42e980 v20170617 
-fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           975664e33d2057cb77349e4f79df7863cd3ec2f5 v20170617 
-fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               abca756f9f854f86a278b50ac347fef9420cfe3a v20170617 
+fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           49d464390515d113956bc1b0e565b4a49b2afd7a v20170617 
+fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               38fbeb172e193aad124adf5c1e7a54a93c19ed22 v20170617 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               3d7baf26ac212c95b3e02bc32a4aa6f592f3504d v20170617 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 4ca7bc271f76df5211eaa646626931e92bde285e v20170617 
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          c678094f1b63d6cd5a376415ee008b3efc2d2eff v20170617 
@@ -122,5 +122,5 @@ haihero            ${BLOCK_PATH}/haihero            git@github.com:imma/haihero 
 gotty              ${BLOCK_PATH}/gotty              git@github.com:imma/gotty              a6fad2b1562124e0869480734f14a2e0a8adf99a v20170617 
 yubikey            ${BLOCK_PATH}/yubikey            git@github.com:imma/yubikey            8d15f43b5c2773cbbd96d763d6c6a2a87a999239 v20170617 
 cookiecutter       ${BLOCK_PATH}/cookiecutter       git@github.com:imma/cookiecutter       9b15364f90e1fd41eedf3060a57d2e4ae76832da v20170617 
-fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            ce4dc24c1f8628f5df4277a99e4809e526ac6f6d master    
+fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            b4ba1561cf763995d52580b5cd5a39119e250143 master    
 imma-tf            ${BLOCK_PATH}/imma-tf            git@github.com:imma/imma-tf            1a3c604249055f2d01dfe8f8ffcdd3fb9ccc84aa master    
