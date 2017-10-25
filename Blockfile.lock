@@ -94,7 +94,7 @@ fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli
 fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               38fbeb172e193aad124adf5c1e7a54a93c19ed22 v20170617 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               3d7baf26ac212c95b3e02bc32a4aa6f592f3504d v20170617 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 4ca7bc271f76df5211eaa646626931e92bde285e v20170617 
-beautifulhugo      ${BLOCK_PATH}/beautifulhugo      git@github.com:imma/beautifulhugo      29f2c3f69b6b10f91fcf092a18dcdf5fda3154b3 v20170617 
+beautifulhugo      ${BLOCK_PATH}/beautifulhugo      git@github.com:imma/beautifulhugo      86a11793042f4f4d1b79bdeee85fc556f1888e67 v20170617 
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          c678094f1b63d6cd5a376415ee008b3efc2d2eff v20170617 
 docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               a2566f581dabf6edcd4c30fb7a1c2a551f76bf81 v20170617 
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              ddbd90fee698c69b2004861f5ab3120e294563a9 v20170617 

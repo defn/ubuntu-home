@@ -284,8 +284,13 @@ footer .copyright {
   margin-bottom: 0;
 }
 footer .theme-by {
-  text-align: center;
+  text-align: right;
   margin: 10px 0 0;
+}
+
+footer .container {
+  text-align: right;
+  margin-right: 10px;
 }
 
 @media only screen and (min-width: 768px) {
