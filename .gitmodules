@@ -501,3 +501,7 @@
 [submodule "work/imma-tf"]
 	path = work/imma-tf
 	url = git@github.com:imma/imma-tf
+[submodule "work/beautifulhugo"]
+	path = work/beautifulhugo
+	url = git@github.com:imma/beautifulhugo
+	branch = v20170617
