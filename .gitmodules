@@ -505,3 +505,6 @@
 	path = work/beautifulhugo
 	url = git@github.com:imma/beautifulhugo
 	branch = v20170617
+[submodule "work/zerotier"]
+	path = work/zerotier
+	url = git@github.com:imma/zerotier
