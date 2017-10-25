@@ -28,7 +28,7 @@ nvm                ${BLOCK_PATH}/nvm                git@github.com:imma/nvm     
 node               ${BLOCK_PATH}/node               git@github.com:imma/node               ebeef99a21824f5d48fd92617b54b5b30bf091b9 v20170617 
 yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               f1036553ae9ee38d7339b7e0d7364a4277ddd370 v20170617 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              6698310a0e04ae4daed8085242d6ab06812cedf2 v20170617 
-go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 89c40df62989b44c0055fb76f986ad0e0f8403ec v20170617 
+go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 fd13d429b389910dbac7ca7d03747b7be26e0395 v20170617 
 py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               2bd819fb3980876b923b13e7f9fba20a46d263eb v20170617 
 py36               ${BLOCK_PATH}/py36               git@github.com:imma/py36               b15b38587aeae52543b2e31cf74f690a048a372c v20170617 
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              3d5bf5749033c9728ada4c413d4bd7f545c2fb60 v20170617 
