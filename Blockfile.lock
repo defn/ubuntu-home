@@ -13,7 +13,8 @@ homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               62b8b47808309a213921c488f1837ce7f07483c9 v20170617 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             198f86ca5531a70659215368fad34cc239401052 v20170617 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             49a7cea3584bfaf14f15fe2d507e30f31aef0128 v20170617 
-ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            07f9a3e29533d97a1bcb3990ab94af514632ba3a v20170617 
+py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               2bd819fb3980876b923b13e7f9fba20a46d263eb v20170617 
+ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            be36dc52795f0a30b197a8ea87c5578217364663 v20170617 
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              5d5cadcdca9c499640953352d92f027d92bf7fc9 v20170617 
 inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          3712ddf9437a227b25a86cdea24abf89635ae3e6 v20170617 
 deploy             ${BLOCK_PATH}/deploy             git@github.com:imma/deploy             f43102a38a6d09e7072b82801f8cb258aa5222cd v20170617 
@@ -29,7 +30,6 @@ node               ${BLOCK_PATH}/node               git@github.com:imma/node    
 yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               f1036553ae9ee38d7339b7e0d7364a4277ddd370 v20170617 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              6698310a0e04ae4daed8085242d6ab06812cedf2 v20170617 
 go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 fd13d429b389910dbac7ca7d03747b7be26e0395 v20170617 
-py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               2bd819fb3980876b923b13e7f9fba20a46d263eb v20170617 
 py36               ${BLOCK_PATH}/py36               git@github.com:imma/py36               b15b38587aeae52543b2e31cf74f690a048a372c v20170617 
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              3d5bf5749033c9728ada4c413d4bd7f545c2fb60 v20170617 
 pyenv              ${BLOCK_PATH}/pyenv              git@github.com:imma/pyenv              9ade26b2d3f5ead722790b07ac7a054befbca292 v20170617 

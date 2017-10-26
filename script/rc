@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export ANSIBLE_VERSION=2.4.0.0
+export ANSIBLE_VERSION=2.4.1.0
 export ASCIINEMA_VERSION=1.4.0
 export AWSVAULT_VERSION=3.7.1
 export CHAMBER_VERSION=1.6.0
