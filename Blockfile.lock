@@ -125,4 +125,4 @@ gotty              ${BLOCK_PATH}/gotty              git@github.com:imma/gotty   
 yubikey            ${BLOCK_PATH}/yubikey            git@github.com:imma/yubikey            8d15f43b5c2773cbbd96d763d6c6a2a87a999239 v20170617 
 cookiecutter       ${BLOCK_PATH}/cookiecutter       git@github.com:imma/cookiecutter       9b15364f90e1fd41eedf3060a57d2e4ae76832da v20170617 
 fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            4bd9fb1f13e53cc5dd86925a7a473ae23c3c0232 v20170617 
-imma-tf            ${BLOCK_PATH}/imma-tf            git@github.com:imma/imma-tf            64deee243254abcb6db8f7871f824f2bb79d3d1d master    
+imma-tf            ${BLOCK_PATH}/imma-tf            git@github.com:imma/imma-tf            31dd28d1cf85744ea3869ae065102f9f857c4946 master    
