@@ -27,7 +27,7 @@ ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby    
 curl               ${BLOCK_PATH}/curl               git@github.com:imma/curl               d9de7d46a87aa27b7ce9b4b34a44737b29a08cc9 v20170617 
 nvm                ${BLOCK_PATH}/nvm                git@github.com:imma/nvm                37d08d0f37fc366eb2a07b0d09c39f58c9974c94 v20170617 
 node               ${BLOCK_PATH}/node               git@github.com:imma/node               ebeef99a21824f5d48fd92617b54b5b30bf091b9 v20170617 
-yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               f1036553ae9ee38d7339b7e0d7364a4277ddd370 v20170617 
+yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               08eb22ccf4eb65fa34aacd02ad23c9e91bdbd8cf v20170617 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              6698310a0e04ae4daed8085242d6ab06812cedf2 v20170617 
 go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 fd13d429b389910dbac7ca7d03747b7be26e0395 v20170617 
 py36               ${BLOCK_PATH}/py36               git@github.com:imma/py36               c39e1d72bf1d043bca10c3a2058804db4006e50b v20170617 
@@ -91,7 +91,7 @@ inception          ${BLOCK_PATH}/inception          git@github.com:imma/inceptio
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          dd1059623a11b295322ad8e9d6a10b13abb25871 v20170617 
 wtf                ${BLOCK_PATH}/wtf                git@github.com:imma/wtf                ce82579491b6d72e48f164d3dd3143785b047641 v20170617 
 fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           9cb2f0ac968aaa28bcdcf01751213187fc0f3532 v20170617 
-fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               05609733ad7adb0e7d97df4760499f386d3151bf v20170617 
+fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               4656a68443897f46e80e5855b2e0d20023a986c1 v20170617 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               3d7baf26ac212c95b3e02bc32a4aa6f592f3504d v20170617 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 4ca7bc271f76df5211eaa646626931e92bde285e v20170617 
 beautifulhugo      ${BLOCK_PATH}/beautifulhugo      git@github.com:imma/beautifulhugo      86a11793042f4f4d1b79bdeee85fc556f1888e67 v20170617 
@@ -124,5 +124,5 @@ haihero            ${BLOCK_PATH}/haihero            git@github.com:imma/haihero 
 gotty              ${BLOCK_PATH}/gotty              git@github.com:imma/gotty              a6fad2b1562124e0869480734f14a2e0a8adf99a v20170617 
 yubikey            ${BLOCK_PATH}/yubikey            git@github.com:imma/yubikey            8d15f43b5c2773cbbd96d763d6c6a2a87a999239 v20170617 
 cookiecutter       ${BLOCK_PATH}/cookiecutter       git@github.com:imma/cookiecutter       9b15364f90e1fd41eedf3060a57d2e4ae76832da v20170617 
-fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            4bd9fb1f13e53cc5dd86925a7a473ae23c3c0232 v20170617 
+fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            024de76706b34d29fb4aa7dc0adbec3ba74d0369 v20170617 
 imma-tf            ${BLOCK_PATH}/imma-tf            git@github.com:imma/imma-tf            31dd28d1cf85744ea3869ae065102f9f857c4946 master    
