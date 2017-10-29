@@ -4,10 +4,6 @@ function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   source "$shome/script/profile"
 
-  pkg ensure sysutils/cdrtools
-  pkg ensure sysutils/findutils
-  pkg ensure sysutils/coreutils
-  
   (set +f; rm -f "$shome/bin/"powerline*)
 }
 
