@@ -65,12 +65,12 @@ github             ${BLOCK_PATH}/github             git@github.com:imma/github  
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             de9cf2b8455b0d1a2082ec262e62f128f5e4941d v20170617 
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            462a4bec8d4b669d49de38378581f29917b4a627 v20170617 
 cicd               ${BLOCK_PATH}/cicd               git@github.com:imma/cicd               1506a87d95050b3e7050d9ed611860cba52ee72b v20170617 
-aws-vault          ${BLOCK_PATH}/aws-vault          git@github.com:imma/aws-vault          cd6f46ff2e3840fb843f265f582a3534190556b1 v20170617 
+aws-vault          ${BLOCK_PATH}/aws-vault          git@github.com:imma/aws-vault          ead338dd77f4750e0ee6d3723277a10739c41b93 v20170617 
 chamber            ${BLOCK_PATH}/chamber            git@github.com:imma/chamber            9ec067e055fc0710742afc6947b89b71042fa052 v20170617 
 awless             ${BLOCK_PATH}/awless             git@github.com:imma/awless             8135de3aa3765baedc09fdee0a518e56795ad137 v20170617 
 credstash          ${BLOCK_PATH}/credstash          git@github.com:imma/credstash          54f5ebae9ba7ceaaa645e1974ce22ee880cf2693 v20170617 
 aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                3c0086f0054a77fb1e3bf421bb097bac7b4c0af6 v20170617 
-awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            9cb95c74e03207e10fcf68ad3039d69165816303 v20170617 
+awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            df27ee8aab5052dfdca31d7edaaac6e67600932f v20170617 
 packet             ${BLOCK_PATH}/packet             git@github.com:imma/packet             1d0da8288db173e5a4aa5b1348b82397a4a75274 v20170617 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       dedf3d3f950896f738e035017ab554a05f07985e v20170617 
 heroku             ${BLOCK_PATH}/heroku             git@github.com:imma/heroku             b65c721b4ee43f247515fa6cdadb1ca55b85044f v20170617 
