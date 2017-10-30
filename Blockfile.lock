@@ -42,6 +42,7 @@ sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd    
 facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts              b636f89374da959488421214c07f48eeace7c223 v20170617 
 consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             b070c3293810ab415a0267ed7917d39343dbc70b v20170617 
 consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       e835f4d6ca8146f510ec4b53059f8d7761212617 v20170617 
+consul-server      ${BLOCK_PATH}/consul-server      git@github.com:imma/consul-server      f0afb48fb6ba3f6dcdf9af30f2f4574e9dbb6576 v20170617 
 etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               75ce81f07dae1a3ae559386d3f8da17230cea481 v20170617 
 linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            0e8555446db6633bd1490ac4a789ce9aada80f78 v20170617 
 namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             535e3bef7b2c9727c413c3f727ba6dbbdf8b21d8 v20170617 

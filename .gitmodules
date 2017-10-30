@@ -512,3 +512,7 @@
 	path = work/fabio
 	url = git@github.com:imma/fabio
 	branch = v20170617
+[submodule "work/consul-server"]
+	path = work/consul-server
+	url = git@github.com:imma/consul-server
+	branch = v20170617
