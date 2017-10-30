@@ -86,7 +86,7 @@ cfssl              ${BLOCK_PATH}/cfssl              git@github.com:imma/cfssl   
 getssl             ${BLOCK_PATH}/getssl             git@github.com:imma/getssl             5ca198c8868ba149627e617f081a209deb8211f8 v20170617 
 crypto             ${BLOCK_PATH}/crypto             git@github.com:imma/crypto             424340308eaf3275845cdccb6a8bd5770063ddaf v20170617 
 packer             ${BLOCK_PATH}/packer             git@github.com:imma/packer             75e65a659b6c1b2d9dc435e5441bb54a5a4177bf v20170617 
-dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream              a14e44736212bab725628567aa46b782249e8ea8 v20170617 
+dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream              75d18f27a72a9c2b74f9355b4283691d6e0f7aa3 v20170617 
 vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            a15a8f3db55c52307ead6bca0d888c8a202e2367 v20170617 
 limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              99f7b6c19df07148254db6e641c45ce68b236e88 v20170617 
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          c41630295bc0390ead91a50b994648ed3d3ac66a v20170617 
