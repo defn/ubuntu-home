@@ -29,3 +29,7 @@ xcode-select --install
 RDECK_JVM_SETTINGS=-Dserver.web.context=/rundeck
 
 -t -w --once -a 127.0.0.1 -p 31337 docker run -ti ubuntu:xenial
+
+/etc/auto_master # remote home
+sudo automount -cv
+
