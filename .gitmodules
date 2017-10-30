@@ -508,3 +508,7 @@
 [submodule "work/zerotier"]
 	path = work/zerotier
 	url = git@github.com:imma/zerotier
+[submodule "work/fabio"]
+	path = work/fabio
+	url = git@github.com:imma/fabio
+	branch = v20170617

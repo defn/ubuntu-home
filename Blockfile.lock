@@ -45,6 +45,7 @@ consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-a
 etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               75ce81f07dae1a3ae559386d3f8da17230cea481 v20170617 
 linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            0e8555446db6633bd1490ac4a789ce9aada80f78 v20170617 
 namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             535e3bef7b2c9727c413c3f727ba6dbbdf8b21d8 v20170617 
+fabio              ${BLOCK_PATH}/fabio              git@github.com:imma/fabio              0a5675d8102a3d47d658df43107583f589b33ce6 v20170617 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          83666e718adeea3cd08a31f85ad8b818d07faf3a v20170617 
 openresty          ${BLOCK_PATH}/openresty          git@github.com:imma/openresty          674a650c21cc89d401ff2a634dd6ed8896f47934 v20170617 
 chalice            ${BLOCK_PATH}/chalice            git@github.com:imma/chalice            c70d6ff169a9a8649e08aacd5081f388ed325639 v20170617 
