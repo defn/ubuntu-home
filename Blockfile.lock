@@ -74,7 +74,7 @@ digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalo
 heroku             ${BLOCK_PATH}/heroku             git@github.com:imma/heroku             b65c721b4ee43f247515fa6cdadb1ca55b85044f v20170617 
 eb                 ${BLOCK_PATH}/eb                 git@github.com:imma/eb                 26ddbc5713cc9fb8ff7e7667cd129000cc638e74 v20170617 
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              69f6d0e2379c2f5d6cc88fe48bb6fabe31a54d8a v20170617 
-imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               9a46b5a796f2b0282b6cdf3167739829170e55d0 v20170617 
+imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               8d308c6c39b43c5a31a51ab537409053dd3dc6f4 v20170617 
 chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               4bbe1ba994feb425476b087863800a22d6676256 v20170617 
 netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            3b81f9c50c853f5b92cda7d54670c9709a85f31c v20170617 
 monitor            ${BLOCK_PATH}/monitor            git@github.com:imma/monitor            5ae926e7e2f4a26908950bc967b1b5eec1edbc94 v20170617 
@@ -125,4 +125,4 @@ gotty              ${BLOCK_PATH}/gotty              git@github.com:imma/gotty   
 yubikey            ${BLOCK_PATH}/yubikey            git@github.com:imma/yubikey            8d15f43b5c2773cbbd96d763d6c6a2a87a999239 v20170617 
 cookiecutter       ${BLOCK_PATH}/cookiecutter       git@github.com:imma/cookiecutter       9b15364f90e1fd41eedf3060a57d2e4ae76832da v20170617 
 fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            c551a1468791882cce35192057220a5a5e640a80 v20170617 
-imma-tf            ${BLOCK_PATH}/imma-tf            git@github.com:imma/imma-tf            31dd28d1cf85744ea3869ae065102f9f857c4946 master    
+imma-tf            ${BLOCK_PATH}/imma-tf            git@github.com:imma/imma-tf            31dd28d1cf85744ea3869ae065102f9f857c4946 v20170617 
