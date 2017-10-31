@@ -5,12 +5,12 @@ normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normaliz
 bash-preexec       ${BLOCK_PATH}/bash-preexec       git@github.com:imma/bash-preexec       8658d4be458078d00b65cb5f34c6e79d27fd6c4e v20170617 
 sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub                7cf2c02e77f0555104b92b383f3634d503d38a79 v20170617 
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            a037a8ef17722cc23934262cfcaf7e72d9d3a7fa v20170617 
-block              ${BLOCK_PATH}/block              git@github.com:imma/block              597978fbc098adc857dd93e93a93d757b307c6f3 v20170617 
+block              ${BLOCK_PATH}/block              git@github.com:imma/block              56062b5688264f0bd84924b171c458d029568741 v20170617 
 instance           ${BLOCK_PATH}/instance           git@github.com:imma/instance           7f7d726ab81f7ebcc0eb3b65d78052fa9973dc59 v20170617 
 base               ${BLOCK_PATH}/base               git@github.com:imma/base               d5623cee2b483b4863964965efca10d6f2825a0e v20170617 
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      a473e85695635a2a281f11e60a30ac7587b24a93 v20170617 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           742f7700e2ec34600e108265d3d4a33fd0b58894 v20170617 
-java               ${BLOCK_PATH}/java               git@github.com:imma/java               62b8b47808309a213921c488f1837ce7f07483c9 v20170617 
+java               ${BLOCK_PATH}/java               git@github.com:imma/java               3b03e985cf9189fa398bb665f86a0a15de33c6ad v20170617 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             6e046616bf21de306d3fdf0bd093490ce7e6390b v20170617 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             3cbe12863864fb2b56180c014fbe0ea0ad1185ba v20170617 
 py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               6ff57e0398f6d3934caf2e49c571614f251a9cc1 v20170617 
@@ -114,7 +114,7 @@ app                ${BLOCK_PATH}/app                git@github.com:imma/app     
 ipfs               ${BLOCK_PATH}/ipfs               git@github.com:imma/ipfs               dc590ee28db128cbc6316bbe59176fdf96029e43 v20170617 
 lock               ${BLOCK_PATH}/lock               git@github.com:imma/lock               02e8916f475406adc0419e229203705b671ed3a2 v20170617 
 bless              ${BLOCK_PATH}/bless              git@github.com:imma/bless              d13995bce6d56f2cfdd8b10cbb5c72e24cd8fbb8 v20170617 
-easy-rsa           ${BLOCK_PATH}/easy-rsa           git@github.com:imma/easy-rsa           150b13550913776d017761b65f2dd204056d2083 v20170617 
+easy-rsa           ${BLOCK_PATH}/easy-rsa           git@github.com:imma/easy-rsa           a34a959fef9d44c5deed70632f18a8c36a922a9b v20170617 
 openvpn            ${BLOCK_PATH}/openvpn            git@github.com:imma/openvpn            4f75a50d417e692ccdfe9397f3d57be872732609 v20170617 
 zerotier           ${BLOCK_PATH}/zerotier           git@github.com:imma/zerotier           d3b5ba957dd99c06279f2da67651f2c89857804c v20170617 
 nat                ${BLOCK_PATH}/nat                git@github.com:imma/nat                ecd5239a7bd67711a205ce075f49acb85fff2107 v20170617 
