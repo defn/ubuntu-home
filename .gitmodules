@@ -516,3 +516,7 @@
 	path = work/consul-server
 	url = git@github.com:imma/consul-server
 	branch = v20170617
+[submodule "work/rust"]
+	path = work/rust
+	url = git@github.com:imma/rust
+	branch = v20170617

@@ -29,13 +29,13 @@ nvm                ${BLOCK_PATH}/nvm                git@github.com:imma/nvm     
 node               ${BLOCK_PATH}/node               git@github.com:imma/node               ebeef99a21824f5d48fd92617b54b5b30bf091b9 v20170617 
 yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               08eb22ccf4eb65fa34aacd02ad23c9e91bdbd8cf v20170617 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              6698310a0e04ae4daed8085242d6ab06812cedf2 v20170617 
-go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 fd13d429b389910dbac7ca7d03747b7be26e0395 v20170617 
 py36               ${BLOCK_PATH}/py36               git@github.com:imma/py36               c39e1d72bf1d043bca10c3a2058804db4006e50b v20170617 
+go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 fd13d429b389910dbac7ca7d03747b7be26e0395 v20170617 
+grpc               ${BLOCK_PATH}/grpc               git@github.com:imma/grpc               876af7231ac00d5228d949d809975fa50e8dfd7c v20170617 
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              3d5bf5749033c9728ada4c413d4bd7f545c2fb60 v20170617 
 pyenv              ${BLOCK_PATH}/pyenv              git@github.com:imma/pyenv              9ade26b2d3f5ead722790b07ac7a054befbca292 v20170617 
 vmm                ${BLOCK_PATH}/vmm                git@github.com:imma/vmm                210942cc7e077bdbb41e923531cecc4bd08f38f7 v20170617 
-grpc               ${BLOCK_PATH}/grpc               git@github.com:imma/grpc               876af7231ac00d5228d949d809975fa50e8dfd7c v20170617 
-lang               ${BLOCK_PATH}/lang               git@github.com:imma/lang               011752996a024676edcff23c8ee15e4d34d834f1 v20170617 
+lang               ${BLOCK_PATH}/lang               git@github.com:imma/lang               04226713689efd1d2cc028f3834551f44db8b994 v20170617 
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              32c12c4a9eb2a6b132c422a49aea9dabfb0639e0 v20170617 
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            5fd508630279692f95e6cb355c935e8530a9097a v20170617 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               cf1b3c298f79842025fffcb1d7d32960e1f6ebc7 v20170617 
@@ -65,7 +65,7 @@ github             ${BLOCK_PATH}/github             git@github.com:imma/github  
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             de9cf2b8455b0d1a2082ec262e62f128f5e4941d v20170617 
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            462a4bec8d4b669d49de38378581f29917b4a627 v20170617 
 cicd               ${BLOCK_PATH}/cicd               git@github.com:imma/cicd               1506a87d95050b3e7050d9ed611860cba52ee72b v20170617 
-aws-vault          ${BLOCK_PATH}/aws-vault          git@github.com:imma/aws-vault          ead338dd77f4750e0ee6d3723277a10739c41b93 v20170617 
+aws-vault          ${BLOCK_PATH}/aws-vault          git@github.com:imma/aws-vault          e87c79546f2f4381dddd71804cab3ea5c76472eb v20170617 
 chamber            ${BLOCK_PATH}/chamber            git@github.com:imma/chamber            9ec067e055fc0710742afc6947b89b71042fa052 v20170617 
 awless             ${BLOCK_PATH}/awless             git@github.com:imma/awless             8135de3aa3765baedc09fdee0a518e56795ad137 v20170617 
 credstash          ${BLOCK_PATH}/credstash          git@github.com:imma/credstash          54f5ebae9ba7ceaaa645e1974ce22ee880cf2693 v20170617 
