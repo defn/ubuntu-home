@@ -164,3 +164,4 @@ Dockerfile-kitchen*
 /.neoman
 /.gotty*
 /.virtualenvs
+tmp
