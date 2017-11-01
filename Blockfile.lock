@@ -32,10 +32,11 @@ bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4   
 py36               ${BLOCK_PATH}/py36               git@github.com:imma/py36               c39e1d72bf1d043bca10c3a2058804db4006e50b v20170617 
 go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 fd13d429b389910dbac7ca7d03747b7be26e0395 v20170617 
 grpc               ${BLOCK_PATH}/grpc               git@github.com:imma/grpc               876af7231ac00d5228d949d809975fa50e8dfd7c v20170617 
+rust               ${BLOCK_PATH}/rust               git@github.com:imma/rust               b6fbb6f27ef7acfc6fc1a320e6ffb8435f475cd2 v20170617 
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              3d5bf5749033c9728ada4c413d4bd7f545c2fb60 v20170617 
 pyenv              ${BLOCK_PATH}/pyenv              git@github.com:imma/pyenv              9ade26b2d3f5ead722790b07ac7a054befbca292 v20170617 
 vmm                ${BLOCK_PATH}/vmm                git@github.com:imma/vmm                210942cc7e077bdbb41e923531cecc4bd08f38f7 v20170617 
-lang               ${BLOCK_PATH}/lang               git@github.com:imma/lang               04226713689efd1d2cc028f3834551f44db8b994 v20170617 
+lang               ${BLOCK_PATH}/lang               git@github.com:imma/lang               657807765e30f95c62614c7aaec80532008a1194 v20170617 
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              32c12c4a9eb2a6b132c422a49aea9dabfb0639e0 v20170617 
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            5fd508630279692f95e6cb355c935e8530a9097a v20170617 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               cf1b3c298f79842025fffcb1d7d32960e1f6ebc7 v20170617 
