@@ -24,7 +24,7 @@ function main {
     $loader dpkg --configure -a
     $loader apt-get update
     $loader apt-get install -y make python build-essential aptitude git rsync
-    $loader aptitude hold grub-legacy-ec2 docker-ce lxd
+    $loader aptitude hold grub-legacy-ec2 docker-ce
     $loader apt-get upgrade -y
 
     ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true

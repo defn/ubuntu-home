@@ -48,7 +48,7 @@ function main {
         $loader dpkg --configure -a
         $loader apt-get update
         $loader apt-get install -y make python build-essential aptitude git rsync
-        $loader aptitude hold grub-legacy-ec2 docker-ce lxd
+        $loader aptitude hold grub-legacy-ec2 docker-ce
         $loader apt-get upgrade -y
         ;;
       Amazon)

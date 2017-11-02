@@ -3,7 +3,7 @@
     [ "site", "ubuntu-config", "cache", "base", "deploy", "sysadmin" ],
     [ "make", "jqq", "lang" ],
     [ "sshd", "consul-agent", "consul-server", "etcd", "linkerd", "namerd", "fabio", "syslog-ng", "openresty", "chalice" ],
-    [ "docker", "lxd", "postgresql" ],
+    [ "docker", "postgresql" ],
     [ "cicd" ],
     [ "cloud", "imma" ],
     [ "ansible", "chef" ],
