@@ -37,3 +37,22 @@ aws configure set default.s3.signature_version s3v4
 
 
 brew update-reset; brew updat
+Host adm0.bastion
+  Hostname 172.28.103.130
+  StrictHostKeyChecking yes
+  UserKnownHostsFile ~/.ssh/known_hosts.bastion
+
+Host adm1.bastion
+  Hostname 172.28.127.214
+  StrictHostKeyChecking yes
+  UserKnownHostsFile ~/.ssh/known_hosts.bastion
+
+Host adm2.bastion
+  Hostname 172.28.98.67
+  StrictHostKeyChecking yes
+  UserKnownHostsFile ~/.ssh/known_hosts.bastion
+
+Host adm3.bastion
+  Hostname 172.28.70.76
+  StrictHostKeyChecking yes
+  UserKnownHostsFile ~/.ssh/known_hosts.bastion
