@@ -53,7 +53,7 @@ openresty          ${BLOCK_PATH}/openresty          git@github.com:imma/openrest
 chalice            ${BLOCK_PATH}/chalice            git@github.com:imma/chalice            c70d6ff169a9a8649e08aacd5081f388ed325639 v20170617 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            edaced91a1fe73abd74c370dcc53a72c95bfabbc v20170617 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             71ba46f4bfe28602fc50e399733761429b16b409 v20170617 
-docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     a326d4111505c24ba1463ce18ef0262a2d130e50 v20170617 
+docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     a4c71c30e0c334ee630c6af685b9b79a66727cb6 v20170617 
 docker-machine     ${BLOCK_PATH}/docker-machine     git@github.com:imma/docker-machine     f1bfceca23b786c1899de0d25d493d2534837c9e v20170617 
 docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             13612f44c3c76d5bd1280346da04e8d6fe627321 v20170617 
 lxd                ${BLOCK_PATH}/lxd                git@github.com:imma/lxd                cf7e4a53631b8e4b72c5eb94ee3b3c7f8c6fa8f9 v20170617 
