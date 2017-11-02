@@ -11,7 +11,7 @@ base               ${BLOCK_PATH}/base               git@github.com:imma/base    
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      a473e85695635a2a281f11e60a30ac7587b24a93 v20170617 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           742f7700e2ec34600e108265d3d4a33fd0b58894 v20170617 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               b3dc9f6cd55e6d6dd2e26991d51ff7683352b15c v20170617 
-pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             6e046616bf21de306d3fdf0bd093490ce7e6390b v20170617 
+pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             cf7c0c84a069c6a682d838658aa344df498c8da7 v20170617 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             3cbe12863864fb2b56180c014fbe0ea0ad1185ba v20170617 
 py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               6ff57e0398f6d3934caf2e49c571614f251a9cc1 v20170617 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            fa4183fb8eb57aee2cf5570f90f05fa767a09b5d v20170617 
@@ -61,7 +61,7 @@ postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgres
 jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins            7fc869e130d8a85c73f3b96070f440d7bcff93ce v20170617 
 drone              ${BLOCK_PATH}/drone              git@github.com:imma/drone              4dbe022405ff00bb1028ca25094c47df9649c4e7 v20170617 
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         4571a4b6db51629504275c786a47fe849533cdce v20170617 
-git                ${BLOCK_PATH}/git                git@github.com:imma/git                d38caa96d5e89bc497488dfbbe88aad21ae28585 v20170617 
+git                ${BLOCK_PATH}/git                git@github.com:imma/git                0467aa3d0b5226b51ba1e619f05927d081e1b4c0 v20170617 
 github             ${BLOCK_PATH}/github             git@github.com:imma/github             8c1d5b30eb72cdc616de483ae8da32712883a075 v20170617 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             de9cf2b8455b0d1a2082ec262e62f128f5e4941d v20170617 
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            462a4bec8d4b669d49de38378581f29917b4a627 v20170617 
