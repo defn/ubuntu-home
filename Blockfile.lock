@@ -61,7 +61,7 @@ postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgres
 jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins            7fc869e130d8a85c73f3b96070f440d7bcff93ce v20170617 
 drone              ${BLOCK_PATH}/drone              git@github.com:imma/drone              4dbe022405ff00bb1028ca25094c47df9649c4e7 v20170617 
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         4571a4b6db51629504275c786a47fe849533cdce v20170617 
-git                ${BLOCK_PATH}/git                git@github.com:imma/git                0467aa3d0b5226b51ba1e619f05927d081e1b4c0 v20170617 
+git                ${BLOCK_PATH}/git                git@github.com:imma/git                9c1f662a3ead4c19ee9a5152550b9ba7aa182d41 v20170617 
 github             ${BLOCK_PATH}/github             git@github.com:imma/github             8c1d5b30eb72cdc616de483ae8da32712883a075 v20170617 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             de9cf2b8455b0d1a2082ec262e62f128f5e4941d v20170617 
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            462a4bec8d4b669d49de38378581f29917b4a627 v20170617 
