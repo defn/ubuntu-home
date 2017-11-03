@@ -10,7 +10,7 @@
     [ "monitor", "crypto", "build" ],
     [ "home", "defn", "junas", "chat", "cue" ],
     [ "example", "nothing", "app" ],
-    [ "ipfs", "lock", "bless", "openvpn", "zerotier", "nat", "easy-rsa", "kmsauth", "rat" ],
+    [ "ipfs", "lock", "openvpn", "zerotier", "nat", "easy-rsa", "kmsauth", "rat" ],
     [ "ftl", "se", "haihero", "gotty", "yubikey", "cookiecutter" ],
     [ "fogg-tf", "imma-tf" ]
   ]
