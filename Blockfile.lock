@@ -11,7 +11,7 @@ base               ${BLOCK_PATH}/base               git@github.com:imma/base    
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      a473e85695635a2a281f11e60a30ac7587b24a93 v20170617 
 pyenv              ${BLOCK_PATH}/pyenv              git@github.com:imma/pyenv              17129f35fadcef470abe89e23d8de3415a75b22b v20170617 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             01f6780a3d60bbd0864da38cbff8c36d84632202 v20170617 
-py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               283582d44962b6d08764c07f7ea5e83036f5e5f9 v20170617 
+py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               e8b6c04301ae554bdb91fe3070697a718bce5d4a v20170617 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            d6ccee45a2971bc50e8a76ca2c0ebbe85631db75 v20170617 
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              5d5cadcdca9c499640953352d92f027d92bf7fc9 v20170617 
 inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          3712ddf9437a227b25a86cdea24abf89635ae3e6 v20170617 
@@ -30,7 +30,7 @@ nvm                ${BLOCK_PATH}/nvm                git@github.com:imma/nvm     
 node               ${BLOCK_PATH}/node               git@github.com:imma/node               ebeef99a21824f5d48fd92617b54b5b30bf091b9 v20170617 
 yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               08eb22ccf4eb65fa34aacd02ad23c9e91bdbd8cf v20170617 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              6698310a0e04ae4daed8085242d6ab06812cedf2 v20170617 
-py36               ${BLOCK_PATH}/py36               git@github.com:imma/py36               800e0932a9ec743215835b67dc3668e22f9d63e5 v20170617 
+py36               ${BLOCK_PATH}/py36               git@github.com:imma/py36               0105e075e0f46c2b9ce8d97b353d695e1dd0e5bc v20170617 
 go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 fd13d429b389910dbac7ca7d03747b7be26e0395 v20170617 
 grpc               ${BLOCK_PATH}/grpc               git@github.com:imma/grpc               876af7231ac00d5228d949d809975fa50e8dfd7c v20170617 
 rust               ${BLOCK_PATH}/rust               git@github.com:imma/rust               b6fbb6f27ef7acfc6fc1a320e6ffb8435f475cd2 v20170617 
