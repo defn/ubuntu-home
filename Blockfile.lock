@@ -116,7 +116,7 @@ ipfs               ${BLOCK_PATH}/ipfs               git@github.com:imma/ipfs    
 lock               ${BLOCK_PATH}/lock               git@github.com:imma/lock               02e8916f475406adc0419e229203705b671ed3a2 v20170617 
 easy-rsa           ${BLOCK_PATH}/easy-rsa           git@github.com:imma/easy-rsa           26f74c88a946c6c1e13004fb2189f6fbadc9b3d2 v20170617 
 openvpn            ${BLOCK_PATH}/openvpn            git@github.com:imma/openvpn            4f75a50d417e692ccdfe9397f3d57be872732609 v20170617 
-zerotier           ${BLOCK_PATH}/zerotier           git@github.com:imma/zerotier           d3b5ba957dd99c06279f2da67651f2c89857804c v20170617 
+zerotier           ${BLOCK_PATH}/zerotier           git@github.com:imma/zerotier           be50eebd4264ad82c8d15cb5b36bf8bfa2136696 v20170617 
 nat                ${BLOCK_PATH}/nat                git@github.com:imma/nat                ecd5239a7bd67711a205ce075f49acb85fff2107 v20170617 
 kmsauth            ${BLOCK_PATH}/kmsauth            git@github.com:imma/kmsauth            c199bdb17f3feeed56de193d1d72a53bbbc48349 v20170617 
 rat                ${BLOCK_PATH}/rat                git@github.com:imma/rat                7971c407a1b3596cce4f1f4725f9c57a048f1d83 v20170617 
