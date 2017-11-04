@@ -512,3 +512,7 @@
 	path = work/rust
 	url = git@github.com:imma/rust
 	branch = v20170617
+[submodule "work/kong"]
+	path = work/kong
+	url = git@github.com:imma/kong
+	branch = v20170617

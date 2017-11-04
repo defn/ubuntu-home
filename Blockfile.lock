@@ -5,7 +5,7 @@ normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normaliz
 bash-preexec       ${BLOCK_PATH}/bash-preexec       git@github.com:imma/bash-preexec       8658d4be458078d00b65cb5f34c6e79d27fd6c4e v20170617 
 sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub                7cf2c02e77f0555104b92b383f3634d503d38a79 v20170617 
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            a037a8ef17722cc23934262cfcaf7e72d9d3a7fa v20170617 
-block              ${BLOCK_PATH}/block              git@github.com:imma/block              56062b5688264f0bd84924b171c458d029568741 v20170617 
+block              ${BLOCK_PATH}/block              git@github.com:imma/block              d1343b89bd0a167e18ece9fc3d23dd12fbc37683 v20170617 
 instance           ${BLOCK_PATH}/instance           git@github.com:imma/instance           7f7d726ab81f7ebcc0eb3b65d78052fa9973dc59 v20170617 
 base               ${BLOCK_PATH}/base               git@github.com:imma/base               d5623cee2b483b4863964965efca10d6f2825a0e v20170617 
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      a473e85695635a2a281f11e60a30ac7587b24a93 v20170617 
@@ -49,7 +49,8 @@ linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd 
 namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             535e3bef7b2c9727c413c3f727ba6dbbdf8b21d8 v20170617 
 fabio              ${BLOCK_PATH}/fabio              git@github.com:imma/fabio              8e90b768a758280963dcfd7fea4fc9f82f230297 v20170617 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          83666e718adeea3cd08a31f85ad8b818d07faf3a v20170617 
-openresty          ${BLOCK_PATH}/openresty          git@github.com:imma/openresty          674a650c21cc89d401ff2a634dd6ed8896f47934 v20170617 
+openresty          ${BLOCK_PATH}/openresty          git@github.com:imma/openresty          a97b4e5bb5c3c150ccf4444608c627d57ce647d5 v20170617 
+kong               ${BLOCK_PATH}/kong               git@github.com:imma/kong               9cccab1bcc39928263b6c04f5f06f910a7fa137f v20170617 
 chalice            ${BLOCK_PATH}/chalice            git@github.com:imma/chalice            8aef5c5ace0ceca83b1717d4fe426306742387cf v20170617 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            edaced91a1fe73abd74c370dcc53a72c95bfabbc v20170617 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             71ba46f4bfe28602fc50e399733761429b16b409 v20170617 
