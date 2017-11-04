@@ -1,0 +1,67 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "993d9bfbdff76a90d8620156146951c390c80aacf6e86a2aebe7b8691c3f44f6"
+        },
+        "host-environment-markers": {
+            "implementation_name": "cpython",
+            "implementation_version": "3.6.3",
+            "os_name": "posix",
+            "platform_machine": "x86_64",
+            "platform_python_implementation": "CPython",
+            "platform_release": "16.7.0",
+            "platform_system": "Darwin",
+            "platform_version": "Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64",
+            "python_full_version": "3.6.3",
+            "python_version": "3.6",
+            "sys_platform": "darwin"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.6"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "markdown": {
+            "hashes": [
+                "sha256:73af797238b95768b3a9b6fe6270e250e5c09d988b8e5b223fd5efa4e06faf81"
+            ],
+            "version": "==2.6.9"
+        },
+        "pycco": {
+            "hashes": [
+                "sha256:a3939340f480449198d07b81940df29425498276c80b37c6f3b54973003ad4e4",
+                "sha256:c0f394b605fbebbe94fc6363bec6c36fd2c60cf1222b2609a7a92aff8e52bd01"
+            ],
+            "version": "==0.5.1"
+        },
+        "pygments": {
+            "hashes": [
+                "sha256:78f3f434bcc5d6ee09020f92ba487f95ba50f1e3ef83ae96b9d5ffa1bab25c5d",
+                "sha256:dbae1046def0efb574852fab9e90209b23f556367b5a320c0bcb871c77c3e8cc"
+            ],
+            "version": "==2.2.0"
+        },
+        "pystache": {
+            "hashes": [
+                "sha256:f7bbc265fb957b4d6c7c042b336563179444ab313fb93a719759111eabd3b85a"
+            ],
+            "version": "==0.5.4"
+        },
+        "smartypants": {
+            "hashes": [
+                "sha256:a049e40c146ee654955e62865b579f8715fd62ecf363c2f520fe4a489435019f",
+                "sha256:7812353a32022699a1aa8cd5626e01c94a946dcaeedaee2d0b382bae4c4cbf36"
+            ],
+            "version": "==2.0.0"
+        }
+    },
+    "develop": {}
+}
