@@ -11,7 +11,7 @@ base               ${BLOCK_PATH}/base               git@github.com:imma/base    
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      a473e85695635a2a281f11e60a30ac7587b24a93 v20170617 
 pyenv              ${BLOCK_PATH}/pyenv              git@github.com:imma/pyenv              17129f35fadcef470abe89e23d8de3415a75b22b v20170617 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             bbc3a3b970e3ddae83ea26ac0cb93ac0e0e120ac v20170617 
-py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               41c186cceccfdbdd1a36f146d24dbd7a3d6ea29b v20170617 
+py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               d369f881827eb02683da0ee6f4c6c49c6d0aef4b v20170617 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            6ece5da585a29190b9454ba2386efe5bc5c0174a v20170617 
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              5d5cadcdca9c499640953352d92f027d92bf7fc9 v20170617 
 inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          3a3b82e471d6a6d8053dc75ce63ee871124a62d1 v20170617 
