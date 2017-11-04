@@ -75,7 +75,7 @@ function main {
     popd
   done
 
-  cat Blockfile.lock | envsubst | runmany 1 5 'echo "$@"; cd $2 && git checkout --force $5 && git reset --hard $4 || (cd $2 && git fetch && git checkout --force $5 && git reset --hard)'
+  cat Blockfile.lock | sed "s#\${BLOCK_PATH}#${BLOCK_PATH}#g" | runmany 1 5 'echo "$@"; cd $2 && git checkout --force $5 && git reset --hard $4 || (cd $2 && git fetch && git checkout --force $5 && git reset --hard)'
 }
 
 source sub "$BASH_SOURCE" "$@"
