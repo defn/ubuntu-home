@@ -32,7 +32,7 @@ yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn    
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              6698310a0e04ae4daed8085242d6ab06812cedf2 v20170617 
 py36               ${BLOCK_PATH}/py36               git@github.com:imma/py36               7405e9830a5aca45ab254f3534db45a28ae630ff v20170617 
 go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 fd13d429b389910dbac7ca7d03747b7be26e0395 v20170617 
-grpc               ${BLOCK_PATH}/grpc               git@github.com:imma/grpc               06a48d1e09f46e69863ab49cb3814a5885fe4a19 v20170617 
+grpc               ${BLOCK_PATH}/grpc               git@github.com:imma/grpc               04ffb8be613a0af0adeec888b4da54038e7ed425 v20170617 
 rust               ${BLOCK_PATH}/rust               git@github.com:imma/rust               b6fbb6f27ef7acfc6fc1a320e6ffb8435f475cd2 v20170617 
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              3d5bf5749033c9728ada4c413d4bd7f545c2fb60 v20170617 
 vmm                ${BLOCK_PATH}/vmm                git@github.com:imma/vmm                210942cc7e077bdbb41e923531cecc4bd08f38f7 v20170617 
