@@ -4,8 +4,8 @@ driver:
   ssh:
     insert_key: false
   synced_folders:
-    - [ "/data", "/data", "type: :nfs" ]
-    - [ ".", "/tmp/home", "type: :nfs" ]
+    - [ "/data", "/data" ]
+    - [ ".", "/tmp/home" ]
   box_check_update: false
 
 transport:
