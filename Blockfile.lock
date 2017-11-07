@@ -49,7 +49,7 @@ linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd 
 namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             535e3bef7b2c9727c413c3f727ba6dbbdf8b21d8 v20170617 
 fabio              ${BLOCK_PATH}/fabio              git@github.com:imma/fabio              8e90b768a758280963dcfd7fea4fc9f82f230297 v20170617 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          83666e718adeea3cd08a31f85ad8b818d07faf3a v20170617 
-openresty          ${BLOCK_PATH}/openresty          git@github.com:imma/openresty          a97b4e5bb5c3c150ccf4444608c627d57ce647d5 v20170617 
+openresty          ${BLOCK_PATH}/openresty          git@github.com:imma/openresty          25bf06138faa65247f2a87df029315f0ef58fe5e v20170617 
 kong               ${BLOCK_PATH}/kong               git@github.com:imma/kong               818f9850c9a903f7352e78943e22de10ea38ed71 v20170617 
 chalice            ${BLOCK_PATH}/chalice            git@github.com:imma/chalice            7c09b8d8fbf5305c912fa718bcd0fd9a436ede67 v20170617 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            edaced91a1fe73abd74c370dcc53a72c95bfabbc v20170617 
