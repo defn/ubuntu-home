@@ -12,7 +12,7 @@ ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-c
 pyenv              ${BLOCK_PATH}/pyenv              git@github.com:imma/pyenv              17129f35fadcef470abe89e23d8de3415a75b22b v20170617 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             480da9cb464c6e67416e2c96181849a2fb0667fb v20170617 
 py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               5d4a701ce56cc044d2b11aeec5d427dba2038421 v20170617 
-ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            d5f50ffc020b7ff7a4dc73423165e24585f14159 v20170617 
+ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            aeb252d1c67da5d58a3a33879ebbe632a554f68a v20170617 
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              5d5cadcdca9c499640953352d92f027d92bf7fc9 v20170617 
 inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          3a3b82e471d6a6d8053dc75ce63ee871124a62d1 v20170617 
 deploy             ${BLOCK_PATH}/deploy             git@github.com:imma/deploy             f43102a38a6d09e7072b82801f8cb258aa5222cd v20170617 
