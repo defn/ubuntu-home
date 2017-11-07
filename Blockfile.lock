@@ -77,7 +77,7 @@ digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalo
 heroku             ${BLOCK_PATH}/heroku             git@github.com:imma/heroku             cb1a8aaac314726790475b1689983fc6c3dc0762 v20170617 
 eb                 ${BLOCK_PATH}/eb                 git@github.com:imma/eb                 471fcd51e6f4215ae547134541a2a6f201e9c99b v20170617 
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              69f6d0e2379c2f5d6cc88fe48bb6fabe31a54d8a v20170617 
-imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               4ebcf13c1f01eb752ef4b82f2d9eac7f5b581899 v20170617 
+imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               ef14278d11b1e6cec2a34ca8fcdc13d770691b83 v20170617 
 chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               99483db8faa22b529f90bcae83534c43c3943521 v20170617 
 netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            3b81f9c50c853f5b92cda7d54670c9709a85f31c v20170617 
 monitor            ${BLOCK_PATH}/monitor            git@github.com:imma/monitor            5ae926e7e2f4a26908950bc967b1b5eec1edbc94 v20170617 
