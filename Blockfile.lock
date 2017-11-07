@@ -7,7 +7,7 @@ sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub     
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            accaecc59f399d48a4c41bd45660d692223724ef v20170617 
 block              ${BLOCK_PATH}/block              git@github.com:imma/block              4b40623d22a8a106ef444ee5b2d8eeb334304f44 v20170617 
 instance           ${BLOCK_PATH}/instance           git@github.com:imma/instance           7f7d726ab81f7ebcc0eb3b65d78052fa9973dc59 v20170617 
-base               ${BLOCK_PATH}/base               git@github.com:imma/base               d5623cee2b483b4863964965efca10d6f2825a0e v20170617 
+base               ${BLOCK_PATH}/base               git@github.com:imma/base               d5fef23f3f58d2cde1a01b2a8c2ede45f26ca01f v20170617 
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      a473e85695635a2a281f11e60a30ac7587b24a93 v20170617 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           742f7700e2ec34600e108265d3d4a33fd0b58894 v20170617 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               b3dc9f6cd55e6d6dd2e26991d51ff7683352b15c v20170617 
@@ -89,7 +89,7 @@ crypto             ${BLOCK_PATH}/crypto             git@github.com:imma/crypto  
 packer             ${BLOCK_PATH}/packer             git@github.com:imma/packer             75e65a659b6c1b2d9dc435e5441bb54a5a4177bf v20170617 
 dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream              0bc2b553288b8e3a64a5498b73094fd2bcdb4c6d v20170617 
 vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            513eab632ff887bda779bd172e30ff76feebc47b v20170617 
-limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              99f7b6c19df07148254db6e641c45ce68b236e88 v20170617 
+limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              7078c86f35f79e89082ca8106d0add06b7d5df0c v20170617 
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          c41630295bc0390ead91a50b994648ed3d3ac66a v20170617 
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          dd1059623a11b295322ad8e9d6a10b13abb25871 v20170617 
 wtf                ${BLOCK_PATH}/wtf                git@github.com:imma/wtf                ce82579491b6d72e48f164d3dd3143785b047641 v20170617 
@@ -109,6 +109,7 @@ irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi   
 bitlbee            ${BLOCK_PATH}/bitlbee            git@github.com:imma/bitlbee            ca15ce92909cd07c10893ac53181840d7900a5a5 v20170617 
 chat               ${BLOCK_PATH}/chat               git@github.com:imma/chat               9a1eb09590088e4d3e6a1a62c18ca31f45afd490 v20170617 
 cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue                c7c1d2687daaf8765cf2a1d86b6392513042df14 v20170617 
+tmux               ${BLOCK_PATH}/tmux               git@github.com:imma/tmux               1e7ba35b9c0885ec3b8509f6368bd0e432dc4029 v20170617 
 example            ${BLOCK_PATH}/example            git@github.com:imma/example            580f6f9d333e36657fd7f90cee7c6d61e9108c36 v20170617 
 nothing            ${BLOCK_PATH}/nothing            git@github.com:imma/nothing            1f27fe2f0afd06bb09bd9f1c79cfc2dc687daff4 v20170617 
 app                ${BLOCK_PATH}/app                git@github.com:imma/app                47ab136a9a390857a8f141fe7e7d2638db62026e v20170617 

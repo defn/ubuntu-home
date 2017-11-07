@@ -516,3 +516,7 @@
 	path = work/kong
 	url = git@github.com:imma/kong
 	branch = v20170617
+[submodule "work/tmux"]
+	path = work/tmux
+	url = git@github.com:imma/tmux
+	branch = v20170617

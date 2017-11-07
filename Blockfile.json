@@ -8,7 +8,7 @@
     [ "cloud", "imma" ],
     [ "ansible", "chef" ],
     [ "monitor", "crypto", "build" ],
-    [ "home", "defn", "junas", "chat", "cue" ],
+    [ "home", "defn", "junas", "chat", "cue", "tmux" ],
     [ "example", "nothing", "app" ],
     [ "ipfs", "lock", "openvpn", "zerotier", "nat", "easy-rsa", "kmsauth", "rat" ],
     [ "ftl", "se", "haihero", "gotty", "yubikey", "cookiecutter" ],
