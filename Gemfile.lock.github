@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ghi (1.2.0)
+      pygments.rb
+    multi_json (1.12.2)
+    pygments.rb (1.2.0)
+      multi_json (>= 1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ghi
+
+BUNDLED WITH
+   1.15.4
