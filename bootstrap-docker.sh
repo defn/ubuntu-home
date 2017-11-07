@@ -39,7 +39,11 @@ function main {
       ;;
   esac
 
-  if [[ ! -d .git || -f .bootstrapping ]]; then
+  if [[ ! -d .git ]]; then
+    touch .bootstrapping
+  fi
+  
+  if [[ -f .bootstrapping ]]; then
     touch .bootstrapping
 
     case "$DISTRIB_ID" in
@@ -110,12 +114,14 @@ function main {
   git reset --hard
   git clean -ffd
 
+  set +x
   source work/block/script/profile ~
   make cache
   source .bash_profile
 
   block sync
   source .bash_profile
+  set -x
   block bootstrap
   sync
 }
