@@ -29,10 +29,11 @@ platforms:
     driver:
       linked_clone: true
       image: centos:7.4.1708
-  - name: rhel
-    driver:
+  - name: amazonlinux
+    driver_config:
       linked_clone: true
       image: amazonlinux:2017.09
+      platform: rhel
 
 suites:
   - name: virtualbox
@@ -40,8 +41,6 @@ suites:
       script: bootstrap-vagrant.sh
     driver:
       provider: virtualbox
-      network:
-        - [ "private_network", { ip: "172.28.128.11" } ]
   - name: vmware
     provisioner:
       script: bootstrap-vagrant.sh

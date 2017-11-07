@@ -4,12 +4,40 @@ set -exfu
 umask 0022
 
 function main {
-  local loader='sudo env DEBIAN_FRONTEND=noninteractive'
   local nm_branch="v20170617"
   local nm_remote="gh"
   local url_remote="https://github.com/imma/ubuntu"
 
   export BOARD_PATH="$HOME"
+
+  : ${DISTRIB_ID:=}
+
+  if [[ -f /etc/lsb-release ]]; then
+    . /etc/lsb-release
+  fi
+
+  if [[ -z "${DISTRIB_ID}" ]]; then
+    DISTRIB_ID="$(awk '{print $1}' /etc/system-release 2>/dev/null || true)"
+  fi
+
+  if [[ -z "${DISTRIB_ID}" ]]; then
+    DISTRIB_ID="$(awk '{print $1}' /etc/redhat-release 2>/dev/null || true)"
+  fi
+
+  if [[ -z "$DISTRIB_ID" ]]; then
+    DISTRIB_ID="$(uname -s)"
+  fi
+
+  export DISTRIB_ID
+
+  case "$DISTRIB_ID" in
+    Ubuntu)
+      local loader='sudo env DEBIAN_FRONTEND=noninteractive'
+      ;;
+    *)
+      local loader='sudo env'
+      ;;
+  esac
 
   if [[ ! -d /mnt/data ]]; then
     $loader apt-get install -y nfs-common
@@ -17,19 +45,42 @@ function main {
   fi
   $loader ln -nfs /mnt/data /data
 
-  if [[ ! -d .git || -f .bootstrapping ]]; then
+  if [[ ! -d .git ]]; then
+    touch .bootstrapping
+  fi
+
+  if [[ -f .bootstrapping ]]; then
     touch .bootstrapping
 
+    case "$DISTRIB_ID" in
+      Ubuntu)
     $loader apt-get install -y awscli
     $loader dpkg --configure -a
     $loader apt-get update
     $loader apt-get install -y make python build-essential aptitude git rsync
     $loader aptitude hold grub-legacy-ec2 docker-ce
     $loader apt-get upgrade -y
+        ;;
+      Amazon)
+        $loader yum install -y aws-cli
+        $loader yum install -y git rsync make
+        ;;
+      CentOS)
+        $loader yum install -y wget curl rsync make
+
+        wget -nc https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+        (set +f; $loader rpm -Uvh epel-release-latest-7*.rpm || true)
+
+        wget https://centos7.iuscommunity.org/ius-release.rpm
+        (set +f; $loader rpm -Uvh ius-release*.rpm || true)
+
+        $loader yum install -y git2u
+        ;;
+    esac
 
     ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
 
-    tar xvfz /data/cache/git/ubuntu-v20170616.tar.gz
+    tar xfz /data/cache/git/ubuntu-v20170616.tar.gz
     git reset --hard
     rsync -ia .gitconfig.template .gitconfig
     rsync -ia .ssh/config.template .ssh/config
@@ -69,11 +120,14 @@ function main {
   git reset --hard
   git clean -ffd
 
+  set +x
   source work/block/script/profile ~
   make cache
   source .bash_profile
 
   block sync
+  source .bash_profile
+  set -x
   block bootstrap
   sync
 }
