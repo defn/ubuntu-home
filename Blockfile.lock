@@ -12,7 +12,7 @@ ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-c
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           742f7700e2ec34600e108265d3d4a33fd0b58894 v20170617 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               b3dc9f6cd55e6d6dd2e26991d51ff7683352b15c v20170617 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             634f0139042e032601ed0f07b5c51388a7b9dc64 v20170617 
-pyenv              ${BLOCK_PATH}/pyenv              git@github.com:imma/pyenv              ee46a0a3a6f84ac5815d59b79815faaedf2ce022 v20170617 
+pyenv              ${BLOCK_PATH}/pyenv              git@github.com:imma/pyenv              67740eaf1238452e8225dc76380efc01565d241b v20170617 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             42356bb5f25ae4b6a3e5ea11484574845bdcde99 v20170617 
 py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               a33988bbcea4be7e3f6f3aa017d28744a56ff6b1 v20170617 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            aeb252d1c67da5d58a3a33879ebbe632a554f68a v20170617 
