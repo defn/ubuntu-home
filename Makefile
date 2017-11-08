@@ -109,4 +109,5 @@ docs:
 	make lock
 
 checkpoint:
+	git push
 	tar cvfz /data/cache/git/ubuntu-v20170616.tar.gz .git
