@@ -123,6 +123,7 @@ function main {
   source .bash_profile
   set -x
   block bootstrap
+  block stale
   sync
 }
 
