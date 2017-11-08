@@ -64,7 +64,7 @@ codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecomm
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                a2396bf0d323b17f34bdcc30af5160816cf9d7e0 v20170617 
 github             ${BLOCK_PATH}/github             git@github.com:imma/github             70bb1b0d64e2c1ec1c8f2f2f9158db8145328700 v20170617 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             2bca317137b34acb43af6e08af688be365542bda v20170617 
-kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            7447e3c2905181ef2296ff97d5ae2f0b74c397bf v20170617 
+kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            469c855275551e3c1a3951ac7b4293176bae50b2 v20170617 
 cicd               ${BLOCK_PATH}/cicd               git@github.com:imma/cicd               a564a25104ab18b95d5ab1fd1965ea068a4c2af1 v20170617 
 aws-vault          ${BLOCK_PATH}/aws-vault          git@github.com:imma/aws-vault          e87c79546f2f4381dddd71804cab3ea5c76472eb v20170617 
 chamber            ${BLOCK_PATH}/chamber            git@github.com:imma/chamber            9ec067e055fc0710742afc6947b89b71042fa052 v20170617 
