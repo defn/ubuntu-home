@@ -107,3 +107,6 @@ golden:
 docs:
 	md || true
 	make lock
+
+checkpoint:
+	tar cvfz /data/cache/git/ubuntu-v20170616.tar.gz .git
