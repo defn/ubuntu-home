@@ -128,5 +128,5 @@ haihero            ${BLOCK_PATH}/haihero            git@github.com:imma/haihero 
 gotty              ${BLOCK_PATH}/gotty              git@github.com:imma/gotty              a6fad2b1562124e0869480734f14a2e0a8adf99a v20170617 
 yubikey            ${BLOCK_PATH}/yubikey            git@github.com:imma/yubikey            e61eefba7e95e16643a36a88a80e26a1f6c9a9f4 v20170617 
 cookiecutter       ${BLOCK_PATH}/cookiecutter       git@github.com:imma/cookiecutter       26eb5f557ecebf9e06bda0c1e6e042c89b3488fb v20170617 
-fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            eea95026b6090667a85869c151398adc587f8dac v20170617 
+fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            c6389a02454c602f69b71e20e3d70f09c1b8328c v20170617 
 imma-tf            ${BLOCK_PATH}/imma-tf            git@github.com:imma/imma-tf            31ba262d88959a863a088b45219ec33fc6964aa1 v20170617 
