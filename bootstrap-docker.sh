@@ -39,6 +39,8 @@ function main {
       ;;
   esac
 
+  export LANG=en_US.UTF-8
+
   if [[ ! -d .git ]]; then
     touch .bootstrapping
   fi
