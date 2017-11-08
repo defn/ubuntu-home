@@ -29,17 +29,17 @@
     "default": {
         "awscli": {
             "hashes": [
-                "sha256:d38398e961db5e79b7c59c9e7870ad0817e9c85d2e34ec79e4c86aed06dad44a",
-                "sha256:37bb6d4056ba67739fb7ae4db57d3eebd4a22b3f9b2408a41fe95610e6357248"
+                "sha256:1b4e7604f0cb0c3b355c5633fe3bb87bead26e89da9692d0d00dc99232254374",
+                "sha256:39e83381d1859395aa79ad0536deeb886929837bdfca40357395d5b87adbc210"
             ],
-            "version": "==1.11.182"
+            "version": "==1.11.183"
         },
         "botocore": {
             "hashes": [
-                "sha256:2b89030441341d4683d218b499c892b20fb812207a20fbea5b2568dbbb6699ac",
-                "sha256:5d75ecccb304dd1e4a73a6cbe999225dd000949d505f94643aa3691f80ba3c73"
+                "sha256:1f6d0019b6a1d7bdd5d4406fdfe7b6776f7469f5f558e2cad6cbec37f1b86ed4",
+                "sha256:353b0ce134dae1bffd0c4bbe8779e277e3dd5b73aadaf767b97ed3f43f6e26d2"
             ],
-            "version": "==1.7.40"
+            "version": "==1.7.41"
         },
         "colorama": {
             "hashes": [
