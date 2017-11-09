@@ -145,7 +145,8 @@ ____EOF
     fi
 
     if ! id -u -n ubuntu; then
-      useradd -m -s /bin/bash ubuntu
+      groupadd -g 1000 ubuntu
+      useradd -u 1000 -m -s /bin/bash ubuntu
     fi
 
     chown -R ubuntu:ubuntu ~ubuntu
