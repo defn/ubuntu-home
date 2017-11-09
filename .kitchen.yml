@@ -42,16 +42,22 @@ suites:
       script: bootstrap-vagrant.sh
     driver:
       provider: virtualbox
+    excludes:
+      - amazonlinux
   - name: vmware
     provisioner:
       script: bootstrap-vagrant.sh
     driver:
       provider: vmware_fusion
+    excludes:
+      - amazonlinux
   - name: parallels
     provisioner:
       script: bootstrap-vagrant.sh
     driver:
       provider: parallels
+    excludes:
+      - amazonlinux
   - name: aws
     provisioner:
       script: bootstrap-aws.sh
