@@ -110,7 +110,7 @@ irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi   
 bitlbee            ${BLOCK_PATH}/bitlbee            git@github.com:imma/bitlbee            ca15ce92909cd07c10893ac53181840d7900a5a5 v20170617 
 chat               ${BLOCK_PATH}/chat               git@github.com:imma/chat               9a1eb09590088e4d3e6a1a62c18ca31f45afd490 v20170617 
 cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue                c7c1d2687daaf8765cf2a1d86b6392513042df14 v20170617 
-tmux               ${BLOCK_PATH}/tmux               git@github.com:imma/tmux               337d0bcc6531af125b7d378e3bedd9ad12372cc9 v20170617 
+tmux               ${BLOCK_PATH}/tmux               git@github.com:imma/tmux               5c014515c89c08ae319c867007d73a3835a95ffd v20170617 
 example            ${BLOCK_PATH}/example            git@github.com:imma/example            580f6f9d333e36657fd7f90cee7c6d61e9108c36 v20170617 
 nothing            ${BLOCK_PATH}/nothing            git@github.com:imma/nothing            1f27fe2f0afd06bb09bd9f1c79cfc2dc687daff4 v20170617 
 app                ${BLOCK_PATH}/app                git@github.com:imma/app                47ab136a9a390857a8f141fe7e7d2638db62026e v20170617 
