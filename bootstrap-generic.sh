@@ -150,7 +150,7 @@ ____EOF
 
       if ! id -u -n ubuntu; then
         groupadd -g 1000 ubuntu
-        useradd -u 1000 -d /home/ubuntu -m -s /bin/bash -p '*' ubuntu
+        useradd -g ubuntu -u 1000 -d /home/ubuntu -m -s /bin/bash -p '*' ubuntu
       fi
 
       chown -R ubuntu:ubuntu ~ubuntu
