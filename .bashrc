@@ -50,3 +50,10 @@ bashrc_main "$@"
 if [[ "${TERM:-}" == "screen" ]]; then
   export TERM="screen-256color"
 fi
+
+if [[ -n "${TMUX:-}" ]]; then
+  if [[ -S "${BOARD_PATH}/.ssh/ssh_auth_sock" ]]; then
+    export SSH_AUTH_SOCK="${BOARD_PATH}/.ssh/ssh_auth_sock"
+  fi
+fi
+
