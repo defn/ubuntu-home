@@ -165,3 +165,4 @@ Dockerfile-kitchen*
 /.virtualenvs
 tmp
 tmux-client*log
+!.ssh/rc
