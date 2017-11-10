@@ -64,7 +64,7 @@ codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecomm
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                a2396bf0d323b17f34bdcc30af5160816cf9d7e0 v20170617 
 github             ${BLOCK_PATH}/github             git@github.com:imma/github             70bb1b0d64e2c1ec1c8f2f2f9158db8145328700 v20170617 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             2e8d04a31bd1c433d3917be886e4075b095b5dbe v20170617 
-kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            efd5d9b68addc2a66aefeef060f7f2f8cae66317 v20170617 
+kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            e754e6a81cdf5f2f16fc92303e49526e8fc5836a v20170617 
 cicd               ${BLOCK_PATH}/cicd               git@github.com:imma/cicd               a564a25104ab18b95d5ab1fd1965ea068a4c2af1 v20170617 
 aws-vault          ${BLOCK_PATH}/aws-vault          git@github.com:imma/aws-vault          e87c79546f2f4381dddd71804cab3ea5c76472eb v20170617 
 chamber            ${BLOCK_PATH}/chamber            git@github.com:imma/chamber            9ec067e055fc0710742afc6947b89b71042fa052 v20170617 
@@ -104,7 +104,7 @@ docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs    
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              ddbd90fee698c69b2004861f5ab3120e294563a9 v20170617 
 home               ${BLOCK_PATH}/home               git@github.com:imma/home               1c7319f03d89cb3802f3b3b034d1f9d4150d711d v20170617 
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             fdc4b75ebc28512392abd1c865ee31d73917b1d4 v20170617 
-defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               73dfcb8d579add136b5c9f267605e1829cb0523d v20170617 
+defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               8380a2c7a052d5b305aec0a8444cf39b08429fa0 v20170617 
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              946e89113dfbeb27ee64d61bb6a4245126e28e28 v20170617 
 irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              acd2afe4839c95aa02a9c3161b3db53172841762 v20170617 
 bitlbee            ${BLOCK_PATH}/bitlbee            git@github.com:imma/bitlbee            ca15ce92909cd07c10893ac53181840d7900a5a5 v20170617 
