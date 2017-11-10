@@ -110,7 +110,6 @@
 /.sbt/
 /.sh_history
 /.subversion/
-/.tmux.conf
 /.trc
 /.tugboat
 /.xinitrc
