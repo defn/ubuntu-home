@@ -142,6 +142,7 @@ case "$(id -u -n)" in
     # Created by cloud-init v. 0.7.9 on Fri, 21 Jul 2017 08:42:58 +0000
     # User rules for ubuntu
     ubuntu ALL=(ALL) NOPASSWD:ALL
+    vagrant ALL=(ALL) NOPASSWD:ALL
 ____EOF
 
     found_vagrant=
