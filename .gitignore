@@ -165,3 +165,4 @@ Dockerfile-kitchen*
 /.gotty*
 /.virtualenvs
 tmp
+tmux-client*log
