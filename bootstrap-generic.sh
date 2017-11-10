@@ -147,19 +147,23 @@ ____EOF
     found_vagrant=
     if [[ "$(id -u vagrant 2>/dev/null)" == "1000" ]]; then
       userdel -f vagrant || true
+
+      if ! id -u -n ubuntu; then
+        groupadd -g 1000 ubuntu
+        useradd -u 1000 -d /home/ubuntu -m -s /bin/bash -p '*' ubuntu
+      fi
+
+      chown -R ubuntu:ubuntu ~ubuntu
+
       found_vagrant=1
     fi
 
-    if ! id -u -n ubuntu; then
-      groupadd -g 1000 ubuntu
-      useradd -u 1000 -d /home/ubuntu -m -s /bin/bash -p '*' ubuntu
+    if [[ -f /tmp/home/.ssh/authorized_keys ]]; then
+      mkdir -p ~ubuntu/.ssh
+      cp -a /tmp/home/.ssh/authorized_keys ~ubuntu/.ssh/
+      chown -R ubuntu:ubuntu ~ubuntu/.ssh
     fi
 
-    chown -R ubuntu:ubuntu ~ubuntu
-
-    mkdir -p ~ubuntu/.ssh
-    cp -a /tmp/home/.ssh/authorized_keys ~ubuntu/.ssh/
-    chown -R ubuntu:ubuntu ~ubuntu/.ssh
     install -d -o ubuntu -g ubuntu /data /data/cache /data/git
 
     if [[ -n "$found_vagrant" ]]; then
