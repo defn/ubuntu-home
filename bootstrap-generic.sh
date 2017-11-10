@@ -44,29 +44,23 @@ function main {
       ;;
   esac
 
-  if [[ ! -d /mnt/data ]]; then
-    $loader apt-get install -y nfs-common
-    $loader mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 efs.adm.immanent.io:/ /mnt
-  fi
-  $loader ln -nfs /mnt/data /data
-
   export LANG=en_US.UTF-8
 
   if [[ ! -d .git ]]; then
     touch .bootstrapping
   fi
-
+  
   if [[ -f .bootstrapping ]]; then
     touch .bootstrapping
 
     case "$DISTRIB_ID" in
       Ubuntu)
-    $loader apt-get install -y awscli
-    $loader dpkg --configure -a
-    $loader apt-get update
-    $loader apt-get install -y make python build-essential aptitude git rsync
-    $loader aptitude hold grub-legacy-ec2 docker-ce
-    $loader apt-get upgrade -y
+        $loader apt-get install -y awscli
+        $loader dpkg --configure -a
+        $loader apt-get update
+        $loader apt-get install -y make python build-essential aptitude git rsync
+        $loader aptitude hold grub-legacy-ec2 docker-ce
+        $loader apt-get upgrade -y
         ;;
       Amazon)
         $loader yum install -y aws-cli
