@@ -524,3 +524,7 @@
 	path = work/ecs
 	url = git@github.com:imma/ecs
 	branch = v20170617
+[submodule "work/cryfs"]
+	path = work/cryfs
+	url = git@github.com:imma/cryfs
+	branch = v20170617
