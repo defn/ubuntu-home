@@ -109,7 +109,7 @@ beautifulhugo      ${BLOCK_PATH}/beautifulhugo      git@github.com:imma/beautifu
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          5637eed21ceb809dcd6f00251621cd32a7621bec v20170617 
 docs               ${BLOCK_PATH}/docs               git@github.com:imma/docs               2fe2a655d97fa5fbfb533d930f7b9164af52c7f9 v20170617 
 build              ${BLOCK_PATH}/build              git@github.com:imma/build              ddbd90fee698c69b2004861f5ab3120e294563a9 v20170617 
-home               ${BLOCK_PATH}/home               git@github.com:imma/home               00ecbe372545f5d0706f9f952bfe38f78e077182 v20170617 
+home               ${BLOCK_PATH}/home               git@github.com:imma/home               6c03cbc4b1221318af204b44c3ff746e7613fb3a v20170617 
 talign             ${BLOCK_PATH}/talign             git@github.com:imma/talign             fdc4b75ebc28512392abd1c865ee31d73917b1d4 v20170617 
 defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn               8380a2c7a052d5b305aec0a8444cf39b08429fa0 v20170617 
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              946e89113dfbeb27ee64d61bb6a4245126e28e28 v20170617 
