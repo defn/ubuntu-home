@@ -99,7 +99,7 @@ recycle:
 	$(make) wait-ssh
 
 docker-run:
-	docker run -d -ti -v /data:/data -v /config:/config --name $(service) $(registry)/$(image)
+	docker run -d -ti -v /data:/data --name $(service) $(registry)/$(image)
 
 wait-ssh:
 	$(service_ssh_exec) -- true 2>/dev/null || { sleep 1; $(make) wait-ssh; }
