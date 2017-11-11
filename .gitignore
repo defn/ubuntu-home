@@ -166,3 +166,4 @@ Dockerfile-kitchen*
 tmp
 tmux-client*log
 !.ssh/rc
+/secret
