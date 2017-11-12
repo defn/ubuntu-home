@@ -63,13 +63,13 @@ suites:
       script: bootstrap-aws.sh
     driver:
       name: ec2
-      image_id: ami-1d4e7a66
       interface: private_dns
-      aws_ssh_key_id: terraform-0061b86515b826cf28edd6f5c8
-      security_group_ids: [ sg-135b7c6c, sg-df587fa0, sg-aa5d5ed5 ]
-      subnet_id: subnet-e6a849bc
       associate_public_ip: true
-      iam_profile_name: adm-admin-build
+      image_id: <% ENV['FOGG_AMI'] %>
+      aws_ssh_key_id: <% ENV['FOGG_KEY_PAIR'] %>
+      security_group_ids: <% (ENV['FOGG_SG']||"").split("") %>
+      subnet_id: <% ENV['FOGG_SUBNET'] %>
+      iam_profile_name: <% ENV['FOGG_IAM_PROFILE'] %>
   - name: docker
     provisioner:
       script: bootstrap-docker.sh
@@ -81,5 +81,4 @@ suites:
       build_context: false
       volume:
         - /data:/data
-        - /config:/config
       username: ubuntu
