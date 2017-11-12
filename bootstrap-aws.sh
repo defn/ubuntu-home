@@ -127,14 +127,13 @@ function main {
   git reset --hard
   git clean -ffd
 
-  set +x
   source work/block/script/profile ~
-  make cache
-  source .bash_profile
 
-  block sync
-  source .bash_profile
-  set -x
+  block sync || block sync || block sync
+  git clean -ffd
+  git clean -ffd
+  git clean -ffd
+
   block bootstrap
   block stale
   sync
