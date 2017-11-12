@@ -133,6 +133,7 @@ function main {
   git clean -ffd
   git clean -ffd
   git clean -ffd
+  require
 
   block bootstrap
   block stale
