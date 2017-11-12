@@ -64,10 +64,14 @@ suites:
     driver:
       name: ec2
       interface: private_dns
+      instance_type: c4.large
       associate_public_ip: true
       image_id: <% ENV['FOGG_SVC_AMI'] %>
       aws_ssh_key_id: <% ENV['FOGG_SVC_SSH_KEY'] %>
-      security_group_ids: [ <% ENV['FOGG_ENV_SG'] %>, <% ENV['FOGG_APP_SG'] %>, <% ENV['FOGG_SVC_SG'] %> ]
+      security_group_ids: 
+        - <% ENV['FOGG_ENV_SG'] %>
+        - <% ENV['FOGG_APP_SG'] %>
+        - <% ENV['FOGG_SVC_SG'] %>
       subnet_id: <% (ENV['FOGG_SVC_SUBNETS']||"").split(/\s+/)[0] %>
       iam_profile_name: <% ENV['FOGG_SVC_IAM_PROFILE'] %>
   - name: docker
