@@ -12,7 +12,7 @@ ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-c
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           d82ec312c5a57aba7e747343f3f3b438ceb51338 v20170617 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               b3dc9f6cd55e6d6dd2e26991d51ff7683352b15c v20170617 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             634f0139042e032601ed0f07b5c51388a7b9dc64 v20170617 
-pyenv              ${BLOCK_PATH}/pyenv              git@github.com:imma/pyenv              67740eaf1238452e8225dc76380efc01565d241b v20170617 
+pyenv              ${BLOCK_PATH}/pyenv              git@github.com:imma/pyenv              49ad53e8867d822500f9b2c9d23a8692459e4de1 v20170617 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             42356bb5f25ae4b6a3e5ea11484574845bdcde99 v20170617 
 py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               a33988bbcea4be7e3f6f3aa017d28744a56ff6b1 v20170617 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            aeb252d1c67da5d58a3a33879ebbe632a554f68a v20170617 
@@ -23,10 +23,10 @@ htop               ${BLOCK_PATH}/htop               git@github.com:imma/htop    
 sysadmin           ${BLOCK_PATH}/sysadmin           git@github.com:imma/sysadmin           fd4d22971331137fe3f6a94a5564aaf1e9655d0d v20170617 
 make               ${BLOCK_PATH}/make               git@github.com:imma/make               7b229e23b5b715dee164d14a8c496acd54ed4cf5 v20170617 
 jqq                ${BLOCK_PATH}/jqq                git@github.com:imma/jqq                cdef4fc11a0498ca93e86637d46a814483c80465 v20170617 
-rbenv              ${BLOCK_PATH}/rbenv              git@github.com:imma/rbenv              a9e3122ab41754c91c1c643bc62a50004e760be9 v20170617 
+rbenv              ${BLOCK_PATH}/rbenv              git@github.com:imma/rbenv              566a2bc87eec93004e926beef018715247e904e0 v20170617 
 ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby               589c15c4c7368d6f3d955a45853774adc02bc989 v20170617 
 curl               ${BLOCK_PATH}/curl               git@github.com:imma/curl               d9de7d46a87aa27b7ce9b4b34a44737b29a08cc9 v20170617 
-nvm                ${BLOCK_PATH}/nvm                git@github.com:imma/nvm                37d08d0f37fc366eb2a07b0d09c39f58c9974c94 v20170617 
+nvm                ${BLOCK_PATH}/nvm                git@github.com:imma/nvm                ea5f487cc2c71b9d1a73303cde2bdd2005dceb4f v20170617 
 node               ${BLOCK_PATH}/node               git@github.com:imma/node               b18ef96aa36adc9c2096ed2b417b1fa9fd9ee729 v20170617 
 yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               c959c9d361c876b6b6d521b741befea9fcbee477 v20170617 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              6698310a0e04ae4daed8085242d6ab06812cedf2 v20170617 
@@ -34,7 +34,7 @@ py36               ${BLOCK_PATH}/py36               git@github.com:imma/py36    
 go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 fd13d429b389910dbac7ca7d03747b7be26e0395 v20170617 
 grpc               ${BLOCK_PATH}/grpc               git@github.com:imma/grpc               941faea43805e99654f3dd06588b91c7b235a7fe v20170617 
 rust               ${BLOCK_PATH}/rust               git@github.com:imma/rust               b6fbb6f27ef7acfc6fc1a320e6ffb8435f475cd2 v20170617 
-tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              3d5bf5749033c9728ada4c413d4bd7f545c2fb60 v20170617 
+tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              b792a0b7a984cece082398a448770c09f3f68794 v20170617 
 vmm                ${BLOCK_PATH}/vmm                git@github.com:imma/vmm                210942cc7e077bdbb41e923531cecc4bd08f38f7 v20170617 
 lang               ${BLOCK_PATH}/lang               git@github.com:imma/lang               049387b400264c27422eb04d6aaa6b70f3aa5148 v20170617 
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              32c12c4a9eb2a6b132c422a49aea9dabfb0639e0 v20170617 
@@ -85,7 +85,7 @@ monitor            ${BLOCK_PATH}/monitor            git@github.com:imma/monitor 
 gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                86f8d8e62e20b260db3d2c81c4b20237d8547dce v20170617 
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          fa25ecc72a3b1db01559186fd5049438fbd9037d v20170617 
 cfssl              ${BLOCK_PATH}/cfssl              git@github.com:imma/cfssl              4c6d50457b51465e1e1c98e84b0e59f234e53fae v20170617 
-getssl             ${BLOCK_PATH}/getssl             git@github.com:imma/getssl             8e968ee09a7e95aa1542a3e9aaaffccd8bd48bbb v20170617 
+getssl             ${BLOCK_PATH}/getssl             git@github.com:imma/getssl             3acd0dcc078b2f5dcaf6c78d8a00a3888690ce62 v20170617 
 cryfs              ${BLOCK_PATH}/cryfs              git@github.com:imma/cryfs              30a330d6f0b4070ceef99693891d8e9ba7e5ba53 v20170617 
 yubikey            ${BLOCK_PATH}/yubikey            git@github.com:imma/yubikey            e61eefba7e95e16643a36a88a80e26a1f6c9a9f4 v20170617 
 kmsauth            ${BLOCK_PATH}/kmsauth            git@github.com:imma/kmsauth            1d800a83f027eb8fb98b2c5a3d090982776b8e88 v20170617 
