@@ -59,12 +59,13 @@ function main {
 
     case "$DISTRIB_ID" in
       Ubuntu)
-    $loader apt-get install -y awscli
-    $loader dpkg --configure -a
-    $loader apt-get update
-    $loader apt-get install -y make python build-essential aptitude git rsync
-    $loader aptitude hold grub-legacy-ec2 docker-ce
-    $loader apt-get upgrade -y
+        $loader apt-get update
+        $loader apt-get install -y awscli
+        $loader dpkg --configure -a
+        $loader apt-get update
+        $loader apt-get install -y make python build-essential aptitude git rsync
+        $loader aptitude hold grub-legacy-ec2 docker-ce
+        $loader apt-get upgrade -y
         ;;
       Amazon)
         $loader yum install -y aws-cli

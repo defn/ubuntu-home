@@ -55,6 +55,7 @@ function main {
 
     case "$DISTRIB_ID" in
       Ubuntu)
+        $loader apt-get update
         $loader apt-get install -y awscli
         $loader dpkg --configure -a
         $loader apt-get update
