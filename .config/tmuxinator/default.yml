@@ -1,0 +1,11 @@
+name: default
+root: ~/
+
+windows:
+  - meh1: uname -a
+  - meh2: uname -a
+  - chat:
+      layout: main-vertical
+      panes:
+        - irssi
+        - uname -a
