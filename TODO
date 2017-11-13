@@ -56,3 +56,25 @@ Host adm3.bastion
   Hostname 172.28.70.76
   StrictHostKeyChecking yes
   UserKnownHostsFile ~/.ssh/known_hosts.bastion
+export NOSUDO=echo
+export DATA="$HOME/data"
+
+git clone git@github.com:imma/ubuntu 
+mv ubuntu/.git .
+rm -rf ubuntu
+git reset --hard
+git checkout v20170617
+
+git submodule update --init
+for a in ~/work/*/; do (cd $a && git checkout v20170617); done
+
+cd ~/work/ubuntu-config
+source script/profile 
+cd ~/work/block
+script/cibuild
+source script/profile 
+require
+
+cd
+make cache
+exec bash
