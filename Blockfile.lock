@@ -1,4 +1,4 @@
-site               ${BLOCK_PATH}/site               git@github.com:imma/site               368e9a036a87e98b8f775b131ab657a3d9366d10 v20170617 
+site               ${BLOCK_PATH}/site               git@github.com:imma/site               91d39ce1c6c6ab14a2c82c813dcb727e5d11cba8 v20170617 
 jq                 ${BLOCK_PATH}/jq                 git@github.com:imma/jq                 e2484892c3f73aa8f0b60ae2b2a84cda494b0bc6 v20170617 
 shflags            ${BLOCK_PATH}/shflags            git@github.com:imma/shflags            a05166fedaf8481d2ff856591f4f50257d12521b v20170617 
 normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normalize          ca938498f15fe070268e89b5ec405bdef58308b4 v20170617 
