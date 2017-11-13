@@ -125,14 +125,14 @@ function main {
   git reset --hard
   git clean -ffd
 
+  set +x
   source work/block/script/profile ~
+  make cache
+  source .bash_profile
 
-  block sync || block sync || block sync
-  git clean -ffd
-  git clean -ffd
-  git clean -ffd
-  require
-
+  block sync
+  source .bash_profile
+  set -x
   block bootstrap
   block stale
   sync
@@ -146,6 +146,7 @@ case "$(id -u -n)" in
     # Created by cloud-init v. 0.7.9 on Fri, 21 Jul 2017 08:42:58 +0000
     # User rules for ubuntu
     ubuntu ALL=(ALL) NOPASSWD:ALL
+    vagrant ALL=(ALL) NOPASSWD:ALL
 ____EOF
 
     found_vagrant=
@@ -154,7 +155,7 @@ ____EOF
 
     if ! id -u -n ubuntu; then
       groupadd -g 1000 ubuntu
-      useradd -u 1000 -d /home/ubuntu -m -s /bin/bash -p '*' ubuntu
+        useradd -g ubuntu -u 1000 -d /home/ubuntu -m -s /bin/bash -p '*' ubuntu
     fi
 
     chown -R ubuntu:ubuntu ~ubuntu
