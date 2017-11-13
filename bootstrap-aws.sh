@@ -9,7 +9,7 @@ function main {
   local url_remote="https://github.com/imma/ubuntu"
 
   if [[ "$(id -u ubuntu 2>/dev/null || true)" != 1000 ]]; then
-    exec sudo env "PATH=/usr/sbin:$PATH" SSH_AUTH_SOCK="$SSH_AUTH_SOCK" bash -c 'set -x; userdel ubuntu; groupadd -g 1000 ubuntu; useradd -u 1000 -g ubuntu -d /home/ubuntu -m -s /bin/bash -p "*" ubuntu; chown -R ubuntu:ubuntu /home/ubuntu /tmp/kitchen; id -a ubuntu; chmod 666 "$SSH_AUTH_SOCK"; sudo -u ubuntu env SSH_AUTH_SOCK="$SSH_AUTH_SOCK" "$0" "$@"' "$0" "$@"
+    exec sudo env "PATH=/usr/sbin:$PATH" SSH_AUTH_SOCK="$SSH_AUTH_SOCK" bash -c 'set -x; userdel ubuntu; mv /home/ubuntu /home/ubuntu.old; groupadd -g 1000 ubuntu; useradd -u 1000 -g ubuntu -d /home/ubuntu -m -s /bin/bash -p "*" ubuntu; cp -r /home/ubuntu.old/. /home/ubuntu/.; chown -R ubuntu:ubuntu /home/ubuntu /tmp/kitchen; id -a ubuntu; sudo -u ubuntu env SSH_AUTH_SOCK="$SSH_AUTH_SOCK" "$0" "$@"' "$0" "$@"
     return 1
   fi
 

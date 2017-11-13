@@ -39,21 +39,21 @@ platforms:
 suites:
   - name: virtualbox
     provisioner:
-      script: bootstrap-vagrant.sh
+      script: bootstrap-generic.sh
     driver:
       provider: virtualbox
     excludes:
       - amazonlinux
   - name: vmware
     provisioner:
-      script: bootstrap-vagrant.sh
+      script: bootstrap-generic.sh
     driver:
       provider: vmware_fusion
     excludes:
       - amazonlinux
   - name: parallels
     provisioner:
-      script: bootstrap-vagrant.sh
+      script: bootstrap-generic.sh
     driver:
       provider: parallels
     excludes:
@@ -75,7 +75,7 @@ suites:
       iam_profile_name: <%= ENV['FOGG_SVC_IAM_PROFILE'] %>
   - name: docker
     provisioner:
-      script: bootstrap-docker.sh
+      script: bootstrap-generic.sh
     driver:
       name: docker
       require_chef_omnibus: false
