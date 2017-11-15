@@ -3,7 +3,7 @@ jq                 ${BLOCK_PATH}/jq                 git@github.com:imma/jq      
 shflags            ${BLOCK_PATH}/shflags            git@github.com:imma/shflags            a05166fedaf8481d2ff856591f4f50257d12521b v20170617 
 normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normalize          ca938498f15fe070268e89b5ec405bdef58308b4 v20170617 
 bash-preexec       ${BLOCK_PATH}/bash-preexec       git@github.com:imma/bash-preexec       8658d4be458078d00b65cb5f34c6e79d27fd6c4e v20170617 
-sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub                7cf2c02e77f0555104b92b383f3634d503d38a79 v20170617 
+sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub                340e8ca35ce85b41975e5ff0e2ee0f5effba56f0 v20170617 
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            accaecc59f399d48a4c41bd45660d692223724ef v20170617 
 block              ${BLOCK_PATH}/block              git@github.com:imma/block              50d69d1eb040b15b9da5ebdf48b2c61012ddef1f v20170617 
 instance           ${BLOCK_PATH}/instance           git@github.com:imma/instance           7f7d726ab81f7ebcc0eb3b65d78052fa9973dc59 v20170617 
@@ -102,7 +102,7 @@ inception          ${BLOCK_PATH}/inception          git@github.com:imma/inceptio
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          dd1059623a11b295322ad8e9d6a10b13abb25871 v20170617 
 wtf                ${BLOCK_PATH}/wtf                git@github.com:imma/wtf                ce82579491b6d72e48f164d3dd3143785b047641 v20170617 
 fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           efceaaef0beb2b0e4471fa334bbce227e0eaa034 v20170617 
-fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               ca00c72cf19b85240632458970390feb73801dd8 v20170617 
+fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               8871901f9ed6f294065af53fa04a6e6e958b3129 v20170617 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               3d7baf26ac212c95b3e02bc32a4aa6f592f3504d v20170617 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 4ca7bc271f76df5211eaa646626931e92bde285e v20170617 
 beautifulhugo      ${BLOCK_PATH}/beautifulhugo      git@github.com:imma/beautifulhugo      86a11793042f4f4d1b79bdeee85fc556f1888e67 v20170617 
