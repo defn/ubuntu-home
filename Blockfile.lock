@@ -3,7 +3,7 @@ jq                 ${BLOCK_PATH}/jq                 git@github.com:imma/jq      
 shflags            ${BLOCK_PATH}/shflags            git@github.com:imma/shflags            a05166fedaf8481d2ff856591f4f50257d12521b v20170617 
 normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normalize          ca938498f15fe070268e89b5ec405bdef58308b4 v20170617 
 bash-preexec       ${BLOCK_PATH}/bash-preexec       git@github.com:imma/bash-preexec       8658d4be458078d00b65cb5f34c6e79d27fd6c4e v20170617 
-sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub                340e8ca35ce85b41975e5ff0e2ee0f5effba56f0 v20170617 
+sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub                341647ea04276f2aaedd4678b43c8e238e88ecee v20170617 
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            accaecc59f399d48a4c41bd45660d692223724ef v20170617 
 block              ${BLOCK_PATH}/block              git@github.com:imma/block              50d69d1eb040b15b9da5ebdf48b2c61012ddef1f v20170617 
 instance           ${BLOCK_PATH}/instance           git@github.com:imma/instance           7f7d726ab81f7ebcc0eb3b65d78052fa9973dc59 v20170617 
