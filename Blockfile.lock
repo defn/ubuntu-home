@@ -1,4 +1,4 @@
-site               ${BLOCK_PATH}/site               git@github.com:imma/site               368e9a036a87e98b8f775b131ab657a3d9366d10 v20170617 
+site               ${BLOCK_PATH}/site               git@github.com:imma/site               91d39ce1c6c6ab14a2c82c813dcb727e5d11cba8 v20170617 
 jq                 ${BLOCK_PATH}/jq                 git@github.com:imma/jq                 e2484892c3f73aa8f0b60ae2b2a84cda494b0bc6 v20170617 
 shflags            ${BLOCK_PATH}/shflags            git@github.com:imma/shflags            a05166fedaf8481d2ff856591f4f50257d12521b v20170617 
 normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normalize          ca938498f15fe070268e89b5ec405bdef58308b4 v20170617 
@@ -24,7 +24,7 @@ sysadmin           ${BLOCK_PATH}/sysadmin           git@github.com:imma/sysadmin
 make               ${BLOCK_PATH}/make               git@github.com:imma/make               b8d7809048005955e97f22bcc7a3a84dacc84172 v20170617 
 jqq                ${BLOCK_PATH}/jqq                git@github.com:imma/jqq                cdef4fc11a0498ca93e86637d46a814483c80465 v20170617 
 rbenv              ${BLOCK_PATH}/rbenv              git@github.com:imma/rbenv              566a2bc87eec93004e926beef018715247e904e0 v20170617 
-ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby               589c15c4c7368d6f3d955a45853774adc02bc989 v20170617 
+ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby               e0c954ef849db51218eb82739e264eb5eea49a54 v20170617 
 curl               ${BLOCK_PATH}/curl               git@github.com:imma/curl               d9de7d46a87aa27b7ce9b4b34a44737b29a08cc9 v20170617 
 nvm                ${BLOCK_PATH}/nvm                git@github.com:imma/nvm                662146c0d5f7ea34c9b0022adc65a8aa30187c4a v20170617 
 node               ${BLOCK_PATH}/node               git@github.com:imma/node               b18ef96aa36adc9c2096ed2b417b1fa9fd9ee729 v20170617 
@@ -69,7 +69,7 @@ cicd               ${BLOCK_PATH}/cicd               git@github.com:imma/cicd    
 aws-vault          ${BLOCK_PATH}/aws-vault          git@github.com:imma/aws-vault          e87c79546f2f4381dddd71804cab3ea5c76472eb v20170617 
 chamber            ${BLOCK_PATH}/chamber            git@github.com:imma/chamber            9ec067e055fc0710742afc6947b89b71042fa052 v20170617 
 awless             ${BLOCK_PATH}/awless             git@github.com:imma/awless             8135de3aa3765baedc09fdee0a518e56795ad137 v20170617 
-credstash          ${BLOCK_PATH}/credstash          git@github.com:imma/credstash          f8fc65af347a236a278a14748b25f17d5c2d90f7 v20170617 
+credstash          ${BLOCK_PATH}/credstash          git@github.com:imma/credstash          a5351c7533d39e10c7b08e1fec46d71d34ed3356 v20170617 
 aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                3cc3d9d19510e1292333846c0315ee17d7bc4d0a v20170617 
 awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            0a4bc259826315c410b6c32ea1841f6c7005f908 v20170617 
 packet             ${BLOCK_PATH}/packet             git@github.com:imma/packet             1d0da8288db173e5a4aa5b1348b82397a4a75274 v20170617 
