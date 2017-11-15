@@ -3,7 +3,7 @@ jq                 ${BLOCK_PATH}/jq                 git@github.com:imma/jq      
 shflags            ${BLOCK_PATH}/shflags            git@github.com:imma/shflags            a05166fedaf8481d2ff856591f4f50257d12521b v20170617 
 normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normalize          ca938498f15fe070268e89b5ec405bdef58308b4 v20170617 
 bash-preexec       ${BLOCK_PATH}/bash-preexec       git@github.com:imma/bash-preexec       8658d4be458078d00b65cb5f34c6e79d27fd6c4e v20170617 
-sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub                341647ea04276f2aaedd4678b43c8e238e88ecee v20170617 
+sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub                965ea7814819ca8c9c679c083c34e5d63e240719 v20170617 
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            accaecc59f399d48a4c41bd45660d692223724ef v20170617 
 block              ${BLOCK_PATH}/block              git@github.com:imma/block              50d69d1eb040b15b9da5ebdf48b2c61012ddef1f v20170617 
 instance           ${BLOCK_PATH}/instance           git@github.com:imma/instance           7f7d726ab81f7ebcc0eb3b65d78052fa9973dc59 v20170617 
@@ -22,7 +22,7 @@ deploy             ${BLOCK_PATH}/deploy             git@github.com:imma/deploy  
 htop               ${BLOCK_PATH}/htop               git@github.com:imma/htop               cf92384d5a503fac1e5bb9d96a9eb298190eb11a v20170617 
 sysadmin           ${BLOCK_PATH}/sysadmin           git@github.com:imma/sysadmin           fd4d22971331137fe3f6a94a5564aaf1e9655d0d v20170617 
 make               ${BLOCK_PATH}/make               git@github.com:imma/make               b8d7809048005955e97f22bcc7a3a84dacc84172 v20170617 
-jqq                ${BLOCK_PATH}/jqq                git@github.com:imma/jqq                cdef4fc11a0498ca93e86637d46a814483c80465 v20170617 
+jqq                ${BLOCK_PATH}/jqq                git@github.com:imma/jqq                755cb7e0ea6229d341d8cc153d321c37c39f4c98 v20170617 
 rbenv              ${BLOCK_PATH}/rbenv              git@github.com:imma/rbenv              566a2bc87eec93004e926beef018715247e904e0 v20170617 
 ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby               e0c954ef849db51218eb82739e264eb5eea49a54 v20170617 
 curl               ${BLOCK_PATH}/curl               git@github.com:imma/curl               d9de7d46a87aa27b7ce9b4b34a44737b29a08cc9 v20170617 
