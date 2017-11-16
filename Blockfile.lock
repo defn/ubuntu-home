@@ -11,7 +11,7 @@ base               ${BLOCK_PATH}/base               git@github.com:imma/base    
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      a473e85695635a2a281f11e60a30ac7587b24a93 v20170617 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           d82ec312c5a57aba7e747343f3f3b438ceb51338 v20170617 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               b3dc9f6cd55e6d6dd2e26991d51ff7683352b15c v20170617 
-pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             634f0139042e032601ed0f07b5c51388a7b9dc64 v20170617 
+pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             688309a0ede4387f7c79f312dd3bf86ef4e7a761 v20170617 
 pyenv              ${BLOCK_PATH}/pyenv              git@github.com:imma/pyenv              49ad53e8867d822500f9b2c9d23a8692459e4de1 v20170617 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             42356bb5f25ae4b6a3e5ea11484574845bdcde99 v20170617 
 py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               a33988bbcea4be7e3f6f3aa017d28744a56ff6b1 v20170617 
@@ -61,7 +61,7 @@ postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgres
 jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins            7fc869e130d8a85c73f3b96070f440d7bcff93ce v20170617 
 drone              ${BLOCK_PATH}/drone              git@github.com:imma/drone              4dbe022405ff00bb1028ca25094c47df9649c4e7 v20170617 
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         4571a4b6db51629504275c786a47fe849533cdce v20170617 
-git                ${BLOCK_PATH}/git                git@github.com:imma/git                a2396bf0d323b17f34bdcc30af5160816cf9d7e0 v20170617 
+git                ${BLOCK_PATH}/git                git@github.com:imma/git                a89862c51112dbcc727568c2eb828d7f32d85e54 v20170617 
 github             ${BLOCK_PATH}/github             git@github.com:imma/github             a0bcf69caed92ad67ba318f8b61a9fd7da90ef92 v20170617 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             2e8d04a31bd1c433d3917be886e4075b095b5dbe v20170617 
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            38ee0a3c3c67b0585bae124ea1b0942a9e680b0e v20170617 
@@ -129,5 +129,5 @@ se                 ${BLOCK_PATH}/se                 git@github.com:imma/se      
 haihero            ${BLOCK_PATH}/haihero            git@github.com:imma/haihero            1678e309499d300e72d55cd1837e7f63ff676790 v20170617 
 gotty              ${BLOCK_PATH}/gotty              git@github.com:imma/gotty              a6fad2b1562124e0869480734f14a2e0a8adf99a v20170617 
 cookiecutter       ${BLOCK_PATH}/cookiecutter       git@github.com:imma/cookiecutter       26eb5f557ecebf9e06bda0c1e6e042c89b3488fb v20170617 
-fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            425844cad5e4f443e737c1cab536c95840b34e49 v20170617 
+fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            9b1e1875a4b0ffee5aeaeb9921e6f9d8109cb6d3 v20170617 
 imma-tf            ${BLOCK_PATH}/imma-tf            git@github.com:imma/imma-tf            31ba262d88959a863a088b45219ec33fc6964aa1 v20170617 
