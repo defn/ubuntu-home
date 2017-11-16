@@ -79,9 +79,13 @@ cd
 make cache
 exec bash
 
+echo 1 rt2 >>  /etc/iproute2/rt_tables
+
 ip route add 172.19.201.32/28 dev eth0 src 172.19.201.39 table rt2
 ip route add default via 172.19.201.33 dev eth0 table rt2
+
 ip rule add from 172.19.201.39/32 table rt2
 ip rule add to 172.19.201.39/32 table rt2
+
 ip route del default via 172.19.201.33
 
