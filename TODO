@@ -79,13 +79,20 @@ cd
 make cache
 exec bash
 
+$ cat /sbin/ifup-local
+#!/usr/bin/env bash
+
+if [[ "$1" != "eth1" ]]; then exit 0; fi
+
 echo 1 rt2 >>  /etc/iproute2/rt_tables
 
-ip route add 172.19.201.32/28 dev eth0 src 172.19.201.39 table rt2
-ip route add default via 172.19.201.33 dev eth0 table rt2
+ip route add ${SUBNET_CIDR} dev eth0 src ${IP_ADDRESS} table rt2
+ip route add default via ${IP_GATEWAY} dev eth0 table rt2
 
-ip rule add from 172.19.201.39/32 table rt2
-ip rule add to 172.19.201.39/32 table rt2
+ip rule add from ${IP_ADDRESS}/32 table rt2
+ip rule add to ${IP_ADDRESS}/32 table rt2
 
-ip route del default via 172.19.201.33
+ip route del default via ${IP_GATEWAY}
 
+iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE
+iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE
