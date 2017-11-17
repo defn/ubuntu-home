@@ -9,12 +9,12 @@
             "os_name": "posix",
             "platform_machine": "x86_64",
             "platform_python_implementation": "CPython",
-            "platform_release": "16.7.0",
-            "platform_system": "Darwin",
-            "platform_version": "Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64",
+            "platform_release": "4.4.0-1039-aws",
+            "platform_system": "Linux",
+            "platform_version": "#48-Ubuntu SMP Wed Oct 11 15:15:01 UTC 2017",
             "python_full_version": "3.6.3",
             "python_version": "3.6",
-            "sys_platform": "darwin"
+            "sys_platform": "linux"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -29,17 +29,17 @@
     "default": {
         "awscli": {
             "hashes": [
-                "sha256:1dc2e6a8919705c0789cc0720551bd6dd9c1c31715529da8e0bf6c4cab6dd4b7",
-                "sha256:50912de94c5ba8c37cc3d1ddc271260cbb016aad4fe009c9378528aa0d9d3aa3"
+                "sha256:af216fcebc609cf265fb7d76264d802c012dbea843ed45277f71c44424949326",
+                "sha256:3b1c9769b44104d1f9eaac92b98096436435e696494118167507a8120ef8f39b"
             ],
-            "version": "==1.11.185"
+            "version": "==1.11.188"
         },
         "botocore": {
             "hashes": [
-                "sha256:ab01d3c3965ccbc20c170055c7584adeab80273928a409e47833e6d7d1cbc4a7",
-                "sha256:4cfb8be5e49e9504c0cffa4438895ebba986552d4c9617e2d909b633f591de73"
+                "sha256:9b95f5216c78592d3e361db64dd4608452869bc05b683f560cc65bb05203bb50",
+                "sha256:cfc8767253b0da52df8a64a577d735485106e28e73aa64f3ef9bbb6f6444f737"
             ],
-            "version": "==1.7.43"
+            "version": "==1.7.46"
         },
         "colorama": {
             "hashes": [
