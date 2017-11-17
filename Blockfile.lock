@@ -93,7 +93,8 @@ easy-rsa           ${BLOCK_PATH}/easy-rsa           git@github.com:imma/easy-rsa
 openvpn            ${BLOCK_PATH}/openvpn            git@github.com:imma/openvpn            4f75a50d417e692ccdfe9397f3d57be872732609 v20170617 
 zerotier           ${BLOCK_PATH}/zerotier           git@github.com:imma/zerotier           be50eebd4264ad82c8d15cb5b36bf8bfa2136696 v20170617 
 ipfs               ${BLOCK_PATH}/ipfs               git@github.com:imma/ipfs               dc590ee28db128cbc6316bbe59176fdf96029e43 v20170617 
-crypto             ${BLOCK_PATH}/crypto             git@github.com:imma/crypto             ea65b39da6d8b5029a12a395e0de7168efd6b39d v20170617 
+vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault              c7835f697001feb66ef98e5d2f9cbe40bb80cb2c v20170617 
+crypto             ${BLOCK_PATH}/crypto             git@github.com:imma/crypto             bb288745c83fed2a8739e581cfad4d6230e30183 v20170617 
 packer             ${BLOCK_PATH}/packer             git@github.com:imma/packer             e5f160079537ace6b2354cfb96dbe2a4ddabc147 v20170617 
 dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream              0bc2b553288b8e3a64a5498b73094fd2bcdb4c6d v20170617 
 vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            513eab632ff887bda779bd172e30ff76feebc47b v20170617 
