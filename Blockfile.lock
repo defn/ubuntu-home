@@ -103,7 +103,7 @@ inception          ${BLOCK_PATH}/inception          git@github.com:imma/inceptio
 terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terraform          dd1059623a11b295322ad8e9d6a10b13abb25871 v20170617 
 wtf                ${BLOCK_PATH}/wtf                git@github.com:imma/wtf                ce82579491b6d72e48f164d3dd3143785b047641 v20170617 
 fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           efceaaef0beb2b0e4471fa334bbce227e0eaa034 v20170617 
-fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               21799952b8809380b9870375b5c84d57c1c9489e v20170617 
+fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               2dbbbe44b175ab8026a6a73b00d20e7f96105073 v20170617 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               3d7baf26ac212c95b3e02bc32a4aa6f592f3504d v20170617 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 4ca7bc271f76df5211eaa646626931e92bde285e v20170617 
 beautifulhugo      ${BLOCK_PATH}/beautifulhugo      git@github.com:imma/beautifulhugo      86a11793042f4f4d1b79bdeee85fc556f1888e67 v20170617 
@@ -130,5 +130,5 @@ se                 ${BLOCK_PATH}/se                 git@github.com:imma/se      
 haihero            ${BLOCK_PATH}/haihero            git@github.com:imma/haihero            1678e309499d300e72d55cd1837e7f63ff676790 v20170617 
 gotty              ${BLOCK_PATH}/gotty              git@github.com:imma/gotty              a6fad2b1562124e0869480734f14a2e0a8adf99a v20170617 
 cookiecutter       ${BLOCK_PATH}/cookiecutter       git@github.com:imma/cookiecutter       26eb5f557ecebf9e06bda0c1e6e042c89b3488fb v20170617 
-fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            7e9c756f3fb76a49725f859ef73de7dae6093b3b v20170617 
+fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            0aa3d88e0a222019830a9cb55a93a44a81505526 v20170617 
 imma-tf            ${BLOCK_PATH}/imma-tf            git@github.com:imma/imma-tf            29ee8093764980c2032a97581c44abbda88425c9 v20170617 
