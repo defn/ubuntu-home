@@ -118,7 +118,7 @@ irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi   
 bitlbee            ${BLOCK_PATH}/bitlbee            git@github.com:imma/bitlbee            ca15ce92909cd07c10893ac53181840d7900a5a5 v20170617 
 chat               ${BLOCK_PATH}/chat               git@github.com:imma/chat               9a1eb09590088e4d3e6a1a62c18ca31f45afd490 v20170617 
 cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue                c7c1d2687daaf8765cf2a1d86b6392513042df14 v20170617 
-tmux               ${BLOCK_PATH}/tmux               git@github.com:imma/tmux               0445de6981d123b560c715bc49448e5766b05211 v20170617 
+tmux               ${BLOCK_PATH}/tmux               git@github.com:imma/tmux               ad56dc38b850d9f137919e4362d1f163037b638c v20170617 
 example            ${BLOCK_PATH}/example            git@github.com:imma/example            580f6f9d333e36657fd7f90cee7c6d61e9108c36 v20170617 
 nothing            ${BLOCK_PATH}/nothing            git@github.com:imma/nothing            1f27fe2f0afd06bb09bd9f1c79cfc2dc687daff4 v20170617 
 app                ${BLOCK_PATH}/app                git@github.com:imma/app                47ab136a9a390857a8f141fe7e7d2638db62026e v20170617 
@@ -130,5 +130,5 @@ se                 ${BLOCK_PATH}/se                 git@github.com:imma/se      
 haihero            ${BLOCK_PATH}/haihero            git@github.com:imma/haihero            1678e309499d300e72d55cd1837e7f63ff676790 v20170617 
 gotty              ${BLOCK_PATH}/gotty              git@github.com:imma/gotty              a6fad2b1562124e0869480734f14a2e0a8adf99a v20170617 
 cookiecutter       ${BLOCK_PATH}/cookiecutter       git@github.com:imma/cookiecutter       26eb5f557ecebf9e06bda0c1e6e042c89b3488fb v20170617 
-fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            38efaccaba1f504f804aba431fdeff90d7602496 v20170617 
+fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            879a1a146dcb4d67a17883963b7506fd8ee43620 v20170617 
 imma-tf            ${BLOCK_PATH}/imma-tf            git@github.com:imma/imma-tf            29ee8093764980c2032a97581c44abbda88425c9 v20170617 
