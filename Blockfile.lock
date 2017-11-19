@@ -85,7 +85,7 @@ monitor            ${BLOCK_PATH}/monitor            git@github.com:imma/monitor 
 gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                86f8d8e62e20b260db3d2c81c4b20237d8547dce v20170617 
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          fa25ecc72a3b1db01559186fd5049438fbd9037d v20170617 
 cfssl              ${BLOCK_PATH}/cfssl              git@github.com:imma/cfssl              4c6d50457b51465e1e1c98e84b0e59f234e53fae v20170617 
-getssl             ${BLOCK_PATH}/getssl             git@github.com:imma/getssl             2df91e221dc5f48bae30fa0b758fedc3b4b53212 v20170617 
+getssl             ${BLOCK_PATH}/getssl             git@github.com:imma/getssl             8f065a1047da536672c3dcdc0cb4d600bb29298c v20170617 
 cryfs              ${BLOCK_PATH}/cryfs              git@github.com:imma/cryfs              330f61df608a7ebbed9c14b0b46ecc7c75058539 v20170617 
 yubikey            ${BLOCK_PATH}/yubikey            git@github.com:imma/yubikey            e61eefba7e95e16643a36a88a80e26a1f6c9a9f4 v20170617 
 kmsauth            ${BLOCK_PATH}/kmsauth            git@github.com:imma/kmsauth            a8cd1881ec955a1fe928b79db3ee3966f8dac3d7 v20170617 
