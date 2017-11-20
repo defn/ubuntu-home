@@ -37,6 +37,13 @@ platforms:
       platform: rhel
 
 suites:
+  - name: localhost
+    driver:
+      name: ssh
+      hostname: localhost
+      port: 22
+      username: ubuntu
+      use_sudo: false
   - name: virtualbox
     provisioner:
       script: bootstrap.sh
