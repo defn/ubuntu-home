@@ -4,11 +4,13 @@ set -exfu
 umask 0022
 
 function main {
+  cd "$HOME"
+  source .bash_profile
+
   env
   pwd
   id -a
-  block sync
-  source .bash_profile
+
   set -x
   block bootstrap
   block stale

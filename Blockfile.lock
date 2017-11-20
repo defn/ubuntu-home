@@ -91,7 +91,7 @@ yubikey            ${BLOCK_PATH}/yubikey            git@github.com:imma/yubikey 
 kmsauth            ${BLOCK_PATH}/kmsauth            git@github.com:imma/kmsauth            a8cd1881ec955a1fe928b79db3ee3966f8dac3d7 v20170617 
 easy-rsa           ${BLOCK_PATH}/easy-rsa           git@github.com:imma/easy-rsa           7e8ffd9f5b3c5bc7ee91ff50629f2668dea1b9b1 v20170617 
 openvpn            ${BLOCK_PATH}/openvpn            git@github.com:imma/openvpn            4f75a50d417e692ccdfe9397f3d57be872732609 v20170617 
-zerotier           ${BLOCK_PATH}/zerotier           git@github.com:imma/zerotier           be50eebd4264ad82c8d15cb5b36bf8bfa2136696 v20170617 
+zerotier           ${BLOCK_PATH}/zerotier           git@github.com:imma/zerotier           2335abb80faee7160b3a0b6cf7f094464ba03c41 v20170617 
 ipfs               ${BLOCK_PATH}/ipfs               git@github.com:imma/ipfs               dc590ee28db128cbc6316bbe59176fdf96029e43 v20170617 
 vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault              c7835f697001feb66ef98e5d2f9cbe40bb80cb2c v20170617 
 crypto             ${BLOCK_PATH}/crypto             git@github.com:imma/crypto             bb288745c83fed2a8739e581cfad4d6230e30183 v20170617 

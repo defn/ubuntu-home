@@ -38,6 +38,8 @@ platforms:
 
 suites:
   - name: localhost
+    provisioner:
+      script: bootstrap-localhost.sh
     driver:
       name: ssh
       hostname: localhost
