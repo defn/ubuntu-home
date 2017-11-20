@@ -39,28 +39,28 @@ platforms:
 suites:
   - name: virtualbox
     provisioner:
-      script: bootstrap-generic.sh
+      script: bootstrap.sh
     driver:
       provider: virtualbox
     excludes:
       - amazonlinux
   - name: vmware
     provisioner:
-      script: bootstrap-generic.sh
+      script: bootstrap.sh
     driver:
       provider: vmware_fusion
     excludes:
       - amazonlinux
   - name: parallels
     provisioner:
-      script: bootstrap-generic.sh
+      script: bootstrap.sh
     driver:
       provider: parallels
     excludes:
       - amazonlinux
   - name: aws
     provisioner:
-      script: bootstrap-aws.sh
+      script: bootstrap.sh
     driver:
       name: ec2
       interface: private_dns
@@ -75,7 +75,7 @@ suites:
       iam_profile_name: <%= ENV['FOGG_SVC_IAM_PROFILE'] %>
   - name: docker
     provisioner:
-      script: bootstrap-generic.sh
+      script: bootstrap.sh
     driver:
       name: docker
       require_chef_omnibus: false

@@ -132,6 +132,7 @@ function main {
   set -x
   block bootstrap
   block stale
+  pkg update list
   sync
 }
 
