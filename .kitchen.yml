@@ -82,7 +82,7 @@ suites:
         - <%= ENV['FOGG_SVC_SG'] %>
       subnet_id: <%= (ENV['FOGG_SVC_SUBNETS']||"").split(/\s+/)[0] %>
       iam_profile_name: <%= ENV['FOGG_SVC_IAM_PROFILE'] %>
-      user_data: "mkdir -p /data; apt-get install -y nfs-common || true; mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 efs.<%= ENV['FOGG_ENV'] %>.immanent.io:/ /data"
+      user_data: "#!/bin/bash\nmkdir -p /data\napt-get install -y nfs-common\nmount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 efs.<%= ENV['FOGG_ENV'] %>.immanent.io:/ /data\n"
   - name: docker
     provisioner:
       script: bootstrap.sh
