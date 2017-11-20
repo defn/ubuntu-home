@@ -11,7 +11,7 @@ base               ${BLOCK_PATH}/base               git@github.com:imma/base    
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      a473e85695635a2a281f11e60a30ac7587b24a93 v20170617 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           d82ec312c5a57aba7e747343f3f3b438ceb51338 v20170617 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               b3dc9f6cd55e6d6dd2e26991d51ff7683352b15c v20170617 
-pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             646f290e19d22cd1271d59740a8386c6f2632641 v20170617 
+pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             5285b5ea1e2a1ba135ad4821e10dee669c73a21b v20170617 
 pyenv              ${BLOCK_PATH}/pyenv              git@github.com:imma/pyenv              49ad53e8867d822500f9b2c9d23a8692459e4de1 v20170617 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             42356bb5f25ae4b6a3e5ea11484574845bdcde99 v20170617 
 py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               a33988bbcea4be7e3f6f3aa017d28744a56ff6b1 v20170617 
