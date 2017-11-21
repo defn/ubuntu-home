@@ -73,6 +73,7 @@ suites:
     driver:
       name: ec2
       interface: private_dns
+      spot_price: <%= ENV['FOGG_SPOT_PRICE'] || '0.01' %>
       instance_type: <%= ENV['FOGG_INSTANCE_TYPE'] || 't2.nano' %>
       associate_public_ip: false
       aws_ssh_key_id: <%= ENV['FOGG_SVC_SSH_KEY'] %>
