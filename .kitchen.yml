@@ -74,7 +74,7 @@ suites:
       name: ec2
       interface: private_dns
       instance_type: <%= ENV['FOGG_INSTANCE_TYPE'] || 't2.nano' %>
-      associate_public_ip: true
+      associate_public_ip: false
       aws_ssh_key_id: <%= ENV['FOGG_SVC_SSH_KEY'] %>
       security_group_ids: 
         - <%= ENV['FOGG_ENV_SG'] %>
