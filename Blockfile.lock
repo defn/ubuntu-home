@@ -70,7 +70,7 @@ aws-vault          ${BLOCK_PATH}/aws-vault          git@github.com:imma/aws-vaul
 chamber            ${BLOCK_PATH}/chamber            git@github.com:imma/chamber            9ec067e055fc0710742afc6947b89b71042fa052 v20170617 
 awless             ${BLOCK_PATH}/awless             git@github.com:imma/awless             8135de3aa3765baedc09fdee0a518e56795ad137 v20170617 
 credstash          ${BLOCK_PATH}/credstash          git@github.com:imma/credstash          a5351c7533d39e10c7b08e1fec46d71d34ed3356 v20170617 
-aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                1ce212c7123f9220d86fbfc277652fc65a45ee15 v20170617 
+aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                5f27e0e8569e1c5ac5d8917396a3eb409d32d8e4 v20170617 
 awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            c54afa804e55897954d2484b82de01763e2df4ab v20170617 
 packet             ${BLOCK_PATH}/packet             git@github.com:imma/packet             1d0da8288db173e5a4aa5b1348b82397a4a75274 v20170617 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       dedf3d3f950896f738e035017ab554a05f07985e v20170617 
