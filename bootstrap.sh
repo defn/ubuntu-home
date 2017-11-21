@@ -55,6 +55,21 @@ function main {
 
     case "$DISTRIB_ID" in
       Ubuntu)
+        tail -f /var/log/cloud-init-output.log || true &
+
+        set +x
+        while true; do
+          case "$(systemctl is-active cloud-final.service)" in
+            active|failed)
+                pkill tail || true
+                wait
+                break
+              ;;
+          esac
+          sleep 1
+        done
+        set -x
+
         $loader apt-get update
         $loader apt-get install -y awscli
         $loader dpkg --configure -a
