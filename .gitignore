@@ -168,3 +168,4 @@ tmux-client*log
 !.ssh/rc
 /secret
 /pkgsrc*
+*secret*
