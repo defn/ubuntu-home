@@ -38,6 +38,9 @@ function main {
   case "$DISTRIB_ID" in
     Ubuntu)
       local loader='sudo env DEBIAN_FRONTEND=noninteractive'
+      $loader mv /var/cache/apt/archives /var/cache/apt/archives.old || true
+      $loader ln -s /data/cache/apt /var/cache/apt/archives
+      $loader mkdir -p /var/cache/apt/archives/partial
       ;;
     *)
       local loader='sudo env'
@@ -149,6 +152,14 @@ function main {
   source .bash_profile
   set -x
   block bootstrap
+
+  case "${DISTRIB_ID}" in
+    Ubuntu)
+      $loader rm -rf /var/cache/apt/archives
+      $loader mkdir -p /var/cache/apt/archives/partial
+      ;;
+  esac
+
   block stale
   pkg update list
   sync
