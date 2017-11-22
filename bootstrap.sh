@@ -65,6 +65,9 @@ function main {
                 wait
                 break
               ;;
+            "")
+              break
+              ;;
           esac
           sleep 1
         done
