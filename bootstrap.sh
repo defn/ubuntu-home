@@ -157,6 +157,7 @@ function main {
     Ubuntu)
       $loader rm -rf /var/cache/apt/archives
       $loader mkdir -p /var/cache/apt/archives/partial
+      $loader rm -f /etc/apt/apt.conf.d/docker-clean
       ;;
   esac
 
