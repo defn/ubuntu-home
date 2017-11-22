@@ -41,6 +41,7 @@ function main {
       $loader mv /var/cache/apt/archives /var/cache/apt/archives.old || true
       $loader ln -s /data/cache/apt /var/cache/apt/archives
       $loader mkdir -p /var/cache/apt/archives/partial
+      $loader rm -f /etc/apt/apt.conf.d/docker-clean
       ;;
     *)
       local loader='sudo env'
@@ -157,7 +158,6 @@ function main {
     Ubuntu)
       $loader rm -rf /var/cache/apt/archives
       $loader mkdir -p /var/cache/apt/archives/partial
-      $loader rm -f /etc/apt/apt.conf.d/docker-clean
       ;;
   esac
 
