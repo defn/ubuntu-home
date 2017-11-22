@@ -60,7 +60,7 @@ function main {
         set +x
         while true; do
           case "$(systemctl is-active cloud-final.service)" in
-            active|failed)
+            inactive|active|failed)
                 pkill tail || true
                 wait
                 break
