@@ -50,31 +50,31 @@
         },
         "aws-encryption-sdk-cli": {
             "hashes": [
-                "sha256:b9e7fd9aa141a5b9801f785b7d49a2cdc8155c839d944a6e687099fb63f4c1df",
-                "sha256:1ec0b8b0e47ffbdaa672a74e7dae1fc8c8e87d280c0723ba6e86e2e6cb11e073"
+                "sha256:28e14108a24fd9f6a05cd1fc5ffc01f8bbd7eb1aa3f90c3a015a4af11945d7e0",
+                "sha256:b9c300d917f2f6a23a75b310d47366daef1810dc6db7ae5bb5367023324ae89d"
             ],
-            "version": "==1.1.0"
+            "version": "==1.1.2"
         },
         "awscli": {
             "hashes": [
-                "sha256:5be0e9778f2cdf628fe9afa770e8840b147c4b9d6824eb4d9d58f8d385ade200",
-                "sha256:a279ea3bb87836e869d9dcacd1d46d88703367eb979f544a074248a1f06cc57b"
+                "sha256:78a58399f92e136a838ff75c5813861019bc48538a08640217799574b9687afa",
+                "sha256:db558820a4f5241f76488dd71dbafb8fe0122fb01188f2d45a04d4b7c7effa61"
             ],
-            "version": "==1.11.189"
+            "version": "==1.12.1"
         },
         "boto3": {
             "hashes": [
-                "sha256:38057b066990172ce6ebbf2a5e046a545503793581fcf14cab0e3821c6112eb0",
-                "sha256:f79f77dca2280f7780f39d72a5088f4cf2b626c0921e7185ed6ac17abfdd7e6c"
+                "sha256:edd35eb7cd8d56f08e65b112206936cf9f76bb406fb15f63075ff72331ef6f5f",
+                "sha256:332c6a17fd695581dd6f9ed825ce13c2d5ee3a6f5e1b079bed0ff7293809faf0"
             ],
-            "version": "==1.4.7"
+            "version": "==1.4.8"
         },
         "botocore": {
             "hashes": [
-                "sha256:e1826662cfce2da41e8725d8e382a8684bc9dd1258c889a5e037208ba8daf91d",
-                "sha256:997bf5553fc92e276788f0a46adeb10d90240f72fe52bbd4fbc07df037281d2e"
+                "sha256:2bae4f2a1746ccb5ed6ab07a95de007d72a6d6aea68fef6294580c6bf579e4e3",
+                "sha256:257f3f85bc292ce4569a3232a4f3b5b07d411d1b51f901218339057682c45d2b"
             ],
-            "version": "==1.7.47"
+            "version": "==1.8.1"
         },
         "cffi": {
             "hashes": [
