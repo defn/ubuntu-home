@@ -12,6 +12,7 @@
     [ "example", "nothing", "app" ],
     [ "lock", "nat", "rat" ],
     [ "ftl", "se", "haihero", "gotty", "cookiecutter" ],
-    [ "fogg-tf", "imma-tf" ]
+    [ "fogg-tf", "imma-tf" ],
+    [ "registrator" ]
   ]
 }

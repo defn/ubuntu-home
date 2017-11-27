@@ -534,3 +534,7 @@
 	path = work/vault
 	url = git@github.com:imma/vault
 	branch = v20170617
+[submodule "work/registrator"]
+	path = work/registrator
+	url = git@github.com:gliderlabs/registrator
+	branch = v20170617
