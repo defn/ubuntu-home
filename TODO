@@ -1,5 +1,3 @@
-cat .kitchen.yml | python2.7 -c 'import sys, yaml, json; y=yaml.load(sys.stdin.read()); print json.dumps(y)' | jq . | python2.7 -c 'import sys, yaml, json; j=json.loads(sys.stdin.read()); print yaml.safe_dump(j)'
-
 echo "
 rdr pass inet proto tcp from any to any port 443 -> 127.0.0.1 port 2015
 " | sudo pfctl -ef -
@@ -11,53 +9,14 @@ https://github.com/mitchellh/vagrant/issues/4050
 
 --prefix=/jenkins
 
-sudo useradd -m -s /bin/bash -g ubuntu -u 1000 ubuntu
-sudo mkdir ~ubuntu/.ssh
-sudo cp ~ec2-user/.ssh/authorized_keys ~ubuntu/.ssh/
-sudo chown -R ubuntu:ubuntu ~ubuntu
-echo 'ubuntu ALL=(ALL) NOPASSWD:ALL' | sudo tee -a /etc/sudoers.d/cloud-init
-
-auto eth1
-iface eth1 inet dhcp
-up ip route add default via 10.0.0.1 dev eth1 table eth1_rt
-up ip rule add from 10.0.0.42/32 table eth1_rt
-up ip rule add to 10.0.0.42/32 table eth1_rt
-up ip route flush cache
-
 xcode-select --install
-
-RDECK_JVM_SETTINGS=-Dserver.web.context=/rundeck
-
--t -w --once -a 127.0.0.1 -p 31337 docker run -ti ubuntu:xenial
 
 /etc/auto_master # remote home
 sudo automount -cv
 
 aws configure set default.s3.signature_version s3v4
 
-
-brew update-reset; brew updat
-Host adm0.bastion
-  Hostname 172.28.103.130
-  StrictHostKeyChecking yes
-  UserKnownHostsFile ~/.ssh/known_hosts.bastion
-
-Host adm1.bastion
-  Hostname 172.28.127.214
-  StrictHostKeyChecking yes
-  UserKnownHostsFile ~/.ssh/known_hosts.bastion
-
-Host adm2.bastion
-  Hostname 172.28.98.67
-  StrictHostKeyChecking yes
-  UserKnownHostsFile ~/.ssh/known_hosts.bastion
-
-Host adm3.bastion
-  Hostname 172.28.70.76
-  StrictHostKeyChecking yes
-  UserKnownHostsFile ~/.ssh/known_hosts.bastion
-export NOSUDO=echo
-export DATA="$HOME/data"
+brew update-reset; brew update
 
 git clone git@github.com:imma/ubuntu 
 mv ubuntu/.git .
@@ -78,4 +37,3 @@ require
 cd
 make cache
 exec bash
-
