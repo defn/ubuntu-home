@@ -16,7 +16,7 @@ pyenv              ${BLOCK_PATH}/pyenv              git@github.com:imma/pyenv   
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             42356bb5f25ae4b6a3e5ea11484574845bdcde99 v20170617 
 py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               a33988bbcea4be7e3f6f3aa017d28744a56ff6b1 v20170617 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            aeb252d1c67da5d58a3a33879ebbe632a554f68a v20170617 
-cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              5d5cadcdca9c499640953352d92f027d92bf7fc9 v20170617 
+cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              1d3b700827162d63a6602102305f7746b969b84e v20170617 
 inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          3a3b82e471d6a6d8053dc75ce63ee871124a62d1 v20170617 
 deploy             ${BLOCK_PATH}/deploy             git@github.com:imma/deploy             f43102a38a6d09e7072b82801f8cb258aa5222cd v20170617 
 htop               ${BLOCK_PATH}/htop               git@github.com:imma/htop               cf92384d5a503fac1e5bb9d96a9eb298190eb11a v20170617 
@@ -49,7 +49,7 @@ linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd 
 namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             535e3bef7b2c9727c413c3f727ba6dbbdf8b21d8 v20170617 
 fabio              ${BLOCK_PATH}/fabio              git@github.com:imma/fabio              8e90b768a758280963dcfd7fea4fc9f82f230297 v20170617 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          83666e718adeea3cd08a31f85ad8b818d07faf3a v20170617 
-openresty          ${BLOCK_PATH}/openresty          git@github.com:imma/openresty          d3b389ba3a78d5d9b3dc50581284d4afc6e52f10 v20170617 
+openresty          ${BLOCK_PATH}/openresty          git@github.com:imma/openresty          34a6aa65059352b0dc00c772ed864532670b91fa v20170617 
 kong               ${BLOCK_PATH}/kong               git@github.com:imma/kong               6b04c2e6353856c943c7b9f8b38bb36d875b7750 v20170617 
 chalice            ${BLOCK_PATH}/chalice            git@github.com:imma/chalice            2ae89077ce616e1ea8abf11dfc5ad17275f30e39 v20170617 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            edaced91a1fe73abd74c370dcc53a72c95bfabbc v20170617 
@@ -80,7 +80,7 @@ ecs                ${BLOCK_PATH}/ecs                git@github.com:imma/ecs     
 cloud              ${BLOCK_PATH}/cloud              git@github.com:imma/cloud              ff6b4eda84b616a536fbaf85862d2e5be9a390a2 v20170617 
 imma               ${BLOCK_PATH}/imma               git@github.com:imma/imma               34af2967784805c67bb87bba1e002dbe5948a4e1 v20170617 
 chef               ${BLOCK_PATH}/chef               git@github.com:imma/chef               4765da5b8231c412a15bd6da1946314834999bfb v20170617 
-netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            3b81f9c50c853f5b92cda7d54670c9709a85f31c v20170617 
+netdata            ${BLOCK_PATH}/netdata            git@github.com:imma/netdata            c19ca9110fd0dcf3a5cf218319c3fb3ff5bd6f42 v20170617 
 monitor            ${BLOCK_PATH}/monitor            git@github.com:imma/monitor            5ae926e7e2f4a26908950bc967b1b5eec1edbc94 v20170617 
 gpg                ${BLOCK_PATH}/gpg                git@github.com:imma/gpg                86f8d8e62e20b260db3d2c81c4b20237d8547dce v20170617 
 git-crypt          ${BLOCK_PATH}/git-crypt          git@github.com:imma/git-crypt          fa25ecc72a3b1db01559186fd5049438fbd9037d v20170617 
