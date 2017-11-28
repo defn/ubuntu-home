@@ -38,10 +38,6 @@ function main {
   case "$DISTRIB_ID" in
     Ubuntu)
       local loader='sudo env DEBIAN_FRONTEND=noninteractive'
-      $loader mv /var/cache/apt/archives /var/cache/apt/archives.old || true
-      $loader ln -s /data/cache/apt /var/cache/apt/archives
-      $loader mkdir -p /var/cache/apt/archives/partial
-      $loader rm -f /etc/apt/apt.conf.d/docker-clean
       ;;
     *)
       local loader='sudo env'
@@ -76,6 +72,12 @@ function main {
           sleep 1
         done
         set -x
+
+        $loader mv /var/cache/apt/archives /var/cache/apt/archives.old || true
+        $loader ln -s /data/cache/apt /var/cache/apt/archives
+        $loader mkdir -p /var/cache/apt/archives/partial || true
+        $loader ls -ltrhd /var/cache/apt/archives /var/cache/apt/archives/partial /data /data/cache/apt
+        $loader rm -f /etc/apt/apt.conf.d/docker-clean
 
         $loader apt-get update
         $loader apt-get install -y awscli
