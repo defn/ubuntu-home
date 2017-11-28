@@ -538,3 +538,7 @@
 	path = work/registrator
 	url = git@github.com:imma/registrator
 	branch = v20170617
+[submodule "work/tugboat"]
+	path = work/tugboat
+	url = git@github.com:imma/tugboat
+	branch = v20170617

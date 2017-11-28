@@ -13,6 +13,6 @@
     [ "lock", "nat", "rat" ],
     [ "ftl", "se", "haihero", "gotty", "cookiecutter" ],
     [ "fogg-tf", "imma-tf" ],
-    [ "registrator" ]
+    [ "registrator", "tugboat" ]
   ]
 }
