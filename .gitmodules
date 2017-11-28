@@ -536,5 +536,5 @@
 	branch = v20170617
 [submodule "work/registrator"]
 	path = work/registrator
-	url = git@github.com:gliderlabs/registrator
+	url = git@github.com:imma/registrator
 	branch = v20170617
