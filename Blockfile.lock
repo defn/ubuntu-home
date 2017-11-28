@@ -49,7 +49,7 @@ linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd 
 namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             535e3bef7b2c9727c413c3f727ba6dbbdf8b21d8 v20170617 
 fabio              ${BLOCK_PATH}/fabio              git@github.com:imma/fabio              8e90b768a758280963dcfd7fea4fc9f82f230297 v20170617 
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          83666e718adeea3cd08a31f85ad8b818d07faf3a v20170617 
-openresty          ${BLOCK_PATH}/openresty          git@github.com:imma/openresty          34a6aa65059352b0dc00c772ed864532670b91fa v20170617 
+openresty          ${BLOCK_PATH}/openresty          git@github.com:imma/openresty          47ee5a37f54e4f0c35c7e6d655e36b0d90c42091 v20170617 
 kong               ${BLOCK_PATH}/kong               git@github.com:imma/kong               6b04c2e6353856c943c7b9f8b38bb36d875b7750 v20170617 
 chalice            ${BLOCK_PATH}/chalice            git@github.com:imma/chalice            2ae89077ce616e1ea8abf11dfc5ad17275f30e39 v20170617 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            edaced91a1fe73abd74c370dcc53a72c95bfabbc v20170617 
@@ -62,7 +62,7 @@ jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins 
 drone              ${BLOCK_PATH}/drone              git@github.com:imma/drone              4dbe022405ff00bb1028ca25094c47df9649c4e7 v20170617 
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         4571a4b6db51629504275c786a47fe849533cdce v20170617 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                a89862c51112dbcc727568c2eb828d7f32d85e54 v20170617 
-github             ${BLOCK_PATH}/github             git@github.com:imma/github             7cea2bbd3e88db8e8b2a9f5a47524b93a8fa7425 v20170617 
+github             ${BLOCK_PATH}/github             git@github.com:imma/github             1e19456547fa15f3ff34a0f519a07db46e5d19c8 v20170617 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             2e8d04a31bd1c433d3917be886e4075b095b5dbe v20170617 
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            4833f50df42174212a30bf248cf94b7b3c6fabb1 v20170617 
 cicd               ${BLOCK_PATH}/cicd               git@github.com:imma/cicd               a564a25104ab18b95d5ab1fd1965ea068a4c2af1 v20170617 
