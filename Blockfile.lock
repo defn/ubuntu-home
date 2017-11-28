@@ -132,4 +132,4 @@ gotty              ${BLOCK_PATH}/gotty              git@github.com:imma/gotty   
 cookiecutter       ${BLOCK_PATH}/cookiecutter       git@github.com:imma/cookiecutter       26eb5f557ecebf9e06bda0c1e6e042c89b3488fb v20170617 
 fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            1c836b08a55d6cc76001d4f46f182ae6f09df454 v20170617 
 imma-tf            ${BLOCK_PATH}/imma-tf            git@github.com:imma/imma-tf            32f4f9cda2f5e91ff863eea0bcca06a1eb90828f v20170617 
-registrator        ${BLOCK_PATH}/registrator        git@github.com:imma/registrator        81ba6fd4276c9f51557a835a2679913d3b929c2e v20170617 
+registrator        ${BLOCK_PATH}/registrator        git@github.com:imma/registrator        169d9a0152ce7158624e3b5c655efa0d0eab6107 v20170617 
