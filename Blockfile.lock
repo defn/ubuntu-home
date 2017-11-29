@@ -5,12 +5,12 @@ normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normaliz
 bash-preexec       ${BLOCK_PATH}/bash-preexec       git@github.com:imma/bash-preexec       8658d4be458078d00b65cb5f34c6e79d27fd6c4e v20170617 
 sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub                965ea7814819ca8c9c679c083c34e5d63e240719 v20170617 
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            accaecc59f399d48a4c41bd45660d692223724ef v20170617 
-block              ${BLOCK_PATH}/block              git@github.com:imma/block              50d69d1eb040b15b9da5ebdf48b2c61012ddef1f v20170617 
+block              ${BLOCK_PATH}/block              git@github.com:imma/block              6a3e38763983e9e54dd69274b02716cbf227c46e v20170617 
 instance           ${BLOCK_PATH}/instance           git@github.com:imma/instance           7f7d726ab81f7ebcc0eb3b65d78052fa9973dc59 v20170617 
 base               ${BLOCK_PATH}/base               git@github.com:imma/base               d5fef23f3f58d2cde1a01b2a8c2ede45f26ca01f v20170617 
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      2c9df7ca88a58df87ea1fb592a4d9023905ac84f v20170617 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           d82ec312c5a57aba7e747343f3f3b438ceb51338 v20170617 
-java               ${BLOCK_PATH}/java               git@github.com:imma/java               b3dc9f6cd55e6d6dd2e26991d51ff7683352b15c v20170617 
+java               ${BLOCK_PATH}/java               git@github.com:imma/java               3eb15251f25fb4e605cdb17cf9a20ad7e2467b79 v20170617 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             5285b5ea1e2a1ba135ad4821e10dee669c73a21b v20170617 
 pyenv              ${BLOCK_PATH}/pyenv              git@github.com:imma/pyenv              49ad53e8867d822500f9b2c9d23a8692459e4de1 v20170617 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             42356bb5f25ae4b6a3e5ea11484574845bdcde99 v20170617 
