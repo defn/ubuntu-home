@@ -8,6 +8,7 @@ weight: 0
 
 - [docs](https://docs.amanibhav.am)
 - [jenkins](https://jenkins.amanibhav.am)
+- [blue](https://jenkins.amanibhav.am/blue/organizations/jenkins)
 - [fabio](https://fabio.amanibhav.am)
 - [consul](https://consul.amanibhav.am)
 - [netdata](https://amanibhav.am/netdata)
