@@ -6,6 +6,9 @@ weight: 0
 ---
 ## Apps
 
+- [docs](https://docs.amanibhav.am)
+- [jenkins](https://jenkins.amanibhav.am)
+- [netdata](https://netdata.amanibhav.am)
+- [fabio](https://fabio.amanibhav.am)
+- [consul](https://consul.amanibhav.am)
 - [shell](/shell)
-- [netdata](/netdata)
-- [jenkins](/jenkins)
