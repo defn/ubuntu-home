@@ -11,4 +11,4 @@ weight: 0
 - [netdata](https://netdata.amanibhav.am)
 - [fabio](https://fabio.amanibhav.am)
 - [consul](https://consul.amanibhav.am)
-- [shell](/shell)
+- [shell](https://amanibhav.am/shell)
