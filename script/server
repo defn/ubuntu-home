@@ -20,6 +20,14 @@ function main {
           sleep 1
           echo "detaching..." 1>&2
         done
+
+        case "${DISTRIB_ID}" in
+          Darwin)
+            echo "
+            rdr pass inet proto tcp from any to any port 443 -> 127.0.0.1 port 2015
+            " | sudo pfctl -ef -
+            ;;
+        esac
         ;;
       default)
         if [[ -f ~/etc/rc.local ]]; then
