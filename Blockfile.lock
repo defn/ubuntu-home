@@ -117,7 +117,7 @@ junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas   
 irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              acd2afe4839c95aa02a9c3161b3db53172841762 v20170617 
 bitlbee            ${BLOCK_PATH}/bitlbee            git@github.com:imma/bitlbee            ca15ce92909cd07c10893ac53181840d7900a5a5 v20170617 
 chat               ${BLOCK_PATH}/chat               git@github.com:imma/chat               9a1eb09590088e4d3e6a1a62c18ca31f45afd490 v20170617 
-cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue                914938ce83636174944136113064f31de959ce93 v20170617 
+cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue                89368c2c13ba9674eae2b399ef5a3083e25170de v20170617 
 tmux               ${BLOCK_PATH}/tmux               git@github.com:imma/tmux               dd6306ee0081667416baea843a2fddcd99aff5b5 v20170617 
 example            ${BLOCK_PATH}/example            git@github.com:imma/example            580f6f9d333e36657fd7f90cee7c6d61e9108c36 v20170617 
 nothing            ${BLOCK_PATH}/nothing            git@github.com:imma/nothing            1f27fe2f0afd06bb09bd9f1c79cfc2dc687daff4 v20170617 
