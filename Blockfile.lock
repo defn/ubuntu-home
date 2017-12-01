@@ -38,7 +38,7 @@ tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv   
 vmm                ${BLOCK_PATH}/vmm                git@github.com:imma/vmm                210942cc7e077bdbb41e923531cecc4bd08f38f7 v20170617 
 lang               ${BLOCK_PATH}/lang               git@github.com:imma/lang               049387b400264c27422eb04d6aaa6b70f3aa5148 v20170617 
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              32c12c4a9eb2a6b132c422a49aea9dabfb0639e0 v20170617 
-service            ${BLOCK_PATH}/service            git@github.com:imma/service            e84fb175396c9195b16619b59bdc52193b65907a v20170617 
+service            ${BLOCK_PATH}/service            git@github.com:imma/service            e3055ba6cdd373c8f97eef9469fc7e43fc35f22f v20170617 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               cf1b3c298f79842025fffcb1d7d32960e1f6ebc7 v20170617 
 facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts              b636f89374da959488421214c07f48eeace7c223 v20170617 
 consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             b070c3293810ab415a0267ed7917d39343dbc70b v20170617 
