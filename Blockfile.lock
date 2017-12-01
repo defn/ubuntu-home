@@ -8,7 +8,7 @@ runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany 
 block              ${BLOCK_PATH}/block              git@github.com:imma/block              c1298235bbee70d6f3aecf7d56f70be942622cc0 v20170617 
 instance           ${BLOCK_PATH}/instance           git@github.com:imma/instance           7f7d726ab81f7ebcc0eb3b65d78052fa9973dc59 v20170617 
 base               ${BLOCK_PATH}/base               git@github.com:imma/base               d5fef23f3f58d2cde1a01b2a8c2ede45f26ca01f v20170617 
-ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      edbd2662b205763f10e3011b847eabe4333bb802 v20170617 
+ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      f1e0be073b2f2d6933675fd89e3cab0869dc1193 v20170617 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           d82ec312c5a57aba7e747343f3f3b438ceb51338 v20170617 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               8ab70d12318aa255a324e690e1699656f8a7b2be v20170617 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             5285b5ea1e2a1ba135ad4821e10dee669c73a21b v20170617 
@@ -38,7 +38,7 @@ tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv   
 vmm                ${BLOCK_PATH}/vmm                git@github.com:imma/vmm                210942cc7e077bdbb41e923531cecc4bd08f38f7 v20170617 
 lang               ${BLOCK_PATH}/lang               git@github.com:imma/lang               049387b400264c27422eb04d6aaa6b70f3aa5148 v20170617 
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              32c12c4a9eb2a6b132c422a49aea9dabfb0639e0 v20170617 
-service            ${BLOCK_PATH}/service            git@github.com:imma/service            e84fb175396c9195b16619b59bdc52193b65907a v20170617 
+service            ${BLOCK_PATH}/service            git@github.com:imma/service            d80380281603a2cfb118f2af1e0ae187b813318b v20170617 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               cf1b3c298f79842025fffcb1d7d32960e1f6ebc7 v20170617 
 facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts              b636f89374da959488421214c07f48eeace7c223 v20170617 
 consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             b070c3293810ab415a0267ed7917d39343dbc70b v20170617 
