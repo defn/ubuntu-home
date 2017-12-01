@@ -16,8 +16,8 @@ agent-base@^4.1.0:
     es6-promisify "^5.0.0"
 
 amazon-cognito-identity-js@^1.19.0:
-  version "1.27.0"
-  resolved "https://registry.yarnpkg.com/amazon-cognito-identity-js/-/amazon-cognito-identity-js-1.27.0.tgz#da2d6fa5379eb19930e4eefa5c2bc35b3b6ad1ae"
+  version "1.28.0"
+  resolved "https://registry.yarnpkg.com/amazon-cognito-identity-js/-/amazon-cognito-identity-js-1.28.0.tgz#0dacba4db94ab97a1ad742c376b3e632fc5f772f"
   dependencies:
     aws-sdk "^2.6.0"
     js-cookie "^2.1.4"
@@ -85,8 +85,8 @@ async@^2.0.0:
     lodash "^4.14.0"
 
 aws-amplify@^0.1.0:
-  version "0.1.17"
-  resolved "https://registry.yarnpkg.com/aws-amplify/-/aws-amplify-0.1.17.tgz#8aac95fba586ee86a9cd027813c8268dffd73ac9"
+  version "0.1.19"
+  resolved "https://registry.yarnpkg.com/aws-amplify/-/aws-amplify-0.1.19.tgz#0822ccb85f1e9ce4465d44fa1aab0cee82f23dd5"
   dependencies:
     amazon-cognito-identity-js "^1.19.0"
     aws-sdk "^2.101.0"
@@ -100,8 +100,8 @@ aws-sdk-mobile-analytics@^0.9.2:
     aws-sdk ">=2.2.37"
 
 aws-sdk@>=2.2.37, aws-sdk@^2.101.0, aws-sdk@^2.131.0, aws-sdk@^2.6.0:
-  version "2.158.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.158.0.tgz#56ec1e78770822fbc38ae62fed0f54e7a147bdeb"
+  version "2.161.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.161.0.tgz#2ccfce9dadaadc3d46087612e986d44fa73beef8"
   dependencies:
     buffer "4.9.1"
     crypto-browserify "1.0.9"
@@ -115,8 +115,8 @@ aws-sdk@>=2.2.37, aws-sdk@^2.101.0, aws-sdk@^2.131.0, aws-sdk@^2.6.0:
     xmlbuilder "4.2.1"
 
 awsmobile-cli@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/awsmobile-cli/-/awsmobile-cli-1.0.2.tgz#a3d8c78d2428088ed2aa10266ad1e94b2127d675"
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/awsmobile-cli/-/awsmobile-cli-1.0.3.tgz#6d9875ff743dc4e2cc6071bccd5c395d56d79c28"
   dependencies:
     archiver "^2.1.0"
     aws-amplify "^0.1.0"
