@@ -206,6 +206,7 @@ ____EOF
       chown -R vagrant:vagrant ~vagrant /tmp/kitchen
     fi
 
+    ssh-keygen -f "/root/.ssh/known_hosts" -R localhost || true
     ssh -A -o BatchMode=yes -o StrictHostKeyChecking=no ubuntu@localhost "$0"
     ;;
   *)
