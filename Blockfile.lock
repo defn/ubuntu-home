@@ -14,7 +14,7 @@ java               ${BLOCK_PATH}/java               git@github.com:imma/java    
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             5285b5ea1e2a1ba135ad4821e10dee669c73a21b v20170617 
 pyenv              ${BLOCK_PATH}/pyenv              git@github.com:imma/pyenv              49ad53e8867d822500f9b2c9d23a8692459e4de1 v20170617 
 python             ${BLOCK_PATH}/python             git@github.com:imma/python             42356bb5f25ae4b6a3e5ea11484574845bdcde99 v20170617 
-py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               a33988bbcea4be7e3f6f3aa017d28744a56ff6b1 v20170617 
+py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               91e71753dbbd3ce19ef0bb231763332da7791fc7 v20170617 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            aeb252d1c67da5d58a3a33879ebbe632a554f68a v20170617 
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              1d3b700827162d63a6602102305f7746b969b84e v20170617 
 inventory          ${BLOCK_PATH}/inventory          git@github.com:imma/inventory          3a3b82e471d6a6d8053dc75ce63ee871124a62d1 v20170617 
@@ -30,7 +30,7 @@ nvm                ${BLOCK_PATH}/nvm                git@github.com:imma/nvm     
 node               ${BLOCK_PATH}/node               git@github.com:imma/node               b18ef96aa36adc9c2096ed2b417b1fa9fd9ee729 v20170617 
 yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               e02bb24daf7eecd5b2564b2096c4ef8edfc0f112 v20170617 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              6698310a0e04ae4daed8085242d6ab06812cedf2 v20170617 
-py36               ${BLOCK_PATH}/py36               git@github.com:imma/py36               05fa6a5de435dca9dbb678b8afbdadd1a2667a99 v20170617 
+py36               ${BLOCK_PATH}/py36               git@github.com:imma/py36               2c01d7124f93b6c5987fc11129e11c51c6c506ff v20170617 
 go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 233cdc33143431e725d87274fdaf0c8836a16f50 v20170617 
 grpc               ${BLOCK_PATH}/grpc               git@github.com:imma/grpc               941faea43805e99654f3dd06588b91c7b235a7fe v20170617 
 rust               ${BLOCK_PATH}/rust               git@github.com:imma/rust               b6fbb6f27ef7acfc6fc1a320e6ffb8435f475cd2 v20170617 
@@ -64,7 +64,7 @@ codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecomm
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                a89862c51112dbcc727568c2eb828d7f32d85e54 v20170617 
 github             ${BLOCK_PATH}/github             git@github.com:imma/github             1e19456547fa15f3ff34a0f519a07db46e5d19c8 v20170617 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             2e8d04a31bd1c433d3917be886e4075b095b5dbe v20170617 
-kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            7b2d9d14d7957f297afca9b5ce508b986336e406 v20170617 
+kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            f1c702e293fe2b4e6dabfd9bd8da85fe33c68bbb v20170617 
 cicd               ${BLOCK_PATH}/cicd               git@github.com:imma/cicd               a564a25104ab18b95d5ab1fd1965ea068a4c2af1 v20170617 
 aws-vault          ${BLOCK_PATH}/aws-vault          git@github.com:imma/aws-vault          e87c79546f2f4381dddd71804cab3ea5c76472eb v20170617 
 chamber            ${BLOCK_PATH}/chamber            git@github.com:imma/chamber            53b70a91a69e26d79fa61e7618ebac32f91dfc0a v20170617 

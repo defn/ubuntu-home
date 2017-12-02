@@ -95,6 +95,7 @@ suites:
       script: bootstrap.sh
     driver:
       name: docker
+      image: <%= ENV['FOGG_IMAGE_ID'] %>
       require_chef_omnibus: false
       use_sudo: false
       use_cache: <%= ENV['FOGG_USE_CACHE'] || "true" %>
