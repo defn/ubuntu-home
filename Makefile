@@ -109,6 +109,5 @@ docs:
 	make lock
 
 checkpoint:
-	ssh-add -L | grep cardno: | head -1 > .kitchen/docker_id_rsa.pub
-	git push
+	git push 
 	tar cvfz /data/cache/git/ubuntu-v20170616.tar.gz .git
