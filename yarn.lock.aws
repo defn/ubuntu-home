@@ -85,8 +85,8 @@ async@^2.0.0:
     lodash "^4.14.0"
 
 aws-amplify@^0.1.0:
-  version "0.1.19"
-  resolved "https://registry.yarnpkg.com/aws-amplify/-/aws-amplify-0.1.19.tgz#0822ccb85f1e9ce4465d44fa1aab0cee82f23dd5"
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/aws-amplify/-/aws-amplify-0.1.20.tgz#eb95c83282746e4212372b8b6700178036157742"
   dependencies:
     amazon-cognito-identity-js "^1.19.0"
     aws-sdk "^2.101.0"
@@ -100,8 +100,8 @@ aws-sdk-mobile-analytics@^0.9.2:
     aws-sdk ">=2.2.37"
 
 aws-sdk@>=2.2.37, aws-sdk@^2.101.0, aws-sdk@^2.131.0, aws-sdk@^2.6.0:
-  version "2.161.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.161.0.tgz#2ccfce9dadaadc3d46087612e986d44fa73beef8"
+  version "2.162.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.162.0.tgz#1b16215fc9b599ba7cd2cfe7ce050c7f934381a6"
   dependencies:
     buffer "4.9.1"
     crypto-browserify "1.0.9"
