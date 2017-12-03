@@ -94,8 +94,6 @@ GEM
       hashie (~> 3.4)
       inspec (>= 0.34.0, < 2.0.0)
       test-kitchen (~> 1.6)
-    kitchen-ssh (0.0.12)
-      minitar (~> 0.5)
     kitchen-sync (2.2.0)
       net-sftp
       test-kitchen (>= 1.0.0)
@@ -106,7 +104,6 @@ GEM
       little-plugger (~> 1.1)
       multi_json (~> 1.10)
     method_source (0.9.0)
-    minitar (0.6.1)
     minitest (5.10.3)
     mixlib-install (3.8.0)
       mixlib-shellout
@@ -214,7 +211,6 @@ DEPENDENCIES
   kitchen-docker
   kitchen-ec2
   kitchen-inspec
-  kitchen-ssh
   kitchen-sync
   kitchen-vagrant
   test-kitchen

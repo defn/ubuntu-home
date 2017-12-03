@@ -41,8 +41,8 @@ suites:
     provisioner:
       script: bootstrap-localhost.sh
     driver:
-      name: ssh
-      hostname: localhost
+      name: proxy
+      host: localhost
       port: 22
       username: ubuntu
     excludes: [ centos-7.4, amazonlinux]
