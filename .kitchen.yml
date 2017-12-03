@@ -96,7 +96,7 @@ suites:
     driver:
       name: docker
       pre_create_command: "ssh-add -L | grep cardno: | head -1 > .kitchen/docker_id_rsa.pub"
-      image: <%= ENV['FOGG_IMAGE_ID'] %>
+      <%= ENV['FOGG_IMAGE_ID'] ? "image: #{ENV['FOGG_IMAGE_ID']}" : ""  %>
       require_chef_omnibus: false
       use_sudo: false
       use_cache: <%= ENV['FOGG_USE_CACHE'] || "true" %>
