@@ -169,7 +169,7 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.6)
     tomlrb (1.2.6)
-    train (0.29.2)
+    train (0.30.0)
       docker-api (~> 1.26)
       json (>= 1.8, < 3.0)
       mixlib-shellout (~> 2.0)
