@@ -2,7 +2,7 @@
   "require": [
     [ "site", "ubuntu-config", "cache", "base", "deploy", "sysadmin" ],
     [ "make", "jqq", "lang" ],
-    [ "sshd", "consul-agent", "consul-server", "etcd", "linkerd", "namerd", "fabio", "syslog-ng", "openresty", "kong", "chalice" ],
+    [ "sshd", "consul-agent", "consul-server", "etcd", "linkerd", "namerd", "fabio", "syslog-ng", "openresty", "kong", "konga", "chalice" ],
     [ "docker", "postgresql" ],
     [ "cicd" ],
     [ "cloud", "imma" ],

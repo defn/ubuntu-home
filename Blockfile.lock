@@ -51,6 +51,7 @@ fabio              ${BLOCK_PATH}/fabio              git@github.com:imma/fabio   
 syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          83666e718adeea3cd08a31f85ad8b818d07faf3a v20170617 
 openresty          ${BLOCK_PATH}/openresty          git@github.com:imma/openresty          47ee5a37f54e4f0c35c7e6d655e36b0d90c42091 v20170617 
 kong               ${BLOCK_PATH}/kong               git@github.com:imma/kong               6b04c2e6353856c943c7b9f8b38bb36d875b7750 v20170617 
+konga              ${BLOCK_PATH}/konga              git@github.com:imma/konga              670dd9647187d055f86af724f0b95421a23e80cd v20170617 
 chalice            ${BLOCK_PATH}/chalice            git@github.com:imma/chalice            2ae89077ce616e1ea8abf11dfc5ad17275f30e39 v20170617 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            edaced91a1fe73abd74c370dcc53a72c95bfabbc v20170617 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             71ba46f4bfe28602fc50e399733761429b16b409 v20170617 

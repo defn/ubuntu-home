@@ -542,3 +542,7 @@
 	path = work/tugboat
 	url = git@github.com:imma/tugboat
 	branch = v20170617
+[submodule "work/konga"]
+	path = work/konga
+	url = git@github.com:imma/konga
+	branch = 20170617
