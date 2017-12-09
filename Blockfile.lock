@@ -34,9 +34,10 @@ py36               ${BLOCK_PATH}/py36               git@github.com:imma/py36    
 go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 233cdc33143431e725d87274fdaf0c8836a16f50 v20170617 
 grpc               ${BLOCK_PATH}/grpc               git@github.com:imma/grpc               941faea43805e99654f3dd06588b91c7b235a7fe v20170617 
 rust               ${BLOCK_PATH}/rust               git@github.com:imma/rust               b6fbb6f27ef7acfc6fc1a320e6ffb8435f475cd2 v20170617 
+clojure            ${BLOCK_PATH}/clojure            git@github.com:imma/clojure            f638ea6b5f7d2fcc22df8204cccb9f33fdeb2ce9 v20170617 
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              b792a0b7a984cece082398a448770c09f3f68794 v20170617 
 vmm                ${BLOCK_PATH}/vmm                git@github.com:imma/vmm                210942cc7e077bdbb41e923531cecc4bd08f38f7 v20170617 
-lang               ${BLOCK_PATH}/lang               git@github.com:imma/lang               049387b400264c27422eb04d6aaa6b70f3aa5148 v20170617 
+lang               ${BLOCK_PATH}/lang               git@github.com:imma/lang               e7a9dfb44257bc485c13a1841ee8a02763dfc196 v20170617 
 runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              32c12c4a9eb2a6b132c422a49aea9dabfb0639e0 v20170617 
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            d80380281603a2cfb118f2af1e0ae187b813318b v20170617 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               cf1b3c298f79842025fffcb1d7d32960e1f6ebc7 v20170617 
@@ -131,7 +132,7 @@ se                 ${BLOCK_PATH}/se                 git@github.com:imma/se      
 haihero            ${BLOCK_PATH}/haihero            git@github.com:imma/haihero            1678e309499d300e72d55cd1837e7f63ff676790 v20170617 
 gotty              ${BLOCK_PATH}/gotty              git@github.com:imma/gotty              a6fad2b1562124e0869480734f14a2e0a8adf99a v20170617 
 cookiecutter       ${BLOCK_PATH}/cookiecutter       git@github.com:imma/cookiecutter       26eb5f557ecebf9e06bda0c1e6e042c89b3488fb v20170617 
-fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            31185c63f720419cb2313e456175302197c3344c v20170617 
-imma-tf            ${BLOCK_PATH}/imma-tf            git@github.com:imma/imma-tf            ca67fa9b3323c5219270d6a8e9d074ec6dd974ea v20170617 
+fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            76bd4ab840c0d6c5970df576efda2ec588fa04e9 v20170617 
+imma-tf            ${BLOCK_PATH}/imma-tf            git@github.com:imma/imma-tf            772420a5e9c0469189cae0b2d45b7a2780e82bde v20170617 
 registrator        ${BLOCK_PATH}/registrator        git@github.com:imma/registrator        95d2bd8291a0a9f12d5dcbd0217a9def7cf75e05 v20170617 
 tugboat            ${BLOCK_PATH}/tugboat            git@github.com:imma/tugboat            a398d42e9f42fc24fdaa08407f8cebbcb6b07a59 v20170617 

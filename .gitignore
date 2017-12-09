@@ -170,3 +170,4 @@ tmux-client*log
 /pkgsrc*
 *secret*
 /.vault*
+/.clojure

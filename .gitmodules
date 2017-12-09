@@ -546,3 +546,7 @@
 	path = work/konga
 	url = git@github.com:imma/konga
 	branch = 20170617
+[submodule "work/clojure"]
+	path = work/clojure
+	url = git@github.com:imma/clojure
+	branch = v20170617
