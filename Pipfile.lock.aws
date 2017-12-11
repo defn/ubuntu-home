@@ -11,7 +11,7 @@
             "platform_python_implementation": "CPython",
             "platform_release": "16.7.0",
             "platform_system": "Darwin",
-            "platform_version": "Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64",
+            "platform_version": "Darwin Kernel Version 16.7.0: Mon Nov 13 21:56:25 PST 2017; root:xnu-3789.72.11~1/RELEASE_X86_64",
             "python_full_version": "3.6.3",
             "python_version": "3.6",
             "sys_platform": "darwin"
@@ -57,10 +57,10 @@
         },
         "awscli": {
             "hashes": [
-                "sha256:3d53a57649435d17a56b4fde00044118cea4de502b2f0dbea0044da211b5336d",
-                "sha256:167c1295ae358d196776aae82af7af1633ab1fb9348f2091f5251318bdfc9426"
+                "sha256:d510652bb1241c77b0c1a23b4ce130c65671890e0e7901cfefe3e639e5788b39",
+                "sha256:8f69661802af896e6cc6e7ceef65039bf93707036ff8c617a7787971a6df0740"
             ],
-            "version": "==1.14.4"
+            "version": "==1.14.7"
         },
         "boto3": {
             "hashes": [
@@ -71,10 +71,10 @@
         },
         "botocore": {
             "hashes": [
-                "sha256:96ada177ad01161b8469861e209b82624390888443c45a97a49c2afa1a98eeb9",
-                "sha256:e348c14a5089fe43d5e953f82b9401c2ac4c42ceebd61d1bbaf49a224cb32dbc"
+                "sha256:98f10a24b4de64b6d74cc5dfb5a5d13877df619880992fc649ca7ae0ab745253",
+                "sha256:1c189f4f1b3a834c1679c875912f4d54553ded215e7060812c82494fa4883b5b"
             ],
-            "version": "==1.8.8"
+            "version": "==1.8.11"
         },
         "cffi": {
             "hashes": [
