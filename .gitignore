@@ -172,3 +172,4 @@ tmux-client*log
 /.vault*
 /.clojure*
 /.rediscli_history
+/.*_history
