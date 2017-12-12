@@ -127,7 +127,7 @@ se             ${BLOCK_PATH}/se             git@github.com:imma/se             7
 haihero        ${BLOCK_PATH}/haihero        git@github.com:imma/haihero        1678e309499d300e72d55cd1837e7f63ff676790 v20170617 
 gotty          ${BLOCK_PATH}/gotty          git@github.com:imma/gotty          a6fad2b1562124e0869480734f14a2e0a8adf99a v20170617 
 cookiecutter   ${BLOCK_PATH}/cookiecutter   git@github.com:imma/cookiecutter   26eb5f557ecebf9e06bda0c1e6e042c89b3488fb v20170617 
-fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        45f612d94f6f256c60aaca637c6d29a2644b87c0 v20170617 
-imma-tf        ${BLOCK_PATH}/imma-tf        git@github.com:imma/imma-tf        772420a5e9c0469189cae0b2d45b7a2780e82bde v20170617 
+fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        5f2135c514ac2ed1ab0ecb023c9c88848e4313e3 v20170617 
+imma-tf        ${BLOCK_PATH}/imma-tf        git@github.com:imma/imma-tf        c1bfa843802499d483ed2da51f81ff40f3a88275 v20170617 
 registrator    ${BLOCK_PATH}/registrator    git@github.com:imma/registrator    95d2bd8291a0a9f12d5dcbd0217a9def7cf75e05 v20170617 
 tugboat        ${BLOCK_PATH}/tugboat        git@github.com:imma/tugboat        a398d42e9f42fc24fdaa08407f8cebbcb6b07a59 v20170617 
