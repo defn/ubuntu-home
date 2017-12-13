@@ -173,3 +173,4 @@ tmux-client*log
 /.clojure*
 /.rediscli_history
 /.*_history
+/.netrc
