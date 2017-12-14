@@ -33,7 +33,7 @@ platforms:
   - name: amazonlinux
     driver_config:
       linked_clone: true
-      image: amazonlinux:2017.09
+      image: amazonlinux:2017.12
       platform: rhel
 
 suites:

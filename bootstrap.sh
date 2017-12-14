@@ -88,11 +88,10 @@ function main {
         $loader apt-get upgrade -y
         ;;
       Amazon)
-        $loader yum install -y aws-cli
-        $loader yum install -y git rsync make
+        $loader yum install -y wget curl rsync make git
         ;;
       CentOS)
-        $loader yum install -y wget curl rsync make
+        $loader yum install -y wget curl rsync make git
 
         wget -nc https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
         (set +f; $loader rpm -Uvh epel-release-latest-7*.rpm || true)
