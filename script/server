@@ -20,7 +20,8 @@ function main {
           sleep 1
           echo "detaching..." 1>&2
         done
-
+        ;;
+      routing)
         case "${DISTRIB_ID}" in
           Darwin)
             echo "
