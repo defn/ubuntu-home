@@ -88,7 +88,7 @@ function main {
         $loader apt-get upgrade -y
         ;;
       Amazon)
-        $loader yum install -y wget curl rsync make git
+        $loader yum install -y wget curl rsync make git hostname
         ;;
       CentOS)
         $loader yum install -y wget curl rsync make git
