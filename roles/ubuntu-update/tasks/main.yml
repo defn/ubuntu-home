@@ -6,7 +6,7 @@
   command: chdir="{{ansible_env.HOME}}" git submodule update --init
 
 - name: Sync dependencies
-  command: chdir="{{ansible_env.HOME}}" bin/home make sync
+  command: chdir="{{ansible_env.HOME}}" exec/home make sync
 
 - name: Generate .bashrc.cache
-  command: chdir="{{ansible_env.HOME}}" bin/home make cache
+  command: chdir="{{ansible_env.HOME}}" exec/home make cache

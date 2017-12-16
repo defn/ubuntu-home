@@ -39,7 +39,7 @@ function main {
     "$@" work/base/script/bootstrap
     "$@" work/jq/script/bootstrap
     "$@" work/block/script/cibuild
-    "$@" bin/home make cache
+    "$@" exec/home make cache
 
     "$@" git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
     "$@" git remote set-url "${nm_remote}" "${url_remote}"
@@ -50,7 +50,7 @@ function main {
     "$@" -A git checkout "${nm_branch}" 
   fi
 
-  "$@" bin/home make cache
+  "$@" exec/home make cache
 
   while true; do
     if "$@" sudo dpkg --configure -a; then
@@ -66,9 +66,9 @@ function main {
   "$@" chmod 700 .gnupg
   "$@" chmod 600 .ssh/config
 
-  "$@" bin/home block sync
-  "$@" bin/home make cache
-  "$@" bin/home block bootstrap
+  "$@" exec/home block sync
+  "$@" exec/home make cache
+  "$@" exec/home block bootstrap
 
   "$@" sync
 }
