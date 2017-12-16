@@ -174,3 +174,5 @@ tmux-client*log
 /.rediscli_history
 /.*_history
 /.netrc
+/pkg
+/src

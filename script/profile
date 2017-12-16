@@ -7,6 +7,8 @@ function _ubuntu_home_profile {
 
   export LC_ALL=en_US.UTF-8  
   export LANG=en_US.UTF-8
+
+  export GOPATH="${GOPATH:-"$HOME"}"
 }
 
 _ubuntu_home_profile
