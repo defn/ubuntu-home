@@ -31,7 +31,7 @@ node               ${BLOCK_PATH}/node               git@github.com:imma/node    
 yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn               f0a58f326941bf716ccc7c4f8a10f40538e534c4 v20170617 
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              6698310a0e04ae4daed8085242d6ab06812cedf2 v20170617 
 py36               ${BLOCK_PATH}/py36               git@github.com:imma/py36               2c01d7124f93b6c5987fc11129e11c51c6c506ff v20170617 
-go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 c629bc0488ef977d877e6fc3634b859e8d38356f v20170617 
+go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 9441d5728964e2dc4ea84eede94924e186e070ea v20170617 
 grpc               ${BLOCK_PATH}/grpc               git@github.com:imma/grpc               941faea43805e99654f3dd06588b91c7b235a7fe v20170617 
 rust               ${BLOCK_PATH}/rust               git@github.com:imma/rust               b6fbb6f27ef7acfc6fc1a320e6ffb8435f475cd2 v20170617 
 clojure            ${BLOCK_PATH}/clojure            git@github.com:imma/clojure            f638ea6b5f7d2fcc22df8204cccb9f33fdeb2ce9 v20170617 
