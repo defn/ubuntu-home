@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-
-function main {
-  exec 2>&1
-  cat ~/Blockfile.json | jq -r "$@" || true
-}
-
-main "$@"
