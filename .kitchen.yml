@@ -102,5 +102,5 @@ suites:
       use_cache: <%= ENV['FOGG_USE_CACHE'] || "true" %>
       build_context: false
       volume:
-        - /data:/data
+        - <%= ENV['DATA'] %>:/data
       username: ubuntu
