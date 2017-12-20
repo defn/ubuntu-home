@@ -136,7 +136,7 @@
 /.chef
 /.rbenv
 /.buildkite
-/.kitchen
+.kitchen
 /.berkshelf
 /*.box
 /.nvm
