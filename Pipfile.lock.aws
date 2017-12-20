@@ -29,10 +29,10 @@
     "default": {
         "asn1crypto": {
             "hashes": [
-                "sha256:654b7db3b120e23474e9a1e5e38d268c77e58a9e17d2cb595456c37309846494",
-                "sha256:0874981329cfebb366d6584c3d16e913f2a0eb026c9463efcc4aaf42a9d94d70"
+                "sha256:2f1adbb7546ed199e3c90ef23ec95c5cf3585bac7d11fb7eb562a3fe89c64e87",
+                "sha256:9d5c20441baf0cb60a4ac34cc447c6c189024b6b4c6cd7877034f4965c464e49"
             ],
-            "version": "==0.23.0"
+            "version": "==0.24.0"
         },
         "attrs": {
             "hashes": [
@@ -57,24 +57,24 @@
         },
         "awscli": {
             "hashes": [
-                "sha256:d510652bb1241c77b0c1a23b4ce130c65671890e0e7901cfefe3e639e5788b39",
-                "sha256:8f69661802af896e6cc6e7ceef65039bf93707036ff8c617a7787971a6df0740"
+                "sha256:d53ea3b28c0885f5641ebd54e24013b49164be3aeb81ee4cf62ff1c0fae45757",
+                "sha256:773dfd019786ee21cfe29a78cabdee0bc8e2409829569fb8b320de070ebfb388"
             ],
-            "version": "==1.14.7"
+            "version": "==1.14.13"
         },
         "boto3": {
             "hashes": [
-                "sha256:edd35eb7cd8d56f08e65b112206936cf9f76bb406fb15f63075ff72331ef6f5f",
-                "sha256:332c6a17fd695581dd6f9ed825ce13c2d5ee3a6f5e1b079bed0ff7293809faf0"
+                "sha256:5f0e6f5c4e70bd226946073caef9b7e6fb715ed9af6887a77f3de3d8530514d7",
+                "sha256:19fc09ad1ad7f30880823d41f277b59f781190852c9cde0ad81c4ef6a1c2be2a"
             ],
-            "version": "==1.4.8"
+            "version": "==1.5.3"
         },
         "botocore": {
             "hashes": [
-                "sha256:98f10a24b4de64b6d74cc5dfb5a5d13877df619880992fc649ca7ae0ab745253",
-                "sha256:1c189f4f1b3a834c1679c875912f4d54553ded215e7060812c82494fa4883b5b"
+                "sha256:fb68fc9f90c28ea8a3e855e154989b15ac810b1a261c6f0b893a064a9d6a81f2",
+                "sha256:8bcc7f5c835a27c250fac9ec2cb561f937be72a067739e3ca53a5a1cf41030b3"
             ],
-            "version": "==1.8.11"
+            "version": "==1.8.17"
         },
         "cffi": {
             "hashes": [
