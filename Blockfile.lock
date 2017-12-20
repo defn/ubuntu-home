@@ -8,7 +8,7 @@ runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany 
 block              ${BLOCK_PATH}/block              git@github.com:imma/block              045ae23d132e941dc66b2124db6ce25692901148 v20170617 
 instance           ${BLOCK_PATH}/instance           git@github.com:imma/instance           7f7d726ab81f7ebcc0eb3b65d78052fa9973dc59 v20170617 
 base               ${BLOCK_PATH}/base               git@github.com:imma/base               d5fef23f3f58d2cde1a01b2a8c2ede45f26ca01f v20170617 
-ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      a1ec8558e88c9d9bb6cb60cab974ade52587ce26 v20170617 
+ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      7d9b1f832068572dc2192144199c581277739f2b v20170617 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           d82ec312c5a57aba7e747343f3f3b438ceb51338 v20170617 
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               8ab70d12318aa255a324e690e1699656f8a7b2be v20170617 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             5285b5ea1e2a1ba135ad4821e10dee669c73a21b v20170617 
@@ -98,7 +98,7 @@ ipfs               ${BLOCK_PATH}/ipfs               git@github.com:imma/ipfs    
 vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault              c7835f697001feb66ef98e5d2f9cbe40bb80cb2c v20170617 
 crypto             ${BLOCK_PATH}/crypto             git@github.com:imma/crypto             bb288745c83fed2a8739e581cfad4d6230e30183 v20170617 
 packer             ${BLOCK_PATH}/packer             git@github.com:imma/packer             e5f160079537ace6b2354cfb96dbe2a4ddabc147 v20170617 
-dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream              0bc2b553288b8e3a64a5498b73094fd2bcdb4c6d v20170617 
+dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream              072a33f268693b14c762a310cd9145e79268ba35 v20170617 
 vagrant            ${BLOCK_PATH}/vagrant            git@github.com:imma/vagrant            513eab632ff887bda779bd172e30ff76feebc47b v20170617 
 limbo              ${BLOCK_PATH}/limbo              git@github.com:imma/limbo              7078c86f35f79e89082ca8106d0add06b7d5df0c v20170617 
 inception          ${BLOCK_PATH}/inception          git@github.com:imma/inception          c41630295bc0390ead91a50b994648ed3d3ac66a v20170617 
