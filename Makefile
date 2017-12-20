@@ -48,7 +48,7 @@ reset-docker-ubuntu:
 	docker tag $(hub)/block:ubuntu $(registry)/$(image)
 
 reset-aws:
-	vagrant box add -f block:ubuntu /data/cache/box/aws/block:base.box
+	vagrant box add -f block:ubuntu $(DATA)/cache/box/aws/block:base.box
 
 rebuild-docker:
 	$(make) docker-update

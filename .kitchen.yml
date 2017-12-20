@@ -4,7 +4,7 @@ driver:
   ssh:
     insert_key: false
   synced_folders:
-    - [ "/data", "/data" ]
+    - [ "<%= ENV['DATA'] %>", "/data" ]
     - [ ".", "/tmp/home" ]
   box_check_update: false
 
