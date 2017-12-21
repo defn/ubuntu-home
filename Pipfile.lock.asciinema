@@ -1,38 +1,35 @@
 {
-    "_meta": {
-        "hash": {
-            "sha256": "ba960cd46e7f44a7fda5271d849201790ec1f7973cf764a7c3ff0480e9542000"
-        },
-        "host-environment-markers": {
-            "implementation_name": "cpython",
-            "implementation_version": "3.6.3",
-            "os_name": "posix",
-            "platform_machine": "x86_64",
-            "platform_python_implementation": "CPython",
-            "platform_release": "16.7.0",
-            "platform_system": "Darwin",
-            "platform_version": "Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64",
-            "python_full_version": "3.6.3",
-            "python_version": "3.6",
-            "sys_platform": "darwin"
-        },
-        "pipfile-spec": 6,
-        "requires": {},
-        "sources": [
-            {
-                "name": "pypi",
-                "url": "https://pypi.python.org/simple",
-                "verify_ssl": true
-            }
-        ]
+  "_meta": {
+    "hash": {
+      "sha256": "ba960cd46e7f44a7fda5271d849201790ec1f7973cf764a7c3ff0480e9542000"
     },
-    "default": {
-        "asciinema": {
-            "hashes": [
-                "sha256:fb31457e7a4689340b872f625658dbaea33bcf6863fb5d696cf3857010432ecb"
-            ],
-            "version": "==1.4.0"
-        }
+    "host-environment-markers": {
+      "implementation_name": "cpython",
+      "implementation_version": "3.6.3",
+      "os_name": "posix",
+      "platform_machine": "x86_64",
+      "platform_python_implementation": "CPython",
+      "platform_release": "16.7.0",
+      "platform_system": "Darwin",
+      "platform_version": "Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64",
+      "python_full_version": "3.6.3",
+      "python_version": "3.6",
+      "sys_platform": "darwin"
     },
-    "develop": {}
+    "pipfile-spec": 6,
+    "requires": {},
+    "sources": [
+      {
+        "name": "pypi",
+        "url": "https://pypi.python.org/simple",
+        "verify_ssl": true
+      }
+    ]
+  },
+  "default": {
+    "asciinema": {
+      "version": "==1.4.0"
+    }
+  },
+  "develop": {}
 }
