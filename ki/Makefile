@@ -11,5 +11,5 @@ keys: .ssh/authorized_keys .kitchen/docker_id_rsa.pub
 	mkdir -p .kitchen
 	ssh-keygen -f .kitchen/docker_id_rsa -N ""
 
-.kitchen/docker_id_rsa.pub: .kitchen/docker_id_rsa ../.ssh/authorized_keys
+.kitchen/docker_id_rsa.pub: ../.ssh/authorized_keys .kitchen/docker_id_rsa
 	head -1 $< > $@
