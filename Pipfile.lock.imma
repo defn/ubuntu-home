@@ -1,7 +1,7 @@
 {
   "_meta": {
     "hash": {
-      "sha256": "c3efdcb7d9f8830d07b4bd73016cce27478cc97fb2f3a4e9ec537fc12a5a1ee0"
+      "sha256": "00e3c920e0af0920e236dd5d6c1e593a53156d607a44af145c9a787082ef51dc"
     },
     "host-environment-markers": {
       "implementation_name": "cpython",
@@ -9,12 +9,12 @@
       "os_name": "posix",
       "platform_machine": "x86_64",
       "platform_python_implementation": "CPython",
-      "platform_release": "16.7.0",
-      "platform_system": "Darwin",
-      "platform_version": "Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64",
+      "platform_release": "4.9.60-linuxkit-aufs",
+      "platform_system": "Linux",
+      "platform_version": "#1 SMP Mon Nov 6 16:00:12 UTC 2017",
       "python_full_version": "3.6.3",
       "python_version": "3.6",
-      "sys_platform": "darwin"
+      "sys_platform": "linux"
     },
     "pipfile-spec": 6,
     "requires": {},
@@ -22,7 +22,7 @@
       {
         "name": "pypi",
         "url": "https://pypi.python.org/simple",
-        "verify_ssl": true
+        "verify_ssl": false
       }
     ]
   },

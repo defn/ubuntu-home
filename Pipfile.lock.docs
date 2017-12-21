@@ -1,7 +1,7 @@
 {
   "_meta": {
     "hash": {
-      "sha256": "993d9bfbdff76a90d8620156146951c390c80aacf6e86a2aebe7b8691c3f44f6"
+      "sha256": "c923698127b8b4696b6f4607bd56492375fcab9b7819e40a141b29fd330759d2"
     },
     "host-environment-markers": {
       "implementation_name": "cpython",
@@ -9,12 +9,12 @@
       "os_name": "posix",
       "platform_machine": "x86_64",
       "platform_python_implementation": "CPython",
-      "platform_release": "16.7.0",
-      "platform_system": "Darwin",
-      "platform_version": "Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64",
+      "platform_release": "4.9.60-linuxkit-aufs",
+      "platform_system": "Linux",
+      "platform_version": "#1 SMP Mon Nov 6 16:00:12 UTC 2017",
       "python_full_version": "3.6.3",
       "python_version": "3.6",
-      "sys_platform": "darwin"
+      "sys_platform": "linux"
     },
     "pipfile-spec": 6,
     "requires": {
@@ -24,13 +24,13 @@
       {
         "name": "pypi",
         "url": "https://pypi.python.org/simple",
-        "verify_ssl": true
+        "verify_ssl": false
       }
     ]
   },
   "default": {
     "markdown": {
-      "version": "==2.6.9"
+      "version": "==2.6.10"
     },
     "pycco": {
       "version": "==0.5.1"
@@ -42,7 +42,7 @@
       "version": "==0.5.4"
     },
     "smartypants": {
-      "version": "==2.0.0"
+      "version": "==2.0.1"
     }
   },
   "develop": {}

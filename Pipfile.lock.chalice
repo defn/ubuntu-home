@@ -1,7 +1,7 @@
 {
   "_meta": {
     "hash": {
-      "sha256": "6d186f10e2bd2055fbadc302d236242bed0fb41a9653f28a8a927f26a32b238c"
+      "sha256": "48189580a0dc195a051e678fe1da536e4838d098674068f3b719521426a5d079"
     },
     "host-environment-markers": {
       "implementation_name": "cpython",
@@ -9,12 +9,12 @@
       "os_name": "posix",
       "platform_machine": "x86_64",
       "platform_python_implementation": "CPython",
-      "platform_release": "16.7.0",
-      "platform_system": "Darwin",
-      "platform_version": "Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64",
+      "platform_release": "4.9.60-linuxkit-aufs",
+      "platform_system": "Linux",
+      "platform_version": "#1 SMP Mon Nov 6 16:00:12 UTC 2017",
       "python_full_version": "3.6.3",
       "python_version": "3.6",
-      "sys_platform": "darwin"
+      "sys_platform": "linux"
     },
     "pipfile-spec": 6,
     "requires": {},
@@ -22,19 +22,19 @@
       {
         "name": "pypi",
         "url": "https://pypi.python.org/simple",
-        "verify_ssl": true
+        "verify_ssl": false
       }
     ]
   },
   "default": {
     "botocore": {
-      "version": "==1.7.40"
+      "version": "==1.8.18"
     },
     "certifi": {
       "version": "==2017.11.5"
     },
     "chalice": {
-      "version": "==1.0.4"
+      "version": "==1.1.0"
     },
     "chardet": {
       "version": "==3.0.4"

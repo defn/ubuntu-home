@@ -1,7 +1,7 @@
 {
   "_meta": {
     "hash": {
-      "sha256": "ef64319ab9a92789752a87893c31dd7ab5f7cbb59ac7e40ec6f195d27d7aeba7"
+      "sha256": "e62cb9509ec4c8bfe149cf309a12d9913d97b715631c15adc6616c51c97f54f4"
     },
     "host-environment-markers": {
       "implementation_name": "cpython",
@@ -9,12 +9,12 @@
       "os_name": "posix",
       "platform_machine": "x86_64",
       "platform_python_implementation": "CPython",
-      "platform_release": "16.7.0",
-      "platform_system": "Darwin",
-      "platform_version": "Darwin Kernel Version 16.7.0: Mon Nov 13 21:56:25 PST 2017; root:xnu-3789.72.11~1/RELEASE_X86_64",
+      "platform_release": "4.9.60-linuxkit-aufs",
+      "platform_system": "Linux",
+      "platform_version": "#1 SMP Mon Nov 6 16:00:12 UTC 2017",
       "python_full_version": "3.6.3",
       "python_version": "3.6",
-      "sys_platform": "darwin"
+      "sys_platform": "linux"
     },
     "pipfile-spec": 6,
     "requires": {},
@@ -22,7 +22,7 @@
       {
         "name": "pypi",
         "url": "https://pypi.python.org/simple",
-        "verify_ssl": true
+        "verify_ssl": false
       }
     ]
   },
@@ -40,13 +40,13 @@
       "version": "==1.1.3"
     },
     "awscli": {
-      "version": "==1.14.13"
+      "version": "==1.14.14"
     },
     "boto3": {
-      "version": "==1.5.3"
+      "version": "==1.5.4"
     },
     "botocore": {
-      "version": "==1.8.17"
+      "version": "==1.8.18"
     },
     "cffi": {
       "markers": "platform_python_implementation != 'PyPy'",
