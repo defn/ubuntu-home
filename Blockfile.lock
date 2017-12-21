@@ -13,7 +13,7 @@ homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew
 java               ${BLOCK_PATH}/java               git@github.com:imma/java               8ab70d12318aa255a324e690e1699656f8a7b2be v20170617 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             41e97fb5217842f48be7963ac39d95459b19f062 v20170617 
 pyenv              ${BLOCK_PATH}/pyenv              git@github.com:imma/pyenv              49ad53e8867d822500f9b2c9d23a8692459e4de1 v20170617 
-python             ${BLOCK_PATH}/python             git@github.com:imma/python             d18dd162641f0e5221e76f434a765e5fed8c5ac4 v20170617 
+python             ${BLOCK_PATH}/python             git@github.com:imma/python             299050f90a68eaaa902603f25b09a5fc3f43b2e9 v20170617 
 py27               ${BLOCK_PATH}/py27               git@github.com:imma/py27               91e71753dbbd3ce19ef0bb231763332da7791fc7 v20170617 
 ansible            ${BLOCK_PATH}/ansible            git@github.com:imma/ansible            ff8364f928cd361f9aadd4919cd37c15c2eee1e1 v20170617 
 cache              ${BLOCK_PATH}/cache              git@github.com:imma/cache              1d3b700827162d63a6602102305f7746b969b84e v20170617 
