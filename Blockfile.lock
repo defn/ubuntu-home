@@ -64,7 +64,7 @@ jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins 
 drone              ${BLOCK_PATH}/drone              git@github.com:imma/drone              4dbe022405ff00bb1028ca25094c47df9649c4e7 v20170617 
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         95ff7d0f3358f5a8de2cc867a1cb70b6311a0c89 v20170617 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                a89862c51112dbcc727568c2eb828d7f32d85e54 v20170617 
-github             ${BLOCK_PATH}/github             git@github.com:imma/github             d969097f6ad1942496f3cefe6d2901e948cc4854 v20170617 
+github             ${BLOCK_PATH}/github             git@github.com:imma/github             b990699c826f00d2788b730d0912cbbf4022b476 v20170617 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             0233ebb2ec75aedcc72b79024b8aed6096ec167f v20170617 
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            81ee05991c4d04c408e29744f5ec5e87b9c6e37e v20170617 
 cicd               ${BLOCK_PATH}/cicd               git@github.com:imma/cicd               a564a25104ab18b95d5ab1fd1965ea068a4c2af1 v20170617 
