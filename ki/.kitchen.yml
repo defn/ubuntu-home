@@ -103,4 +103,5 @@ suites:
       build_context: false
       volume:
         - <%= ENV['DATA'] %>:/data
+        - /var/run/docker.sock:/var/run/docker.sock
       username: ubuntu
