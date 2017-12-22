@@ -5,6 +5,7 @@ all:
 keys: .ssh/authorized_keys .kitchen/docker_id_rsa.pub
 
 .ssh/authorized_keys: ../.ssh/authorized_keys
+	mkdir -p .ssh
 	rsync -ia $< $@
 
 .kitchen/docker_id_rsa:
