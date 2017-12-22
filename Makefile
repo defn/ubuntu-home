@@ -110,4 +110,4 @@ docs:
 
 checkpoint:
 	git push 
-	tar cvfz $(DATA)/cache/git/ubuntu-v20170616.tar.gz .git
+	tar cvfz $(DATA)/cache/git/ubuntu-master.tar.gz .git

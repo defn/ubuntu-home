@@ -4,8 +4,8 @@ set -exfu
 umask 0022
 
 function main {
-  local nm_branch="v20170617"
-  local nm_remote="gh"
+  local nm_branch="master"
+  local nm_remote="origin"
   local url_remote="https://github.com/imma/ubuntu"
 
   if [[ "$(id -u ubuntu 2>/dev/null || true)" != 1000 ]]; then
@@ -105,7 +105,7 @@ function main {
 
     ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
 
-    tar xfz /data/cache/git/ubuntu-v20170616.tar.gz
+    tar xfz /data/cache/git/ubuntu-master.tar.gz
     git reset --hard
     rsync -ia .gitconfig.template .gitconfig
     rsync -ia .ssh/config.template .ssh/config

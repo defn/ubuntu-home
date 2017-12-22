@@ -1,494 +1,494 @@
 [submodule "work/shflags"]
 	path = work/shflags
 	url = git@github.com:imma/shflags
-	branch = v20170617
+	branch = master
 [submodule "work/normalize"]
 	path = work/normalize
 	url = git@github.com:imma/normalize
-	branch = v20170617
+	branch = master
 [submodule "work/bash-preexec"]
 	path = work/bash-preexec
 	url = git@github.com:imma/bash-preexec
-	branch = v20170617
+	branch = master
 [submodule "work/sub"]
 	path = work/sub
 	url = git@github.com:imma/sub
-	branch = v20170617
+	branch = master
 [submodule "work/runmany"]
 	path = work/runmany
 	url = git@github.com:imma/runmany
-	branch = v20170617
+	branch = master
 [submodule "work/block"]
 	path = work/block
 	url = git@github.com:imma/block
-	branch = v20170617
+	branch = master
 [submodule "work/ubuntu-config"]
 	path = work/ubuntu-config
 	url = git@github.com:imma/ubuntu-config
-	branch = v20170617
+	branch = master
 [submodule "work/context"]
 	path = work/context
 	url = git@github.com:imma/context
-	branch = v20170617
+	branch = master
 [submodule "work/parity"]
 	path = work/parity
 	url = git@github.com:imma/parity
-	branch = v20170617
+	branch = master
 [submodule "work/pkgsrc"]
 	path = work/pkgsrc
 	url = git@github.com:imma/pkgsrc
-	branch = v20170617
+	branch = master
 [submodule "work/jq"]
 	path = work/jq
 	url = git@github.com:imma/jq
-	branch = v20170617
+	branch = master
 [submodule "work/base"]
 	path = work/base
 	url = git@github.com:imma/base
-	branch = v20170617
+	branch = master
 [submodule "work/python"]
 	path = work/python
 	url = git@github.com:imma/python
-	branch = v20170617
+	branch = master
 [submodule "work/cache"]
 	path = work/cache
 	url = git@github.com:imma/cache
-	branch = v20170617
+	branch = master
 [submodule "work/curl"]
 	path = work/curl
 	url = git@github.com:imma/curl
-	branch = v20170617
+	branch = master
 [submodule "work/nodeenv"]
 	path = work/nodeenv
 	url = git@github.com:imma/nodeenv
-	branch = v20170617
+	branch = master
 [submodule "work/node"]
 	path = work/node
 	url = git@github.com:imma/node
-	branch = v20170617
+	branch = master
 [submodule "work/java"]
 	path = work/java
 	url = git@github.com:imma/java
-	branch = v20170617
+	branch = master
 [submodule "work/bash4"]
 	path = work/bash4
 	url = git@github.com:imma/bash4
-	branch = v20170617
+	branch = master
 [submodule "work/homebrew"]
 	path = work/homebrew
 	url = git@github.com:imma/homebrew
-	branch = v20170617
+	branch = master
 [submodule "work/runit"]
 	path = work/runit
 	url = git@github.com:imma/runit
-	branch = v20170617
+	branch = master
 [submodule "work/service"]
 	path = work/service
 	url = git@github.com:imma/service
-	branch = v20170617
+	branch = master
 [submodule "work/sshd"]
 	path = work/sshd
 	url = git@github.com:imma/sshd
-	branch = v20170617
+	branch = master
 [submodule "work/ansible"]
 	path = work/ansible
 	url = git@github.com:imma/ansible
-	branch = v20170617
+	branch = master
 [submodule "work/facts"]
 	path = work/facts
 	url = git@github.com:imma/facts
-	branch = v20170617
+	branch = master
 [submodule "work/consul"]
 	path = work/consul
 	url = git@github.com:imma/consul
-	branch = v20170617
+	branch = master
 [submodule "work/consul-agent"]
 	path = work/consul-agent
 	url = git@github.com:imma/consul-agent
-	branch = v20170617
+	branch = master
 [submodule "work/linkerd"]
 	path = work/linkerd
 	url = git@github.com:imma/linkerd
-	branch = v20170617
+	branch = master
 [submodule "work/inventory"]
 	path = work/inventory
 	url = git@github.com:imma/inventory
-	branch = v20170617
+	branch = master
 [submodule "work/deploy"]
 	path = work/deploy
 	url = git@github.com:imma/deploy
-	branch = v20170617
+	branch = master
 [submodule "work/aws"]
 	path = work/aws
 	url = git@github.com:imma/aws
-	branch = v20170617
+	branch = master
 [submodule "work/talign"]
 	path = work/talign
 	url = git@github.com:imma/talign
-	branch = v20170617
+	branch = master
 [submodule "work/git"]
 	path = work/git
 	url = git@github.com:imma/git
-	branch = v20170617
+	branch = master
 [submodule "work/junas"]
 	path = work/junas
 	url = git@github.com:imma/junas
-	branch = v20170617
+	branch = master
 [submodule "work/cue"]
 	path = work/cue
 	url = git@github.com:imma/cue
-	branch = v20170617
+	branch = master
 [submodule "work/defn"]
 	path = work/defn
 	url = git@github.com:imma/defn
-	branch = v20170617
+	branch = master
 [submodule "work/htop"]
 	path = work/htop
 	url = git@github.com:imma/htop
-	branch = v20170617
+	branch = master
 [submodule "work/sysadmin"]
 	path = work/sysadmin
 	url = git@github.com:imma/sysadmin
-	branch = v20170617
+	branch = master
 [submodule "work/docker-compose"]
 	path = work/docker-compose
 	url = git@github.com:imma/docker-compose
-	branch = v20170617
+	branch = master
 [submodule "work/syslog-ng"]
 	path = work/syslog-ng
 	url = git@github.com:imma/syslog-ng
-	branch = v20170617
+	branch = master
 [submodule "work/gpg"]
 	path = work/gpg
 	url = git@github.com:imma/gpg
-	branch = v20170617
+	branch = master
 [submodule "work/git-crypt"]
 	path = work/git-crypt
 	url = git@github.com:imma/git-crypt
-	branch = v20170617
+	branch = master
 [submodule "work/site"]
 	path = work/site
 	url = git@github.com:imma/site
-	branch = v20170617
+	branch = master
 [submodule "work/imma"]
 	path = work/imma
 	url = git@github.com:imma/imma
-	branch = v20170617
+	branch = master
 [submodule "work/yarn"]
 	path = work/yarn
 	url = git@github.com:imma/yarn
-	branch = v20170617
+	branch = master
 [submodule "work/home"]
 	path = work/home
 	url = git@github.com:imma/home
-	branch = v20170617
+	branch = master
 [submodule "work/monitor"]
 	path = work/monitor
 	url = git@github.com:imma/monitor
-	branch = v20170617
+	branch = master
 [submodule "work/netdata"]
 	path = work/netdata
 	url = git@github.com:imma/netdata
-	branch = v20170617
+	branch = master
 [submodule "work/crypto"]
 	path = work/crypto
 	url = git@github.com:imma/crypto
-	branch = v20170617
+	branch = master
 [submodule "work/jqq"]
 	path = work/jqq
 	url = git@github.com:imma/jqq
-	branch = v20170617
+	branch = master
 [submodule "work/github"]
 	path = work/github
 	url = git@github.com:imma/github
-	branch = v20170617
+	branch = master
 [submodule "work/example"]
 	path = work/example
 	url = git@github.com:imma/example
-	branch = v20170617
+	branch = master
 [submodule "work/nothing"]
 	path = work/nothing
 	url = git@github.com:imma/nothing
-	branch = v20170617
+	branch = master
 [submodule "work/app"]
 	path = work/app
 	url = git@github.com:imma/app
-	branch = v20170617
+	branch = master
 [submodule "work/cfssl"]
 	path = work/cfssl
 	url = git@github.com:imma/cfssl
-	branch = v20170617
+	branch = master
 [submodule "work/go"]
 	path = work/go
 	url = git@github.com:imma/go
-	branch = v20170617
+	branch = master
 [submodule "work/instance"]
 	path = work/instance
 	url = git@github.com:imma/instance
-	branch = v20170617
+	branch = master
 [submodule "work/cloud"]
 	path = work/cloud
 	url = git@github.com:imma/cloud
-	branch = v20170617
+	branch = master
 [submodule "work/digitalocean"]
 	path = work/digitalocean
 	url = git@github.com:imma/digitalocean
-	branch = v20170617
+	branch = master
 [submodule "work/docker-machine"]
 	path = work/docker-machine
 	url = git@github.com:imma/docker-machine
-	branch = v20170617
+	branch = master
 [submodule "work/etcd"]
 	path = work/etcd
 	url = git@github.com:imma/etcd
-	branch = v20170617
+	branch = master
 [submodule "work/docker"]
 	path = work/docker
 	url = git@github.com:imma/docker
-	branch = v20170617
+	branch = master
 [submodule "work/credstash"]
 	path = work/credstash
 	url = git@github.com:imma/credstash
-	branch = v20170617
+	branch = master
 [submodule "work/getssl"]
 	path = work/getssl
 	url = git@github.com:imma/getssl
-	branch = v20170617
+	branch = master
 [submodule "work/rbenv"]
 	path = work/rbenv
 	url = git@github.com:imma/rbenv
-	branch = v20170617
+	branch = master
 [submodule "work/ruby"]
 	path = work/ruby
 	url = git@github.com:imma/ruby
-	branch = v20170617
+	branch = master
 [submodule "work/chef"]
 	path = work/chef
 	url = git@github.com:imma/chef
-	branch = v20170617
+	branch = master
 [submodule "work/codecommit"]
 	path = work/codecommit
 	url = git@github.com:imma/codecommit
-	branch = v20170617
+	branch = master
 [submodule "work/inspec"]
 	path = work/inspec
 	url = git@github.com:imma/inspec
-	branch = v20170617
+	branch = master
 [submodule "work/kitchen"]
 	path = work/kitchen
 	url = git@github.com:imma/kitchen
-	branch = v20170617
+	branch = master
 [submodule "work/nvm"]
 	path = work/nvm
 	url = git@github.com:imma/nvm
-	branch = v20170617
+	branch = master
 [submodule "work/ipfs"]
 	path = work/ipfs
 	url = git@github.com:imma/ipfs
-	branch = v20170617
+	branch = master
 [submodule "work/irssi"]
 	path = work/irssi
 	url = git@github.com:imma/irssi
-	branch = v20170617
+	branch = master
 [submodule "work/asciinema"]
 	path = work/asciinema
 	url = git@github.com:imma/asciinema
-	branch = v20170617
+	branch = master
 [submodule "work/build"]
 	path = work/build
 	url = git@github.com:imma/build
-	branch = v20170617
+	branch = master
 [submodule "work/docs"]
 	path = work/docs
 	url = git@github.com:imma/docs
-	branch = v20170617
+	branch = master
 [submodule "work/dream"]
 	path = work/dream
 	url = git@github.com:imma/dream
-	branch = v20170617
+	branch = master
 [submodule "work/fogg"]
 	path = work/fogg
 	url = git@github.com:imma/fogg
-	branch = v20170617
+	branch = master
 [submodule "work/hugo"]
 	path = work/hugo
 	url = git@github.com:imma/hugo
-	branch = v20170617
+	branch = master
 [submodule "work/hugo-material-docs"]
 	path = work/hugo-material-docs
 	url = git@github.com:imma/hugo-material-docs
-	branch = v20170617
+	branch = master
 [submodule "work/inception"]
 	path = work/inception
 	url = git@github.com:imma/inception
-	branch = v20170617
+	branch = master
 [submodule "work/limbo"]
 	path = work/limbo
 	url = git@github.com:imma/limbo
-	branch = v20170617
+	branch = master
 [submodule "work/packer"]
 	path = work/packer
 	url = git@github.com:imma/packer
-	branch = v20170617
+	branch = master
 [submodule "work/terraform"]
 	path = work/terraform
 	url = git@github.com:imma/terraform
-	branch = v20170617
+	branch = master
 [submodule "work/tfenv"]
 	path = work/tfenv
 	url = git@github.com:imma/tfenv
-	branch = v20170617
+	branch = master
 [submodule "work/vagrant"]
 	path = work/vagrant
 	url = git@github.com:imma/vagrant
-	branch = v20170617
+	branch = master
 [submodule "work/postgresql"]
 	path = work/postgresql
 	url = git@github.com:imma/postgresql
-	branch = v20170617
+	branch = master
 [submodule "work/chat"]
 	path = work/chat
 	url = git@github.com:imma/chat
-	branch = v20170617
+	branch = master
 [submodule "work/bitlbee"]
 	path = work/bitlbee
 	url = git@github.com:imma/bitlbee
-	branch = v20170617
+	branch = master
 [submodule "work/fogg-cli"]
 	path = work/fogg-cli
 	url = git@github.com:imma/fogg-cli
-	branch = v20170617
+	branch = master
 [submodule "work/lock"]
 	path = work/lock
 	url = git@github.com:imma/lock
-	branch = v20170617
+	branch = master
 [submodule "work/openvpn"]
 	path = work/openvpn
 	url = git@github.com:imma/openvpn
-	branch = v20170617
+	branch = master
 [submodule "work/nat"]
 	path = work/nat
 	url = git@github.com:imma/nat
-	branch = v20170617
+	branch = master
 [submodule "work/easy-rsa"]
 	path = work/easy-rsa
 	url = git@github.com:imma/easy-rsa
 [submodule "work/kmsauth"]
 	path = work/kmsauth
 	url = git@github.com:imma/kmsauth
-	branch = v20170617
+	branch = master
 [submodule "work/make"]
 	path = work/make
 	url = git@github.com:imma/make
-	branch = v20170617
+	branch = master
 [submodule "work/wtf"]
 	path = work/wtf
 	url = git@github.com:imma/wtf
-	branch = v20170617
+	branch = master
 [submodule "work/namerd"]
 	path = work/namerd
 	url = git@github.com:imma/namerd
-	branch = v20170617
+	branch = master
 [submodule "work/vmm"]
 	path = work/vmm
 	url = git@github.com:imma/vmm
-	branch = v20170617
+	branch = master
 [submodule "work/openresty"]
 	path = work/openresty
 	url = git@github.com:imma/openresty
-	branch = v20170617
+	branch = master
 [submodule "work/chalice"]
 	path = work/chalice
 	url = git@github.com:imma/chalice
-	branch = v20170617
+	branch = master
 [submodule "work/aws-vault"]
 	path = work/aws-vault
 	url = git@github.com:imma/aws-vault
-	branch = v20170617
+	branch = master
 [submodule "work/chamber"]
 	path = work/chamber
 	url = git@github.com:imma/chamber
-	branch = v20170617
+	branch = master
 [submodule "work/awless"]
 	path = work/awless
 	url = git@github.com:imma/awless
-	branch = v20170617
+	branch = master
 [submodule "work/jenkins"]
 	path = work/jenkins
 	url = git@github.com:imma/jenkins
-	branch = v201706717
+	branch = master
 [submodule "work/heroku"]
 	path = work/heroku
 	url = git@github.com:imma/heroku
-	branch = v20170617
+	branch = master
 [submodule "work/packet"]
 	path = work/packet
 	url = git@github.com:imma/packet
-	branch = v20170617
+	branch = master
 [submodule "work/eb"]
 	path = work/eb
 	url = git@github.com:imma/eb
-	branch = v20170617
+	branch = master
 [submodule "work/se"]
 	path = work/se
 	url = git@github.com:imma/se
-	branch = v20170617
+	branch = master
 [submodule "work/haihero"]
 	path = work/haihero
 	url = git@github.com:imma/haihero
-	branch = v20170617
+	branch = master
 [submodule "work/ftl"]
 	path = work/ftl
 	url = git@github.com:imma/ftl
-	branch = v20170617
+	branch = master
 [submodule "work/rat"]
 	path = work/rat
 	url = git@github.com:imma/rat
-	branch = v20170617
+	branch = master
 [submodule "work/gotty"]
 	path = work/gotty
 	url = git@github.com:imma/gotty
-	branch = v20170617
+	branch = master
 [submodule "work/yubikey"]
 	path = work/yubikey
 	url = git@github.com:imma/yubikey
-	branch = v20170617
+	branch = master
 [submodule "work/drone"]
 	path = work/drone
 	url = git@github.com:imma/drone
-	branch = v20170617
+	branch = master
 [submodule "work/cicd"]
 	path = work/cicd
 	url = git@github.com:imma/cicd
-	branch = v20170617
+	branch = master
 [submodule "work/awesome"]
 	path = work/awesome
 	url = git@github.com:imma/awesome
-	branch = v20170617
+	branch = master
 [submodule "work/lang"]
 	path = work/lang
 	url = git@github.com:imma/lang
-	branch = 20170617
+	branch = master
 [submodule "work/py27"]
 	path = work/py27
 	url = git@github.com:imma/py27
-	branch = 20170617
+	branch = master
 [submodule "work/py36"]
 	path = work/py36
 	url = git@github.com:imma/py36
-	branch = 20170617
+	branch = master
 [submodule "work/pyenv"]
 	path = work/pyenv
 	url = git@github.com:imma/pyenv
-	branch = 20170617
+	branch = master
 [submodule "work/grpc"]
 	path = work/grpc
 	url = git@github.com:imma/grpc
-	branch = 20170617
+	branch = master
 [submodule "work/cookiecutter"]
 	path = work/cookiecutter
 	url = git@github.com:imma/cookiecutter
-	branch = 20170617
+	branch = master
 [submodule "work/fogg-tf"]
 	path = work/fogg-tf
 	url = git@github.com:imma/fogg-tf
@@ -498,55 +498,55 @@
 [submodule "work/beautifulhugo"]
 	path = work/beautifulhugo
 	url = git@github.com:imma/beautifulhugo
-	branch = v20170617
+	branch = master
 [submodule "work/zerotier"]
 	path = work/zerotier
 	url = git@github.com:imma/zerotier
 [submodule "work/fabio"]
 	path = work/fabio
 	url = git@github.com:imma/fabio
-	branch = v20170617
+	branch = master
 [submodule "work/consul-server"]
 	path = work/consul-server
 	url = git@github.com:imma/consul-server
-	branch = v20170617
+	branch = master
 [submodule "work/rust"]
 	path = work/rust
 	url = git@github.com:imma/rust
-	branch = v20170617
+	branch = master
 [submodule "work/kong"]
 	path = work/kong
 	url = git@github.com:imma/kong
-	branch = v20170617
+	branch = master
 [submodule "work/tmux"]
 	path = work/tmux
 	url = git@github.com:imma/tmux
-	branch = v20170617
+	branch = master
 [submodule "work/ecs"]
 	path = work/ecs
 	url = git@github.com:imma/ecs
-	branch = v20170617
+	branch = master
 [submodule "work/cryfs"]
 	path = work/cryfs
 	url = git@github.com:imma/cryfs
-	branch = v20170617
+	branch = master
 [submodule "work/vault"]
 	path = work/vault
 	url = git@github.com:imma/vault
-	branch = v20170617
+	branch = master
 [submodule "work/registrator"]
 	path = work/registrator
 	url = git@github.com:imma/registrator
-	branch = v20170617
+	branch = master
 [submodule "work/tugboat"]
 	path = work/tugboat
 	url = git@github.com:imma/tugboat
-	branch = v20170617
+	branch = master
 [submodule "work/konga"]
 	path = work/konga
 	url = git@github.com:imma/konga
-	branch = 20170617
+	branch = master
 [submodule "work/clojure"]
 	path = work/clojure
 	url = git@github.com:imma/clojure
-	branch = v20170617
+	branch = master
