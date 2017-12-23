@@ -69,7 +69,7 @@ inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec  
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            ea898132d0f4b1edb3bb8f767284b0387ec7ba45 master 
 cicd               ${BLOCK_PATH}/cicd               git@github.com:imma/cicd               a564a25104ab18b95d5ab1fd1965ea068a4c2af1 master 
 aws-vault          ${BLOCK_PATH}/aws-vault          git@github.com:imma/aws-vault          e87c79546f2f4381dddd71804cab3ea5c76472eb master 
-chamber            ${BLOCK_PATH}/chamber            git@github.com:imma/chamber            bb7dab71d5a6a212b8f6b86cf6df636dd4ca2c08 master 
+chamber            ${BLOCK_PATH}/chamber            git@github.com:imma/chamber            7aabb4ee229aae8f7b736257e66b8c7ff0646f7c master 
 awless             ${BLOCK_PATH}/awless             git@github.com:imma/awless             8135de3aa3765baedc09fdee0a518e56795ad137 master 
 credstash          ${BLOCK_PATH}/credstash          git@github.com:imma/credstash          c915581d693c0435f18f3df8f7dc4e324164312c master 
 aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                dd0a331d8f85c23b30d403f53ee4315522310dbd master 
@@ -132,7 +132,7 @@ se                 ${BLOCK_PATH}/se                 git@github.com:imma/se      
 haihero            ${BLOCK_PATH}/haihero            git@github.com:imma/haihero            1678e309499d300e72d55cd1837e7f63ff676790 master 
 gotty              ${BLOCK_PATH}/gotty              git@github.com:imma/gotty              a6fad2b1562124e0869480734f14a2e0a8adf99a master 
 cookiecutter       ${BLOCK_PATH}/cookiecutter       git@github.com:imma/cookiecutter       83edb52e097e82f0e89df1ad0b7d9aa7907e1dac master 
-fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            5f2135c514ac2ed1ab0ecb023c9c88848e4313e3 master 
+fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            cb316631c33840236c21642190650764d47fb9bc master 
 imma-tf            ${BLOCK_PATH}/imma-tf            git@github.com:imma/imma-tf            c1bfa843802499d483ed2da51f81ff40f3a88275 master 
 registrator        ${BLOCK_PATH}/registrator        git@github.com:imma/registrator        95d2bd8291a0a9f12d5dcbd0217a9def7cf75e05 master 
 tugboat            ${BLOCK_PATH}/tugboat            git@github.com:imma/tugboat            a398d42e9f42fc24fdaa08407f8cebbcb6b07a59 master 
