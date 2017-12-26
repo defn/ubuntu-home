@@ -63,8 +63,8 @@ postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgres
 jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins            7fc869e130d8a85c73f3b96070f440d7bcff93ce master 
 drone              ${BLOCK_PATH}/drone              git@github.com:imma/drone              4dbe022405ff00bb1028ca25094c47df9649c4e7 master 
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         95ff7d0f3358f5a8de2cc867a1cb70b6311a0c89 master 
-git                ${BLOCK_PATH}/git                git@github.com:imma/git                a89862c51112dbcc727568c2eb828d7f32d85e54 master 
-github             ${BLOCK_PATH}/github             git@github.com:imma/github             be0a6bae9caddf796998d5c3d62f3a57faa89793 master 
+git                ${BLOCK_PATH}/git                git@github.com:imma/git                81eb08cf9ab4be5818f6ae13d861e7ee5c79a78c master 
+github             ${BLOCK_PATH}/github             git@github.com:imma/github             d0169d87bac33824fa5ff8f6066bf7d2b058bfca master 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             0233ebb2ec75aedcc72b79024b8aed6096ec167f master 
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            ea898132d0f4b1edb3bb8f767284b0387ec7ba45 master 
 cicd               ${BLOCK_PATH}/cicd               git@github.com:imma/cicd               a564a25104ab18b95d5ab1fd1965ea068a4c2af1 master 
