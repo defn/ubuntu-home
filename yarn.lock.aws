@@ -25,8 +25,8 @@ ajv@^5.1.0:
     json-schema-traverse "^0.3.0"
 
 amazon-cognito-identity-js@^1.19.0:
-  version "1.28.0"
-  resolved "https://registry.yarnpkg.com/amazon-cognito-identity-js/-/amazon-cognito-identity-js-1.28.0.tgz#0dacba4db94ab97a1ad742c376b3e632fc5f772f"
+  version "1.29.0"
+  resolved "https://registry.yarnpkg.com/amazon-cognito-identity-js/-/amazon-cognito-identity-js-1.29.0.tgz#bf1180a846b642e4aece3d970566d44e470c8162"
   dependencies:
     aws-sdk "^2.6.0"
     js-cookie "^2.1.4"
@@ -126,8 +126,8 @@ aws-sdk-mobile-analytics@^0.9.2:
     aws-sdk ">=2.2.37"
 
 aws-sdk@>=2.2.37, aws-sdk@^2.101.0, aws-sdk@^2.131.0, aws-sdk@^2.6.0:
-  version "2.172.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.172.0.tgz#47dfb79907976ebbd538562ea5a25835b5b3f35d"
+  version "2.175.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.175.0.tgz#33346247b3b9ca674f275eea746edfdfb6479e44"
   dependencies:
     buffer "4.9.1"
     crypto-browserify "1.0.9"
@@ -529,8 +529,8 @@ end-of-stream@^1.0.0:
     once "^1.4.0"
 
 es6-promise@^4.0.3:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.1.1.tgz#8811e90915d9a0dba36274f0b242dbda78f9c92a"
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.2.2.tgz#f722d7769af88bd33bc13ec6605e1f92966b82d9"
 
 es6-promisify@^5.0.0:
   version "5.0.0"

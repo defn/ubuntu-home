@@ -132,7 +132,7 @@ se                 ${BLOCK_PATH}/se                 git@github.com:imma/se      
 haihero            ${BLOCK_PATH}/haihero            git@github.com:imma/haihero            1678e309499d300e72d55cd1837e7f63ff676790 master 
 gotty              ${BLOCK_PATH}/gotty              git@github.com:imma/gotty              a6fad2b1562124e0869480734f14a2e0a8adf99a master 
 cookiecutter       ${BLOCK_PATH}/cookiecutter       git@github.com:imma/cookiecutter       83edb52e097e82f0e89df1ad0b7d9aa7907e1dac master 
-fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            cb316631c33840236c21642190650764d47fb9bc master 
+fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            20fad4bc7f9c011d49a7b5510526544d416deeb2 master 
 imma-tf            ${BLOCK_PATH}/imma-tf            git@github.com:imma/imma-tf            c1bfa843802499d483ed2da51f81ff40f3a88275 master 
 registrator        ${BLOCK_PATH}/registrator        git@github.com:imma/registrator        95d2bd8291a0a9f12d5dcbd0217a9def7cf75e05 master 
 tugboat            ${BLOCK_PATH}/tugboat            git@github.com:imma/tugboat            a398d42e9f42fc24fdaa08407f8cebbcb6b07a59 master 
