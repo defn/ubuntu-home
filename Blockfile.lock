@@ -1,5 +1,5 @@
 site               ${BLOCK_PATH}/site               git@github.com:imma/site               91d39ce1c6c6ab14a2c82c813dcb727e5d11cba8 master 
-jq                 ${BLOCK_PATH}/jq                 git@github.com:imma/jq                 0acc3493554d97f931a8226b803688537a6abe57 master 
+jq                 ${BLOCK_PATH}/jq                 git@github.com:imma/jq                 683bf22ca03c98d53854d031f8647ae9f9c70dd7 master 
 shflags            ${BLOCK_PATH}/shflags            git@github.com:imma/shflags            a05166fedaf8481d2ff856591f4f50257d12521b master 
 normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normalize          ca938498f15fe070268e89b5ec405bdef58308b4 master 
 bash-preexec       ${BLOCK_PATH}/bash-preexec       git@github.com:imma/bash-preexec       8658d4be458078d00b65cb5f34c6e79d27fd6c4e master 
