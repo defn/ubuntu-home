@@ -42,10 +42,10 @@ runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit   
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            3f2c8fac2b0c2592a6ae5eaec4c68cd2d9776415 master 
 sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               d620a1bacfbda9134faf2186ca40047ad4755107 master 
 facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts              9c69d9500281b4cafffaf5834e4d096ab4e90dab master 
-consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             ee7cdc64b8e598e09d0d4607de6589d80384cc8d master 
-consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       90371baae696f07447194635e1096271b4df7327 master 
+consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             65f9a294fd70e73f662b7dc94f0647fd6a594808 master 
+consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       17898d7ee3325fa7d62780899f4c4bbc7ad0bc4e master 
 consul-server      ${BLOCK_PATH}/consul-server      git@github.com:imma/consul-server      2f00d84b8603d05d68a0a406a856487d068cf1b4 master 
-etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               ec0b6bb9be6b50ccba690aefa4acf0f11d5b8115 master 
+etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd               08394c75e2cd817431a077934c56c27dde17ba08 master 
 linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            87dc2cf4e2ad2f603cc56bbfc0f11fa237a5f7ac master 
 namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             c571a8e9b649e7f548dd4e73c9f29288d6ffc4d5 master 
 fabio              ${BLOCK_PATH}/fabio              git@github.com:imma/fabio              5a80c26fa32c83d582b75576b5e4f00996b2c83d master 
@@ -60,11 +60,11 @@ docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-c
 docker-machine     ${BLOCK_PATH}/docker-machine     git@github.com:imma/docker-machine     06f16df6beb63596e0a154f06d51ba10e6e679a8 master 
 docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             4f52426beee178df1b76536b56d3396095101a83 master 
 postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgresql         554f3c8cc8990d50bc98a8fb5b9625d20195e5ca master 
-jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins            b29c0dfe4ce944ec2426f0789c829ff188f00196 master 
+jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins            ee1b542ad1f51c88b8d571c7c9685b04ed6094e3 master 
 drone              ${BLOCK_PATH}/drone              git@github.com:imma/drone              5a495edc434fd24d1fa976fb8e9d5c3b890fdd38 master 
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         103788d5db3a95d559447d7e92dfb9f3f02268dd master 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                0d7cf5a570945800a06e01d1297f44ce5f5d87ab master 
-github             ${BLOCK_PATH}/github             git@github.com:imma/github             a252c4f2c11c4d9aea35ac02a583056864d0a7c3 master 
+github             ${BLOCK_PATH}/github             git@github.com:imma/github             de509eabff4aba5e6f5bcc4233247c4e1fe96918 master 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             c0b39d6624d48bac813a998be5337167d92c894a master 
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            1e1a1ff3a16a10b5a38f3bacdff256e39a82b26c master 
 cicd               ${BLOCK_PATH}/cicd               git@github.com:imma/cicd               938f4dd69010ef7e348c320f5fd9d3c268aa7ce9 master 
@@ -95,7 +95,7 @@ easy-rsa           ${BLOCK_PATH}/easy-rsa           git@github.com:imma/easy-rsa
 openvpn            ${BLOCK_PATH}/openvpn            git@github.com:imma/openvpn            9aef2036ab4f593b5e608cd7f81df97a60a6de7b master 
 zerotier           ${BLOCK_PATH}/zerotier           git@github.com:imma/zerotier           a1d1e0add988a6a6a8a6538d0118aa57588e9f19 master 
 ipfs               ${BLOCK_PATH}/ipfs               git@github.com:imma/ipfs               6fd9145479e03d14e63f2da66237cbad42e732f6 master 
-vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault              00fdb189b3e86fc6baae485b88ecd23c4396398f master 
+vault              ${BLOCK_PATH}/vault              git@github.com:imma/vault              5a69deea1d74d4decc0fdffe1bf4416d03212b52 master 
 crypto             ${BLOCK_PATH}/crypto             git@github.com:imma/crypto             57df5c9a83c44e4c9238f2e3c9e2f8fc96f8c5c5 master 
 packer             ${BLOCK_PATH}/packer             git@github.com:imma/packer             12e9513e080c891ba3fb4414fb48246c7f3fefce master 
 dream              ${BLOCK_PATH}/dream              git@github.com:imma/dream              5224cb3213815cbf49b3166307f4afb7ab21d61c master 
