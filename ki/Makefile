@@ -14,3 +14,13 @@ keys: .ssh/authorized_keys .kitchen/docker_id_rsa.pub
 
 .kitchen/docker_id_rsa.pub: ../.ssh/authorized_keys .kitchen/docker_id_rsa
 	head -1 $< > $@
+
+docker:
+	$(MAKE)
+	ki reset docker-ubuntu
+
+virtualbox:
+	ki reset virtualbox-ubuntu
+
+virtualbox-docker:
+	ki exec virtualbox-ubuntu -c 'ssh -A -o StrictHostKeyChecking=no ubuntu@localhost ki in reset docker-ubuntu'
