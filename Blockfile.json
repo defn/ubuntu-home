@@ -1,18 +1,85 @@
 {
   "require": [
-    [ "site", "ubuntu-config", "cache", "base", "deploy", "sysadmin" ],
-    [ "make", "jqq", "lang" ],
-    [ "sshd", "consul-agent", "consul-server", "etcd", "linkerd", "namerd", "fabio", "syslog-ng", "openresty", "kong", "konga", "chalice" ],
-    [ "docker", "postgresql" ],
-    [ "cicd" ],
-    [ "cloud", "imma" ],
-    [ "ansible", "chef" ],
-    [ "monitor", "crypto", "build" ],
-    [ "home", "defn", "junas", "chat", "cue", "tmux" ],
-    [ "example", "nothing", "app" ],
-    [ "lock", "nat", "rat" ],
-    [ "ftl", "se", "haihero", "gotty", "cookiecutter" ],
-    [ "fogg-tf", "imma-tf" ],
-    [ "registrator", "tugboat" ]
-  ]
+    [
+      "site",
+      "ubuntu-config",
+      "cache",
+      "base",
+      "deploy",
+      "sysadmin"
+    ],
+    [
+      "make",
+      "jqq",
+      "lang"
+    ],
+    [
+      "sshd",
+      "consul-agent",
+      "consul-server",
+      "etcd",
+      "linkerd",
+      "namerd",
+      "fabio",
+      "syslog-ng",
+      "openresty",
+      "kong",
+      "konga",
+      "chalice"
+    ],
+    [
+      "docker",
+      "postgresql"
+    ],
+    [
+      "cicd"
+    ],
+    [
+      "cloud",
+      "imma"
+    ],
+    [
+      "ansible",
+      "chef"
+    ],
+    [
+      "monitor",
+      "crypto",
+      "build"
+    ],
+    [
+      "home",
+      "defn",
+      "junas",
+      "chat",
+      "cue",
+      "tmux"
+    ],
+    [
+      "example",
+      "nothing",
+      "app"
+    ],
+    [
+      "lock",
+      "nat",
+      "rat"
+    ],
+    [
+      "ftl",
+      "se",
+      "haihero",
+      "gotty",
+      "cookiecutter"
+    ],
+    [
+      "fogg-tf",
+      "imma-tf"
+    ],
+    [
+      "registrator",
+      "tugboat"
+    ]
+  ],
+  "versions": {}
 }
