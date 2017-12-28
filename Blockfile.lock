@@ -118,7 +118,7 @@ defn               ${BLOCK_PATH}/defn               git@github.com:imma/defn    
 junas              ${BLOCK_PATH}/junas              git@github.com:imma/junas              3d13a768154b2026573367d3ed885765debe913b master 
 irssi              ${BLOCK_PATH}/irssi              git@github.com:imma/irssi              acd2afe4839c95aa02a9c3161b3db53172841762 master 
 bitlbee            ${BLOCK_PATH}/bitlbee            git@github.com:imma/bitlbee            c5ab1e2c32345d77934b91d5a15a9674853a701c master 
-chat               ${BLOCK_PATH}/chat               git@github.com:imma/chat               054145dd2f5c9cc99cab1039877eb723e5bb218c master 
+chat               ${BLOCK_PATH}/chat               git@github.com:imma/chat               a63abc9f2952305484e5f14083b091d05fca271e master 
 cue                ${BLOCK_PATH}/cue                git@github.com:imma/cue                72faf57778c3863cc99c7779a4945a15968f7531 master 
 tmux               ${BLOCK_PATH}/tmux               git@github.com:imma/tmux               ad42782482b04aada3079a10503f9c82e458ec8e master 
 example            ${BLOCK_PATH}/example            git@github.com:imma/example            8589dbc5a27e35f44c0d8a780a64574bb4f24be0 master 
