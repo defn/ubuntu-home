@@ -23,7 +23,7 @@ htop               ${BLOCK_PATH}/htop               git@github.com:imma/htop    
 sysadmin           ${BLOCK_PATH}/sysadmin           git@github.com:imma/sysadmin           5673a13febc94baffc8241455cf5fbc5a8ae44db master 
 make               ${BLOCK_PATH}/make               git@github.com:imma/make               bc396044ec0c5a3d6c617f71084d0318bde10b3c master 
 jqq                ${BLOCK_PATH}/jqq                git@github.com:imma/jqq                01d45b37ca08e79040f9d5330be357a23637337c master 
-rbenv              ${BLOCK_PATH}/rbenv              git@github.com:imma/rbenv              c3dbb6ac89df69b4bdda502f5028ddc2f0dfeaf4 master 
+rbenv              ${BLOCK_PATH}/rbenv              git@github.com:imma/rbenv              8014445e0de77c4546e87692281f066f115c173a master 
 ruby               ${BLOCK_PATH}/ruby               git@github.com:imma/ruby               fa1e127c8f90d082b2e98a247a0fd1f3e19d7464 master 
 curl               ${BLOCK_PATH}/curl               git@github.com:imma/curl               bb57a7cea3f29a92b222fe7afe8c1e9072804ff8 master 
 nvm                ${BLOCK_PATH}/nvm                git@github.com:imma/nvm                e3edf70ec7e8554e3ce53598efe0acbd77d13e7d master 
@@ -53,7 +53,7 @@ syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-n
 openresty          ${BLOCK_PATH}/openresty          git@github.com:imma/openresty          07f0c5ea443c9ca5ea98085bbd40d88385e3ac18 master 
 kong               ${BLOCK_PATH}/kong               git@github.com:imma/kong               aefb4478da109e6a51986804bd7e56067da46952 master 
 konga              ${BLOCK_PATH}/konga              git@github.com:imma/konga              4785265aa7c7a1dffad52e4dfebb6f26da720513 master 
-chalice            ${BLOCK_PATH}/chalice            git@github.com:imma/chalice            0c9869ae59f6115ae173c295f9073ccdf11feaab master 
+chalice            ${BLOCK_PATH}/chalice            git@github.com:imma/chalice            a1c8736128c7bd90418ca614aa7cddf20e46eab5 master 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            edaced91a1fe73abd74c370dcc53a72c95bfabbc master 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             71ba46f4bfe28602fc50e399733761429b16b409 master 
 docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     586736435ed7d6c1e66a25ed32101681830d00c9 master 
