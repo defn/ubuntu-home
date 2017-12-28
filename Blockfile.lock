@@ -106,7 +106,7 @@ terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terrafor
 wtf                ${BLOCK_PATH}/wtf                git@github.com:imma/wtf                1b765c2f5ea1541f50367d6e2822d3d47663c900 master 
 fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           471411c7da588f8ffc3d2393ba104c2a4182418b master 
 fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               2237a11c48cd67b7c146f38623ae6f5ef526e1a5 master 
-hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               3d7baf26ac212c95b3e02bc32a4aa6f592f3504d master 
+hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               4c3f5e1710e0b8f390f75044015daaf7e18ecc64 master 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 4ca7bc271f76df5211eaa646626931e92bde285e master 
 beautifulhugo      ${BLOCK_PATH}/beautifulhugo      git@github.com:imma/beautifulhugo      86a11793042f4f4d1b79bdeee85fc556f1888e67 master 
 asciinema          ${BLOCK_PATH}/asciinema          git@github.com:imma/asciinema          f9c7dcadba05781b8f1e31ee0bfd5c5da4abc0c4 master 
