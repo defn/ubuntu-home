@@ -178,3 +178,4 @@ tmux-client*log
 /pkg
 /src
 /bin
+/.znc
