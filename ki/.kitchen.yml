@@ -27,6 +27,12 @@ platforms:
     driver:
       linked_clone: true
       dockerfile: ubuntu/Dockerfile
+  - name: minimal
+    driver:
+      linked_clone: true
+      dockerfile: ubuntu/Dockerfile
+      platform: ubuntu
+      script: ubuntu/minimal.sh
   - name: centos
     driver:
       linked_clone: true
