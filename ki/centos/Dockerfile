@@ -4,6 +4,9 @@ ENV container docker
 
 RUN yum update -y && yum install -y sudo openssh-server openssh-clients which curl
 
+RUN ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -N ''
+RUN ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key -N ''
+
 RUN groupadd -g 1000 ubuntu
 RUN useradd -u 1000 -g ubuntu -d /home/ubuntu -m -s /bin/bash -p '*' ubuntu
 
