@@ -1,0 +1,20 @@
+FROM ubuntu:16.04
+
+ENV container docker
+
+ENV DEBIAN_FRONTEND noninteractive
+RUN dpkg-divert --local --rename --add /sbin/initctl
+RUN ln -sf /bin/true /sbin/initctl
+
+RUN apt-get update && apt-get install -y openssh-server curl lsb-release sudo make
+
+RUN groupadd -g 1000 ubuntu
+RUN useradd -u 1000 -g ubuntu -d /home/ubuntu -m -s /bin/bash -p '*' ubuntu
+
+RUN echo "ubuntu ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+RUN echo "Defaults !requiretty" >> /etc/sudoers
+RUN install -d -m 0700 -o ubuntu -g ubuntu /home/ubuntu/.ssh
+
+COPY .ssh/authorized_keys /home/ubuntu/.ssh/authorized_keys
+RUN chown ubuntu /home/ubuntu/.ssh/authorized_keys
+RUN chmod 0600 /home/ubuntu/.ssh/authorized_keys

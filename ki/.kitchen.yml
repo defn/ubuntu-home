@@ -1,12 +1,12 @@
 ---
 driver:
   name: vagrant
+  box_check_update: true
   ssh:
     insert_key: false
   synced_folders:
     - [ "<%= ENV['DATA'] %>", "/data" ]
     - [ ".", "/tmp/home" ]
-  box_check_update: false
 
 transport:
   forward_agent: true
@@ -22,19 +22,22 @@ verifier:
     - test/smoke/default
 
 platforms:
-  - name: ubuntu-16.04
+  - name: ubuntu
     driver:
       linked_clone: true
-      image: ubuntu:16.04
-  - name: centos-7.4
+      dockerfile: ubuntu/Dockerfile
+  - name: centos
     driver:
       linked_clone: true
-      image: centos:7.4.1708
-  - name: amazonlinux
+      dockerfile: centos/Dockerfile
+  - name: amazon
     driver_config:
       linked_clone: true
-      image: amazonlinux:2017.12
-      platform: rhel
+      dockerfile: amazon/Dockerfile
+  - name: alpine
+    driver_config:
+      linked_clone: true
+      dockerfile: alpine/Dockerfile
 
 suites:
   - name: localhost
@@ -45,28 +48,11 @@ suites:
       host: localhost
       port: 22
       username: ubuntu
-    excludes: [ centos-7.4, amazonlinux]
   - name: virtualbox
     provisioner:
       script: bootstrap.sh
     driver:
       provider: virtualbox
-    excludes:
-      - amazonlinux
-  - name: vmware
-    provisioner:
-      script: bootstrap.sh
-    driver:
-      provider: vmware_fusion
-    excludes:
-      - amazonlinux
-  - name: parallels
-    provisioner:
-      script: bootstrap.sh
-    driver:
-      provider: parallels
-    excludes:
-      - amazonlinux
   - name: aws
     provisioner:
       script: bootstrap.sh
@@ -95,13 +81,12 @@ suites:
       script: bootstrap.sh
     driver:
       name: docker
-      pre_create_command: "ssh-add -L | grep cardno: | head -1 > .kitchen/docker_id_rsa.pub"
-      <%= ENV['FOGG_IMAGE_ID'] ? "image: #{ENV['FOGG_IMAGE_ID']}" : ""  %>
+      username: ubuntu
+      build_context: true
       require_chef_omnibus: false
       use_sudo: false
       use_cache: <%= ENV['FOGG_USE_CACHE'] || "true" %>
-      build_context: false
       volume:
         - <%= ENV['DATA'] %>:/data
         - /var/run/docker.sock:/var/run/docker.sock
-      username: ubuntu
+      <%= ENV['FOGG_IMAGE_ID'] ? "image: #{ENV['FOGG_IMAGE_ID']}" : ""  %>
