@@ -58,7 +58,7 @@ context            ${BLOCK_PATH}/context            git@github.com:imma/context 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             71ba46f4bfe28602fc50e399733761429b16b409 master 
 docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     586736435ed7d6c1e66a25ed32101681830d00c9 master 
 docker-machine     ${BLOCK_PATH}/docker-machine     git@github.com:imma/docker-machine     06f16df6beb63596e0a154f06d51ba10e6e679a8 master 
-docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             b1c1ef51af49e9da19c865297c4c0d982a909e70 master 
+docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             74b01bbd4469d22b506afcdf733b66e7f3b5bb87 master 
 postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgresql         554f3c8cc8990d50bc98a8fb5b9625d20195e5ca master 
 jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins            9f086c768ff58b9efe797ef366d2c2ec83319c21 master 
 drone              ${BLOCK_PATH}/drone              git@github.com:imma/drone              5a495edc434fd24d1fa976fb8e9d5c3b890fdd38 master 
