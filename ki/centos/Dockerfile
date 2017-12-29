@@ -2,7 +2,7 @@ FROM centos:7.4.1708
 
 ENV container docker
 
-RUN yum update && yum install -y sudo openssh-server openssh-clients which curl
+RUN yum update -y && yum install -y sudo openssh-server openssh-clients which curl
 
 RUN groupadd -g 1000 ubuntu
 RUN useradd -u 1000 -g ubuntu -d /home/ubuntu -m -s /bin/bash -p '*' ubuntu
