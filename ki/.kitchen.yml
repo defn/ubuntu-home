@@ -32,6 +32,7 @@ platforms:
       linked_clone: true
       dockerfile: ubuntu/Dockerfile
       platform: ubuntu
+    provisioner:
       script: ubuntu/minimal.sh
   - name: centos
     driver:
