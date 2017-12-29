@@ -2,12 +2,10 @@ FROM alpine:3.7
 
 ENV container docker
 
-RUN apk update && apk add openssh curl make sudo bash which git
+RUN apk update && apk add openssh curl make sudo bash which git rsync python findutils
 
 RUN ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -N ''
 RUN ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key -N ''
-
-RUN cat /etc/ssh/sshd_config
 
 RUN addgroup -g 1000 ubuntu && adduser -u 1000 -s /bin/bash -h /home/ubuntu -D -G ubuntu ubuntu
 RUN passwd ubuntu -d '*'
