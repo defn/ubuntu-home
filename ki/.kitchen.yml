@@ -15,6 +15,7 @@ transport:
 provisioner:
   name: shell
   require_chef_omnibus: false
+  script: bootstrap.sh
 
 verifier:
   name: inspec
@@ -38,24 +39,22 @@ platforms:
     driver_config:
       linked_clone: true
       dockerfile: alpine/Dockerfile
+    provisioner:
+      script: alpine/bootstrap.sh
 
 suites:
   - name: localhost
     provisioner:
-      script: bootstrap-localhost.sh
+      script: localhost/bootstrap.sh
     driver:
       name: proxy
       host: localhost
       port: 22
       username: ubuntu
   - name: virtualbox
-    provisioner:
-      script: bootstrap.sh
     driver:
       provider: virtualbox
   - name: aws
-    provisioner:
-      script: bootstrap.sh
     driver:
       name: ec2
       interface: private_dns
@@ -77,8 +76,6 @@ suites:
             volume_size: 20
             delete_on_termination: true
   - name: docker
-    provisioner:
-      script: bootstrap.sh
     driver:
       name: docker
       username: ubuntu

@@ -5,17 +5,9 @@ umask 0022
 
 function main {
   cd "$HOME"
-  source .bash_profile
 
   env
-  ssh-add -L
   pwd
-  id -a
-
-  set -x
-  block bootstrap
-  block stale
-  pkg update list
 }
 
 if [[ "$(id -u -n)" == "root" ]]; then
