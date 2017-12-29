@@ -53,7 +53,7 @@ syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-n
 openresty          ${BLOCK_PATH}/openresty          git@github.com:imma/openresty          07f0c5ea443c9ca5ea98085bbd40d88385e3ac18 master 
 kong               ${BLOCK_PATH}/kong               git@github.com:imma/kong               aefb4478da109e6a51986804bd7e56067da46952 master 
 konga              ${BLOCK_PATH}/konga              git@github.com:imma/konga              4785265aa7c7a1dffad52e4dfebb6f26da720513 master 
-chalice            ${BLOCK_PATH}/chalice            git@github.com:imma/chalice            a1c8736128c7bd90418ca614aa7cddf20e46eab5 master 
+chalice            ${BLOCK_PATH}/chalice            git@github.com:imma/chalice            a98a8cdbfb02a1a5e83e11f892d6818ce3cf9fc9 master 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            edaced91a1fe73abd74c370dcc53a72c95bfabbc master 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             71ba46f4bfe28602fc50e399733761429b16b409 master 
 docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     586736435ed7d6c1e66a25ed32101681830d00c9 master 

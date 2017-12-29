@@ -1,7 +1,7 @@
 {
   "_meta": {
     "hash": {
-      "sha256": "48189580a0dc195a051e678fe1da536e4838d098674068f3b719521426a5d079"
+      "sha256": "4d1dc4a7fe58b1ae96e775b8b802a48361ec1933d83f7dc1eacd6822a83b0448"
     },
     "host-environment-markers": {
       "implementation_name": "cpython",
@@ -9,12 +9,12 @@
       "os_name": "posix",
       "platform_machine": "x86_64",
       "platform_python_implementation": "CPython",
-      "platform_release": "4.9.60-linuxkit-aufs",
-      "platform_system": "Linux",
-      "platform_version": "#1 SMP Mon Nov 6 16:00:12 UTC 2017",
+      "platform_release": "17.2.0",
+      "platform_system": "Darwin",
+      "platform_version": "Darwin Kernel Version 17.2.0: Fri Sep 29 18:27:05 PDT 2017; root:xnu-4570.20.62~3/RELEASE_X86_64",
       "python_full_version": "3.6.3",
       "python_version": "3.6",
-      "sys_platform": "linux"
+      "sys_platform": "darwin"
     },
     "pipfile-spec": 6,
     "requires": {},
@@ -28,7 +28,7 @@
   },
   "default": {
     "botocore": {
-      "version": "==1.8.18"
+      "version": "==1.8.20"
     },
     "certifi": {
       "version": "==2017.11.5"
@@ -45,14 +45,23 @@
     "docutils": {
       "version": "==0.14"
     },
+    "http-prompt": {
+      "version": "==0.11.0"
+    },
     "httpie": {
-      "version": "==0.9.9"
+      "version": "==0.9.8"
     },
     "idna": {
       "version": "==2.6"
     },
     "jmespath": {
       "version": "==0.9.3"
+    },
+    "parsimonious": {
+      "version": "==0.8.0"
+    },
+    "prompt-toolkit": {
+      "version": "==1.0.15"
     },
     "pygments": {
       "version": "==2.2.0"
@@ -71,6 +80,9 @@
     },
     "urllib3": {
       "version": "==1.22"
+    },
+    "wcwidth": {
+      "version": "==0.1.7"
     }
   },
   "develop": {}
