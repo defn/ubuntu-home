@@ -27,13 +27,13 @@ platforms:
     driver:
       linked_clone: true
       dockerfile: ubuntu/Dockerfile
-  - name: minimal
+  - name: minima
     driver:
       linked_clone: true
       dockerfile: ubuntu/Dockerfile
       platform: ubuntu
     provisioner:
-      script: ubuntu/minimal.sh
+      script: ubuntu/minima.sh
   - name: centos
     driver:
       linked_clone: true
