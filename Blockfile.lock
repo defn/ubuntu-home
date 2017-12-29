@@ -38,9 +38,9 @@ clojure            ${BLOCK_PATH}/clojure            git@github.com:imma/clojure 
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              2ae01416cb3f65d87a5edf18d138a9a6a744ccef master 
 vmm                ${BLOCK_PATH}/vmm                git@github.com:imma/vmm                785f6ae56018ed3abd0134ee51ab3ba65498fcd2 master 
 lang               ${BLOCK_PATH}/lang               git@github.com:imma/lang               4dd7ae4f362fe9b21cb8d5ca16990d043f9f63fc master 
-runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              2a71a488cdb75bbdce387961792f124dce48cc93 master 
+runit              ${BLOCK_PATH}/runit              git@github.com:imma/runit              09f7cc7bcd56a829a3a76b0ce36f185a085a0035 master 
 service            ${BLOCK_PATH}/service            git@github.com:imma/service            3f2c8fac2b0c2592a6ae5eaec4c68cd2d9776415 master 
-sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               d620a1bacfbda9134faf2186ca40047ad4755107 master 
+sshd               ${BLOCK_PATH}/sshd               git@github.com:imma/sshd               b1dc983c44f472f359283cc6c5ff8bcb765b0296 master 
 facts              ${BLOCK_PATH}/facts              git@github.com:imma/facts              9c69d9500281b4cafffaf5834e4d096ab4e90dab master 
 consul             ${BLOCK_PATH}/consul             git@github.com:imma/consul             65f9a294fd70e73f662b7dc94f0647fd6a594808 master 
 consul-agent       ${BLOCK_PATH}/consul-agent       git@github.com:imma/consul-agent       17898d7ee3325fa7d62780899f4c4bbc7ad0bc4e master 
