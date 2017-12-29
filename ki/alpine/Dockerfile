@@ -2,7 +2,7 @@ FROM alpine:3.7
 
 ENV container docker
 
-RUN apk update && apk add openssh curl make sudo bash which git rsync python findutils
+RUN apk update && apk add openssh curl make sudo bash which git rsync findutils python perl build-base
 
 RUN ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -N ''
 RUN ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key -N ''
