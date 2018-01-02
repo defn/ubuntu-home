@@ -57,3 +57,10 @@ if [[ -n "${TMUX:-}" ]]; then
   fi
 fi
 
+
+if [[ -n "$TMUX" ]]; then
+  if [[ "${TMUX_PANE:-}" == '%0' ]]; then
+    txm start default
+  fi
+fi 
+
