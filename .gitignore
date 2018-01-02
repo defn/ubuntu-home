@@ -179,3 +179,4 @@ tmux-client*log
 /src
 /bin
 /.znc
+/.tx-remote
