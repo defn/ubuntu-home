@@ -59,4 +59,10 @@ if [[ -n "${TMUX:-}" ]]; then
   if [[ "${TMUX_PANE:-}" == '%0' ]]; then
     txm start default
   fi
+
+  case "${CUE_SCHEME:-}" in
+    slight|sdark)
+      "${CUE_SCHEME}"
+      ;;
+  esac
 fi
