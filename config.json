@@ -5,6 +5,7 @@
   "canonifyurls": false,
   "relativeURLS": true,
   "contentDir": "content",
+  "dataDir": ".private/data",
   "publishDir": ".public",
   "disableKinds": [
     "taxonomy",
