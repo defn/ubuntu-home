@@ -1,9 +1,11 @@
+KI := reset
+
 docker:
 	$(MAKE)
-	ki reset docker-ubuntu
+	ki $(KI) docker-ubuntu
 
 virtualbox:
-	ki reset virtualbox-ubuntu
+	ki $(KI) virtualbox-ubuntu
 
 virtualbox-docker:
-	ki exec virtualbox-ubuntu -c 'ssh -A -o StrictHostKeyChecking=no ubuntu@localhost ki reset docker-ubuntu'
+	ki exec virtualbox-ubuntu -c 'ssh -A -o StrictHostKeyChecking=no ubuntu@localhost ki $(KI) docker-ubuntu'
