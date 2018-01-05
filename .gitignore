@@ -180,3 +180,4 @@ tmux-client*log
 /bin
 /.znc
 /.tx-remote
+/.kube
