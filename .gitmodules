@@ -550,3 +550,9 @@
 	path = work/clojure
 	url = git@github.com:imma/clojure
 	branch = master
+[submodule "work/k8s"]
+	path = work/k8s
+	url = git@github.com:imma/k8s
+[submodule "work/kubernetes"]
+	path = work/kubernetes
+	url = git@github.com:imma/kubernetes

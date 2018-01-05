@@ -5,7 +5,7 @@ normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normaliz
 bash-preexec       ${BLOCK_PATH}/bash-preexec       git@github.com:imma/bash-preexec       8658d4be458078d00b65cb5f34c6e79d27fd6c4e master 
 sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub                a51acadfc50b263f5b61fe4b3a74a02403aace41 master 
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            accaecc59f399d48a4c41bd45660d692223724ef master 
-block              ${BLOCK_PATH}/block              git@github.com:imma/block              14acf16c413f3bc5aece9114d09095634f0429ff master 
+block              ${BLOCK_PATH}/block              git@github.com:imma/block              0e4534f0a1f79d81d0751681cbebe7fe4b69ddfc master 
 instance           ${BLOCK_PATH}/instance           git@github.com:imma/instance           fcddf250434277829d3862f8543661935668db13 master 
 base               ${BLOCK_PATH}/base               git@github.com:imma/base               04915043a073f180e4ed95db4421ee3737a48e2b master 
 ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      eaf6e3f434ac1bcd5cd283500076ec1887109888 master 
@@ -57,8 +57,9 @@ chalice            ${BLOCK_PATH}/chalice            git@github.com:imma/chalice 
 context            ${BLOCK_PATH}/context            git@github.com:imma/context            edaced91a1fe73abd74c370dcc53a72c95bfabbc master 
 parity             ${BLOCK_PATH}/parity             git@github.com:imma/parity             71ba46f4bfe28602fc50e399733761429b16b409 master 
 docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-compose     586736435ed7d6c1e66a25ed32101681830d00c9 master 
-docker-machine     ${BLOCK_PATH}/docker-machine     git@github.com:imma/docker-machine     06f16df6beb63596e0a154f06d51ba10e6e679a8 master 
+docker-machine     ${BLOCK_PATH}/docker-machine     git@github.com:imma/docker-machine     8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master 
 docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             74b01bbd4469d22b506afcdf733b66e7f3b5bb87 master 
+kubernetes         ${BLOCK_PATH}/kubernetes         git@github.com:imma/kubernetes         4ed0bcaa72d63692348b1b39fb378e327970f53e master 
 postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgresql         554f3c8cc8990d50bc98a8fb5b9625d20195e5ca master 
 jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins            9f086c768ff58b9efe797ef366d2c2ec83319c21 master 
 drone              ${BLOCK_PATH}/drone              git@github.com:imma/drone              5a495edc434fd24d1fa976fb8e9d5c3b890fdd38 master 
