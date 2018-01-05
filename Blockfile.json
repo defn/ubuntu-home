@@ -30,6 +30,7 @@
     [
       "docker",
       "kubernetes",
+      "k8s",
       "postgresql"
     ],
     [
