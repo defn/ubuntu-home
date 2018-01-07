@@ -60,7 +60,7 @@ docker-compose     ${BLOCK_PATH}/docker-compose     git@github.com:imma/docker-c
 docker-machine     ${BLOCK_PATH}/docker-machine     git@github.com:imma/docker-machine     8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master 
 docker             ${BLOCK_PATH}/docker             git@github.com:imma/docker             74b01bbd4469d22b506afcdf733b66e7f3b5bb87 master 
 kubernetes         ${BLOCK_PATH}/kubernetes         git@github.com:imma/kubernetes         4ed0bcaa72d63692348b1b39fb378e327970f53e master 
-k8s                ${BLOCK_PATH}/k8s                git@github.com:imma/k8s                a397fccf4db4bd04e154b574c8a4d1fea8218de0 master 
+k8s                ${BLOCK_PATH}/k8s                git@github.com:imma/k8s                353bb47b9a089b07c87f09f227bd55030c0aaaf6 master 
 postgresql         ${BLOCK_PATH}/postgresql         git@github.com:imma/postgresql         554f3c8cc8990d50bc98a8fb5b9625d20195e5ca master 
 jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins            9f086c768ff58b9efe797ef366d2c2ec83319c21 master 
 drone              ${BLOCK_PATH}/drone              git@github.com:imma/drone              5a495edc434fd24d1fa976fb8e9d5c3b890fdd38 master 
