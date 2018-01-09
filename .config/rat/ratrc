@@ -13,3 +13,10 @@ mode aws
   bindkey  enter volume   aws -- >aqq --arg volume %(volume) '$volumes[$volume]'
   bindkey  enter snapshot aws -- >aqq --arg snapshot %(snapshot) '$snapshots.Snapshots[$snapshot]'
 end
+
+bindkey j   cursor-down
+bindkey k   cursor-up
+bindkey j   cursor-down
+bindkey k   cursor-up
+bindkey q   pop-pager
+bindkey S-q quit

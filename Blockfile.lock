@@ -66,7 +66,7 @@ jenkins            ${BLOCK_PATH}/jenkins            git@github.com:imma/jenkins 
 drone              ${BLOCK_PATH}/drone              git@github.com:imma/drone              5a495edc434fd24d1fa976fb8e9d5c3b890fdd38 master 
 codecommit         ${BLOCK_PATH}/codecommit         git@github.com:imma/codecommit         103788d5db3a95d559447d7e92dfb9f3f02268dd master 
 git                ${BLOCK_PATH}/git                git@github.com:imma/git                472bdf518d416de26ecc322296215577669b255c master 
-github             ${BLOCK_PATH}/github             git@github.com:imma/github             d62686330ef866507de5e16e381918a1af6a423a master 
+github             ${BLOCK_PATH}/github             git@github.com:imma/github             3b1721042565793566be8193c0ada1a8ed16afdf master 
 inspec             ${BLOCK_PATH}/inspec             git@github.com:imma/inspec             c0b39d6624d48bac813a998be5337167d92c894a master 
 kitchen            ${BLOCK_PATH}/kitchen            git@github.com:imma/kitchen            e52fc9a75f86af473c418116a2c081e3b15dec16 master 
 cicd               ${BLOCK_PATH}/cicd               git@github.com:imma/cicd               938f4dd69010ef7e348c320f5fd9d3c268aa7ce9 master 
@@ -128,7 +128,7 @@ nothing            ${BLOCK_PATH}/nothing            git@github.com:imma/nothing 
 app                ${BLOCK_PATH}/app                git@github.com:imma/app                47ab136a9a390857a8f141fe7e7d2638db62026e master 
 lock               ${BLOCK_PATH}/lock               git@github.com:imma/lock               c70b2e5ef3e795ea36ec153c69484dc628c7fc27 master 
 nat                ${BLOCK_PATH}/nat                git@github.com:imma/nat                f2d23020d81fbd1393c8aac01a4cda5eed10d096 master 
-rat                ${BLOCK_PATH}/rat                git@github.com:imma/rat                670ccfd6ac3e12d6790b72fb7ed3ada88e182dfd master 
+rat                ${BLOCK_PATH}/rat                git@github.com:imma/rat                7924ddc010675b88d1b0e0e0eef8859371aa6b46 master 
 ftl                ${BLOCK_PATH}/ftl                git@github.com:imma/ftl                8ef4bcebbf5b0cd8396221a4fb92dea3c908f4a5 master 
 se                 ${BLOCK_PATH}/se                 git@github.com:imma/se                 723c60bc2253f846dbd51003eefabbfbcfaecfbe master 
 haihero            ${BLOCK_PATH}/haihero            git@github.com:imma/haihero            eb9c1972b6607813d93d781c3602e8efc2f96378 master 
