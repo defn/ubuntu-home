@@ -32,7 +32,7 @@ yarn               ${BLOCK_PATH}/yarn               git@github.com:imma/yarn    
 bash4              ${BLOCK_PATH}/bash4              git@github.com:imma/bash4              c7d35f0bea3080089eef1f6c9ea0ff0e2b8fc97f master 
 py36               ${BLOCK_PATH}/py36               git@github.com:imma/py36               fafcd65e2e5fcc69766f50d109bd173cd7fecb66 master 
 go                 ${BLOCK_PATH}/go                 git@github.com:imma/go                 2310a58c7e3954c20deef7f28165be7f34aabcee master 
-grpc               ${BLOCK_PATH}/grpc               git@github.com:imma/grpc               519a136dd2a20f0b52cb723647485025c2460d46 master 
+grpc               ${BLOCK_PATH}/grpc               git@github.com:imma/grpc               b1f0e5519649d2350d4a25d804ab71ae98ef983e master 
 rust               ${BLOCK_PATH}/rust               git@github.com:imma/rust               68b01ff1b8cba66d20d57590d1b1ea44f17443b6 master 
 clojure            ${BLOCK_PATH}/clojure            git@github.com:imma/clojure            8ebcafbd876113a173a58675557e120711e97978 master 
 tfenv              ${BLOCK_PATH}/tfenv              git@github.com:imma/tfenv              2ae01416cb3f65d87a5edf18d138a9a6a744ccef master 

@@ -9,12 +9,12 @@
       "os_name": "posix",
       "platform_machine": "x86_64",
       "platform_python_implementation": "CPython",
-      "platform_release": "4.9.60-linuxkit-aufs",
-      "platform_system": "Linux",
-      "platform_version": "#1 SMP Mon Nov 6 16:00:12 UTC 2017",
+      "platform_release": "17.3.0",
+      "platform_system": "Darwin",
+      "platform_version": "Darwin Kernel Version 17.3.0: Thu Nov  9 18:09:22 PST 2017; root:xnu-4570.31.3~1/RELEASE_X86_64",
       "python_full_version": "3.6.3",
       "python_version": "3.6",
-      "sys_platform": "linux"
+      "sys_platform": "darwin"
     },
     "pipfile-spec": 6,
     "requires": {
@@ -30,13 +30,13 @@
   },
   "default": {
     "grpcio": {
-      "version": "==1.8.2"
+      "version": "==1.8.3"
     },
     "grpcio-tools": {
-      "version": "==1.8.2"
+      "version": "==1.8.3"
     },
     "protobuf": {
-      "version": "==3.5.0.post1"
+      "version": "==3.5.1"
     },
     "six": {
       "version": "==1.11.0"
