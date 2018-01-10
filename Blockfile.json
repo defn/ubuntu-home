@@ -80,7 +80,8 @@
     ],
     [
       "registrator",
-      "tugboat"
+      "tugboat",
+      "docker-mac-network"
     ]
   ],
   "versions": {}

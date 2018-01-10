@@ -138,3 +138,4 @@ fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf 
 imma-tf            ${BLOCK_PATH}/imma-tf            git@github.com:imma/imma-tf            c7e1c7b3b4920fea983c9cd49261ed01846e82df master 
 registrator        ${BLOCK_PATH}/registrator        git@github.com:imma/registrator        41cce9d6b39dc26d437a584ac1b105d57129bfcd master 
 tugboat            ${BLOCK_PATH}/tugboat            git@github.com:imma/tugboat            8f5a5bc21c8ef032e27e2b4874994921ab027504 master 
+docker-mac-network ${BLOCK_PATH}/docker-mac-network git@github.com:imma/docker-mac-network 5a4171edaaf2626d52a20e8815eb53b4335bdcff master 
