@@ -49,7 +49,6 @@ etcd               ${BLOCK_PATH}/etcd               git@github.com:imma/etcd    
 linkerd            ${BLOCK_PATH}/linkerd            git@github.com:imma/linkerd            87dc2cf4e2ad2f603cc56bbfc0f11fa237a5f7ac master 
 namerd             ${BLOCK_PATH}/namerd             git@github.com:imma/namerd             c571a8e9b649e7f548dd4e73c9f29288d6ffc4d5 master 
 fabio              ${BLOCK_PATH}/fabio              git@github.com:imma/fabio              5a80c26fa32c83d582b75576b5e4f00996b2c83d master 
-syslog-ng          ${BLOCK_PATH}/syslog-ng          git@github.com:imma/syslog-ng          da86ab611d77979a5e20677eb488b0639bd96b11 master 
 openresty          ${BLOCK_PATH}/openresty          git@github.com:imma/openresty          07f0c5ea443c9ca5ea98085bbd40d88385e3ac18 master 
 kong               ${BLOCK_PATH}/kong               git@github.com:imma/kong               aefb4478da109e6a51986804bd7e56067da46952 master 
 konga              ${BLOCK_PATH}/konga              git@github.com:imma/konga              4785265aa7c7a1dffad52e4dfebb6f26da720513 master 

@@ -21,7 +21,6 @@
       "linkerd",
       "namerd",
       "fabio",
-      "syslog-ng",
       "openresty",
       "kong",
       "konga",

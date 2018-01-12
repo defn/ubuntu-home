@@ -154,10 +154,6 @@
 	path = work/docker-compose
 	url = git@github.com:imma/docker-compose
 	branch = master
-[submodule "work/syslog-ng"]
-	path = work/syslog-ng
-	url = git@github.com:imma/syslog-ng
-	branch = master
 [submodule "work/gpg"]
 	path = work/gpg
 	url = git@github.com:imma/gpg
