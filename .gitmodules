@@ -555,3 +555,12 @@
 [submodule "work/docker-mac-network"]
 	path = work/docker-mac-network
 	url = git@github.com:wojas/docker-mac-network
+[submodule "work/aws-cloudwatch-agent"]
+	path = work/aws-cloudwatch-agent
+	url = git@github.com:imma/aws-cloudwatch-agent
+[submodule "work/aws-codedeploy-agent"]
+	path = work/aws-codedeploy-agent
+	url = git@github.com:imma/aws-codedeploy-agent
+[submodule "work/aws-ssm-agent"]
+	path = work/aws-ssm-agent
+	url = git@github.com:imma/aws-ssm-agent

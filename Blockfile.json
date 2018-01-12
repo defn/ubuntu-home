@@ -81,6 +81,11 @@
       "registrator",
       "tugboat",
       "docker-mac-network"
+    ],
+    [
+      "aws-ssm-agent",
+      "aws-cloudwatch-agent",
+      "aws-codedeploy-agent"
     ]
   ],
   "versions": {}
