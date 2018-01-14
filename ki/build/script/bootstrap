@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 function main {
+	sudo chown -R ubuntu:ubuntu ~
+
 	cd
 
 	ssh -o StrictHostKeyChecking=no github.com uname -a || true
-
-	sudo chown -R ubuntu:ubuntu work
 
 	git clone git@github.com:imma/ubuntu
 	mv ubuntu/.git .
