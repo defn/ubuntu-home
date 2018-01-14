@@ -25,6 +25,7 @@ function main {
 	work/block/script/cibuild
 
 	pushd work/block
+	source script/profile
 	require
 	popd
 
