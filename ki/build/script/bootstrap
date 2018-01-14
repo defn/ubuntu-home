@@ -16,24 +16,26 @@ function main {
 
 	git submodule update --init
 
-	cd work/ubuntu-config/
+	pushd work/ubuntu-config/
 	source script/profile
+	popd
 
 	work/base/script/bootstrap
 	work/jq/script/bootstrap
 	work/block/script/cibuild
 
-	cd work/block
+	pushd work/block
 	require
+	popd
 
-	cd
 	require
 
 	block sync
 	make cache
 
-	cd work/pkgsrc
+	pushd work/pkgsrc
 	script/bootstrap
+	popd
 } 
 
 main "$@"

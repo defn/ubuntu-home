@@ -4,4 +4,6 @@ all:
 	mkdir -p /data/script
 	rsync -ia script/service /data/script/service
 	docker build -t imma:ubuntu .
-	./docker-compose up
+	./docker-compose up -d
+	sleep 5
+	ssh -A -p 2222 ubuntu@127.0.0.1 /tmp/cache/script/bootstrap

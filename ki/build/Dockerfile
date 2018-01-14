@@ -16,8 +16,6 @@ RUN echo "ubuntu ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 RUN echo "Defaults !requiretty" >> /etc/sudoers
 RUN install -d -m 0700 -o ubuntu -g ubuntu /home/ubuntu/.ssh
 
-COPY . /tmp/cache
-
 COPY .ssh/authorized_keys /home/ubuntu/.ssh/authorized_keys
 RUN chmod 0600 /home/ubuntu/.ssh/authorized_keys
 
@@ -25,3 +23,5 @@ RUN chown -R ubuntu /home/ubuntu
 
 ENTRYPOINT ["/data/script/service"]
 CMD ["/usr/sbin/sshd", "-D", "-o", "UseDNS=no", "-o", "UsePAM=no", "-o", "PasswordAuthentication=yes", "-o", "UsePrivilegeSeparation=no", "-o", "PidFile=/tmp/sshd.pid"]
+
+COPY . /tmp/cache
