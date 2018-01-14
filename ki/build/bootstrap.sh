@@ -3,6 +3,8 @@
 function main {
 	cd
 
+	ssh -o StrictHostKeyChecking=no github.com uname -a || true
+
 	git clone git@github.com:imma/ubuntu
 	mv ubuntu/.git .
 	rm -rf ubuntu

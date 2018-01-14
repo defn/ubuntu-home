@@ -1,0 +1,8 @@
+version: '2.1'
+services:
+  ubuntu:
+    image: "imma:ubuntu"
+    ports:
+      - "2222:22"
+    volumes:
+      - "/data:/data"
