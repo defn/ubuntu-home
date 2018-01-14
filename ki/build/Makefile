@@ -1,4 +1,4 @@
-DATA ?= /data
+DATA := /data
 
 all:
 	mkdir -p .ssh
