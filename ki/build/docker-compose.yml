@@ -6,4 +6,3 @@ services:
       - "2222:22"
     volumes:
       - "${DATA}:/data"
-      - "./home/ubuntu:/home/ubuntu"
