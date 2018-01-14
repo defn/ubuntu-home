@@ -9,8 +9,6 @@ RUN locale-gen en_US.UTF-8
 RUN dpkg-reconfigure --frontend=noninteractive locales
 RUN update-locale LANG=en_US.UTF-8
 
-VOLUME /home/ubuntu
-
 RUN groupadd -g 1000 ubuntu
 RUN useradd -u 1000 -g ubuntu -d /home/ubuntu -m -s /bin/bash -p '*' ubuntu
 

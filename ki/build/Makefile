@@ -6,6 +6,6 @@ all:
 	mkdir -p $(DATA)/script
 	rsync -ia script/service $(DATA)/script/service
 	docker build -t imma:ubuntu .
-	docker-compose up -d
+	docker-compose up -d --force-recreate
 	sleep 5
 	ssh -A -p 2222 -o StrictHostKeyChecking=no ubuntu@127.0.0.1 /tmp/cache/script/bootstrap

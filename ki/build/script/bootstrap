@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 function main {
+	set -x
+
 	sudo chown -R ubuntu:ubuntu ~
 
 	cd
@@ -9,10 +11,11 @@ function main {
 
 	git clone git@github.com:imma/ubuntu
 	mv ubuntu/.git .
-	rm -rf ubuntu
 	git reset --hard
+	git clean -ffd
 
 	rsync -ia .gitconfig.template .gitconfig
+
 	rsync -ia .ssh/config.template .ssh/config
 	chmod 600 .ssh/config
 
