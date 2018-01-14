@@ -16,7 +16,7 @@ pyenv                ${BLOCK_PATH}/pyenv                git@github.com:imma/pyen
 python               ${BLOCK_PATH}/python               git@github.com:imma/python               cb6bbed83d3720c3466707dca6dcfad68d6bed8c master 
 py27                 ${BLOCK_PATH}/py27                 git@github.com:imma/py27                 f0c7d7fb1518caf3eddafe0416b281f7f3d38b06 master 
 ansible              ${BLOCK_PATH}/ansible              git@github.com:imma/ansible              1bbf78a1d31608fd2ff64e3e768062e7cda49d34 master 
-cache                ${BLOCK_PATH}/cache                git@github.com:imma/cache                85afb6c388414671ee01d25928b5d861142440f5 master 
+cache                ${BLOCK_PATH}/cache                git@github.com:imma/cache                5695bb29939a8e3a54580c96adf455c293719f90 master 
 inventory            ${BLOCK_PATH}/inventory            git@github.com:imma/inventory            38b60c8f826e913008770c975f14003d6853b26c master 
 deploy               ${BLOCK_PATH}/deploy               git@github.com:imma/deploy               40568a6119edcec3f450251b5330ee102174981a master 
 htop                 ${BLOCK_PATH}/htop                 git@github.com:imma/htop                 aa24067a87c228300f1f1041b5706aef672b199f master 
