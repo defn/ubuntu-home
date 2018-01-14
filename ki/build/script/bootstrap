@@ -37,6 +37,10 @@ function main {
 	pushd work/pkgsrc
 	script/bootstrap
 	popd
+
+  block bootstrap
+  block stale
+  pkg update list
 } 
 
 main "$@"
