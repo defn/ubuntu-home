@@ -11,8 +11,6 @@ function main {
   work/jq/script/bootstrap
   work/block/script/cibuild
 
-  block sync
-
   block bootstrap
 
   block stale
