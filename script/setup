@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+function main {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "$shome/script/profile"
+
+  cd "$shome"
+
+  cp .gitconfig.template .gitconfig
+  mkdir -p .ssh
+  cp .ssh/config.template .ssh/config
+  chmod 600 .ssh/config
+  git submodule update --init
+  make cache
+}
+
+main "$@"
