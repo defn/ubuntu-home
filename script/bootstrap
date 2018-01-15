@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+function main {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "$shome/script/profile"
+
+  cd "$shome"
+  source ".bash_profile"
+
+  work/base/script/bootstrap
+  work/jq/script/bootstrap
+  work/block/script/cibuild
+
+  block sync
+
+  block bootstrap
+
+  block stale
+  pkg update list
+}
+
+main "$@"

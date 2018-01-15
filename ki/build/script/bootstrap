@@ -14,38 +14,8 @@ function main {
 	git reset --hard
 	git clean -ffd
 
-	rsync -ia .gitconfig.template .gitconfig
-
-	rsync -ia .ssh/config.template .ssh/config
-	chmod 600 .ssh/config
-
-	git submodule update --init
-
-	pushd work/ubuntu-config/
-	source script/profile
-	popd
-
-	work/base/script/bootstrap
-	work/jq/script/bootstrap
-	work/block/script/cibuild
-
-	pushd work/block
-	source script/profile
-	require
-	popd
-
-	require
-
-	block sync
-	make cache
-
-	pushd work/pkgsrc
-	script/bootstrap
-	popd
-
-  block bootstrap
-  block stale
-  pkg update list
+  script/setup
+  script/bootstrap
 } 
 
 main "$@"
