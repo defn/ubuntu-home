@@ -214,10 +214,6 @@
 	path = work/cfssl
 	url = git@github.com:imma/cfssl
 	branch = master
-[submodule "work/go"]
-	path = work/go
-	url = git@github.com:imma/go
-	branch = master
 [submodule "work/instance"]
 	path = work/instance
 	url = git@github.com:imma/instance
@@ -338,10 +334,6 @@
 	path = work/vagrant
 	url = git@github.com:imma/vagrant
 	branch = master
-[submodule "work/postgresql"]
-	path = work/postgresql
-	url = git@github.com:imma/postgresql
-	branch = master
 [submodule "work/chat"]
 	path = work/chat
 	url = git@github.com:imma/chat
@@ -392,10 +384,6 @@
 [submodule "work/openresty"]
 	path = work/openresty
 	url = git@github.com:imma/openresty
-	branch = master
-[submodule "work/chalice"]
-	path = work/chalice
-	url = git@github.com:imma/chalice
 	branch = master
 [submodule "work/aws-vault"]
 	path = work/aws-vault
@@ -477,10 +465,6 @@
 	path = work/pyenv
 	url = git@github.com:imma/pyenv
 	branch = master
-[submodule "work/grpc"]
-	path = work/grpc
-	url = git@github.com:imma/grpc
-	branch = master
 [submodule "work/cookiecutter"]
 	path = work/cookiecutter
 	url = git@github.com:imma/cookiecutter
@@ -506,14 +490,6 @@
 	path = work/consul-server
 	url = git@github.com:imma/consul-server
 	branch = master
-[submodule "work/rust"]
-	path = work/rust
-	url = git@github.com:imma/rust
-	branch = master
-[submodule "work/kong"]
-	path = work/kong
-	url = git@github.com:imma/kong
-	branch = master
 [submodule "work/tmux"]
 	path = work/tmux
 	url = git@github.com:imma/tmux
@@ -530,25 +506,10 @@
 	path = work/vault
 	url = git@github.com:imma/vault
 	branch = master
-[submodule "work/registrator"]
-	path = work/registrator
-	url = git@github.com:imma/registrator
-	branch = master
-[submodule "work/tugboat"]
-	path = work/tugboat
-	url = git@github.com:imma/tugboat
-	branch = master
-[submodule "work/konga"]
-	path = work/konga
-	url = git@github.com:imma/konga
-	branch = master
 [submodule "work/clojure"]
 	path = work/clojure
 	url = git@github.com:imma/clojure
 	branch = master
-[submodule "work/k8s"]
-	path = work/k8s
-	url = git@github.com:imma/k8s
 [submodule "work/kubernetes"]
 	path = work/kubernetes
 	url = git@github.com:imma/kubernetes
@@ -564,3 +525,6 @@
 [submodule "work/aws-ssm-agent"]
 	path = work/aws-ssm-agent
 	url = git@github.com:imma/aws-ssm-agent
+[submodule "work/go"]
+	path = work/go
+	url = git@github.com:imma/go

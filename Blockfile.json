@@ -21,16 +21,11 @@
       "linkerd",
       "namerd",
       "fabio",
-      "openresty",
-      "kong",
-      "konga",
-      "chalice"
+      "openresty"
     ],
     [
       "docker",
-      "kubernetes",
-      "k8s",
-      "postgresql"
+      "kubernetes"
     ],
     [
       "cicd"
@@ -78,8 +73,6 @@
       "imma-tf"
     ],
     [
-      "registrator",
-      "tugboat",
       "docker-mac-network"
     ],
     [
