@@ -18,7 +18,7 @@ docker_host = $(shell aws ecr describe-repositories | jq -r --arg repo block '.r
 _base_home ?= $(HOME)/work/base
 
 cache:
-	source work/block/script/profile && require && block gen profile > .bashrc.cache.1
+	source work/ubuntu-config/script/profile && source work/block/script/profile && require && block gen profile > .bashrc.cache.1
 	mv .bashrc.cache.1 .bashrc.cache
 
 sync:
