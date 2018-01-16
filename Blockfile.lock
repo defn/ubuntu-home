@@ -11,7 +11,7 @@ base                 ${BLOCK_PATH}/base                 git@github.com:imma/base
 ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubuntu-config        eaf6e3f434ac1bcd5cd283500076ec1887109888 master 
 homebrew             ${BLOCK_PATH}/homebrew             git@github.com:imma/homebrew             29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
 java                 ${BLOCK_PATH}/java                 git@github.com:imma/java                 11553c787609322993787e1fabd339782c6e9d14 master 
-pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               64818643ef4d1bf008f31e7587272cc724c4847f master 
+pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               a92094b027f5a5d78c7b8bf5b4c2c7ef19853f6d master 
 pyenv                ${BLOCK_PATH}/pyenv                git@github.com:imma/pyenv                372251f18116e7f66f089b37235c4005d54f67fb master 
 python               ${BLOCK_PATH}/python               git@github.com:imma/python               cb6bbed83d3720c3466707dca6dcfad68d6bed8c master 
 py27                 ${BLOCK_PATH}/py27                 git@github.com:imma/py27                 f0c7d7fb1518caf3eddafe0416b281f7f3d38b06 master 
@@ -126,7 +126,7 @@ se                   ${BLOCK_PATH}/se                   git@github.com:imma/se  
 haihero              ${BLOCK_PATH}/haihero              git@github.com:imma/haihero              eb9c1972b6607813d93d781c3602e8efc2f96378 master 
 gotty                ${BLOCK_PATH}/gotty                git@github.com:imma/gotty                befcdfd401da0281522e9ae1e536097cc7909b69 master 
 cookiecutter         ${BLOCK_PATH}/cookiecutter         git@github.com:imma/cookiecutter         040da6b867e5d07d29e08121124dca1e17105f11 master 
-fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              98b7f4c66ae8a6fc90c4eb5a7133b161547cb3d3 master 
+fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              2eb84e66048e7ae5ee1e85bd31823929e6128fe4 master 
 imma-tf              ${BLOCK_PATH}/imma-tf              git@github.com:imma/imma-tf              c7e1c7b3b4920fea983c9cd49261ed01846e82df master 
 docker-mac-network   ${BLOCK_PATH}/docker-mac-network   git@github.com:imma/docker-mac-network   5a4171edaaf2626d52a20e8815eb53b4335bdcff master 
 aws-ssm-agent        ${BLOCK_PATH}/aws-ssm-agent        git@github.com:imma/aws-ssm-agent        a42018a4e06e0c12c9a7d9179fb7b5acc247b190 master 
