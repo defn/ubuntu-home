@@ -1,1 +1,1 @@
-work/app
+work/app/work
