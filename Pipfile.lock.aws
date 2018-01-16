@@ -9,12 +9,12 @@
       "os_name": "posix",
       "platform_machine": "x86_64",
       "platform_python_implementation": "CPython",
-      "platform_release": "17.3.0",
-      "platform_system": "Darwin",
-      "platform_version": "Darwin Kernel Version 17.3.0: Thu Nov  9 18:09:22 PST 2017; root:xnu-4570.31.3~1/RELEASE_X86_64",
+      "platform_release": "4.4.0-109-generic",
+      "platform_system": "Linux",
+      "platform_version": "#132-Ubuntu SMP Tue Jan 9 19:52:39 UTC 2018",
       "python_full_version": "3.6.3",
       "python_version": "3.6",
-      "sys_platform": "darwin"
+      "sys_platform": "linux"
     },
     "pipfile-spec": 6,
     "requires": {},
@@ -37,20 +37,20 @@
       "version": "==1.3.3"
     },
     "aws-encryption-sdk-cli": {
-      "version": "==1.1.3"
+      "version": "==1.1.4"
     },
     "awscli": {
-      "version": "==1.14.19"
+      "version": "==1.14.25"
     },
     "boto3": {
-      "version": "==1.5.9"
+      "version": "==1.5.15"
     },
     "botocore": {
-      "version": "==1.8.23"
+      "version": "==1.8.29"
     },
     "cffi": {
       "markers": "platform_python_implementation != 'PyPy'",
-      "version": "==1.11.2"
+      "version": "==1.11.4"
     },
     "colorama": {
       "version": "==0.3.7"
