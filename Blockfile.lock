@@ -62,7 +62,7 @@ github               ${BLOCK_PATH}/github               git@github.com:imma/gith
 inspec               ${BLOCK_PATH}/inspec               git@github.com:imma/inspec               c0b39d6624d48bac813a998be5337167d92c894a master 
 kitchen              ${BLOCK_PATH}/kitchen              git@github.com:imma/kitchen              e52fc9a75f86af473c418116a2c081e3b15dec16 master 
 cicd                 ${BLOCK_PATH}/cicd                 git@github.com:imma/cicd                 938f4dd69010ef7e348c320f5fd9d3c268aa7ce9 master 
-aws-vault            ${BLOCK_PATH}/aws-vault            git@github.com:imma/aws-vault            f3cc0fd6257aa86345c9c2260c449ec5ac69fa1a master 
+aws-vault            ${BLOCK_PATH}/aws-vault            git@github.com:imma/aws-vault            b45b3394f8bc7108029ee08ba8e38565801db004 master 
 chamber              ${BLOCK_PATH}/chamber              git@github.com:imma/chamber              8eb8f947daf979b697c8ffed66b6258d21842123 master 
 awless               ${BLOCK_PATH}/awless               git@github.com:imma/awless               86e1db00b52f82ddb2abfd297dd815ac1f16af4e master 
 credstash            ${BLOCK_PATH}/credstash            git@github.com:imma/credstash            5762b04dabf9d1af5721906d27075a4de86122b8 master 
