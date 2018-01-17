@@ -181,3 +181,4 @@ tmux-client*log
 /.znc
 /.tx-remote
 /.kube
+/.op
