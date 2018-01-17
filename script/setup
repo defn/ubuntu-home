@@ -18,6 +18,7 @@ function main {
 
     ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ssh -o StrictHostKeyChecking=no github.com true || true
     ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -A git clone git@github.com:imma/ubuntu
+    ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no rm -rf .git
     ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no mv ubuntu/.git .
     ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no rm -rf ubuntu
     ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no git reset --hard
