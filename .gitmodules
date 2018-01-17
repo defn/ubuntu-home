@@ -528,3 +528,6 @@
 [submodule "work/go"]
 	path = work/go
 	url = git@github.com:imma/go
+[submodule "work/op"]
+	path = work/op
+	url = git@github.com:imma/op
