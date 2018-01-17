@@ -6,12 +6,24 @@ function main {
 
   cd "$shome"
 
-  cp .gitconfig.template .gitconfig
-  mkdir -p .ssh
-  cp .ssh/config.template .ssh/config
-  chmod 600 .ssh/config
-  git submodule update --init
-  make cache
+  if [[ "$#" == 0 ]]; then
+    cp .gitconfig.template .gitconfig
+    mkdir -p .ssh
+    cp .ssh/config.template .ssh/config
+    chmod 600 .ssh/config
+    git submodule update --init
+    make cache
+  else
+    local remote="$1"; shift
+
+    ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ssh -o StrictHostKeyChecking=no github.com true || true
+    ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -A git clone git@github.com:imma/ubuntu
+    ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no mv ubuntu/.git .
+    ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no rm -rf ubuntu
+    ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no git reset --hard
+    ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -A script/setup
+    ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -A script/bootstrap
+  fi
 }
 
 main "$@"
