@@ -99,7 +99,7 @@ inception            ${BLOCK_PATH}/inception            git@github.com:imma/ince
 terraform            ${BLOCK_PATH}/terraform            git@github.com:imma/terraform            02da595ef5de1b0a3ce408c16d3c81f94652ab74 master 
 wtf                  ${BLOCK_PATH}/wtf                  git@github.com:imma/wtf                  1b765c2f5ea1541f50367d6e2822d3d47663c900 master 
 fogg-cli             ${BLOCK_PATH}/fogg-cli             git@github.com:imma/fogg-cli             471411c7da588f8ffc3d2393ba104c2a4182418b master 
-fogg                 ${BLOCK_PATH}/fogg                 git@github.com:imma/fogg                 2237a11c48cd67b7c146f38623ae6f5ef526e1a5 master 
+fogg                 ${BLOCK_PATH}/fogg                 git@github.com:imma/fogg                 fa5d21631e3413cd1ddaa9db25d4ef37e28f3789 master 
 hugo                 ${BLOCK_PATH}/hugo                 git@github.com:imma/hugo                 4c3f5e1710e0b8f390f75044015daaf7e18ecc64 master 
 hugo-material-docs   ${BLOCK_PATH}/hugo-material-docs   git@github.com:imma/hugo-material-docs   4ca7bc271f76df5211eaa646626931e92bde285e master 
 beautifulhugo        ${BLOCK_PATH}/beautifulhugo        git@github.com:imma/beautifulhugo        86a11793042f4f4d1b79bdeee85fc556f1888e67 master 
@@ -126,8 +126,8 @@ se                   ${BLOCK_PATH}/se                   git@github.com:imma/se  
 haihero              ${BLOCK_PATH}/haihero              git@github.com:imma/haihero              eb9c1972b6607813d93d781c3602e8efc2f96378 master 
 gotty                ${BLOCK_PATH}/gotty                git@github.com:imma/gotty                befcdfd401da0281522e9ae1e536097cc7909b69 master 
 cookiecutter         ${BLOCK_PATH}/cookiecutter         git@github.com:imma/cookiecutter         040da6b867e5d07d29e08121124dca1e17105f11 master 
-fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              2eb84e66048e7ae5ee1e85bd31823929e6128fe4 master 
-imma-tf              ${BLOCK_PATH}/imma-tf              git@github.com:imma/imma-tf              c7e1c7b3b4920fea983c9cd49261ed01846e82df master 
+fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              a6131adb7438b5d7fe7065d5f30bef48c421a045 master 
+imma-tf              ${BLOCK_PATH}/imma-tf              git@github.com:imma/imma-tf              6739bd1d1ecc93fe28dfd1cb354f22b66523cc8d master 
 docker-mac-network   ${BLOCK_PATH}/docker-mac-network   git@github.com:imma/docker-mac-network   5a4171edaaf2626d52a20e8815eb53b4335bdcff master 
 aws-ssm-agent        ${BLOCK_PATH}/aws-ssm-agent        git@github.com:imma/aws-ssm-agent        a42018a4e06e0c12c9a7d9179fb7b5acc247b190 master 
 aws-cloudwatch-agent ${BLOCK_PATH}/aws-cloudwatch-agent git@github.com:imma/aws-cloudwatch-agent d83ec7d73644e503a6e65fa9f0cccedbc9a9f86d master 
