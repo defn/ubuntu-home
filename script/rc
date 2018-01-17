@@ -8,7 +8,7 @@ function lookup_pip {
 
 export ANSIBLE_VERSION="$(lookup_pip ansible)"
 export ASCIINEMA_VERSION="$(lookup_pip asciinema)"
-export AWSVAULT_VERSION=4.1.0
+export AWSVAULT_VERSION=4.2.0
 export CHAMBER_VERSION=1.15.0
 export BLESS_VERSION=0.2.0
 export CFSSL_VERSION=1.2.0
