@@ -33,7 +33,6 @@ platforms:
       linked_clone: true
       dockerfile: ubuntu/Dockerfile
       platform: ubuntu
-      socket: tcp://docker.for.mac.localhost:2375
     provisioner:
       script: ubuntu/minima.sh
   - name: imma
@@ -103,3 +102,4 @@ suites:
         - <%= ENV['DATA'] %>:/data
         - /var/run/docker.sock:/var/run/docker.sock
       <%= ENV['FOGG_IMAGE_ID'] ? "image: #{ENV['FOGG_IMAGE_ID']}" : ""  %>
+      <%= ENV['SSH_HOST'] ? "socket: tcp://#{ENV['SSH_HOST']}" : ""  %>

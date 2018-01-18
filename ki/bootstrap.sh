@@ -74,9 +74,8 @@ function main {
         set -x
 
         $loader mv /var/cache/apt/archives /var/cache/apt/archives.old || true
+        $loader mkdir -p /data/cache/apt/partial || true
         $loader ln -s /data/cache/apt /var/cache/apt/archives
-        $loader mkdir -p /var/cache/apt/archives/partial || true
-        $loader ls -ltrhd /var/cache/apt/archives /var/cache/apt/archives/partial /data /data/cache/apt
         $loader rm -f /etc/apt/apt.conf.d/docker-clean
 
         $loader apt-get update
