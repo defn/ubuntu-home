@@ -129,6 +129,7 @@ gotty                ${BLOCK_PATH}/gotty                git@github.com:imma/gott
 cookiecutter         ${BLOCK_PATH}/cookiecutter         git@github.com:imma/cookiecutter         040da6b867e5d07d29e08121124dca1e17105f11 master 
 fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              5446459b2bbec10504621ef0ff45afc8b9946497 master 
 imma-tf              ${BLOCK_PATH}/imma-tf              git@github.com:imma/imma-tf              6739bd1d1ecc93fe28dfd1cb354f22b66523cc8d master 
+chalice              ${BLOCK_PATH}/chalice              git@github.com:imma/chalice              a98a8cdbfb02a1a5e83e11f892d6818ce3cf9fc9 master 
 docker-mac-network   ${BLOCK_PATH}/docker-mac-network   git@github.com:imma/docker-mac-network   5a4171edaaf2626d52a20e8815eb53b4335bdcff master 
 aws-ssm-agent        ${BLOCK_PATH}/aws-ssm-agent        git@github.com:imma/aws-ssm-agent        a42018a4e06e0c12c9a7d9179fb7b5acc247b190 master 
 aws-cloudwatch-agent ${BLOCK_PATH}/aws-cloudwatch-agent git@github.com:imma/aws-cloudwatch-agent d83ec7d73644e503a6e65fa9f0cccedbc9a9f86d master 

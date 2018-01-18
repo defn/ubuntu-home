@@ -70,7 +70,8 @@
     ],
     [
       "fogg-tf",
-      "imma-tf"
+      "imma-tf",
+      "chalice"
     ],
     [
       "docker-mac-network"
