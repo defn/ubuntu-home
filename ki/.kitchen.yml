@@ -40,6 +40,9 @@ platforms:
       linked_clone: true
       dockerfile: imma/Dockerfile
       platform: ubuntu
+      volume:
+        - /var/run/docker.sock:/var/run/docker.sock
+      privileged: true
     provisioner:
       script: imma/minima.sh
   - name: centos
@@ -100,5 +103,4 @@ suites:
       use_cache: <%= ENV['FOGG_USE_CACHE'] || "true" %>
       volume:
         - <%= ENV['DATA'] %>:/data
-        - /var/run/docker.sock:/var/run/docker.sock
       <%= ENV['FOGG_IMAGE_ID'] ? "image: #{ENV['FOGG_IMAGE_ID']}" : ""  %>
