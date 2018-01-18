@@ -35,6 +35,13 @@ platforms:
       platform: ubuntu
     provisioner:
       script: ubuntu/minima.sh
+  - name: imma
+    driver:
+      linked_clone: true
+      dockerfile: imma/Dockerfile
+      platform: ubuntu
+    provisioner:
+      script: imma/minima.sh
   - name: centos
     driver:
       linked_clone: true
