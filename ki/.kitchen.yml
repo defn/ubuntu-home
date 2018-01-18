@@ -33,6 +33,7 @@ platforms:
       linked_clone: true
       dockerfile: ubuntu/Dockerfile
       platform: ubuntu
+      socket: tcp://docker.for.mac.localhost:2375
     provisioner:
       script: ubuntu/minima.sh
   - name: imma
@@ -40,7 +41,6 @@ platforms:
       linked_clone: true
       dockerfile: imma/Dockerfile
       platform: ubuntu
-      privileged: true
     provisioner:
       script: imma/minima.sh
   - name: centos
