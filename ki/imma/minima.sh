@@ -5,6 +5,7 @@ umask 0022
 
 function main {
   sudo chgrp docker /var/run/docker.sock
+  block sync
 }
 
 if [[ "$(id -u -n)" == "root" ]]; then
