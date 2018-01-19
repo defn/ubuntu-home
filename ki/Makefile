@@ -1,7 +1,6 @@
 KI := conv
 
 docker:
-	$(MAKE)
 	ki $(KI) docker-ubuntu
 
 virtualbox:
