@@ -13,6 +13,7 @@ function main {
     chmod 600 .ssh/config
     git submodule update --init
     exec/home block sync
+    make cache # sync initially wont make a cache
   else
     local remote="$1"; shift
 
