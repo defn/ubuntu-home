@@ -535,4 +535,4 @@
 	url = git@github.com:imma/vg
 [submodule "work/travis"]
 	path = work/travis
-	url = girt@github.com:imma/travis
+	url = git@github.com:imma/travis
