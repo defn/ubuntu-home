@@ -83,6 +83,7 @@ gpg                  ${BLOCK_PATH}/gpg                  git@github.com:imma/gpg 
 git-crypt            ${BLOCK_PATH}/git-crypt            git@github.com:imma/git-crypt            35c7b0d57e67e644b04780d8f4488c8b12dee7e3 master 
 cfssl                ${BLOCK_PATH}/cfssl                git@github.com:imma/cfssl                abc4130575a884568fb6f66701e9f2d92c3c2789 master 
 getssl               ${BLOCK_PATH}/getssl               git@github.com:imma/getssl               4ac5ff1b2c7f7c7f179b84f600175f5fffa67219 master 
+certbot              ${BLOCK_PATH}/certbot              git@github.com:imma/certbot              61809b0a1401df72a69f91b986707f0c874222bd master 
 cryfs                ${BLOCK_PATH}/cryfs                git@github.com:imma/cryfs                704494f1331504b7d01300a35a3b9cc6efde0671 master 
 yubikey              ${BLOCK_PATH}/yubikey              git@github.com:imma/yubikey              12d08418ea331398c2598fd4ab618b458db2dfcb master 
 kmsauth              ${BLOCK_PATH}/kmsauth              git@github.com:imma/kmsauth              8c37e0e072c72811b0dcd0ae63522851b3433924 master 
@@ -92,7 +93,7 @@ zerotier             ${BLOCK_PATH}/zerotier             git@github.com:imma/zero
 ipfs                 ${BLOCK_PATH}/ipfs                 git@github.com:imma/ipfs                 6fd9145479e03d14e63f2da66237cbad42e732f6 master 
 vault                ${BLOCK_PATH}/vault                git@github.com:imma/vault                5a69deea1d74d4decc0fdffe1bf4416d03212b52 master 
 op                   ${BLOCK_PATH}/op                   git@github.com:imma/op                   ed4382220e8530bc61a42a5e45334f5381e9d3da master 
-crypto               ${BLOCK_PATH}/crypto               git@github.com:imma/crypto               c9ed4b65cb8a619028ce63116400deff0729e688 master 
+crypto               ${BLOCK_PATH}/crypto               git@github.com:imma/crypto               369c2a5460aad7b0cffafc77ad322d64a7558e64 master 
 packer               ${BLOCK_PATH}/packer               git@github.com:imma/packer               12e9513e080c891ba3fb4414fb48246c7f3fefce master 
 dream                ${BLOCK_PATH}/dream                git@github.com:imma/dream                5224cb3213815cbf49b3166307f4afb7ab21d61c master 
 vagrant              ${BLOCK_PATH}/vagrant              git@github.com:imma/vagrant              259ea445a5c61d27b20e80eed64ef78e5069f084 master 
