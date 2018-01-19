@@ -34,7 +34,8 @@ py36                 ${BLOCK_PATH}/py36                 git@github.com:imma/py36
 clojure              ${BLOCK_PATH}/clojure              git@github.com:imma/clojure              8ebcafbd876113a173a58675557e120711e97978 master 
 go                   ${BLOCK_PATH}/go                   git@github.com:imma/go                   2310a58c7e3954c20deef7f28165be7f34aabcee master 
 tfenv                ${BLOCK_PATH}/tfenv                git@github.com:imma/tfenv                2ae01416cb3f65d87a5edf18d138a9a6a744ccef master 
-vmm                  ${BLOCK_PATH}/vmm                  git@github.com:imma/vmm                  785f6ae56018ed3abd0134ee51ab3ba65498fcd2 master 
+vg                   ${BLOCK_PATH}/vg                   git@github.com:imma/vg                   e60281511ab002a6ad49598a022bf2ef530d8888 master 
+vmm                  ${BLOCK_PATH}/vmm                  git@github.com:imma/vmm                  e652f7b873582c0002415325e281818945709d47 master 
 lang                 ${BLOCK_PATH}/lang                 git@github.com:imma/lang                 25d5e238492247ec1cbb63accd52f2101b56118d master 
 runit                ${BLOCK_PATH}/runit                git@github.com:imma/runit                09f7cc7bcd56a829a3a76b0ce36f185a085a0035 master 
 service              ${BLOCK_PATH}/service              git@github.com:imma/service              3f2c8fac2b0c2592a6ae5eaec4c68cd2d9776415 master 

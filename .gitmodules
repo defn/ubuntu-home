@@ -534,3 +534,6 @@
 [submodule "work/chalice"]
 	path = work/chalice
 	url = git@github.com:imma/chalice
+[submodule "work/vg"]
+	path = work/vg
+	url = git@github.com:imma/vg
