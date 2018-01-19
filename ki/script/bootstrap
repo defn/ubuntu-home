@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
 
 function main {
-	set -x
+  set -x
 
-	sudo chown -R ubuntu:ubuntu ~
+  sudo chown -R ubuntu:ubuntu ~
 
-	cd
+  cd
 
-	ssh -o StrictHostKeyChecking=no github.com uname -a || true
+  ssh -o StrictHostKeyChecking=no github.com uname -a || true
 
-	git clone git@github.com:imma/ubuntu
-	mv ubuntu/.git .
-	git reset --hard
-	git clean -ffd
+  git clone git@github.com:imma/ubuntu
+  mv ubuntu/.git .
+  git reset --hard
+  git clean -ffd
 
   script/setup
   script/bootstrap
