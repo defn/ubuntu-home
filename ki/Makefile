@@ -8,7 +8,7 @@ all:
 	docker-compose up -d --force-recreate
 	while true; do nc -z 127.0.0.1 2222 && break; sleep 1; done
 	ssh -A -p 2222 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@127.0.0.1 /tmp/cache/script/bootstrap
-	docker commit imma:ubuntu ki_ubuntu_1
+	docker commit ki_ubuntu_1 imma:ubuntu
 	docker-compose down
 	ki reset docker-imma
 
