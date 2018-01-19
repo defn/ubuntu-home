@@ -43,7 +43,6 @@ function bashrc_main {
   fi
 
   if type -P vg >/dev/null; then
-    set +efu
     eval "$(vg eval --shell bash)"
   fi
 
