@@ -42,6 +42,11 @@ function bashrc_main {
     for __a in "$@"; do pushd "$__a" >/dev/null && { require; popd >/dev/null; }; done
   fi
 
+  if type -P vg >/dev/null; then
+    set +efu
+    eval "$(vg eval --shell bash)"
+  fi
+
   set +f
 }
 
@@ -66,5 +71,3 @@ if [[ -n "${TMUX:-}" ]]; then
       ;;
   esac
 fi
-
-command -v vg >/dev/null 2>&1 && eval "$(vg eval --shell bash)"
