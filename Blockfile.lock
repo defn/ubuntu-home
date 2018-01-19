@@ -56,13 +56,13 @@ docker-machine       ${BLOCK_PATH}/docker-machine       git@github.com:imma/dock
 docker               ${BLOCK_PATH}/docker               git@github.com:imma/docker               74b01bbd4469d22b506afcdf733b66e7f3b5bb87 master 
 kubernetes           ${BLOCK_PATH}/kubernetes           git@github.com:imma/kubernetes           4ed0bcaa72d63692348b1b39fb378e327970f53e master 
 jenkins              ${BLOCK_PATH}/jenkins              git@github.com:imma/jenkins              9f086c768ff58b9efe797ef366d2c2ec83319c21 master 
-drone                ${BLOCK_PATH}/drone                git@github.com:imma/drone                5a495edc434fd24d1fa976fb8e9d5c3b890fdd38 master 
 codecommit           ${BLOCK_PATH}/codecommit           git@github.com:imma/codecommit           103788d5db3a95d559447d7e92dfb9f3f02268dd master 
 git                  ${BLOCK_PATH}/git                  git@github.com:imma/git                  472bdf518d416de26ecc322296215577669b255c master 
 github               ${BLOCK_PATH}/github               git@github.com:imma/github               3b1721042565793566be8193c0ada1a8ed16afdf master 
 inspec               ${BLOCK_PATH}/inspec               git@github.com:imma/inspec               c0b39d6624d48bac813a998be5337167d92c894a master 
 kitchen              ${BLOCK_PATH}/kitchen              git@github.com:imma/kitchen              e52fc9a75f86af473c418116a2c081e3b15dec16 master 
-cicd                 ${BLOCK_PATH}/cicd                 git@github.com:imma/cicd                 938f4dd69010ef7e348c320f5fd9d3c268aa7ce9 master 
+travis               ${BLOCK_PATH}/travis               git@github.com:imma/travis               09e48d834e5e6922f1d5cb622b92c76147ddb083 master 
+cicd                 ${BLOCK_PATH}/cicd                 git@github.com:imma/cicd                 538b236939feb3e050439cfff1e68bdad54b0614 master 
 aws-vault            ${BLOCK_PATH}/aws-vault            git@github.com:imma/aws-vault            b45b3394f8bc7108029ee08ba8e38565801db004 master 
 chamber              ${BLOCK_PATH}/chamber              git@github.com:imma/chamber              8eb8f947daf979b697c8ffed66b6258d21842123 master 
 awless               ${BLOCK_PATH}/awless               git@github.com:imma/awless               86e1db00b52f82ddb2abfd297dd815ac1f16af4e master 

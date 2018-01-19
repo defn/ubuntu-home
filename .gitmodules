@@ -437,10 +437,6 @@
 	path = work/yubikey
 	url = git@github.com:imma/yubikey
 	branch = master
-[submodule "work/drone"]
-	path = work/drone
-	url = git@github.com:imma/drone
-	branch = master
 [submodule "work/cicd"]
 	path = work/cicd
 	url = git@github.com:imma/cicd
@@ -537,3 +533,6 @@
 [submodule "work/vg"]
 	path = work/vg
 	url = git@github.com:imma/vg
+[submodule "work/travis"]
+	path = work/travis
+	url = girt@github.com:imma/travis

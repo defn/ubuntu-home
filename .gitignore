@@ -183,3 +183,4 @@ tmux-client*log
 /.kube
 /.op
 /.virtualgo
+/.travis
