@@ -81,7 +81,7 @@ netdata              ${BLOCK_PATH}/netdata              git@github.com:imma/netd
 monitor              ${BLOCK_PATH}/monitor              git@github.com:imma/monitor              4ca342bfaae8881a16a2d79343bf33f87bf86a75 master 
 gpg                  ${BLOCK_PATH}/gpg                  git@github.com:imma/gpg                  1722c23bea696bf6c76ad354b46094909782b59f master 
 git-crypt            ${BLOCK_PATH}/git-crypt            git@github.com:imma/git-crypt            35c7b0d57e67e644b04780d8f4488c8b12dee7e3 master 
-cfssl                ${BLOCK_PATH}/cfssl                git@github.com:imma/cfssl                b1f1ada2c0850709755c8c71dd00acddbb83218a master 
+cfssl                ${BLOCK_PATH}/cfssl                git@github.com:imma/cfssl                abc4130575a884568fb6f66701e9f2d92c3c2789 master 
 getssl               ${BLOCK_PATH}/getssl               git@github.com:imma/getssl               4ac5ff1b2c7f7c7f179b84f600175f5fffa67219 master 
 cryfs                ${BLOCK_PATH}/cryfs                git@github.com:imma/cryfs                704494f1331504b7d01300a35a3b9cc6efde0671 master 
 yubikey              ${BLOCK_PATH}/yubikey              git@github.com:imma/yubikey              12d08418ea331398c2598fd4ab618b458db2dfcb master 
