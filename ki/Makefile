@@ -1,4 +1,4 @@
-KI := reset
+KI := conv
 
 docker:
 	$(MAKE)
