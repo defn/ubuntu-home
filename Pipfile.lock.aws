@@ -40,13 +40,13 @@
       "version": "==1.1.4"
     },
     "awscli": {
-      "version": "==1.14.28"
+      "version": "==1.14.29"
     },
     "boto3": {
-      "version": "==1.5.18"
+      "version": "==1.5.19"
     },
     "botocore": {
-      "version": "==1.8.32"
+      "version": "==1.8.33"
     },
     "cffi": {
       "markers": "platform_python_implementation != 'PyPy'",
