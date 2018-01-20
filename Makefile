@@ -19,7 +19,7 @@ _base_home ?= $(HOME)/work/base
 
 cache:
 	source work/ubuntu-config/script/profile && source work/block/script/profile && require && block gen profile > .bashrc.cache.1
-	mv .bashrc.cache.1 .bashrc.cache
+	mv -f .bashrc.cache.1 .bashrc.cache
 
 sync:
 	block sync
