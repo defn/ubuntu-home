@@ -83,7 +83,7 @@ gpg                  ${BLOCK_PATH}/gpg                  git@github.com:imma/gpg 
 git-crypt            ${BLOCK_PATH}/git-crypt            git@github.com:imma/git-crypt            35c7b0d57e67e644b04780d8f4488c8b12dee7e3 master 
 cfssl                ${BLOCK_PATH}/cfssl                git@github.com:imma/cfssl                abc4130575a884568fb6f66701e9f2d92c3c2789 master 
 getssl               ${BLOCK_PATH}/getssl               git@github.com:imma/getssl               4ac5ff1b2c7f7c7f179b84f600175f5fffa67219 master 
-certbot              ${BLOCK_PATH}/certbot              git@github.com:imma/certbot              61809b0a1401df72a69f91b986707f0c874222bd master 
+certbot              ${BLOCK_PATH}/certbot              git@github.com:imma/certbot              b37d3bcefcabb50148f2fbc643cf3d934c3feb8c master 
 cryfs                ${BLOCK_PATH}/cryfs                git@github.com:imma/cryfs                704494f1331504b7d01300a35a3b9cc6efde0671 master 
 yubikey              ${BLOCK_PATH}/yubikey              git@github.com:imma/yubikey              12d08418ea331398c2598fd4ab618b458db2dfcb master 
 kmsauth              ${BLOCK_PATH}/kmsauth              git@github.com:imma/kmsauth              8c37e0e072c72811b0dcd0ae63522851b3433924 master 
