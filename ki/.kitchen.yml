@@ -28,6 +28,11 @@ platforms:
       linked_clone: true
       dockerfile: ubuntu/Dockerfile
       box: bento/ubuntu-16.04
+  - name: debian
+    driver:
+      linked_clone: true
+      dockerfile: debian/Dockerfile
+      box: bento/debian-9.3
   - name: minima
     driver:
       linked_clone: true
