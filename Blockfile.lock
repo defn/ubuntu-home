@@ -8,7 +8,7 @@ runmany              ${BLOCK_PATH}/runmany              git@github.com:imma/runm
 block                ${BLOCK_PATH}/block                git@github.com:imma/block                a4a4b989e3fc2f2c7ba9c44b48f1153170eaff16 master 
 instance             ${BLOCK_PATH}/instance             git@github.com:imma/instance             fcddf250434277829d3862f8543661935668db13 master 
 base                 ${BLOCK_PATH}/base                 git@github.com:imma/base                 04915043a073f180e4ed95db4421ee3737a48e2b master 
-ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubuntu-config        eaf6e3f434ac1bcd5cd283500076ec1887109888 master 
+ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubuntu-config        287984b797a16e9e7855df420dd6231b93717527 master 
 homebrew             ${BLOCK_PATH}/homebrew             git@github.com:imma/homebrew             29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
 java                 ${BLOCK_PATH}/java                 git@github.com:imma/java                 11553c787609322993787e1fabd339782c6e9d14 master 
 pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               70190321b5e17e168c7d8268416901ff28c00f0c master 
