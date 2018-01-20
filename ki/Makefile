@@ -11,6 +11,7 @@ all:
 	docker commit ki_ubuntu_1 imma:ubuntu
 	docker-compose down
 	ki reset docker-imma
+	ki gen ssh docker-imma
 
 docker-macos:
 	docker run -d -v /var/run/docker.sock:/var/run/docker.sock -p 127.0.0.1:2375:2375 bobrik/socat TCP-LISTEN:2375,fork UNIX-CONNECT:/var/run/docker.sock
