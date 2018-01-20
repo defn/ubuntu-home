@@ -65,7 +65,7 @@ travis               ${BLOCK_PATH}/travis               git@github.com:imma/trav
 cicd                 ${BLOCK_PATH}/cicd                 git@github.com:imma/cicd                 538b236939feb3e050439cfff1e68bdad54b0614 master 
 aws-vault            ${BLOCK_PATH}/aws-vault            git@github.com:imma/aws-vault            b45b3394f8bc7108029ee08ba8e38565801db004 master 
 chamber              ${BLOCK_PATH}/chamber              git@github.com:imma/chamber              8eb8f947daf979b697c8ffed66b6258d21842123 master 
-awless               ${BLOCK_PATH}/awless               git@github.com:imma/awless               91436b5008eeacd32a96f7fb04ea539c4b25860f master 
+awless               ${BLOCK_PATH}/awless               git@github.com:imma/awless               8d635d18f7ddf97fdb6da8afdd802197dd161cbc master 
 credstash            ${BLOCK_PATH}/credstash            git@github.com:imma/credstash            5762b04dabf9d1af5721906d27075a4de86122b8 master 
 aws                  ${BLOCK_PATH}/aws                  git@github.com:imma/aws                  40ebbfd14cbe24f7ee2bc319bab7a45102cb88c8 master 
 awesome              ${BLOCK_PATH}/awesome              git@github.com:imma/awesome              c6906903fb7c93f1b2107740582d6ac198e86e6d master 
