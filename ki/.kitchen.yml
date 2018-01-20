@@ -41,7 +41,7 @@ platforms:
       dockerfile: imma/Dockerfile
       platform: ubuntu
     provisioner:
-      script: imma/minima.sh
+      script: imma/bootstrap.sh
   - name: centos
     driver:
       linked_clone: true
