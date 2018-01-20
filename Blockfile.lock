@@ -34,7 +34,7 @@ py36                 ${BLOCK_PATH}/py36                 git@github.com:imma/py36
 clojure              ${BLOCK_PATH}/clojure              git@github.com:imma/clojure              8ebcafbd876113a173a58675557e120711e97978 master 
 go                   ${BLOCK_PATH}/go                   git@github.com:imma/go                   2310a58c7e3954c20deef7f28165be7f34aabcee master 
 tfenv                ${BLOCK_PATH}/tfenv                git@github.com:imma/tfenv                2ae01416cb3f65d87a5edf18d138a9a6a744ccef master 
-vg                   ${BLOCK_PATH}/vg                   git@github.com:imma/vg                   ac700780118dd96d921736f1c9c4e91c981a5b51 master 
+vg                   ${BLOCK_PATH}/vg                   git@github.com:imma/vg                   3e4b177d4cc943b37cefa43721f0d857f56e5b7a master 
 vmm                  ${BLOCK_PATH}/vmm                  git@github.com:imma/vmm                  e652f7b873582c0002415325e281818945709d47 master 
 lang                 ${BLOCK_PATH}/lang                 git@github.com:imma/lang                 25d5e238492247ec1cbb63accd52f2101b56118d master 
 runit                ${BLOCK_PATH}/runit                git@github.com:imma/runit                09f7cc7bcd56a829a3a76b0ce36f185a085a0035 master 
@@ -65,7 +65,7 @@ travis               ${BLOCK_PATH}/travis               git@github.com:imma/trav
 cicd                 ${BLOCK_PATH}/cicd                 git@github.com:imma/cicd                 538b236939feb3e050439cfff1e68bdad54b0614 master 
 aws-vault            ${BLOCK_PATH}/aws-vault            git@github.com:imma/aws-vault            b45b3394f8bc7108029ee08ba8e38565801db004 master 
 chamber              ${BLOCK_PATH}/chamber              git@github.com:imma/chamber              8eb8f947daf979b697c8ffed66b6258d21842123 master 
-awless               ${BLOCK_PATH}/awless               git@github.com:imma/awless               86e1db00b52f82ddb2abfd297dd815ac1f16af4e master 
+awless               ${BLOCK_PATH}/awless               git@github.com:imma/awless               91436b5008eeacd32a96f7fb04ea539c4b25860f master 
 credstash            ${BLOCK_PATH}/credstash            git@github.com:imma/credstash            5762b04dabf9d1af5721906d27075a4de86122b8 master 
 aws                  ${BLOCK_PATH}/aws                  git@github.com:imma/aws                  40ebbfd14cbe24f7ee2bc319bab7a45102cb88c8 master 
 awesome              ${BLOCK_PATH}/awesome              git@github.com:imma/awesome              c6906903fb7c93f1b2107740582d6ac198e86e6d master 
