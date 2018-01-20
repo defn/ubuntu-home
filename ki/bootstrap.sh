@@ -87,10 +87,10 @@ function main {
         $loader apt-get upgrade -y
         ;;
       Amazon)
-        $loader yum install -y wget curl rsync make git hostname
+        $loader yum install -y wget curl rsync make nc git hostname
         ;;
       CentOS)
-        $loader yum install -y wget curl rsync make # git conflicts with a newer version
+        $loader yum install -y wget curl rsync make nc # git conflicts with a newer version
 
         wget -nc https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
         (set +f; $loader rpm -Uvh epel-release-latest-7*.rpm || true)

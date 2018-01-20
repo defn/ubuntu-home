@@ -2,7 +2,7 @@ FROM amazonlinux:2017.12
 
 ENV container docker
 
-RUN yum update -y && yum install -y sudo openssh-server openssh-clients which curl make
+RUN yum update -y && yum install -y sudo openssh-server openssh-clients which curl make nc
 
 RUN ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -N ''
 RUN ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key -N ''
