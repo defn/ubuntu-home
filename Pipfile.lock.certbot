@@ -1,0 +1,108 @@
+{
+  "_meta": {
+    "hash": {
+      "sha256": "63de9069aaa88b68edf4eda9c392099fa42611003be2eb3a4192fac65f290fc8"
+    },
+    "host-environment-markers": {
+      "implementation_name": "cpython",
+      "implementation_version": "3.6.3",
+      "os_name": "posix",
+      "platform_machine": "x86_64",
+      "platform_python_implementation": "CPython",
+      "platform_release": "17.3.0",
+      "platform_system": "Darwin",
+      "platform_version": "Darwin Kernel Version 17.3.0: Thu Nov  9 18:09:22 PST 2017; root:xnu-4570.31.3~1/RELEASE_X86_64",
+      "python_full_version": "3.6.3",
+      "python_version": "3.6",
+      "sys_platform": "darwin"
+    },
+    "pipfile-spec": 6,
+    "requires": {},
+    "sources": [
+      {
+        "name": "pypi",
+        "url": "https://pypi.python.org/simple",
+        "verify_ssl": false
+      }
+    ]
+  },
+  "default": {
+    "acme": {
+      "version": "==0.21.0"
+    },
+    "asn1crypto": {
+      "version": "==0.24.0"
+    },
+    "certbot": {
+      "version": "==0.21.0"
+    },
+    "certifi": {
+      "version": "==2018.1.18"
+    },
+    "cffi": {
+      "markers": "platform_python_implementation != 'PyPy'",
+      "version": "==1.11.4"
+    },
+    "chardet": {
+      "version": "==3.0.4"
+    },
+    "configargparse": {
+      "version": "==0.12.0"
+    },
+    "configobj": {
+      "version": "==5.0.6"
+    },
+    "cryptography": {
+      "version": "==2.1.4"
+    },
+    "future": {
+      "version": "==0.16.0"
+    },
+    "idna": {
+      "version": "==2.6"
+    },
+    "josepy": {
+      "version": "==1.0.1"
+    },
+    "mock": {
+      "version": "==2.0.0"
+    },
+    "parsedatetime": {
+      "version": "==2.4"
+    },
+    "pbr": {
+      "version": "==3.1.1"
+    },
+    "pycparser": {
+      "version": "==2.18"
+    },
+    "pyopenssl": {
+      "version": "==17.5.0"
+    },
+    "pyrfc3339": {
+      "version": "==1.0"
+    },
+    "pytz": {
+      "version": "==2017.3"
+    },
+    "requests": {
+      "version": "==2.18.4"
+    },
+    "six": {
+      "version": "==1.11.0"
+    },
+    "urllib3": {
+      "version": "==1.22"
+    },
+    "zope.component": {
+      "version": "==4.4.1"
+    },
+    "zope.event": {
+      "version": "==4.3.0"
+    },
+    "zope.interface": {
+      "version": "==4.4.3"
+    }
+  },
+  "develop": {}
+}
