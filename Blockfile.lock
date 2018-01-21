@@ -11,7 +11,7 @@ base                 ${BLOCK_PATH}/base                 git@github.com:imma/base
 ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubuntu-config        287984b797a16e9e7855df420dd6231b93717527 master 
 homebrew             ${BLOCK_PATH}/homebrew             git@github.com:imma/homebrew             29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
 java                 ${BLOCK_PATH}/java                 git@github.com:imma/java                 11553c787609322993787e1fabd339782c6e9d14 master 
-pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               8f1c9beb7ebfe79089401d83c6530ed0bb106218 master 
+pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               5b9a173c6bb5b6e5b8c2bb1fb89cfc41d53c944f master 
 pyenv                ${BLOCK_PATH}/pyenv                git@github.com:imma/pyenv                372251f18116e7f66f089b37235c4005d54f67fb master 
 python               ${BLOCK_PATH}/python               git@github.com:imma/python               cb6bbed83d3720c3466707dca6dcfad68d6bed8c master 
 py27                 ${BLOCK_PATH}/py27                 git@github.com:imma/py27                 f0c7d7fb1518caf3eddafe0416b281f7f3d38b06 master 
@@ -37,7 +37,7 @@ tfenv                ${BLOCK_PATH}/tfenv                git@github.com:imma/tfen
 vg                   ${BLOCK_PATH}/vg                   git@github.com:imma/vg                   74fb7fc005981571253a72cb619a9bcb3413ca14 master 
 vmm                  ${BLOCK_PATH}/vmm                  git@github.com:imma/vmm                  e652f7b873582c0002415325e281818945709d47 master 
 lang                 ${BLOCK_PATH}/lang                 git@github.com:imma/lang                 25d5e238492247ec1cbb63accd52f2101b56118d master 
-runit                ${BLOCK_PATH}/runit                git@github.com:imma/runit                09f7cc7bcd56a829a3a76b0ce36f185a085a0035 master 
+runit                ${BLOCK_PATH}/runit                git@github.com:imma/runit                d9d396df4da301904f95303041c06f84a3980be5 master 
 service              ${BLOCK_PATH}/service              git@github.com:imma/service              3f2c8fac2b0c2592a6ae5eaec4c68cd2d9776415 master 
 sshd                 ${BLOCK_PATH}/sshd                 git@github.com:imma/sshd                 b1dc983c44f472f359283cc6c5ff8bcb765b0296 master 
 facts                ${BLOCK_PATH}/facts                git@github.com:imma/facts                9c69d9500281b4cafffaf5834e4d096ab4e90dab master 
@@ -113,7 +113,7 @@ home                 ${BLOCK_PATH}/home                 git@github.com:imma/home
 talign               ${BLOCK_PATH}/talign               git@github.com:imma/talign               fdc4b75ebc28512392abd1c865ee31d73917b1d4 master 
 defn                 ${BLOCK_PATH}/defn                 git@github.com:imma/defn                 d8e2c729df74b52257b8c25464c2e9d7ad2105e8 master 
 junas                ${BLOCK_PATH}/junas                git@github.com:imma/junas                3d13a768154b2026573367d3ed885765debe913b master 
-irssi                ${BLOCK_PATH}/irssi                git@github.com:imma/irssi                acd2afe4839c95aa02a9c3161b3db53172841762 master 
+irssi                ${BLOCK_PATH}/irssi                git@github.com:imma/irssi                6cc3f6afce5f8008e7070ebe2710ca5ee3d209db master 
 bitlbee              ${BLOCK_PATH}/bitlbee              git@github.com:imma/bitlbee              c5ab1e2c32345d77934b91d5a15a9674853a701c master 
 chat                 ${BLOCK_PATH}/chat                 git@github.com:imma/chat                 a63abc9f2952305484e5f14083b091d05fca271e master 
 cue                  ${BLOCK_PATH}/cue                  git@github.com:imma/cue                  72faf57778c3863cc99c7779a4945a15968f7531 master 
