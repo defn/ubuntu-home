@@ -10,7 +10,7 @@ all:
 	while true; do ssh -A -p 2222 -o IdentityFile=$(shell pwd)/.kitchen/docker_id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@127.0.0.1 true && break; sleep 1; done
 	$(MAKE) continue
 	docker commit ki_ubuntu_1 imma:ubuntu
-	docker-compose down
+	docker-compose down || docker-compose down
 	ki reset docker-imma
 	ki gen ssh docker-imma
 
