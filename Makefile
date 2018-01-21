@@ -107,7 +107,3 @@ golden:
 docs:
 	md || true
 	make lock
-
-checkpoint:
-	git push 
-	tar cvfz $(DATA)/cache/git/ubuntu-master.tar.gz .git
