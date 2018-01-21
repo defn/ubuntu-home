@@ -102,57 +102,20 @@ function main {
         ;;
     esac
 
-    ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
+		ssh -o StrictHostKeyChecking=no github.com uname -a || true
 
-    tar xfz /data/cache/git/ubuntu-master.tar.gz
-    git reset --hard
-    rsync -ia .gitconfig.template .gitconfig
-    rsync -ia .ssh/config.template .ssh/config
-    chmod 600 .ssh/config
+		git clone git@github.com:imma/ubuntu
+		mv ubuntu/.git .
 
-    git remote add "${nm_remote}" "${url_remote}" 2>/dev/null || true
-    git remote set-url "${nm_remote}" "${url_remote}"
-    git fetch "${nm_remote}"
-    git branch -D "${nm_remote}/$nm_branch" || true
-    git branch --set-upstream-to "${nm_remote}/$nm_branch"
-    git reset --hard "${nm_remote}/${nm_branch}"
-    git checkout "${nm_branch}" 
-    if ! git submodule update --init; then
-      set +f
-      for a in work/*/; do
-        a="${a%/}"
-        if [[ ! -L "$a" ]]; then
-          if ! git submodule update --init "$a"; then
-            rm -rf ".git/modules/$a" "$a"
-            git submodule update --init "$a"
-          fi
-        fi
-      done
-      set -f
-      git submodule foreach 'git reset --hard; git clean -ffd'
-    fi
-    git submodule update --init
-
-    work/base/script/bootstrap
-    work/jq/script/bootstrap
-    work/block/script/cibuild
-
-    rm -f .bootstrapping
+		rm -f .bootstrapping
   fi
 
   git fetch
-  git reset --hard
-  git clean -ffd
+	git reset --hard
+	git clean -ffd
 
-  set +x
-  source work/block/script/profile ~
-  make cache
-  source .bash_profile
-
-  block sync
-  source .bash_profile
-  set -x
-  block bootstrap
+	script/setup
+	script/bootstrap
 
   case "${DISTRIB_ID}" in
     Ubuntu)
@@ -161,6 +124,7 @@ function main {
       ;;
   esac
 
+	source .bash_profile
   block stale
   pkg update list
 }
