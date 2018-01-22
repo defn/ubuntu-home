@@ -12,8 +12,8 @@ function main {
     cp .ssh/config.template .ssh/config
     chmod 600 .ssh/config
     git submodule update --init
+    make cache
     exec/home block sync
-    make cache # sync initially wont make a cache
   else
     local remote="$1"; shift
 
