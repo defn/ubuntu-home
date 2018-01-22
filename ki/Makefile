@@ -2,7 +2,7 @@ KI := conv
 DATA ?= /data
 
 all: .kitchen/docker_id_rsa
-	(cd && make prune)
+	(cd && make prune || true)
 	mkdir -p .ssh
 	rsync -ia ~/.ssh/authorized_keys .ssh/
 	docker build -t imma:ubuntu .
@@ -13,7 +13,7 @@ all: .kitchen/docker_id_rsa
 	docker commit ki_ubuntu_1 imma:latest
 	docker-compose down || docker-compose down
 	ki reset docker-imma
-	(cd && make prune)
+	(cd && make prune || true)
 
 .kitchen/docker_id_rsa:
 	mkdir -p .kitchen
