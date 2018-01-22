@@ -129,7 +129,7 @@ se                   ${BLOCK_PATH}/se                   git@github.com:imma/se  
 haihero              ${BLOCK_PATH}/haihero              git@github.com:imma/haihero              eb9c1972b6607813d93d781c3602e8efc2f96378 master 
 gotty                ${BLOCK_PATH}/gotty                git@github.com:imma/gotty                befcdfd401da0281522e9ae1e536097cc7909b69 master 
 cookiecutter         ${BLOCK_PATH}/cookiecutter         git@github.com:imma/cookiecutter         040da6b867e5d07d29e08121124dca1e17105f11 master 
-fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              c8eb24b65be4db1093f9254f38016924526bbeb4 master 
+fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              dddd1b1719fa58dc9d7715a7e6e4b7bc0f735d68 master 
 imma-tf              ${BLOCK_PATH}/imma-tf              git@github.com:imma/imma-tf              6739bd1d1ecc93fe28dfd1cb354f22b66523cc8d master 
 chalice              ${BLOCK_PATH}/chalice              git@github.com:imma/chalice              a98a8cdbfb02a1a5e83e11f892d6818ce3cf9fc9 master 
 docker-mac-network   ${BLOCK_PATH}/docker-mac-network   git@github.com:imma/docker-mac-network   5a4171edaaf2626d52a20e8815eb53b4335bdcff master 
