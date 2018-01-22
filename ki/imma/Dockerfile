@@ -1,4 +1,4 @@
-FROM imma:ubuntu
+FROM imma:latest
 
 ENV container docker
 

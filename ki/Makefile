@@ -1,7 +1,7 @@
 KI := conv
 DATA ?= /data
 
-all:
+all: .kitchen/docker_id_rsa
 	mkdir -p .ssh
 	rsync -ia ~/.ssh/authorized_keys .ssh/
 	docker build -t imma:ubuntu .
@@ -9,10 +9,13 @@ all:
 	while true; do if nc -z 127.0.0.1 2222; then break; fi; sleep 1; done
 	while true; do if ssh -A -p 2222 -o IdentityFile=$(shell pwd)/.kitchen/docker_id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@127.0.0.1 true; then break; fi; sleep 1; done
 	$(MAKE) continue
-	docker commit ki_ubuntu_1 imma:ubuntu
+	docker commit ki_ubuntu_1 imma:latest
 	docker-compose down || docker-compose down
 	ki reset docker-imma
-	ki gen ssh docker-imma
+
+.kitchen/docker_id_rsa:
+	mkdir -p .kitchen
+	ssh-keygen -f .kitchen/docker_id_rsa -P ''
 
 continue:
 	ssh -A -p 2222 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@127.0.0.1 /tmp/cache/script/bootstrap
