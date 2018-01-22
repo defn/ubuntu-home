@@ -12,6 +12,7 @@ all: .kitchen/docker_id_rsa
 	docker commit ki_ubuntu_1 imma:latest
 	docker-compose down || docker-compose down
 	ki reset docker-imma
+	(cd && make prune)
 
 .kitchen/docker_id_rsa:
 	mkdir -p .kitchen
