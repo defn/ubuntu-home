@@ -2,6 +2,7 @@ KI := conv
 DATA ?= /data
 
 all: .kitchen/docker_id_rsa
+	(cd && make prune)
 	mkdir -p .ssh
 	rsync -ia ~/.ssh/authorized_keys .ssh/
 	docker build -t imma:ubuntu .
