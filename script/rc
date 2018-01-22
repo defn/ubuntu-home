@@ -3,7 +3,7 @@
 function lookup_pip {
   local nm_block="$1"; shift
   local nm_package="${1:-${nm_block}}"
-  cat "${BOARD_PATH}/Pipfile.lock.${nm_block}" | "$(env PATH="$PATH:${BOARD_PATH:-${HOME}}/work/jq/bin" which jq | head -1)" -r --arg package "$nm_package" '.default[$package].version' | sed 's#==##'
+  cat "${BOARD_PATH:-${HOME}}/Pipfile.lock.${nm_block}" | "$(env PATH="$PATH:${BOARD_PATH:-${HOME}}/work/jq/bin" which jq | head -1)" -r --arg package "$nm_package" '.default[$package].version' | sed 's#==##'
 }
 
 export ANSIBLE_VERSION="$(lookup_pip ansible)"
