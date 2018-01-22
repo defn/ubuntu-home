@@ -22,15 +22,19 @@ RUN install -d -m 0700 -o ubuntu -g ubuntu /home/ubuntu/.ssh
 
 COPY . /tmp/cache
 
+COPY .kitchen/docker_id_rsa /root/.ssh/id_rsa
+COPY .kitchen/docker_id_rsa /home/ubuntu/.ssh/id_rsa
+COPY .kitchen/docker_id_rsa.pub /home/ubuntu/.ssh/id_rsa.pub
+RUN chmod 0600 /home/ubuntu/.ssh/id_rsa /root/.ssh/id_rsa
+
 RUN install -d -m 0700 -o ubuntu -g ubuntu /home/ubuntu/.ssh
 COPY .ssh/authorized_keys /home/ubuntu/.ssh/authorized_keys
+RUN cat /home/ubuntu/.ssh/id_rsa.pub >> /home/ubuntu/.ssh/authorized_keys
 
 RUN chown -R ubuntu /home/ubuntu/.ssh
 RUN chmod 0600 /home/ubuntu/.ssh/authorized_keys
-RUN chmod 0600 /home/ubuntu/.ssh/id_rsa
 
 RUN chown -R root:root /root/.ssh
-RUN chmod 0600 /root/.ssh/id_rsa
 
 ENTRYPOINT ["/data/script/service"]
 CMD ["/usr/sbin/sshd", "-D", "-o", "UseDNS=no", "-o", "UsePAM=no", "-o", "PasswordAuthentication=yes", "-o", "UsePrivilegeSeparation=no", "-o", "PidFile=/tmp/sshd.pid"]
