@@ -10,7 +10,7 @@ all: .kitchen/docker_id_rsa
 	while true; do if nc -z 127.0.0.1 2222; then break; fi; sleep 1; done
 	while true; do if ssh -A -p 2222 -o IdentityFile=$(shell pwd)/.kitchen/docker_id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@127.0.0.1 true; then break; fi; sleep 1; done
 	$(MAKE) continue
-	docker commit ki_ubuntu_1 imma:latest
+	docker commit build_ubuntu_1 imma:latest
 	(cd build && (docker-compose down || docker-compose down) )
 	(cd && make prune >/dev/null 2>&1 || true)
 
