@@ -36,6 +36,6 @@ RUN chmod 0600 /home/ubuntu/.ssh/authorized_keys
 
 RUN chown -R root:root /root/.ssh
 
-COPY ${HOME}/script/service /service
+COPY script/service /service
 ENTRYPOINT ["/service"]
 CMD ["/usr/sbin/sshd", "-D", "-o", "UseDNS=no", "-o", "UsePAM=no", "-o", "PasswordAuthentication=yes", "-o", "UsePrivilegeSeparation=no", "-o", "PidFile=/tmp/sshd.pid"]
