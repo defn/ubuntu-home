@@ -79,10 +79,7 @@ function main {
         $loader rm -f /etc/apt/apt.conf.d/docker-clean
 
         $loader apt-get update
-        $loader apt-get install -y awscli
-        $loader dpkg --configure -a
-        $loader apt-get update
-        $loader apt-get install -y make python build-essential aptitude git rsync
+        $loader apt-get install -y openssh-server curl lsb-release sudo make locales python build-essential aptitude git rsync jq netcat
         $loader aptitude hold grub-legacy-ec2 docker-ce
         $loader apt-get upgrade -y
         ;;
