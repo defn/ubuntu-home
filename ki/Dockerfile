@@ -29,7 +29,9 @@ RUN chmod 0600 /home/ubuntu/.ssh/id_rsa /root/.ssh/id_rsa
 
 RUN install -d -m 0700 -o ubuntu -g ubuntu /home/ubuntu/.ssh
 COPY .ssh/authorized_keys /home/ubuntu/.ssh/authorized_keys
+RUN echo >> /home/ubuntu/.ssh/authorized_keys
 RUN cat /home/ubuntu/.ssh/id_rsa.pub >> /home/ubuntu/.ssh/authorized_keys
+RUN echo >> /home/ubuntu/.ssh/authorized_keys
 
 RUN chown -R ubuntu /home/ubuntu/.ssh
 RUN chmod 0600 /home/ubuntu/.ssh/authorized_keys
