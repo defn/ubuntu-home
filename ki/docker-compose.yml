@@ -1,6 +1,6 @@
 version: '3.4'
 services:
-  ubuntu:
+  imma_latest:
     image: "imma:ubuntu"
     privileged: true
     ports:
