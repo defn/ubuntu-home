@@ -8,7 +8,7 @@ runmany              ${BLOCK_PATH}/runmany              git@github.com:imma/runm
 block                ${BLOCK_PATH}/block                git@github.com:imma/block                b4a55a76102a3257af899bf35819a0e9e7e1c30a master 
 instance             ${BLOCK_PATH}/instance             git@github.com:imma/instance             fcddf250434277829d3862f8543661935668db13 master 
 base                 ${BLOCK_PATH}/base                 git@github.com:imma/base                 9ecf7cd00d9e2ea6accb09ed7884100e3830151b master 
-ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubuntu-config        287984b797a16e9e7855df420dd6231b93717527 master 
+ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubuntu-config        e8b53ee0c9df8ff6c384ab4ea6a27aad9ccbbda8 master 
 homebrew             ${BLOCK_PATH}/homebrew             git@github.com:imma/homebrew             29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
 java                 ${BLOCK_PATH}/java                 git@github.com:imma/java                 90e5796cd8f3a91d2e79f3ff05df0dce6c9ee2fc master 
 pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               a1acd3e2efd78833fc379aaa0b94f0a75595c120 master 
@@ -28,7 +28,7 @@ ruby                 ${BLOCK_PATH}/ruby                 git@github.com:imma/ruby
 curl                 ${BLOCK_PATH}/curl                 git@github.com:imma/curl                 bb57a7cea3f29a92b222fe7afe8c1e9072804ff8 master 
 nvm                  ${BLOCK_PATH}/nvm                  git@github.com:imma/nvm                  e3edf70ec7e8554e3ce53598efe0acbd77d13e7d master 
 node                 ${BLOCK_PATH}/node                 git@github.com:imma/node                 9abacb7b2f1fb38521fc0b3d8a77392323f15860 master 
-yarn                 ${BLOCK_PATH}/yarn                 git@github.com:imma/yarn                 799cb0ef65b7fe731cce1eec344cd4be54c1d72d master 
+yarn                 ${BLOCK_PATH}/yarn                 git@github.com:imma/yarn                 db0fa18f22c89b8ae491280c3d81afa646f9210c master 
 bash4                ${BLOCK_PATH}/bash4                git@github.com:imma/bash4                c7d35f0bea3080089eef1f6c9ea0ff0e2b8fc97f master 
 py36                 ${BLOCK_PATH}/py36                 git@github.com:imma/py36                 fafcd65e2e5fcc69766f50d109bd173cd7fecb66 master 
 clojure              ${BLOCK_PATH}/clojure              git@github.com:imma/clojure              8ebcafbd876113a173a58675557e120711e97978 master 
