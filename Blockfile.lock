@@ -96,7 +96,7 @@ op                   ${BLOCK_PATH}/op                   git@github.com:imma/op  
 crypto               ${BLOCK_PATH}/crypto               git@github.com:imma/crypto               369c2a5460aad7b0cffafc77ad322d64a7558e64 master 
 packer               ${BLOCK_PATH}/packer               git@github.com:imma/packer               12e9513e080c891ba3fb4414fb48246c7f3fefce master 
 dream                ${BLOCK_PATH}/dream                git@github.com:imma/dream                5224cb3213815cbf49b3166307f4afb7ab21d61c master 
-vagrant              ${BLOCK_PATH}/vagrant              git@github.com:imma/vagrant              259ea445a5c61d27b20e80eed64ef78e5069f084 master 
+vagrant              ${BLOCK_PATH}/vagrant              git@github.com:imma/vagrant              cd64854c060729ba807ff28f7c9c86d8c977c850 master 
 limbo                ${BLOCK_PATH}/limbo                git@github.com:imma/limbo                b0e227561392b66df08131245f2329fac765192c master 
 inception            ${BLOCK_PATH}/inception            git@github.com:imma/inception            199b5320b8bf3d8c6b237665b7657b1b7277b0e3 master 
 terraform            ${BLOCK_PATH}/terraform            git@github.com:imma/terraform            02da595ef5de1b0a3ce408c16d3c81f94652ab74 master 
