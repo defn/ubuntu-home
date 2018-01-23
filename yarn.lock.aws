@@ -92,8 +92,8 @@ aws-sdk@2.177.0:
     xmlbuilder "4.2.1"
 
 aws-sdk@^2.131.0:
-  version "2.185.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.185.0.tgz#a570b8cb1a083d88ed90f5f629144b1dcf6e1434"
+  version "2.186.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.186.0.tgz#64eccea5bf0449810323c313d9cb41c2a4a2850d"
   dependencies:
     buffer "4.9.1"
     events "^1.1.1"
@@ -106,8 +106,8 @@ aws-sdk@^2.131.0:
     xmlbuilder "4.2.1"
 
 awsmobile-cli@^1.0.0:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/awsmobile-cli/-/awsmobile-cli-1.0.8.tgz#a26fa448cc21a6594dc7a7253ac3061d01e428f2"
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/awsmobile-cli/-/awsmobile-cli-1.0.9.tgz#bc8c07072d45809e6329801e56a23b9945dc6ee0"
   dependencies:
     archiver "^2.1.0"
     aws-amplify "^0.1.x"
@@ -321,8 +321,8 @@ figures@^2.0.0:
     escape-string-regexp "^1.0.5"
 
 follow-redirects@^1.2.5:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.3.0.tgz#f684871fc116d2e329fda55ef67687f4fabc905c"
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.4.0.tgz#a146a3a5d402201c7a3e6128643f0e336d212b10"
   dependencies:
     debug "^3.1.0"
 
