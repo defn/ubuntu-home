@@ -172,6 +172,8 @@ ____EOF
     sync
     ;;
   *)
+    sudo groupadd -g 497 docker || true
+    sudo usermod -G docker ubuntu || true
     main "$@"
     ;;
 esac
