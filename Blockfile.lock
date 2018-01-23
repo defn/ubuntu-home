@@ -55,6 +55,7 @@ docker-compose       ${BLOCK_PATH}/docker-compose       git@github.com:imma/dock
 docker-machine       ${BLOCK_PATH}/docker-machine       git@github.com:imma/docker-machine       8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master 
 docker               ${BLOCK_PATH}/docker               git@github.com:imma/docker               74b01bbd4469d22b506afcdf733b66e7f3b5bb87 master 
 kubernetes           ${BLOCK_PATH}/kubernetes           git@github.com:imma/kubernetes           4ed0bcaa72d63692348b1b39fb378e327970f53e master 
+ecr                  ${BLOCK_PATH}/ecr                  git@github.com:imma/ecr                  68628049bdb7dcadbf99657071b12ffd3cae56eb master 
 jenkins              ${BLOCK_PATH}/jenkins              git@github.com:imma/jenkins              9f086c768ff58b9efe797ef366d2c2ec83319c21 master 
 codecommit           ${BLOCK_PATH}/codecommit           git@github.com:imma/codecommit           103788d5db3a95d559447d7e92dfb9f3f02268dd master 
 git                  ${BLOCK_PATH}/git                  git@github.com:imma/git                  472bdf518d416de26ecc322296215577669b255c master 

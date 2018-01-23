@@ -25,7 +25,8 @@
     ],
     [
       "docker",
-      "kubernetes"
+      "kubernetes",
+      "ecr"
     ],
     [
       "cicd"

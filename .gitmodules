@@ -539,3 +539,6 @@
 [submodule "work/certbot"]
 	path = work/certbot
 	url = git@github.com:imma/certbot
+[submodule "work/ecr"]
+	path = work/ecr
+	url = git@github.com:imma/ecr

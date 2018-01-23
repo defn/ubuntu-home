@@ -184,3 +184,4 @@ tmux-client*log
 /.op
 /.virtualgo
 /.travis
+/.ecr
