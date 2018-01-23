@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -exfu
+set -efu
 umask 0022
 
 function main {
