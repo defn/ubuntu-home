@@ -56,6 +56,8 @@ docker-machine       ${BLOCK_PATH}/docker-machine       git@github.com:imma/dock
 docker               ${BLOCK_PATH}/docker               git@github.com:imma/docker               74b01bbd4469d22b506afcdf733b66e7f3b5bb87 master 
 kubernetes           ${BLOCK_PATH}/kubernetes           git@github.com:imma/kubernetes           4ed0bcaa72d63692348b1b39fb378e327970f53e master 
 ecr                  ${BLOCK_PATH}/ecr                  git@github.com:imma/ecr                  25f20f65668a1f7f48f0879ca635509a5999e2c6 master 
+docker-mac-network   ${BLOCK_PATH}/docker-mac-network   git@github.com:imma/docker-mac-network   5a4171edaaf2626d52a20e8815eb53b4335bdcff master 
+lambda               ${BLOCK_PATH}/lambda               git@github.com:imma/lambda               2039756b568bc11c35caa20784ab09dbe9688611 master 
 jenkins              ${BLOCK_PATH}/jenkins              git@github.com:imma/jenkins              9f086c768ff58b9efe797ef366d2c2ec83319c21 master 
 codecommit           ${BLOCK_PATH}/codecommit           git@github.com:imma/codecommit           103788d5db3a95d559447d7e92dfb9f3f02268dd master 
 git                  ${BLOCK_PATH}/git                  git@github.com:imma/git                  472bdf518d416de26ecc322296215577669b255c master 
@@ -132,8 +134,6 @@ gotty                ${BLOCK_PATH}/gotty                git@github.com:imma/gott
 cookiecutter         ${BLOCK_PATH}/cookiecutter         git@github.com:imma/cookiecutter         040da6b867e5d07d29e08121124dca1e17105f11 master 
 fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              ae7ad89591cf9437bc431c87cdb57e0c3e915e3c master 
 imma-tf              ${BLOCK_PATH}/imma-tf              git@github.com:imma/imma-tf              63e89bf1f1bee5441536cdb463cdd4db79d1a644 master 
-chalice              ${BLOCK_PATH}/chalice              git@github.com:imma/chalice              a98a8cdbfb02a1a5e83e11f892d6818ce3cf9fc9 master 
-docker-mac-network   ${BLOCK_PATH}/docker-mac-network   git@github.com:imma/docker-mac-network   5a4171edaaf2626d52a20e8815eb53b4335bdcff master 
 aws-ssm-agent        ${BLOCK_PATH}/aws-ssm-agent        git@github.com:imma/aws-ssm-agent        a42018a4e06e0c12c9a7d9179fb7b5acc247b190 master 
 aws-cloudwatch-agent ${BLOCK_PATH}/aws-cloudwatch-agent git@github.com:imma/aws-cloudwatch-agent d83ec7d73644e503a6e65fa9f0cccedbc9a9f86d master 
 aws-codedeploy-agent ${BLOCK_PATH}/aws-codedeploy-agent git@github.com:imma/aws-codedeploy-agent 95df163a620911b77fa672b42410f12157f0bc1d master 

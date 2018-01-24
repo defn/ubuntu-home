@@ -527,9 +527,6 @@
 [submodule "work/op"]
 	path = work/op
 	url = git@github.com:imma/op
-[submodule "work/chalice"]
-	path = work/chalice
-	url = git@github.com:imma/chalice
 [submodule "work/vg"]
 	path = work/vg
 	url = git@github.com:imma/vg
@@ -542,3 +539,6 @@
 [submodule "work/ecr"]
 	path = work/ecr
 	url = git@github.com:imma/ecr
+[submodule "work/lambda"]
+	path = work/lambda
+	url = git@github.com:imma/lambda
