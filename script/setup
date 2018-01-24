@@ -8,11 +8,24 @@ function main {
 
   if [[ "$#" == 0 ]]; then
     cp .gitconfig.template .gitconfig
+
     mkdir -p .ssh
-    cp .ssh/config.template .ssh/config
+    if ssh -o Include=meh 2>&1 | grep -q 'Bad'; then
+      cat .ssh/config.template
+    else
+      perl -pe 's{^#Include}{Include}' ssh/config.template
+    fi > .ssh/config
     chmod 600 .ssh/config
+
+    mkdir .gnupg
+    chmod 0700 .gnupg
+    touch .gnupg/gpg.conf
+    chmod 0600 .gnupg/gpg.conf
+
     git submodule update --init
+
     make cache
+
     exec/home block sync
   else
     local remote="$1"; shift
