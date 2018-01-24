@@ -103,6 +103,7 @@ suites:
       require_chef_omnibus: false
       use_sudo: false
       use_cache: <%= ENV['FOGG_USE_CACHE'] || "true" %>
+      run_command: "bash -c 'mkdir -p /var/run/sshd && exec /usr/sbin/sshd -D -o UseDNS=no -o UsePAM=yes -o PasswordAuthentication=no -o UsePrivilegeSeparation=sandbox'"
       volume:
         - <%= ENV['DATA'] %>:/data
         - /var/run/docker.sock:/var/run/docker.sock
