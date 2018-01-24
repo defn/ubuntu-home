@@ -17,7 +17,7 @@ function main {
     fi > .ssh/config
     chmod 600 .ssh/config
 
-    mkdir .gnupg
+    mkdir -p .gnupg
     chmod 0700 .gnupg
     touch .gnupg/gpg.conf
     chmod 0600 .gnupg/gpg.conf
