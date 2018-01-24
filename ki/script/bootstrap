@@ -7,10 +7,15 @@ function main {
 
   ssh -o StrictHostKeyChecking=no github.com uname -a || true
 
-  git clone git@github.com:imma/ubuntu
-  mv ubuntu/.git .
-  git reset --hard
-  git clean -ffd
+  if [[ ! -e .git ]]; then
+    git clone git@github.com:imma/ubuntu
+    mv ubuntu/.git .
+    git reset --hard
+    git clean -ffd
+  fi
+
+  git fetch
+  git pull
 
   script/setup
   script/bootstrap

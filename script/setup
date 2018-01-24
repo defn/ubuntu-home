@@ -13,7 +13,7 @@ function main {
     if ssh -o Include=meh 2>&1 | grep -q 'Bad'; then
       cat .ssh/config.template
     else
-      perl -pe 's{^#Include}{Include}' ssh/config.template
+      perl -pe 's{^#Include}{Include}' .ssh/config.template
     fi > .ssh/config
     chmod 600 .ssh/config
 
