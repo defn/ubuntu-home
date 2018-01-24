@@ -7,7 +7,7 @@ function main {
 
   ssh -o StrictHostKeyChecking=no github.com uname -a || true
 
-  if [[ ! -e .git ]]; then
+  if [[ ! -d .git ]]; then
     git clone git@github.com:imma/ubuntu
     mv ubuntu/.git .
     git reset --hard
