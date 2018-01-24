@@ -1,4 +1,4 @@
-FROM amazonlinux:2017.12
+FROM amazonlinux:2017.09
 
 ENV container docker
 
