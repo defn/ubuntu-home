@@ -25,3 +25,4 @@ RUN chown -R root:root /root/.ssh
 COPY script/service /service
 ENTRYPOINT ["/service"]
 CMD ["/usr/sbin/sshd", "-D", "-o", "UseDNS=no", "-o", "UsePAM=no", "-o", "PasswordAuthentication=yes", "-o", "UsePrivilegeSeparation=no", "-o", "PidFile=/tmp/sshd.pid", "-o", "AllowStreamLocalForwarding=yes"]
+CMD ["bash", "-c", "mkdir -p /var/run/sshd && exec /usr/sbin/sshd -D -o UseDNS=no -o UsePAM=yes -o PasswordAuthentication=no -o UsePrivilegeSeparation=sandbox"]
