@@ -26,6 +26,18 @@ continue:
 docker-listen:
 	docker run -d -v /var/run/docker.sock:/var/run/docker.sock -p 2375:2375 bobrik/socat TCP-LISTEN:2375,fork UNIX-CONNECT:/var/run/docker.sock
 
+TAG ?= ubuntu
+
+tag:
+	docker tag "imma:$(TAG)" "$(shell aws ecr describe-repositories --repository-name imma | jq -r '.repositories[].repositoryUri'):$(TAG)"
+
+upload:
+	docker push "$(shell aws ecr describe-repositories --repository-name imma | jq -r '.repositories[].repositoryUri'):$(TAG)"
+
+download:
+	docker pull "$(shell aws ecr describe-repositories --repository-name imma | jq -r '.repositories[].repositoryUri'):$(TAG)"
+	docker tag "$(shell aws ecr describe-repositories --repository-name imma | jq -r '.repositories[].repositoryUri'):$(TAG)" "imma:$(TAG)"
+
 docker:
 	ki $(KI) docker-ubuntu
 
