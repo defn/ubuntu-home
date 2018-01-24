@@ -18,6 +18,9 @@ all: .kitchen/docker_id_rsa
 	(cd && make prune >/dev/null 2>&1 || true)
 	ki reset docker-imma
 
+dind:
+	$(MAKE) SSH_HOST=172.17.0.1
+
 .kitchen/docker_id_rsa:
 	mkdir -p .kitchen
 	ssh-keygen -f .kitchen/docker_id_rsa -P ''
