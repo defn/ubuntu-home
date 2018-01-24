@@ -37,7 +37,7 @@ tfenv                ${BLOCK_PATH}/tfenv                git@github.com:imma/tfen
 vg                   ${BLOCK_PATH}/vg                   git@github.com:imma/vg                   74fb7fc005981571253a72cb619a9bcb3413ca14 master 
 vmm                  ${BLOCK_PATH}/vmm                  git@github.com:imma/vmm                  e652f7b873582c0002415325e281818945709d47 master 
 lang                 ${BLOCK_PATH}/lang                 git@github.com:imma/lang                 25d5e238492247ec1cbb63accd52f2101b56118d master 
-runit                ${BLOCK_PATH}/runit                git@github.com:imma/runit                220c6f87fecd48fd1b10b88ae0b3a4728d64bbd0 master 
+runit                ${BLOCK_PATH}/runit                git@github.com:imma/runit                ea7942c5840be2424a6b8671cfe38b50179292ea master 
 service              ${BLOCK_PATH}/service              git@github.com:imma/service              3f2c8fac2b0c2592a6ae5eaec4c68cd2d9776415 master 
 sshd                 ${BLOCK_PATH}/sshd                 git@github.com:imma/sshd                 4e2f837b327d7ebcd0f00d85b0d9c1a1a3df194b master 
 facts                ${BLOCK_PATH}/facts                git@github.com:imma/facts                9c69d9500281b4cafffaf5834e4d096ab4e90dab master 
