@@ -2,17 +2,19 @@ KI := conv
 DATA ?= /data
 SSH_HOST ?= 127.0.0.1
 
+PREFIX := fehfeh-$(shell hostname)
+
 all: .kitchen/docker_id_rsa
 	(cd && make prune || true)
 	mkdir -p .ssh
 	rsync -ia ~/.ssh/authorized_keys .ssh/
 	docker build -t imma:ubuntu .
-	env COMPOSE_PROJECT_NAME=mehmeh docker-compose up -d --force-recreate
+	env COMPOSE_PROJECT_NAME=$(PREFIX) docker-compose up -d --force-recreate
 	while true; do if nc -z $(SSH_HOST) 2222; then break; fi; sleep 1; done
 	while true; do if ssh -A -p 2222 -o IdentityFile=$(shell pwd)/.kitchen/docker_id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@$(SSH_HOST) true; then break; fi; sleep 1; done
 	$(MAKE) continue
-	docker commit mehmeh_imma_latest_1 imma:latest
-	env COMPOSE_PROJECT_NAME=mehmeh docker-compose down || env COMPOSE_PROJECT_NAME=mehmeh docker-compose down
+	docker commit $(PREFIX)_imma_latest_1 imma:latest
+	env COMPOSE_PROJECT_NAME=$(PREFIX) docker-compose down || env COMPOSE_PROJECT_NAME=$(PREFIX) docker-compose down
 	(cd && make prune >/dev/null 2>&1 || true)
 	ki reset docker-imma
 
