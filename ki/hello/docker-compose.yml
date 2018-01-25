@@ -4,4 +4,4 @@ services:
     image: amazon/amazon-ecs-sample
     ports:
      - "80:80"
-    mem_reservation: 6200001
+    mem_reservation: 5000k
