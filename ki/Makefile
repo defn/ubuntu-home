@@ -15,12 +15,12 @@ all: .kitchen/docker_id_rsa
 	while true; do if ssh -A -p 2222 -o IdentityFile=$(shell pwd)/.kitchen/docker_id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@$(SSH_HOST) true; then break; fi; sleep 1; done
 	$(MAKE) continue
 	$(MAKE) finish
+	docker tag imma:latest imma:start
 
 update:
 	(cd && make prune || true)
 	mkdir -p .ssh
 	rsync -ia ~/.ssh/authorized_keys .ssh/
-	docker tag imma:latest imma:start
 	ln -nfs Dockerfile.update Dockerfile
 	docker build -t imma:latest .
 	env COMPOSE_PROJECT_NAME=$(PREFIX) docker-compose up -d --force-recreate

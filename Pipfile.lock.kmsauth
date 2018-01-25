@@ -9,9 +9,9 @@
       "os_name": "posix",
       "platform_machine": "x86_64",
       "platform_python_implementation": "CPython",
-      "platform_release": "4.9.60-linuxkit-aufs",
+      "platform_release": "4.9.76-3.78.amzn1.x86_64",
       "platform_system": "Linux",
-      "platform_version": "#1 SMP Mon Nov 6 16:00:12 UTC 2017",
+      "platform_version": "#1 SMP Fri Jan 12 19:51:35 UTC 2018",
       "python_full_version": "3.6.3",
       "python_version": "3.6",
       "sys_platform": "linux"
@@ -28,10 +28,10 @@
   },
   "default": {
     "boto3": {
-      "version": "==1.5.4"
+      "version": "==1.5.20"
     },
     "botocore": {
-      "version": "==1.8.18"
+      "version": "==1.8.34"
     },
     "docutils": {
       "version": "==0.14"

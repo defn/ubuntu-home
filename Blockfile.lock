@@ -89,7 +89,7 @@ getssl               ${BLOCK_PATH}/getssl               git@github.com:imma/gets
 certbot              ${BLOCK_PATH}/certbot              git@github.com:imma/certbot              015ebb388901db0ff512b5fbbe65a1dd604f5ee1 master 
 cryfs                ${BLOCK_PATH}/cryfs                git@github.com:imma/cryfs                704494f1331504b7d01300a35a3b9cc6efde0671 master 
 yubikey              ${BLOCK_PATH}/yubikey              git@github.com:imma/yubikey              12d08418ea331398c2598fd4ab618b458db2dfcb master 
-kmsauth              ${BLOCK_PATH}/kmsauth              git@github.com:imma/kmsauth              8c37e0e072c72811b0dcd0ae63522851b3433924 master 
+kmsauth              ${BLOCK_PATH}/kmsauth              git@github.com:imma/kmsauth              ae013d59a91fbcd774289a13b9cf66bb0a43e935 master 
 easy-rsa             ${BLOCK_PATH}/easy-rsa             git@github.com:imma/easy-rsa             27b4d83f6ee1c86201a4471ffa1783f42dad8d49 master 
 openvpn              ${BLOCK_PATH}/openvpn              git@github.com:imma/openvpn              9aef2036ab4f593b5e608cd7f81df97a60a6de7b master 
 zerotier             ${BLOCK_PATH}/zerotier             git@github.com:imma/zerotier             a1d1e0add988a6a6a8a6538d0118aa57588e9f19 master 
