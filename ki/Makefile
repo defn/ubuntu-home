@@ -1,7 +1,7 @@
 KI := conv
 DATA ?= /data
 SSH_HOST ?= 127.0.0.1
-
+TAG ?= latest
 PREFIX := fehfeh$(shell hostname)
 
 all: .kitchen/docker_id_rsa
@@ -15,12 +15,12 @@ all: .kitchen/docker_id_rsa
 	while true; do if ssh -A -p 2222 -o IdentityFile=$(shell pwd)/.kitchen/docker_id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@$(SSH_HOST) true; then break; fi; sleep 1; done
 	$(MAKE) continue
 	$(MAKE) finish
+	docker tag imma:latest imma:start
 
 update:
 	(cd && make prune || true)
 	mkdir -p .ssh
 	rsync -ia ~/.ssh/authorized_keys .ssh/
-	docker tag imma:latest imma:start
 	ln -nfs Dockerfile.update Dockerfile
 	docker build -t imma:latest .
 	env COMPOSE_PROJECT_NAME=$(PREFIX) docker-compose up -d --force-recreate
@@ -47,8 +47,6 @@ dind:
 
 docker-listen:
 	docker run -d -v /var/run/docker.sock:/var/run/docker.sock -p 2375:2375 bobrik/socat TCP-LISTEN:2375,fork UNIX-CONNECT:/var/run/docker.sock
-
-TAG ?= ubuntu
 
 tag:
 	docker tag "imma:$(TAG)" "$(shell aws ecr describe-repositories --repository-name imma | jq -r '.repositories[].repositoryUri'):$(TAG)"
