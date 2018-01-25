@@ -3,5 +3,10 @@ services:
   web:
     image: amazon/amazon-ecs-sample
     ports:
-     - "80:80"
+     - ":80"
+    mem_reservation: 5000k
+  admin:
+    image: "545070380609.dkr.ecr.us-east-1.amazonaws.com/imma:latest"
+    ports:
+     - ":22"
     mem_reservation: 5000k
