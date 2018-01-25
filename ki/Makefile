@@ -1,6 +1,7 @@
 KI := conv
 DATA ?= /data
 SSH_HOST ?= 127.0.0.1
+REPO ?= imma
 TAG ?= latest
 PREFIX := fehfeh$(shell hostname)
 
@@ -9,21 +10,21 @@ all: .kitchen/docker_id_rsa
 	mkdir -p .ssh
 	rsync -ia ~/.ssh/authorized_keys .ssh/
 	ln -nfs Dockerfile.base Dockerfile
-	docker build -t imma:ubuntu .
-	docker tag imma:ubuntu imma:start
+	docker build -t $(REPO):ubuntu .
+	docker tag $(REPO):ubuntu $(REPO):start
 	env COMPOSE_PROJECT_NAME=$(PREFIX) docker-compose up -d --force-recreate
 	while true; do if nc -z $(SSH_HOST) 2222; then break; fi; sleep 1; done
 	while true; do if ssh -A -p 2222 -o IdentityFile=$(shell pwd)/.kitchen/docker_id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@$(SSH_HOST) true; then break; fi; sleep 1; done
 	$(MAKE) continue
 	$(MAKE) finish
-	docker tag imma:latest imma:start
+	docker tag $(REPO):latest $(REPO):start
 
 update:
 	(cd && make prune || true)
 	mkdir -p .ssh
 	rsync -ia ~/.ssh/authorized_keys .ssh/
 	ln -nfs Dockerfile.update Dockerfile
-	docker build -t imma:latest .
+	docker build -t $(REPO):latest .
 	env COMPOSE_PROJECT_NAME=$(PREFIX) docker-compose up -d --force-recreate
 	while true; do if nc -z $(SSH_HOST) 2222; then break; fi; sleep 1; done
 	while true; do if ssh -A -p 2222 -o IdentityFile=$(shell pwd)/.kitchen/docker_id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@$(SSH_HOST) true; then break; fi; sleep 1; done
@@ -34,10 +35,10 @@ continue:
 	ssh -A -p 2222 -o IdentityFile=$(shell pwd)/.kitchen/docker_id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@$(SSH_HOST) /tmp/cache/script/bootstrap
 
 finish:
-	docker commit $(PREFIX)_imma_latest_1 imma:latest
+	docker commit $(PREFIX)_$(REPO)_latest_1 $(REPO):latest
 	env COMPOSE_PROJECT_NAME=$(PREFIX) docker-compose down || env COMPOSE_PROJECT_NAME=$(PREFIX) docker-compose down
 	(cd && make prune >/dev/null 2>&1 || true)
-	ki reset docker-imma
+	ki reset docker-$(REPO)
 
 dind:
 	$(MAKE) SSH_HOST=172.17.0.1
@@ -50,14 +51,14 @@ docker-listen:
 	docker run -d -v /var/run/docker.sock:/var/run/docker.sock -p 2375:2375 bobrik/socat TCP-LISTEN:2375,fork UNIX-CONNECT:/var/run/docker.sock
 
 tag:
-	docker tag "imma:$(TAG)" "$(shell aws ecr describe-repositories --repository-name imma | jq -r '.repositories[].repositoryUri'):$(TAG)"
+	docker tag "$(REPO):$(TAG)" "$(shell aws ecr describe-repositories --repository-name $(REPO) | jq -r '.repositories[].repositoryUri'):$(TAG)"
 
 upload:
-	docker push "$(shell aws ecr describe-repositories --repository-name imma | jq -r '.repositories[].repositoryUri'):$(TAG)"
+	docker push "$(shell aws ecr describe-repositories --repository-name $(REPO) | jq -r '.repositories[].repositoryUri'):$(TAG)"
 
 download:
-	docker pull "$(shell aws ecr describe-repositories --repository-name imma | jq -r '.repositories[].repositoryUri'):$(TAG)"
-	docker tag "$(shell aws ecr describe-repositories --repository-name imma | jq -r '.repositories[].repositoryUri'):$(TAG)" "imma:$(TAG)"
+	docker pull "$(shell aws ecr describe-repositories --repository-name $(REPO) | jq -r '.repositories[].repositoryUri'):$(TAG)"
+	docker tag "$(shell aws ecr describe-repositories --repository-name $(REPO) | jq -r '.repositories[].repositoryUri'):$(TAG)" "$(REPO):$(TAG)"
 
 docker:
 	ki $(KI) docker-ubuntu
