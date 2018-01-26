@@ -1,0 +1,5 @@
+{
+    "credHelpers": {
+        "repo-host": "ecr-login"
+    }
+}
