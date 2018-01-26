@@ -45,6 +45,7 @@ platforms:
       linked_clone: true
       dockerfile: imma/Dockerfile
       platform: ubuntu
+      privileged: true
     provisioner:
       script: imma/bootstrap.sh
   - name: centos
