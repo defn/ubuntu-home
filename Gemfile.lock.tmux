@@ -3,7 +3,7 @@ GEM
   specs:
     erubis (2.7.0)
     thor (0.20.0)
-    tmuxinator (0.10.0)
+    tmuxinator (0.10.1)
       erubis (~> 2.6)
       thor (~> 0.19, >= 0.15.0)
       xdg (~> 2.2, >= 2.2.3)
@@ -16,4 +16,4 @@ DEPENDENCIES
   tmuxinator
 
 BUNDLED WITH
-   1.16.0
+   1.16.1
