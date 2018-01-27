@@ -185,3 +185,4 @@ tmux-client*log
 /.virtualgo
 /.travis
 /.ecr
+/drive
