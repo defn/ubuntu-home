@@ -186,3 +186,4 @@ tmux-client*log
 /.travis
 /.ecr
 /drive
+/alice
