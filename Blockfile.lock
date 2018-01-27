@@ -104,7 +104,7 @@ limbo                ${BLOCK_PATH}/limbo                git@github.com:imma/limb
 inception            ${BLOCK_PATH}/inception            git@github.com:imma/inception            199b5320b8bf3d8c6b237665b7657b1b7277b0e3 master 
 terraform            ${BLOCK_PATH}/terraform            git@github.com:imma/terraform            02da595ef5de1b0a3ce408c16d3c81f94652ab74 master 
 wtf                  ${BLOCK_PATH}/wtf                  git@github.com:imma/wtf                  1b765c2f5ea1541f50367d6e2822d3d47663c900 master 
-fogg-cli             ${BLOCK_PATH}/fogg-cli             git@github.com:imma/fogg-cli             4fcc8518b9f716b577dd7e9b1971fe9c1d94e24c master 
+fogg-cli             ${BLOCK_PATH}/fogg-cli             git@github.com:imma/fogg-cli             2d773e4fcb1a9284e7c3e23bc4a7171f1c969707 master 
 fogg                 ${BLOCK_PATH}/fogg                 git@github.com:imma/fogg                 c4c1adfa5c57ede18ac3a5637fcec3edc7b31251 master 
 hugo                 ${BLOCK_PATH}/hugo                 git@github.com:imma/hugo                 4c3f5e1710e0b8f390f75044015daaf7e18ecc64 master 
 hugo-material-docs   ${BLOCK_PATH}/hugo-material-docs   git@github.com:imma/hugo-material-docs   4ca7bc271f76df5211eaa646626931e92bde285e master 
