@@ -108,6 +108,5 @@ suites:
       volume:
         - <%= ENV['DATA'] %>:/data
         - /var/run/docker.sock:/var/run/docker.sock
-        - <%= ENV['HOME'] %>/tmp/secrets.mnt:/secrets.mnt
       <%= ENV['FOGG_IMAGE_ID'] ? "image: #{ENV['FOGG_IMAGE_ID']}" : ""  %>
       <%= ENV['SSH_HOST'] ? "socket: tcp://#{ENV['SSH_HOST']}" : ""  %>
