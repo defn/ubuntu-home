@@ -1,4 +1,5 @@
 ---
+<% if File.executable?(%x(which vagrant).chomp) %>
 driver:
   name: vagrant
   box_check_update: true
@@ -7,6 +8,7 @@ driver:
   synced_folders:
     - [ "<%= ENV['DATA'] %>", "/data" ]
     - [ ".", "/tmp/home" ]
+<% end %>
 
 transport:
   forward_agent: true
