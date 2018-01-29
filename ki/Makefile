@@ -5,12 +5,8 @@ REPO ?= imma
 TAG ?= latest
 PREFIX := fehfeh$(shell hostname)
 
-all: .kitchen/docker_id_rsa
-	(cd && make prune || true)
-	mkdir -p .ssh
-	rsync -ia ~/.ssh/authorized_keys .ssh/
-	ln -nfs Dockerfile.base Dockerfile
-	docker build -t $(REPO):ubuntu .
+all:
+	$(MAKE) base
 	docker tag $(REPO):ubuntu $(REPO):start
 	env COMPOSE_PROJECT_NAME=$(PREFIX) docker-compose up -d --force-recreate
 	while true; do if nc -z $(SSH_HOST) 2222; then break; fi; sleep 1; done
@@ -18,6 +14,13 @@ all: .kitchen/docker_id_rsa
 	$(MAKE) continue
 	$(MAKE) finish
 	docker tag $(REPO):latest $(REPO):start
+
+base: .kitchen/docker_id_rsa
+	(cd && make prune || true)
+	mkdir -p .ssh
+	rsync -ia ~/.ssh/authorized_keys .ssh/
+	ln -nfs Dockerfile.base Dockerfile
+	docker build -t $(REPO):ubuntu .
 
 update:
 	(cd && make prune || true)
