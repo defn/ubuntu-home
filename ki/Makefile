@@ -3,7 +3,7 @@ DATA ?= /data
 SSH_HOST ?= 127.0.0.1
 REPO ?= imma
 TAG ?= latest
-PREFIX := fehfeh$(shell hostname)
+PREFIX := fehfeh$(shell hostname | sed "s/-//g")
 
 all:
 	$(MAKE) base
