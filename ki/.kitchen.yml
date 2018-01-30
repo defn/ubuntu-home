@@ -35,13 +35,20 @@ platforms:
       linked_clone: true
       dockerfile: debian/Dockerfile
       box: bento/debian-9.3
-  - name: minima
+  - name: ubuntu-minima
     driver:
       linked_clone: true
       dockerfile: ubuntu/Dockerfile
       platform: ubuntu
     provisioner:
       script: ubuntu/minima.sh
+  - name: debian-minima
+    driver:
+      linked_clone: true
+      dockerfile: debian/Dockerfile
+      platform: debian
+    provisioner:
+      script: debian/minima.sh
   - name: imma
     driver:
       linked_clone: true

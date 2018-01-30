@@ -9,7 +9,6 @@ RUN ln -sf /bin/true /sbin/initctl
 RUN apt-get update && apt-get upgrade -y && apt-get install -y openssh-server curl lsb-release sudo make locales python build-essential aptitude git rsync jq netcat
 RUN locale-gen en_US.UTF-8
 RUN dpkg-reconfigure --frontend=noninteractive locales
-RUN update-locale LANG=en_US.UTF-8
 
 RUN groupadd -g 497 docker
 RUN groupadd -g 1000 ubuntu
