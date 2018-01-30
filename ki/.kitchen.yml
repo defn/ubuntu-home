@@ -49,6 +49,13 @@ platforms:
       platform: debian
     provisioner:
       script: debian/minima.sh
+  - name: alpine-minima
+    driver:
+      linked_clone: true
+      dockerfile: alpine/Dockerfile
+      platform: alpine
+    provisioner:
+      script: alpine/minima.sh
   - name: imma
     driver:
       linked_clone: true
