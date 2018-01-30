@@ -42,7 +42,7 @@ service              ${BLOCK_PATH}/service              git@github.com:imma/serv
 sshd                 ${BLOCK_PATH}/sshd                 git@github.com:imma/sshd                 4e2f837b327d7ebcd0f00d85b0d9c1a1a3df194b master 
 facts                ${BLOCK_PATH}/facts                git@github.com:imma/facts                9c69d9500281b4cafffaf5834e4d096ab4e90dab master 
 consul               ${BLOCK_PATH}/consul               git@github.com:imma/consul               65f9a294fd70e73f662b7dc94f0647fd6a594808 master 
-consul-agent         ${BLOCK_PATH}/consul-agent         git@github.com:imma/consul-agent         17898d7ee3325fa7d62780899f4c4bbc7ad0bc4e master 
+consul-agent         ${BLOCK_PATH}/consul-agent         git@github.com:imma/consul-agent         cd2fe6ab8863c810969adba9cb52a4c48af97f0f master 
 consul-server        ${BLOCK_PATH}/consul-server        git@github.com:imma/consul-server        2f00d84b8603d05d68a0a406a856487d068cf1b4 master 
 etcd                 ${BLOCK_PATH}/etcd                 git@github.com:imma/etcd                 08394c75e2cd817431a077934c56c27dde17ba08 master 
 linkerd              ${BLOCK_PATH}/linkerd              git@github.com:imma/linkerd              87dc2cf4e2ad2f603cc56bbfc0f11fa237a5f7ac master 
