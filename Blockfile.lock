@@ -11,7 +11,7 @@ base                 ${BLOCK_PATH}/base                 git@github.com:imma/base
 ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubuntu-config        e8b53ee0c9df8ff6c384ab4ea6a27aad9ccbbda8 master 
 homebrew             ${BLOCK_PATH}/homebrew             git@github.com:imma/homebrew             29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
 java                 ${BLOCK_PATH}/java                 git@github.com:imma/java                 90e5796cd8f3a91d2e79f3ff05df0dce6c9ee2fc master 
-pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               a1acd3e2efd78833fc379aaa0b94f0a75595c120 master 
+pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               9177ec4906b65c827eac00ac47090d6340bf7c2f master 
 pyenv                ${BLOCK_PATH}/pyenv                git@github.com:imma/pyenv                372251f18116e7f66f089b37235c4005d54f67fb master 
 python               ${BLOCK_PATH}/python               git@github.com:imma/python               54ac6645b9916bf2c5dd28f763158c550412b7c3 master 
 py27                 ${BLOCK_PATH}/py27                 git@github.com:imma/py27                 f0c7d7fb1518caf3eddafe0416b281f7f3d38b06 master 
@@ -104,7 +104,7 @@ limbo                ${BLOCK_PATH}/limbo                git@github.com:imma/limb
 inception            ${BLOCK_PATH}/inception            git@github.com:imma/inception            199b5320b8bf3d8c6b237665b7657b1b7277b0e3 master 
 terraform            ${BLOCK_PATH}/terraform            git@github.com:imma/terraform            02da595ef5de1b0a3ce408c16d3c81f94652ab74 master 
 wtf                  ${BLOCK_PATH}/wtf                  git@github.com:imma/wtf                  1b765c2f5ea1541f50367d6e2822d3d47663c900 master 
-fogg-cli             ${BLOCK_PATH}/fogg-cli             git@github.com:imma/fogg-cli             2d773e4fcb1a9284e7c3e23bc4a7171f1c969707 master 
+fogg-cli             ${BLOCK_PATH}/fogg-cli             git@github.com:imma/fogg-cli             9002f0ece2a5de411c940275b7f8602bd95d274f master 
 fogg                 ${BLOCK_PATH}/fogg                 git@github.com:imma/fogg                 c4c1adfa5c57ede18ac3a5637fcec3edc7b31251 master 
 hugo                 ${BLOCK_PATH}/hugo                 git@github.com:imma/hugo                 4c3f5e1710e0b8f390f75044015daaf7e18ecc64 master 
 hugo-material-docs   ${BLOCK_PATH}/hugo-material-docs   git@github.com:imma/hugo-material-docs   4ca7bc271f76df5211eaa646626931e92bde285e master 
