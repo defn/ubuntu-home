@@ -91,7 +91,7 @@ cryfs                ${BLOCK_PATH}/cryfs                git@github.com:imma/cryf
 yubikey              ${BLOCK_PATH}/yubikey              git@github.com:imma/yubikey              12d08418ea331398c2598fd4ab618b458db2dfcb master 
 kmsauth              ${BLOCK_PATH}/kmsauth              git@github.com:imma/kmsauth              ae013d59a91fbcd774289a13b9cf66bb0a43e935 master 
 easy-rsa             ${BLOCK_PATH}/easy-rsa             git@github.com:imma/easy-rsa             27b4d83f6ee1c86201a4471ffa1783f42dad8d49 master 
-openvpn              ${BLOCK_PATH}/openvpn              git@github.com:imma/openvpn              9aef2036ab4f593b5e608cd7f81df97a60a6de7b master 
+openvpn              ${BLOCK_PATH}/openvpn              git@github.com:imma/openvpn              1318746ff691cd36404d1f5729c213329396cb37 master 
 zerotier             ${BLOCK_PATH}/zerotier             git@github.com:imma/zerotier             b4900f77a3dd09e8f1cf37dbced12588d514e99f master 
 ipfs                 ${BLOCK_PATH}/ipfs                 git@github.com:imma/ipfs                 6fd9145479e03d14e63f2da66237cbad42e732f6 master 
 vault                ${BLOCK_PATH}/vault                git@github.com:imma/vault                5a69deea1d74d4decc0fdffe1bf4416d03212b52 master 
