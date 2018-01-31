@@ -19,6 +19,7 @@ function main {
 
   script/setup
   script/bootstrap
+  git clean -ffd
 } 
 
 main "$@"
