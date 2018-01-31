@@ -11,7 +11,8 @@ function main {
 
   sudo chgrp docker /var/run/docker.sock
 
-  git pull
+  block sync fast
+  make cache
 }
 
 if [[ "$(id -u -n)" == "root" ]]; then
