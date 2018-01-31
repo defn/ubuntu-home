@@ -10,3 +10,7 @@ ssh:
 	mkdir -p .ssh
 	ssh-keyscan $(ssh_host) > .ssh/known_hosts
 	ssh -A -o StrictHostKeyChecking=yes -o UserKnownHostsFile=.ssh/known_hosts $(ssh_host) $(opt)
+
+attach:
+	tx init $(ssh_host)
+	tx $(ssh_host)
