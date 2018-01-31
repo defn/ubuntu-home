@@ -63,14 +63,6 @@ platforms:
       platform: alpine
     provisioner:
       script: alpine/minima.sh
-  - name: imma
-    driver:
-      linked_clone: true
-      dockerfile: imma/Dockerfile
-      platform: ubuntu
-      privileged: true
-    provisioner:
-      script: imma/bootstrap.sh
   - name: centos
     driver:
       linked_clone: true
