@@ -509,9 +509,6 @@
 [submodule "work/kubernetes"]
 	path = work/kubernetes
 	url = git@github.com:imma/kubernetes
-[submodule "work/docker-mac-network"]
-	path = work/docker-mac-network
-	url = git@github.com:wojas/docker-mac-network
 [submodule "work/aws-cloudwatch-agent"]
 	path = work/aws-cloudwatch-agent
 	url = git@github.com:imma/aws-cloudwatch-agent
