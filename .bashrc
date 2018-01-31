@@ -56,11 +56,9 @@ if [[ "${TERM:-}" == "screen" ]]; then
 fi
 
 if [[ -n "${TMUX:-}" ]]; then
-  if [[ -S "${BOARD_PATH}/.ssh/ssh_auth_sock" ]]; then
-    export SSH_AUTH_SOCK="${BOARD_PATH}/.ssh/ssh_auth_sock"
-  fi
+  export SSH_AUTH_SOCK="${BOARD_PATH}/.ssh/ssh_auth_sock"
 
-  if [[ "${TMUX_PANE:-}" == '%0' ]]; then
+  if [[ "${TMUX_PANE:-}" == '%1' ]]; then
     txm start default
   fi
 
