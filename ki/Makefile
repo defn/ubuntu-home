@@ -50,7 +50,6 @@ reset:
 	$(MAKE) download
 	ki reset docker-imma
 	tx init docker-imma
-	tx docker-imma
 
 .kitchen/docker_id_rsa:
 	mkdir -p .kitchen
