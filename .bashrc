@@ -58,7 +58,7 @@ fi
 if [[ -n "${TMUX:-}" ]]; then
   export SSH_AUTH_SOCK="${BOARD_PATH}/.ssh/ssh_auth_sock"
 
-  if [[ "${TMUX_PANE:-}" == '%1' ]]; then
+  if [[ "${TMUX_PANE:-}" == '%0' ]]; then
     txm start default
   fi
 
