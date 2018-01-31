@@ -8,6 +8,10 @@ function main {
   source .bash_profile
 
   ssh -o StrictHostKeyChecking=no git@github.com true 2>/dev/null || true
+
+  sudo chgrp docker /var/run/docker.sock
+
+  git pull
 }
 
 if [[ "$(id -u -n)" == "root" ]]; then
