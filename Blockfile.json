@@ -27,7 +27,6 @@
       "docker",
       "kubernetes",
       "ecr",
-      "docker-mac-network",
       "lambda"
     ],
     [
