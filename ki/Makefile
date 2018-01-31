@@ -41,7 +41,6 @@ finish:
 	docker commit $(PREFIX)_$(REPO)_latest_1 $(REPO):latest
 	env COMPOSE_PROJECT_NAME=$(PREFIX) docker-compose down || env COMPOSE_PROJECT_NAME=$(PREFIX) docker-compose down
 	(cd && make prune >/dev/null 2>&1 || true)
-	ki reset docker-$(REPO)
 
 dind:
 	$(MAKE) SSH_HOST=172.17.0.1
