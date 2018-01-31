@@ -46,6 +46,11 @@ finish:
 dind:
 	$(MAKE) SSH_HOST=172.17.0.1
 
+reset:
+	$(MAKE) download
+	ki reset docker-imma
+	tx init docker-imma
+
 .kitchen/docker_id_rsa:
 	mkdir -p .kitchen
 	ssh-keygen -f .kitchen/docker_id_rsa -P ''
