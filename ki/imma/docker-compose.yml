@@ -20,7 +20,7 @@ services:
       DEBUG: '1'
     command: /local/helpers/run.sh
     restart: always
-  imma:
+  latest:
     image: "imma:latest"
     privileged: true
     volumes:
