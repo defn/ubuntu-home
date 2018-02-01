@@ -6,6 +6,7 @@ TAG ?= latest
 PREFIX := fehfeh$(shell hostname | sed "s/-//g")
 
 all:
+	echo $(shell date +%s) >> .meh
 	$(MAKE) base
 	docker tag $(REPO):ubuntu $(REPO):start
 	docker tag $(REPO):ubuntu $(REPO):start2
