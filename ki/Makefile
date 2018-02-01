@@ -55,15 +55,11 @@ dind:
 docker-listen:
 	docker run -d -v /var/run/docker.sock:/var/run/docker.sock -p 2375:2375 bobrik/socat TCP-LISTEN:2375,fork UNIX-CONNECT:/var/run/docker.sock
 
-tag:
-	docker tag "$(REPO):$(TAG)" "$(shell aws ecr describe-repositories --repository-name $(REPO) | jq -r '.repositories[].repositoryUri'):$(TAG)"
+push:
+	ecs push "$(REPO):$(TAG)"
 
-upload:
-	docker push "$(shell aws ecr describe-repositories --repository-name $(REPO) | jq -r '.repositories[].repositoryUri'):$(TAG)"
-
-download:
-	docker pull "$(shell aws ecr describe-repositories --repository-name $(REPO) | jq -r '.repositories[].repositoryUri'):$(TAG)"
-	docker tag "$(shell aws ecr describe-repositories --repository-name $(REPO) | jq -r '.repositories[].repositoryUri'):$(TAG)" "$(REPO):$(TAG)"
+pull:
+	ecs pull "$(REPO):$(TAG)"
 
 docker:
 	ki $(KI) docker-ubuntu
