@@ -4,7 +4,7 @@ ENV container docker
 
 USER root
 RUN rpm --rebuilddb && yum clean all && yum update -y && (rpm -e --nodeps shadow-utils || true) && yum install -y shadow-utils
-RUN rpm --rebuilddb && yum clean all && yum update -y && yum install -y sudo openssh-server openssh-clients which curl make nc
+RUN rpm --rebuilddb && yum clean all && yum update -y && yum install -y sudo openssh-server openssh-clients which curl make nc bash
 
 RUN ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -N ''
 RUN ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key -N ''
@@ -26,3 +26,5 @@ RUN chmod 0600 /home/ubuntu/.ssh/id_rsa
 
 RUN chown -R root:root /root/.ssh
 RUN chmod 0600 /root/.ssh/id_rsa
+
+ENTRYPOINT /usr/bin/env
