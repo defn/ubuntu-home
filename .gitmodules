@@ -482,10 +482,6 @@
 	path = work/vault
 	url = git@github.com:imma/vault
 	branch = master
-[submodule "work/clojure"]
-	path = work/clojure
-	url = git@github.com:imma/clojure
-	branch = master
 [submodule "work/kubernetes"]
 	path = work/kubernetes
 	url = git@github.com:imma/kubernetes
