@@ -3,7 +3,7 @@ DATA ?= /data
 SSH_HOST ?= 127.0.0.1
 REPO ?= imma
 TAG ?= latest
-PREFIX := fehfeh$(shell hostname | sed "s/-//g")
+PREFIX := fehfeh$(shell hostname | perl -pe 's{[\.-]}{}g')
 
 all:
 	echo $(shell date +%s) >> .meh
