@@ -118,6 +118,13 @@ platforms:
       platform: lambda
     provisioner:
       script: lambda/minima.sh
+  - name: lambda-java8
+    driver:
+      linked_clone: true
+      dockerfile: lambda/Dockerfile.java8
+      platform: lambda
+    provisioner:
+      script: lambda/minima.sh
 
 suites:
   - name: localhost
