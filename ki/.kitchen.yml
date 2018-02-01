@@ -17,7 +17,7 @@ transport:
 provisioner:
   name: shell
   require_chef_omnibus: false
-  script: bootstrap.sh
+  script: base/bootstrap.sh
 
 verifier:
   name: inspec
@@ -83,7 +83,7 @@ platforms:
       platform: alpine
     provisioner:
       script: alpine/minima.sh
-  - name: lambda-minimal
+  - name: lambda-minima
     driver:
       linked_clone: true
       dockerfile: lambda/Dockerfile
