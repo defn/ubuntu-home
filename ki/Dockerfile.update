@@ -4,6 +4,7 @@ ENV container docker
 
 ENV DEBIAN_FRONTEND noninteractive
 
+COPY .meh /tmp/cache/.meh
 COPY . /tmp/cache
 
 COPY .kitchen/docker_id_rsa /root/.ssh/id_rsa

@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   imma_latest:
-    image: "imma:start"
+    image: "imma:latest"
     privileged: true
     ports:
       - "2222:22"

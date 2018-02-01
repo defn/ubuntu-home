@@ -27,17 +27,17 @@ update:
 	mkdir -p .ssh
 	rsync -ia ~/.ssh/authorized_keys .ssh/
 	ln -nfs Dockerfile.update Dockerfile
-	touch .meh-$(shell date +%s)
+	echo $(shell date +%s) >> .meh
 	docker build -t $(REPO):latest .
 	env COMPOSE_PROJECT_NAME=$(PREFIX) docker-compose up -d --force-recreate
 	while true; do if nc -z $(SSH_HOST) 2222; then break; fi; sleep 1; done
 	while true; do if ssh -A -p 2222 -o IdentityFile=$(shell pwd)/.kitchen/docker_id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@$(SSH_HOST) true; then break; fi; sleep 1; done
 	$(MAKE) continue
-	$(MAKE) finish
+	#$(MAKE) finish
 
 continue:
 	ssh -A -p 2222 -o IdentityFile=$(shell pwd)/.kitchen/docker_id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@$(SSH_HOST) /tmp/cache/script/bootstrap
-	figlet end continue
+	echo FINISHED: ssh -A -p 2222 -o IdentityFile=$(shell pwd)/.kitchen/docker_id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@$(SSH_HOST) /tmp/cache/script/bootstrap
 
 finish:
 	docker commit $(PREFIX)_$(REPO)_latest_1 $(REPO):latest
