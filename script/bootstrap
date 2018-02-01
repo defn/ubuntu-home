@@ -12,9 +12,6 @@ function main {
   work/block/script/cibuild
 
   block bootstrap
-
-  (source ".bash_profile" && block stale)
-  pkg update list
 }
 
 main "$@"
