@@ -1,4 +1,4 @@
-FROM lambci/lambda:base
+FROM lambci/lambda:build
 
 ENV container docker
 
