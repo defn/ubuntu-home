@@ -97,6 +97,13 @@ platforms:
       platform: lambda
     provisioner:
       script: lambda/minima.sh
+  - name: lambda-go1x
+    driver:
+      linked_clone: true
+      dockerfile: lambda/Dockerfile.go1x
+      platform: lambda
+    provisioner:
+      script: lambda/minima.sh
   - name: lambda-py36
     driver:
       linked_clone: true
