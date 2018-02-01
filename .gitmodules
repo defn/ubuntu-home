@@ -286,17 +286,9 @@
 	path = work/asciinema
 	url = git@github.com:imma/asciinema
 	branch = master
-[submodule "work/build"]
-	path = work/build
-	url = git@github.com:imma/build
-	branch = master
 [submodule "work/docs"]
 	path = work/docs
 	url = git@github.com:imma/docs
-	branch = master
-[submodule "work/dream"]
-	path = work/dream
-	url = git@github.com:imma/dream
 	branch = master
 [submodule "work/fogg"]
 	path = work/fogg
@@ -310,14 +302,6 @@
 	path = work/hugo-material-docs
 	url = git@github.com:imma/hugo-material-docs
 	branch = master
-[submodule "work/inception"]
-	path = work/inception
-	url = git@github.com:imma/inception
-	branch = master
-[submodule "work/limbo"]
-	path = work/limbo
-	url = git@github.com:imma/limbo
-	branch = master
 [submodule "work/packer"]
 	path = work/packer
 	url = git@github.com:imma/packer
@@ -329,10 +313,6 @@
 [submodule "work/tfenv"]
 	path = work/tfenv
 	url = git@github.com:imma/tfenv
-	branch = master
-[submodule "work/vagrant"]
-	path = work/vagrant
-	url = git@github.com:imma/vagrant
 	branch = master
 [submodule "work/chat"]
 	path = work/chat
