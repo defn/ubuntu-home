@@ -3,15 +3,14 @@ FROM lambci/lambda:go1.x
 ENV container docker
 
 USER root
+RUN rpm --rebuilddb && yum clean all && yum update -y && (rpm -e --nodeps shadow-utils || true) && yum install -y shadow-utils
 RUN rpm --rebuilddb && yum clean all && yum update -y && yum install -y sudo openssh-server openssh-clients which curl make nc
 
 RUN ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -N ''
 RUN ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key -N ''
 
-RUN env | sort
-ENV PATH=/usr/sbin:/sbin:/usr/local/bin:/usr/bin/:/bin
-RUN groupadd -g 1000 ubuntu
-RUN useradd -u 1000 -g ubuntu -d /home/ubuntu -m -s /bin/bash -p '*' ubuntu
+RUN env PATH=/usr/sbin:/sbin:/usr/local/bin:/usr/bin/:/bin groupadd -g 1000 ubuntu
+RUN env PATH=/usr/sbin:/sbin:/usr/local/bin:/usr/bin/:/bin useradd -u 1000 -g ubuntu -d /home/ubuntu -m -s /bin/bash -p '*' ubuntu
 
 RUN echo "ubuntu ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 RUN echo "Defaults !requiretty" >> /etc/sudoers
