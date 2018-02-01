@@ -109,7 +109,7 @@ function main {
 
   git fetch
 	git reset --hard
-	git clean -ffd
+	for a in in {1..5}; do git clean -ffd || true; done
 
 	script/setup
 	script/bootstrap

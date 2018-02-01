@@ -18,8 +18,9 @@ function main {
   git pull
 
   script/setup
-  script/bootstrap
-  git clean -ffd
+  script/bootstrap || true
+  for a in  1..5; do git clean -ffd || true; done
+  git status
 } 
 
 main "$@"
