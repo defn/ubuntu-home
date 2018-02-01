@@ -8,6 +8,7 @@ PREFIX := fehfeh$(shell hostname | sed "s/-//g")
 all:
 	$(MAKE) base
 	docker tag $(REPO):ubuntu $(REPO):start
+	docker tag $(REPO):ubuntu $(REPO):start2
 	env COMPOSE_PROJECT_NAME=$(PREFIX) docker-compose up -d --force-recreate
 	while true; do if nc -z $(SSH_HOST) 2222; then break; fi; sleep 1; done
 	while true; do if ssh -A -p 2222 -o IdentityFile=$(shell pwd)/.kitchen/docker_id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@$(SSH_HOST) true; then break; fi; sleep 1; done
@@ -28,7 +29,7 @@ update:
 	rsync -ia ~/.ssh/authorized_keys .ssh/
 	ln -nfs Dockerfile.update Dockerfile
 	echo $(shell date +%s) >> .meh
-	docker build -t $(REPO):latest .
+	docker build -t $(REPO):start2 .
 	env COMPOSE_PROJECT_NAME=$(PREFIX) docker-compose up -d --force-recreate
 	while true; do if nc -z $(SSH_HOST) 2222; then break; fi; sleep 1; done
 	while true; do if ssh -A -p 2222 -o IdentityFile=$(shell pwd)/.kitchen/docker_id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@$(SSH_HOST) true; then break; fi; sleep 1; done
