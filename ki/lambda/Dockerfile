@@ -27,4 +27,8 @@ RUN chmod 0600 /home/ubuntu/.ssh/id_rsa
 RUN chown -R root:root /root/.ssh
 RUN chmod 0600 /root/.ssh/id_rsa
 
-ENTRYPOINT /usr/bin/env
+RUN install -d -o root -g root -m 1777 /tmp
+
+EXPOSE :22
+ENTRYPOINT bash -c 'mkdir -p /var/run/sshd && exec /usr/sbin/sshd -D -o UseDNS=no -o UsePAM=yes -o PasswordAuthentication=no -o UsePrivilegeSeparation=sandbox'
+CMD []
