@@ -38,7 +38,7 @@ vg                   ${BLOCK_PATH}/vg                   git@github.com:imma/vg  
 vmm                  ${BLOCK_PATH}/vmm                  git@github.com:imma/vmm                  e652f7b873582c0002415325e281818945709d47 master 
 lang                 ${BLOCK_PATH}/lang                 git@github.com:imma/lang                 25d5e238492247ec1cbb63accd52f2101b56118d master 
 runit                ${BLOCK_PATH}/runit                git@github.com:imma/runit                ea7942c5840be2424a6b8671cfe38b50179292ea master 
-service              ${BLOCK_PATH}/service              git@github.com:imma/service              ad1258db19c799667f1cfe368e936d87c2f720b4 master 
+service              ${BLOCK_PATH}/service              git@github.com:imma/service              ad1258db19c799667f1cfe368e936d87c2f720b4 HEAD   
 sshd                 ${BLOCK_PATH}/sshd                 git@github.com:imma/sshd                 4e2f837b327d7ebcd0f00d85b0d9c1a1a3df194b master 
 facts                ${BLOCK_PATH}/facts                git@github.com:imma/facts                9c69d9500281b4cafffaf5834e4d096ab4e90dab master 
 consul               ${BLOCK_PATH}/consul               git@github.com:imma/consul               65f9a294fd70e73f662b7dc94f0647fd6a594808 master 
@@ -75,9 +75,9 @@ packet               ${BLOCK_PATH}/packet               git@github.com:imma/pack
 digitalocean         ${BLOCK_PATH}/digitalocean         git@github.com:imma/digitalocean         fa6286e9922eac58b1451bb6aa8175ba3650b906 master 
 heroku               ${BLOCK_PATH}/heroku               git@github.com:imma/heroku               c25b6187b66a8f5dfe6062584aa0f560b2580e47 master 
 eb                   ${BLOCK_PATH}/eb                   git@github.com:imma/eb                   c6071b11a62275a1fda5369e99fc9a27814cf02b master 
-ecs                  ${BLOCK_PATH}/ecs                  git@github.com:imma/ecs                  94d26a08d713da2e7ba10461caf0f257c46eb276 HEAD   
+ecs                  ${BLOCK_PATH}/ecs                  git@github.com:imma/ecs                  94d26a08d713da2e7ba10461caf0f257c46eb276 master 
 cloud                ${BLOCK_PATH}/cloud                git@github.com:imma/cloud                c69a6ee591538554ced4a9dd5dbb5cdb9839d635 master 
-imma                 ${BLOCK_PATH}/imma                 git@github.com:imma/imma                 b965efa0c9de8f39a06a5032f8feee73d678a29c HEAD   
+imma                 ${BLOCK_PATH}/imma                 git@github.com:imma/imma                 4121dec960b8cd1edeeb86c68be836dad996b2c8 master 
 chef                 ${BLOCK_PATH}/chef                 git@github.com:imma/chef                 b3490d30b0bd1f430b8b7a7cf881e06f794e0a56 master 
 netdata              ${BLOCK_PATH}/netdata              git@github.com:imma/netdata              9ae95d60e6daccbbec8d0f5d8017e935c9021aa9 master 
 monitor              ${BLOCK_PATH}/monitor              git@github.com:imma/monitor              4ca342bfaae8881a16a2d79343bf33f87bf86a75 master 
