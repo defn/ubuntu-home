@@ -35,6 +35,26 @@ platforms:
       linked_clone: true
       dockerfile: debian/Dockerfile
       box: bento/debian-9.3
+  - name: centos
+    driver:
+      linked_clone: true
+      dockerfile: centos/Dockerfile
+  - name: amazon
+    driver_config:
+      linked_clone: true
+      dockerfile: amazon/Dockerfile
+  - name: lambda
+    driver_config:
+      linked_clone: true
+      dockerfile: lambda/Dockerfile
+    provisioner:
+      script: lambda/bootstrap.sh
+  - name: alpine
+    driver_config:
+      linked_clone: true
+      dockerfile: alpine/Dockerfile
+    provisioner:
+      script: alpine/bootstrap.sh
   - name: ubuntu-minima
     driver:
       linked_clone: true
@@ -63,20 +83,34 @@ platforms:
       platform: alpine
     provisioner:
       script: alpine/minima.sh
-  - name: centos
+  - name: lambda-minimal
     driver:
       linked_clone: true
-      dockerfile: centos/Dockerfile
-  - name: amazon
-    driver_config:
-      linked_clone: true
-      dockerfile: amazon/Dockerfile
-  - name: alpine
-    driver_config:
-      linked_clone: true
-      dockerfile: alpine/Dockerfile
+      dockerfile: lambda/Dockerfile
+      platform: lambda
     provisioner:
-      script: alpine/bootstrap.sh
+      script: lambda/minima.sh
+  - name: lambda-go1x
+    driver:
+      linked_clone: true
+      dockerfile: lambda/Dockerfile.go1x
+      platform: lambda
+    provisioner:
+      script: lambda/minima.sh
+  - name: lambda-py36
+    driver:
+      linked_clone: true
+      dockerfile: lambda/Dockerfile.py36
+      platform: lambda
+    provisioner:
+      script: lambda/minima.sh
+  - name: lambda-py27
+    driver:
+      linked_clone: true
+      dockerfile: lambda/Dockerfile.py27
+      platform: lambda
+    provisioner:
+      script: lambda/minima.sh
 
 suites:
   - name: localhost
