@@ -123,9 +123,6 @@ function main {
 
   rm -rf "$WRKOBJDIR"
   rm -rf "$PKGSRCDIR"
-
-	source .bash_profile
-  block stale
 }
 
 case "$(id -u -n)" in

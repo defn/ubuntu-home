@@ -6,10 +6,6 @@ umask 0022
 function main {
   cd "$HOME"
   source .bash_profile
-
-  block bootstrap
-  block stale
-  pkg update list
 }
 
 if [[ "$(id -u -n)" == "root" ]]; then
