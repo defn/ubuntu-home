@@ -75,9 +75,9 @@ packet               ${BLOCK_PATH}/packet               git@github.com:imma/pack
 digitalocean         ${BLOCK_PATH}/digitalocean         git@github.com:imma/digitalocean         fa6286e9922eac58b1451bb6aa8175ba3650b906 master 
 heroku               ${BLOCK_PATH}/heroku               git@github.com:imma/heroku               c25b6187b66a8f5dfe6062584aa0f560b2580e47 master 
 eb                   ${BLOCK_PATH}/eb                   git@github.com:imma/eb                   c6071b11a62275a1fda5369e99fc9a27814cf02b master 
-ecs                  ${BLOCK_PATH}/ecs                  git@github.com:imma/ecs                  2aea0c0ed835f9c18bbab7f5b96cbbb83fd4356d master 
+ecs                  ${BLOCK_PATH}/ecs                  git@github.com:imma/ecs                  94d26a08d713da2e7ba10461caf0f257c46eb276 master 
 cloud                ${BLOCK_PATH}/cloud                git@github.com:imma/cloud                c69a6ee591538554ced4a9dd5dbb5cdb9839d635 master 
-imma                 ${BLOCK_PATH}/imma                 git@github.com:imma/imma                 b965efa0c9de8f39a06a5032f8feee73d678a29c master 
+imma                 ${BLOCK_PATH}/imma                 git@github.com:imma/imma                 b965efa0c9de8f39a06a5032f8feee73d678a29c HEAD   
 chef                 ${BLOCK_PATH}/chef                 git@github.com:imma/chef                 b3490d30b0bd1f430b8b7a7cf881e06f794e0a56 master 
 netdata              ${BLOCK_PATH}/netdata              git@github.com:imma/netdata              9ae95d60e6daccbbec8d0f5d8017e935c9021aa9 master 
 monitor              ${BLOCK_PATH}/monitor              git@github.com:imma/monitor              4ca342bfaae8881a16a2d79343bf33f87bf86a75 master 
@@ -119,7 +119,7 @@ irssi                ${BLOCK_PATH}/irssi                git@github.com:imma/irss
 bitlbee              ${BLOCK_PATH}/bitlbee              git@github.com:imma/bitlbee              c5ab1e2c32345d77934b91d5a15a9674853a701c master 
 chat                 ${BLOCK_PATH}/chat                 git@github.com:imma/chat                 a63abc9f2952305484e5f14083b091d05fca271e master 
 cue                  ${BLOCK_PATH}/cue                  git@github.com:imma/cue                  72faf57778c3863cc99c7779a4945a15968f7531 master 
-tmux                 ${BLOCK_PATH}/tmux                 git@github.com:imma/tmux                 e35a99d8cbfe2a810c43bd8fc62dcd55bc8beccb master 
+tmux                 ${BLOCK_PATH}/tmux                 git@github.com:imma/tmux                 e35a99d8cbfe2a810c43bd8fc62dcd55bc8beccb HEAD   
 example              ${BLOCK_PATH}/example              git@github.com:imma/example              8589dbc5a27e35f44c0d8a780a64574bb4f24be0 master 
 nothing              ${BLOCK_PATH}/nothing              git@github.com:imma/nothing              1f27fe2f0afd06bb09bd9f1c79cfc2dc687daff4 master 
 app                  ${BLOCK_PATH}/app                  git@github.com:imma/app                  d394ad94af5970c247e5ed64b254aa4299cde9f6 master 
