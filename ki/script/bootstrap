@@ -20,6 +20,8 @@ function main {
   script/setup
   script/bootstrap || true
   for a in {1..5}; do git clean -ffd || true; done
+  rm -rf "$WRKOBJDIR"
+  rm -rf "$PKGSRCDIR"
   git status
 } 
 

@@ -121,9 +121,11 @@ function main {
       ;;
   esac
 
+  rm -rf "$WRKOBJDIR"
+  rm -rf "$PKGSRCDIR"
+
 	source .bash_profile
   block stale
-  pkg update list
 }
 
 case "$(id -u -n)" in
