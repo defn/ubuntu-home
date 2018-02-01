@@ -38,7 +38,7 @@ vg                   ${BLOCK_PATH}/vg                   git@github.com:imma/vg  
 vmm                  ${BLOCK_PATH}/vmm                  git@github.com:imma/vmm                  e652f7b873582c0002415325e281818945709d47 master 
 lang                 ${BLOCK_PATH}/lang                 git@github.com:imma/lang                 25d5e238492247ec1cbb63accd52f2101b56118d master 
 runit                ${BLOCK_PATH}/runit                git@github.com:imma/runit                ea7942c5840be2424a6b8671cfe38b50179292ea master 
-service              ${BLOCK_PATH}/service              git@github.com:imma/service              ad1258db19c799667f1cfe368e936d87c2f720b4 master 
+service              ${BLOCK_PATH}/service              git@github.com:imma/service              ad1258db19c799667f1cfe368e936d87c2f720b4 HEAD   
 sshd                 ${BLOCK_PATH}/sshd                 git@github.com:imma/sshd                 4e2f837b327d7ebcd0f00d85b0d9c1a1a3df194b master 
 facts                ${BLOCK_PATH}/facts                git@github.com:imma/facts                9c69d9500281b4cafffaf5834e4d096ab4e90dab master 
 consul               ${BLOCK_PATH}/consul               git@github.com:imma/consul               65f9a294fd70e73f662b7dc94f0647fd6a594808 master 
@@ -54,7 +54,6 @@ parity               ${BLOCK_PATH}/parity               git@github.com:imma/pari
 docker-compose       ${BLOCK_PATH}/docker-compose       git@github.com:imma/docker-compose       586736435ed7d6c1e66a25ed32101681830d00c9 master 
 docker-machine       ${BLOCK_PATH}/docker-machine       git@github.com:imma/docker-machine       8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master 
 docker               ${BLOCK_PATH}/docker               git@github.com:imma/docker               74b01bbd4469d22b506afcdf733b66e7f3b5bb87 master 
-kubernetes           ${BLOCK_PATH}/kubernetes           git@github.com:imma/kubernetes           4ed0bcaa72d63692348b1b39fb378e327970f53e master 
 ecr                  ${BLOCK_PATH}/ecr                  git@github.com:imma/ecr                  25f20f65668a1f7f48f0879ca635509a5999e2c6 master 
 lambda               ${BLOCK_PATH}/lambda               git@github.com:imma/lambda               2039756b568bc11c35caa20784ab09dbe9688611 master 
 jenkins              ${BLOCK_PATH}/jenkins              git@github.com:imma/jenkins              9f086c768ff58b9efe797ef366d2c2ec83319c21 master 
@@ -75,7 +74,7 @@ packet               ${BLOCK_PATH}/packet               git@github.com:imma/pack
 digitalocean         ${BLOCK_PATH}/digitalocean         git@github.com:imma/digitalocean         fa6286e9922eac58b1451bb6aa8175ba3650b906 master 
 heroku               ${BLOCK_PATH}/heroku               git@github.com:imma/heroku               c25b6187b66a8f5dfe6062584aa0f560b2580e47 master 
 eb                   ${BLOCK_PATH}/eb                   git@github.com:imma/eb                   c6071b11a62275a1fda5369e99fc9a27814cf02b master 
-ecs                  ${BLOCK_PATH}/ecs                  git@github.com:imma/ecs                  94d26a08d713da2e7ba10461caf0f257c46eb276 HEAD   
+ecs                  ${BLOCK_PATH}/ecs                  git@github.com:imma/ecs                  94d26a08d713da2e7ba10461caf0f257c46eb276 master 
 cloud                ${BLOCK_PATH}/cloud                git@github.com:imma/cloud                c69a6ee591538554ced4a9dd5dbb5cdb9839d635 master 
 imma                 ${BLOCK_PATH}/imma                 git@github.com:imma/imma                 f58a3bd35cf3f402de829998f91e405e96c8bb5f master 
 chef                 ${BLOCK_PATH}/chef                 git@github.com:imma/chef                 b3490d30b0bd1f430b8b7a7cf881e06f794e0a56 master 
@@ -119,7 +118,7 @@ irssi                ${BLOCK_PATH}/irssi                git@github.com:imma/irss
 bitlbee              ${BLOCK_PATH}/bitlbee              git@github.com:imma/bitlbee              c5ab1e2c32345d77934b91d5a15a9674853a701c master 
 chat                 ${BLOCK_PATH}/chat                 git@github.com:imma/chat                 a63abc9f2952305484e5f14083b091d05fca271e master 
 cue                  ${BLOCK_PATH}/cue                  git@github.com:imma/cue                  72faf57778c3863cc99c7779a4945a15968f7531 master 
-tmux                 ${BLOCK_PATH}/tmux                 git@github.com:imma/tmux                 e35a99d8cbfe2a810c43bd8fc62dcd55bc8beccb master 
+tmux                 ${BLOCK_PATH}/tmux                 git@github.com:imma/tmux                 e35a99d8cbfe2a810c43bd8fc62dcd55bc8beccb HEAD   
 example              ${BLOCK_PATH}/example              git@github.com:imma/example              8589dbc5a27e35f44c0d8a780a64574bb4f24be0 master 
 nothing              ${BLOCK_PATH}/nothing              git@github.com:imma/nothing              1f27fe2f0afd06bb09bd9f1c79cfc2dc687daff4 master 
 app                  ${BLOCK_PATH}/app                  git@github.com:imma/app                  d394ad94af5970c247e5ed64b254aa4299cde9f6 master 

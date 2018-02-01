@@ -25,7 +25,6 @@
     ],
     [
       "docker",
-      "kubernetes",
       "ecr",
       "lambda"
     ],
