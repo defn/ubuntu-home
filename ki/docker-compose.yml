@@ -1,9 +1,0 @@
-version: '3.4'
-services:
-  imma_latest:
-    image: "imma:start2"
-    privileged: true
-    ports:
-      - "2222:22"
-    volumes:
-      - "${DATA}:/data"
