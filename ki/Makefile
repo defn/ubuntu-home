@@ -15,6 +15,7 @@ all:
 	while true; do if ssh -A -p 2222 -o IdentityFile=$(shell pwd)/.kitchen/docker_id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@$(SSH_HOST) true; then break; fi; sleep 1; done
 	$(MAKE) continue
 	$(MAKE) finish
+	docker tag $(REPO):latest $(REPO):start
 
 base: .kitchen/docker_id_rsa
 	(cd && make prune || true)
@@ -43,7 +44,6 @@ continue:
 finish:
 	docker commit $(PREFIX)_$(REPO)_latest_1 $(REPO):latest
 	env COMPOSE_PROJECT_NAME=$(PREFIX) docker-compose down || env COMPOSE_PROJECT_NAME=$(PREFIX) docker-compose down
-	docker tag $(REPO):latest $(REPO):start
 	(cd && make prune >/dev/null 2>&1 || true)
 
 dind:
