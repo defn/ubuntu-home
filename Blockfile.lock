@@ -115,8 +115,8 @@ se                   ${BLOCK_PATH}/se                   git@github.com:imma/se  
 haihero              ${BLOCK_PATH}/haihero              git@github.com:imma/haihero              eb9c1972b6607813d93d781c3602e8efc2f96378 master 
 gotty                ${BLOCK_PATH}/gotty                git@github.com:imma/gotty                befcdfd401da0281522e9ae1e536097cc7909b69 master 
 cookiecutter         ${BLOCK_PATH}/cookiecutter         git@github.com:imma/cookiecutter         040da6b867e5d07d29e08121124dca1e17105f11 master 
-terraform            ${BLOCK_PATH}/terraform            git@github.com:imma/terraform            02da595ef5de1b0a3ce408c16d3c81f94652ab74 master 
-wtf                  ${BLOCK_PATH}/wtf                  git@github.com:imma/wtf                  1b765c2f5ea1541f50367d6e2822d3d47663c900 master 
+terraform            ${BLOCK_PATH}/terraform            git@github.com:imma/terraform            662e874cea07585a046e001f7b6c2432a4433c80 master 
+wtf                  ${BLOCK_PATH}/wtf                  git@github.com:imma/wtf                  ab81bc2a5b052a0500a37ff203ee80f093fdf304 master 
 fogg-cli             ${BLOCK_PATH}/fogg-cli             git@github.com:imma/fogg-cli             20cb1dec46b0d11cd700a7ee1a7647cdc134279d master 
 fogg                 ${BLOCK_PATH}/fogg                 git@github.com:imma/fogg                 c4c1adfa5c57ede18ac3a5637fcec3edc7b31251 master 
 fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              7b5e2235b6357aecec864cfafb39d91a7d671af4 master 
