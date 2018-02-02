@@ -62,7 +62,7 @@ push:
 
 pull:
 	ecs pull "$(REPO):$(TAG)"
-	docker tag "$(RPEO):$(TAG)" "$(shell aws ecr describe-repositories --repository-name $(REPO) | jq -r '.repositories[].repositoryUri'):$(TAG)"
+	docker tag "$(REPO):$(TAG)" "$(shell aws ecr describe-repositories --repository-name $(REPO) | jq -r '.repositories[].repositoryUri'):$(TAG)"
 
 docker:
 	ki $(KI) docker-ubuntu
