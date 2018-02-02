@@ -174,8 +174,9 @@ image-update:
 	$(make) clean
 
 prune:
-	docker ps -a | grep -v ' Up ' | tail -n +2 | awk '{print $$1}' | gxargs -r -n 1 bash -c 'docker rm -f $$1 2>/dev/null || true' ''
-	docker images --filter "dangling=true" -q --no-trunc | gxargs -r docker rmi
+	docker system prune -f
+	docker system prune -f --volumes
+	docker system df 
 
 clean:
 	docker rm -f $(service) 2>/dev/null || true
