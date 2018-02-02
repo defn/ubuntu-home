@@ -16,7 +16,7 @@ pyenv                ${BLOCK_PATH}/pyenv                git@github.com:imma/pyen
 python               ${BLOCK_PATH}/python               git@github.com:imma/python               54ac6645b9916bf2c5dd28f763158c550412b7c3 master 
 py27                 ${BLOCK_PATH}/py27                 git@github.com:imma/py27                 f0c7d7fb1518caf3eddafe0416b281f7f3d38b06 master 
 ansible              ${BLOCK_PATH}/ansible              git@github.com:imma/ansible              1bbf78a1d31608fd2ff64e3e768062e7cda49d34 master 
-cache                ${BLOCK_PATH}/cache                git@github.com:imma/cache                28ad5568fcbc8f4a97e71da6ceb15ebaf6b145a1 master 
+cache                ${BLOCK_PATH}/cache                git@github.com:imma/cache                28ad5568fcbc8f4a97e71da6ceb15ebaf6b145a1 HEAD   
 inventory            ${BLOCK_PATH}/inventory            git@github.com:imma/inventory            38b60c8f826e913008770c975f14003d6853b26c master 
 deploy               ${BLOCK_PATH}/deploy               git@github.com:imma/deploy               40568a6119edcec3f450251b5330ee102174981a master 
 htop                 ${BLOCK_PATH}/htop                 git@github.com:imma/htop                 aa24067a87c228300f1f1041b5706aef672b199f master 
@@ -73,9 +73,9 @@ packet               ${BLOCK_PATH}/packet               git@github.com:imma/pack
 digitalocean         ${BLOCK_PATH}/digitalocean         git@github.com:imma/digitalocean         fa6286e9922eac58b1451bb6aa8175ba3650b906 master 
 heroku               ${BLOCK_PATH}/heroku               git@github.com:imma/heroku               c25b6187b66a8f5dfe6062584aa0f560b2580e47 master 
 eb                   ${BLOCK_PATH}/eb                   git@github.com:imma/eb                   c6071b11a62275a1fda5369e99fc9a27814cf02b master 
-ecs                  ${BLOCK_PATH}/ecs                  git@github.com:imma/ecs                  23f355138fd0d821b6852e5157b6a863d13385cd master 
+ecs                  ${BLOCK_PATH}/ecs                  git@github.com:imma/ecs                  23f355138fd0d821b6852e5157b6a863d13385cd HEAD   
 cloud                ${BLOCK_PATH}/cloud                git@github.com:imma/cloud                c69a6ee591538554ced4a9dd5dbb5cdb9839d635 master 
-imma                 ${BLOCK_PATH}/imma                 git@github.com:imma/imma                 0b749638a1e552f5595674dd8c13a91c9c5b899b master 
+imma                 ${BLOCK_PATH}/imma                 git@github.com:imma/imma                 1f9f361d5281f4edd0f92e899fb4464147168ed8 master 
 packer               ${BLOCK_PATH}/packer               git@github.com:imma/packer               12e9513e080c891ba3fb4414fb48246c7f3fefce master 
 chef                 ${BLOCK_PATH}/chef                 git@github.com:imma/chef                 b3490d30b0bd1f430b8b7a7cf881e06f794e0a56 master 
 netdata              ${BLOCK_PATH}/netdata              git@github.com:imma/netdata              9ae95d60e6daccbbec8d0f5d8017e935c9021aa9 master 
@@ -85,7 +85,7 @@ git-crypt            ${BLOCK_PATH}/git-crypt            git@github.com:imma/git-
 cfssl                ${BLOCK_PATH}/cfssl                git@github.com:imma/cfssl                abc4130575a884568fb6f66701e9f2d92c3c2789 master 
 getssl               ${BLOCK_PATH}/getssl               git@github.com:imma/getssl               4ac5ff1b2c7f7c7f179b84f600175f5fffa67219 master 
 certbot              ${BLOCK_PATH}/certbot              git@github.com:imma/certbot              015ebb388901db0ff512b5fbbe65a1dd604f5ee1 master 
-cryfs                ${BLOCK_PATH}/cryfs                git@github.com:imma/cryfs                0f93569912027ee23e1928a10b3959de3111709a master 
+cryfs                ${BLOCK_PATH}/cryfs                git@github.com:imma/cryfs                0f93569912027ee23e1928a10b3959de3111709a HEAD   
 yubikey              ${BLOCK_PATH}/yubikey              git@github.com:imma/yubikey              12d08418ea331398c2598fd4ab618b458db2dfcb master 
 kmsauth              ${BLOCK_PATH}/kmsauth              git@github.com:imma/kmsauth              ae013d59a91fbcd774289a13b9cf66bb0a43e935 master 
 easy-rsa             ${BLOCK_PATH}/easy-rsa             git@github.com:imma/easy-rsa             27b4d83f6ee1c86201a4471ffa1783f42dad8d49 master 
