@@ -127,14 +127,6 @@ platforms:
       script: lambda/minima.sh
 
 suites:
-  - name: localhost
-    provisioner:
-      script: localhost/bootstrap.sh
-    driver:
-      name: proxy
-      host: localhost
-      port: 22
-      username: ubuntu
   - name: virtualbox
     driver:
       provider: virtualbox
