@@ -76,7 +76,7 @@ heroku               ${BLOCK_PATH}/heroku               git@github.com:imma/hero
 eb                   ${BLOCK_PATH}/eb                   git@github.com:imma/eb                   c6071b11a62275a1fda5369e99fc9a27814cf02b master 
 ecs                  ${BLOCK_PATH}/ecs                  git@github.com:imma/ecs                  23f355138fd0d821b6852e5157b6a863d13385cd master 
 cloud                ${BLOCK_PATH}/cloud                git@github.com:imma/cloud                c69a6ee591538554ced4a9dd5dbb5cdb9839d635 master 
-imma                 ${BLOCK_PATH}/imma                 git@github.com:imma/imma                 790cf13e23bee0a32ab2ea4d8d7d1ceaa69c4052 HEAD   
+imma                 ${BLOCK_PATH}/imma                 git@github.com:imma/imma                 2e036e77e1f30568caa3784257d676a24ed80abe master 
 packer               ${BLOCK_PATH}/packer               git@github.com:imma/packer               12e9513e080c891ba3fb4414fb48246c7f3fefce master 
 chef                 ${BLOCK_PATH}/chef                 git@github.com:imma/chef                 b3490d30b0bd1f430b8b7a7cf881e06f794e0a56 master 
 netdata              ${BLOCK_PATH}/netdata              git@github.com:imma/netdata              9ae95d60e6daccbbec8d0f5d8017e935c9021aa9 master 
@@ -116,8 +116,8 @@ se                   ${BLOCK_PATH}/se                   git@github.com:imma/se  
 haihero              ${BLOCK_PATH}/haihero              git@github.com:imma/haihero              eb9c1972b6607813d93d781c3602e8efc2f96378 master 
 gotty                ${BLOCK_PATH}/gotty                git@github.com:imma/gotty                befcdfd401da0281522e9ae1e536097cc7909b69 master 
 cookiecutter         ${BLOCK_PATH}/cookiecutter         git@github.com:imma/cookiecutter         040da6b867e5d07d29e08121124dca1e17105f11 master 
-terraform            ${BLOCK_PATH}/terraform            git@github.com:imma/terraform            662e874cea07585a046e001f7b6c2432a4433c80 HEAD   
-wtf                  ${BLOCK_PATH}/wtf                  git@github.com:imma/wtf                  ab81bc2a5b052a0500a37ff203ee80f093fdf304 HEAD   
+terraform            ${BLOCK_PATH}/terraform            git@github.com:imma/terraform            662e874cea07585a046e001f7b6c2432a4433c80 master 
+wtf                  ${BLOCK_PATH}/wtf                  git@github.com:imma/wtf                  ab81bc2a5b052a0500a37ff203ee80f093fdf304 master 
 fogg-cli             ${BLOCK_PATH}/fogg-cli             git@github.com:imma/fogg-cli             20cb1dec46b0d11cd700a7ee1a7647cdc134279d master 
 fogg                 ${BLOCK_PATH}/fogg                 git@github.com:imma/fogg                 c4c1adfa5c57ede18ac3a5637fcec3edc7b31251 master 
 fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              88d8c8259ca81c37185fe081a37507795324c5ff master 
