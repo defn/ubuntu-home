@@ -10,7 +10,7 @@ instance             ${BLOCK_PATH}/instance             git@github.com:imma/inst
 base                 ${BLOCK_PATH}/base                 git@github.com:imma/base                 f024478827c6f2a33e844d6f093f9cc481cc36db master 
 ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubuntu-config        e8b53ee0c9df8ff6c384ab4ea6a27aad9ccbbda8 master 
 homebrew             ${BLOCK_PATH}/homebrew             git@github.com:imma/homebrew             29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
-java                 ${BLOCK_PATH}/java                 git@github.com:imma/java                 90e5796cd8f3a91d2e79f3ff05df0dce6c9ee2fc master 
+java                 ${BLOCK_PATH}/java                 git@github.com:imma/java                 9edd52e2c8e8d068ae7669f068017804fc2067d1 master 
 pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               b452f00de77a3b855bab90fa495d1f3bbfeb03ce master 
 pyenv                ${BLOCK_PATH}/pyenv                git@github.com:imma/pyenv                372251f18116e7f66f089b37235c4005d54f67fb master 
 python               ${BLOCK_PATH}/python               git@github.com:imma/python               54ac6645b9916bf2c5dd28f763158c550412b7c3 master 
@@ -76,7 +76,7 @@ heroku               ${BLOCK_PATH}/heroku               git@github.com:imma/hero
 eb                   ${BLOCK_PATH}/eb                   git@github.com:imma/eb                   c6071b11a62275a1fda5369e99fc9a27814cf02b master 
 ecs                  ${BLOCK_PATH}/ecs                  git@github.com:imma/ecs                  23f355138fd0d821b6852e5157b6a863d13385cd master 
 cloud                ${BLOCK_PATH}/cloud                git@github.com:imma/cloud                c69a6ee591538554ced4a9dd5dbb5cdb9839d635 master 
-imma                 ${BLOCK_PATH}/imma                 git@github.com:imma/imma                 57c154dd9a4752589c6918ccbfdc829e5d5e770e master 
+imma                 ${BLOCK_PATH}/imma                 git@github.com:imma/imma                 57c154dd9a4752589c6918ccbfdc829e5d5e770e HEAD   
 packer               ${BLOCK_PATH}/packer               git@github.com:imma/packer               12e9513e080c891ba3fb4414fb48246c7f3fefce master 
 chef                 ${BLOCK_PATH}/chef                 git@github.com:imma/chef                 b3490d30b0bd1f430b8b7a7cf881e06f794e0a56 master 
 netdata              ${BLOCK_PATH}/netdata              git@github.com:imma/netdata              9ae95d60e6daccbbec8d0f5d8017e935c9021aa9 master 
@@ -90,7 +90,7 @@ cryfs                ${BLOCK_PATH}/cryfs                git@github.com:imma/cryf
 yubikey              ${BLOCK_PATH}/yubikey              git@github.com:imma/yubikey              12d08418ea331398c2598fd4ab618b458db2dfcb master 
 kmsauth              ${BLOCK_PATH}/kmsauth              git@github.com:imma/kmsauth              ae013d59a91fbcd774289a13b9cf66bb0a43e935 master 
 easy-rsa             ${BLOCK_PATH}/easy-rsa             git@github.com:imma/easy-rsa             27b4d83f6ee1c86201a4471ffa1783f42dad8d49 master 
-openvpn              ${BLOCK_PATH}/openvpn              git@github.com:imma/openvpn              6aaaf8a2e2f883b197287e96ac6bbed85b3cbf52 master 
+openvpn              ${BLOCK_PATH}/openvpn              git@github.com:imma/openvpn              6aaaf8a2e2f883b197287e96ac6bbed85b3cbf52 HEAD   
 zerotier             ${BLOCK_PATH}/zerotier             git@github.com:imma/zerotier             b4900f77a3dd09e8f1cf37dbced12588d514e99f master 
 ipfs                 ${BLOCK_PATH}/ipfs                 git@github.com:imma/ipfs                 6fd9145479e03d14e63f2da66237cbad42e732f6 master 
 vault                ${BLOCK_PATH}/vault                git@github.com:imma/vault                5a69deea1d74d4decc0fdffe1bf4416d03212b52 master 
@@ -116,11 +116,11 @@ se                   ${BLOCK_PATH}/se                   git@github.com:imma/se  
 haihero              ${BLOCK_PATH}/haihero              git@github.com:imma/haihero              eb9c1972b6607813d93d781c3602e8efc2f96378 master 
 gotty                ${BLOCK_PATH}/gotty                git@github.com:imma/gotty                befcdfd401da0281522e9ae1e536097cc7909b69 master 
 cookiecutter         ${BLOCK_PATH}/cookiecutter         git@github.com:imma/cookiecutter         040da6b867e5d07d29e08121124dca1e17105f11 master 
-terraform            ${BLOCK_PATH}/terraform            git@github.com:imma/terraform            662e874cea07585a046e001f7b6c2432a4433c80 HEAD   
-wtf                  ${BLOCK_PATH}/wtf                  git@github.com:imma/wtf                  ab81bc2a5b052a0500a37ff203ee80f093fdf304 HEAD   
+terraform            ${BLOCK_PATH}/terraform            git@github.com:imma/terraform            662e874cea07585a046e001f7b6c2432a4433c80 master 
+wtf                  ${BLOCK_PATH}/wtf                  git@github.com:imma/wtf                  ab81bc2a5b052a0500a37ff203ee80f093fdf304 master 
 fogg-cli             ${BLOCK_PATH}/fogg-cli             git@github.com:imma/fogg-cli             20cb1dec46b0d11cd700a7ee1a7647cdc134279d master 
 fogg                 ${BLOCK_PATH}/fogg                 git@github.com:imma/fogg                 c4c1adfa5c57ede18ac3a5637fcec3edc7b31251 master 
-fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              13b9280be8c46f3303b8761ea6a3a2c4a5e772a0 master 
+fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              13b9280be8c46f3303b8761ea6a3a2c4a5e772a0 HEAD   
 imma-tf              ${BLOCK_PATH}/imma-tf              git@github.com:imma/imma-tf              63e89bf1f1bee5441536cdb463cdd4db79d1a644 master 
 aws-ssm-agent        ${BLOCK_PATH}/aws-ssm-agent        git@github.com:imma/aws-ssm-agent        a42018a4e06e0c12c9a7d9179fb7b5acc247b190 master 
 aws-cloudwatch-agent ${BLOCK_PATH}/aws-cloudwatch-agent git@github.com:imma/aws-cloudwatch-agent d83ec7d73644e503a6e65fa9f0cccedbc9a9f86d master 
