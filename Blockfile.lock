@@ -10,7 +10,7 @@ instance             ${BLOCK_PATH}/instance             git@github.com:imma/inst
 base                 ${BLOCK_PATH}/base                 git@github.com:imma/base                 f024478827c6f2a33e844d6f093f9cc481cc36db master 
 ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubuntu-config        e8b53ee0c9df8ff6c384ab4ea6a27aad9ccbbda8 master 
 homebrew             ${BLOCK_PATH}/homebrew             git@github.com:imma/homebrew             29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
-java                 ${BLOCK_PATH}/java                 git@github.com:imma/java                 9edd52e2c8e8d068ae7669f068017804fc2067d1 master 
+java                 ${BLOCK_PATH}/java                 git@github.com:imma/java                 c3c155c73879fffddd169bf14eae6737af23de9f master 
 pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               b452f00de77a3b855bab90fa495d1f3bbfeb03ce master 
 pyenv                ${BLOCK_PATH}/pyenv                git@github.com:imma/pyenv                372251f18116e7f66f089b37235c4005d54f67fb master 
 python               ${BLOCK_PATH}/python               git@github.com:imma/python               54ac6645b9916bf2c5dd28f763158c550412b7c3 master 
