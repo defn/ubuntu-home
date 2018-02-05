@@ -3,12 +3,11 @@
     [
       "site",
       "ubuntu-config",
-      "cache",
-      "base",
-      "deploy",
-      "sysadmin"
+      "camp"
     ],
     [
+      "deploy",
+      "sysadmin",
       "make",
       "jqq",
       "lang"

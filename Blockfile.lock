@@ -11,13 +11,14 @@ base                 ${BLOCK_PATH}/base                 git@github.com:imma/base
 ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubuntu-config        e8b53ee0c9df8ff6c384ab4ea6a27aad9ccbbda8 master 
 cache                ${BLOCK_PATH}/cache                git@github.com:imma/cache                d3d7b3244e3653c1b7c7c58840e52a44638d1f5c master 
 pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               7c11ef798fe3965dda9d422dcdda3b39cc8e2684 master 
+homebrew             ${BLOCK_PATH}/homebrew             git@github.com:imma/homebrew             29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
+camp                 ${BLOCK_PATH}/camp                 git@github.com:imma/camp                 0e7b2ba6a1bee4ed47746d453b54dc5cc7ae957d master 
 pyenv                ${BLOCK_PATH}/pyenv                git@github.com:imma/pyenv                372251f18116e7f66f089b37235c4005d54f67fb master 
 python               ${BLOCK_PATH}/python               git@github.com:imma/python               54ac6645b9916bf2c5dd28f763158c550412b7c3 master 
 py27                 ${BLOCK_PATH}/py27                 git@github.com:imma/py27                 f0c7d7fb1518caf3eddafe0416b281f7f3d38b06 master 
 ansible              ${BLOCK_PATH}/ansible              git@github.com:imma/ansible              1bbf78a1d31608fd2ff64e3e768062e7cda49d34 master 
 inventory            ${BLOCK_PATH}/inventory            git@github.com:imma/inventory            38b60c8f826e913008770c975f14003d6853b26c master 
 deploy               ${BLOCK_PATH}/deploy               git@github.com:imma/deploy               40568a6119edcec3f450251b5330ee102174981a master 
-homebrew             ${BLOCK_PATH}/homebrew             git@github.com:imma/homebrew             29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
 htop                 ${BLOCK_PATH}/htop                 git@github.com:imma/htop                 aa24067a87c228300f1f1041b5706aef672b199f master 
 sysadmin             ${BLOCK_PATH}/sysadmin             git@github.com:imma/sysadmin             4a820d962c31454c736d5f7fd6faf49c1b6ba0ba master 
 make                 ${BLOCK_PATH}/make                 git@github.com:imma/make                 bc396044ec0c5a3d6c617f71084d0318bde10b3c master 

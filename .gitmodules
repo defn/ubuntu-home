@@ -518,3 +518,6 @@
 [submodule "work/port"]
 	path = work/port
 	url = git@github.com:imma/port
+[submodule "work/camp"]
+	path = work/camp
+	url = git@github.com:imma/camp
