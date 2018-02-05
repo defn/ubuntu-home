@@ -509,3 +509,6 @@
 [submodule "work/camp"]
 	path = work/camp
 	url = git@github.com:imma/camp
+[submodule "work/pkg"]
+	path = work/pkg
+	url = git@github.com:imma/pkg

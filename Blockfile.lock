@@ -12,7 +12,8 @@ ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubun
 cache                ${BLOCK_PATH}/cache                git@github.com:imma/cache                d3d7b3244e3653c1b7c7c58840e52a44638d1f5c master 
 pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               7c11ef798fe3965dda9d422dcdda3b39cc8e2684 master 
 homebrew             ${BLOCK_PATH}/homebrew             git@github.com:imma/homebrew             29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
-camp                 ${BLOCK_PATH}/camp                 git@github.com:imma/camp                 0e7b2ba6a1bee4ed47746d453b54dc5cc7ae957d master 
+pkg                  ${BLOCK_PATH}/pkg                  git@github.com:imma/pkg                  b9f26337cfa4c92798512576a38e94e5c2ad3a55 master 
+camp                 ${BLOCK_PATH}/camp                 git@github.com:imma/camp                 28530eae29ff8e7ac2ee64aa47848e86643b1efe master 
 rbenv                ${BLOCK_PATH}/rbenv                git@github.com:imma/rbenv                ab40ef6e1a88a5c85d238107be8d178aad9dbd13 HEAD   
 ruby                 ${BLOCK_PATH}/ruby                 git@github.com:imma/ruby                 48614524dccd033d52863e122ee7b5322ca431eb master 
 curl                 ${BLOCK_PATH}/curl                 git@github.com:imma/curl                 bb57a7cea3f29a92b222fe7afe8c1e9072804ff8 master 
