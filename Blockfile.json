@@ -3,14 +3,14 @@
     [
       "site",
       "ubuntu-config",
-      "camp"
+      "camp",
+      "lang"
     ],
     [
       "deploy",
       "sysadmin",
       "make",
-      "jqq",
-      "lang"
+      "jqq"
     ],
     [
       "sshd",
@@ -37,13 +37,11 @@
     ],
     [
       "packer",
-      "ansible",
-      "chef"
+      "ansible"
     ],
     [
       "monitor",
       "crypto"
-
     ],
     [
       "home",
