@@ -158,10 +158,6 @@
 	path = work/gpg
 	url = git@github.com:imma/gpg
 	branch = master
-[submodule "work/git-crypt"]
-	path = work/git-crypt
-	url = git@github.com:imma/git-crypt
-	branch = master
 [submodule "work/site"]
 	path = work/site
 	url = git@github.com:imma/site
@@ -273,10 +269,6 @@
 [submodule "work/nvm"]
 	path = work/nvm
 	url = git@github.com:imma/nvm
-	branch = master
-[submodule "work/ipfs"]
-	path = work/ipfs
-	url = git@github.com:imma/ipfs
 	branch = master
 [submodule "work/irssi"]
 	path = work/irssi
@@ -473,10 +465,6 @@
 [submodule "work/ecs"]
 	path = work/ecs
 	url = git@github.com:imma/ecs
-	branch = master
-[submodule "work/cryfs"]
-	path = work/cryfs
-	url = git@github.com:imma/cryfs
 	branch = master
 [submodule "work/vault"]
 	path = work/vault
