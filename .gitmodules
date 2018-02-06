@@ -90,10 +90,6 @@
 	path = work/sshd
 	url = git@github.com:imma/sshd
 	branch = master
-[submodule "work/ansible"]
-	path = work/ansible
-	url = git@github.com:imma/ansible
-	branch = master
 [submodule "work/facts"]
 	path = work/facts
 	url = git@github.com:imma/facts
