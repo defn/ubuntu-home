@@ -14,22 +14,15 @@ aws configure set default.s3.signature_version s3v4
 
 brew update-reset; brew update
 
-git clone git@github.com:imma/ubuntu 
-mv ubuntu/.git .
-rm -rf ubuntu
-git reset --hard
-git checkout v20170617
-
-git submodule update --init
-for a in ~/work/*/; do (cd $a && git checkout v20170617); done
-
-cd ~/work/ubuntu-config
-source script/profile 
-cd ~/work/block
-script/cibuild
-source script/profile 
-require
-
-cd
-make cache
-exec bash
+   13  git clone git@github.com:imma/ubuntu
+   14  mv ubuntu/.git .
+   27  rm -rf ubuntu
+   15  git reset --hard
+   21  git submodule update --init --recursive
+   29  sudo apt-get install -y jq docker.io
+   22  make cache
+       exec bash
+   50  usermod -G docker defn
+   46  runmany 'docker pull imma/ubuntu:$1' ubuntu start latest
+   96  cp .gitconfig.template .gitconfig
+   98  cp .ssh/config.template .ssh/config
