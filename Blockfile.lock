@@ -14,7 +14,7 @@ pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgs
 homebrew             ${BLOCK_PATH}/homebrew             git@github.com:imma/homebrew             29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
 pkg                  ${BLOCK_PATH}/pkg                  git@github.com:imma/pkg                  b9f26337cfa4c92798512576a38e94e5c2ad3a55 master 
 camp                 ${BLOCK_PATH}/camp                 git@github.com:imma/camp                 28530eae29ff8e7ac2ee64aa47848e86643b1efe master 
-rbenv                ${BLOCK_PATH}/rbenv                git@github.com:imma/rbenv                ab40ef6e1a88a5c85d238107be8d178aad9dbd13 HEAD   
+rbenv                ${BLOCK_PATH}/rbenv                git@github.com:imma/rbenv                ab40ef6e1a88a5c85d238107be8d178aad9dbd13 master 
 ruby                 ${BLOCK_PATH}/ruby                 git@github.com:imma/ruby                 48614524dccd033d52863e122ee7b5322ca431eb master 
 curl                 ${BLOCK_PATH}/curl                 git@github.com:imma/curl                 bb57a7cea3f29a92b222fe7afe8c1e9072804ff8 master 
 nvm                  ${BLOCK_PATH}/nvm                  git@github.com:imma/nvm                  e3edf70ec7e8554e3ce53598efe0acbd77d13e7d master 
@@ -100,7 +100,7 @@ irssi                ${BLOCK_PATH}/irssi                git@github.com:imma/irss
 bitlbee              ${BLOCK_PATH}/bitlbee              git@github.com:imma/bitlbee              c5ab1e2c32345d77934b91d5a15a9674853a701c master 
 chat                 ${BLOCK_PATH}/chat                 git@github.com:imma/chat                 a63abc9f2952305484e5f14083b091d05fca271e master 
 cue                  ${BLOCK_PATH}/cue                  git@github.com:imma/cue                  72faf57778c3863cc99c7779a4945a15968f7531 master 
-tmux                 ${BLOCK_PATH}/tmux                 git@github.com:imma/tmux                 174a2721fd02083cc8fcffea789815b12b826917 master 
+tmux                 ${BLOCK_PATH}/tmux                 git@github.com:imma/tmux                 8dff79595738eb58664e0426c1aec84bdc3864cb master 
 example              ${BLOCK_PATH}/example              git@github.com:imma/example              8589dbc5a27e35f44c0d8a780a64574bb4f24be0 master 
 nothing              ${BLOCK_PATH}/nothing              git@github.com:imma/nothing              1f27fe2f0afd06bb09bd9f1c79cfc2dc687daff4 master 
 app                  ${BLOCK_PATH}/app                  git@github.com:imma/app                  d394ad94af5970c247e5ed64b254aa4299cde9f6 master 
