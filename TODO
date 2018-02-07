@@ -26,3 +26,5 @@ brew update-reset; brew update
    46  runmany 'docker pull imma/ubuntu:$1' ubuntu start latest
    96  cp .gitconfig.template .gitconfig
    98  cp .ssh/config.template .ssh/config
+   99  ssh-keycan localhost > .ssh/known_hosts
+  100 ssh-copy-id -f localhost
