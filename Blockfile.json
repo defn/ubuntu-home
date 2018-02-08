@@ -4,7 +4,8 @@
       "site",
       "ubuntu-config",
       "camp",
-      "lang"
+      "lang",
+      "fart"
     ],
     [
       "deploy",
@@ -27,9 +28,6 @@
       "ecr",
       "lambda",
       "port"
-    ],
-    [
-      "cicd"
     ],
     [
       "cloud",

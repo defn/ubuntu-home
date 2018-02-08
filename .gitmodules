@@ -405,10 +405,6 @@
 	path = work/yubikey
 	url = git@github.com:imma/yubikey
 	branch = master
-[submodule "work/cicd"]
-	path = work/cicd
-	url = git@github.com:imma/cicd
-	branch = master
 [submodule "work/awesome"]
 	path = work/awesome
 	url = git@github.com:imma/awesome
@@ -508,3 +504,6 @@
 [submodule "work/pkg"]
 	path = work/pkg
 	url = git@github.com:imma/pkg
+[submodule "work/fart"]
+	path = work/fart
+	url = git@github.com:imma/fart
