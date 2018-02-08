@@ -55,7 +55,7 @@ docker-machine       ${BLOCK_PATH}/docker-machine       git@github.com:imma/dock
 docker               ${BLOCK_PATH}/docker               git@github.com:imma/docker               74b01bbd4469d22b506afcdf733b66e7f3b5bb87 master 
 ecr                  ${BLOCK_PATH}/ecr                  git@github.com:imma/ecr                  25f20f65668a1f7f48f0879ca635509a5999e2c6 master 
 lambda               ${BLOCK_PATH}/lambda               git@github.com:imma/lambda               2039756b568bc11c35caa20784ab09dbe9688611 master 
-port                 ${BLOCK_PATH}/port                 git@github.com:imma/port                 70df879cec28b78432cfd2959bdb7e8e15f83a22 master 
+port                 ${BLOCK_PATH}/port                 git@github.com:imma/port                 70df879cec28b78432cfd2959bdb7e8e15f83a22 HEAD   
 jenkins              ${BLOCK_PATH}/jenkins              git@github.com:imma/jenkins              9f086c768ff58b9efe797ef366d2c2ec83319c21 master 
 codecommit           ${BLOCK_PATH}/codecommit           git@github.com:imma/codecommit           103788d5db3a95d559447d7e92dfb9f3f02268dd master 
 git                  ${BLOCK_PATH}/git                  git@github.com:imma/git                  472bdf518d416de26ecc322296215577669b255c master 
@@ -100,7 +100,7 @@ irssi                ${BLOCK_PATH}/irssi                git@github.com:imma/irss
 bitlbee              ${BLOCK_PATH}/bitlbee              git@github.com:imma/bitlbee              c5ab1e2c32345d77934b91d5a15a9674853a701c master 
 chat                 ${BLOCK_PATH}/chat                 git@github.com:imma/chat                 a63abc9f2952305484e5f14083b091d05fca271e master 
 cue                  ${BLOCK_PATH}/cue                  git@github.com:imma/cue                  72faf57778c3863cc99c7779a4945a15968f7531 master 
-tmux                 ${BLOCK_PATH}/tmux                 git@github.com:imma/tmux                 a6c6b5ae37b9994b632aead5a15ea6935955dbb9 HEAD   
+tmux                 ${BLOCK_PATH}/tmux                 git@github.com:imma/tmux                 31b1a697bc26f8437a7c2c70a3bf4176836535e7 master 
 example              ${BLOCK_PATH}/example              git@github.com:imma/example              8589dbc5a27e35f44c0d8a780a64574bb4f24be0 master 
 nothing              ${BLOCK_PATH}/nothing              git@github.com:imma/nothing              1f27fe2f0afd06bb09bd9f1c79cfc2dc687daff4 master 
 app                  ${BLOCK_PATH}/app                  git@github.com:imma/app                  d394ad94af5970c247e5ed64b254aa4299cde9f6 master 
@@ -116,7 +116,7 @@ terraform            ${BLOCK_PATH}/terraform            git@github.com:imma/terr
 wtf                  ${BLOCK_PATH}/wtf                  git@github.com:imma/wtf                  ab81bc2a5b052a0500a37ff203ee80f093fdf304 master 
 fogg-cli             ${BLOCK_PATH}/fogg-cli             git@github.com:imma/fogg-cli             20cb1dec46b0d11cd700a7ee1a7647cdc134279d master 
 fogg                 ${BLOCK_PATH}/fogg                 git@github.com:imma/fogg                 c4c1adfa5c57ede18ac3a5637fcec3edc7b31251 master 
-fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              1142643f1552e619ce60f78c81845950072bb03a master 
+fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              1142643f1552e619ce60f78c81845950072bb03a HEAD   
 imma-tf              ${BLOCK_PATH}/imma-tf              git@github.com:imma/imma-tf              63e89bf1f1bee5441536cdb463cdd4db79d1a644 master 
 aws-ssm-agent        ${BLOCK_PATH}/aws-ssm-agent        git@github.com:imma/aws-ssm-agent        a42018a4e06e0c12c9a7d9179fb7b5acc247b190 master 
 aws-cloudwatch-agent ${BLOCK_PATH}/aws-cloudwatch-agent git@github.com:imma/aws-cloudwatch-agent d83ec7d73644e503a6e65fa9f0cccedbc9a9f86d master 
