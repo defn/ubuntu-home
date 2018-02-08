@@ -19,7 +19,7 @@ brew update-reset; brew update
    27  rm -rf ubuntu
    15  git reset --hard
    21  git submodule update --init --recursive
-   29  sudo apt-get install -y jq docker.io
+   29  sudo apt-get install -y jq docker.io tmux gnupg2
    22  make cache
        exec bash
    50  usermod -G docker defn
