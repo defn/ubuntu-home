@@ -22,7 +22,7 @@ cache:
 	mv -f .bashrc.cache.1 .bashrc.cache
 
 sync:
-	block sync
+	block sync fast
 	$(make) cache
 
 include Makefile.build
