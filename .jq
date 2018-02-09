@@ -1,1 +1,1 @@
-work/jqq/lib/jqq.jq
+work/aqq/lib/aqq.jq
