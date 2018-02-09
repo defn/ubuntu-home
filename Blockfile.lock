@@ -75,7 +75,7 @@ heroku               ${BLOCK_PATH}/heroku               git@github.com:imma/hero
 eb                   ${BLOCK_PATH}/eb                   git@github.com:imma/eb                   c6071b11a62275a1fda5369e99fc9a27814cf02b master 
 ecs                  ${BLOCK_PATH}/ecs                  git@github.com:imma/ecs                  23f355138fd0d821b6852e5157b6a863d13385cd master 
 jqq                  ${BLOCK_PATH}/jqq                  git@github.com:imma/jqq                  7f79e85962697cf40e351d193bcc69b67e3f4e1a master 
-aqq                  ${BLOCK_PATH}/aqq                  git@github.com:imma/aqq                  4a1d6085af7b4600b7c7de043ca97332c6e7e468 master 
+aqq                  ${BLOCK_PATH}/aqq                  git@github.com:imma/aqq                  5a2398db86d1e9bd803e9d5d511a39c96b9981f6 master 
 cloud                ${BLOCK_PATH}/cloud                git@github.com:imma/cloud                4bb194d4d9a2729d7db7046950c7c835345fc4a8 master 
 imma                 ${BLOCK_PATH}/imma                 git@github.com:imma/imma                 11862a3a704582fbe4aae3f9ee0ba793ff1cb878 master 
 packer               ${BLOCK_PATH}/packer               git@github.com:imma/packer               12e9513e080c891ba3fb4414fb48246c7f3fefce master 
