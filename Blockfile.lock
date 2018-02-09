@@ -44,7 +44,7 @@ deploy               ${BLOCK_PATH}/deploy               git@github.com:imma/depl
 htop                 ${BLOCK_PATH}/htop                 git@github.com:imma/htop                 aa24067a87c228300f1f1041b5706aef672b199f master 
 sysadmin             ${BLOCK_PATH}/sysadmin             git@github.com:imma/sysadmin             4a820d962c31454c736d5f7fd6faf49c1b6ba0ba master 
 make                 ${BLOCK_PATH}/make                 git@github.com:imma/make                 bc396044ec0c5a3d6c617f71084d0318bde10b3c master 
-jqq                  ${BLOCK_PATH}/jqq                  git@github.com:imma/jqq                  01d45b37ca08e79040f9d5330be357a23637337c master 
+jqq                  ${BLOCK_PATH}/jqq                  git@github.com:imma/jqq                  17c400e70f491380e931625526f22b3b3278688d master 
 runit                ${BLOCK_PATH}/runit                git@github.com:imma/runit                ea7942c5840be2424a6b8671cfe38b50179292ea master 
 service              ${BLOCK_PATH}/service              git@github.com:imma/service              ad1258db19c799667f1cfe368e936d87c2f720b4 master 
 sshd                 ${BLOCK_PATH}/sshd                 git@github.com:imma/sshd                 4e2f837b327d7ebcd0f00d85b0d9c1a1a3df194b master 
