@@ -5,7 +5,7 @@ normalize            ${BLOCK_PATH}/normalize            git@github.com:imma/norm
 bash-preexec         ${BLOCK_PATH}/bash-preexec         git@github.com:imma/bash-preexec         8658d4be458078d00b65cb5f34c6e79d27fd6c4e master 
 sub                  ${BLOCK_PATH}/sub                  git@github.com:imma/sub                  a51acadfc50b263f5b61fe4b3a74a02403aace41 master 
 runmany              ${BLOCK_PATH}/runmany              git@github.com:imma/runmany              accaecc59f399d48a4c41bd45660d692223724ef master 
-block                ${BLOCK_PATH}/block                git@github.com:imma/block                d4b1b3c0c3f280191611948e245568b1ae4353cc HEAD   
+block                ${BLOCK_PATH}/block                git@github.com:imma/block                d4b1b3c0c3f280191611948e245568b1ae4353cc master 
 instance             ${BLOCK_PATH}/instance             git@github.com:imma/instance             fcddf250434277829d3862f8543661935668db13 master 
 base                 ${BLOCK_PATH}/base                 git@github.com:imma/base                 18c80d6a1fc7a9e1417831a8e1212856e5dc7dc7 master 
 ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubuntu-config        247b65cc7148e993507499e8541b4a83914723c9 master 
@@ -35,7 +35,7 @@ jenkins              ${BLOCK_PATH}/jenkins              git@github.com:imma/jenk
 codecommit           ${BLOCK_PATH}/codecommit           git@github.com:imma/codecommit           103788d5db3a95d559447d7e92dfb9f3f02268dd master 
 git                  ${BLOCK_PATH}/git                  git@github.com:imma/git                  472bdf518d416de26ecc322296215577669b255c master 
 github               ${BLOCK_PATH}/github               git@github.com:imma/github               3b1721042565793566be8193c0ada1a8ed16afdf master 
-inspec               ${BLOCK_PATH}/inspec               git@github.com:imma/inspec               c0b39d6624d48bac813a998be5337167d92c894a master 
+inspec               ${BLOCK_PATH}/inspec               git@github.com:imma/inspec               65e243d1dc7e51590dd7b36524ecdfae44e5a362 master 
 kitchen              ${BLOCK_PATH}/kitchen              git@github.com:imma/kitchen              80c52dd5d2212cd20fe135b25f8975b65908e779 master 
 travis               ${BLOCK_PATH}/travis               git@github.com:imma/travis               09e48d834e5e6922f1d5cb622b92c76147ddb083 master 
 fart                 ${BLOCK_PATH}/fart                 git@github.com:imma/fart                 538b236939feb3e050439cfff1e68bdad54b0614 master 
