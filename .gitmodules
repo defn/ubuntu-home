@@ -507,3 +507,6 @@
 [submodule "work/fart"]
 	path = work/fart
 	url = git@github.com:imma/fart
+[submodule "work/aqq"]
+	path = work/aqq
+	url = git@github.com:imma/aqq

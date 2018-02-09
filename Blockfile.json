@@ -10,8 +10,7 @@
     [
       "deploy",
       "sysadmin",
-      "make",
-      "jqq"
+      "make"
     ],
     [
       "sshd",
