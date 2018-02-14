@@ -175,7 +175,6 @@ image-update:
 
 prune:
 	docker system prune -f
-	docker system prune -f --volumes
 	docker system df 
 
 clean:
