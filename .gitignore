@@ -190,3 +190,5 @@ tmux-client*log
 /phos
 *.mnt 
 .ecs
+/hab
+/.hab
