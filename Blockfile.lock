@@ -15,7 +15,7 @@ homebrew             ${BLOCK_PATH}/homebrew             git@github.com:imma/home
 habitat              ${BLOCK_PATH}/habitat              git@github.com:imma/habitat              82f93cfd80be3e451bafebab7b9e9ac27504b8f4 master 
 curl                 ${BLOCK_PATH}/curl                 git@github.com:imma/curl                 bb57a7cea3f29a92b222fe7afe8c1e9072804ff8 master 
 packer               ${BLOCK_PATH}/packer               git@github.com:imma/packer               12e9513e080c891ba3fb4414fb48246c7f3fefce master 
-pkg                  ${BLOCK_PATH}/pkg                  git@github.com:imma/pkg                  17aa0408651715cfae3fa136106847ff20adc479 HEAD   
+pkg                  ${BLOCK_PATH}/pkg                  git@github.com:imma/pkg                  17aa0408651715cfae3fa136106847ff20adc479 master 
 camp                 ${BLOCK_PATH}/camp                 git@github.com:imma/camp                 28530eae29ff8e7ac2ee64aa47848e86643b1efe master 
 rbenv                ${BLOCK_PATH}/rbenv                git@github.com:imma/rbenv                ab40ef6e1a88a5c85d238107be8d178aad9dbd13 master 
 ruby                 ${BLOCK_PATH}/ruby                 git@github.com:imma/ruby                 48614524dccd033d52863e122ee7b5322ca431eb master 
