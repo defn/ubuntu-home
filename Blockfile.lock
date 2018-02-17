@@ -12,11 +12,13 @@ ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubun
 cache                ${BLOCK_PATH}/cache                git@github.com:imma/cache                d3d7b3244e3653c1b7c7c58840e52a44638d1f5c master 
 pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               7c11ef798fe3965dda9d422dcdda3b39cc8e2684 master 
 homebrew             ${BLOCK_PATH}/homebrew             git@github.com:imma/homebrew             29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
-pkg                  ${BLOCK_PATH}/pkg                  git@github.com:imma/pkg                  b9f26337cfa4c92798512576a38e94e5c2ad3a55 master 
+habitat              ${BLOCK_PATH}/habitat              git@github.com:imma/habitat              042ae2635b6b964af9e3dfcf89df1c5e5acdfb26 master 
+curl                 ${BLOCK_PATH}/curl                 git@github.com:imma/curl                 bb57a7cea3f29a92b222fe7afe8c1e9072804ff8 master 
+packer               ${BLOCK_PATH}/packer               git@github.com:imma/packer               12e9513e080c891ba3fb4414fb48246c7f3fefce master 
+pkg                  ${BLOCK_PATH}/pkg                  git@github.com:imma/pkg                  17aa0408651715cfae3fa136106847ff20adc479 master 
 camp                 ${BLOCK_PATH}/camp                 git@github.com:imma/camp                 28530eae29ff8e7ac2ee64aa47848e86643b1efe master 
 rbenv                ${BLOCK_PATH}/rbenv                git@github.com:imma/rbenv                ab40ef6e1a88a5c85d238107be8d178aad9dbd13 master 
 ruby                 ${BLOCK_PATH}/ruby                 git@github.com:imma/ruby                 48614524dccd033d52863e122ee7b5322ca431eb master 
-curl                 ${BLOCK_PATH}/curl                 git@github.com:imma/curl                 bb57a7cea3f29a92b222fe7afe8c1e9072804ff8 master 
 nvm                  ${BLOCK_PATH}/nvm                  git@github.com:imma/nvm                  e3edf70ec7e8554e3ce53598efe0acbd77d13e7d master 
 node                 ${BLOCK_PATH}/node                 git@github.com:imma/node                 9abacb7b2f1fb38521fc0b3d8a77392323f15860 master 
 yarn                 ${BLOCK_PATH}/yarn                 git@github.com:imma/yarn                 db0fa18f22c89b8ae491280c3d81afa646f9210c master 
@@ -78,7 +80,6 @@ jqq                  ${BLOCK_PATH}/jqq                  git@github.com:imma/jqq 
 aqq                  ${BLOCK_PATH}/aqq                  git@github.com:imma/aqq                  5a2398db86d1e9bd803e9d5d511a39c96b9981f6 HEAD   
 cloud                ${BLOCK_PATH}/cloud                git@github.com:imma/cloud                4bb194d4d9a2729d7db7046950c7c835345fc4a8 HEAD   
 imma                 ${BLOCK_PATH}/imma                 git@github.com:imma/imma                 11862a3a704582fbe4aae3f9ee0ba793ff1cb878 master 
-packer               ${BLOCK_PATH}/packer               git@github.com:imma/packer               12e9513e080c891ba3fb4414fb48246c7f3fefce master 
 netdata              ${BLOCK_PATH}/netdata              git@github.com:imma/netdata              9ae95d60e6daccbbec8d0f5d8017e935c9021aa9 master 
 monitor              ${BLOCK_PATH}/monitor              git@github.com:imma/monitor              4ca342bfaae8881a16a2d79343bf33f87bf86a75 master 
 gpg                  ${BLOCK_PATH}/gpg                  git@github.com:imma/gpg                  1722c23bea696bf6c76ad354b46094909782b59f master 

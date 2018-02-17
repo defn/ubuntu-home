@@ -510,3 +510,6 @@
 [submodule "work/aqq"]
 	path = work/aqq
 	url = git@github.com:imma/aqq
+[submodule "work/habitat"]
+	path = work/habitat
+	url = git@github.com:imma/habitat
