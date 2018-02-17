@@ -38,7 +38,7 @@ codecommit           ${BLOCK_PATH}/codecommit           git@github.com:imma/code
 git                  ${BLOCK_PATH}/git                  git@github.com:imma/git                  472bdf518d416de26ecc322296215577669b255c master 
 github               ${BLOCK_PATH}/github               git@github.com:imma/github               3b1721042565793566be8193c0ada1a8ed16afdf master 
 inspec               ${BLOCK_PATH}/inspec               git@github.com:imma/inspec               65e243d1dc7e51590dd7b36524ecdfae44e5a362 master 
-kitchen              ${BLOCK_PATH}/kitchen              git@github.com:imma/kitchen              80c52dd5d2212cd20fe135b25f8975b65908e779 master 
+kitchen              ${BLOCK_PATH}/kitchen              git@github.com:imma/kitchen              a9e7d37888e67d6f0e3f55c8a0aef6858e855846 master 
 travis               ${BLOCK_PATH}/travis               git@github.com:imma/travis               09e48d834e5e6922f1d5cb622b92c76147ddb083 master 
 fart                 ${BLOCK_PATH}/fart                 git@github.com:imma/fart                 538b236939feb3e050439cfff1e68bdad54b0614 master 
 inventory            ${BLOCK_PATH}/inventory            git@github.com:imma/inventory            7cd6d97a8d3e9b2046c0a61526d8b7b1c83ee19d master 
