@@ -6,10 +6,6 @@
 	path = work/normalize
 	url = git@github.com:imma/normalize
 	branch = master
-[submodule "work/bash-preexec"]
-	path = work/bash-preexec
-	url = git@github.com:imma/bash-preexec
-	branch = master
 [submodule "work/sub"]
 	path = work/sub
 	url = git@github.com:imma/sub
