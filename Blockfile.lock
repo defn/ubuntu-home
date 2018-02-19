@@ -39,7 +39,7 @@ github               ${BLOCK_PATH}/github               git@github.com:imma/gith
 inspec               ${BLOCK_PATH}/inspec               git@github.com:imma/inspec               65e243d1dc7e51590dd7b36524ecdfae44e5a362 master 
 kitchen              ${BLOCK_PATH}/kitchen              git@github.com:imma/kitchen              a9e7d37888e67d6f0e3f55c8a0aef6858e855846 master 
 travis               ${BLOCK_PATH}/travis               git@github.com:imma/travis               09e48d834e5e6922f1d5cb622b92c76147ddb083 master 
-fart                 ${BLOCK_PATH}/fart                 git@github.com:imma/fart                 538b236939feb3e050439cfff1e68bdad54b0614 master 
+fart                 ${BLOCK_PATH}/fart                 git@github.com:imma/fart                 f4cbc9d40163dd4e34abfb6e5146b10aa67830a6 master 
 inventory            ${BLOCK_PATH}/inventory            git@github.com:imma/inventory            7cd6d97a8d3e9b2046c0a61526d8b7b1c83ee19d master 
 deploy               ${BLOCK_PATH}/deploy               git@github.com:imma/deploy               8ed7a34fe6a92204a22e98c9fc1a947b3617638c master 
 htop                 ${BLOCK_PATH}/htop                 git@github.com:imma/htop                 aa24067a87c228300f1f1041b5706aef672b199f master 
