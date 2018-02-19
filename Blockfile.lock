@@ -1,9 +1,9 @@
-site                 ${BLOCK_PATH}/site                 git@github.com:imma/site                 1d25a32facc3e147b760429e7fe2502f5a1e9ec9 master 
 shflags              ${BLOCK_PATH}/shflags              git@github.com:imma/shflags              a05166fedaf8481d2ff856591f4f50257d12521b master 
 normalize            ${BLOCK_PATH}/normalize            git@github.com:imma/normalize            ca938498f15fe070268e89b5ec405bdef58308b4 master 
 sub                  ${BLOCK_PATH}/sub                  git@github.com:imma/sub                  eb90972fb19bd8572b4e2586ce87f03d477de2e2 master 
 runmany              ${BLOCK_PATH}/runmany              git@github.com:imma/runmany              accaecc59f399d48a4c41bd45660d692223724ef master 
 block                ${BLOCK_PATH}/block                git@github.com:imma/block                3d1eb4ccadd79d44fb9fa803e4fb87a1b5643d91 master 
+site                 ${BLOCK_PATH}/site                 git@github.com:imma/site                 1d25a32facc3e147b760429e7fe2502f5a1e9ec9 master 
 instance             ${BLOCK_PATH}/instance             git@github.com:imma/instance             fcddf250434277829d3862f8543661935668db13 master 
 base                 ${BLOCK_PATH}/base                 git@github.com:imma/base                 18c80d6a1fc7a9e1417831a8e1212856e5dc7dc7 master 
 ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubuntu-config        247b65cc7148e993507499e8541b4a83914723c9 master 
@@ -32,7 +32,7 @@ tfenv                ${BLOCK_PATH}/tfenv                git@github.com:imma/tfen
 vg                   ${BLOCK_PATH}/vg                   git@github.com:imma/vg                   74fb7fc005981571253a72cb619a9bcb3413ca14 master 
 vmm                  ${BLOCK_PATH}/vmm                  git@github.com:imma/vmm                  e652f7b873582c0002415325e281818945709d47 master 
 lang                 ${BLOCK_PATH}/lang                 git@github.com:imma/lang                 2799fca92dda2d31fb542b1ca7ceae5d36792d07 master 
-jenkins              ${BLOCK_PATH}/jenkins              git@github.com:imma/jenkins              77a8d46b0ce6e93d5137158c919c416c6cc2b1a0 master 
+jenkins              ${BLOCK_PATH}/jenkins              git@github.com:imma/jenkins              d88eb26b5dc8958c352d1b4a46d36af3a325e765 master 
 codecommit           ${BLOCK_PATH}/codecommit           git@github.com:imma/codecommit           103788d5db3a95d559447d7e92dfb9f3f02268dd master 
 git                  ${BLOCK_PATH}/git                  git@github.com:imma/git                  472bdf518d416de26ecc322296215577669b255c master 
 github               ${BLOCK_PATH}/github               git@github.com:imma/github               3b1721042565793566be8193c0ada1a8ed16afdf master 
