@@ -10,7 +10,7 @@ ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubun
 cache                ${BLOCK_PATH}/cache                git@github.com:imma/cache                d3d7b3244e3653c1b7c7c58840e52a44638d1f5c master 
 pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               7c11ef798fe3965dda9d422dcdda3b39cc8e2684 master 
 homebrew             ${BLOCK_PATH}/homebrew             git@github.com:imma/homebrew             29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
-habitat              ${BLOCK_PATH}/habitat              git@github.com:imma/habitat              b2b9c06daa2a2741e581067156932b50252e9f3d master 
+habitat              ${BLOCK_PATH}/habitat              git@github.com:imma/habitat              95de63500a096c9e7c5765ca95809b8d29557005 master 
 curl                 ${BLOCK_PATH}/curl                 git@github.com:imma/curl                 bb57a7cea3f29a92b222fe7afe8c1e9072804ff8 master 
 packer               ${BLOCK_PATH}/packer               git@github.com:imma/packer               12e9513e080c891ba3fb4414fb48246c7f3fefce master 
 pkg                  ${BLOCK_PATH}/pkg                  git@github.com:imma/pkg                  17aa0408651715cfae3fa136106847ff20adc479 master 
