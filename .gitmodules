@@ -511,4 +511,4 @@
 	url = git@github.com:imma/habitat
 [submodule "work/acme"]
 	path = work/acme
-	url = git@github.com:Neilpang/acme.sh
+	url = git@github.com:imma/acme
