@@ -10,7 +10,7 @@ ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubun
 cache                ${BLOCK_PATH}/cache                git@github.com:imma/cache                d3d7b3244e3653c1b7c7c58840e52a44638d1f5c master 
 pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               7c11ef798fe3965dda9d422dcdda3b39cc8e2684 master 
 homebrew             ${BLOCK_PATH}/homebrew             git@github.com:imma/homebrew             29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
-habitat              ${BLOCK_PATH}/habitat              git@github.com:imma/habitat              8c23f549f0e7e9add5f061d1679f3fff422dfcd5 master 
+habitat              ${BLOCK_PATH}/habitat              git@github.com:imma/habitat              681df202227dcb16c9fae4a6dcb0bb855890483f master 
 curl                 ${BLOCK_PATH}/curl                 git@github.com:imma/curl                 bb57a7cea3f29a92b222fe7afe8c1e9072804ff8 master 
 packer               ${BLOCK_PATH}/packer               git@github.com:imma/packer               12e9513e080c891ba3fb4414fb48246c7f3fefce master 
 pkg                  ${BLOCK_PATH}/pkg                  git@github.com:imma/pkg                  17aa0408651715cfae3fa136106847ff20adc479 master 
@@ -60,7 +60,7 @@ context              ${BLOCK_PATH}/context              git@github.com:imma/cont
 parity               ${BLOCK_PATH}/parity               git@github.com:imma/parity               71ba46f4bfe28602fc50e399733761429b16b409 master 
 docker-compose       ${BLOCK_PATH}/docker-compose       git@github.com:imma/docker-compose       586736435ed7d6c1e66a25ed32101681830d00c9 master 
 docker-machine       ${BLOCK_PATH}/docker-machine       git@github.com:imma/docker-machine       8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master 
-docker               ${BLOCK_PATH}/docker               git@github.com:imma/docker               b618a0d6b9be9ab1778ad6e5a6c96a474fbb8276 master 
+docker               ${BLOCK_PATH}/docker               git@github.com:imma/docker               d319f6e29fb174792bb5ff19aadf03225dd7ff4e master 
 ecr                  ${BLOCK_PATH}/ecr                  git@github.com:imma/ecr                  25f20f65668a1f7f48f0879ca635509a5999e2c6 master 
 lambda               ${BLOCK_PATH}/lambda               git@github.com:imma/lambda               2039756b568bc11c35caa20784ab09dbe9688611 master 
 port                 ${BLOCK_PATH}/port                 git@github.com:imma/port                 e0cc8161e3e4277d3db37d65f9852cd7a88e56b1 master 
