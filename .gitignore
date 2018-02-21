@@ -191,4 +191,5 @@ tmux-client*log
 *.mnt 
 .ecs
 /hab
-/.hab
+.hab/*/*/*
+!.hab/cache/keys/.gitignore
