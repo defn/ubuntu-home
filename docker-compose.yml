@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  shell:
+    build: build
+    ports:
+      - "22"
+    volumes:
+      - ${DATA}:/data
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /tmp/work:/tmp/work
+    network_mode: bridge
