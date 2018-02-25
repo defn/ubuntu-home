@@ -8,7 +8,7 @@ instance             ${BLOCK_PATH}/instance             git@github.com:imma/inst
 base                 ${BLOCK_PATH}/base                 git@github.com:imma/base                 18c80d6a1fc7a9e1417831a8e1212856e5dc7dc7 master 
 ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubuntu-config        247b65cc7148e993507499e8541b4a83914723c9 master 
 cache                ${BLOCK_PATH}/cache                git@github.com:imma/cache                d3d7b3244e3653c1b7c7c58840e52a44638d1f5c master 
-pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               7c11ef798fe3965dda9d422dcdda3b39cc8e2684 master 
+pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               e88bfab4dc19b30310049b1c64b1c5297ff80881 master 
 homebrew             ${BLOCK_PATH}/homebrew             git@github.com:imma/homebrew             29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
 habitat              ${BLOCK_PATH}/habitat              git@github.com:imma/habitat              b67d7820bfa60f5fe6412e51da710a46ac529e98 master 
 curl                 ${BLOCK_PATH}/curl                 git@github.com:imma/curl                 bb57a7cea3f29a92b222fe7afe8c1e9072804ff8 master 
