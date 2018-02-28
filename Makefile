@@ -28,7 +28,7 @@ cache:
 
 sync:
 	block sync fast
-	$(make) cache
+	$(MAKE) cache
 
 update-modules:
 	block list | awk '/\/work\// {print $$3, $$2}' | perl -pe 's{[^\s]+?/work/}{work/}' | grep -v 'work/ubuntu' | runmany 1 2 'git update-index --cacheinfo 160000 $$(cd $(BLOCK_PATH)/../$$2 && git rev-parse HEAD) $$2'
