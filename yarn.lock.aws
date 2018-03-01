@@ -3,8 +3,8 @@
 
 
 amazon-cognito-identity-js@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/amazon-cognito-identity-js/-/amazon-cognito-identity-js-2.0.0.tgz#c0d77ea12e382ede4ef09165ef5da9ab7d38a04d"
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/amazon-cognito-identity-js/-/amazon-cognito-identity-js-2.0.1.tgz#5d41728d35a792f69be6ed99213eb187fa3ccac0"
   dependencies:
     buffer "4.9.1"
     crypto-browserify "1.0.9"
@@ -61,16 +61,16 @@ async@^2.0.0:
     lodash "^4.14.0"
 
 aws-amplify@^0.2.0:
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/aws-amplify/-/aws-amplify-0.2.6.tgz#8781e0a735531d8218d31a5fada0fe28e9739f4b"
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/aws-amplify/-/aws-amplify-0.2.9.tgz#97cb3bececc70fc8baae9e7c9115f0c4c7e72c46"
   dependencies:
     amazon-cognito-identity-js "^2.0.0"
-    aws-sdk "2.193.0"
+    aws-sdk "2.198.0"
     axios "^0.17.0"
 
-aws-sdk@2.193.0:
-  version "2.193.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.193.0.tgz#89ac3bde1ff6c914c52f7f0c28a2febf23edfaa5"
+aws-sdk@2.198.0:
+  version "2.198.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.198.0.tgz#2245311337ddc844cc34c13f3fcf3b7ea843f434"
   dependencies:
     buffer "4.9.1"
     events "^1.1.1"
@@ -83,8 +83,8 @@ aws-sdk@2.193.0:
     xmlbuilder "4.2.1"
 
 aws-sdk@^2.131.0:
-  version "2.197.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.197.0.tgz#986e3749f4d1944c6253d7824aa8035efb1db0e4"
+  version "2.204.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.204.0.tgz#72d8331e90e7792b04dcca3278a7b31c49a46aeb"
   dependencies:
     buffer "4.9.1"
     events "^1.1.1"
@@ -97,8 +97,8 @@ aws-sdk@^2.131.0:
     xmlbuilder "4.2.1"
 
 awsmobile-cli@^1.0.0:
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/awsmobile-cli/-/awsmobile-cli-1.0.15.tgz#accbd39f1d4d6a1c5ce43b2992c10b0e2197bab2"
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/awsmobile-cli/-/awsmobile-cli-1.0.16.tgz#dfbfd872722742cb2584092c5eb0edfc17c57018"
   dependencies:
     archiver "^2.1.0"
     aws-amplify "^0.2.0"
@@ -521,8 +521,8 @@ has-flag@^3.0.0:
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
 
 has-symbol-support-x@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/has-symbol-support-x/-/has-symbol-support-x-1.4.1.tgz#66ec2e377e0c7d7ccedb07a3a84d77510ff1bc4c"
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/has-symbol-support-x/-/has-symbol-support-x-1.4.2.tgz#1409f98bc00247da45da67cee0a36f282ff26455"
 
 has-to-string-tag-x@^1.2.0:
   version "1.4.1"
@@ -673,8 +673,8 @@ lowercase-keys@^1.0.0:
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-1.0.0.tgz#4e3366b39e7f5457e35f1324bdf6f88d0bfc7306"
 
 make-dir@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/make-dir/-/make-dir-1.1.0.tgz#19b4369fe48c116f53c2af95ad102c0e39e85d51"
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/make-dir/-/make-dir-1.2.0.tgz#6d6a49eead4aae296c53bbf3a1a008bd6c89469b"
   dependencies:
     pify "^3.0.0"
 
