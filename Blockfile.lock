@@ -10,7 +10,7 @@ ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubun
 cache                ${BLOCK_PATH}/cache                git@github.com:imma/cache                d3d7b3244e3653c1b7c7c58840e52a44638d1f5c master 
 pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               e88bfab4dc19b30310049b1c64b1c5297ff80881 master 
 homebrew             ${BLOCK_PATH}/homebrew             git@github.com:imma/homebrew             29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
-habitat              ${BLOCK_PATH}/habitat              git@github.com:imma/habitat              b67d7820bfa60f5fe6412e51da710a46ac529e98 master 
+habitat              ${BLOCK_PATH}/habitat              git@github.com:imma/habitat              58d7fb10ef3682b4a2c5ed8c1aacc30fb14f07eb master 
 curl                 ${BLOCK_PATH}/curl                 git@github.com:imma/curl                 bb57a7cea3f29a92b222fe7afe8c1e9072804ff8 master 
 packer               ${BLOCK_PATH}/packer               git@github.com:imma/packer               12e9513e080c891ba3fb4414fb48246c7f3fefce master 
 pkg                  ${BLOCK_PATH}/pkg                  git@github.com:imma/pkg                  17aa0408651715cfae3fa136106847ff20adc479 master 
@@ -48,7 +48,7 @@ make                 ${BLOCK_PATH}/make                 git@github.com:imma/make
 runit                ${BLOCK_PATH}/runit                git@github.com:imma/runit                ea7942c5840be2424a6b8671cfe38b50179292ea master 
 service              ${BLOCK_PATH}/service              git@github.com:imma/service              ad1258db19c799667f1cfe368e936d87c2f720b4 master 
 sshd                 ${BLOCK_PATH}/sshd                 git@github.com:imma/sshd                 4e2f837b327d7ebcd0f00d85b0d9c1a1a3df194b master 
-consul               ${BLOCK_PATH}/consul               git@github.com:imma/consul               0429929a35af70a8a6b7a12cef8a98055c6f0cf4 master 
+consul               ${BLOCK_PATH}/consul               git@github.com:imma/consul               5aaadbbb6cce1aedb72c630d493c08c8c9b9c13c master 
 consul-agent         ${BLOCK_PATH}/consul-agent         git@github.com:imma/consul-agent         d0b766a2b7f3b04469afd4ed9be8ad5af3c413e0 master 
 consul-server        ${BLOCK_PATH}/consul-server        git@github.com:imma/consul-server        f4b347feee3f52d0ea5a8a180e298953815d9f26 master 
 etcd                 ${BLOCK_PATH}/etcd                 git@github.com:imma/etcd                 08394c75e2cd817431a077934c56c27dde17ba08 master 
@@ -115,7 +115,7 @@ haihero              ${BLOCK_PATH}/haihero              git@github.com:imma/haih
 gotty                ${BLOCK_PATH}/gotty                git@github.com:imma/gotty                befcdfd401da0281522e9ae1e536097cc7909b69 master 
 cookiecutter         ${BLOCK_PATH}/cookiecutter         git@github.com:imma/cookiecutter         040da6b867e5d07d29e08121124dca1e17105f11 master 
 terraform            ${BLOCK_PATH}/terraform            git@github.com:imma/terraform            6d60b79cb9670d97ce9a45d1d1a0cd3a0ecc7f33 master 
-wtf                  ${BLOCK_PATH}/wtf                  git@github.com:imma/wtf                  ab81bc2a5b052a0500a37ff203ee80f093fdf304 master 
+wtf                  ${BLOCK_PATH}/wtf                  git@github.com:imma/wtf                  a54dcce3aba3697942ee8454e44595ee3aa2ae36 master 
 fogg-cli             ${BLOCK_PATH}/fogg-cli             git@github.com:imma/fogg-cli             20cb1dec46b0d11cd700a7ee1a7647cdc134279d master 
 fogg                 ${BLOCK_PATH}/fogg                 git@github.com:imma/fogg                 d77968ec673be102febc7e46543baabcb7fcacae master 
 fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              76fa015b77676218c091f938b830db62836de759 master 
