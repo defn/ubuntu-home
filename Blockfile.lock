@@ -43,7 +43,8 @@ fart                 ${BLOCK_PATH}/fart                 git@github.com:imma/fart
 inventory            ${BLOCK_PATH}/inventory            git@github.com:imma/inventory            7cd6d97a8d3e9b2046c0a61526d8b7b1c83ee19d master 
 deploy               ${BLOCK_PATH}/deploy               git@github.com:imma/deploy               8ed7a34fe6a92204a22e98c9fc1a947b3617638c master 
 htop                 ${BLOCK_PATH}/htop                 git@github.com:imma/htop                 aa24067a87c228300f1f1041b5706aef672b199f master 
-sysadmin             ${BLOCK_PATH}/sysadmin             git@github.com:imma/sysadmin             4a820d962c31454c736d5f7fd6faf49c1b6ba0ba master 
+ssm                  ${BLOCK_PATH}/ssm                  git@github.com:imma/ssm                  af9b303d6cca2c7113de8ea025366e1fe9da36bb master 
+sysadmin             ${BLOCK_PATH}/sysadmin             git@github.com:imma/sysadmin             2ce110b70751b142c565b87b0ce091e6ac933361 master 
 make                 ${BLOCK_PATH}/make                 git@github.com:imma/make                 bc396044ec0c5a3d6c617f71084d0318bde10b3c master 
 runit                ${BLOCK_PATH}/runit                git@github.com:imma/runit                ea7942c5840be2424a6b8671cfe38b50179292ea master 
 service              ${BLOCK_PATH}/service              git@github.com:imma/service              ad1258db19c799667f1cfe368e936d87c2f720b4 master 

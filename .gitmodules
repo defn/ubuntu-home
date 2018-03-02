@@ -512,3 +512,6 @@
 [submodule "work/acme"]
 	path = work/acme
 	url = git@github.com:imma/acme
+[submodule "work/ssm"]
+	path = work/ssm
+	url = git@github.com:imma/ssm
