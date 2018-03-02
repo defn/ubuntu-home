@@ -37,7 +37,7 @@ codecommit           ${BLOCK_PATH}/codecommit           git@github.com:imma/code
 git                  ${BLOCK_PATH}/git                  git@github.com:imma/git                  472bdf518d416de26ecc322296215577669b255c master 
 github               ${BLOCK_PATH}/github               git@github.com:imma/github               3b1721042565793566be8193c0ada1a8ed16afdf master 
 inspec               ${BLOCK_PATH}/inspec               git@github.com:imma/inspec               65e243d1dc7e51590dd7b36524ecdfae44e5a362 master 
-kitchen              ${BLOCK_PATH}/kitchen              git@github.com:imma/kitchen              a9e7d37888e67d6f0e3f55c8a0aef6858e855846 master 
+kitchen              ${BLOCK_PATH}/kitchen              git@github.com:imma/kitchen              995135e2630efd28c2628686a93b94c8501dedad master 
 travis               ${BLOCK_PATH}/travis               git@github.com:imma/travis               09e48d834e5e6922f1d5cb622b92c76147ddb083 master 
 fart                 ${BLOCK_PATH}/fart                 git@github.com:imma/fart                 f4cbc9d40163dd4e34abfb6e5146b10aa67830a6 master 
 inventory            ${BLOCK_PATH}/inventory            git@github.com:imma/inventory            7cd6d97a8d3e9b2046c0a61526d8b7b1c83ee19d master 
@@ -64,7 +64,7 @@ docker-machine       ${BLOCK_PATH}/docker-machine       git@github.com:imma/dock
 docker               ${BLOCK_PATH}/docker               git@github.com:imma/docker               f60e182cc3186256c9d33f0a2712b54a36ca8f58 master 
 ecr                  ${BLOCK_PATH}/ecr                  git@github.com:imma/ecr                  25f20f65668a1f7f48f0879ca635509a5999e2c6 master 
 lambda               ${BLOCK_PATH}/lambda               git@github.com:imma/lambda               2039756b568bc11c35caa20784ab09dbe9688611 master 
-port                 ${BLOCK_PATH}/port                 git@github.com:imma/port                 c8c8d65d7ecb9db853f1d272a4098b868d967329 master 
+port                 ${BLOCK_PATH}/port                 git@github.com:imma/port                 353b5d00b84c7480334dc9b183e960c75ceb06f0 master 
 aws-vault            ${BLOCK_PATH}/aws-vault            git@github.com:imma/aws-vault            b45b3394f8bc7108029ee08ba8e38565801db004 master 
 chamber              ${BLOCK_PATH}/chamber              git@github.com:imma/chamber              8eb8f947daf979b697c8ffed66b6258d21842123 master 
 awless               ${BLOCK_PATH}/awless               git@github.com:imma/awless               8d635d18f7ddf97fdb6da8afdd802197dd161cbc master 
