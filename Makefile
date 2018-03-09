@@ -3,6 +3,7 @@ SHELL = bash
 up:
 	mkdir -p devshell/.ssh/
 	rsync -ia .ssh/authorized_keys devshell/.ssh/
+	docker-compose down
 	docker-compose up -d --force-recreate --build
 	$(MAKE) tx
 
@@ -14,13 +15,6 @@ ssh:
 
 down:
 	docker-compose down
-
-update:
-	docker-compose pull
-	docker-compose build
-
-bootstrap:
-	true # what do we need
 
 cache:
 	source work/ubuntu-config/script/profile && source work/block/script/profile && require && block gen profile > .bashrc.cache.1
