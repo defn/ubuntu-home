@@ -3,7 +3,7 @@ SHELL = bash
 up:
 	mkdir -p devshell/.ssh/
 	rsync -ia .ssh/authorized_keys devshell/.ssh/
-	docker-compose up -d --force-recreate
+	docker-compose up -d --force-recreate --build
 	$(MAKE) tx
 
 tx:
