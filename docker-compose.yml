@@ -2,8 +2,8 @@ version: '3.2'
 
 services:
   shell:
-    build: devshell
     image: imma/devshell
+    build: devshell
     privileged: true
     ports:
       - "22"
