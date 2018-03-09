@@ -5,10 +5,13 @@ up:
 	rsync -ia .ssh/authorized_keys devshell/.ssh/
 	docker-compose down
 	docker-compose up -d --force-recreate --build
-	$(MAKE) tx
+	$(MAKE) tx-init
+
+tx-init:
+	tx init $(shell docker-compose ps | grep _shell_ | awk '{print $$1}').docker
 
 tx:
-	tx init $(shell docker-compose ps | grep _shell_ | awk '{print $$1}').docker
+	tx $(shell docker-compose ps | grep _shell_ | awk '{print $$1}').docker
 
 ssh:
 	ssh -A $(shell docker-compose ps | grep _shell_ | awk '{print $$1}').docker
