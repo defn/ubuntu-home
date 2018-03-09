@@ -64,7 +64,7 @@ docker-machine       ${BLOCK_PATH}/docker-machine       git@github.com:imma/dock
 docker               ${BLOCK_PATH}/docker               git@github.com:imma/docker               ac9e73ec004c4b92e2e813b4420ba9d284e131fc master 
 ecr                  ${BLOCK_PATH}/ecr                  git@github.com:imma/ecr                  25f20f65668a1f7f48f0879ca635509a5999e2c6 master 
 lambda               ${BLOCK_PATH}/lambda               git@github.com:imma/lambda               2039756b568bc11c35caa20784ab09dbe9688611 master 
-port                 ${BLOCK_PATH}/port                 git@github.com:imma/port                 16d503b8f58d98d61f8a03a67eace6a25bddc9e6 master 
+port                 ${BLOCK_PATH}/port                 git@github.com:imma/port                 fa4b8fc664cb48491552c33669a20e56cb840b34 master 
 aws-vault            ${BLOCK_PATH}/aws-vault            git@github.com:imma/aws-vault            b45b3394f8bc7108029ee08ba8e38565801db004 master 
 chamber              ${BLOCK_PATH}/chamber              git@github.com:imma/chamber              8eb8f947daf979b697c8ffed66b6258d21842123 master 
 awless               ${BLOCK_PATH}/awless               git@github.com:imma/awless               8d635d18f7ddf97fdb6da8afdd802197dd161cbc master 
@@ -93,7 +93,7 @@ easy-rsa             ${BLOCK_PATH}/easy-rsa             git@github.com:imma/easy
 openvpn              ${BLOCK_PATH}/openvpn              git@github.com:imma/openvpn              6aaaf8a2e2f883b197287e96ac6bbed85b3cbf52 master 
 zerotier             ${BLOCK_PATH}/zerotier             git@github.com:imma/zerotier             92f30588cba0abd15619e1ded1dc1f6e13791f13 master 
 vault                ${BLOCK_PATH}/vault                git@github.com:imma/vault                2da170af21d4f2c9969afafbfb7d91ae5285d0a9 master 
-op                   ${BLOCK_PATH}/op                   git@github.com:imma/op                   e9d533766789f75fe74afc1bff5df6442c8bce80 master 
+op                   ${BLOCK_PATH}/op                   git@github.com:imma/op                   54451e38e035e71daaa58fec37915128138d306d master 
 crypto               ${BLOCK_PATH}/crypto               git@github.com:imma/crypto               382f814faf92cb4d951136c66c3460bba6066293 master 
 home                 ${BLOCK_PATH}/home                 git@github.com:imma/home                 d32390e3893c408fa912550b30ba97078457d9f0 master 
 talign               ${BLOCK_PATH}/talign               git@github.com:imma/talign               fdc4b75ebc28512392abd1c865ee31d73917b1d4 master 
