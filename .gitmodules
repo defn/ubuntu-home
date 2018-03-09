@@ -302,10 +302,6 @@
 	path = work/chat
 	url = git@github.com:imma/chat
 	branch = master
-[submodule "work/bitlbee"]
-	path = work/bitlbee
-	url = git@github.com:imma/bitlbee
-	branch = master
 [submodule "work/fogg-cli"]
 	path = work/fogg-cli
 	url = git@github.com:imma/fogg-cli
@@ -515,3 +511,6 @@
 [submodule "work/ssm"]
 	path = work/ssm
 	url = git@github.com:imma/ssm
+[submodule "work/slack"]
+	path = work/slack
+	url = git@github.com:imma/slack

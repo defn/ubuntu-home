@@ -100,8 +100,8 @@ talign               ${BLOCK_PATH}/talign               git@github.com:imma/tali
 defn                 ${BLOCK_PATH}/defn                 git@github.com:imma/defn                 d8e2c729df74b52257b8c25464c2e9d7ad2105e8 master 
 junas                ${BLOCK_PATH}/junas                git@github.com:imma/junas                3d13a768154b2026573367d3ed885765debe913b master 
 irssi                ${BLOCK_PATH}/irssi                git@github.com:imma/irssi                6cc3f6afce5f8008e7070ebe2710ca5ee3d209db master 
-bitlbee              ${BLOCK_PATH}/bitlbee              git@github.com:imma/bitlbee              c5ab1e2c32345d77934b91d5a15a9674853a701c master 
-chat                 ${BLOCK_PATH}/chat                 git@github.com:imma/chat                 a63abc9f2952305484e5f14083b091d05fca271e master 
+slack                ${BLOCK_PATH}/slack                git@github.com:imma/slack                06613233dd8e7601de89fbd5f77e0b1133e778b7 master 
+chat                 ${BLOCK_PATH}/chat                 git@github.com:imma/chat                 e3f3b9379707a3ab7f4d92afacde7b8870015a56 master 
 cue                  ${BLOCK_PATH}/cue                  git@github.com:imma/cue                  a14d678a98cf33eb56a710b1d3dbc07e76c2c24b master 
 tmux                 ${BLOCK_PATH}/tmux                 git@github.com:imma/tmux                 ac6cb2ed7d016f0325179ed4bd3f7188c576df60 master 
 example              ${BLOCK_PATH}/example              git@github.com:imma/example              8589dbc5a27e35f44c0d8a780a64574bb4f24be0 master 
