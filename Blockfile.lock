@@ -1,7 +1,7 @@
 site                 ${BLOCK_PATH}/site                 git@github.com:imma/site                 1d25a32facc3e147b760429e7fe2502f5a1e9ec9 master 
 shflags              ${BLOCK_PATH}/shflags              git@github.com:imma/shflags              a05166fedaf8481d2ff856591f4f50257d12521b master 
 normalize            ${BLOCK_PATH}/normalize            git@github.com:imma/normalize            ca938498f15fe070268e89b5ec405bdef58308b4 master 
-sub                  ${BLOCK_PATH}/sub                  git@github.com:imma/sub                  eb90972fb19bd8572b4e2586ce87f03d477de2e2 master 
+sub                  ${BLOCK_PATH}/sub                  git@github.com:imma/sub                  daea6e0c31a9957d0c34b0a7c09483c569a321f0 master 
 runmany              ${BLOCK_PATH}/runmany              git@github.com:imma/runmany              accaecc59f399d48a4c41bd45660d692223724ef master 
 block                ${BLOCK_PATH}/block                git@github.com:imma/block                3d1eb4ccadd79d44fb9fa803e4fb87a1b5643d91 master 
 instance             ${BLOCK_PATH}/instance             git@github.com:imma/instance             fcddf250434277829d3862f8543661935668db13 master 
@@ -10,7 +10,7 @@ ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubun
 cache                ${BLOCK_PATH}/cache                git@github.com:imma/cache                d3d7b3244e3653c1b7c7c58840e52a44638d1f5c master 
 pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               e88bfab4dc19b30310049b1c64b1c5297ff80881 master 
 homebrew             ${BLOCK_PATH}/homebrew             git@github.com:imma/homebrew             29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
-habitat              ${BLOCK_PATH}/habitat              git@github.com:imma/habitat              58d7fb10ef3682b4a2c5ed8c1aacc30fb14f07eb master 
+habitat              ${BLOCK_PATH}/habitat              git@github.com:imma/habitat              ef8b50ea1873fe3fc738b01ee5d95c90089195fb master 
 curl                 ${BLOCK_PATH}/curl                 git@github.com:imma/curl                 bb57a7cea3f29a92b222fe7afe8c1e9072804ff8 master 
 packer               ${BLOCK_PATH}/packer               git@github.com:imma/packer               12e9513e080c891ba3fb4414fb48246c7f3fefce master 
 pkg                  ${BLOCK_PATH}/pkg                  git@github.com:imma/pkg                  17aa0408651715cfae3fa136106847ff20adc479 master 
@@ -61,10 +61,10 @@ context              ${BLOCK_PATH}/context              git@github.com:imma/cont
 parity               ${BLOCK_PATH}/parity               git@github.com:imma/parity               71ba46f4bfe28602fc50e399733761429b16b409 master 
 docker-compose       ${BLOCK_PATH}/docker-compose       git@github.com:imma/docker-compose       586736435ed7d6c1e66a25ed32101681830d00c9 master 
 docker-machine       ${BLOCK_PATH}/docker-machine       git@github.com:imma/docker-machine       8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master 
-docker               ${BLOCK_PATH}/docker               git@github.com:imma/docker               f60e182cc3186256c9d33f0a2712b54a36ca8f58 master 
+docker               ${BLOCK_PATH}/docker               git@github.com:imma/docker               f09ee5d516a906554cd07e9cd8bc3d8628308350 master 
 ecr                  ${BLOCK_PATH}/ecr                  git@github.com:imma/ecr                  25f20f65668a1f7f48f0879ca635509a5999e2c6 master 
 lambda               ${BLOCK_PATH}/lambda               git@github.com:imma/lambda               2039756b568bc11c35caa20784ab09dbe9688611 master 
-port                 ${BLOCK_PATH}/port                 git@github.com:imma/port                 30a263b3d7e38119510b54a70e2502151cdb08d0 master 
+port                 ${BLOCK_PATH}/port                 git@github.com:imma/port                 cb775b271ce422154cbd127f9407a74b1a1c30c4 master 
 aws-vault            ${BLOCK_PATH}/aws-vault            git@github.com:imma/aws-vault            b45b3394f8bc7108029ee08ba8e38565801db004 master 
 chamber              ${BLOCK_PATH}/chamber              git@github.com:imma/chamber              8eb8f947daf979b697c8ffed66b6258d21842123 master 
 awless               ${BLOCK_PATH}/awless               git@github.com:imma/awless               8d635d18f7ddf97fdb6da8afdd802197dd161cbc master 
