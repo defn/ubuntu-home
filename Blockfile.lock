@@ -62,7 +62,7 @@ parity               ${BLOCK_PATH}/parity               git@github.com:imma/pari
 docker-compose       ${BLOCK_PATH}/docker-compose       git@github.com:imma/docker-compose       586736435ed7d6c1e66a25ed32101681830d00c9 master 
 docker-machine       ${BLOCK_PATH}/docker-machine       git@github.com:imma/docker-machine       8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master 
 docker               ${BLOCK_PATH}/docker               git@github.com:imma/docker               ac9e73ec004c4b92e2e813b4420ba9d284e131fc master 
-nomad                ${BLOCK_PATH}/nomad                git@github.com:imma/nomad                9562cde37f9b978e14697612a7c8ced65347f3af master 
+nomad                ${BLOCK_PATH}/nomad                git@github.com:imma/nomad                aefa35153b7c16befd1d2dbc402e9de38a9c631a master 
 ecr                  ${BLOCK_PATH}/ecr                  git@github.com:imma/ecr                  25f20f65668a1f7f48f0879ca635509a5999e2c6 master 
 lambda               ${BLOCK_PATH}/lambda               git@github.com:imma/lambda               2039756b568bc11c35caa20784ab09dbe9688611 master 
 port                 ${BLOCK_PATH}/port                 git@github.com:imma/port                 e391240f0644a493de9e565202808b0f75a557f1 master 
