@@ -514,3 +514,6 @@
 [submodule "work/slack"]
 	path = work/slack
 	url = git@github.com:imma/slack
+[submodule "work/nomad"]
+	path = work/nomad
+	url = git@github.com:imma/nomad
