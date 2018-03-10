@@ -10,7 +10,7 @@ ubuntu-config        ${BLOCK_PATH}/ubuntu-config        git@github.com:imma/ubun
 cache                ${BLOCK_PATH}/cache                git@github.com:imma/cache                d3d7b3244e3653c1b7c7c58840e52a44638d1f5c master 
 pkgsrc               ${BLOCK_PATH}/pkgsrc               git@github.com:imma/pkgsrc               e88bfab4dc19b30310049b1c64b1c5297ff80881 master 
 homebrew             ${BLOCK_PATH}/homebrew             git@github.com:imma/homebrew             29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
-habitat              ${BLOCK_PATH}/habitat              git@github.com:imma/habitat              ef8b50ea1873fe3fc738b01ee5d95c90089195fb master 
+habitat              ${BLOCK_PATH}/habitat              git@github.com:imma/habitat              2ffb9a5fab7a495554bd5dbc7532bf830b7bf802 master 
 curl                 ${BLOCK_PATH}/curl                 git@github.com:imma/curl                 bb57a7cea3f29a92b222fe7afe8c1e9072804ff8 master 
 packer               ${BLOCK_PATH}/packer               git@github.com:imma/packer               12e9513e080c891ba3fb4414fb48246c7f3fefce master 
 pkg                  ${BLOCK_PATH}/pkg                  git@github.com:imma/pkg                  17aa0408651715cfae3fa136106847ff20adc479 master 
@@ -62,7 +62,7 @@ parity               ${BLOCK_PATH}/parity               git@github.com:imma/pari
 docker-compose       ${BLOCK_PATH}/docker-compose       git@github.com:imma/docker-compose       586736435ed7d6c1e66a25ed32101681830d00c9 master 
 docker-machine       ${BLOCK_PATH}/docker-machine       git@github.com:imma/docker-machine       8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master 
 docker               ${BLOCK_PATH}/docker               git@github.com:imma/docker               ac9e73ec004c4b92e2e813b4420ba9d284e131fc master 
-nomad                ${BLOCK_PATH}/nomad                git@github.com:imma/nomad                aefa35153b7c16befd1d2dbc402e9de38a9c631a master 
+nomad                ${BLOCK_PATH}/nomad                git@github.com:imma/nomad                e68638344237c13e8c0bb3a2b125ee3c4ae4b61b master 
 ecr                  ${BLOCK_PATH}/ecr                  git@github.com:imma/ecr                  25f20f65668a1f7f48f0879ca635509a5999e2c6 master 
 lambda               ${BLOCK_PATH}/lambda               git@github.com:imma/lambda               2039756b568bc11c35caa20784ab09dbe9688611 master 
 port                 ${BLOCK_PATH}/port                 git@github.com:imma/port                 e391240f0644a493de9e565202808b0f75a557f1 master 
@@ -120,8 +120,8 @@ terraform            ${BLOCK_PATH}/terraform            git@github.com:imma/terr
 wtf                  ${BLOCK_PATH}/wtf                  git@github.com:imma/wtf                  a54dcce3aba3697942ee8454e44595ee3aa2ae36 master 
 fogg-cli             ${BLOCK_PATH}/fogg-cli             git@github.com:imma/fogg-cli             20cb1dec46b0d11cd700a7ee1a7647cdc134279d master 
 fogg                 ${BLOCK_PATH}/fogg                 git@github.com:imma/fogg                 d77968ec673be102febc7e46543baabcb7fcacae master 
-fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              46565512b6d54ae8ff6a53e65c1f7e9927566b25 master 
-imma-tf              ${BLOCK_PATH}/imma-tf              git@github.com:imma/imma-tf              63e89bf1f1bee5441536cdb463cdd4db79d1a644 master 
+fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              865a836ee0fb7421c374a689b0b3e168a47b6343 master 
+imma-tf              ${BLOCK_PATH}/imma-tf              git@github.com:imma/imma-tf              d754b9cd7874f044a251a98c34e2f8eb26c57b1d master 
 aws-ssm-agent        ${BLOCK_PATH}/aws-ssm-agent        git@github.com:imma/aws-ssm-agent        a42018a4e06e0c12c9a7d9179fb7b5acc247b190 master 
 aws-cloudwatch-agent ${BLOCK_PATH}/aws-cloudwatch-agent git@github.com:imma/aws-cloudwatch-agent d83ec7d73644e503a6e65fa9f0cccedbc9a9f86d master 
 aws-codedeploy-agent ${BLOCK_PATH}/aws-codedeploy-agent git@github.com:imma/aws-codedeploy-agent 95df163a620911b77fa672b42410f12157f0bc1d master 
