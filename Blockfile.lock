@@ -23,8 +23,6 @@ node                 ${BLOCK_PATH}/node                 git@github.com:imma/node
 git                  ${BLOCK_PATH}/git                  git@github.com:imma/git                  472bdf518d416de26ecc322296215577669b255c master 
 junas                ${BLOCK_PATH}/junas                git@github.com:imma/junas                a1e6f117957a63a3b8003aeba6b9ca8693548c17 master 
 cue                  ${BLOCK_PATH}/cue                  git@github.com:imma/cue                  a14d678a98cf33eb56a710b1d3dbc07e76c2c24b master 
-runtime              ${BLOCK_PATH}/runtime              git@github.com:imma/runtime              26c27ac1e2a052583493943a5ae51dcbc28588be master 
-camp                 ${BLOCK_PATH}/camp                 git@github.com:imma/camp                 28530eae29ff8e7ac2ee64aa47848e86643b1efe master 
 yarn                 ${BLOCK_PATH}/yarn                 git@github.com:imma/yarn                 db0fa18f22c89b8ae491280c3d81afa646f9210c master 
 jq                   ${BLOCK_PATH}/jq                   git@github.com:imma/jq                   683bf22ca03c98d53854d031f8647ae9f9c70dd7 master 
 java                 ${BLOCK_PATH}/java                 git@github.com:imma/java                 c3c155c73879fffddd169bf14eae6737af23de9f master 
@@ -37,7 +35,9 @@ go                   ${BLOCK_PATH}/go                   git@github.com:imma/go  
 tfenv                ${BLOCK_PATH}/tfenv                git@github.com:imma/tfenv                2ae01416cb3f65d87a5edf18d138a9a6a744ccef master 
 vg                   ${BLOCK_PATH}/vg                   git@github.com:imma/vg                   74fb7fc005981571253a72cb619a9bcb3413ca14 master 
 vmm                  ${BLOCK_PATH}/vmm                  git@github.com:imma/vmm                  e652f7b873582c0002415325e281818945709d47 master 
-lang                 ${BLOCK_PATH}/lang                 git@github.com:imma/lang                 2799fca92dda2d31fb542b1ca7ceae5d36792d07 master 
+lang                 ${BLOCK_PATH}/lang                 git@github.com:imma/lang                 314f8a5fcb7a77084a0a399445468258fb3fbbe7 master 
+runtime              ${BLOCK_PATH}/runtime              git@github.com:imma/runtime              5b65aeabbec65261cdd213bdc20b8dea81ade820 master 
+camp                 ${BLOCK_PATH}/camp                 git@github.com:imma/camp                 28530eae29ff8e7ac2ee64aa47848e86643b1efe master 
 jenkins              ${BLOCK_PATH}/jenkins              git@github.com:imma/jenkins              d88eb26b5dc8958c352d1b4a46d36af3a325e765 master 
 codecommit           ${BLOCK_PATH}/codecommit           git@github.com:imma/codecommit           103788d5db3a95d559447d7e92dfb9f3f02268dd master 
 github               ${BLOCK_PATH}/github               git@github.com:imma/github               3b1721042565793566be8193c0ada1a8ed16afdf master 
