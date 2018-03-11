@@ -4,11 +4,13 @@
       "site",
       "ubuntu-config",
       "sshd",
-      "camp",
-      "lang",
-      "fart"
+      "tmux",
+      "junas"
     ],
     [
+      "camp",
+      "lang",
+      "fart",
       "service",
       "deploy",
       "sysadmin",
@@ -44,10 +46,8 @@
     [
       "home",
       "defn",
-      "junas",
       "chat",
-      "cue",
-      "tmux"
+      "cue"
     ],
     [
       "example",
