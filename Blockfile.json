@@ -3,17 +3,18 @@
     [
       "site",
       "ubuntu-config",
+      "sshd",
       "camp",
       "lang",
       "fart"
     ],
     [
+      "service",
       "deploy",
       "sysadmin",
       "make"
     ],
     [
-      "sshd",
       "consul-agent",
       "consul-server",
       "etcd",
