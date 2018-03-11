@@ -7,7 +7,9 @@ function main {
   cd "$shome"
 
   if [[ "$#" == 0 ]]; then
-    cp .gitconfig.template .gitconfig
+    if [[ ! -f .gitconfig ]]; then
+      cp .gitconfig.template .gitconfig
+    fi
 
     mkdir -p .ssh
     if ssh -o Include=meh 2>&1 | grep -q 'Bad'; then
