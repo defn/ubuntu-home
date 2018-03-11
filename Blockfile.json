@@ -1,11 +1,8 @@
 {
   "require": [
     [
-      "site",
       "ubuntu-config",
-      "sshd",
-      "tmux",
-      "junas"
+      "runtime"
     ],
     [
       "camp",
@@ -46,8 +43,7 @@
     [
       "home",
       "defn",
-      "chat",
-      "cue"
+      "chat"
     ],
     [
       "example",
