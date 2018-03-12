@@ -18,6 +18,9 @@ tx:
 ssh:
 	ssh -A $(shell docker-compose ps -q shell).docker
 
+irssi:
+	docker run -ti --rm -u ubuntu -w /home/ubuntu imma/devshell exec/home irssi $(irssi)
+
 down:
 	docker-compose down
 
