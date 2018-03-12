@@ -9,12 +9,12 @@
       "os_name": "posix",
       "platform_machine": "x86_64",
       "platform_python_implementation": "CPython",
-      "platform_release": "4.4.0-112-generic",
-      "platform_system": "Linux",
-      "platform_version": "#135-Ubuntu SMP Fri Jan 19 11:48:36 UTC 2018",
+      "platform_release": "17.4.0",
+      "platform_system": "Darwin",
+      "platform_version": "Darwin Kernel Version 17.4.0: Sun Dec 17 09:19:54 PST 2017; root:xnu-4570.41.2~1/RELEASE_X86_64",
       "python_full_version": "3.6.3",
       "python_version": "3.6",
-      "sys_platform": "linux"
+      "sys_platform": "darwin"
     },
     "pipfile-spec": 6,
     "requires": {},
@@ -40,13 +40,13 @@
       "version": "==1.1.4"
     },
     "awscli": {
-      "version": "==1.14.49"
+      "version": "==1.14.53"
     },
     "boto3": {
-      "version": "==1.6.2"
+      "version": "==1.6.6"
     },
     "botocore": {
-      "version": "==1.9.2"
+      "version": "==1.9.6"
     },
     "cffi": {
       "markers": "platform_python_implementation != 'PyPy'",
@@ -74,7 +74,7 @@
       "version": "==2.18"
     },
     "python-dateutil": {
-      "version": "==2.6.1"
+      "version": "==2.7.0"
     },
     "pyyaml": {
       "version": "==3.12"
