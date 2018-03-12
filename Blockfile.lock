@@ -36,7 +36,10 @@ lang                 ${BLOCK_PATH}/lang                 git@github.com:imma/lang
 tmux                 ${BLOCK_PATH}/tmux                 git@github.com:imma/tmux                 68b14fd30c95bd8a796576dcff98945d02d8de4b master 
 junas                ${BLOCK_PATH}/junas                git@github.com:imma/junas                a1e6f117957a63a3b8003aeba6b9ca8693548c17 master 
 cue                  ${BLOCK_PATH}/cue                  git@github.com:imma/cue                  a14d678a98cf33eb56a710b1d3dbc07e76c2c24b master 
-runtime              ${BLOCK_PATH}/runtime              git@github.com:imma/runtime              38641f13decf99cc2eb5feac9364a53d70f22d8d master 
+context              ${BLOCK_PATH}/context              git@github.com:imma/context              edaced91a1fe73abd74c370dcc53a72c95bfabbc master 
+parity               ${BLOCK_PATH}/parity               git@github.com:imma/parity               71ba46f4bfe28602fc50e399733761429b16b409 master 
+docker-compose       ${BLOCK_PATH}/docker-compose       git@github.com:imma/docker-compose       586736435ed7d6c1e66a25ed32101681830d00c9 master 
+runtime              ${BLOCK_PATH}/runtime              git@github.com:imma/runtime              d9b15bb5abc69bd81fd95df1bb43c7244abe7364 master 
 camp                 ${BLOCK_PATH}/camp                 git@github.com:imma/camp                 28530eae29ff8e7ac2ee64aa47848e86643b1efe master 
 jenkins              ${BLOCK_PATH}/jenkins              git@github.com:imma/jenkins              d88eb26b5dc8958c352d1b4a46d36af3a325e765 master 
 codecommit           ${BLOCK_PATH}/codecommit           git@github.com:imma/codecommit           103788d5db3a95d559447d7e92dfb9f3f02268dd master 
@@ -61,9 +64,6 @@ linkerd              ${BLOCK_PATH}/linkerd              git@github.com:imma/link
 namerd               ${BLOCK_PATH}/namerd               git@github.com:imma/namerd               c571a8e9b649e7f548dd4e73c9f29288d6ffc4d5 master 
 fabio                ${BLOCK_PATH}/fabio                git@github.com:imma/fabio                5a80c26fa32c83d582b75576b5e4f00996b2c83d master 
 openresty            ${BLOCK_PATH}/openresty            git@github.com:imma/openresty            07f0c5ea443c9ca5ea98085bbd40d88385e3ac18 master 
-context              ${BLOCK_PATH}/context              git@github.com:imma/context              edaced91a1fe73abd74c370dcc53a72c95bfabbc master 
-parity               ${BLOCK_PATH}/parity               git@github.com:imma/parity               71ba46f4bfe28602fc50e399733761429b16b409 master 
-docker-compose       ${BLOCK_PATH}/docker-compose       git@github.com:imma/docker-compose       586736435ed7d6c1e66a25ed32101681830d00c9 master 
 docker-machine       ${BLOCK_PATH}/docker-machine       git@github.com:imma/docker-machine       8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master 
 docker               ${BLOCK_PATH}/docker               git@github.com:imma/docker               ac9e73ec004c4b92e2e813b4420ba9d284e131fc master 
 nomad                ${BLOCK_PATH}/nomad                git@github.com:imma/nomad                e68638344237c13e8c0bb3a2b125ee3c4ae4b61b master 
