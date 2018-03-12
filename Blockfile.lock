@@ -105,7 +105,7 @@ talign               ${BLOCK_PATH}/talign               git@github.com:imma/tali
 defn                 ${BLOCK_PATH}/defn                 git@github.com:imma/defn                 d8e2c729df74b52257b8c25464c2e9d7ad2105e8 master 
 irssi                ${BLOCK_PATH}/irssi                git@github.com:imma/irssi                6cc3f6afce5f8008e7070ebe2710ca5ee3d209db master 
 slack                ${BLOCK_PATH}/slack                git@github.com:imma/slack                06613233dd8e7601de89fbd5f77e0b1133e778b7 master 
-chat                 ${BLOCK_PATH}/chat                 git@github.com:imma/chat                 e3f3b9379707a3ab7f4d92afacde7b8870015a56 master 
+chat                 ${BLOCK_PATH}/chat                 git@github.com:imma/chat                 9874b4593f23e465d13cfa179407780ce95daa64 master 
 example              ${BLOCK_PATH}/example              git@github.com:imma/example              8589dbc5a27e35f44c0d8a780a64574bb4f24be0 master 
 nothing              ${BLOCK_PATH}/nothing              git@github.com:imma/nothing              1f27fe2f0afd06bb09bd9f1c79cfc2dc687daff4 master 
 app                  ${BLOCK_PATH}/app                  git@github.com:imma/app                  61c1e785699b4054594f0248a04386370ea56bef master 
