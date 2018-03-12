@@ -1,7 +1,7 @@
 site                 ${BLOCK_PATH}/site                 git@github.com:imma/site                 7cfbe2e853b8ef50cb78beb172aaf6b0862ba9b5 master 
 shflags              ${BLOCK_PATH}/shflags              git@github.com:imma/shflags              a05166fedaf8481d2ff856591f4f50257d12521b master 
 normalize            ${BLOCK_PATH}/normalize            git@github.com:imma/normalize            ca938498f15fe070268e89b5ec405bdef58308b4 master 
-sub                  ${BLOCK_PATH}/sub                  git@github.com:imma/sub                  daea6e0c31a9957d0c34b0a7c09483c569a321f0 master 
+sub                  ${BLOCK_PATH}/sub                  git@github.com:imma/sub                  5ceb1d704e56e6833bf7ea93ad01af1a060c8771 master 
 runmany              ${BLOCK_PATH}/runmany              git@github.com:imma/runmany              accaecc59f399d48a4c41bd45660d692223724ef master 
 block                ${BLOCK_PATH}/block                git@github.com:imma/block                3d1eb4ccadd79d44fb9fa803e4fb87a1b5643d91 master 
 instance             ${BLOCK_PATH}/instance             git@github.com:imma/instance             fcddf250434277829d3862f8543661935668db13 master 
