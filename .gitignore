@@ -194,3 +194,4 @@ tmux-client*log
 .hab
 !.hab/cache/keys/.gitignore
 .a?t?c?l?t?/
+/.acme.sh
