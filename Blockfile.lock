@@ -118,11 +118,11 @@ haihero              ${BLOCK_PATH}/haihero              git@github.com:imma/haih
 gotty                ${BLOCK_PATH}/gotty                git@github.com:imma/gotty                befcdfd401da0281522e9ae1e536097cc7909b69 master 
 cookiecutter         ${BLOCK_PATH}/cookiecutter         git@github.com:imma/cookiecutter         040da6b867e5d07d29e08121124dca1e17105f11 master 
 terraform            ${BLOCK_PATH}/terraform            git@github.com:imma/terraform            6d60b79cb9670d97ce9a45d1d1a0cd3a0ecc7f33 master 
-wtf                  ${BLOCK_PATH}/wtf                  git@github.com:imma/wtf                  a54dcce3aba3697942ee8454e44595ee3aa2ae36 master 
+wtf                  ${BLOCK_PATH}/wtf                  git@github.com:imma/wtf                  9104173ff3c27805814fcebdcb8f8971ba1ced86 master 
 fogg-cli             ${BLOCK_PATH}/fogg-cli             git@github.com:imma/fogg-cli             d18aeffcf5515e597f876f27282a4fc7dfaedbc9 master 
 fogg                 ${BLOCK_PATH}/fogg                 git@github.com:imma/fogg                 d77968ec673be102febc7e46543baabcb7fcacae master 
-fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              93fc20483f070eaccde406951c05b0c6d23e8f7f master 
-imma-tf              ${BLOCK_PATH}/imma-tf              git@github.com:imma/imma-tf              d754b9cd7874f044a251a98c34e2f8eb26c57b1d master 
+fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              151b38d0c298fc567daa956a08f1601ce80a4841 master 
+imma-tf              ${BLOCK_PATH}/imma-tf              git@github.com:imma/imma-tf              f7d4155a5b2c5872f29a73df39b6b714d4f10817 master 
 aws-ssm-agent        ${BLOCK_PATH}/aws-ssm-agent        git@github.com:imma/aws-ssm-agent        a42018a4e06e0c12c9a7d9179fb7b5acc247b190 master 
 aws-cloudwatch-agent ${BLOCK_PATH}/aws-cloudwatch-agent git@github.com:imma/aws-cloudwatch-agent d83ec7d73644e503a6e65fa9f0cccedbc9a9f86d master 
 aws-codedeploy-agent ${BLOCK_PATH}/aws-codedeploy-agent git@github.com:imma/aws-codedeploy-agent 95df163a620911b77fa672b42410f12157f0bc1d master 
