@@ -122,7 +122,7 @@ wtf                  ${BLOCK_PATH}/wtf                  git@github.com:imma/wtf 
 fogg-cli             ${BLOCK_PATH}/fogg-cli             git@github.com:imma/fogg-cli             d18aeffcf5515e597f876f27282a4fc7dfaedbc9 master 
 fogg                 ${BLOCK_PATH}/fogg                 git@github.com:imma/fogg                 d77968ec673be102febc7e46543baabcb7fcacae master 
 fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              704ef71b8a2756853514888c9a7433263e454a4d master 
-imma-tf              ${BLOCK_PATH}/imma-tf              git@github.com:imma/imma-tf              f7d4155a5b2c5872f29a73df39b6b714d4f10817 master 
+imma-tf              ${BLOCK_PATH}/imma-tf              git@github.com:imma/imma-tf              e953d6a2ed7b83831fd471251ceac8d548616501 master 
 aws-ssm-agent        ${BLOCK_PATH}/aws-ssm-agent        git@github.com:imma/aws-ssm-agent        a42018a4e06e0c12c9a7d9179fb7b5acc247b190 master 
 aws-cloudwatch-agent ${BLOCK_PATH}/aws-cloudwatch-agent git@github.com:imma/aws-cloudwatch-agent d83ec7d73644e503a6e65fa9f0cccedbc9a9f86d master 
 aws-codedeploy-agent ${BLOCK_PATH}/aws-codedeploy-agent git@github.com:imma/aws-codedeploy-agent 95df163a620911b77fa672b42410f12157f0bc1d master 
