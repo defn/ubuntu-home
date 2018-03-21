@@ -129,5 +129,5 @@ aws-codedeploy-agent ${BLOCK_PATH}/aws-codedeploy-agent git@github.com:imma/aws-
 hugo                 ${BLOCK_PATH}/hugo                 git@github.com:imma/hugo                 4c3f5e1710e0b8f390f75044015daaf7e18ecc64 master 
 hugo-material-docs   ${BLOCK_PATH}/hugo-material-docs   git@github.com:imma/hugo-material-docs   4ca7bc271f76df5211eaa646626931e92bde285e master 
 beautifulhugo        ${BLOCK_PATH}/beautifulhugo        git@github.com:imma/beautifulhugo        86a11793042f4f4d1b79bdeee85fc556f1888e67 master 
-asciinema            ${BLOCK_PATH}/asciinema            git@github.com:imma/asciinema            87fcb17baee0056072ab8ff508268892295fd4bc master 
-docs                 ${BLOCK_PATH}/docs                 git@github.com:imma/docs                 e5af79fef8e88822743322088d3a879baca62fff master 
+ascii                ${BLOCK_PATH}/ascii                git@github.com:imma/ascii                2540083d5e282506d8776b74dcd21c7c2aa7774d master 
+docs                 ${BLOCK_PATH}/docs                 git@github.com:imma/docs                 263919217b658f907f1d6f9918e8024b496bab31 master 
