@@ -9,9 +9,9 @@
       "os_name": "posix",
       "platform_machine": "x86_64",
       "platform_python_implementation": "CPython",
-      "platform_release": "4.9.60-linuxkit-aufs",
+      "platform_release": "4.9.87-linuxkit-aufs",
       "platform_system": "Linux",
-      "platform_version": "#1 SMP Mon Nov 6 16:00:12 UTC 2017",
+      "platform_version": "#1 SMP Mon Mar 12 16:04:52 UTC 2018",
       "python_full_version": "3.6.3",
       "python_version": "3.6",
       "sys_platform": "linux"
@@ -28,7 +28,7 @@
   },
   "default": {
     "asciinema": {
-      "version": "==1.4.0"
+      "version": "==2.0.0"
     }
   },
   "develop": {}

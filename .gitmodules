@@ -266,10 +266,6 @@
 	path = work/irssi
 	url = git@github.com:imma/irssi
 	branch = master
-[submodule "work/asciinema"]
-	path = work/asciinema
-	url = git@github.com:imma/asciinema
-	branch = master
 [submodule "work/docs"]
 	path = work/docs
 	url = git@github.com:imma/docs
@@ -520,3 +516,6 @@
 [submodule "work/runtime"]
 	path = work/runtime
 	url = git@github.com:imma/runtime
+[submodule "work/ascii"]
+	path = work/ascii
+	url = git@github.com:imma/ascii
