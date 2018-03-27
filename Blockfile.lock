@@ -121,8 +121,8 @@ cookiecutter         ${BLOCK_PATH}/cookiecutter         git@github.com:imma/cook
 terraform            ${BLOCK_PATH}/terraform            git@github.com:imma/terraform            6d60b79cb9670d97ce9a45d1d1a0cd3a0ecc7f33 master 
 wtf                  ${BLOCK_PATH}/wtf                  git@github.com:imma/wtf                  9104173ff3c27805814fcebdcb8f8971ba1ced86 master 
 fogg-cli             ${BLOCK_PATH}/fogg-cli             git@github.com:imma/fogg-cli             d18aeffcf5515e597f876f27282a4fc7dfaedbc9 master 
-fogg                 ${BLOCK_PATH}/fogg                 git@github.com:imma/fogg                 6144ef835bfb4deb13ed128a2a70eabe1e95820d master 
-fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              415b47c82ed2f06a192263343820faefb0615cf6 master 
+fogg                 ${BLOCK_PATH}/fogg                 git@github.com:imma/fogg                 4050a262754f139de4768cc90ccfa4275b45084e master 
+fogg-tf              ${BLOCK_PATH}/fogg-tf              git@github.com:imma/fogg-tf              95aa031ae007c881d4fc0b70223f7adc148c6e86 master 
 imma-tf              ${BLOCK_PATH}/imma-tf              git@github.com:imma/imma-tf              a5d4cfb2ed54af6eaa3a6924d773038d59f9dc9d master 
 aws-ssm-agent        ${BLOCK_PATH}/aws-ssm-agent        git@github.com:imma/aws-ssm-agent        a42018a4e06e0c12c9a7d9179fb7b5acc247b190 master 
 aws-cloudwatch-agent ${BLOCK_PATH}/aws-cloudwatch-agent git@github.com:imma/aws-cloudwatch-agent d83ec7d73644e503a6e65fa9f0cccedbc9a9f86d master 
