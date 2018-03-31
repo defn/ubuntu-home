@@ -254,10 +254,6 @@
 	path = work/inspec
 	url = git@github.com:imma/inspec
 	branch = master
-[submodule "work/kitchen"]
-	path = work/kitchen
-	url = git@github.com:imma/kitchen
-	branch = master
 [submodule "work/nvm"]
 	path = work/nvm
 	url = git@github.com:imma/nvm
