@@ -1,0 +1,64 @@
+{
+  "_meta": {
+    "hash": {
+      "sha256": "89c43ee5b6133c5ade5681b01a6496f0b2d1093995589b5a2635a510ba9c216c"
+    },
+    "host-environment-markers": {
+      "implementation_name": "cpython",
+      "implementation_version": "3.6.3",
+      "os_name": "posix",
+      "platform_machine": "x86_64",
+      "platform_python_implementation": "CPython",
+      "platform_release": "17.4.0",
+      "platform_system": "Darwin",
+      "platform_version": "Darwin Kernel Version 17.4.0: Sun Dec 17 09:19:54 PST 2017; root:xnu-4570.41.2~1/RELEASE_X86_64",
+      "python_full_version": "3.6.3",
+      "python_version": "3.6",
+      "sys_platform": "darwin"
+    },
+    "pipfile-spec": 6,
+    "requires": {
+      "python_version": "3.6"
+    },
+    "sources": [
+      {
+        "name": "pypi",
+        "url": "https://pypi.python.org/simple",
+        "verify_ssl": true
+      }
+    ]
+  },
+  "default": {
+    "certifi": {
+      "version": "==2018.1.18"
+    },
+    "chardet": {
+      "version": "==3.0.4"
+    },
+    "cloudflare": {
+      "version": "==2.1.0"
+    },
+    "future": {
+      "version": "==0.16.0"
+    },
+    "idna": {
+      "version": "==2.6"
+    },
+    "jsonlines": {
+      "version": "==1.2.0"
+    },
+    "pyyaml": {
+      "version": "==3.12"
+    },
+    "requests": {
+      "version": "==2.18.4"
+    },
+    "six": {
+      "version": "==1.11.0"
+    },
+    "urllib3": {
+      "version": "==1.22"
+    }
+  },
+  "develop": {}
+}

@@ -449,15 +449,6 @@
 [submodule "work/kubernetes"]
 	path = work/kubernetes
 	url = git@github.com:imma/kubernetes
-[submodule "work/aws-cloudwatch-agent"]
-	path = work/aws-cloudwatch-agent
-	url = git@github.com:imma/aws-cloudwatch-agent
-[submodule "work/aws-codedeploy-agent"]
-	path = work/aws-codedeploy-agent
-	url = git@github.com:imma/aws-codedeploy-agent
-[submodule "work/aws-ssm-agent"]
-	path = work/aws-ssm-agent
-	url = git@github.com:imma/aws-ssm-agent
 [submodule "work/go"]
 	path = work/go
 	url = git@github.com:imma/go
@@ -518,3 +509,6 @@
 [submodule "work/vue"]
 	path = work/vue
 	url = git@github.com:imma/vue
+[submodule "work/cloudflare"]
+	path = work/cloudflare
+	url = git@github.com:imma/cloudflare

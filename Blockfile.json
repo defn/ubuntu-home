@@ -19,7 +19,8 @@
       "linkerd",
       "namerd",
       "fabio",
-      "openresty"
+      "openresty",
+      "cloudflare"
     ],
     [
       "docker",
@@ -65,11 +66,6 @@
       "fogg",
       "fogg-tf",
       "imma-tf"
-    ],
-    [
-      "aws-ssm-agent",
-      "aws-cloudwatch-agent",
-      "aws-codedeploy-agent"
     ],
     [
       "docs"
