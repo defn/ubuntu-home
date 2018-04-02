@@ -1,5 +1,9 @@
 SHELL = bash
 
+all:
+	$(MAKE) up
+	$(MAKE) tx-init
+
 up:
 	mkdir -p devshell/.ssh/
 	rsync -ia .ssh/authorized_keys devshell/.ssh/
