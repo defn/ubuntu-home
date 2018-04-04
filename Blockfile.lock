@@ -75,7 +75,7 @@ aws-vault          ${BLOCK_PATH}/aws-vault          git@github.com:imma/aws-vaul
 chamber            ${BLOCK_PATH}/chamber            git@github.com:imma/chamber            8eb8f947daf979b697c8ffed66b6258d21842123 master 
 awless             ${BLOCK_PATH}/awless             git@github.com:imma/awless             8d635d18f7ddf97fdb6da8afdd802197dd161cbc master 
 credstash          ${BLOCK_PATH}/credstash          git@github.com:imma/credstash          5762b04dabf9d1af5721906d27075a4de86122b8 master 
-aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                40ebbfd14cbe24f7ee2bc319bab7a45102cb88c8 master 
+aws                ${BLOCK_PATH}/aws                git@github.com:imma/aws                3b6cf2605419beb00c20ff3d0c7df16226022aa1 master 
 awesome            ${BLOCK_PATH}/awesome            git@github.com:imma/awesome            c6906903fb7c93f1b2107740582d6ac198e86e6d master 
 packet             ${BLOCK_PATH}/packet             git@github.com:imma/packet             bc5a09876673fbb0d5bd0919cf3f2932b243c9cd master 
 digitalocean       ${BLOCK_PATH}/digitalocean       git@github.com:imma/digitalocean       fa6286e9922eac58b1451bb6aa8175ba3650b906 master 
@@ -122,7 +122,7 @@ terraform          ${BLOCK_PATH}/terraform          git@github.com:imma/terrafor
 wtf                ${BLOCK_PATH}/wtf                git@github.com:imma/wtf                9104173ff3c27805814fcebdcb8f8971ba1ced86 master 
 fogg-cli           ${BLOCK_PATH}/fogg-cli           git@github.com:imma/fogg-cli           d18aeffcf5515e597f876f27282a4fc7dfaedbc9 master 
 fogg               ${BLOCK_PATH}/fogg               git@github.com:imma/fogg               4050a262754f139de4768cc90ccfa4275b45084e master 
-fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            cc38cb6a9f2a1d89171ed0674c8fea7f6238014b master 
+fogg-tf            ${BLOCK_PATH}/fogg-tf            git@github.com:imma/fogg-tf            10a72cfa13794f51c13e5410d849c99f98078f1f master 
 imma-tf            ${BLOCK_PATH}/imma-tf            git@github.com:imma/imma-tf            a5d4cfb2ed54af6eaa3a6924d773038d59f9dc9d master 
 hugo               ${BLOCK_PATH}/hugo               git@github.com:imma/hugo               4c3f5e1710e0b8f390f75044015daaf7e18ecc64 master 
 hugo-material-docs ${BLOCK_PATH}/hugo-material-docs git@github.com:imma/hugo-material-docs 4ca7bc271f76df5211eaa646626931e92bde285e master 
