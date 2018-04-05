@@ -2,11 +2,11 @@ SHELL := bash
 REPO ?= imma/ubuntu
 TAG ?= latest
 
-CONTAINER_HOST := $(shell docker-compose ps -q imma_start2 2>/dev/null).docker
+CONTAINER_HOST := $(shell docker-compose ps -q rebase 2>/dev/null).docker
 
 build:
 	docker create --name data -v data:/data alpine true 2>/dev/null || true
-	docker build -t $(REPO):start2 .
+	docker build -t $(REPO):rebase1 .
 
 up:
 	docker-compose down

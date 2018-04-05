@@ -1,8 +1,8 @@
 version: '3.2'
 
 services:
-  imma_start2:
-    image: imma/ubuntu:start2
+  base:
+    image: imma/ubuntu:base1
     privileged: true
     ports:
       - "22"

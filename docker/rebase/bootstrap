@@ -7,14 +7,15 @@ function main {
 	git reset --hard
   git pull
   for a in {1..5}; do git clean -ffd || true; done
-
   cp .gitconfig.template-https .gitconfig
+
   script/setup
 
   sudo rm -f ~root/.ssh/authorized_keys
   (set +f; rm -f .ssh/authorized_keys .ssh/*id_rsa*)
   rm -rf "$WRKOBJDIR"
   rm -rf "$PKGSRCDIR"
+  sudo apt-get clean
 } 
 
 main "$@"
