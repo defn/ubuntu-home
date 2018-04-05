@@ -4,6 +4,9 @@ TAG ?= latest
 
 CONTAINER_HOST := $(shell docker-compose ps -q rebase 2>/dev/null).docker
 
+all:
+	$(MAKE) build up make tag down
+
 build:
 	docker create --name data -v data:/data alpine true 2>/dev/null || true
 	docker build -t $(REPO):rebase1 .
@@ -27,4 +30,3 @@ tag_:
 
 down:
 	docker-compose down
-
