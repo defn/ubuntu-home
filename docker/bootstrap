@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+function main {
+  cd
+
+  ssh -o StrictHostKeyChecking=no github.com true 2>/dev/null || true
+
+  if [[ ! -d .git ]]; then
+    git clone git@github.com:imma/ubuntu
+    mv ubuntu/.git .
+    git reset --hard
+    git clean -ffd
+  fi
+
+  git fetch
+	git reset --hard
+  git pull
+
+  cp .gitconfig.template-https .gitconfig
+  script/setup
+
+  for a in {1..5}; do git clean -ffd || true; done
+  sudo rm -f ~root/.ssh/authorized_keys
+  (set +f; rm -f .ssh/authorized_keys .ssh/*id_rsa*)
+  rm -rf "$WRKOBJDIR"
+  rm -rf "$PKGSRCDIR"
+} 
+
+main "$@"
