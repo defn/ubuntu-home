@@ -198,10 +198,6 @@
 	path = work/cfssl
 	url = git@github.com:imma/cfssl
 	branch = master
-[submodule "work/instance"]
-	path = work/instance
-	url = git@github.com:imma/instance
-	branch = master
 [submodule "work/cloud"]
 	path = work/cloud
 	url = git@github.com:imma/cloud
