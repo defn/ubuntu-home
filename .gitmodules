@@ -38,10 +38,6 @@
 	path = work/jq
 	url = git@github.com:imma/jq
 	branch = master
-[submodule "work/base"]
-	path = work/base
-	url = git@github.com:imma/base
-	branch = master
 [submodule "work/python"]
 	path = work/python
 	url = git@github.com:imma/python
@@ -470,12 +466,6 @@
 [submodule "work/lambda"]
 	path = work/lambda
 	url = git@github.com:imma/lambda
-[submodule "work/port"]
-	path = work/port
-	url = git@github.com:imma/port
-[submodule "work/camp"]
-	path = work/camp
-	url = git@github.com:imma/camp
 [submodule "work/pkg"]
 	path = work/pkg
 	url = git@github.com:imma/pkg
