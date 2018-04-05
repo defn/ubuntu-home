@@ -45,3 +45,9 @@ lock:
 	git add -u work Blockfile.lock Blockfile.json
 	git add .public content
 	gs
+
+base:
+	cd docker/base && $(MAKE)
+
+rebase:
+	cd docker/rebase && $(MAKE)
