@@ -4,6 +4,7 @@ services:
   shell:
     image: imma/devshell
     build: devshell
+    network_mode: bridge
     privileged: true
     ports:
       - "22"
