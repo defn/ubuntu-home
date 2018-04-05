@@ -28,3 +28,9 @@ brew update-reset; brew update
    98  cp .ssh/config.template .ssh/config
    99  ssh-keycan localhost > .ssh/known_hosts
   100 ssh-copy-id -f localhost
+
+  168  sudo ip link add dummy0 type dummy
+  174  sudo ip link set dev dummy0 up
+  176  sudo ip addr add 169.254.1.1/32 dev dummy0
+  177  sudo ip link set dev dummy0 up
+  178  ip addr show dev dummy0
