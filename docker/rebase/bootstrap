@@ -10,6 +10,7 @@ function main {
   cp .gitconfig.template-https .gitconfig
 
   script/setup
+  script/bootstrap
 
   sudo rm -f ~root/.ssh/authorized_keys
   (set +f; rm -f .ssh/authorized_keys .ssh/*id_rsa*)
