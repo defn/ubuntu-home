@@ -46,8 +46,11 @@ lock:
 	git add .public content
 	gs
 
-base:
+dummy:
+	[[ "$(shell uname -s)" == "Darwin" ]] && sudo ifconfig lo0 alias 169.254.1.1 255.255.255.255 2>/dev/null || true
+
+base: dummy
 	cd docker/base && $(MAKE)
 
-rebase:
+rebase: dummy
 	cd docker/rebase && $(MAKE)
