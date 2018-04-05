@@ -57,3 +57,6 @@ rebase: dummy
 
 push:
 	docker push imma/ubuntu:latest
+
+reset:
+	make rebase all
