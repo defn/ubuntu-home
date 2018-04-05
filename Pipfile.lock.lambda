@@ -28,7 +28,7 @@
   },
   "default": {
     "botocore": {
-      "version": "==1.9.21"
+      "version": "==1.10.0"
     },
     "certifi": {
       "version": "==2018.1.18"
