@@ -512,3 +512,6 @@
 [submodule "work/cloudflare"]
 	path = work/cloudflare
 	url = git@github.com:imma/cloudflare
+[submodule "work/drone"]
+	path = work/drone
+	url = git@github.com:imma/drone
