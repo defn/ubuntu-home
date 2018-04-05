@@ -6,12 +6,12 @@ function main {
   git fetch
 	git reset --hard
   git pull
-  for a in {1..5}; do git clean -ffd || true; done
   cp .gitconfig.template-https .gitconfig
 
   script/setup
   script/bootstrap
 
+  for a in {1..5}; do git clean -ffd || true; done
   sudo rm -f ~root/.ssh/authorized_keys
   (set +f; rm -f .ssh/authorized_keys .ssh/*id_rsa*)
   rm -rf "$WRKOBJDIR"
