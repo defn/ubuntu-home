@@ -4,7 +4,7 @@ normalize          ${BLOCK_PATH}/normalize          git@github.com:imma/normaliz
 sub                ${BLOCK_PATH}/sub                git@github.com:imma/sub                5ceb1d704e56e6833bf7ea93ad01af1a060c8771 master 
 runmany            ${BLOCK_PATH}/runmany            git@github.com:imma/runmany            accaecc59f399d48a4c41bd45660d692223724ef master 
 block              ${BLOCK_PATH}/block              git@github.com:imma/block              3d1eb4ccadd79d44fb9fa803e4fb87a1b5643d91 master 
-ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      af614adb3b8ab9fd4d8485d0de6fd3be1e118b9e master 
+ubuntu-config      ${BLOCK_PATH}/ubuntu-config      git@github.com:imma/ubuntu-config      39cdb6411dc3f647ad35f1e5ce4823f1507df2dc master 
 pkgsrc             ${BLOCK_PATH}/pkgsrc             git@github.com:imma/pkgsrc             4936bd35fa524829a1e34bc921f5e5d3865d5477 master 
 homebrew           ${BLOCK_PATH}/homebrew           git@github.com:imma/homebrew           29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
 habitat            ${BLOCK_PATH}/habitat            git@github.com:imma/habitat            2ffb9a5fab7a495554bd5dbc7532bf830b7bf802 master 
