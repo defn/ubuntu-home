@@ -2,4 +2,7 @@ pipeline:
   rebase:
     image: imma/ubuntu:base
     commands:
-      - cd && ./docker/rebase/bootstrap
+      - id -a
+      - pwd
+      - cd && pwd
+      - cd /home/ubuntu && ./docker/rebase/bootstrap
