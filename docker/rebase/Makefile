@@ -5,6 +5,7 @@ TAG ?= latest
 CONTAINER_HOST := $(shell docker-compose ps -q rebase 2>/dev/null).docker
 
 all:
+	sudo chgrp ubuntu /var/run/docker.sock 2>/dev/null || true
 	$(MAKE) build up make tag down
 
 build:
