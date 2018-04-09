@@ -1,0 +1,5 @@
+pipeline:
+  rebase:
+    image: imma/ubuntu:rebase
+    commands:
+      - make rebase
