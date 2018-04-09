@@ -5,4 +5,4 @@ pipeline:
       - id -a
       - pwd
       - cd && pwd
-      - cd /home/ubuntu && ./docker/rebase/bootstrap
+      - cd /home/ubuntu && sudo -u ubuntu ./docker/rebase/bootstrap
