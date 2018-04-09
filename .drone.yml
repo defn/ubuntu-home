@@ -3,3 +3,4 @@ pipeline:
     image: imma/ubuntu:base
     commands:
       - cd /home/ubuntu && sudo -H -u ubuntu ./docker/rebase/bootstrap
+      - cd /home/ubuntu && sudo -H -u ubuntu block stale
