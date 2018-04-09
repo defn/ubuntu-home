@@ -6,7 +6,6 @@ function main {
   git fetch
 	git reset --hard
   git pull
-  cp .gitconfig.template-https .gitconfig
 
   script/setup
   script/bootstrap
