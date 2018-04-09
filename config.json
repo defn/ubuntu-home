@@ -1,6 +1,6 @@
 {
   "languageCode": "en-us",
-  "theme": "hugo-material-docs",
+  "theme": "drone",
   "metadataformat": "yaml",
   "canonifyurls": false,
   "relativeURLS": true,

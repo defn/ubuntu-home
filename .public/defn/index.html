@@ -1,174 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<meta name="generator" content="Hugo 0.37" />
 
-  <title>defn block</title>
-  <meta property="og:title" content="defn block" />
-  <meta name="description" content="Disregard! https://stepsandleaps.wordpress.com/2017/10/17/feynmans-breakthrough-disregard-others/
-Workplace social stress https://news.ycombinator.com/item?id=15498767
-Cool shit https://medium.facilelogin.com/short-lived-certificates-netflix-fd5f3ae5bc9
-vim https://statico.github.io/vim3.html
-config https://blog.buildo.io/the-three-laws-of-config-dynamics-1e9724593aa9
-complexity https://hackernoon.com/do-you-have-the-learners-syndrome-169c8158ec16">
-  <meta property="og:description" content="Disregard! https://stepsandleaps.wordpress.com/2017/10/17/feynmans-breakthrough-disregard-others/
-Workplace social stress https://news.ycombinator.com/item?id=15498767
-Cool shit https://medium.facilelogin.com/short-lived-certificates-netflix-fd5f3ae5bc9
-vim https://statico.github.io/vim3.html
-config https://blog.buildo.io/the-three-laws-of-config-dynamics-1e9724593aa9
-complexity https://hackernoon.com/do-you-have-the-learners-syndrome-169c8158ec16">
-  <meta name="author" content=""/><meta property="og:url" content="/defn/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="" />
-
-  <meta name="generator" content="Hugo 0.32.2" />
-  <link rel="canonical" href="../defn/" />
-  <link rel="alternate" href="index.xml" type="application/rss+xml" title="">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="../bh/css/main.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-  <link rel="stylesheet" href="../bh/css/pygment_highlights.css" />
-  <link rel="stylesheet" href="../bh/css/highlight.min.css" />
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" href="../favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="../favicon-16x16.png" sizes="16x16">
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<title>defn block</title>
+<base href="">
 
 
 
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Roboto|Roboto+Mono|Droid+Sans|Noto+Sans:400,700" rel="stylesheet">
+<link href="../css/reset.css" rel="stylesheet">
+<link href="../css/highlight.css" rel="stylesheet">
+<link href="../css/docsearch.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
 
-<div class="pswp__bg"></div>
-
-<div class="pswp__scroll-wrap">
-    
-    <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-    </div>
-    
-    <div class="pswp__ui pswp__ui--hidden">
-    <div class="pswp__top-bar">
-      
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      
-      
-      <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-      <div class="pswp__share-tooltip"></div>
-    </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-    </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-    </button>
-    <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-    </div>
-    </div>
-    </div>
-</div>
 
 </head>
+<body>
 
-  <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href=""></a>
-    </div>
-
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
-        
-          
-            <li>
-              <a title="defn" href="../defn">defn</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="remote" href="../defn/remote">remote</a>
-            </li>
-          
-        
-
-        
-
-        
-      </ul>
-    </div>
-
-    <div class="avatar-container">
-      <div class="avatar-img-border">
-        
-      </div>
-    </div>
-
-  </div>
-</nav>
+<aside>
+	<input type="checkbox" id="app-drawer"/>
+	<a href='../' class="logo"></a>
+	<label class="app-drawer" for="app-drawer"></label>
+	<div>
+		<nav>
+		<ul></ul>
 
 
+		</nav>
+		
+	</div>
+</aside>
 
-
-    
-  
-  
-  
-
-
-
-
-  
-
-  <header class="header-section ">
-    
-    <div class="intro-header no-img">
+<header>
+	<input type="text" id="search" placeholder="Search Documentation..." />
+	
+<div class="languages">
+  <input type="checkbox" id="language-menu"/>
+  <label class="selected" for="language-menu">en</label>
+  <div class="drawer">
+    <ul>
       
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="index-heading">
-              <h1>defn block</h1>
-                
-                
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+      <li>
+        <a href="../en"></a>
+      </li>
+    </ul>
+  </div>
+</div>
 
+</header>
 
-    
-<div class="container" role="main">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <article role="main" class="blog-post">
-        
+<main>
+	<h1>defn block</h1>
+	<article>
+		
 
 <h3 id="disregard">Disregard!</h3>
 
@@ -194,46 +86,26 @@ complexity https://hackernoon.com/do-you-have-the-learners-syndrome-169c8158ec16
 
 <p><a href="https://hackernoon.com/do-you-have-the-learners-syndrome-169c8158ec16">https://hackernoon.com/do-you-have-the-learners-syndrome-169c8158ec16</a></p>
 
-      </article>
 
-      <ul class="pager blog-pager">
-        
-        
-      </ul>
+		
 
-    </div>
-  </div>
-</div>
+		
+<h1></h1>
+<p></p>
 
-    <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <ul class="list-inline text-center footer-links">
-          
-          
-        </ul>
-        <p class="credits theme-by text-muted">
-        
-        Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
-        </p>
-      </div>
-    </div>
-  </div>
-</footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="../bh/js/main.js"></script>
-<script src="../bh/js/highlight.min.js"></script>
-<script> hljs.initHighlightingOnLoad(); </script>
-<script> renderMathInElement(document.body); </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
-<script src="../bh/js/load-photoswipe.js"></script>
+		<h1></h1>
+<p></p>
 
-  </body>
+	</article>
+	
+
+
+</main>
+<script src="../js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+</body>
 </html>
-
