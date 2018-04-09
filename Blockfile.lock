@@ -19,7 +19,7 @@ nvm            ${BLOCK_PATH}/nvm            git@github.com:imma/nvm            e
 node           ${BLOCK_PATH}/node           git@github.com:imma/node           9abacb7b2f1fb38521fc0b3d8a77392323f15860 master 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            472bdf518d416de26ecc322296215577669b255c master 
 yarn           ${BLOCK_PATH}/yarn           git@github.com:imma/yarn           db0fa18f22c89b8ae491280c3d81afa646f9210c master 
-vue            ${BLOCK_PATH}/vue            git@github.com:imma/vue            053fe2bbf96727e90326554e4a289d083b634bca master 
+vue            ${BLOCK_PATH}/vue            git@github.com:imma/vue            0a35f4a67d312451d46c1f5ee8fa7e0baae3bef5 master 
 jq             ${BLOCK_PATH}/jq             git@github.com:imma/jq             683bf22ca03c98d53854d031f8647ae9f9c70dd7 master 
 java           ${BLOCK_PATH}/java           git@github.com:imma/java           9ca49f26e0f0098d28b13d9fea5982826810b9e1 master 
 bash4          ${BLOCK_PATH}/bash4          git@github.com:imma/bash4          c7d35f0bea3080089eef1f6c9ea0ff0e2b8fc97f master 
@@ -65,7 +65,7 @@ openresty      ${BLOCK_PATH}/openresty      git@github.com:imma/openresty      0
 cloudflare     ${BLOCK_PATH}/cloudflare     git@github.com:imma/cloudflare     4a69db37c5443936d33f9ee946fca1cbbf40ae90 master 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master 
 docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         ac9e73ec004c4b92e2e813b4420ba9d284e131fc master 
-nomad          ${BLOCK_PATH}/nomad          git@github.com:imma/nomad          e68638344237c13e8c0bb3a2b125ee3c4ae4b61b master 
+nomad          ${BLOCK_PATH}/nomad          git@github.com:imma/nomad          1dda3c0ca577e43c1e6b1e6d0bdfbfcd1dc9c6f3 master 
 ecr            ${BLOCK_PATH}/ecr            git@github.com:imma/ecr            25f20f65668a1f7f48f0879ca635509a5999e2c6 master 
 lambda         ${BLOCK_PATH}/lambda         git@github.com:imma/lambda         fd69efa9557622eb5342f2f09587bead809a405e master 
 aws-vault      ${BLOCK_PATH}/aws-vault      git@github.com:imma/aws-vault      b45b3394f8bc7108029ee08ba8e38565801db004 master 
