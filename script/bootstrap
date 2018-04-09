@@ -7,7 +7,6 @@ function main {
   cd "$shome"
   source ".bash_profile"
 
-  work/base/script/bootstrap
   work/jq/script/bootstrap
   work/block/script/cibuild
 
