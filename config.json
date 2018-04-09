@@ -24,5 +24,21 @@
     "sitemap",
     "robotsTXT",
     "404"
-  ]
+  ],
+
+  "menu": {
+    "block": [
+      {
+        "identifier": "block",
+        "weight": 101
+      }
+    ],
+    "index": [
+      {
+        "name": "home",
+        "url": "/index.html",
+        "weight": 10
+      }
+    ]
+  }
 }
