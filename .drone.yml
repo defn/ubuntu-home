@@ -1,5 +1,5 @@
 pipeline:
   rebase:
-    image: imma/ubuntu:rebase
+    image: imma/ubuntu:base
     commands:
       - make rebase
