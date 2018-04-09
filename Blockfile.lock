@@ -3,7 +3,7 @@ shflags        ${BLOCK_PATH}/shflags        git@github.com:imma/shflags        a
 normalize      ${BLOCK_PATH}/normalize      git@github.com:imma/normalize      ca938498f15fe070268e89b5ec405bdef58308b4 master 
 sub            ${BLOCK_PATH}/sub            git@github.com:imma/sub            5ceb1d704e56e6833bf7ea93ad01af1a060c8771 master 
 runmany        ${BLOCK_PATH}/runmany        git@github.com:imma/runmany        accaecc59f399d48a4c41bd45660d692223724ef master 
-block          ${BLOCK_PATH}/block          git@github.com:imma/block          3d1eb4ccadd79d44fb9fa803e4fb87a1b5643d91 master 
+block          ${BLOCK_PATH}/block          git@github.com:imma/block          3e77692d487c44c8379864f30b6924fee9f2167e master 
 ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  39cdb6411dc3f647ad35f1e5ce4823f1507df2dc master 
 pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         73aab8acf3b8339542b63de669748bfa40937b30 master 
 homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 

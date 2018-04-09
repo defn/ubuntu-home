@@ -186,7 +186,7 @@ border-top:1px solid #EEE;
 	background-size: 32px;
 	background-repeat: no-repeat;
 	background-position: 20px center;
-	background-image: url(/logo.svg);
+	background-image: url(http://docs.drone.io/logo.svg);
 	display: block;
 	height:62px;
 	border-bottom:1px solid #EEE;
