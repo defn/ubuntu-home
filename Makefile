@@ -55,6 +55,9 @@ base: dummy
 rebase: dummy
 	cd docker/rebase && $(MAKE)
 
+rebase-ci: dummy
+	cd docker/rebase && $(MAKE) rebase-ci
+
 push:
 	docker push imma/ubuntu:latest
 

@@ -2,6 +2,4 @@ pipeline:
   rebase:
     image: imma/ubuntu:base
     commands:
-      - make rebase
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
+      - cd docker/rebase && ./bootstrap
