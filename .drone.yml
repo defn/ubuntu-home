@@ -3,3 +3,5 @@ pipeline:
     image: imma/ubuntu:base
     commands:
       - make rebase
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
