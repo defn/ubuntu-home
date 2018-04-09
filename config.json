@@ -1,12 +1,22 @@
 {
-  "languageCode": "en-us",
+  "title": "Immanent",
   "theme": "drone",
+  "copyright": "Copyright © 2018 Immanent",
+
+  "disableRSS": true,
+  "disable404": true,
+
+  "defaultContentLanguage": "en",
+  "defaultContentLanguageInSubdir": false,
+  "enableMissingTranslationPlaceholders": false,
+
   "metadataformat": "yaml",
   "canonifyurls": false,
   "relativeURLS": true,
   "contentDir": "content",
   "dataDir": ".private/data",
   "publishDir": ".public",
+
   "disableKinds": [
     "taxonomy",
     "taxonomyTerm",
@@ -14,55 +24,5 @@
     "sitemap",
     "robotsTXT",
     "404"
-  ],
-  "params": {
-    "palette": {
-      "primary": "teal",
-      "accent": "blue"
-    },
-    "font": {
-      "text": "Ubuntu",
-      "code": "Ubuntu Mono"
-    },
-    "blackfriday": {
-      "smartypant": true,
-      "fractions": true,
-      "smartDashes": true,
-      "plainIDAnchors": true
-    },
-    "menu": {
-      "main": [
-        {
-          "name": "home",
-          "url": "/",
-          "weight": 10
-        },
-        {
-          "name": "ubuntu",
-          "url": "/ubuntu",
-          "weight": 100
-        },
-        {
-          "name": "block",
-          "url": "/block",
-          "weight": 200
-        },
-        {
-          "name": "defn",
-          "url": "/defn",
-          "weight": 300
-        },
-        {
-          "name": "grpc",
-          "url": "/grpc",
-          "weight": 400
-        },
-        {
-          "name": "yubikey",
-          "url": "/yubikey",
-          "weight": 500
-        }
-      ]
-    }
-  }
+  ]
 }
