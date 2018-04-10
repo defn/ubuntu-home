@@ -4,6 +4,13 @@ clone:
     commands: true
 
 pipeline:
+  info:
+    immage: imma/ubuntu:base
+    commands:
+      - docker info
+      - env | sort
+      - df -klh
+      - ls -ld /data/*
   rebase:
     image: imma/ubuntu:base
     commands:
