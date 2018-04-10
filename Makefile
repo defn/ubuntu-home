@@ -1,6 +1,9 @@
 SHELL = bash
 
-all:
+test:
+	drone exec
+
+init:
 	$(MAKE) up
 	$(MAKE) tx-init
 
