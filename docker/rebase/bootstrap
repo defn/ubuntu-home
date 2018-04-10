@@ -1,25 +1,12 @@
 #!/usr/bin/env bash
 
-function prep {
-  git fetch
-}
-
 function main {
   set -x
 
-  prep
-
-  if [[ -n "${CI_COMMIT_SHA}" ]]; then
-    git checkout -f "${CI_COMMIT_BRANCH}"
-    git reset --hard "${CI_COMMIT_SHA}"
-  else
+  if [[ -z "${CI_COMMIT_SHA}" ]]; then
+    git fetch
     git reset --hard
     git pull
-  fi
-
-  if [[ "$#" == 0 ]]; then
-    "$0" 1
-    return $?
   fi
 
 	mkdir -p .ssh
