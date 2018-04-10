@@ -1,6 +1,7 @@
 clone:
-  image: ubuntu
-  commands: true
+  git:
+    image: ubuntu
+    commands: true
 
 pipeline:
   rebase:
