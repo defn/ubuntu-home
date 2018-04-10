@@ -5,7 +5,7 @@ clone:
 
 pipeline:
   info:
-    immage: imma/ubuntu:base
+    image: imma/ubuntu:base
     commands:
       - docker info
       - env | sort
