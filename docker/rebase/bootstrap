@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
 
-function main {
+function prep {
   git fetch
+}
+
+function main {
+  prep
+
   git reset --hard
   git pull
-  cp .gitconfig.template-https .gitconfig
 
   script/setup
   script/bootstrap

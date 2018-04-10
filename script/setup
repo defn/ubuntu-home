@@ -7,10 +7,6 @@ function main {
   cd "$shome"
 
   if [[ "$#" == 0 ]]; then
-    if [[ ! -f .gitconfig ]]; then
-      cp .gitconfig.template .gitconfig
-    fi
-
     mkdir -p .ssh
     if ssh -o Include=meh 2>&1 | grep -q 'Bad'; then
       cat .ssh/config.template
@@ -39,7 +35,6 @@ function main {
     ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no git clean -ffd
     ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no git clean -ffd
     ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no git clean -ffd
-    ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no cp .gitconfig.template-https .gitconfig
     ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no script/setup
   fi
 }
