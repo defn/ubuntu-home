@@ -11,7 +11,7 @@ pipeline:
       - ls -ltrhd /data/cache/packages/* || true
       - docker ps | wc -l || true
     volumes:
-      - ${DATA}:/data
+      - /Users/ubuntu/data:/data
       - /var/run/docker.sock:/var/run/docker.sock
   rebase:
     image: imma/ubuntu:base
@@ -27,6 +27,6 @@ pipeline:
       - cd /home/ubuntu && sudo -H -u ubuntu -E ./exec/home ./docker/rebase/bootstrap
       - cd /home/ubuntu && sudo -H -u ubuntu ./exec/home block stale
     volumes:
-      - ${DATA}:/data
+      - /Users/ubuntu/data:/data
       - /var/run/docker.sock:/var/run/docker.sock
 
