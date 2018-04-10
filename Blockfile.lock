@@ -5,7 +5,7 @@ sub            ${BLOCK_PATH}/sub            git@github.com:imma/sub            5
 runmany        ${BLOCK_PATH}/runmany        git@github.com:imma/runmany        accaecc59f399d48a4c41bd45660d692223724ef master 
 block          ${BLOCK_PATH}/block          git@github.com:imma/block          04257b5b86de39e5e6a83686b95fae60d3c977e5 master 
 ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  39cdb6411dc3f647ad35f1e5ce4823f1507df2dc master 
-pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         73aab8acf3b8339542b63de669748bfa40937b30 master 
+pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         0b0bd8e822daf0d359aa2cef53e380c4e8962c98 master 
 homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
 habitat        ${BLOCK_PATH}/habitat        git@github.com:imma/habitat        2ffb9a5fab7a495554bd5dbc7532bf830b7bf802 master 
 cache          ${BLOCK_PATH}/cache          git@github.com:imma/cache          d3d7b3244e3653c1b7c7c58840e52a44638d1f5c master 
@@ -61,7 +61,7 @@ etcd           ${BLOCK_PATH}/etcd           git@github.com:imma/etcd           0
 linkerd        ${BLOCK_PATH}/linkerd        git@github.com:imma/linkerd        87dc2cf4e2ad2f603cc56bbfc0f11fa237a5f7ac master 
 namerd         ${BLOCK_PATH}/namerd         git@github.com:imma/namerd         c571a8e9b649e7f548dd4e73c9f29288d6ffc4d5 master 
 fabio          ${BLOCK_PATH}/fabio          git@github.com:imma/fabio          5a80c26fa32c83d582b75576b5e4f00996b2c83d master 
-openresty      ${BLOCK_PATH}/openresty      git@github.com:imma/openresty      ed37c04a37ae03b311a491accb38d7c6c648b739 master 
+openresty      ${BLOCK_PATH}/openresty      git@github.com:imma/openresty      95e2d5eac4852988c43cb000e4e4a2e5c2827b8b master 
 cloudflare     ${BLOCK_PATH}/cloudflare     git@github.com:imma/cloudflare     4a69db37c5443936d33f9ee946fca1cbbf40ae90 master 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master 
 docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         ac9e73ec004c4b92e2e813b4420ba9d284e131fc master 
