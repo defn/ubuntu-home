@@ -61,7 +61,7 @@ etcd           ${BLOCK_PATH}/etcd           git@github.com:imma/etcd           0
 linkerd        ${BLOCK_PATH}/linkerd        git@github.com:imma/linkerd        87dc2cf4e2ad2f603cc56bbfc0f11fa237a5f7ac master 
 namerd         ${BLOCK_PATH}/namerd         git@github.com:imma/namerd         c571a8e9b649e7f548dd4e73c9f29288d6ffc4d5 master 
 fabio          ${BLOCK_PATH}/fabio          git@github.com:imma/fabio          5a80c26fa32c83d582b75576b5e4f00996b2c83d master 
-openresty      ${BLOCK_PATH}/openresty      git@github.com:imma/openresty      07f0c5ea443c9ca5ea98085bbd40d88385e3ac18 master 
+openresty      ${BLOCK_PATH}/openresty      git@github.com:imma/openresty      2fd1db3a552b61cbd90c5b80ca581862c1e5ace3 master 
 cloudflare     ${BLOCK_PATH}/cloudflare     git@github.com:imma/cloudflare     4a69db37c5443936d33f9ee946fca1cbbf40ae90 master 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master 
 docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         ac9e73ec004c4b92e2e813b4420ba9d284e131fc master 
