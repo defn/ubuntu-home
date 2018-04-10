@@ -8,7 +8,7 @@ pipeline:
     image: imma/ubuntu:base
     commands:
       - env | sort
-      - ls -ltrhd /dats/cache/*/* || true
+      - ls -ltrhd /data/cache/packages/* || true
       - docker ps | wc -l || true
     volumes:
       - ${DATA}:/data
