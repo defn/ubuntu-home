@@ -5,6 +5,8 @@ function prep {
 }
 
 function main {
+  set -x
+
   prep
 
   if [[ -n "${CI_COMMIT_SHA}" ]]; then
