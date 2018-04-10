@@ -21,3 +21,7 @@ pipeline:
       - cd /home/ubuntu && sudo -H -u ubuntu ./exec/home block sync
       - cd /home/ubuntu && sudo -H -u ubuntu -E ./exec/home ./docker/rebase/bootstrap
       - cd /home/ubuntu && sudo -H -u ubuntu ./exec/home block stale
+    volumes:
+      - ${DATA}:/data
+      - /var/run/docker.sock:/var/run/docker.sock
+
