@@ -39,13 +39,12 @@ context        ${BLOCK_PATH}/context        git@github.com:imma/context        e
 parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         71ba46f4bfe28602fc50e399733761429b16b409 master 
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 586736435ed7d6c1e66a25ed32101681830d00c9 master 
 runtime        ${BLOCK_PATH}/runtime        git@github.com:imma/runtime        d9b15bb5abc69bd81fd95df1bb43c7244abe7364 master 
-jenkins        ${BLOCK_PATH}/jenkins        git@github.com:imma/jenkins        d88eb26b5dc8958c352d1b4a46d36af3a325e765 master 
 codecommit     ${BLOCK_PATH}/codecommit     git@github.com:imma/codecommit     103788d5db3a95d559447d7e92dfb9f3f02268dd master 
 github         ${BLOCK_PATH}/github         git@github.com:imma/github         3b1721042565793566be8193c0ada1a8ed16afdf master 
 inspec         ${BLOCK_PATH}/inspec         git@github.com:imma/inspec         65e243d1dc7e51590dd7b36524ecdfae44e5a362 master 
 travis         ${BLOCK_PATH}/travis         git@github.com:imma/travis         09e48d834e5e6922f1d5cb622b92c76147ddb083 master 
 drone          ${BLOCK_PATH}/drone          git@github.com:imma/drone          5a495edc434fd24d1fa976fb8e9d5c3b890fdd38 master 
-fart           ${BLOCK_PATH}/fart           git@github.com:imma/fart           551b66a0a26ca1de6b0f0aacfa4c752649882be6 master 
+fart           ${BLOCK_PATH}/fart           git@github.com:imma/fart           832662fc49c91b9c9cd59e698cf121d6bac7382f master 
 runit          ${BLOCK_PATH}/runit          git@github.com:imma/runit          ea7942c5840be2424a6b8671cfe38b50179292ea master 
 service        ${BLOCK_PATH}/service        git@github.com:imma/service        ad1258db19c799667f1cfe368e936d87c2f720b4 master 
 inventory      ${BLOCK_PATH}/inventory      git@github.com:imma/inventory      7cd6d97a8d3e9b2046c0a61526d8b7b1c83ee19d master 
