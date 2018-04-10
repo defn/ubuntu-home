@@ -11,3 +11,6 @@ pipeline:
       - cd /home/ubuntu && sudo -H -u ubuntu cp .ssh/config.template .ssh/config
       - cd /home/ubuntu && sudo -H -u ubuntu ./docker/rebase/bootstrap
       - cd /home/ubuntu && sudo -H -u ubuntu ./exec/home block stale
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ${DATA}:/data
