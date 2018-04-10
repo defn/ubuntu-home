@@ -1,4 +1,7 @@
 pipeline:
+  clone:
+    image: ubuntu
+    commands: true
   rebase:
     image: imma/ubuntu:base
     commands:
