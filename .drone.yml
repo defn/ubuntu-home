@@ -6,9 +6,3 @@ pipeline:
       - cd /home/ubuntu && sudo -H -u ubuntu cp .ssh/config.template .ssh/config
       - cd /home/ubuntu && sudo -H -u ubuntu ./docker/rebase/bootstrap
       - cd /home/ubuntu && sudo -H -u ubuntu ./exec/home block stale
-  tag:
-    image: plugins/docker
-    dry-run: true
-    repo: imma/ubuntu
-    tags:
-      - latest
