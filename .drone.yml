@@ -8,6 +8,11 @@ pipeline:
     image: imma/ubuntu:base
     commands:
       - env | sort
+      - ls -ltrhd /dats/cache/*/* || true
+      - docker ps | wc -l || true
+    volumes:
+      - ${DATA}:/data
+      - /var/run/docker.sock:/var/run/docker.sock
   rebase:
     image: imma/ubuntu:base
     commands:
