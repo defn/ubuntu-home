@@ -39,6 +39,7 @@ function main {
     ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no git clean -ffd
     ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no git clean -ffd
     ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no git clean -ffd
+    ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no cp .gitconfig.template-https .gitconfig
     ssh "$remote" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no script/setup
   fi
 }
