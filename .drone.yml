@@ -16,5 +16,5 @@ pipeline:
       - cd /home/ubuntu && sudo -H -u ubuntu git fetch
       - cd /home/ubuntu && sudo -H -u ubuntu git checkout -f "${CI_COMMIT_BRANCH}"
       - cd /home/ubuntu && sudo -H -u ubuntu git reset --hard "${CI_COMMIT_SHA}"
-      - cd /home/ubuntu && sudo -H -u ubuntu ./docker/rebase/bootstrap
+      - cd /home/ubuntu && sudo -H -u ubuntu -E ./docker/rebase/bootstrap
       - cd /home/ubuntu && sudo -H -u ubuntu ./exec/home block stale
