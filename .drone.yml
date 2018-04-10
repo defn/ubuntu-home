@@ -7,10 +7,13 @@ pipeline:
   info:
     image: imma/ubuntu:base
     commands:
-      - docker info
+      - docker info || true
       - env | sort
       - df -klh
       - ls -ld /data/*
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ${DATA}:/data
   rebase:
     image: imma/ubuntu:base
     commands:
