@@ -8,7 +8,3 @@ services:
       - "22"
     volumes:
       - ${DATA}:/data
-
-volumes:
-  data:
-    external: true
