@@ -17,6 +17,11 @@ function main {
     git pull
   fi
 
+  if [[ "$#" == 0 ]]; then
+    "$0" 1
+    return $?
+  fi
+
 	mkdir -p .ssh
 	if ssh -o Include=meh 2>&1 | grep -q 'Bad'; then
 		cat .ssh/config.template
