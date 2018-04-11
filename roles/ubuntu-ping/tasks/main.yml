@@ -1,3 +1,0 @@
----
-- name: jq
-  command: echo "{{ lookup('pipe', "jqx 'reduce .require[] as $r ([]; . + $r) | .[]'") }}"

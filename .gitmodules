@@ -329,10 +329,6 @@
 	path = work/awless
 	url = https://github.com/imma/awless
 	branch = master
-[submodule "work/heroku"]
-	path = work/heroku
-	url = https://github.com/imma/heroku
-	branch = master
 [submodule "work/packet"]
 	path = work/packet
 	url = https://github.com/imma/packet

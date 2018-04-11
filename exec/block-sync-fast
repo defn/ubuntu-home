@@ -6,7 +6,7 @@ function main {
   source normalize
 
   git pull
-  git submodule update --init || true
+  git submodule update --init --recursive || true
 }
 
 source sub "$BASH_SOURCE" "$@"
