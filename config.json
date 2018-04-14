@@ -27,17 +27,49 @@
   ],
 
   "menu": {
-    "block": [
+    "install": [
       {
-        "identifier": "block",
+        "identifier": "install_a",
         "weight": 101
+      },
+      {
+        "identifier": "install_b",
+        "weight": 102
+      },
+      {
+        "identifier": "install_c",
+        "weight": 103
       }
     ],
-    "index": [
+    "usage": [
+      {
+        "identifier": "usage_a",
+        "weight": 101
+      },
+      {
+        "identifier": "usage_b",
+        "weight": 102
+      },
+      {
+        "identifier": "usage_c",
+        "weight": 103
+      }
+    ],
+     "index": [
       {
         "name": "home",
         "url": "/index.html",
         "weight": 10
+      },
+      {
+        "name": "dome",
+        "url": "/dome.html",
+        "weight": 11
+      },
+      {
+        "name": "foam",
+        "url": "/foam.html",
+        "weight": 12
       }
     ]
   }
