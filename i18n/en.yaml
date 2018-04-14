@@ -1,5 +1,5 @@
-- id: section_home
-  translation: Home
+- id: section_ubuntu
+  translation: Ubuntu
 - id: section_block
   translation: Block
 - id: section_runmany

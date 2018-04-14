@@ -27,10 +27,24 @@
   ],
 
   "menu": {
+    "ubuntu": [
+      {
+        "identifier": "ubuntu_overview",
+        "weight": 101
+      },
+      {
+        "identifier": "ubuntu_install",
+        "weight": 102
+      },
+      {
+        "identifier": "ubuntu_usage",
+        "weight": 103
+      }
+    ],
      "index": [
       {
-        "identifier": "section_home",
-        "url": "/index.html",
+        "identifier": "section_ubuntu",
+        "url": "/ubuntu/index.html",
         "weight": 10
       },
       {

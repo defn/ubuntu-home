@@ -66,6 +66,7 @@ reset:
 	make rebase all
 
 docs:
+	mkdir -p content
 	block compile docs
 	ln -nfs $(shell cd .public && ls -d ../work/*/.public/*/ | egrep -v '/(ubuntu|css|js)/') .public/
 
