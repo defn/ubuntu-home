@@ -19,7 +19,7 @@ nvm            ${BLOCK_PATH}/nvm            git@github.com:imma/nvm            e
 node           ${BLOCK_PATH}/node           git@github.com:imma/node           9abacb7b2f1fb38521fc0b3d8a77392323f15860 master 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            472bdf518d416de26ecc322296215577669b255c master 
 yarn           ${BLOCK_PATH}/yarn           git@github.com:imma/yarn           db0fa18f22c89b8ae491280c3d81afa646f9210c master 
-vue            ${BLOCK_PATH}/vue            git@github.com:imma/vue            0a35f4a67d312451d46c1f5ee8fa7e0baae3bef5 master 
+vue            ${BLOCK_PATH}/vue            git@github.com:imma/vue            2e4056bee802dadfbd53c09930b17a263a83b2a9 master 
 jq             ${BLOCK_PATH}/jq             git@github.com:imma/jq             683bf22ca03c98d53854d031f8647ae9f9c70dd7 master 
 java           ${BLOCK_PATH}/java           git@github.com:imma/java           9ca49f26e0f0098d28b13d9fea5982826810b9e1 master 
 bash4          ${BLOCK_PATH}/bash4          git@github.com:imma/bash4          c7d35f0bea3080089eef1f6c9ea0ff0e2b8fc97f master 
@@ -112,4 +112,4 @@ fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        6
 imma-tf        ${BLOCK_PATH}/imma-tf        git@github.com:imma/imma-tf        a5d4cfb2ed54af6eaa3a6924d773038d59f9dc9d master 
 hugo           ${BLOCK_PATH}/hugo           git@github.com:imma/hugo           4c3f5e1710e0b8f390f75044015daaf7e18ecc64 master 
 ascii          ${BLOCK_PATH}/ascii          git@github.com:imma/ascii          2540083d5e282506d8776b74dcd21c7c2aa7774d master 
-docs           ${BLOCK_PATH}/docs           git@github.com:imma/docs           94524fbca5f15d4b372aa3289bd767f67a61f374 master 
+docs           ${BLOCK_PATH}/docs           git@github.com:imma/docs           960223814844a04e258d4b4739d00781c8038eb3 master 
