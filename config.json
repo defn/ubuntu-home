@@ -27,34 +27,6 @@
   ],
 
   "menu": {
-    "block": [
-      {
-        "identifier": "block_overview",
-        "weight": 101
-      },
-      {
-        "identifier": "block_install",
-        "weight": 102
-      },
-      {
-        "identifier": "block_usage",
-        "weight": 103
-      }
-    ],
-    "runmany": [
-      {
-        "identifier": "runmany_overview",
-        "weight": 101
-      },
-      {
-        "identifier": "runmany_install",
-        "weight": 102
-      },
-      {
-        "identifier": "runmany_usage",
-        "weight": 103
-      }
-    ],
      "index": [
       {
         "identifier": "section_home",
