@@ -23,7 +23,7 @@ vue            ${BLOCK_PATH}/vue            git@github.com:imma/vue            0
 jq             ${BLOCK_PATH}/jq             git@github.com:imma/jq             683bf22ca03c98d53854d031f8647ae9f9c70dd7 master 
 java           ${BLOCK_PATH}/java           git@github.com:imma/java           9ca49f26e0f0098d28b13d9fea5982826810b9e1 master 
 bash4          ${BLOCK_PATH}/bash4          git@github.com:imma/bash4          c7d35f0bea3080089eef1f6c9ea0ff0e2b8fc97f master 
-pyenv          ${BLOCK_PATH}/pyenv          git@github.com:imma/pyenv          372251f18116e7f66f089b37235c4005d54f67fb master 
+pyenv          ${BLOCK_PATH}/pyenv          git@github.com:imma/pyenv          32d9691d8107f29a43e8dc7b69f1748810b07124 master 
 python         ${BLOCK_PATH}/python         git@github.com:imma/python         54ac6645b9916bf2c5dd28f763158c550412b7c3 master 
 py27           ${BLOCK_PATH}/py27           git@github.com:imma/py27           f0c7d7fb1518caf3eddafe0416b281f7f3d38b06 master 
 py36           ${BLOCK_PATH}/py36           git@github.com:imma/py36           fafcd65e2e5fcc69766f50d109bd173cd7fecb66 master 
