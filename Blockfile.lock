@@ -112,4 +112,4 @@ fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        6
 imma-tf        ${BLOCK_PATH}/imma-tf        git@github.com:imma/imma-tf        a5d4cfb2ed54af6eaa3a6924d773038d59f9dc9d master 
 hugo           ${BLOCK_PATH}/hugo           git@github.com:imma/hugo           4c3f5e1710e0b8f390f75044015daaf7e18ecc64 master 
 ascii          ${BLOCK_PATH}/ascii          git@github.com:imma/ascii          2540083d5e282506d8776b74dcd21c7c2aa7774d master 
-docs           ${BLOCK_PATH}/docs           git@github.com:imma/docs           c1e2a5053265c8e22edcb42cad77b4406128bab5 master 
+docs           ${BLOCK_PATH}/docs           git@github.com:imma/docs           94524fbca5f15d4b372aa3289bd767f67a61f374 master 

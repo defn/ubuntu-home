@@ -41,22 +41,6 @@
         "weight": 103
       }
     ],
-     "index": [
-      {
-        "identifier": "section_ubuntu",
-        "url": "/ubuntu",
-        "weight": 10
-      },
-      {
-        "identifier": "section_block",
-        "url": "/block",
-        "weight": 11
-      },
-      {
-        "identifier": "section_runmany",
-        "url": "/runmany",
-        "weight": 12
-      }
-    ]
+     "index": []
   }
 }
