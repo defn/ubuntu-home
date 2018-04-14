@@ -64,3 +64,8 @@ push:
 
 reset:
 	make rebase all
+
+docs:
+	block compile docs
+	ln -nfs $(shell cd .public && ls -d ../work/*/.public/*/ | egrep -v '/(ubuntu|css|js)/') .public/
+
