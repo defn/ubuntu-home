@@ -2,8 +2,8 @@ site           ${BLOCK_PATH}/site           git@github.com:imma/site           7
 shflags        ${BLOCK_PATH}/shflags        git@github.com:imma/shflags        a05166fedaf8481d2ff856591f4f50257d12521b master 
 normalize      ${BLOCK_PATH}/normalize      git@github.com:imma/normalize      ca938498f15fe070268e89b5ec405bdef58308b4 master 
 sub            ${BLOCK_PATH}/sub            git@github.com:imma/sub            5ceb1d704e56e6833bf7ea93ad01af1a060c8771 master 
-runmany        ${BLOCK_PATH}/runmany        git@github.com:imma/runmany        accaecc59f399d48a4c41bd45660d692223724ef master 
-block          ${BLOCK_PATH}/block          git@github.com:imma/block          04257b5b86de39e5e6a83686b95fae60d3c977e5 master 
+runmany        ${BLOCK_PATH}/runmany        git@github.com:imma/runmany        c7485cddd5ddbd82b0398a0e3a971896b967fd6f master 
+block          ${BLOCK_PATH}/block          git@github.com:imma/block          a5e876ef81575bcfc074100300b088cbdd084a96 master 
 ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  39cdb6411dc3f647ad35f1e5ce4823f1507df2dc master 
 pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         0b0bd8e822daf0d359aa2cef53e380c4e8962c98 master 
 homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 

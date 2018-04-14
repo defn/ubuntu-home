@@ -11,7 +11,7 @@
 	<label class="app-drawer" for="app-drawer"></label>
 	<div>
 		<nav>
-		{{ partial "menu_usage.html" . }}
+		{{ partial "menu_runmany.html" . }}
 		</nav>
 		{{ range .Site.Menus.index }}
 		<a href='{{ relLangURL .URL }}' class="section">
@@ -31,8 +31,6 @@
 	<article>
 		{{ .Content }}
 
-		{{ partial "next_steps.html" . }}
-		{{ partial "questions.html" . }}
 		{{ partial "page_meta.html" . }}
 	</article>
 	{{ partial "next_prev.html" . }}

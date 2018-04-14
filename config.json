@@ -27,48 +27,48 @@
   ],
 
   "menu": {
-    "install": [
+    "block": [
       {
-        "identifier": "install_a",
+        "identifier": "block_overview",
         "weight": 101
       },
       {
-        "identifier": "install_b",
+        "identifier": "block_install",
         "weight": 102
       },
       {
-        "identifier": "install_c",
+        "identifier": "block_usage",
         "weight": 103
       }
     ],
-    "usage": [
+    "runmany": [
       {
-        "identifier": "usage_a",
+        "identifier": "runmany_overview",
         "weight": 101
       },
       {
-        "identifier": "usage_b",
+        "identifier": "runmany_install",
         "weight": 102
       },
       {
-        "identifier": "usage_c",
+        "identifier": "runmany_usage",
         "weight": 103
       }
     ],
      "index": [
       {
-        "name": "home",
+        "identifier": "section_home",
         "url": "/index.html",
         "weight": 10
       },
       {
-        "name": "dome",
-        "url": "/dome.html",
+        "identifier": "section_block",
+        "url": "/block/index.html",
         "weight": 11
       },
       {
-        "name": "foam",
-        "url": "/foam.html",
+        "identifier": "section_runmany",
+        "url": "/runmany/index.html",
         "weight": 12
       }
     ]
