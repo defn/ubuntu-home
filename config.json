@@ -44,17 +44,17 @@
      "index": [
       {
         "identifier": "section_ubuntu",
-        "url": "/ubuntu/index.html",
+        "url": "/ubuntu",
         "weight": 10
       },
       {
         "identifier": "section_block",
-        "url": "/block/index.html",
+        "url": "/block",
         "weight": 11
       },
       {
         "identifier": "section_runmany",
-        "url": "/runmany/index.html",
+        "url": "/runmany",
         "weight": 12
       }
     ]

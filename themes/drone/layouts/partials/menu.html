@@ -16,7 +16,7 @@
     </li>
   {{- else -}}
     <li>
-      <a href="{{ .URL }}" class="{{ if $is }}active{{ end }}" data-title="{{ .Name }}">
+      <a href="{{ .URL }}index.html" class="{{ if $is }}active{{ end }}" data-title="{{ .Name }}">
         {{ default .Name (i18n .Identifier) }}
       </a>
     </li>
