@@ -69,3 +69,4 @@ docs:
 	mkdir -p content
 	runmany 'cd $$1 && block compile docs' . work/{block,runmany}
 	ln -nfs $(shell cd .public && ls -d ../work/*/.public/*/ | egrep -v '/(ubuntu|css|js)/') .public/
+	block compile index
