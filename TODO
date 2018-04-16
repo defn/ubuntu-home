@@ -10,3 +10,4 @@ brew update-reset; brew update
   176  sudo ip addr add 169.254.1.1/32 dev dummy0
   177  sudo ip link set dev dummy0 up
   178  ip addr show dev dummy0
+
