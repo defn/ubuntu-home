@@ -458,3 +458,6 @@
 [submodule "work/drone"]
 	path = work/drone
 	url = https://github.com/imma/drone
+[submodule "work/drone-theme"]
+	path = work/drone-theme
+	url = https://github.com/imma/drone-theme

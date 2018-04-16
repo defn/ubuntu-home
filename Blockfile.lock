@@ -111,5 +111,6 @@ fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           4
 fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        697ed1db21753585f0f7141c5855d9e222bcd945 master 
 imma-tf        ${BLOCK_PATH}/imma-tf        git@github.com:imma/imma-tf        a5d4cfb2ed54af6eaa3a6924d773038d59f9dc9d master 
 hugo           ${BLOCK_PATH}/hugo           git@github.com:imma/hugo           4c3f5e1710e0b8f390f75044015daaf7e18ecc64 master 
+drone-theme    ${BLOCK_PATH}/drone-theme    git@github.com:imma/drone-theme    f985166cd9124a16d363606a80d3cf2c76aced0f master 
 ascii          ${BLOCK_PATH}/ascii          git@github.com:imma/ascii          2540083d5e282506d8776b74dcd21c7c2aa7774d master 
-docs           ${BLOCK_PATH}/docs           git@github.com:imma/docs           960223814844a04e258d4b4739d00781c8038eb3 master 
+docs           ${BLOCK_PATH}/docs           git@github.com:imma/docs           86f5029597cc11b6c7cf09f69d84f18664eff777 master 
