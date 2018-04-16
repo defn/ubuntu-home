@@ -1861,6 +1861,14 @@ fs-extra@^4.0.2:
     jsonfile "^4.0.0"
     universalify "^0.1.0"
 
+fs-extra@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-5.0.0.tgz#414d0110cdd06705734d055652c5411260c31abd"
+  dependencies:
+    graceful-fs "^4.1.2"
+    jsonfile "^4.0.0"
+    universalify "^0.1.0"
+
 fs-write-stream-atomic@^1.0.8:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/fs-write-stream-atomic/-/fs-write-stream-atomic-1.0.10.tgz#b47df53493ef911df75731e70a9ded0189db40c9"
@@ -5331,9 +5339,9 @@ vue@^2.5.16:
   version "2.5.16"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.16.tgz#07edb75e8412aaeed871ebafa99f4672584a0085"
 
-vuepress@^0.3.1:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-0.3.3.tgz#f7c4923d7f7b70d291ca71d04517e39d2fcac518"
+vuepress@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-0.4.0.tgz#cc85c14b91a4fb33791ff41f6a07920a8455960f"
   dependencies:
     autoprefixer "^8.2.0"
     buble "^0.19.3"
@@ -5348,6 +5356,7 @@ vuepress@^0.3.1:
     es6-promise "^4.2.4"
     escape-html "^1.0.3"
     file-loader "^1.1.11"
+    fs-extra "^5.0.0"
     globby "^8.0.1"
     html-webpack-plugin "^3.2.0"
     koa-connect "^2.0.1"
@@ -5361,7 +5370,6 @@ vuepress@^0.3.1:
     markdown-it-emoji "^1.4.0"
     markdown-it-table-of-contents "^0.3.3"
     mini-css-extract-plugin "^0.4.0"
-    mkdirp "^0.5.1"
     nprogress "^0.2.0"
     object-assign "^4.1.1"
     optimize-css-assets-webpack-plugin "^4.0.0"
@@ -5369,7 +5377,6 @@ vuepress@^0.3.1:
     postcss-loader "^2.1.3"
     prismjs "^1.13.0"
     register-service-worker "^1.2.0"
-    rimraf "^2.6.2"
     semver "^5.5.0"
     stylus "^0.54.5"
     stylus-loader "^3.0.2"
