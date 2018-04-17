@@ -31,7 +31,7 @@ go             ${BLOCK_PATH}/go             git@github.com:imma/go             1
 tfenv          ${BLOCK_PATH}/tfenv          git@github.com:imma/tfenv          2ae01416cb3f65d87a5edf18d138a9a6a744ccef master 
 vg             ${BLOCK_PATH}/vg             git@github.com:imma/vg             74fb7fc005981571253a72cb619a9bcb3413ca14 master 
 vmm            ${BLOCK_PATH}/vmm            git@github.com:imma/vmm            e652f7b873582c0002415325e281818945709d47 master 
-node-exe       ${BLOCK_PATH}/node-exe       git@github.com:imma/node-exe       98c865ee917fb6fdbc760f23a3e3b5173c445d31 master 
+node-exe       ${BLOCK_PATH}/node-exe       git@github.com:imma/node-exe       91951c45f6e1f2338803483762c105a986cfe6a1 master 
 lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           ba43f6c8b67e2e927a47c9323c64b7cb0dd5dc74 master 
 tmux           ${BLOCK_PATH}/tmux           git@github.com:imma/tmux           b87617a4a864923466c9864efa88aff18f269fea master 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          7f15684c17c7693d5671f91a718c08db17d0ce2d master 
