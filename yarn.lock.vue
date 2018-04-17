@@ -2215,18 +2215,6 @@ html-minifier@^3.2.3:
     relateurl "0.2.x"
     uglify-js "3.3.x"
 
-html-webpack-plugin@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/html-webpack-plugin/-/html-webpack-plugin-3.2.0.tgz#b01abbd723acaaa7b37b6af4492ebda03d9dd37b"
-  dependencies:
-    html-minifier "^3.2.3"
-    loader-utils "^0.2.16"
-    lodash "^4.17.3"
-    pretty-error "^2.0.2"
-    tapable "^1.0.0"
-    toposort "^1.0.0"
-    util.promisify "1.0.0"
-
 htmlparser2@~3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-3.3.0.tgz#cc70d05a59f6542e43f0e685c982e14c924a9efe"
@@ -4461,7 +4449,7 @@ sax@~1.2.1:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
-schema-utils@^0.4.0, schema-utils@^0.4.2, schema-utils@^0.4.3, schema-utils@^0.4.5:
+schema-utils@^0.4.0, schema-utils@^0.4.3, schema-utils@^0.4.4, schema-utils@^0.4.5:
   version "0.4.5"
   resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-0.4.5.tgz#21836f0608aac17b78f9e3e24daff14a5ca13a3e"
   dependencies:
@@ -5339,9 +5327,21 @@ vue@^2.5.16:
   version "2.5.16"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.16.tgz#07edb75e8412aaeed871ebafa99f4672584a0085"
 
-vuepress@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-0.4.0.tgz#cc85c14b91a4fb33791ff41f6a07920a8455960f"
+vuepress-html-webpack-plugin@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/vuepress-html-webpack-plugin/-/vuepress-html-webpack-plugin-3.2.0.tgz#219be272ad510faa8750d2d4e70fd028bfd1c16e"
+  dependencies:
+    html-minifier "^3.2.3"
+    loader-utils "^0.2.16"
+    lodash "^4.17.3"
+    pretty-error "^2.0.2"
+    tapable "^1.0.0"
+    toposort "^1.0.0"
+    util.promisify "1.0.0"
+
+vuepress@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-0.5.1.tgz#fe0f2c99dc632e8523e3cb399c1ee0cdd6969ef7"
   dependencies:
     autoprefixer "^8.2.0"
     buble "^0.19.3"
@@ -5358,7 +5358,6 @@ vuepress@^0.4.0:
     file-loader "^1.1.11"
     fs-extra "^5.0.0"
     globby "^8.0.1"
-    html-webpack-plugin "^3.2.0"
     koa-connect "^2.0.1"
     koa-mount "^3.0.0"
     koa-static "^4.0.2"
@@ -5386,8 +5385,9 @@ vuepress@^0.4.0:
     vue-router "^3.0.1"
     vue-server-renderer "^2.5.16"
     vue-template-compiler "^2.5.16"
-    webpack "^4.4.1"
-    webpack-chain "^4.5.0"
+    vuepress-html-webpack-plugin "^3.2.0"
+    webpack "^4.5.0"
+    webpack-chain "^4.6.0"
     webpack-merge "^4.1.2"
     webpack-serve "^0.3.1"
     webpackbar "^2.6.1"
@@ -5402,9 +5402,9 @@ watchpack@^1.5.0:
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
 
-webpack-chain@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/webpack-chain/-/webpack-chain-4.5.0.tgz#390835bca2950f0f62fe3182ab90839ea8f6239d"
+webpack-chain@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/webpack-chain/-/webpack-chain-4.6.0.tgz#3ff51bd6241ed78a62691b8da7b9dec3fcc346a0"
   dependencies:
     deepmerge "^1.5.2"
 
@@ -5480,9 +5480,9 @@ webpack-sources@^1.0.1, webpack-sources@^1.1.0:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
-webpack@^4.4.1:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.5.0.tgz#1e6f71e148ead02be265ff2879c9cd6bb30b8848"
+webpack@^4.5.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.6.0.tgz#363eafa733710eb0ed28c512b2b9b9f5fb01e69b"
   dependencies:
     acorn "^5.0.0"
     acorn-dynamic-import "^3.0.0"
@@ -5498,7 +5498,7 @@ webpack@^4.4.1:
     mkdirp "~0.5.0"
     neo-async "^2.5.0"
     node-libs-browser "^2.0.0"
-    schema-utils "^0.4.2"
+    schema-utils "^0.4.4"
     tapable "^1.0.0"
     uglifyjs-webpack-plugin "^1.2.4"
     watchpack "^1.5.0"
