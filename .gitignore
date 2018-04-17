@@ -198,3 +198,4 @@ tmux-client*log
 /.asciinema
 .vuerc
 /.nexe
+/.pkg-cache

@@ -461,3 +461,6 @@
 [submodule "work/drone-theme"]
 	path = work/drone-theme
 	url = https://github.com/imma/drone-theme
+[submodule "work/node-exe"]
+	path = work/node-exe
+	url = https://github.com/imma/node-exe
