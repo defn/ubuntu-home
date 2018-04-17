@@ -197,3 +197,4 @@ tmux-client*log
 /.acme.sh
 /.asciinema
 .vuerc
+/.nexe
