@@ -1,0 +1,30 @@
+version: '2'
+
+services:
+  dnsmasq:
+    image: imma/ubuntu:dnsmasq
+    restart: always
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+    command: -d --no-resolv --log-facility=- -S 192.168.201.2#5353 -S /immanent.io/172.19.204.2
+    networks:
+      default:
+        ipv4_address: 192.168.201.3
+  dnsproxy:
+    image: imma/ubuntu:cloudflared
+    restart: always
+    networks:
+      default:
+        ipv4_address: 192.168.201.2
+
+networks:
+  default:
+    driver: bridge
+    driver_opts:
+      com.docker.network.enable_ipv6: "false"
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.201.0/24
+          gateway: 192.168.201.1
