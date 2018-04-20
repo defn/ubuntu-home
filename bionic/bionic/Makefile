@@ -4,7 +4,7 @@ build:
 	docker build -t imma/ubuntu:$(PROGRAM) .
 
 test:
-	@docker run --network host --privileged imma/ubuntu:$(PROGRAM) $(PROGRAM) -d --log-facility=-
+	@docker run imma/ubuntu:$(PROGRAM) uname -a
 
 push:
 	docker push imma/ubuntu:$(PROGRAM)
