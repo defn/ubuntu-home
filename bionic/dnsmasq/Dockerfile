@@ -10,4 +10,4 @@ EXPOSE 53
 
 COPY docker-entrypoint.sh /dnsmasq-entrypoint.sh
 ENTRYPOINT ["/dnsmasq-entrypoint.sh"]
-CMD ["dnsmasq"]
+CMD ["dnsmasq", "-d", "--no-resolv", "--log-facility=-"]
