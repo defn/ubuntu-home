@@ -1,5 +1,5 @@
 [user]
-  name = Defn Nghiem
+  name = Amanibhavam
   email = iam@defn.sh
 [push]
   default = simple
@@ -13,3 +13,5 @@
 [credential]
 	helper = !aws codecommit credential-helper $@
 	UseHttpPath = true
+[credential "https://github.com"]
+  helper = osxkeychain

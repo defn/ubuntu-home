@@ -13,3 +13,5 @@
 [credential]
 	helper = !aws codecommit credential-helper $@
 	UseHttpPath = true
+[credential "https://github.com"]
+  helper = osxkeychain
