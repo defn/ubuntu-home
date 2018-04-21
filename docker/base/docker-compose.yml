@@ -4,6 +4,8 @@ services:
   base:
     image: imma/ubuntu:base1
     privileged: true
+    env_file:
+      - .env
     ports:
       - "22"
     volumes:
