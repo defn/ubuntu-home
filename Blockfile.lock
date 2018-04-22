@@ -61,7 +61,7 @@ fabio          ${BLOCK_PATH}/fabio          git@github.com:imma/fabio          5
 openresty      ${BLOCK_PATH}/openresty      git@github.com:imma/openresty      95e2d5eac4852988c43cb000e4e4a2e5c2827b8b master 
 cloudflare     ${BLOCK_PATH}/cloudflare     git@github.com:imma/cloudflare     73d6b03a839bacbdc7af1f06105f0c44f6c1f4ff master 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master 
-docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         ac9e73ec004c4b92e2e813b4420ba9d284e131fc master 
+docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         041494bf662c572a29c7c740dd6edbd8775bfdd5 master 
 nomad          ${BLOCK_PATH}/nomad          git@github.com:imma/nomad          1dda3c0ca577e43c1e6b1e6d0bdfbfcd1dc9c6f3 master 
 ecr            ${BLOCK_PATH}/ecr            git@github.com:imma/ecr            25f20f65668a1f7f48f0879ca635509a5999e2c6 master 
 lambda         ${BLOCK_PATH}/lambda         git@github.com:imma/lambda         837baa527d9ba5386e3c01d61151a8d190d286ea master 
