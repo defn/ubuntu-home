@@ -24,6 +24,7 @@ function main {
   rm -rf "$WRKOBJDIR"
   rm -rf "$PKGSRCDIR"
   sudo apt-get clean
+  yarn cache clean
 } 
 
 main "$@"

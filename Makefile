@@ -53,6 +53,10 @@ dummy:
 	[[ "$(shell uname -s)" == "Darwin" ]] && sudo ifconfig lo0 alias 169.254.1.1 255.255.255.255 2>/dev/null || true
 
 base: dummy
+	runmany 'docker rmi imma/ubuntu:$$1 || true' base latest rebase1 base1
+	docker system prune -f || true
+	docker system prune -f || true
+	docker system prune -f || true
 	cd docker/base && $(MAKE)
 
 rebase: dummy
