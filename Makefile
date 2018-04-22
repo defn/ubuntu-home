@@ -3,6 +3,9 @@ SHELL = bash
 test:
 	drone exec
 
+shell:
+	docker run -ti --rm -u ubuntu -w /home/ubuntu -v $(DATA):/data -v /var/run/docker.sock:/var/run/docker.sock imma/ubuntu:latest bash
+
 init:
 	$(MAKE) up
 	$(MAKE) tx-init
@@ -24,9 +27,6 @@ tx:
 
 ssh:
 	ssh -A $(shell docker-compose ps -q shell).docker
-
-irssi:
-	docker run -ti --rm -u ubuntu -w /home/ubuntu imma/devshell exec/home irssi $(irssi)
 
 down:
 	docker-compose down
@@ -62,8 +62,9 @@ push:
 	docker push imma/ubuntu:base
 	docker push imma/ubuntu:latest
 
-reset:
-	make rebase all
+pull:
+	docker pull imma/ubuntu:base
+	docker pull imma/ubuntu:latest
 
 docs:
 	mkdir -p content
