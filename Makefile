@@ -1,4 +1,5 @@
 SHELL = bash
+TIMESTAMP = $(shell date +%s)
 
 test:
 	drone exec
@@ -64,7 +65,7 @@ base: dummy
 	cd docker/base && $(MAKE)
 
 rebase: dummy
-	cd docker/rebase && $(MAKE)
+	cd docker/rebase && env COMPOSE_PROJECT_NAME=$(TIMESTAMP) $(MAKE)
 
 push:
 	docker push imma/ubuntu:base
