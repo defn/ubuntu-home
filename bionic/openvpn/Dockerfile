@@ -1,9 +1,4 @@
-FROM imma/ubuntu:bionic
-
-RUN set -x \
-  && apt-get install -y openvpn
-
-EXPOSE 1194
+FROM kylemanna/openvpn
 
 COPY docker-entrypoint.sh /openvpn-entrypoint.sh
 ENTRYPOINT ["/openvpn-entrypoint.sh"]
