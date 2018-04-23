@@ -57,6 +57,7 @@ base: dummy
 	docker system prune -f || true
 	docker system prune -f || true
 	docker system prune -f || true
+	rm -f $(DATA)/cache/git/$(PKGSRC_BRANCH).tar.gz
 	cd docker/base && $(MAKE)
 
 rebase: dummy
