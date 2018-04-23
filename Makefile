@@ -4,7 +4,7 @@ test:
 	drone exec
 
 shell:
-	docker run -ti --rm -u ubuntu -w /home/ubuntu -v $(DATA):/data -v /var/run/docker.sock:/var/run/docker.sock imma/ubuntu:latest bash
+	@docker run -ti --rm -u ubuntu -w /home/ubuntu -v $(DATA):/data -v /var/run/docker.sock:/var/run/docker.sock imma/ubuntu:latest bash || true
 
 init:
 	$(MAKE) up
