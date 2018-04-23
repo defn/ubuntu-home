@@ -27,6 +27,7 @@ function main {
 
   script/bootstrap
   make cache
+  source .bash_profile
 
   for a in {1..5}; do git clean -ffd || true; done
   sudo rm -f ~root/.ssh/authorized_keys
