@@ -33,7 +33,7 @@ vg             ${BLOCK_PATH}/vg             git@github.com:imma/vg             7
 vmm            ${BLOCK_PATH}/vmm            git@github.com:imma/vmm            e652f7b873582c0002415325e281818945709d47 master 
 node-exe       ${BLOCK_PATH}/node-exe       git@github.com:imma/node-exe       0c1fa3c265b97da80f610a3aa544fbba353067d3 master 
 lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           ba43f6c8b67e2e927a47c9323c64b7cb0dd5dc74 master 
-tmux           ${BLOCK_PATH}/tmux           git@github.com:imma/tmux           b87617a4a864923466c9864efa88aff18f269fea master 
+tmux           ${BLOCK_PATH}/tmux           git@github.com:imma/tmux           2aa391eb8b77797ab6c19d9c550ecaaa59c6c83a master 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          7f15684c17c7693d5671f91a718c08db17d0ce2d master 
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            a14d678a98cf33eb56a710b1d3dbc07e76c2c24b master 
 context        ${BLOCK_PATH}/context        git@github.com:imma/context        edaced91a1fe73abd74c370dcc53a72c95bfabbc master 
@@ -109,8 +109,8 @@ terraform      ${BLOCK_PATH}/terraform      git@github.com:imma/terraform      6
 wtf            ${BLOCK_PATH}/wtf            git@github.com:imma/wtf            9104173ff3c27805814fcebdcb8f8971ba1ced86 master 
 fogg-cli       ${BLOCK_PATH}/fogg-cli       git@github.com:imma/fogg-cli       d18aeffcf5515e597f876f27282a4fc7dfaedbc9 master 
 fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           4050a262754f139de4768cc90ccfa4275b45084e master 
-fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        ecc08d4179e38b53a7fc87745cc4127d03704ac7 master 
-imma-tf        ${BLOCK_PATH}/imma-tf        git@github.com:imma/imma-tf        a5d4cfb2ed54af6eaa3a6924d773038d59f9dc9d master 
+fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        09389d42082ee333063a90f7e8076d116de9c355 master 
+imma-tf        ${BLOCK_PATH}/imma-tf        git@github.com:imma/imma-tf        92cc6ba9e17163e915bc677e2902fb7c543aa67b master 
 hugo           ${BLOCK_PATH}/hugo           git@github.com:imma/hugo           4c3f5e1710e0b8f390f75044015daaf7e18ecc64 master 
 drone-theme    ${BLOCK_PATH}/drone-theme    git@github.com:imma/drone-theme    4192c7a8f3193d05cf7a7bfe4818692ea657c5fe master 
 ascii          ${BLOCK_PATH}/ascii          git@github.com:imma/ascii          2540083d5e282506d8776b74dcd21c7c2aa7774d master 
