@@ -3,9 +3,6 @@
   "theme": "drone",
   "copyright": "Copyright © 2018 Immanent",
 
-  "disableRSS": true,
-  "disable404": true,
-
   "defaultContentLanguage": "en",
   "defaultContentLanguageInSubdir": false,
   "enableMissingTranslationPlaceholders": false,
@@ -17,6 +14,7 @@
   "dataDir": ".private/data",
   "publishDir": ".public",
 
+  "disableHugoGeneratorInject": true,
   "disableKinds": [
     "taxonomy",
     "taxonomyTerm",

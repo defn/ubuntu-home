@@ -2,8 +2,8 @@ site           ${BLOCK_PATH}/site           git@github.com:imma/site           7
 shflags        ${BLOCK_PATH}/shflags        git@github.com:imma/shflags        a05166fedaf8481d2ff856591f4f50257d12521b master 
 normalize      ${BLOCK_PATH}/normalize      git@github.com:imma/normalize      ca938498f15fe070268e89b5ec405bdef58308b4 master 
 sub            ${BLOCK_PATH}/sub            git@github.com:imma/sub            5ceb1d704e56e6833bf7ea93ad01af1a060c8771 master 
-runmany        ${BLOCK_PATH}/runmany        git@github.com:imma/runmany        5591c5d1c72ca5f9ae0403172f78a92ae41e5cb4 master 
-block          ${BLOCK_PATH}/block          git@github.com:imma/block          7a13eff2700e5a5a14b91582cd375bd9220bdc0f master 
+runmany        ${BLOCK_PATH}/runmany        git@github.com:imma/runmany        6104282f603b122ff359516b44926c1eb69864f1 master 
+block          ${BLOCK_PATH}/block          git@github.com:imma/block          8d3f8593fc0853f8184d86577d9af469bed91c40 master 
 ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  e68120a1fe79d0fd010137913903936dd873b101 master 
 pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         759249e4e415c56747503ddd013626dc24d55318 master 
 homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
@@ -114,4 +114,4 @@ imma-tf        ${BLOCK_PATH}/imma-tf        git@github.com:imma/imma-tf        9
 hugo           ${BLOCK_PATH}/hugo           git@github.com:imma/hugo           4c3f5e1710e0b8f390f75044015daaf7e18ecc64 master 
 drone-theme    ${BLOCK_PATH}/drone-theme    git@github.com:imma/drone-theme    4192c7a8f3193d05cf7a7bfe4818692ea657c5fe master 
 ascii          ${BLOCK_PATH}/ascii          git@github.com:imma/ascii          2540083d5e282506d8776b74dcd21c7c2aa7774d master 
-docs           ${BLOCK_PATH}/docs           git@github.com:imma/docs           86f5029597cc11b6c7cf09f69d84f18664eff777 master 
+docs           ${BLOCK_PATH}/docs           git@github.com:imma/docs           bc3588bfecdfc6c7fd558093184700faf2f92fc8 master 
