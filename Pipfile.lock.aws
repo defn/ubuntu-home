@@ -29,16 +29,16 @@
     },
     "awscli": {
       "index": "pypi",
-      "version": "==1.15.7"
+      "version": "==1.15.9"
     },
     "boto3": {
-      "version": "==1.7.7"
+      "version": "==1.7.9"
     },
     "botocore": {
-      "version": "==1.10.7"
+      "version": "==1.10.9"
     },
     "cffi": {
-      "markers": "platform_python_implementation != 'PyPy'",
+      "markers": "platform_python_implementation != 'pypy'",
       "version": "==1.11.5"
     },
     "colorama": {
