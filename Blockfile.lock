@@ -33,7 +33,7 @@ vg             ${BLOCK_PATH}/vg             git@github.com:imma/vg             7
 vmm            ${BLOCK_PATH}/vmm            git@github.com:imma/vmm            e652f7b873582c0002415325e281818945709d47 master 
 node-exe       ${BLOCK_PATH}/node-exe       git@github.com:imma/node-exe       0c1fa3c265b97da80f610a3aa544fbba353067d3 master 
 lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           ba43f6c8b67e2e927a47c9323c64b7cb0dd5dc74 master 
-tmux           ${BLOCK_PATH}/tmux           git@github.com:imma/tmux           2aa391eb8b77797ab6c19d9c550ecaaa59c6c83a master 
+tmux           ${BLOCK_PATH}/tmux           git@github.com:imma/tmux           ee3b27075e072f09b2feb20a626af13565514f9e master 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          7f15684c17c7693d5671f91a718c08db17d0ce2d master 
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            a14d678a98cf33eb56a710b1d3dbc07e76c2c24b master 
 context        ${BLOCK_PATH}/context        git@github.com:imma/context        edaced91a1fe73abd74c370dcc53a72c95bfabbc master 
