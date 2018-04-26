@@ -1,9 +1,9 @@
 site           ${BLOCK_PATH}/site           git@github.com:imma/site           7cfbe2e853b8ef50cb78beb172aaf6b0862ba9b5 master 
 shflags        ${BLOCK_PATH}/shflags        git@github.com:imma/shflags        a05166fedaf8481d2ff856591f4f50257d12521b master 
 normalize      ${BLOCK_PATH}/normalize      git@github.com:imma/normalize      ca938498f15fe070268e89b5ec405bdef58308b4 master 
-sub            ${BLOCK_PATH}/sub            git@github.com:imma/sub            5ceb1d704e56e6833bf7ea93ad01af1a060c8771 master 
+sub            ${BLOCK_PATH}/sub            git@github.com:imma/sub            d9f4c26a32e90137fab05f2c5b00c0821715f9ae master 
 runmany        ${BLOCK_PATH}/runmany        git@github.com:imma/runmany        6104282f603b122ff359516b44926c1eb69864f1 master 
-block          ${BLOCK_PATH}/block          git@github.com:imma/block          8d3f8593fc0853f8184d86577d9af469bed91c40 master 
+block          ${BLOCK_PATH}/block          git@github.com:imma/block          52e91c5c0b174e5678bbdfa1c828a44e8afde399 master 
 ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  e68120a1fe79d0fd010137913903936dd873b101 master 
 pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         759249e4e415c56747503ddd013626dc24d55318 master 
 homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
@@ -34,8 +34,8 @@ vmm            ${BLOCK_PATH}/vmm            git@github.com:imma/vmm            e
 node-exe       ${BLOCK_PATH}/node-exe       git@github.com:imma/node-exe       0c1fa3c265b97da80f610a3aa544fbba353067d3 master 
 lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           ba43f6c8b67e2e927a47c9323c64b7cb0dd5dc74 master 
 tmux           ${BLOCK_PATH}/tmux           git@github.com:imma/tmux           ee3b27075e072f09b2feb20a626af13565514f9e master 
-junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          7f15684c17c7693d5671f91a718c08db17d0ce2d master 
-cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            a14d678a98cf33eb56a710b1d3dbc07e76c2c24b master 
+junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          198dbe97a3631665874f17dc29d6b7a71d34b5fb master 
+cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            9e6abd7f68b7b9ea03ed4caf80b2b43406c62ca0 master 
 context        ${BLOCK_PATH}/context        git@github.com:imma/context        edaced91a1fe73abd74c370dcc53a72c95bfabbc master 
 parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         71ba46f4bfe28602fc50e399733761429b16b409 master 
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 586736435ed7d6c1e66a25ed32101681830d00c9 master 
