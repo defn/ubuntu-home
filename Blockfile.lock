@@ -43,7 +43,7 @@ runtime        ${BLOCK_PATH}/runtime        git@github.com:imma/runtime        d
 codecommit     ${BLOCK_PATH}/codecommit     git@github.com:imma/codecommit     103788d5db3a95d559447d7e92dfb9f3f02268dd master 
 github         ${BLOCK_PATH}/github         git@github.com:imma/github         3b1721042565793566be8193c0ada1a8ed16afdf master 
 inspec         ${BLOCK_PATH}/inspec         git@github.com:imma/inspec         65e243d1dc7e51590dd7b36524ecdfae44e5a362 master 
-drone          ${BLOCK_PATH}/drone          git@github.com:imma/drone          2adc11d43cee7b1d4a02379610b9e24da79f5d57 master 
+drone          ${BLOCK_PATH}/drone          git@github.com:imma/drone          bc6650e73605a1b791ce5f8270052f41e67bcbca master 
 fart           ${BLOCK_PATH}/fart           git@github.com:imma/fart           5397cf52b3f473b2f9b35eca50818c5b822e0d1c master 
 runit          ${BLOCK_PATH}/runit          git@github.com:imma/runit          ea7942c5840be2424a6b8671cfe38b50179292ea master 
 service        ${BLOCK_PATH}/service        git@github.com:imma/service        ad1258db19c799667f1cfe368e936d87c2f720b4 master 
