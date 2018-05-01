@@ -19,7 +19,7 @@ nvm            ${BLOCK_PATH}/nvm            git@github.com:imma/nvm            e
 node           ${BLOCK_PATH}/node           git@github.com:imma/node           9abacb7b2f1fb38521fc0b3d8a77392323f15860 master 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            472bdf518d416de26ecc322296215577669b255c master 
 yarn           ${BLOCK_PATH}/yarn           git@github.com:imma/yarn           d1b8fc3a579874cc14f69c6274d56d3f1a42f234 master 
-vue            ${BLOCK_PATH}/vue            git@github.com:imma/vue            6546b9d0724d3cee5767d408c6767805d31fbdee master 
+vue            ${BLOCK_PATH}/vue            git@github.com:imma/vue            22bf01fc6fab0b7c883aafa4589bcb06f5db1621 master 
 jq             ${BLOCK_PATH}/jq             git@github.com:imma/jq             683bf22ca03c98d53854d031f8647ae9f9c70dd7 master 
 java           ${BLOCK_PATH}/java           git@github.com:imma/java           f41f27696e337e1d9d52275e8485123d7e653945 master 
 bash4          ${BLOCK_PATH}/bash4          git@github.com:imma/bash4          c7d35f0bea3080089eef1f6c9ea0ff0e2b8fc97f master 
@@ -43,7 +43,7 @@ runtime        ${BLOCK_PATH}/runtime        git@github.com:imma/runtime        d
 codecommit     ${BLOCK_PATH}/codecommit     git@github.com:imma/codecommit     103788d5db3a95d559447d7e92dfb9f3f02268dd master 
 github         ${BLOCK_PATH}/github         git@github.com:imma/github         3b1721042565793566be8193c0ada1a8ed16afdf master 
 inspec         ${BLOCK_PATH}/inspec         git@github.com:imma/inspec         65e243d1dc7e51590dd7b36524ecdfae44e5a362 master 
-drone          ${BLOCK_PATH}/drone          git@github.com:imma/drone          2adc11d43cee7b1d4a02379610b9e24da79f5d57 master 
+drone          ${BLOCK_PATH}/drone          git@github.com:imma/drone          bc6650e73605a1b791ce5f8270052f41e67bcbca master 
 fart           ${BLOCK_PATH}/fart           git@github.com:imma/fart           5397cf52b3f473b2f9b35eca50818c5b822e0d1c master 
 runit          ${BLOCK_PATH}/runit          git@github.com:imma/runit          ea7942c5840be2424a6b8671cfe38b50179292ea master 
 service        ${BLOCK_PATH}/service        git@github.com:imma/service        ad1258db19c799667f1cfe368e936d87c2f720b4 master 
@@ -110,7 +110,7 @@ terraform      ${BLOCK_PATH}/terraform      git@github.com:imma/terraform      6
 wtf            ${BLOCK_PATH}/wtf            git@github.com:imma/wtf            9104173ff3c27805814fcebdcb8f8971ba1ced86 master 
 fogg-cli       ${BLOCK_PATH}/fogg-cli       git@github.com:imma/fogg-cli       d18aeffcf5515e597f876f27282a4fc7dfaedbc9 master 
 fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           4050a262754f139de4768cc90ccfa4275b45084e master 
-fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        6d74ad32cdff4fa871ef25412a98f307e64a5f24 master 
+fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        175cd4dcf79136d86c727961ef380b5107135ce1 master 
 imma-tf        ${BLOCK_PATH}/imma-tf        git@github.com:imma/imma-tf        92cc6ba9e17163e915bc677e2902fb7c543aa67b master 
 hugo           ${BLOCK_PATH}/hugo           git@github.com:imma/hugo           4c3f5e1710e0b8f390f75044015daaf7e18ecc64 master 
 drone-theme    ${BLOCK_PATH}/drone-theme    git@github.com:imma/drone-theme    4192c7a8f3193d05cf7a7bfe4818692ea657c5fe master 
