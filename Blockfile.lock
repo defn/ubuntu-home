@@ -21,7 +21,7 @@ git            ${BLOCK_PATH}/git            git@github.com:imma/git            4
 yarn           ${BLOCK_PATH}/yarn           git@github.com:imma/yarn           d1b8fc3a579874cc14f69c6274d56d3f1a42f234 master 
 vue            ${BLOCK_PATH}/vue            git@github.com:imma/vue            22bf01fc6fab0b7c883aafa4589bcb06f5db1621 master 
 jq             ${BLOCK_PATH}/jq             git@github.com:imma/jq             683bf22ca03c98d53854d031f8647ae9f9c70dd7 master 
-java           ${BLOCK_PATH}/java           git@github.com:imma/java           9ca49f26e0f0098d28b13d9fea5982826810b9e1 master 
+java           ${BLOCK_PATH}/java           git@github.com:imma/java           f41f27696e337e1d9d52275e8485123d7e653945 master 
 bash4          ${BLOCK_PATH}/bash4          git@github.com:imma/bash4          c7d35f0bea3080089eef1f6c9ea0ff0e2b8fc97f master 
 pyenv          ${BLOCK_PATH}/pyenv          git@github.com:imma/pyenv          9ce7355c820b7b6a29efc7f694ab1b8e9956e6e8 master 
 python         ${BLOCK_PATH}/python         git@github.com:imma/python         54ac6645b9916bf2c5dd28f763158c550412b7c3 master 
