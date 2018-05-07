@@ -1,0 +1,14 @@
+    2  sudo install -d -o ubuntu -g ubuntu /data
+    3  cp .ssh/authorized_keys /data
+    4  git clone https://github.com/imma/ubuntu
+    5  mv ubuntu/.git .
+    6  rm -rf ubuntu
+    7  git reset --hard
+    8  sudo aptitude install -y python
+    9  script/setup
+   10  make cache
+   11  exec bash
+   12  cd work/docker-compose/
+   13  script/bootstrap 
+   14  cd
+   15  make up
