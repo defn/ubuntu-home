@@ -9,7 +9,7 @@ function lookup_pip {
 export ANSIBLE_VERSION="$(lookup_pip ansible)"
 export ASCIINEMA_VERSION="$(lookup_pip ascii asciinema)"
 export AWSVAULT_VERSION=4.2.0
-export CHAMBER_VERSION=2.0.0
+export CHAMBER_VERSION=2.1.0
 export BLESS_VERSION=0.2.0
 export CFSSL_VERSION=1.3.2
 export CHEF_VERSION=12.21.26
@@ -104,7 +104,7 @@ export AWS_MOBILE_VERSION=1.1.2
 export AWS_SSM_AGENT_VERSION=0.0.1
 export AWS_CODEDEPLOY_AGENT_VERSION=0.0.1
 export AWS_CLOUDWATCH_AGENT_VERSION=0.0.1
-export OP_VERSION=0.3
+export OP_VERSION=0.4
 export GPG_VERSION=2.2.5
 export VG_VERSION=0.8.0
 export TRAVIS_VERSION=1.8.8

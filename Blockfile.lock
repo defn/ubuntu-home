@@ -66,7 +66,7 @@ nomad          ${BLOCK_PATH}/nomad          git@github.com:imma/nomad          1
 ecr            ${BLOCK_PATH}/ecr            git@github.com:imma/ecr            25f20f65668a1f7f48f0879ca635509a5999e2c6 master 
 lambda         ${BLOCK_PATH}/lambda         git@github.com:imma/lambda         837baa527d9ba5386e3c01d61151a8d190d286ea master 
 aws-vault      ${BLOCK_PATH}/aws-vault      git@github.com:imma/aws-vault      b45b3394f8bc7108029ee08ba8e38565801db004 master 
-chamber        ${BLOCK_PATH}/chamber        git@github.com:imma/chamber        8eb8f947daf979b697c8ffed66b6258d21842123 master 
+chamber        ${BLOCK_PATH}/chamber        git@github.com:imma/chamber        90e2e62f77cd5d6c973ad61d9796e21d76b263a2 master 
 awless         ${BLOCK_PATH}/awless         git@github.com:imma/awless         8d635d18f7ddf97fdb6da8afdd802197dd161cbc master 
 credstash      ${BLOCK_PATH}/credstash      git@github.com:imma/credstash      5762b04dabf9d1af5721906d27075a4de86122b8 master 
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            3b6cf2605419beb00c20ff3d0c7df16226022aa1 master 
