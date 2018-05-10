@@ -44,7 +44,8 @@ codecommit     ${BLOCK_PATH}/codecommit     git@github.com:imma/codecommit     1
 github         ${BLOCK_PATH}/github         git@github.com:imma/github         3b1721042565793566be8193c0ada1a8ed16afdf master 
 inspec         ${BLOCK_PATH}/inspec         git@github.com:imma/inspec         65e243d1dc7e51590dd7b36524ecdfae44e5a362 master 
 drone          ${BLOCK_PATH}/drone          git@github.com:imma/drone          bc6650e73605a1b791ce5f8270052f41e67bcbca master 
-fart           ${BLOCK_PATH}/fart           git@github.com:imma/fart           5397cf52b3f473b2f9b35eca50818c5b822e0d1c master 
+kitchen        ${BLOCK_PATH}/kitchen        git@github.com:imma/kitchen        4602b123d72ab19a46c61350c90f1d74bbf2c63b master 
+fart           ${BLOCK_PATH}/fart           git@github.com:imma/fart           7be1bd83d39ca456ada9fa4e8e40d3d03c300d8c master 
 runit          ${BLOCK_PATH}/runit          git@github.com:imma/runit          ea7942c5840be2424a6b8671cfe38b50179292ea master 
 service        ${BLOCK_PATH}/service        git@github.com:imma/service        ad1258db19c799667f1cfe368e936d87c2f720b4 master 
 htop           ${BLOCK_PATH}/htop           git@github.com:imma/htop           aa24067a87c228300f1f1041b5706aef672b199f master 

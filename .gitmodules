@@ -467,3 +467,6 @@
 [submodule "work/martyn"]
 	path = work/martyn
 	url = https://github.com/imma/martyn
+[submodule "work/kitchen"]
+	path = work/kitchen
+	url = https://github.com/imma/kitchen
