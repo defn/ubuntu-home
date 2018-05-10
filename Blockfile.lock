@@ -76,7 +76,7 @@ ecs            ${BLOCK_PATH}/ecs            git@github.com:imma/ecs            2
 jqq            ${BLOCK_PATH}/jqq            git@github.com:imma/jqq            7f79e85962697cf40e351d193bcc69b67e3f4e1a master 
 aqq            ${BLOCK_PATH}/aqq            git@github.com:imma/aqq            5a2398db86d1e9bd803e9d5d511a39c96b9981f6 master 
 cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          6546fec97824a95c252b0989c7c3bf89a68f23fc master 
-imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           67cd79b010b701af92f947885e739b748235f9e1 master 
+imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           b0189403046bb52c4fe5f47d673affb491ccce69 master 
 netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        9ae95d60e6daccbbec8d0f5d8017e935c9021aa9 master 
 monitor        ${BLOCK_PATH}/monitor        git@github.com:imma/monitor        4ca342bfaae8881a16a2d79343bf33f87bf86a75 master 
 gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            1722c23bea696bf6c76ad354b46094909782b59f master 
@@ -90,7 +90,7 @@ easy-rsa       ${BLOCK_PATH}/easy-rsa       git@github.com:imma/easy-rsa       2
 openvpn        ${BLOCK_PATH}/openvpn        git@github.com:imma/openvpn        6aaaf8a2e2f883b197287e96ac6bbed85b3cbf52 master 
 zerotier       ${BLOCK_PATH}/zerotier       git@github.com:imma/zerotier       92f30588cba0abd15619e1ded1dc1f6e13791f13 master 
 vault          ${BLOCK_PATH}/vault          git@github.com:imma/vault          2da170af21d4f2c9969afafbfb7d91ae5285d0a9 master 
-op             ${BLOCK_PATH}/op             git@github.com:imma/op             d506b50b1e532c4ec315f688983ba778e5147df8 master 
+op             ${BLOCK_PATH}/op             git@github.com:imma/op             db32ea67bdd0d0589c3e49866a78d0a2b8806f7d master 
 crypto         ${BLOCK_PATH}/crypto         git@github.com:imma/crypto         382f814faf92cb4d951136c66c3460bba6066293 master 
 home           ${BLOCK_PATH}/home           git@github.com:imma/home           d32390e3893c408fa912550b30ba97078457d9f0 master 
 talign         ${BLOCK_PATH}/talign         git@github.com:imma/talign         fdc4b75ebc28512392abd1c865ee31d73917b1d4 master 
@@ -106,9 +106,9 @@ nat            ${BLOCK_PATH}/nat            git@github.com:imma/nat            f
 rat            ${BLOCK_PATH}/rat            git@github.com:imma/rat            7924ddc010675b88d1b0e0e0eef8859371aa6b46 master 
 cookiecutter   ${BLOCK_PATH}/cookiecutter   git@github.com:imma/cookiecutter   040da6b867e5d07d29e08121124dca1e17105f11 master 
 martyn         ${BLOCK_PATH}/martyn         git@github.com:imma/martyn         ac3def313937eac071ec41668b08d7940b32c16a master 
-terraform      ${BLOCK_PATH}/terraform      git@github.com:imma/terraform      6d60b79cb9670d97ce9a45d1d1a0cd3a0ecc7f33 master 
-wtf            ${BLOCK_PATH}/wtf            git@github.com:imma/wtf            9104173ff3c27805814fcebdcb8f8971ba1ced86 master 
-fogg-cli       ${BLOCK_PATH}/fogg-cli       git@github.com:imma/fogg-cli       78aee9120acca124c3881be7ece6b310f27aa44a master 
+terraform      ${BLOCK_PATH}/terraform      git@github.com:imma/terraform      ab2384a5174e9c58fa4d8342686c348c0c920277 master 
+wtf            ${BLOCK_PATH}/wtf            git@github.com:imma/wtf            64b47c806f1405ec82881dabcd0253cc15472297 master 
+fogg-cli       ${BLOCK_PATH}/fogg-cli       git@github.com:imma/fogg-cli       1ab5bade62282b57e3cd7340a627497487092580 master 
 fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           22069d84ad79033714b184417fd2e8db2e741ad1 master 
 fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        e305e27cfec987c6cef458c0c695725092d44026 master 
 imma-tf        ${BLOCK_PATH}/imma-tf        git@github.com:imma/imma-tf        92cc6ba9e17163e915bc677e2902fb7c543aa67b master 
