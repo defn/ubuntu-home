@@ -17,20 +17,21 @@ platforms:
   - name: ubuntu
     driver:
       box: bento/ubuntu-16.04
+      image_id: <%= ENV['fogg__service_ami'] %>
 
 suites:
   - name: aws
+    platform: ubuntu
     driver:
       name: ec2
       interface: private_dns
-      image_id: <%= ENV['FOGG_IMAGE_ID'] %>
       spot_price: <%= ENV['FOGG_SPOT_PRICE'] || '0.01' %>
-      instance_type: <%= ENV['FOGG_INSTANCE_TYPE'] || 't2.nano' %>
+      instance_type: <%= ENV['FOGG_INSTANCE_TYPE'] || 't2.micro' %>
       associate_public_ip: false
-      iam_profile_name: <%= ENV['FOGG_SVC_IAM_PROFILE'] %>
-      aws_ssh_key_id: <%= ENV['FOGG_SVC_SSH_KEY'] %>
-      subnet_id: <%= (ENV['FOGG_SVC_SUBNETS']||"").split(/\s+/)[0] %>
+      iam_profile_name: <%= ENV['fogg__service_iam_profile'] %>
+      aws_ssh_key_id: <%= ENV['fogg__key_name'] %>
+      subnet_id: <%= (ENV['fogg__service_subnets']||"").split(/\s+/)[0] %>
       security_group_ids: 
-        - <%= ENV['FOGG_ENV_SG'] %>
-        - <%= ENV['FOGG_APP_SG'] %>
-        - <%= ENV['FOGG_SVC_SG'] %>
+        - "<%= ENV['fogg__env_sg'] %>"
+        - "<%= ENV['fogg__app_sg'] %>"
+        - "<%= ENV['fogg__service_sg'] %>"
