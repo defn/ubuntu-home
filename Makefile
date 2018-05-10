@@ -65,10 +65,12 @@ rebase: dummy
 	cd docker/rebase && env COMPOSE_PROJECT_NAME=$(TIMESTAMP) $(MAKE)
 
 push:
+	docker push imma/ubuntu:shell
 	docker push imma/ubuntu:base
 	docker push imma/ubuntu:latest
 
 pull:
+	docker pull imma/ubuntu:shell
 	docker pull imma/ubuntu:base
 	docker pull imma/ubuntu:latest
 
