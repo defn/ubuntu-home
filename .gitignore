@@ -200,3 +200,4 @@ tmux-client*log
 .vuerc
 /.nexe
 /.pkg-cache
+/.cookiecutter_replay/
