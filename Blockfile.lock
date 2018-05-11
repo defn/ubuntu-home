@@ -77,7 +77,7 @@ ecs            ${BLOCK_PATH}/ecs            git@github.com:imma/ecs            2
 jqq            ${BLOCK_PATH}/jqq            git@github.com:imma/jqq            7f79e85962697cf40e351d193bcc69b67e3f4e1a master 
 aqq            ${BLOCK_PATH}/aqq            git@github.com:imma/aqq            5a2398db86d1e9bd803e9d5d511a39c96b9981f6 master 
 cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          6546fec97824a95c252b0989c7c3bf89a68f23fc master 
-imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           7be3700a477f297c663ffafcb0cbe0ce504b858f master 
+imma           ${BLOCK_PATH}/imma           git@github.com:imma/imma           6469550d940d2cd115f67df7cee9b489aab9074f master 
 netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        9ae95d60e6daccbbec8d0f5d8017e935c9021aa9 master 
 monitor        ${BLOCK_PATH}/monitor        git@github.com:imma/monitor        4ca342bfaae8881a16a2d79343bf33f87bf86a75 master 
 gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            1722c23bea696bf6c76ad354b46094909782b59f master 
