@@ -17,16 +17,18 @@ platforms:
   - name: ubuntu
     driver:
       box: bento/ubuntu-16.04
-      image_id: <%= ENV['fogg__service_ami'] %>
 
 suites:
   - name: aws
     platform: ubuntu
+    ssh_timeout: 1
+    ssh_retries: 3
     driver:
       name: ec2
       interface: private
       spot_price: <%= ENV['FOGG_SPOT_PRICE'] || '0.005' %>
       instance_type: <%= ENV['FOGG_INSTANCE_TYPE'] || 't2.micro' %>
+      image_id: <%= ENV['fogg__service_ami'] %>
       associate_public_ip: false
       iam_profile_name: <%= ENV['fogg__service_iam_profile'] %>
       aws_ssh_key_id: <%= ENV['fogg__key_name'] %>
