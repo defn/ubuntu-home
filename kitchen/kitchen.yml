@@ -2,7 +2,8 @@
 transport:
   forward_agent: true
   username: ubuntu
-  ssh_retries: 3
+  ssh_gateway: adm1
+  ssh_gateway_username: ubuntu
 
 provisioner:
   name: shell
@@ -26,7 +27,7 @@ suites:
       name: ec2
       interface: private
       skip_cost_warning: true
-      spot_price: <%= ENV['FOGG_SPOT_PRICE'] || '0.005' %>
+      spot_price: <%= ENV['FOGG_SPOT_PRICE'] || '0.004' %>
       instance_type: <%= ENV['FOGG_INSTANCE_TYPE'] || 't2.micro' %>
       image_id: <%= ENV['fogg__service_ami'] %>
       associate_public_ip: false
