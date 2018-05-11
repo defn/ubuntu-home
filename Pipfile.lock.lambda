@@ -1,20 +1,7 @@
 {
   "_meta": {
     "hash": {
-      "sha256": "4d1dc4a7fe58b1ae96e775b8b802a48361ec1933d83f7dc1eacd6822a83b0448"
-    },
-    "host-environment-markers": {
-      "implementation_name": "cpython",
-      "implementation_version": "3.6.3",
-      "os_name": "posix",
-      "platform_machine": "x86_64",
-      "platform_python_implementation": "CPython",
-      "platform_release": "17.4.0",
-      "platform_system": "Darwin",
-      "platform_version": "Darwin Kernel Version 17.4.0: Sun Dec 17 09:19:54 PST 2017; root:xnu-4570.41.2~1/RELEASE_X86_64",
-      "python_full_version": "3.6.3",
-      "python_version": "3.6",
-      "sys_platform": "darwin"
+      "sha256": "42da9c0a9af6ab7ae5ef0c80922e30030b8548b25d7ce30695fb7e6fe4aefd16"
     },
     "pipfile-spec": 6,
     "requires": {},
@@ -27,38 +14,89 @@
     ]
   },
   "default": {
+    "arrow": {
+      "version": "==0.12.1"
+    },
+    "aws-sam-cli": {
+      "index": "pypi",
+      "version": "==0.3.0"
+    },
+    "aws-sam-translator": {
+      "version": "==1.5.4"
+    },
+    "binaryornot": {
+      "version": "==0.4.4"
+    },
+    "boto3": {
+      "version": "==1.7.19"
+    },
     "botocore": {
-      "version": "==1.10.0"
+      "version": "==1.10.19"
     },
     "certifi": {
-      "version": "==2018.1.18"
-    },
-    "chalice": {
-      "version": "==1.1.1"
+      "version": "==2018.4.16"
     },
     "chardet": {
       "version": "==3.0.4"
     },
     "click": {
-      "version": "==6.6"
+      "version": "==6.7"
+    },
+    "cookiecutter": {
+      "version": "==1.6.0"
+    },
+    "docker": {
+      "version": "==3.3.0"
+    },
+    "docker-pycreds": {
+      "version": "==0.2.3"
     },
     "docutils": {
       "version": "==0.14"
     },
+    "enum34": {
+      "version": "==1.1.6"
+    },
+    "flask": {
+      "version": "==0.12.4"
+    },
+    "future": {
+      "version": "==0.16.0"
+    },
     "http-prompt": {
+      "index": "pypi",
       "version": "==0.11.2"
     },
     "httpie": {
+      "index": "pypi",
       "version": "==0.9.9"
     },
     "idna": {
       "version": "==2.6"
     },
+    "itsdangerous": {
+      "version": "==0.24"
+    },
+    "jinja2": {
+      "version": "==2.10"
+    },
+    "jinja2-time": {
+      "version": "==0.2.0"
+    },
     "jmespath": {
       "version": "==0.9.3"
     },
+    "jsonschema": {
+      "version": "==2.6.0"
+    },
+    "markupsafe": {
+      "version": "==1.0"
+    },
     "parsimonious": {
       "version": "==0.8.0"
+    },
+    "poyo": {
+      "version": "==0.4.1"
     },
     "prompt-toolkit": {
       "version": "==1.0.15"
@@ -67,22 +105,35 @@
       "version": "==2.2.0"
     },
     "python-dateutil": {
-      "version": "==2.6.1"
+      "markers": "python_version >= '2.7'",
+      "version": "==2.7.3"
+    },
+    "pyyaml": {
+      "version": "==3.12"
     },
     "requests": {
       "version": "==2.18.4"
     },
+    "s3transfer": {
+      "version": "==0.1.13"
+    },
     "six": {
       "version": "==1.11.0"
-    },
-    "typing": {
-      "version": "==3.5.3.0"
     },
     "urllib3": {
       "version": "==1.22"
     },
     "wcwidth": {
       "version": "==0.1.7"
+    },
+    "websocket-client": {
+      "version": "==0.47.0"
+    },
+    "werkzeug": {
+      "version": "==0.14.1"
+    },
+    "whichcraft": {
+      "version": "==0.4.1"
     }
   },
   "develop": {}
