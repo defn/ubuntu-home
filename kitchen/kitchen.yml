@@ -6,7 +6,7 @@ transport:
 provisioner:
   name: shell
   require_chef_omnibus: false
-  script: base/bootstrap.sh
+  script: bootstrap
 
 verifier:
   name: inspec
@@ -24,8 +24,8 @@ suites:
     platform: ubuntu
     driver:
       name: ec2
-      interface: private_dns
-      spot_price: <%= ENV['FOGG_SPOT_PRICE'] || '0.01' %>
+      interface: private
+      spot_price: <%= ENV['FOGG_SPOT_PRICE'] || '0.005' %>
       instance_type: <%= ENV['FOGG_INSTANCE_TYPE'] || 't2.micro' %>
       associate_public_ip: false
       iam_profile_name: <%= ENV['fogg__service_iam_profile'] %>
