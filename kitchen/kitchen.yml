@@ -2,8 +2,8 @@
 transport:
   forward_agent: true
   username: ubuntu
-  ssh_gateway: adm1
-  ssh_gateway_username: ubuntu
+  #ssh_gateway: adm1
+  #ssh_gateway_username: ubuntu
 
 provisioner:
   name: shell
