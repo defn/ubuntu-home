@@ -25,9 +25,11 @@ function main {
 	git submodule update --init --recursive
 	make cache
 
+  set +x
   script/bootstrap
   make cache
   source .bash_profile
+  set -x
 
   for a in {1..5}; do git clean -ffd || true; done
   sudo rm -f ~root/.ssh/authorized_keys
