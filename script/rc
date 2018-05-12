@@ -39,7 +39,7 @@ case "$(uname -s)" in
     export JAVA_VERSION='10.0.1'
     ;;
   *)
-    export JAVA_VERSION='1.8.0_162'
+    export JAVA_VERSION='1.8.0_171'
     ;;
 esac
 export JAVA_URL='https://edelivery.oracle.com/otn-pub/java/jdk/8u162-b12/0da788060d494f5095bf8624735fa2f1/jdk-8u162-'
@@ -126,5 +126,5 @@ export SLACK_CLI_VERSION=0.14.0
 export NOMAD_VERSION=0.8.1
 export RUNTIME_VERSION=0.0.1
 export CLI4_VERSION=2.1.0
-export CLOUDFLARED_VERSION=2018.4.6
+export CLOUDFLARED_VERSION=2018.5.3
 export MARTYN_VERSION=0.0.1
