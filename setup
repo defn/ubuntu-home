@@ -8,7 +8,7 @@ function main {
   make cache
   cp .gitconfig.template .gitconfig
   sudo yum install -y gnupg2 gnupg2-smime tmux irssi
-  exec bash
+  tmux
 }
 
 main "$@"
