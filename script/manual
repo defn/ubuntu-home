@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+function main {
+  mv ubuntu/.git .
+  rm -rf ubuntu
+  git reset --hard
+  script/setup
+  make cache
+  exec bash
+}
+
+main "$@"
