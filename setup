@@ -6,6 +6,9 @@ function main {
   git reset --hard
   script/setup
   make cache
+  cp .gitconfig.template .gitconfig
+  sudo yum update
+  sudo yum install -y gnupg2 gnupg2-smime tmux irssi
   exec bash
 }
 
