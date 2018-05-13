@@ -7,7 +7,7 @@ services:
     ports:
       - "53:53/tcp"
       - "53:53/udp"
-    command: -d --no-resolv --log-facility=- -S 192.168.201.2#5353 -S /immanent.io/172.19.204.2
+    command: -d --log-facility=- -S 192.168.201.2#5353
     networks:
       default:
         ipv4_address: 192.168.201.3
