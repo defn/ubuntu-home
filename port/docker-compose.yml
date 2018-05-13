@@ -1,6 +1,12 @@
 version: '2'
 
 services:
+  dnsproxy:
+    image: imma/ubuntu:argo
+    restart: always
+    networks:
+      default:
+        ipv4_address: 192.168.201.2
   dnsmasq:
     image: imma/ubuntu:dnsmasq
     restart: always
@@ -11,12 +17,18 @@ services:
     networks:
       default:
         ipv4_address: 192.168.201.3
-  dnsproxy:
-    image: imma/ubuntu:argo
+  openvpn:
+    image: imma/ubuntu:openvpn
     restart: always
+    cap_add:
+      - NET_ADMIN
+    ports:
+      - "1194:1194/udp"
+    volumes:
+      - ./config/openvpn:/etc/openvpn
     networks:
       default:
-        ipv4_address: 192.168.201.2
+        ipv4_address: 192.168.201.4
 
 networks:
   default:
