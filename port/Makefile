@@ -9,3 +9,8 @@ endif
 openvpn-config:
 	docker-compose run -T --rm openvpn ovpn_genconfig -u udp://$(OPENVPN_HOSTNAME)
 	echo $(OPENVPN_HOSTNAME) | docker-compose run -T --rm openvpn ovpn_initpki nopass
+
+restart:
+	docker-compose down
+	docker-compose up -d
+	docker-compose logs -f
