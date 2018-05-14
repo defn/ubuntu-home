@@ -13,7 +13,7 @@ services:
     ports:
       - "53:53/tcp"
       - "53:53/udp"
-    command: -d --no-resolv --log-facility=- --log-queries=extra -S 192.168.201.2#5353 -S /adm1.immanent.io/192.168.194.101
+    command: -d --no-resolv --log-facility=- --log-queries=extra -S 192.168.201.2#5353 -S /adm0.immanent.io/192.168.194.251 -S /adm1.immanent.io/192.168.194.101 -S /adm2.immanent.io/192.168.194.217 -S /adm3.immanent.io/192.168.194.249
     networks:
       default:
         ipv4_address: 192.168.201.3
