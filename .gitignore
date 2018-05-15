@@ -201,3 +201,4 @@ tmux-client*log
 /.nexe
 /.pkg-cache
 /.cookiecutter_replay/
+/.ar?rc
