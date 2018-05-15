@@ -22,7 +22,7 @@ server:
 
 client:
 	docker-compose exec -T openvpn easyrsa build-client-full $(OPENVPN_CLIENT)
-	$(MAKE) download
+	$(MAKE) download $(OPENVPN_CLIENT)
 
 download:
 	docker-compose exec -T openvpn ovpn_getclient $(OPENVPN_CLIENT) | sudo tee config/$(OPENVPN_CLIENT).ovpn >/dev/null
