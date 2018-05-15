@@ -11,13 +11,21 @@ OPENVPN_CLIENT := $(strip $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
 $(eval $(OPENVPN_CLIENT):;@:)
 endif
 
+ifeq (download,$(firstword $(MAKECMDGOALS)))
+OPENVPN_CLIENT := $(strip $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS)))
+$(eval $(OPENVPN_CLIENT):;@:)
+endif
+
 server:
 	docker-compose run -T --rm openvpn ovpn_genconfig -u udp://$(OPENVPN_SERVER)
 	echo $(OPENVPN_SERVER) | docker-compose run -T --rm openvpn ovpn_initpki nopass
 
 client:
-	docker-compose run -T --rm openvpn easyrsa build-client-full $(OPENVPN_CLIENT)
-	docker-compose run -T --rm openvpn easyrsa ovpn_getclient $(OPENVPN_CLIENT) > config/$(OPENVPN_CLIENT).ovpn
+	docker-compose exec -T openvpn easyrsa build-client-full $(OPENVPN_CLIENT)
+	$(MAKE) download
+
+download:
+	docker-compose exec -T openvpn ovpn_getclient $(OPENVPN_CLIENT) | sudo tee config/$(OPENVPN_CLIENT).ovpn >/dev/null
 
 restart:
 	docker-compose down
