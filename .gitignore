@@ -177,7 +177,6 @@ tmux-client*log
 /.netrc
 /pkg
 /src
-/bin
 /.znc
 /.tx-remote
 /.kube
