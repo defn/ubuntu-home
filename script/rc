@@ -42,7 +42,6 @@ case "$(uname -s)" in
     export JAVA_VERSION='1.8.0_171'
     ;;
 esac
-export JAVA_URL='https://edelivery.oracle.com/otn-pub/java/jdk/8u162-b12/0da788060d494f5095bf8624735fa2f1/jdk-8u162-'
 export JQ_VERSION=1.5
 export KITCHEN_VERSION=1.21.2
 export KMSAUTH_VERSION="$(lookup_pip kmsauth)"
@@ -80,7 +79,7 @@ export PROTOC_VERSION=3.5.1
 export COOKIECUTTER_VERSION="$(lookup_pip cookiecutter)"
 export ZEROTIER_VERSION=1.2.8
 export FABIO_VERSION=1.5.2
-export RUST_VERSION=1.24.0
+export RUST_VERSION=1.26.0
 export PYTHON_ENV_VERSION=1.2.0
 export PY27_VERSION=2.7.14
 export PY36_VERSION=3.6.3

@@ -28,11 +28,11 @@ python         ${BLOCK_PATH}/python         git@github.com:imma/python         5
 py27           ${BLOCK_PATH}/py27           git@github.com:imma/py27           f0c7d7fb1518caf3eddafe0416b281f7f3d38b06 master 
 py36           ${BLOCK_PATH}/py36           git@github.com:imma/py36           fafcd65e2e5fcc69766f50d109bd173cd7fecb66 master 
 go             ${BLOCK_PATH}/go             git@github.com:imma/go             1b5e88880c822e2531a630bff1ff21cf151bd68c master 
+rust           ${BLOCK_PATH}/rust           git@github.com:imma/rust           68b01ff1b8cba66d20d57590d1b1ea44f17443b6 master 
 tfenv          ${BLOCK_PATH}/tfenv          git@github.com:imma/tfenv          2ae01416cb3f65d87a5edf18d138a9a6a744ccef master 
 vg             ${BLOCK_PATH}/vg             git@github.com:imma/vg             74fb7fc005981571253a72cb619a9bcb3413ca14 master 
 vmm            ${BLOCK_PATH}/vmm            git@github.com:imma/vmm            e652f7b873582c0002415325e281818945709d47 master 
-node-exe       ${BLOCK_PATH}/node-exe       git@github.com:imma/node-exe       0c1fa3c265b97da80f610a3aa544fbba353067d3 master 
-lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           ba43f6c8b67e2e927a47c9323c64b7cb0dd5dc74 master 
+lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           036bcd7a984fbcd86978405f16eb64daa7d1fcad master 
 tmux           ${BLOCK_PATH}/tmux           git@github.com:imma/tmux           9b4b6575797e86c6970c1923a7cbe3b4c9922f7f master 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          198dbe97a3631665874f17dc29d6b7a71d34b5fb master 
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            9e6abd7f68b7b9ea03ed4caf80b2b43406c62ca0 master 

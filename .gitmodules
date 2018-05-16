@@ -470,3 +470,6 @@
 [submodule "work/kitchen"]
 	path = work/kitchen
 	url = https://github.com/imma/kitchen
+[submodule "work/rust"]
+	path = work/rust
+	url = https://github.com/imma/rust
