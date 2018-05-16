@@ -127,7 +127,6 @@
 /.aws/shell
 /org
 /app-*
-/data
 /config
 /.gh.json
 /bin/gpg
@@ -201,3 +200,5 @@ tmux-client*log
 /.pkg-cache
 /.cookiecutter_replay/
 /.ar?rc
+/data/*
+!/data/.gitignore
