@@ -6,6 +6,13 @@ function main {
 
   cd "$shome"
 
+  if ! type -P jq >/dev/null; then
+    pushd work/jq >/dev/null
+    script/bootstrap
+    popd > /dev/null
+    PATH="$PATH:$some/work/jq/bin"
+  fi
+
   if [[ "$#" == 0 ]]; then
     mkdir -p .ssh
     if ssh -o Include=meh 2>&1 | grep -q 'Bad'; then
