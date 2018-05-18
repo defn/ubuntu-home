@@ -52,7 +52,7 @@ htop           ${BLOCK_PATH}/htop           git@github.com:imma/htop           a
 ssm            ${BLOCK_PATH}/ssm            git@github.com:imma/ssm            af9b303d6cca2c7113de8ea025366e1fe9da36bb master 
 sysadmin       ${BLOCK_PATH}/sysadmin       git@github.com:imma/sysadmin       2ce110b70751b142c565b87b0ce091e6ac933361 master 
 make           ${BLOCK_PATH}/make           git@github.com:imma/make           bc396044ec0c5a3d6c617f71084d0318bde10b3c master 
-consul         ${BLOCK_PATH}/consul         git@github.com:imma/consul         5aaadbbb6cce1aedb72c630d493c08c8c9b9c13c master 
+consul         ${BLOCK_PATH}/consul         git@github.com:imma/consul         60a972888fef1a940d07aba94eeb1a3c1814cc6c master 
 consul-agent   ${BLOCK_PATH}/consul-agent   git@github.com:imma/consul-agent   d0b766a2b7f3b04469afd4ed9be8ad5af3c413e0 master 
 consul-server  ${BLOCK_PATH}/consul-server  git@github.com:imma/consul-server  f4b347feee3f52d0ea5a8a180e298953815d9f26 master 
 etcd           ${BLOCK_PATH}/etcd           git@github.com:imma/etcd           08394c75e2cd817431a077934c56c27dde17ba08 master 
