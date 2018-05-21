@@ -142,10 +142,6 @@
 	path = work/site
 	url = https://github.com/imma/site
 	branch = master
-[submodule "work/imma"]
-	path = work/imma
-	url = https://github.com/imma/imma
-	branch = master
 [submodule "work/yarn"]
 	path = work/yarn
 	url = https://github.com/imma/yarn

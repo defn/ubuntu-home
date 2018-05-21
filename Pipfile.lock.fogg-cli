@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hash": {
+      "sha256": "00e3c920e0af0920e236dd5d6c1e593a53156d607a44af145c9a787082ef51dc"
+    },
+    "pipfile-spec": 6,
+    "requires": {},
+    "sources": [
+      {
+        "name": "pypi",
+        "url": "https://pypi.python.org/simple",
+        "verify_ssl": false
+      }
+    ]
+  },
+  "default": {
+    "onetimepass": {
+      "index": "pypi",
+      "version": "==1.0.1"
+    },
+    "six": {
+      "version": "==1.11.0"
+    }
+  },
+  "develop": {}
+}
