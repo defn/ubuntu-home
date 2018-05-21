@@ -56,9 +56,7 @@ shell: dummy
 
 base: dummy
 	runmany 'docker rmi imma/ubuntu:$$1 || true' base latest rebase1 full1 base1
-	docker system prune -f || true
-	docker system prune -f || true
-	docker system prune -f || true
+	runmany 'docker system prune -f || true' 1 2 3
 	rm -f $(DATA)/cache/git/$(PKGSRC_BRANCH).tar.gz
 	cd docker/base && $(MAKE)
 
@@ -69,14 +67,10 @@ rebase: dummy
 	cd docker/rebase && env COMPOSE_PROJECT_NAME=$(TIMESTAMP) $(MAKE)
 
 push:
-	docker push imma/ubuntu:shell
-	docker push imma/ubuntu:base
-	docker push imma/ubuntu:latest
+	runmany 'docker push imma/ubuntu:$$1' shell base full latest
 
 pull:
-	docker pull imma/ubuntu:shell
-	docker pull imma/ubuntu:base
-	docker pull imma/ubuntu:latest
+	runmany 'docker pull imma/ubuntu:$$1' shell base full latest
 
 docs:
 	mkdir -p content
