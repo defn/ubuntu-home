@@ -35,7 +35,7 @@ vmm            ${BLOCK_PATH}/vmm            git@github.com:imma/vmm            e
 lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           036bcd7a984fbcd86978405f16eb64daa7d1fcad master 
 tmux           ${BLOCK_PATH}/tmux           git@github.com:imma/tmux           1307aeef04fbc2478676c232d2d1e4a08089b0e2 master 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          198dbe97a3631665874f17dc29d6b7a71d34b5fb master 
-cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            9e6abd7f68b7b9ea03ed4caf80b2b43406c62ca0 master 
+cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            6c0a697a4b72367deec43645197c8515d1bbf8a4 master 
 context        ${BLOCK_PATH}/context        git@github.com:imma/context        edaced91a1fe73abd74c370dcc53a72c95bfabbc master 
 parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         71ba46f4bfe28602fc50e399733761429b16b409 master 
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 586736435ed7d6c1e66a25ed32101681830d00c9 master 
