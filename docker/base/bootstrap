@@ -4,10 +4,9 @@ function main {
   set -x
 
   if [[ -z "${CI_COMMIT_SHA}" ]]; then
-    git fetch
-    git reset --hard
-    git pull
+    block sync
   fi
+  source .bash_profile
 
 	mkdir -p .ssh
 	if ssh -o Include=meh 2>&1 | grep -q 'Bad'; then
@@ -22,16 +21,11 @@ function main {
 	touch .gnupg/gpg.conf
 	chmod 0600 .gnupg/gpg.conf
 
-	git submodule update --init --recursive
-	make cache
-
   set +x
   sudo aptitude update
   (cd work/pkgsrc && script/bootstrap)
   (cd work/gpg && script/bootstrap)
   (cd work/tmux && script/bootstrap)
-  make cache
-  source .bash_profile
   set -x
 
   for a in {1..5}; do git clean -ffd || true; done
