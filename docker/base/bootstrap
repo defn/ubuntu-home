@@ -23,9 +23,11 @@ function main {
 
   set +x
   sudo aptitude update
-  (cd work/pkgsrc && script/bootstrap)
-  (cd work/gpg && script/bootstrap)
-  (cd work/tmux && script/bootstrap)
+  (cd work/pkgsrc && block bootstrap)
+  (cd work/python && block bootstrap)
+  (cd work/ruby && block bootstrap)
+  (cd work/gpg && block bootstrap)
+  (cd work/tmux && block bootstrap)
   set -x
 
   for a in {1..5}; do git clean -ffd || true; done
@@ -34,7 +36,6 @@ function main {
   rm -rf "$WRKOBJDIR"
   rm -rf "$PKGSRCDIR"
   sudo apt-get clean
-  yarn cache clean
 } 
 
 main "$@"
