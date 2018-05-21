@@ -27,9 +27,11 @@ function main {
 
   set +x
   sudo aptitude update
-  script/bootstrap
+  (cd work/pkgsrc && script/bootstrap)
+  (cd work/gpg && script/bootstrap)
+  (cd work/tmux && script/bootstrap)
   make cache
-  source6 .bash_profile
+  source .bash_profile
   set -x
 
   for a in {1..5}; do git clean -ffd || true; done
