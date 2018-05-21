@@ -15,8 +15,8 @@ init:
 	$(MAKE) tx-init
 
 up:
-	mkdir -p devshell/.ssh/
-	rsync -ia .ssh/authorized_keys devshell/.ssh/
+	mkdir -p b/devshell/.ssh/
+	rsync -ia .ssh/authorized_keys b/devshell/.ssh/
 	docker-compose down
 	docker-compose up -d --force-recreate --build
 
