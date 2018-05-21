@@ -19,6 +19,7 @@ up:
 	rsync -ia .ssh/authorized_keys b/devshell/.ssh/
 	docker-compose down
 	docker-compose up -d --force-recreate --build
+	docker inspect ubuntu_shell_1 | jq -r '.[] | .NetworkSettings.Networks.bridge.GlobalIPv6Address'
 
 tx-init:
 	tx init $(shell docker-compose ps -q shell).docker
