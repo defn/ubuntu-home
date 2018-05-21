@@ -1,14 +1,14 @@
 SHELL := bash
 REPO ?= imma/ubuntu
-TAG ?= latest
+TAG ?= full
 
-CONTAINER_HOST := $(shell docker-compose ps -q full 2>/dev/null).docker
+CONTAINER_HOST := $(shell docker-compose ps -q $(TAG) 2>/dev/null).docker
 
 all:
 	$(MAKE) build up make tag down
 
 build:
-	docker build -t $(REPO):full1 .
+	docker build -t $(REPO):$(TAG)1 .
 
 up:
 	docker-compose down
@@ -25,7 +25,7 @@ tag:
 	$(MAKE) tag_
 
 tag_:
-	docker commit $(shell basename $(CONTAINER_HOST) .docker) $(REPO):latest
+	docker commit $(shell basename $(CONTAINER_HOST) .docker) $(REPO):$(TAG)
 
 down:
 	docker-compose down
