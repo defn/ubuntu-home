@@ -469,3 +469,6 @@
 [submodule "work/rust"]
 	path = work/rust
 	url = https://github.com/imma/rust
+[submodule "work/base"]
+	path = work/base
+	url = https://github.com/imma/base
