@@ -1,6 +1,6 @@
 SHELL := bash
 REPO ?= imma/ubuntu
-TAG ?= latest
+TAG ?= rebase
 
 CONTAINER_HOST := $(shell docker-compose ps -q $(TAG) 2>/dev/null).docker
 
@@ -26,6 +26,7 @@ tag:
 
 tag_:
 	docker commit $(shell basename $(CONTAINER_HOST) .docker) $(REPO):$(TAG)
+	docker commit $(shell basename $(CONTAINER_HOST) .docker) $(REPO):latest
 
 down:
 	docker-compose down
