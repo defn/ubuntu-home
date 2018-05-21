@@ -1,0 +1,12 @@
+version: '3.2'
+
+services:
+  full:
+    image: imma/ubuntu:full1
+    privileged: true
+    env_file:
+      - .env
+    ports:
+      - "22"
+    volumes:
+      - ${DATA}:/data

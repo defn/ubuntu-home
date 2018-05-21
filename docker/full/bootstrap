@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+
+function main {
+  set -x
+
+  if [[ -z "${CI_COMMIT_SHA}" ]]; then
+    git fetch
+    git reset --hard
+    git pull
+  fi
+
+	mkdir -p .ssh
+	if ssh -o Include=meh 2>&1 | grep -q 'Bad'; then
+		cat .ssh/config.template
+	else
+		perl -pe 's{^#Include}{Include}' .ssh/config.template
+	fi > .ssh/config
+	chmod 600 .ssh/config
+
+	mkdir -p .gnupg
+	chmod 0700 .gnupg
+	touch .gnupg/gpg.conf
+	chmod 0600 .gnupg/gpg.conf
+
+	git submodule update --init --recursive
+	make cache
+
+  set +x
+  script/bootstrap
+  make cache
+  source .bash_profile
+  set -x
+
+  for a in {1..5}; do git clean -ffd || true; done
+  sudo rm -f ~root/.ssh/authorized_keys
+  (set +f; rm -f .ssh/authorized_keys .ssh/*id_rsa*)
+  rm -rf "$WRKOBJDIR"
+  rm -rf "$PKGSRCDIR"
+  sudo apt-get clean
+  yarn cache clean
+} 
+
+main "$@"

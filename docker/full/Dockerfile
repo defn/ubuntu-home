@@ -1,4 +1,4 @@
-FROM imma/ubuntu:full
+FROM imma/ubuntu:base
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && apt-get upgrade -y

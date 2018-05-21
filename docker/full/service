@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+function main {
+  set -x
+
+  if [[ "$#" -gt 0 ]]; then
+    exec "$@"
+  else
+    install -d -o ubuntu -g ubuntu -m 0700 /home/ubuntu/.ssh
+    touch /home/ubuntu/.ssh/authorized_keys
+    chmod 0600 /home/ubuntu/.ssh/authorized_keys
+    chown ubuntu:ubuntu /home/ubuntu/.ssh/authorized_keys
+
+    if [[ -f /data/authorized_keys ]]; then
+      cat /data/authorized_keys
+    else
+      curl -s http://169.254.169.254/latest/meta-data/public-keys/0/openssh-key
+    fi > /home/ubuntu/.ssh/authorized_keys
+
+    mkdir -p /var/run/sshd
+    exec /usr/sbin/sshd -D -o UseDNS=no -o UsePAM=yes -o PasswordAuthentication=no -o UsePrivilegeSeparation=sandbox
+  fi
+}
+
+main "$@"
