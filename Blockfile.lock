@@ -70,7 +70,7 @@ aws-vault      ${BLOCK_PATH}/aws-vault      git@github.com:imma/aws-vault      b
 chamber        ${BLOCK_PATH}/chamber        git@github.com:imma/chamber        90e2e62f77cd5d6c973ad61d9796e21d76b263a2 master 
 awless         ${BLOCK_PATH}/awless         git@github.com:imma/awless         8d635d18f7ddf97fdb6da8afdd802197dd161cbc master 
 credstash      ${BLOCK_PATH}/credstash      git@github.com:imma/credstash      5762b04dabf9d1af5721906d27075a4de86122b8 master 
-aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            64da8e6fc0192c1bb44b9bda3ee5de2c5734f7c6 master 
+aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            0f3f8705bf8a4fb25a5163a6732a1e3b85005874 master 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        c6906903fb7c93f1b2107740582d6ac198e86e6d master 
 eb             ${BLOCK_PATH}/eb             git@github.com:imma/eb             c6071b11a62275a1fda5369e99fc9a27814cf02b master 
 ecs            ${BLOCK_PATH}/ecs            git@github.com:imma/ecs            23f355138fd0d821b6852e5157b6a863d13385cd master 
@@ -108,7 +108,7 @@ cookiecutter   ${BLOCK_PATH}/cookiecutter   git@github.com:imma/cookiecutter   0
 martyn         ${BLOCK_PATH}/martyn         git@github.com:imma/martyn         ac3def313937eac071ec41668b08d7940b32c16a master 
 terraform      ${BLOCK_PATH}/terraform      git@github.com:imma/terraform      2404cf527d4d29c0ad1888e35e9b2121ae3cc05f master 
 wtf            ${BLOCK_PATH}/wtf            git@github.com:imma/wtf            1cf5e2360c460488d1a12660eb1cb0e13784ea38 master 
-fogg-cli       ${BLOCK_PATH}/fogg-cli       git@github.com:imma/fogg-cli       078b8e718e1b6759286c22f6f7ba14027a63a423 master 
+fogg-cli       ${BLOCK_PATH}/fogg-cli       git@github.com:imma/fogg-cli       07d046398240b98cb08ec30b2f4ea3206618ab61 master 
 fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           0a474669b6630b9008398579bb47ed127025b575 master 
 fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        169f6f297754f7ab7c06a3b53b59190e7f37e279 master 
 imma-tf        ${BLOCK_PATH}/imma-tf        git@github.com:imma/imma-tf        658249b0af85c4b679f1dbf5373a84d8d15c34cc master 
