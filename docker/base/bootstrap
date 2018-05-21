@@ -24,7 +24,8 @@ function main {
   set +x
   sudo aptitude update
   (cd work/pkgsrc && block bootstrap)
-  (cd work/python && block bootstrap)
+  (cd work/py36 && block bootstrap)
+  (cd work/py27 && block bootstrap)
   (cd work/ruby && block bootstrap)
   (cd work/gpg && block bootstrap)
   (cd work/tmux && block bootstrap)
