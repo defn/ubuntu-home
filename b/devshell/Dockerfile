@@ -1,4 +1,4 @@
-FROM imma/ubuntu
+FROM imma/ubuntu:base
 
 RUN install -d -m 0700 -o ubuntu -g ubuntu /home/ubuntu/.ssh
 COPY .ssh/authorized_keys /home/ubuntu/.ssh/authorized_keys

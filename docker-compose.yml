@@ -3,7 +3,7 @@ version: '3.2'
 services:
   shell:
     image: imma/devshell
-    build: devshell
+    build: b/devshell
     network_mode: bridge
     privileged: true
     ports:
