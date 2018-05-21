@@ -108,9 +108,9 @@ cookiecutter   ${BLOCK_PATH}/cookiecutter   git@github.com:imma/cookiecutter   0
 martyn         ${BLOCK_PATH}/martyn         git@github.com:imma/martyn         ac3def313937eac071ec41668b08d7940b32c16a master 
 terraform      ${BLOCK_PATH}/terraform      git@github.com:imma/terraform      2404cf527d4d29c0ad1888e35e9b2121ae3cc05f master 
 wtf            ${BLOCK_PATH}/wtf            git@github.com:imma/wtf            1cf5e2360c460488d1a12660eb1cb0e13784ea38 master 
-fogg-cli       ${BLOCK_PATH}/fogg-cli       git@github.com:imma/fogg-cli       3279076f9ec869f69e55b29e4b95b0d4d64db64f master 
+fogg-cli       ${BLOCK_PATH}/fogg-cli       git@github.com:imma/fogg-cli       467feaed9b778a686a43d6f31d91330c73345575 master 
 fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           0b643412a6a7ad5040281c3bf625891c0eac92e4 master 
-fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        156d197e258df1ef3e000fe3651e53731b66d6fb master 
+fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        169f6f297754f7ab7c06a3b53b59190e7f37e279 master 
 imma-tf        ${BLOCK_PATH}/imma-tf        git@github.com:imma/imma-tf        658249b0af85c4b679f1dbf5373a84d8d15c34cc master 
 hugo           ${BLOCK_PATH}/hugo           git@github.com:imma/hugo           4c3f5e1710e0b8f390f75044015daaf7e18ecc64 master 
 drone-theme    ${BLOCK_PATH}/drone-theme    git@github.com:imma/drone-theme    604c0c5078d90bf0c42b820ac8fb894abcbcaab2 master 
