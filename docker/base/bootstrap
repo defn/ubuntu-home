@@ -5,21 +5,21 @@ function main {
 
   if [[ -z "${CI_COMMIT_SHA}" ]]; then
     block sync
+    source .bash_profile
   fi
-  source .bash_profile
 
-	mkdir -p .ssh
-	if ssh -o Include=meh 2>&1 | grep -q 'Bad'; then
-		cat .ssh/config.template
-	else
-		perl -pe 's{^#Include}{Include}' .ssh/config.template
-	fi > .ssh/config
-	chmod 600 .ssh/config
+  mkdir -p .ssh
+  if ssh -o Include=meh 2>&1 | grep -q 'Bad'; then
+    cat .ssh/config.template
+  else
+    perl -pe 's{^#Include}{Include}' .ssh/config.template
+  fi > .ssh/config
+  chmod 600 .ssh/config
 
-	mkdir -p .gnupg
-	chmod 0700 .gnupg
-	touch .gnupg/gpg.conf
-	chmod 0600 .gnupg/gpg.conf
+  mkdir -p .gnupg
+  chmod 0700 .gnupg
+  touch .gnupg/gpg.conf
+  chmod 0600 .gnupg/gpg.conf
 
   sudo ln -nfs home /Users
 
