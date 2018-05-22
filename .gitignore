@@ -27,7 +27,8 @@
 /.java/
 /.lesshst
 /.docker
-/.config
+/.config/*
+!/.config/tmuxinator
 /.packer.d
 /.aptitude
 /.gitconfig

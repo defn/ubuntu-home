@@ -1,0 +1,9 @@
+name: finite
+root: ~/
+
+windows:
+  - shell:
+      layout: main-vertical
+      panes:
+        - irssi -n amni -c irc.prison.net
+        - uname -a
