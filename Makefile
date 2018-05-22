@@ -1,18 +1,42 @@
 SHELL = bash
 TIMESTAMP = $(shell date +%s)
 
+ifeq (tx-init,$(firstword $(MAKECMDGOALS)))
+TMUX_SESSION := $(strip $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS)))
+$(eval $(TMUX_SESSION):;@:)
+endif
+ifeq (,$(TMUX_SESSION))
+TMUX_SESSION = default
+endif
+
+ifeq (init,$(firstword $(MAKECMDGOALS)))
+TMUX_SESSION := $(strip $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS)))
+$(eval $(TMUX_SESSION):;@:)
+endif
+ifeq (,$(TMUX_SESSION))
+TMUX_SESSION = default
+endif
+
+ifeq (tx,$(firstword $(MAKECMDGOALS)))
+TMUX_SESSION := $(strip $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS)))
+$(eval $(TMUX_SESSION):;@:)
+endif
+ifeq (,$(TMUX_SESSION))
+TMUX_SESSION = default
+endif
+
 test:
 	drone exec
 
 ssh:
-	@docker run -ti --rm -u ubuntu -w /home/ubuntu -v $(DATA):/data -v /var/run/docker.sock:/var/run/docker.sock imma/ubuntu:base bash || true
+	@docker run -ti --rm -u ubuntu -w /home/ubuntu -v $(DATA):/data -v /var/run/docker.sock:/var/run/docker.sock imma/ubuntu:latest bash || true
 
 docker-vm:
-	@docker run -it --privileged --pid=host imma/ubuntu:base nsenter -t 1 -m -u -n -i sh || true
+	@docker run -it --privileged --pid=host imma/ubuntu:latest nsenter -t 1 -m -u -n -i sh || true
 
 init:
 	$(MAKE) up
-	$(MAKE) tx-init
+	$(MAKE) tx-init $(TMUX_SESSION)
 
 up:
 	mkdir -p b/devshell/.ssh/
@@ -22,10 +46,10 @@ up:
 	docker inspect ubuntu_shell_1 | jq -r '.[] | .NetworkSettings.Networks.bridge.GlobalIPv6Address'
 
 tx-init:
-	tx init $(shell docker-compose ps -q shell).docker
+	tx init $(shell docker-compose ps -q shell).docker $(TMUX_SESSION)
 
 tx:
-	tx $(shell docker-compose ps -q shell).docker
+	tx $(shell docker-compose ps -q shell).docker $(TMUX_SESSION)
 
 down:
 	docker-compose down
