@@ -1,7 +1,5 @@
 name: default
 root: ~/
-
-on_project_restart: tmux -CC attach -t default
 attach: false
 
 windows:

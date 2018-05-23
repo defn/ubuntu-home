@@ -1,7 +1,5 @@
 name: finite
 root: ~/
-
-on_project_restart: tmux -CC attach -t finite
 attach: false
 
 windows:
