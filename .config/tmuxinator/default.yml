@@ -5,4 +5,4 @@ windows:
   - shell:
       layout: main-vertical
       panes:
-        - uname -a
+        - sleep 1; clear

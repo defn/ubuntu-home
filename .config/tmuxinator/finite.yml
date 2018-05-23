@@ -6,4 +6,4 @@ windows:
       layout: main-vertical
       panes:
         - irssi -n amni -c irc.prison.net
-        - uname -a
+        - sleep 1; clear
