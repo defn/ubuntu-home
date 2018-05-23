@@ -1,11 +1,11 @@
 name: default
 root: ~/
 
-on_project_start: tmux -CC attach -t default
+on_project_restart: tmux -CC attach -t default
 attach: false
 
 windows:
   - shell:
       layout: main-vertical
       panes:
-        - clear
+        - ps axuf
