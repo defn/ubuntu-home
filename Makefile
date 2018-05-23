@@ -5,22 +5,17 @@ ifeq (tx-init,$(firstword $(MAKECMDGOALS)))
 TMUX_SESSION := $(strip $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS)))
 $(eval $(TMUX_SESSION):;@:)
 endif
-ifeq (,$(TMUX_SESSION))
-TMUX_SESSION = default
-endif
 
 ifeq (init,$(firstword $(MAKECMDGOALS)))
 TMUX_SESSION := $(strip $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS)))
 $(eval $(TMUX_SESSION):;@:)
-endif
-ifeq (,$(TMUX_SESSION))
-TMUX_SESSION = default
 endif
 
 ifeq (tx,$(firstword $(MAKECMDGOALS)))
 TMUX_SESSION := $(strip $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS)))
 $(eval $(TMUX_SESSION):;@:)
 endif
+
 ifeq (,$(TMUX_SESSION))
 TMUX_SESSION = default
 endif
