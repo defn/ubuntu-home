@@ -5,5 +5,5 @@ windows:
   - shell:
       layout: main-vertical
       panes:
-        - irssi -n amni -c irc.prison.net
-        - sleep 1; clear
+        - irssi -n defn -c irc.prison.net
+        - clear
