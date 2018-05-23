@@ -8,4 +8,4 @@ windows:
   - shell:
       layout: main-vertical
       panes:
-        - ps axuf
+        - #empty
