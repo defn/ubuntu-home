@@ -1,6 +1,9 @@
 name: finite
 root: ~/
 
+on_project_start: tmux -CC attach -t finite
+attach: false
+
 windows:
   - shell:
       layout: main-vertical

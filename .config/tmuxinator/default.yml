@@ -1,6 +1,9 @@
 name: default
 root: ~/
 
+on_project_start: tmux -CC attach -t default
+attach: false
+
 windows:
   - shell:
       layout: main-vertical
