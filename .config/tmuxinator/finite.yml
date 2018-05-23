@@ -1,3 +1,4 @@
+name: finite
 windows:
   - shell:
       layout: main-vertical
