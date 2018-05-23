@@ -1,7 +1,3 @@
-name: finite
-root: ~/
-attach: false
-
 windows:
   - shell:
       layout: main-vertical

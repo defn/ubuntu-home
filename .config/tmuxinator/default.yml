@@ -1,7 +1,3 @@
-name: default
-root: ~/
-attach: false
-
 windows:
   - shell:
       layout: main-vertical
