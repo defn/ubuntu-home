@@ -33,7 +33,7 @@ tfenv          ${BLOCK_PATH}/tfenv          git@github.com:imma/tfenv          2
 vg             ${BLOCK_PATH}/vg             git@github.com:imma/vg             74fb7fc005981571253a72cb619a9bcb3413ca14 master 
 vmm            ${BLOCK_PATH}/vmm            git@github.com:imma/vmm            e652f7b873582c0002415325e281818945709d47 master 
 lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           036bcd7a984fbcd86978405f16eb64daa7d1fcad master 
-tmux           ${BLOCK_PATH}/tmux           git@github.com:imma/tmux           0bac4559f93ebd08c902f71ee1674b45bfb5d538 master 
+tmux           ${BLOCK_PATH}/tmux           git@github.com:imma/tmux           11e0e7a9e007e1aa238d95ec1a8be6d8b6cd335d master 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          198dbe97a3631665874f17dc29d6b7a71d34b5fb master 
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            6c0a697a4b72367deec43645197c8515d1bbf8a4 master 
 context        ${BLOCK_PATH}/context        git@github.com:imma/context        edaced91a1fe73abd74c370dcc53a72c95bfabbc master 
