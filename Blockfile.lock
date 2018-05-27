@@ -110,7 +110,7 @@ terraform      ${BLOCK_PATH}/terraform      git@github.com:imma/terraform      2
 wtf            ${BLOCK_PATH}/wtf            git@github.com:imma/wtf            1cf5e2360c460488d1a12660eb1cb0e13784ea38 master 
 fogg-cli       ${BLOCK_PATH}/fogg-cli       git@github.com:imma/fogg-cli       3c656f1837eab93be8456db8b8266d057318837d master 
 fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           5e4c23a79c4cb565f0364bf994f11927f9ce3800 master 
-fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        bd1f23e327c8ea78d5ef6ec31e7de47852edbbc5 master 
+fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        3903d882cf8a7b2a192fca3c6412e3ecb72b6eab master 
 imma-tf        ${BLOCK_PATH}/imma-tf        git@github.com:imma/imma-tf        658249b0af85c4b679f1dbf5373a84d8d15c34cc master 
 hugo           ${BLOCK_PATH}/hugo           git@github.com:imma/hugo           4c3f5e1710e0b8f390f75044015daaf7e18ecc64 master 
 drone-theme    ${BLOCK_PATH}/drone-theme    git@github.com:imma/drone-theme    604c0c5078d90bf0c42b820ac8fb894abcbcaab2 master 
