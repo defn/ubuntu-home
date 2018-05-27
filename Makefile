@@ -20,14 +20,23 @@ ifeq (,$(TMUX_SESSION))
 TMUX_SESSION = default
 endif
 
+ifeq (base,$(firstword $(MAKECMDGOALS)))
+UBUNTU_TAG := $(strip $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS)))
+$(eval $(UBUNTU_TAG):;@:)
+endif
+
+ifeq (,$(UBUNTU_TAG))
+UBUNTU_TAG = base
+endif
+
 test:
 	drone exec
 
 ssh:
-	@docker run -ti --rm -u ubuntu -w /home/ubuntu -v $(DATA):/data -v /var/run/docker.sock:/var/run/docker.sock imma/ubuntu:latest bash || true
+	@docker run -ti --rm -u ubuntu -w /home/ubuntu -v $(DATA):/data -v /var/run/docker.sock:/var/run/docker.sock imma/ubuntu:$(UBUNTU_TAG) || true
 
 docker-vm:
-	@docker run -it --privileged --pid=host imma/ubuntu:latest nsenter -t 1 -m -u -n -i sh || true
+	@docker run -it --privileged --pid=host imma/ubuntu:shell nsenter -t 1 -m -u -n -i sh || true
 
 init:
 	$(MAKE) up
