@@ -45,10 +45,9 @@ esac
 export JQ_VERSION=1.5
 export KITCHEN_VERSION=1.21.2
 export KMSAUTH_VERSION="$(lookup_pip kmsauth)"
-export LINKERD_VERSION=1.3.7
+export LINKERD_VERSION=1.4.1
 export NAMERD_VERSION="${LINKERD_VERSION}"
 export LINKERD_TCP_VERSION=0.1.1
-export LXD_VERSION=2.19 # check if the repos have these packages
 export GMSL_VERSION=1.1.7
 export NAMERCTL_VERSION=0.8.6
 export NETDATA_VERSION=1.10.0
