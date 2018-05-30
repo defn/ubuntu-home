@@ -88,6 +88,10 @@ base: dummy
 	rm -f $(DATA)/cache/git/$(PKGSRC_BRANCH).tar.gz
 	cd docker/base && $(MAKE)
 
+base-update:
+	block sync
+	cd work/base && block bootstrap && block stale
+
 full: dummy
 	cd docker/full && env COMPOSE_PROJECT_NAME=$(TIMESTAMP) $(MAKE)
 
