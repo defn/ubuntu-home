@@ -24,10 +24,11 @@ RUN echo "Defaults !requiretty" >> /etc/sudoers
 
 RUN install -d -m 0700 -o ubuntu -g ubuntu /data
 
-COPY bootstrap /bootstrap
-COPY service /service
 ENTRYPOINT ["/service"]
 CMD []
 
+COPY bootstrap /bootstrap
+COPY service /service
+
 USER ubuntu
-RUN /service
+RUN env SERVICE_DONE=/tmp/.done-shell /service

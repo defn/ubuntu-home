@@ -13,8 +13,9 @@ function main {
       curl -s https://github.com/defn.keys
     fi > /home/ubuntu/.ssh/authorized_keys
 
-    if [[ ! -f /tmp/.done-shell ]]; then
-      /bootstrap
+    local pth_done="${SERVICE_DONE:-/etc/hosts}"
+    if [[ ! -f "$pth_done" ]]; then
+      /bootstrap "$pth_done"
     else
       sudo mkdir -p /var/run/sshd
       exec sudo /usr/sbin/sshd -D -o UseDNS=no -o UsePAM=yes -o PasswordAuthentication=no -o UsePrivilegeSeparation=sandbox

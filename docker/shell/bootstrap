@@ -58,7 +58,10 @@ function main {
   if type -P yarn >/dev/null; then
     yarn cache clean
   fi
-  touch /tmp/.done-shell
+
+  if [[ -n "${1:-}" ]]; then
+    touch "$1"
+  fi
 } 
 
 main "$@"

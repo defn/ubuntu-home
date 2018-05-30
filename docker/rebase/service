@@ -6,19 +6,20 @@ function main {
   if [[ "$#" -gt 0 ]]; then
     exec "$@"
   else
-    install -d -o ubuntu -g ubuntu -m 0700 /home/ubuntu/.ssh
-    touch /home/ubuntu/.ssh/authorized_keys
-    chmod 0600 /home/ubuntu/.ssh/authorized_keys
-    chown ubuntu:ubuntu /home/ubuntu/.ssh/authorized_keys
-
+    install -d -m 0700 /home/ubuntu/.ssh
     if [[ -f /data/authorized_keys ]]; then
-      cat /data/authorized_keys
+      install -m 0600 /data/authorized_keys /home/ubuntu/.ssh/authorized_keys
     else
-      curl -s http://169.254.169.254/latest/meta-data/public-keys/0/openssh-key
+      curl -s https://github.com/defn.keys
     fi > /home/ubuntu/.ssh/authorized_keys
 
-    mkdir -p /var/run/sshd
-    exec /usr/sbin/sshd -D -o UseDNS=no -o UsePAM=yes -o PasswordAuthentication=no -o UsePrivilegeSeparation=sandbox
+    local pth_done="${SERVICE_DONE:-/etc/hosts}"
+    if [[ ! -f "$pth_done" ]]; then
+      /bootstrap "$pth_done"
+    else
+      sudo mkdir -p /var/run/sshd
+      exec sudo /usr/sbin/sshd -D -o UseDNS=no -o UsePAM=yes -o PasswordAuthentication=no -o UsePrivilegeSeparation=sandbox
+    fi
   fi
 }
 
