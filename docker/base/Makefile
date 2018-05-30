@@ -18,7 +18,7 @@ make:
 	$(MAKE) make_
 
 make_:
-	while true; do if ssh $(CONTAINER_HOST) true; then break; fi; sleep 1; done
+	while true; do if ssh $(CONTAINER_HOST) ls -d /tmp/.done-base; then break; fi; sleep 1; done
 
 tag:
 	$(MAKE) tag_

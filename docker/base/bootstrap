@@ -34,6 +34,8 @@ function main {
   rm -rf "$WRKOBJDIR"
   rm -rf "$PKGSRCDIR"
   sudo apt-get clean
+
+  touch /tmp/.done-base
 } 
 
 main "$@"
