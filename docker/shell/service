@@ -10,9 +10,8 @@ function main {
     if [[ -f /data/authorized_keys ]]; then
       install -m 0600 /data/authorized_keys /home/ubuntu/.ssh/authorized_keys
     else
-      curl -s http://169.254.169.254/latest/meta-data/public-keys/0/openssh-key
+      curl -s https://github.com/defn.keys
     fi > /home/ubuntu/.ssh/authorized_keys
-    curl -s https://github.com/defn.keys >> /home/ubuntu/.ssh/authorized_keys
 
     if [[ ! -f /tmp/.done-shell ]]; then
       /bootstrap
