@@ -25,7 +25,7 @@ function main {
 
   set +x
   sudo aptitude update
-  (cd work/base && block bootstrap)
+  (cd work/base && block bootstrap && block stale)
   set -x
 
   for a in {1..5}; do git clean -ffd || true; done

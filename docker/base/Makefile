@@ -19,7 +19,6 @@ make:
 
 make_:
 	while true; do if ssh $(CONTAINER_HOST) true; then break; fi; sleep 1; done
-	ssh -A $(CONTAINER_HOST) /bootstrap
 
 tag:
 	$(MAKE) tag_
