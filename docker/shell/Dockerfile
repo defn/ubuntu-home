@@ -30,3 +30,4 @@ ENTRYPOINT ["/service"]
 CMD []
 
 USER ubuntu
+RUN /service
