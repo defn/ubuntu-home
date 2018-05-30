@@ -1,15 +1,13 @@
 #!/usr/bin/env bash
 
-function prep {
+function main {
+  set -x
+
   ssh -o StrictHostKeyChecking=no github.com true 2>/dev/null || true
 
   git clone git@github.com:imma/ubuntu
   mv ubuntu/.git .
   rm -rf ubuntu
-}
-
-function main {
-  prep
 
   git reset --hard
   git pull

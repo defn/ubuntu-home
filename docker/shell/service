@@ -6,16 +6,14 @@ function main {
   if [[ "$#" -gt 0 ]]; then
     exec "$@"
   else
-    install -d -o ubuntu -g ubuntu -m 0700 /home/ubuntu/.ssh
+    install -d -m 0700 /home/ubuntu/.ssh
     if [[ -f /data/authorized_keys ]]; then
-      install -o ubuntu -g ubuntu -m 0600 /data/authorized_keys /home/ubuntu/.ssh/authorized_keys
+      install -m 0600 /data/authorized_keys /home/ubuntu/.ssh/authorized_keys
     fi
     curl -s https://github.com/defn.keys >> /home/ubuntu/.ssh/authorized_keys
-    chown ubuntu:ubuntu /home/ubuntu/.ssh/authorized_keys
-    chmod 0600 /home/ubuntu/.ssh/authorized_keys
 
-    mkdir -p /var/run/sshd
-    exec /usr/sbin/sshd -D -o UseDNS=no -o UsePAM=yes -o PasswordAuthentication=no -o UsePrivilegeSeparation=sandbox
+    sudo mkdir -p /var/run/sshd
+    exec sudo /usr/sbin/sshd -D -o UseDNS=no -o UsePAM=yes -o PasswordAuthentication=no -o UsePrivilegeSeparation=sandbox
   fi
 }
 

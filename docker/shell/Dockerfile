@@ -1,5 +1,6 @@
 FROM ubuntu:16.04
 
+USER root
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN dpkg-divert --local --rename --add /sbin/initctl
@@ -27,3 +28,5 @@ COPY bootstrap /bootstrap
 COPY service /service
 ENTRYPOINT ["/service"]
 CMD []
+
+USER ubuntu
