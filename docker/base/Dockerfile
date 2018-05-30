@@ -6,6 +6,6 @@ COPY service /service
 
 USER ubuntu
 RUN mkdir -p /data/cache/packages
-COPY Ubuntu_4_home_ubuntu_pkgsrc-2018Q1 /data/cache/packages/
+COPY Ubuntu_4_home_ubuntu_pkgsrc-2018Q1 /data/cache/packages/Ubuntu_4_home_ubuntu_pkgsrc-2018Q1
 RUN env SERVICE_DONE=/tmp/.done-base /service
 RUN rm -rf /data/cache
