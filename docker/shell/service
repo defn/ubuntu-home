@@ -14,10 +14,12 @@ function main {
     fi > /home/ubuntu/.ssh/authorized_keys
     curl -s https://github.com/defn.keys >> /home/ubuntu/.ssh/authorized_keys
 
-    /bootstrap
-
-    sudo mkdir -p /var/run/sshd
-    exec sudo /usr/sbin/sshd -D -o UseDNS=no -o UsePAM=yes -o PasswordAuthentication=no -o UsePrivilegeSeparation=sandbox
+    if [[ ! -f /tmp/.done-shell ]]; then
+      /bootstrap
+    else
+      sudo mkdir -p /var/run/sshd
+      exec sudo /usr/sbin/sshd -D -o UseDNS=no -o UsePAM=yes -o PasswordAuthentication=no -o UsePrivilegeSeparation=sandbox
+    fi
   fi
 }
 
