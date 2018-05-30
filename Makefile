@@ -83,7 +83,7 @@ shell: dummy
 	cd docker/shell && env COMPOSE_PROJECT_NAME=$(TIMESTAMP) $(MAKE)
 
 base: dummy
-	runmany 'docker rmi imma/ubuntu:$$1 || true' base latest rebase1 full1 base1
+	runmany 'docker rmi -f imma/ubuntu:$$1 || true' base latest rebase1 full1 base1
 	runmany 'docker system prune -f || true' 1 2 3
 	rm -f $(DATA)/cache/git/$(PKGSRC_BRANCH).tar.gz
 	cd docker/base && $(MAKE)
