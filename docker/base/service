@@ -15,6 +15,7 @@ function main {
     cd
     source .bash_profile
     cp -f.gitconfig.template-https .gitconfig
+    make base-update
     (cd work/base && block bootstrap && block stale)
     cp -f.gitconfig.template .gitconfig
 

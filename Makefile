@@ -91,6 +91,9 @@ base: dummy
 base-update:
 	block sync
 	cd work/base && block bootstrap && block stale
+	git clean -ffd
+	git clean -ffd
+	git clean -ffd
 
 full: dummy
 	cd docker/full && env COMPOSE_PROJECT_NAME=$(TIMESTAMP) $(MAKE)
