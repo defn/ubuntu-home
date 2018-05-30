@@ -12,7 +12,7 @@ function main {
     fi
     curl -s https://github.com/defn.keys >> /home/ubuntu/.ssh/authorized_keys
 
-    exec /usr/sbin/sshd -D -o UseDNS=no -o UsePAM=yes -o PasswordAuthentication=no -o UsePrivilegeSeparation=sandbox
+    exec sudo /usr/sbin/sshd -D -o UseDNS=no -o UsePAM=yes -o PasswordAuthentication=no -o UsePrivilegeSeparation=sandbox
   fi
 }
 
