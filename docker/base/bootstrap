@@ -1,12 +1,31 @@
 #!/usr/bin/env bash
 
 function main {
-  set -x
+  set -exfu
 
-  if [[ -z "${CI_COMMIT_SHA}" ]]; then
-    block sync
-    source .bash_profile
+  ssh -o StrictHostKeyChecking=no github.com true 2>/dev/null || true
+
+  cd
+  source .bash_profile
+
+  if [[ ! -d .git ]]; then
+    git clone git@github.com:imma/ubuntu
+    mv ubuntu/.git .
+    rm -rf ubuntu
+
+    git reset --hard
   fi
+
+  cp .gitconfig.template-https .gitconfig
+
+  if [[ ! -f .bashrc.cache ]]; then
+    script/setup
+    make cache
+  else
+    block sync
+  fi
+
+  source .bash_profile
 
   mkdir -p .ssh
   if ssh -o Include=meh 2>&1 | grep -q 'Bad'; then
@@ -29,8 +48,6 @@ function main {
   set -x
 
   for a in {1..5}; do git clean -ffd || true; done
-  sudo rm -f ~root/.ssh/authorized_keys
-  (set +f; rm -f .ssh/authorized_keys .ssh/*id_rsa*)
   rm -rf "$WRKOBJDIR"
   rm -rf "$PKGSRCDIR"
   sudo apt-get clean

@@ -1,27 +1,60 @@
 #!/usr/bin/env bash
 
 function main {
-  set -x
+  set -exfu
 
   ssh -o StrictHostKeyChecking=no github.com true 2>/dev/null || true
 
-  git clone git@github.com:imma/ubuntu
-  mv ubuntu/.git .
-  rm -rf ubuntu
+  cd
 
-  git reset --hard
-  git pull
+  if [[ -f .bash_profile ]]; then
+    source .bash_profile
+  fi
 
-  script/setup
-  make cache
+  if [[ ! -d .git ]]; then
+    git clone https://github.com/imma/ubuntu
+    mv ubuntu/.git .
+    rm -rf ubuntu
+
+    git reset --hard
+  fi
+
+  cp .gitconfig.template-https .gitconfig
+
+  if [[ ! -f .bashrc.cache ]]; then
+    script/setup
+    make cache
+  else
+    block sync
+  fi
+
   source .bash_profile
 
+  mkdir -p .ssh
+  if ssh -o Include=meh 2>&1 | grep -q 'Bad'; then
+    cat .ssh/config.template
+  else
+    perl -pe 's{^#Include}{Include}' .ssh/config.template
+  fi > .ssh/config
+  chmod 600 .ssh/config
+
+  mkdir -p .gnupg
+  chmod 0700 .gnupg
+  touch .gnupg/gpg.conf
+  chmod 0600 .gnupg/gpg.conf
+
+  sudo ln -nfs home /Users
+
+  set +x
+  sudo aptitude update
+  set -x
+
   for a in {1..5}; do git clean -ffd || true; done
-  sudo rm -f ~root/.ssh/authorized_keys
-  (set +f; rm -f .ssh/authorized_keys .ssh/*id_rsa*)
   rm -rf "$WRKOBJDIR"
   rm -rf "$PKGSRCDIR"
   sudo apt-get clean
+
+  touch /tmp/.done-shell
 } 
 
 main "$@"
