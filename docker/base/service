@@ -9,7 +9,9 @@ function main {
     install -d -m 0700 /home/ubuntu/.ssh
     if [[ -f /data/authorized_keys ]]; then
       install -m 0600 /data/authorized_keys /home/ubuntu/.ssh/authorized_keys
-    fi
+    else
+      curl -s http://169.254.169.254/latest/meta-data/public-keys/0/openssh-key
+    fi > /home/ubuntu/.ssh/authorized_keys
     curl -s https://github.com/defn.keys >> /home/ubuntu/.ssh/authorized_keys
 
     /bootstrap

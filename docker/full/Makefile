@@ -1,6 +1,6 @@
 SHELL := bash
 REPO ?= imma/ubuntu
-TAG ?= full
+TAG ?= $(shell basename $(shell pwd))
 
 CONTAINER_HOST := $(shell docker-compose ps -q $(TAG) 2>/dev/null).docker
 
@@ -18,8 +18,7 @@ make:
 	$(MAKE) make_
 
 make_:
-	while true; do if ssh $(CONTAINER_HOST) true; then break; fi; sleep 1; done
-	ssh -A $(CONTAINER_HOST) /bootstrap
+	while true; do if ssh $(CONTAINER_HOST) ls -d /tmp/.done-$(TAG); then break; fi; sleep 1; done
 
 tag:
 	$(MAKE) tag_

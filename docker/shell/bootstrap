@@ -47,13 +47,17 @@ function main {
 
   set +x
   sudo aptitude update
+  make cache
+  source .bash_profile
   set -x
 
   for a in {1..5}; do git clean -ffd || true; done
   rm -rf "$WRKOBJDIR"
   rm -rf "$PKGSRCDIR"
   sudo apt-get clean
-
+  if type -P yarn >/dev/null; then
+    yarn cache clean
+  fi
   touch /tmp/.done-shell
 } 
 
