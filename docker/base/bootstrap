@@ -6,10 +6,13 @@ function main {
   ssh -o StrictHostKeyChecking=no github.com true 2>/dev/null || true
 
   cd
+
+  if [[ -f .bash_profile ]]; then
   source .bash_profile
+  fi
 
   if [[ ! -d .git ]]; then
-    git clone git@github.com:imma/ubuntu
+    git clone https://github.com/imma/ubuntu
     mv ubuntu/.git .
     rm -rf ubuntu
 
