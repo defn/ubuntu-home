@@ -89,6 +89,7 @@ base: dummy
 	cd docker/base && $(MAKE)
 
 base-update:
+	rm -f /tmp/.done
 	block sync
 	cd work/base && block bootstrap && block stale
 	git clean -ffd
