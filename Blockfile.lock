@@ -7,11 +7,10 @@ block          ${BLOCK_PATH}/block          git@github.com:imma/block          e
 ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  e68120a1fe79d0fd010137913903936dd873b101 master 
 pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         9dffab6e7d0db608330dc8ab30d80ccd5f92c81b master 
 homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
-habitat        ${BLOCK_PATH}/habitat        git@github.com:imma/habitat        bf3aaf59713e98587a9351654ef94482225a5f60 master 
 cache          ${BLOCK_PATH}/cache          git@github.com:imma/cache          3efaf1fe5169eda2906806a6ab84f11ea95b0896 master 
 curl           ${BLOCK_PATH}/curl           git@github.com:imma/curl           bb57a7cea3f29a92b222fe7afe8c1e9072804ff8 master 
 packer         ${BLOCK_PATH}/packer         git@github.com:imma/packer         12e9513e080c891ba3fb4414fb48246c7f3fefce master 
-pkg            ${BLOCK_PATH}/pkg            git@github.com:imma/pkg            17aa0408651715cfae3fa136106847ff20adc479 master 
+pkg            ${BLOCK_PATH}/pkg            git@github.com:imma/pkg            f6ede279bca2c0a0a59c5bee0108629e780ef24c master 
 sshd           ${BLOCK_PATH}/sshd           git@github.com:imma/sshd           31dc1a07c1e52fa898d015d07b7741d3adbb85ca master 
 rbenv          ${BLOCK_PATH}/rbenv          git@github.com:imma/rbenv          ab40ef6e1a88a5c85d238107be8d178aad9dbd13 master 
 ruby           ${BLOCK_PATH}/ruby           git@github.com:imma/ruby           48614524dccd033d52863e122ee7b5322ca431eb master 
@@ -116,4 +115,5 @@ hugo           ${BLOCK_PATH}/hugo           git@github.com:imma/hugo           4
 drone-theme    ${BLOCK_PATH}/drone-theme    git@github.com:imma/drone-theme    604c0c5078d90bf0c42b820ac8fb894abcbcaab2 master 
 ascii          ${BLOCK_PATH}/ascii          git@github.com:imma/ascii          2540083d5e282506d8776b74dcd21c7c2aa7774d master 
 docs           ${BLOCK_PATH}/docs           git@github.com:imma/docs           bc3588bfecdfc6c7fd558093184700faf2f92fc8 master 
-base           ${BLOCK_PATH}/base           git@github.com:imma/base           bf66eada3e16d695b5ffca0a13c97befc8952e56 master 
+habitat        ${BLOCK_PATH}/habitat        git@github.com:imma/habitat        bf3aaf59713e98587a9351654ef94482225a5f60 master 
+base           ${BLOCK_PATH}/base           git@github.com:imma/base           cf8e11692f684bc23084cdecadd5bbb7cb3f7cf5 master 
