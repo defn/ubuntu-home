@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:bionic
 
 USER root
 ENV DEBIAN_FRONTEND noninteractive
@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN dpkg-divert --local --rename --add /sbin/initctl
 RUN ln -sf /bin/true /sbin/initctl
 
-RUN apt-get update && apt-get install -y openssh-server curl lsb-release sudo make locales python build-essential aptitude rsync jq netcat software-properties-common python-software-properties net-tools dnsmasq unzip perl ruby language-pack-en vim man screen runit nfs-common portmap gettext-base libffi-dev libssl-dev libreadline-dev zlib1g-dev libxml2-dev libxslt1-dev autoconf automake libtool
+RUN apt-get update && apt-get install -y openssh-server curl lsb-release sudo make locales python build-essential aptitude rsync jq netcat software-properties-common net-tools dnsmasq unzip perl ruby language-pack-en vim man screen runit nfs-common portmap gettext-base libffi-dev libssl-dev libreadline-dev zlib1g-dev libxml2-dev libxslt1-dev autoconf automake libtool
 RUN add-apt-repository -y ppa:git-core/ppa && apt-get update && apt-get install -y git
 RUN apt-get update && apt-get upgrade -y
 

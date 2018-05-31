@@ -168,6 +168,7 @@ tmux-client*log
 !.ssh/rc
 /secret
 /pkgsrc*
+/current
 *secret*
 /.vault*
 /.clojure*
