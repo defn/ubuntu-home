@@ -472,3 +472,6 @@
 [submodule "work/base"]
 	path = work/base
 	url = https://github.com/imma/base
+[submodule "work/bit"]
+	path = work/bit
+	url = https://github.com/imma/bit

@@ -64,7 +64,8 @@
       "docs"
     ],
     [
-      "base"
+      "base",
+      "bit"
     ]
   ],
   "versions": {}
