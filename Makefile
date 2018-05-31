@@ -83,7 +83,7 @@ shell: dummy
 	cd docker/shell && $(MAKE)
 
 base: dummy
-	runmany 'docker rmi -f imma/ubuntu:$$1 || true' base latest rebase1 full1 base1
+	runmany 'docker rmi -f imma/ubuntu:$$1 || true' base base1
 	runmany 'docker system prune -f || true' 1 2 3
 	rm -f $(DATA)/cache/git/$(PKGSRC_BRANCH).tar.gz
 	cd docker/base && $(MAKE)
@@ -102,10 +102,10 @@ rebase: dummy
 	cd docker/rebase && $(MAKE)
 
 push:
-	runmany 'docker push imma/ubuntu:$$1' shell base full latest
+	runmany 'docker push imma/ubuntu:$$1' shell base
 
 pull:
-	runmany 'docker pull imma/ubuntu:$$1' shell base full latest
+	runmany 'docker pull imma/ubuntu:$$1' shell base
 
 docs:
 	mkdir -p content
