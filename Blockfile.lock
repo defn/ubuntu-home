@@ -108,7 +108,7 @@ martyn         ${BLOCK_PATH}/martyn         git@github.com:imma/martyn         a
 terraform      ${BLOCK_PATH}/terraform      git@github.com:imma/terraform      2404cf527d4d29c0ad1888e35e9b2121ae3cc05f master 
 wtf            ${BLOCK_PATH}/wtf            git@github.com:imma/wtf            1cf5e2360c460488d1a12660eb1cb0e13784ea38 master 
 fogg-cli       ${BLOCK_PATH}/fogg-cli       git@github.com:imma/fogg-cli       3c656f1837eab93be8456db8b8266d057318837d master 
-fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           c768c4b0ae08d6a83ef01784ac634357eefcb4a3 master 
+fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           eadb45784ac83ccc809e62d429a43c8c5d772a0f master 
 fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        5cbe082b3883e38b1db83cece0d6462d19bd94e6 master 
 imma-tf        ${BLOCK_PATH}/imma-tf        git@github.com:imma/imma-tf        882032b69843604f957a31f0a70261dbf13e38b4 master 
 hugo           ${BLOCK_PATH}/hugo           git@github.com:imma/hugo           4c3f5e1710e0b8f390f75044015daaf7e18ecc64 master 
