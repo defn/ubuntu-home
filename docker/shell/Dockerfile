@@ -24,7 +24,9 @@ RUN echo "Defaults !requiretty" >> /etc/sudoers
 
 RUN install -d -m 0700 -o ubuntu -g ubuntu /data
 
-ENTRYPOINT ["/service"]
+RUN curl -o /tini https://github.com/krallin/tini/releases/download/v0.18.0/tini-static-amd64
+RUN chmod 755 /tini
+ENTRYPOINT ["/tini", "--", "/service"]
 CMD []
 
 COPY bootstrap /bootstrap
