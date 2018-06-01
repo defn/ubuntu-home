@@ -117,4 +117,4 @@ ascii          ${BLOCK_PATH}/ascii          git@github.com:imma/ascii          2
 docs           ${BLOCK_PATH}/docs           git@github.com:imma/docs           bc3588bfecdfc6c7fd558093184700faf2f92fc8 master 
 habitat        ${BLOCK_PATH}/habitat        git@github.com:imma/habitat        a879474f5b9539bf7f796d9e7ab7cd02868be209 master 
 base           ${BLOCK_PATH}/base           git@github.com:imma/base           2162915ceafb77fe63f32f0913b95328b19c978c master 
-bit            ${BLOCK_PATH}/bit            git@github.com:imma/bit            672ed48fe76e1f56cf69aa5936db7356b14251f8 master 
+bit            ${BLOCK_PATH}/bit            git@github.com:imma/bit            398b0b3872b44cef67c5c6b832a30fa06996608b master 
