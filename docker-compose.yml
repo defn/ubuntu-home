@@ -11,4 +11,3 @@ services:
     volumes:
       - ${DATA}:/data
       - /var/run/docker.sock:/var/run/docker.sock
-      - /tmp/work:/tmp/work
