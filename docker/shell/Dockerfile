@@ -29,6 +29,7 @@ RUN chmod 755 /tini
 ENTRYPOINT ["/tini", "--", "/service"]
 CMD []
 
+USER root
 COPY bootstrap /bootstrap
 COPY service /service
 

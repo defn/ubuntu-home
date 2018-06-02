@@ -17,6 +17,7 @@ function main {
     if [[ ! -f "$pth_done" ]]; then
       /bootstrap "$pth_done"
     else
+      /bootstrap "$pth_done"
       sudo mkdir -p /var/run/sshd
       exec sudo /usr/sbin/sshd -D -o UseDNS=no -o UsePAM=yes -o PasswordAuthentication=no -o UsePrivilegeSeparation=sandbox
     fi

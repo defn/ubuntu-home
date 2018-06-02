@@ -24,10 +24,9 @@ function main {
   if [[ ! -f .bashrc.cache ]]; then
     script/setup
     make cache
-  else
-    block sync
   fi
 
+  block sync
   source .bash_profile
 
   mkdir -p .ssh
