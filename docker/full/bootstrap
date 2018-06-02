@@ -46,7 +46,7 @@ function main {
 
   set +x
   sudo aptitude update
-  script/bootstrap
+  (cd && block bootstrap && block stale)
   make cache
   source .bash_profile
   set -x
