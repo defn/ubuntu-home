@@ -199,5 +199,4 @@ tmux-client*log
 /.pkg-cache
 /.cookiecutter_replay/
 /.ar?rc
-/data/*
-!/data/.gitignore
+/data
