@@ -3,4 +3,4 @@ REPO ?= imma/ubuntu
 TAG ?= $(shell basename $(shell pwd))
 
 build:
-	docker build -t $(REPO):$(TAG) .
+	docker build --no-cache -t $(REPO):$(TAG) .
