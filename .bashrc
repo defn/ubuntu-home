@@ -22,8 +22,6 @@ function bashrc {
 }
 
 function home_bashrc {
-  local shome="$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"
-
   export BOARD_PATH="${shome}"
   export CALLING_PATH="${CALLING_PATH:-"$PATH"}"
   export PATH="${CALLING_PATH}"
@@ -34,6 +32,8 @@ function home_bashrc {
 }
 
 function bashrc_main {
+  local shome="$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"
+
   umask 0022
   home_bashrc
 
@@ -47,20 +47,24 @@ function bashrc_main {
   fi
 
   set +f
+
+  if [[ "${TERM:-}" == "screen" ]]; then
+    export TERM="screen-256color"
+  fi
+
+  if [[ -n "${TMUX:-}" ]]; then
+    export SSH_AUTH_SOCK="${BOARD_PATH}/.ssh/ssh_auth_sock"
+
+    case "${CUE_SCHEME:-}" in
+      slight|sdark)
+        "${CUE_SCHEME}"
+        ;;
+    esac
+  fi
+
+  if [[ -d "$shome/org/bin" ]]; then
+    PATH="$PATH:$shome/org/bin"
+  fi
 }
 
 bashrc_main "$@"
-
-if [[ "${TERM:-}" == "screen" ]]; then
-  export TERM="screen-256color"
-fi
-
-if [[ -n "${TMUX:-}" ]]; then
-  export SSH_AUTH_SOCK="${BOARD_PATH}/.ssh/ssh_auth_sock"
-
-  case "${CUE_SCHEME:-}" in
-    slight|sdark)
-      "${CUE_SCHEME}"
-      ;;
-  esac
-fi
