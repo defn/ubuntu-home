@@ -475,3 +475,6 @@
 [submodule "work/bit"]
 	path = work/bit
 	url = https://github.com/imma/bit
+[submodule "work/shell"]
+	path = work/shell
+	url = https://github.com/imma/shell
