@@ -40,6 +40,7 @@ docker-vm:
 
 init:
 	$(MAKE) up
+	docker-compose exec shell ln -nfs /data /home/ubuntu 2>/dev/null || true
 	$(MAKE) tx-init $(TMUX_SESSION)
 
 up:
