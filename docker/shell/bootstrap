@@ -26,6 +26,7 @@ function main {
     make cache
   fi
 
+  source .bash_profile
   block sync
   source .bash_profile
 
