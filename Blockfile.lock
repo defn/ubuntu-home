@@ -64,7 +64,8 @@ docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 8
 docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         6957a4666d74968964d4e5abea7ab0b7316d541f master 
 nomad          ${BLOCK_PATH}/nomad          git@github.com:imma/nomad          1dda3c0ca577e43c1e6b1e6d0bdfbfcd1dc9c6f3 master 
 ecr            ${BLOCK_PATH}/ecr            git@github.com:imma/ecr            25f20f65668a1f7f48f0879ca635509a5999e2c6 master 
-lambda         ${BLOCK_PATH}/lambda         git@github.com:imma/lambda         3419147204ab209b7fcfe304302ca434e778f5c0 master 
+apex           ${BLOCK_PATH}/apex           git@github.com:imma/apex           3de0d184fb755c94beb63f70ce00c013bbbd6ec0 master 
+lambda         ${BLOCK_PATH}/lambda         git@github.com:imma/lambda         7d73d3b99d51a47d769b62e97f2aa135452d4b4b master 
 aws-vault      ${BLOCK_PATH}/aws-vault      git@github.com:imma/aws-vault      b45b3394f8bc7108029ee08ba8e38565801db004 master 
 chamber        ${BLOCK_PATH}/chamber        git@github.com:imma/chamber        90e2e62f77cd5d6c973ad61d9796e21d76b263a2 master 
 awless         ${BLOCK_PATH}/awless         git@github.com:imma/awless         8d635d18f7ddf97fdb6da8afdd802197dd161cbc master 
