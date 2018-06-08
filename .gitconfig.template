@@ -10,6 +10,6 @@
   insteadOf = https://github.com/
   insteadOf = ssh://git@github.com/
   insteadOf = git@github.com:
-[credential]
-	helper = !aws codecommit credential-helper $@
-	UseHttpPath = true
+[credential "https://git-codecommit.*.amazonaws.com"]
+  helper = !aws codecommit credential-helper $@ 
+  UseHttpPath = true
