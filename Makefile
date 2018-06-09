@@ -1,17 +1,17 @@
 SHELL = bash
 TIMESTAMP = $(shell date +%s)
 
-ifeq (tx-init,$(firstword $(MAKECMDGOALS)))
-TMUX_SESSION := $(strip $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS)))
-$(eval $(TMUX_SESSION):;@:)
-endif
-
 ifeq (init,$(firstword $(MAKECMDGOALS)))
 TMUX_SESSION := $(strip $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS)))
 $(eval $(TMUX_SESSION):;@:)
 endif
 
-ifeq (tx,$(firstword $(MAKECMDGOALS)))
+ifeq (sync,$(firstword $(MAKECMDGOALS)))
+TMUX_SESSION := $(strip $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS)))
+$(eval $(TMUX_SESSION):;@:)
+endif
+
+ifeq (attach,$(firstword $(MAKECMDGOALS)))
 TMUX_SESSION := $(strip $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS)))
 $(eval $(TMUX_SESSION):;@:)
 endif
@@ -40,21 +40,22 @@ docker-vm:
 
 init:
 	$(MAKE) up
-	docker-compose exec shell ln -nfs /data /home/ubuntu 2>/dev/null || true
-	$(MAKE) tx-init $(TMUX_SESSION)
+	$(MAKE) sync
+	$(MAKE) attach $(TMUX_SESSION)
+
+sync:
+	tx sync $(shell docker-compose ps -q shell).docker
+
+attach:
+	tx attach $(shell docker-compose ps -q shell).docker $(TMUX_SESSION)
 
 up:
 	mkdir -p b/devshell/.ssh/
 	rsync -ia .ssh/authorized_keys b/devshell/.ssh/
 	docker-compose down
 	docker-compose up -d --force-recreate --build
+	docker-compose exec shell ln -nfs /data /home/ubuntu 2>/dev/null || true
 	docker inspect ubuntu_shell_1 | jq -r '.[] | .NetworkSettings.Networks.bridge.GlobalIPv6Address'
-
-tx-init:
-	tx init $(shell docker-compose ps -q shell).docker $(TMUX_SESSION)
-
-tx:
-	tx $(shell docker-compose ps -q shell).docker $(TMUX_SESSION)
 
 down:
 	docker-compose down
@@ -62,10 +63,6 @@ down:
 cache:
 	source work/ubuntu-config/script/profile && source work/block/script/profile && require && block gen profile > .bashrc.cache.1
 	mv -f .bashrc.cache.1 .bashrc.cache
-
-sync:
-	block sync fast
-	$(MAKE) cache
 
 update-modules:
 	block list | awk '/\/work\// {print $$3, $$2}' | perl -pe 's{[^\s]+?/work/}{work/}' | grep -v 'work/ubuntu' | runmany 1 2 'git update-index --cacheinfo 160000 $$(cd $(BLOCK_PATH)/../$$2 && git rev-parse HEAD) $$2'
