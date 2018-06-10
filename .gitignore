@@ -200,3 +200,4 @@ tmux-client*log
 /.cookiecutter_replay/
 /.ar?rc
 /data
+/.tsh
