@@ -484,3 +484,6 @@
 [submodule "work/usr"]
 	path = work/usr
 	url = https://github.com/imma/usr
+[submodule "work/teleport"]
+	path = work/teleport
+	url = https://github.com/imma/teleport
