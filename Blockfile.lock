@@ -119,3 +119,4 @@ docs           ${BLOCK_PATH}/docs           git@github.com:imma/docs           b
 habitat        ${BLOCK_PATH}/habitat        git@github.com:imma/habitat        a879474f5b9539bf7f796d9e7ab7cd02868be209 master 
 base           ${BLOCK_PATH}/base           git@github.com:imma/base           bd97242d4913861960623082a7ae949cb981ac6a master 
 bit            ${BLOCK_PATH}/bit            git@github.com:imma/bit            398b0b3872b44cef67c5c6b832a30fa06996608b master 
+usr            ${BLOCK_PATH}/usr            git@github.com:imma/usr            3ce20d48046b527bf4dbc638297481343cd1f18e master 

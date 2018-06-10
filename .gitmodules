@@ -481,3 +481,6 @@
 [submodule "work/apex"]
 	path = work/apex
 	url = https://github.com/imma/apex
+[submodule "work/usr"]
+	path = work/usr
+	url = https://github.com/imma/usr

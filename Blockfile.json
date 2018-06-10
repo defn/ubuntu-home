@@ -65,7 +65,8 @@
     ],
     [
       "base",
-      "bit"
+      "bit",
+      "usr"
     ]
   ],
   "versions": {}
