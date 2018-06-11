@@ -121,5 +121,6 @@ base           ${BLOCK_PATH}/base           git@github.com:imma/base           d
 bit            ${BLOCK_PATH}/bit            git@github.com:imma/bit            398b0b3872b44cef67c5c6b832a30fa06996608b master 
 usr            ${BLOCK_PATH}/usr            git@github.com:imma/usr            3ce20d48046b527bf4dbc638297481343cd1f18e master 
 vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        cd64854c060729ba807ff28f7c9c86d8c977c850 master 
-facts          ${BLOCK_PATH}/facts          git@github.com:imma/facts          
+ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        1bbf78a1d31608fd2ff64e3e768062e7cda49d34 master 
+facts          ${BLOCK_PATH}/facts          git@github.com:imma/facts          9c69d9500281b4cafffaf5834e4d096ab4e90dab master 
 virtualbox     ${BLOCK_PATH}/virtualbox     git@github.com:imma/virtualbox     ada474bb70ad52b40b26fd6306cfd5e0bc5c774d master 

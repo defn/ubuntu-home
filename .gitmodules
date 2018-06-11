@@ -490,3 +490,6 @@
 [submodule "work/virtualbox"]
 	path = work/virtualbox
 	url = https://github.com/imma/virtualbox
+[submodule "work/ansible"]
+	path = work/ansible
+	url = https://github.com/imma/ansible
