@@ -65,8 +65,11 @@
     [
       "base",
       "bit",
-      "usr",
-      "vagrant"
+      "usr"
+    ],
+    [
+      "vagrant",
+      "virtualbox"
     ]
   ],
   "versions": {}

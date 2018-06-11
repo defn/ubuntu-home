@@ -487,3 +487,6 @@
 [submodule "work/vagrant"]
 	path = work/vagrant
 	url = https://github.com/imma/vagrant
+[submodule "work/virtualbox"]
+	path = work/virtualbox
+	url = https://github.com/imma/virtualbox
