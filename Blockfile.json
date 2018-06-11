@@ -55,7 +55,6 @@
       "cookiecutter"
     ],
     [
-      "martyn",
       "fogg",
       "fogg-tf",
       "imma-tf"
@@ -66,7 +65,8 @@
     [
       "base",
       "bit",
-      "usr"
+      "usr",
+      "vagrant"
     ]
   ],
   "versions": {}

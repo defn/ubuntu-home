@@ -460,9 +460,6 @@
 [submodule "work/node-exe"]
 	path = work/node-exe
 	url = https://github.com/imma/node-exe
-[submodule "work/martyn"]
-	path = work/martyn
-	url = https://github.com/imma/martyn
 [submodule "work/kitchen"]
 	path = work/kitchen
 	url = https://github.com/imma/kitchen
@@ -487,3 +484,6 @@
 [submodule "work/teleport"]
 	path = work/teleport
 	url = https://github.com/imma/teleport
+[submodule "work/vagrant"]
+	path = work/vagrant
+	url = https://github.com/imma/vagrant
