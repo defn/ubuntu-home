@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
 
 function main {
+  sudo yum install -y gnupg2 gnupg2-smime tmux irssi jq || true
+  sudo apt-get install -y libpcsclite1 pcscd pcsc-tools tmux irssi jq || true
+
   mv ubuntu/.git .
   rm -rf ubuntu
   git reset --hard
   script/setup
   make cache
   cp .gitconfig.template .gitconfig
-  sudo yum install -y gnupg2 gnupg2-smime tmux irssi
-  tmux
 }
 
 main "$@"
