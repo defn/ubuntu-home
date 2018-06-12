@@ -4,7 +4,7 @@ function bash_main {
     shome="$HOME"
   fi
 
-  unset BUNDLER_ORIG_BUNDLE_GEMFILE GEM_HOME BUNDLE_GEMFILE RUBYOPT
+  unset BUNDLER_ORIG_BUNDLE_GEMFILE GEM_HOME BUNDLE_GEMFILE RUBYOPT GEM_HOME 
 
   source "$shome/.bashrc"
 
