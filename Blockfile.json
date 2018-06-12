@@ -1,7 +1,8 @@
 {
   "require": [
     [
-      "ubuntu-config"
+      "ubuntu-config",
+      "runtime"
     ],
     [
       "fart",
@@ -69,7 +70,6 @@
     [
       "vagrant",
       "virtualbox"
-    ]
-  ],
+    ] ],
   "versions": {}
 }
