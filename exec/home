@@ -3,11 +3,15 @@
 function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
-  pushd "$shome/work/block" >/dev/null
-  source script/profile ''
-  require
-  popd >/dev/null
-  require
+  if [[ -f ".bashrc.cache" ]]; then
+    source .bash_profile
+  else
+    pushd "$shome/work/block" >/dev/null
+    source script/profile ''
+    require
+    popd >/dev/null
+    require
+  fi
   exec "${BLOCK_PATH}/home/bin/home" "$@"
 }
 
