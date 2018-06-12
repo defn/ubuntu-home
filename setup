@@ -2,7 +2,7 @@
 
 function main {
   sudo yum install -y gnupg2 gnupg2-smime tmux irssi jq unzip || true
-  sudp apt-get update || true
+  sudo apt-get update || true
   sudo apt-get install -y libpcsclite1 pcscd pcsc-tools tmux irssi jq unzip g++ || true
 
   mv ubuntu/.git .
