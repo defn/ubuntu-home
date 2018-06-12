@@ -1,8 +1,7 @@
 {
   "require": [
     [
-      "ubuntu-config",
-      "runtime"
+      "ubuntu-config"
     ],
     [
       "fart",
