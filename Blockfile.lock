@@ -5,7 +5,7 @@ sub            ${BLOCK_PATH}/sub            git@github.com:imma/sub            d
 runmany        ${BLOCK_PATH}/runmany        git@github.com:imma/runmany        d8015045361fbad900ea577bd8ae6680bb3e0176 master 
 block          ${BLOCK_PATH}/block          git@github.com:imma/block          eb97dc777632c0e9955ffb9a5de7352d81413743 master 
 ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  e68120a1fe79d0fd010137913903936dd873b101 master 
-pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         0a036132daa252b5a926024b008542d5f4ff684e master 
+pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         edeb02f8508d407dd47f5394da57b42ce5ebf53e master 
 homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
 cache          ${BLOCK_PATH}/cache          git@github.com:imma/cache          3efaf1fe5169eda2906806a6ab84f11ea95b0896 master 
 curl           ${BLOCK_PATH}/curl           git@github.com:imma/curl           bb57a7cea3f29a92b222fe7afe8c1e9072804ff8 master 
