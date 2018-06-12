@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function main {
-  set -exfu
+  set -efu
 
   ssh -o StrictHostKeyChecking=no github.com true 2>/dev/null || true
 
@@ -44,12 +44,10 @@ function main {
 
   sudo ln -nfs home /Users
 
-  set +x
   sudo aptitude update
   (cd work/base && block bootstrap && block stale)
   make cache
   source .bash_profile
-  set -x
 
   for a in {1..5}; do git clean -ffd || true; done
   rm -rf "$WRKOBJDIR"
