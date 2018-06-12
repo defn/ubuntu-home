@@ -201,3 +201,4 @@ tmux-client*log
 /.ar?rc
 /data
 /.tsh
+*.log
