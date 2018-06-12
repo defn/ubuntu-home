@@ -49,7 +49,7 @@ runit          ${BLOCK_PATH}/runit          git@github.com:imma/runit          e
 service        ${BLOCK_PATH}/service        git@github.com:imma/service        ad1258db19c799667f1cfe368e936d87c2f720b4 master 
 htop           ${BLOCK_PATH}/htop           git@github.com:imma/htop           aa24067a87c228300f1f1041b5706aef672b199f master 
 ssm            ${BLOCK_PATH}/ssm            git@github.com:imma/ssm            af9b303d6cca2c7113de8ea025366e1fe9da36bb master 
-sysadmin       ${BLOCK_PATH}/sysadmin       git@github.com:imma/sysadmin       2ce110b70751b142c565b87b0ce091e6ac933361 master 
+sysadmin       ${BLOCK_PATH}/sysadmin       git@github.com:imma/sysadmin       64d881919a7ca3533203c03a00c53ce34f52a983 master 
 make           ${BLOCK_PATH}/make           git@github.com:imma/make           bc396044ec0c5a3d6c617f71084d0318bde10b3c master 
 consul         ${BLOCK_PATH}/consul         git@github.com:imma/consul         60a972888fef1a940d07aba94eeb1a3c1814cc6c master 
 consul-agent   ${BLOCK_PATH}/consul-agent   git@github.com:imma/consul-agent   d0b766a2b7f3b04469afd4ed9be8ad5af3c413e0 master 
