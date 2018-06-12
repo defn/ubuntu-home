@@ -2,7 +2,7 @@ require 'socket'
 
 Vagrant.configure("2") do |config|
   config.ssh.shell = "bash"
-  config.ssh.username = ENV.fetch("VAGRANT_USERNAME","ubuntu")
+  config.ssh.username = ENV.fetch("VAGRANT_USERNAME","vagrant")
   config.ssh.forward_agent = true
   config.ssh.insert_key = true
   config.ssh.keys_only = false
