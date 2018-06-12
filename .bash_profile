@@ -4,6 +4,8 @@ function bash_main {
     shome="$HOME"
   fi
 
+  unset BUNDLER_ORIG_BUNDLE_GEMFILE GEM_HOME BUNDLE_GEMFILE RUBYOPT
+
   source "$shome/.bashrc"
 
   if [[ -z "${TMUX:-}" ]]; then
