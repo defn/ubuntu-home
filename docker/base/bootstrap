@@ -45,7 +45,9 @@ function main {
   sudo ln -nfs home /Users
 
   sudo aptitude update
-  (cd work/base && block bootstrap && block stale)
+  (cd work/base && block bootstrap || true)
+  (cd work/base && block bootstrap)
+  (cd work/base && block stale)
   make cache
   source .bash_profile
 
