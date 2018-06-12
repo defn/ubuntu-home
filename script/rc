@@ -33,16 +33,15 @@ export GOVENDOR_VERSION=1.0.8
 export HUGO_VERSION=0.41
 export INSPEC_VERSION=2.1.21
 export IPFS_VERSION=0.4.14
+export ZEROTIER_VERSION=1.2.8
 case "$(uname -s)" in
   Darwin)
     export JAVA_VERSION='10.0.1'
     export DOCKER_VERSION=18.03.1~ce
-    export ZEROTIER_VERSION=1.2.8
     ;;
   *)
     export JAVA_VERSION='1.8.0_171'
     export DOCKER_VERSION=18.05.0~ce
-    export ZEROTIER_VERSION=1.2.10
     ;;
 esac
 export JQ_VERSION=1.5
