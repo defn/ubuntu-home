@@ -1,6 +1,7 @@
 FROM ubuntu:bionic
 
 USER root
+WORKDIR /
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN dpkg-divert --local --rename --add /sbin/initctl
@@ -30,9 +31,11 @@ ENTRYPOINT ["/tini", "--", "/service"]
 CMD []
 
 USER root
+WORKDIR /
 COPY bootstrap /bootstrap
 COPY service /service
 RUN ln -nfs /home /Users
 
 USER ubuntu
+WORKDIR /home/ubuntu
 RUN env SERVICE_DONE=/tmp/.done-shell /service
