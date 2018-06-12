@@ -32,6 +32,7 @@ CMD []
 USER root
 COPY bootstrap /bootstrap
 COPY service /service
+RUN ln -nfs /home /Users
 
 USER ubuntu
 RUN env SERVICE_DONE=/tmp/.done-shell /service
