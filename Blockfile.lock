@@ -12,7 +12,7 @@ curl           ${BLOCK_PATH}/curl           git@github.com:imma/curl           b
 packer         ${BLOCK_PATH}/packer         git@github.com:imma/packer         12e9513e080c891ba3fb4414fb48246c7f3fefce master 
 pkg            ${BLOCK_PATH}/pkg            git@github.com:imma/pkg            f6ede279bca2c0a0a59c5bee0108629e780ef24c master 
 sshd           ${BLOCK_PATH}/sshd           git@github.com:imma/sshd           ad751ce4cc158d238ddcf3c2108d7bb6b91e0fab master 
-rbenv          ${BLOCK_PATH}/rbenv          git@github.com:imma/rbenv          1d6db9faf91dec4e2600e2219313dc9f3c5671a6 master 
+rbenv          ${BLOCK_PATH}/rbenv          git@github.com:imma/rbenv          2d89294ea661fffb7ac12cc596749db74369e028 master 
 ruby           ${BLOCK_PATH}/ruby           git@github.com:imma/ruby           9c137b0e1fb6f77562633d599a2f22bd2d66590a master 
 nvm            ${BLOCK_PATH}/nvm            git@github.com:imma/nvm            e3edf70ec7e8554e3ce53598efe0acbd77d13e7d master 
 node           ${BLOCK_PATH}/node           git@github.com:imma/node           9abacb7b2f1fb38521fc0b3d8a77392323f15860 master 
