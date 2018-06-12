@@ -10,5 +10,4 @@ WORKDIR /home/ubuntu
 RUN mkdir -p /data/cache/packages
 COPY --chown=ubuntu:ubuntu data /data
 RUN env SERVICE_DONE=/tmp/.done-base /service
-RUN exec/home block compile rbenv
-RUN exec/home block stale
+RUN exec/home block base block stale

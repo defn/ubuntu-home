@@ -107,7 +107,7 @@ rat            ${BLOCK_PATH}/rat            git@github.com:imma/rat            7
 cookiecutter   ${BLOCK_PATH}/cookiecutter   git@github.com:imma/cookiecutter   040da6b867e5d07d29e08121124dca1e17105f11 master 
 terraform      ${BLOCK_PATH}/terraform      git@github.com:imma/terraform      2404cf527d4d29c0ad1888e35e9b2121ae3cc05f master 
 wtf            ${BLOCK_PATH}/wtf            git@github.com:imma/wtf            1cf5e2360c460488d1a12660eb1cb0e13784ea38 master 
-fogg-cli       ${BLOCK_PATH}/fogg-cli       git@github.com:imma/fogg-cli       3c656f1837eab93be8456db8b8266d057318837d master 
+fogg-cli       ${BLOCK_PATH}/fogg-cli       git@github.com:imma/fogg-cli       45d90752b4fee43dd29f492c058583489d3da863 master 
 fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           defdc1abeea126735c192b2ea815315e807c2640 master 
 fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        c17f2d37c877f39773d142e07fa71cdeb760f82c master 
 imma-tf        ${BLOCK_PATH}/imma-tf        git@github.com:imma/imma-tf        882032b69843604f957a31f0a70261dbf13e38b4 master 
