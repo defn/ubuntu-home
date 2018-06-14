@@ -65,8 +65,11 @@
     [
       "base",
       "bit",
-      "usr",
-      "anchore"
+      "usr"
+    ],
+    [
+      "anchore",
+      "sysdig"
     ],
     [
       "vagrant",

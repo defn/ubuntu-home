@@ -496,3 +496,6 @@
 [submodule "work/anchore"]
 	path = work/anchore
 	url = https://github.com/imma/anchore
+[submodule "work/sysdig"]
+	path = work/sysdig
+	url = https://github.com/imma/sysdig
