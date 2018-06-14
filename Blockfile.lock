@@ -122,5 +122,6 @@ facts          ${BLOCK_PATH}/facts          git@github.com:imma/facts          9
 base           ${BLOCK_PATH}/base           git@github.com:imma/base           5fee7dfacaa39bebf3fa48995d651cdeb93ed9f7 master 
 bit            ${BLOCK_PATH}/bit            git@github.com:imma/bit            e595eea0279b82408b2bc0b4eddff24589678ea7 master 
 usr            ${BLOCK_PATH}/usr            git@github.com:imma/usr            3ce20d48046b527bf4dbc638297481343cd1f18e master 
+anchore        ${BLOCK_PATH}/anchore        git@github.com:imma/anchore        a26df0ac6a5ed1f9a8d0deb0f70e683864d4c922 master 
 vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        cd64854c060729ba807ff28f7c9c86d8c977c850 master 
 virtualbox     ${BLOCK_PATH}/virtualbox     git@github.com:imma/virtualbox     ada474bb70ad52b40b26fd6306cfd5e0bc5c774d master 
