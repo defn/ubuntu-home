@@ -2,7 +2,8 @@
   "require": [
     [
       "ubuntu-config",
-      "runtime"
+      "base",
+      "lang"
     ],
     [
       "fart",
@@ -63,7 +64,6 @@
       "docs"
     ],
     [
-      "base",
       "bit",
       "usr"
     ],
