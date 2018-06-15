@@ -126,3 +126,4 @@ anchore        ${BLOCK_PATH}/anchore        git@github.com:imma/anchore        a
 sysdig         ${BLOCK_PATH}/sysdig         git@github.com:imma/sysdig         b5e20b6209c829917f125e4d12c65bcfdb124dcf master 
 vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        cd64854c060729ba807ff28f7c9c86d8c977c850 master 
 virtualbox     ${BLOCK_PATH}/virtualbox     git@github.com:imma/virtualbox     ada474bb70ad52b40b26fd6306cfd5e0bc5c774d master 
+full           ${BLOCK_PATH}/full           git@github.com:imma/full           fd5fd93753bc67bfcd35da944d3ac6643dbd04ef master 

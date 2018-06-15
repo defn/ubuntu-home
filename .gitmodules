@@ -499,3 +499,6 @@
 [submodule "work/sysdig"]
 	path = work/sysdig
 	url = https://github.com/imma/sysdig
+[submodule "work/full"]
+	path = work/full
+	url = https://github.com/imma/full
