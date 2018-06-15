@@ -58,7 +58,8 @@ fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           d
 teleport       ${BLOCK_PATH}/teleport       git@github.com:imma/teleport       d532986f895d9a162c2d4f8ae4aaad8bda065f92 master 
 ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        2798c452805fdfb549fc5edc172b404317e84e1d master 
 facts          ${BLOCK_PATH}/facts          git@github.com:imma/facts          9c69d9500281b4cafffaf5834e4d096ab4e90dab master 
-base           ${BLOCK_PATH}/base           git@github.com:imma/base           c23a93ae896648fcc1601a474f1523c84dc343d4 master 
+lnav           ${BLOCK_PATH}/lnav           git@github.com:imma/lnav           afda487fb0203122064924fe65699eb23543086d master 
+base           ${BLOCK_PATH}/base           git@github.com:imma/base           035389cab25e14edeb2795653cf08e76da90b8cb master 
 codecommit     ${BLOCK_PATH}/codecommit     git@github.com:imma/codecommit     103788d5db3a95d559447d7e92dfb9f3f02268dd master 
 github         ${BLOCK_PATH}/github         git@github.com:imma/github         3b1721042565793566be8193c0ada1a8ed16afdf master 
 inspec         ${BLOCK_PATH}/inspec         git@github.com:imma/inspec         65e243d1dc7e51590dd7b36524ecdfae44e5a362 master 

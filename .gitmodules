@@ -502,3 +502,6 @@
 [submodule "work/full"]
 	path = work/full
 	url = https://github.com/imma/full
+[submodule "work/lnav"]
+	path = work/lnav
+	url = https://github.com/imma/lnav
