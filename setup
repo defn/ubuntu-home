@@ -9,6 +9,7 @@ function main {
   fi
 
   mv ubuntu/.git .
+  cp ubuntu/.gitconfig.template-https .gitconfig
   rm -rf ubuntu
   git reset --hard
   script/setup
