@@ -42,10 +42,9 @@ docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 5
 runtime        ${BLOCK_PATH}/runtime        git@github.com:imma/runtime        d9b15bb5abc69bd81fd95df1bb43c7244abe7364 master 
 gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            1722c23bea696bf6c76ad354b46094909782b59f master 
 aws-vault      ${BLOCK_PATH}/aws-vault      git@github.com:imma/aws-vault      b45b3394f8bc7108029ee08ba8e38565801db004 master 
+okta           ${BLOCK_PATH}/okta           git@github.com:imma/okta           d5c6861429e09eee593e2da25a1f50887df8ec4d master 
 chamber        ${BLOCK_PATH}/chamber        git@github.com:imma/chamber        90e2e62f77cd5d6c973ad61d9796e21d76b263a2 master 
-awless         ${BLOCK_PATH}/awless         git@github.com:imma/awless         8d635d18f7ddf97fdb6da8afdd802197dd161cbc master 
-credstash      ${BLOCK_PATH}/credstash      git@github.com:imma/credstash      5762b04dabf9d1af5721906d27075a4de86122b8 master 
-aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            0f3f8705bf8a4fb25a5163a6732a1e3b85005874 master 
+aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            5c351bb75b14268ea27b8db4499484a082b1dd4b master 
 terraform      ${BLOCK_PATH}/terraform      git@github.com:imma/terraform      2404cf527d4d29c0ad1888e35e9b2121ae3cc05f master 
 op             ${BLOCK_PATH}/op             git@github.com:imma/op             db32ea67bdd0d0589c3e49866a78d0a2b8806f7d master 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master 
@@ -58,7 +57,7 @@ fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           d
 teleport       ${BLOCK_PATH}/teleport       git@github.com:imma/teleport       d532986f895d9a162c2d4f8ae4aaad8bda065f92 master 
 ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        2798c452805fdfb549fc5edc172b404317e84e1d master 
 facts          ${BLOCK_PATH}/facts          git@github.com:imma/facts          9c69d9500281b4cafffaf5834e4d096ab4e90dab master 
-lnav           ${BLOCK_PATH}/lnav           git@github.com:imma/lnav           afda487fb0203122064924fe65699eb23543086d master 
+lnav           ${BLOCK_PATH}/lnav           git@github.com:imma/lnav           86877844b4cbd21b055cfb4029f5e5d5cbb86fd4 master 
 base           ${BLOCK_PATH}/base           git@github.com:imma/base           035389cab25e14edeb2795653cf08e76da90b8cb master 
 codecommit     ${BLOCK_PATH}/codecommit     git@github.com:imma/codecommit     103788d5db3a95d559447d7e92dfb9f3f02268dd master 
 github         ${BLOCK_PATH}/github         git@github.com:imma/github         3b1721042565793566be8193c0ada1a8ed16afdf master 
@@ -85,6 +84,7 @@ nomad          ${BLOCK_PATH}/nomad          git@github.com:imma/nomad          1
 ecr            ${BLOCK_PATH}/ecr            git@github.com:imma/ecr            25f20f65668a1f7f48f0879ca635509a5999e2c6 master 
 apex           ${BLOCK_PATH}/apex           git@github.com:imma/apex           3de0d184fb755c94beb63f70ce00c013bbbd6ec0 master 
 lambda         ${BLOCK_PATH}/lambda         git@github.com:imma/lambda         7d73d3b99d51a47d769b62e97f2aa135452d4b4b master 
+awless         ${BLOCK_PATH}/awless         git@github.com:imma/awless         8d635d18f7ddf97fdb6da8afdd802197dd161cbc master 
 awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        c6906903fb7c93f1b2107740582d6ac198e86e6d master 
 eb             ${BLOCK_PATH}/eb             git@github.com:imma/eb             c6071b11a62275a1fda5369e99fc9a27814cf02b master 
 ecs            ${BLOCK_PATH}/ecs            git@github.com:imma/ecs            23f355138fd0d821b6852e5157b6a863d13385cd master 
@@ -103,7 +103,7 @@ easy-rsa       ${BLOCK_PATH}/easy-rsa       git@github.com:imma/easy-rsa       2
 openvpn        ${BLOCK_PATH}/openvpn        git@github.com:imma/openvpn        6aaaf8a2e2f883b197287e96ac6bbed85b3cbf52 master 
 zerotier       ${BLOCK_PATH}/zerotier       git@github.com:imma/zerotier       92f30588cba0abd15619e1ded1dc1f6e13791f13 master 
 vault          ${BLOCK_PATH}/vault          git@github.com:imma/vault          2da170af21d4f2c9969afafbfb7d91ae5285d0a9 master 
-crypto         ${BLOCK_PATH}/crypto         git@github.com:imma/crypto         382f814faf92cb4d951136c66c3460bba6066293 master 
+crypto         ${BLOCK_PATH}/crypto         git@github.com:imma/crypto         e30c5ab5cc2406e86e92c7308edfaa439e7c386d master 
 home           ${BLOCK_PATH}/home           git@github.com:imma/home           d32390e3893c408fa912550b30ba97078457d9f0 master 
 talign         ${BLOCK_PATH}/talign         git@github.com:imma/talign         fdc4b75ebc28512392abd1c865ee31d73917b1d4 master 
 defn           ${BLOCK_PATH}/defn           git@github.com:imma/defn           3d23eec938c7345d9fdfae18701ebb25961c880d master 
