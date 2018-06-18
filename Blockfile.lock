@@ -44,7 +44,7 @@ gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            1
 aws-vault      ${BLOCK_PATH}/aws-vault      git@github.com:imma/aws-vault      b45b3394f8bc7108029ee08ba8e38565801db004 master    
 okta           ${BLOCK_PATH}/okta           git@github.com:imma/okta           d5c6861429e09eee593e2da25a1f50887df8ec4d master    
 chamber        ${BLOCK_PATH}/chamber        git@github.com:imma/chamber        90e2e62f77cd5d6c973ad61d9796e21d76b263a2 master    
-aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            5c351bb75b14268ea27b8db4499484a082b1dd4b master    
+aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            b1c6b5e21eb048b728b17a1f0ad9c407802c575d master    
 terraform      ${BLOCK_PATH}/terraform      git@github.com:imma/terraform      2404cf527d4d29c0ad1888e35e9b2121ae3cc05f master    
 op             ${BLOCK_PATH}/op             git@github.com:imma/op             db32ea67bdd0d0589c3e49866a78d0a2b8806f7d master    
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master    
@@ -84,13 +84,6 @@ nomad          ${BLOCK_PATH}/nomad          git@github.com:imma/nomad          1
 ecr            ${BLOCK_PATH}/ecr            git@github.com:imma/ecr            25f20f65668a1f7f48f0879ca635509a5999e2c6 master    
 apex           ${BLOCK_PATH}/apex           git@github.com:imma/apex           3de0d184fb755c94beb63f70ce00c013bbbd6ec0 master    
 lambda         ${BLOCK_PATH}/lambda         git@github.com:imma/lambda         7d73d3b99d51a47d769b62e97f2aa135452d4b4b master    
-awless         ${BLOCK_PATH}/awless         git@github.com:imma/awless         8d635d18f7ddf97fdb6da8afdd802197dd161cbc master    
-awesome        ${BLOCK_PATH}/awesome        git@github.com:imma/awesome        c6906903fb7c93f1b2107740582d6ac198e86e6d master    
-eb             ${BLOCK_PATH}/eb             git@github.com:imma/eb             c6071b11a62275a1fda5369e99fc9a27814cf02b master    
-ecs            ${BLOCK_PATH}/ecs            git@github.com:imma/ecs            23f355138fd0d821b6852e5157b6a863d13385cd master    
-jqq            ${BLOCK_PATH}/jqq            git@github.com:imma/jqq            7f79e85962697cf40e351d193bcc69b67e3f4e1a master    
-aqq            ${BLOCK_PATH}/aqq            git@github.com:imma/aqq            5a2398db86d1e9bd803e9d5d511a39c96b9981f6 master    
-cloud          ${BLOCK_PATH}/cloud          git@github.com:imma/cloud          6546fec97824a95c252b0989c7c3bf89a68f23fc master    
 netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        9ae95d60e6daccbbec8d0f5d8017e935c9021aa9 master    
 monitor        ${BLOCK_PATH}/monitor        git@github.com:imma/monitor        4ca342bfaae8881a16a2d79343bf33f87bf86a75 master    
 cfssl          ${BLOCK_PATH}/cfssl          git@github.com:imma/cfssl          abc4130575a884568fb6f66701e9f2d92c3c2789 master    
@@ -116,9 +109,13 @@ lock           ${BLOCK_PATH}/lock           git@github.com:imma/lock           c
 nat            ${BLOCK_PATH}/nat            git@github.com:imma/nat            f2d23020d81fbd1393c8aac01a4cda5eed10d096 master    
 rat            ${BLOCK_PATH}/rat            git@github.com:imma/rat            7924ddc010675b88d1b0e0e0eef8859371aa6b46 master    
 cookiecutter   ${BLOCK_PATH}/cookiecutter   git@github.com:imma/cookiecutter   040da6b867e5d07d29e08121124dca1e17105f11 master    
+ecs            ${BLOCK_PATH}/ecs            git@github.com:imma/ecs            23f355138fd0d821b6852e5157b6a863d13385cd master    
 sam            ${BLOCK_PATH}/sam            git@github.com:imma/sam            5a082b556ae5229c3d1aa6c713bbad45c65afc3a v20170617 
 dynamodb       ${BLOCK_PATH}/dynamodb       git@github.com:imma/dynamodb       ef9ef6d5a2cc4b51acb11c3a67a630bb77c021ce master    
-ftl            ${BLOCK_PATH}/ftl            git@github.com:imma/ftl            0f2c932a282c34c69704a1e80e5ce3244746de95 master    
+eb             ${BLOCK_PATH}/eb             git@github.com:imma/eb             c6071b11a62275a1fda5369e99fc9a27814cf02b master    
+jqq            ${BLOCK_PATH}/jqq            git@github.com:imma/jqq            7f79e85962697cf40e351d193bcc69b67e3f4e1a master    
+aqq            ${BLOCK_PATH}/aqq            git@github.com:imma/aqq            5a2398db86d1e9bd803e9d5d511a39c96b9981f6 master    
+ftl            ${BLOCK_PATH}/ftl            git@github.com:imma/ftl            c12251d803f1b2c337abd2fe7d602195a2b80586 master    
 fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        07a0b1d587d026ddc087166a428caefc2b2c944a master    
 imma-tf        ${BLOCK_PATH}/imma-tf        git@github.com:imma/imma-tf        882032b69843604f957a31f0a70261dbf13e38b4 master    
 hugo           ${BLOCK_PATH}/hugo           git@github.com:imma/hugo           4c3f5e1710e0b8f390f75044015daaf7e18ecc64 master    
@@ -131,4 +128,4 @@ anchore        ${BLOCK_PATH}/anchore        git@github.com:imma/anchore        a
 sysdig         ${BLOCK_PATH}/sysdig         git@github.com:imma/sysdig         b5e20b6209c829917f125e4d12c65bcfdb124dcf master    
 vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        cd64854c060729ba807ff28f7c9c86d8c977c850 master    
 virtualbox     ${BLOCK_PATH}/virtualbox     git@github.com:imma/virtualbox     ada474bb70ad52b40b26fd6306cfd5e0bc5c774d master    
-full           ${BLOCK_PATH}/full           git@github.com:imma/full           5ade74cf5bf4d35ecf489c040ce0bf5e19f09a16 master    
+full           ${BLOCK_PATH}/full           git@github.com:imma/full           56083464a1290a6cbe40b41abe6f4465c282f4e3 master    
