@@ -2,7 +2,7 @@ require 'socket'
 
 Vagrant.configure("2") do |config|
   config.ssh.shell = "bash"
-  config.ssh.username = ENV.fetch("VAGRANT_USERNAME","vagrant")
+  config.ssh.username = ENV.fetch("VAGRANT_USERNAME","ubuntu")
   config.ssh.forward_agent = true
   config.ssh.insert_key = true
   config.ssh.keys_only = false
@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
     v.memory = 1024
     v.cpus = 2
 
-    override.vm.box = ENV.fetch("VAGRANT_BOX","bento/ubuntu-18.04")
+    override.vm.box = ENV.fetch("VAGRANT_BOX","imma/ubuntu-18.04")
 
     override.vm.synced_folder ENV['HOME'], '/vagrant', disabled: true
     override.vm.synced_folder ENV['DATA'], '/data'
