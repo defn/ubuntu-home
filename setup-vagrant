@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+function main {
+  cd
+
+  if type -P yum; then
+    sudo yum install -y git || true
+  elif type -P apt-get; then
+    sudo apt-get update || true
+    sudo apt-get install -y git || true
+  fi
+
+  git clone https://github.com/imma/ubuntu
+  ubuntu/setup
+  source .bash_profile
+  block bootstrap
+}
+
+main "$@"
