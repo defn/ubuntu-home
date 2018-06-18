@@ -520,3 +520,6 @@
 [submodule "work/perf-tools"]
 	path = work/perf-tools
 	url = https://github.com/imma/perf-tools
+[submodule "work/boxcutter-ubuntu"]
+	path = work/boxcutter-ubuntu
+	url = https://github.com/imma/boxcutter-ubuntu
