@@ -3,7 +3,7 @@ shflags        ${BLOCK_PATH}/shflags        git@github.com:imma/shflags        a
 normalize      ${BLOCK_PATH}/normalize      git@github.com:imma/normalize      ca938498f15fe070268e89b5ec405bdef58308b4 master 
 sub            ${BLOCK_PATH}/sub            git@github.com:imma/sub            d9f4c26a32e90137fab05f2c5b00c0821715f9ae master 
 runmany        ${BLOCK_PATH}/runmany        git@github.com:imma/runmany        d8015045361fbad900ea577bd8ae6680bb3e0176 master 
-block          ${BLOCK_PATH}/block          git@github.com:imma/block          eb97dc777632c0e9955ffb9a5de7352d81413743 master 
+block          ${BLOCK_PATH}/block          git@github.com:imma/block          0a1167fe3709ddf06103df9cec5e1f10807a3d73 master 
 ubuntu-config  ${BLOCK_PATH}/ubuntu-config  git@github.com:imma/ubuntu-config  e68120a1fe79d0fd010137913903936dd873b101 master 
 shell          ${BLOCK_PATH}/shell          git@github.com:imma/shell          724d5abda29f12536776e5ef1732f83a10117403 master 
 pkgsrc         ${BLOCK_PATH}/pkgsrc         git@github.com:imma/pkgsrc         edeb02f8508d407dd47f5394da57b42ce5ebf53e master 
@@ -116,7 +116,8 @@ lock           ${BLOCK_PATH}/lock           git@github.com:imma/lock           c
 nat            ${BLOCK_PATH}/nat            git@github.com:imma/nat            f2d23020d81fbd1393c8aac01a4cda5eed10d096 master 
 rat            ${BLOCK_PATH}/rat            git@github.com:imma/rat            7924ddc010675b88d1b0e0e0eef8859371aa6b46 master 
 cookiecutter   ${BLOCK_PATH}/cookiecutter   git@github.com:imma/cookiecutter   040da6b867e5d07d29e08121124dca1e17105f11 master 
-fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        4f156f4d032ea6df240596abd33c1282c9625a88 master 
+ftl            ${BLOCK_PATH}/ftl            git@github.com:imma/ftl            8ef4bcebbf5b0cd8396221a4fb92dea3c908f4a5 master 
+fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        07a0b1d587d026ddc087166a428caefc2b2c944a master 
 imma-tf        ${BLOCK_PATH}/imma-tf        git@github.com:imma/imma-tf        882032b69843604f957a31f0a70261dbf13e38b4 master 
 hugo           ${BLOCK_PATH}/hugo           git@github.com:imma/hugo           4c3f5e1710e0b8f390f75044015daaf7e18ecc64 master 
 drone-theme    ${BLOCK_PATH}/drone-theme    git@github.com:imma/drone-theme    604c0c5078d90bf0c42b820ac8fb894abcbcaab2 master 
@@ -128,4 +129,4 @@ anchore        ${BLOCK_PATH}/anchore        git@github.com:imma/anchore        a
 sysdig         ${BLOCK_PATH}/sysdig         git@github.com:imma/sysdig         b5e20b6209c829917f125e4d12c65bcfdb124dcf master 
 vagrant        ${BLOCK_PATH}/vagrant        git@github.com:imma/vagrant        cd64854c060729ba807ff28f7c9c86d8c977c850 master 
 virtualbox     ${BLOCK_PATH}/virtualbox     git@github.com:imma/virtualbox     ada474bb70ad52b40b26fd6306cfd5e0bc5c774d master 
-full           ${BLOCK_PATH}/full           git@github.com:imma/full           fd5fd93753bc67bfcd35da944d3ac6643dbd04ef master 
+full           ${BLOCK_PATH}/full           git@github.com:imma/full           5ade74cf5bf4d35ecf489c040ce0bf5e19f09a16 master 

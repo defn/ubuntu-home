@@ -505,3 +505,6 @@
 [submodule "work/lnav"]
 	path = work/lnav
 	url = https://github.com/imma/lnav
+[submodule "work/ftl"]
+	path = work/ftl
+	url = https://github.com/imma/ftl
