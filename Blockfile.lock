@@ -83,7 +83,7 @@ cloudflare     ${BLOCK_PATH}/cloudflare     git@github.com:imma/cloudflare     7
 nomad          ${BLOCK_PATH}/nomad          git@github.com:imma/nomad          1dda3c0ca577e43c1e6b1e6d0bdfbfcd1dc9c6f3 master    
 ecr            ${BLOCK_PATH}/ecr            git@github.com:imma/ecr            25f20f65668a1f7f48f0879ca635509a5999e2c6 master    
 apex           ${BLOCK_PATH}/apex           git@github.com:imma/apex           3de0d184fb755c94beb63f70ce00c013bbbd6ec0 master    
-lambda         ${BLOCK_PATH}/lambda         git@github.com:imma/lambda         7d73d3b99d51a47d769b62e97f2aa135452d4b4b master    
+lambda         ${BLOCK_PATH}/lambda         git@github.com:imma/lambda         d8e38f99abeeb781cfbdaf61967c1d01855f1776 master    
 netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        9ae95d60e6daccbbec8d0f5d8017e935c9021aa9 master    
 monitor        ${BLOCK_PATH}/monitor        git@github.com:imma/monitor        4ca342bfaae8881a16a2d79343bf33f87bf86a75 master    
 cfssl          ${BLOCK_PATH}/cfssl          git@github.com:imma/cfssl          abc4130575a884568fb6f66701e9f2d92c3c2789 master    
