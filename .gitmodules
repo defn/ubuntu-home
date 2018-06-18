@@ -517,3 +517,6 @@
 [submodule "work/sam"]
 	path = work/sam
 	url = https://github.com/imma/sam
+[submodule "work/perf-tools"]
+	path = work/perf-tools
+	url = https://github.com/imma/perf-tools
