@@ -511,3 +511,6 @@
 [submodule "work/okta"]
 	path = work/okta
 	url = https://github.com/imma/okta
+[submodule "work/dynamodb"]
+	path = work/dynamodb
+	url = https://github.com/imma/dynamodb
