@@ -14,7 +14,7 @@ curl             ${BLOCK_PATH}/curl             git@github.com:imma/curl        
 packer           ${BLOCK_PATH}/packer           git@github.com:imma/packer           12e9513e080c891ba3fb4414fb48246c7f3fefce master 
 pkg              ${BLOCK_PATH}/pkg              git@github.com:imma/pkg              f6ede279bca2c0a0a59c5bee0108629e780ef24c master 
 sshd             ${BLOCK_PATH}/sshd             git@github.com:imma/sshd             ad751ce4cc158d238ddcf3c2108d7bb6b91e0fab master 
-rbenv            ${BLOCK_PATH}/rbenv            git@github.com:imma/rbenv            2d89294ea661fffb7ac12cc596749db74369e028 master 
+rbenv            ${BLOCK_PATH}/rbenv            git@github.com:imma/rbenv            41c25be877d033054ddfc75e6486293abbb3bc7a master 
 ruby             ${BLOCK_PATH}/ruby             git@github.com:imma/ruby             9c137b0e1fb6f77562633d599a2f22bd2d66590a master 
 nvm              ${BLOCK_PATH}/nvm              git@github.com:imma/nvm              e3edf70ec7e8554e3ce53598efe0acbd77d13e7d master 
 node             ${BLOCK_PATH}/node             git@github.com:imma/node             9abacb7b2f1fb38521fc0b3d8a77392323f15860 master 
@@ -71,7 +71,7 @@ service          ${BLOCK_PATH}/service          git@github.com:imma/service     
 make             ${BLOCK_PATH}/make             git@github.com:imma/make             bc396044ec0c5a3d6c617f71084d0318bde10b3c master 
 htop             ${BLOCK_PATH}/htop             git@github.com:imma/htop             aa24067a87c228300f1f1041b5706aef672b199f master 
 ssm              ${BLOCK_PATH}/ssm              git@github.com:imma/ssm              af9b303d6cca2c7113de8ea025366e1fe9da36bb master 
-sysdig           ${BLOCK_PATH}/sysdig           git@github.com:imma/sysdig           9383893fb6cbc5aac635ab4f7f0d90f076ddab17 master 
+sysdig           ${BLOCK_PATH}/sysdig           git@github.com:imma/sysdig           9383893fb6cbc5aac635ab4f7f0d90f076ddab17 HEAD   
 perf-tools       ${BLOCK_PATH}/perf-tools       git@github.com:imma/perf-tools       0524a94a3c74541ba04ec73bf150b0d6548636e6 master 
 cookiecutter     ${BLOCK_PATH}/cookiecutter     git@github.com:imma/cookiecutter     040da6b867e5d07d29e08121124dca1e17105f11 master 
 sysadmin         ${BLOCK_PATH}/sysadmin         git@github.com:imma/sysadmin         d8e1383e3359fe3fd4cf15d470f6986e0ffcd38e master 
