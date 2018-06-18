@@ -1,19 +1,25 @@
 #!/usr/bin/env bash
 
 function main {
-  cd
+  case "$(id -u -n)" in
+    root)
+      if type -P yum; then
+        yum install -y git sudo || true
+      elif type -P apt-get; then
+        apt-get update || true
+        apt-get install -y git sudo || true
+      fi
 
-  if type -P yum; then
-    sudo yum install -y git || true
-  elif type -P apt-get; then
-    sudo apt-get update || true
-    sudo apt-get install -y git || true
-  fi
-
-  git clone https://github.com/imma/ubuntu
-  ubuntu/setup
-  source .bash_profile
-  block bootstrap
+      sudo -H -u ubuntu "$0"
+      ;;
+    ubuntu)
+      cd
+      git clone https://github.com/imma/ubuntu
+      ubuntu/setup
+      source .bash_profile
+      block bootstrap
+      ;;
+  esac
 }
 
 main "$@"
