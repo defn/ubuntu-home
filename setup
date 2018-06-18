@@ -13,7 +13,6 @@ function main {
   git reset --hard
   script/setup
   make cache
-  cp .gitconfig.template .gitconfig
 }
 
 main "$@"

@@ -71,7 +71,7 @@ service          ${BLOCK_PATH}/service          git@github.com:imma/service     
 make             ${BLOCK_PATH}/make             git@github.com:imma/make             bc396044ec0c5a3d6c617f71084d0318bde10b3c master 
 htop             ${BLOCK_PATH}/htop             git@github.com:imma/htop             aa24067a87c228300f1f1041b5706aef672b199f master 
 ssm              ${BLOCK_PATH}/ssm              git@github.com:imma/ssm              af9b303d6cca2c7113de8ea025366e1fe9da36bb master 
-sysdig           ${BLOCK_PATH}/sysdig           git@github.com:imma/sysdig           b5e20b6209c829917f125e4d12c65bcfdb124dcf master 
+sysdig           ${BLOCK_PATH}/sysdig           git@github.com:imma/sysdig           9383893fb6cbc5aac635ab4f7f0d90f076ddab17 master 
 perf-tools       ${BLOCK_PATH}/perf-tools       git@github.com:imma/perf-tools       0524a94a3c74541ba04ec73bf150b0d6548636e6 master 
 cookiecutter     ${BLOCK_PATH}/cookiecutter     git@github.com:imma/cookiecutter     040da6b867e5d07d29e08121124dca1e17105f11 master 
 sysadmin         ${BLOCK_PATH}/sysadmin         git@github.com:imma/sysadmin         d8e1383e3359fe3fd4cf15d470f6986e0ffcd38e master 
