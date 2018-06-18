@@ -8,7 +8,7 @@ function lookup_pip {
 
 export ANSIBLE_VERSION="$(lookup_pip ansible)"
 export ASCIINEMA_VERSION="$(lookup_pip ascii asciinema)"
-export AWSVAULT_VERSION=4.2.0
+export AWSVAULT_VERSION=4.2.1
 export CHAMBER_VERSION=2.1.0
 export BLESS_VERSION=0.2.0
 export CFSSL_VERSION=1.3.2
@@ -34,16 +34,9 @@ export HUGO_VERSION=0.41
 export INSPEC_VERSION=2.1.21
 export IPFS_VERSION=0.4.14
 export ZEROTIER_VERSION=1.2.8
-case "$(uname -s)" in
-  Darwin)
-    export JAVA_VERSION='10.0.1'
-    export DOCKER_VERSION=18.03.1~ce
-    ;;
-  *)
-    export JAVA_VERSION='1.8.0_171'
-    export DOCKER_VERSION=18.05.0~ce
-    ;;
-esac
+export JAVA_VERSION='1.8.0_171'
+export DOCKER_VERSION=18.05.0~ce
+export AWS_OKTA_VERSION=0.19.0
 export JQ_VERSION=1.5
 export KITCHEN_VERSION=1.21.2
 export KMSAUTH_VERSION="$(lookup_pip kmsauth)"
@@ -133,4 +126,14 @@ export APEX_VERSION_COMPARE=1.0.0-rc2
 export TELEPORT_VERSION=2.6.1
 export SYSDIG_VERSION=0.21.0
 export ANCHORE_VERSION=0.2.2
+export AWS_OKTA_VERSION=0.19.0
+export AWS_OKTA_VERSION=0.19.0
 export LNAV_VERSION=0.8.3
+
+case "$(uname -s)" in
+  Darwin)
+    export JAVA_VERSION='10.0.1'
+    export DOCKER_VERSION=18.03.1~ce
+    export AWS_OKTA_VERSION=0.18.0
+    ;;
+esac
