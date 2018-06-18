@@ -45,13 +45,15 @@ function main {
   sudo ln -nfs home /Users
 
   sudo aptitude update
+  (cd "${BOARD_PATH}" && tar xfz "${DATA}/cache/git/${PKGSRC_BRANCH}.tar.gz")
+  
   (cd work/base && block bootstrap)
+
   make cache
   source .bash_profile
 
   for a in {1..5}; do git clean -ffd || true; done
   rm -rf "$WRKOBJDIR"
-  rm -rf "$PKGSRCDIR"
   sudo apt-get clean
   if type -P yarn >/dev/null; then
     yarn cache clean
