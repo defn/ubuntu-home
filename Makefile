@@ -83,7 +83,8 @@ shell: dummy
 base: dummy
 	runmany 'docker rmi -f imma/ubuntu:$$1 || true' base base1
 	runmany 'docker system prune -f || true' 1 2 3
-	rsync -ia $(DATA)/cache/packages/Ubuntu_4_home_ubuntu_$(PKGSRC_BRANCH) docker/base/data/cache/packages/
+	mkdir -p docker/base/data/cache/{packages,install,pyenv,rbenv}
+	rsync -ia $(DATA)/cache/{packages,install,pyenv,rbenv} docker/base/data/cache/
 	cd docker/base && $(MAKE)
 
 base-update:
