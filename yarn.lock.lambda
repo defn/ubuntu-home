@@ -3,8 +3,8 @@
 
 
 aws-sdk@^2.4.4:
-  version "2.238.1"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.238.1.tgz#a35fdec122ed915da490840e8828336da5be4e7f"
+  version "2.259.1"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.259.1.tgz#df4814b65d5654f250d097951aa84e27a472b5aa"
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
@@ -15,7 +15,6 @@ aws-sdk@^2.4.4:
     url "0.10.3"
     uuid "3.1.0"
     xml2js "0.4.17"
-    xmlbuilder "4.2.1"
 
 awscred@^1.2.0:
   version "1.4.1"
@@ -42,8 +41,8 @@ ieee754@1.1.8:
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.8.tgz#be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4"
 
 ieee754@^1.1.4:
-  version "1.1.11"
-  resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.11.tgz#c16384ffe00f5b7835824e67b6f2bd44a5229455"
+  version "1.1.12"
+  resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.12.tgz#50bf24e5b9c8bb98af4964c941cdb0918da7b60b"
 
 isarray@^1.0.0:
   version "1.0.0"
@@ -103,7 +102,7 @@ xml2js@0.4.17:
     sax ">=0.6.0"
     xmlbuilder "^4.1.0"
 
-xmlbuilder@4.2.1, xmlbuilder@^4.1.0:
+xmlbuilder@^4.1.0:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-4.2.1.tgz#aa58a3041a066f90eaa16c2f5389ff19f3f461a5"
   dependencies:
