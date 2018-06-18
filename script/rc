@@ -130,6 +130,8 @@ export AWS_OKTA_VERSION=0.19.0
 export AWS_OKTA_VERSION=0.19.0
 export LNAV_VERSION=0.8.3
 export LAMBCI_VERSION=0.2.4
+export FULL_VERSION=0.0.1
+export DYNAMODB_VERSION=0.0.1
 
 case "$(uname -s)" in
   Darwin)
