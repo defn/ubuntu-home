@@ -5,13 +5,13 @@ sub              ${BLOCK_PATH}/sub              git@github.com:imma/sub         
 runmany          ${BLOCK_PATH}/runmany          git@github.com:imma/runmany          d8015045361fbad900ea577bd8ae6680bb3e0176 master 
 block            ${BLOCK_PATH}/block            git@github.com:imma/block            0a1167fe3709ddf06103df9cec5e1f10807a3d73 master 
 ubuntu-config    ${BLOCK_PATH}/ubuntu-config    git@github.com:imma/ubuntu-config    e68120a1fe79d0fd010137913903936dd873b101 master 
-boxcutter-ubuntu ${BLOCK_PATH}/boxcutter-ubuntu git@github.com:imma/boxcutter-ubuntu 1e1f4804315b27eba398de93b8024230d190443a master 
+boxcutter-ubuntu ${BLOCK_PATH}/boxcutter-ubuntu git@github.com:imma/boxcutter-ubuntu 1dcb3d432db09d52f050fbc052227d53897f66d1 master 
 shell            ${BLOCK_PATH}/shell            git@github.com:imma/shell            88920a01f876816e22175153f660e7fac39732af master 
 pkgsrc           ${BLOCK_PATH}/pkgsrc           git@github.com:imma/pkgsrc           b2a35cfd826df3845bc1c8e0426deb333197acda master 
 homebrew         ${BLOCK_PATH}/homebrew         git@github.com:imma/homebrew         29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
 cache            ${BLOCK_PATH}/cache            git@github.com:imma/cache            3efaf1fe5169eda2906806a6ab84f11ea95b0896 master 
 curl             ${BLOCK_PATH}/curl             git@github.com:imma/curl             bb57a7cea3f29a92b222fe7afe8c1e9072804ff8 master 
-packer           ${BLOCK_PATH}/packer           git@github.com:imma/packer           12e9513e080c891ba3fb4414fb48246c7f3fefce master 
+packer           ${BLOCK_PATH}/packer           git@github.com:imma/packer           d85823613d576b2e0209b0df25e5331abae1e627 master 
 pkg              ${BLOCK_PATH}/pkg              git@github.com:imma/pkg              f6ede279bca2c0a0a59c5bee0108629e780ef24c master 
 sshd             ${BLOCK_PATH}/sshd             git@github.com:imma/sshd             ad751ce4cc158d238ddcf3c2108d7bb6b91e0fab master 
 rbenv            ${BLOCK_PATH}/rbenv            git@github.com:imma/rbenv            41c25be877d033054ddfc75e6486293abbb3bc7a master 
