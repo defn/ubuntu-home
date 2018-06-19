@@ -9,5 +9,6 @@
   "memory": "512",
   "preseed" : "preseed.cfg",
   "boot_command_prefix": "<esc><esc><enter><wait>",
-  "ssh_username": "ubuntu"
+  "ssh_username": "ubuntu",
+  "update": "true"
 }
