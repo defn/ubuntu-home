@@ -523,3 +523,6 @@
 [submodule "work/boxcutter-ubuntu"]
 	path = work/boxcutter-ubuntu
 	url = https://github.com/imma/boxcutter-ubuntu
+[submodule "work/squid"]
+	path = work/squid
+	url = https://github.com/imma/squid
