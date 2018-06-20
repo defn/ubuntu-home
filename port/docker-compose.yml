@@ -16,9 +16,6 @@ services:
     networks:
       default:
         ipv4_address: 192.168.201.3
-    dns:
-    - 8.8.8.8
-    - 8.8.4.4
   openvpn:
     image: imma/ubuntu:openvpn
     restart: always
