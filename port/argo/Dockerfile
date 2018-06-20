@@ -9,4 +9,4 @@ EXPOSE 5353
 
 COPY docker-entrypoint.sh /cloudflared-entrypoint.sh
 ENTRYPOINT ["/cloudflared-entrypoint.sh"]
-CMD ["cloudflared", "proxy-dns", "--port", "5353", "--address", "0.0.0.0", "--upstream", "https://cloudflare-dns.com/dns-query"]
+CMD ["cloudflared", "proxy-dns", "--port", "5353", "--address", "0.0.0.0", "--upstream", "https://cloudflare-dns.com/dns-query", "--upstream", "https://1.1.1.1/dns-query", "--upstream", "https://1.0.0.1/dns-query"]
