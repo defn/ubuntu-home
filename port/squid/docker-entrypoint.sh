@@ -9,6 +9,4 @@ if [[ "${1:0:1}" = '-' ]]; then
   set -- "$nm_program" "$@"
 fi
 
-(set +f; tail -f /var/log/squid/*.log) &
-
 exec "$@"
