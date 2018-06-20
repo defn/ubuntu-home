@@ -6,6 +6,7 @@ RUN set -x \
 RUN cp /etc/squid/squid.conf /etc/squid/squid.conf.orig
 RUN echo http_access allow all > /etc/squid/squid.conf
 RUN cat /etc/squid/squid.conf.orig >> /etc/squid/squid.conf
+RUN touch /var/log/squid/access.log /var/log/squid/store.log /var/log/squid/cache.log
 
 EXPOSE 3128
 
