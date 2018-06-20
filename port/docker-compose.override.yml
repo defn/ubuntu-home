@@ -7,4 +7,4 @@ services:
     command: >
       -d --no-negcache --neg-ttl=1 --no-resolv --log-facility=- 
       --log-queries=extra 
-      -S 192.168.201.2#5353 
+      -S ${DNSMASQ_UPSTREAM:-192.168.201.2#5353}
