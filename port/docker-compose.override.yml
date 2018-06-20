@@ -8,7 +8,3 @@ services:
       -d --no-negcache --neg-ttl=1 --no-resolv --log-facility=- 
       --log-queries=extra 
       -S 192.168.201.2#5353 
-      -S /adm0.immanent.io/${adm0} -S /us-east-1.amazonaws.com/${adm0}
-      -S /adm1.immanent.io/${adm1} -S /us-west-2.amazonaws.com/${adm1}
-      -S /adm2.immanent.io/${adm2} -S /us-east-2.amazonaws.com/${adm2}
-      -S /adm3.immanent.io/${adm3} -S /us-west-1.amazonaws.com/${adm3}
