@@ -1,18 +1,24 @@
 version: '2'
 
 services:
-  dnsproxy:
+  argo:
     image: imma/ubuntu:argo
     restart: always
     networks:
       default:
         ipv4_address: 192.168.201.2
+    dns:
+    - 8.8.8.8
+    - 8.8.4.4
   dnsmasq:
     image: imma/ubuntu:dnsmasq
     restart: always
     networks:
       default:
         ipv4_address: 192.168.201.3
+    dns:
+    - 8.8.8.8
+    - 8.8.4.4
   openvpn:
     image: imma/ubuntu:openvpn
     restart: always
