@@ -10,9 +10,6 @@ services:
   dnsmasq:
     image: imma/ubuntu:dnsmasq
     restart: always
-    ports:
-      - "53:53/tcp"
-      - "53:53/udp"
     networks:
       default:
         ipv4_address: 192.168.201.3
@@ -31,8 +28,6 @@ services:
   squid:
     image: imma/ubuntu:squid
     restart: always
-    ports:
-      - "3128:3128/tcp"
     networks:
       default:
         ipv4_address: 192.168.201.5
