@@ -1,5 +1,5 @@
 build:
-	runmany 'cd $$1 && make' bionic openvpn argo dnsmasq
+	runmany 'cd $$1 && make' bionic openvpn argo dnsmasq squid
 
 ifeq (server,$(firstword $(MAKECMDGOALS)))
 OPENVPN_SERVER := $(strip $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS)))

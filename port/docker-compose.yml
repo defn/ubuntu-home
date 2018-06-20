@@ -28,6 +28,14 @@ services:
     networks:
       default:
         ipv4_address: 192.168.201.4
+  squid:
+    image: imma/ubuntu:squid
+    restart: always
+    ports:
+      - "3128:3128/tcp"
+    networks:
+      default:
+        ipv4_address: 192.168.201.5
 
 networks:
   default:
