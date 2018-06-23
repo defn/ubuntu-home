@@ -526,3 +526,6 @@
 [submodule "work/squid"]
 	path = work/squid
 	url = https://github.com/imma/squid
+[submodule "work/newman"]
+	path = work/newman
+	url = https://github.com/imma/newman
