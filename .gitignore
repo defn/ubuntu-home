@@ -203,3 +203,4 @@ tmux-client*log
 /.tsh
 *.log
 /.lnav
+/.helm
