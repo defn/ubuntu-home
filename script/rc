@@ -133,6 +133,7 @@ export LAMBCI_VERSION=0.2.4
 export FULL_VERSION=0.0.1
 export DYNAMODB_VERSION=0.0.1
 export NEWMAN_VERSION=3.9.4
+export NEXUS_VERSION=3.12.1-01
 
 case "$(uname -s)" in
   Darwin)
