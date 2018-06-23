@@ -529,3 +529,6 @@
 [submodule "work/newman"]
 	path = work/newman
 	url = https://github.com/imma/newman
+[submodule "work/nexus"]
+	path = work/nexus
+	url = https://github.com/imma/nexus
