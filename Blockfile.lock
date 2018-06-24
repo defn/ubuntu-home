@@ -84,7 +84,7 @@ namerd           ${BLOCK_PATH}/namerd           git@github.com:imma/namerd      
 fabio            ${BLOCK_PATH}/fabio            git@github.com:imma/fabio            5a80c26fa32c83d582b75576b5e4f00996b2c83d master 
 openresty        ${BLOCK_PATH}/openresty        git@github.com:imma/openresty        95e2d5eac4852988c43cb000e4e4a2e5c2827b8b master 
 cloudflare       ${BLOCK_PATH}/cloudflare       git@github.com:imma/cloudflare       73d6b03a839bacbdc7af1f06105f0c44f6c1f4ff master 
-squid            ${BLOCK_PATH}/squid            git@github.com:imma/squid            c74e6a226d431eb0633420ab8ba67746040e952b master 
+squid            ${BLOCK_PATH}/squid            git@github.com:imma/squid            556fd768da41eed3a4a7a4378242a71e4439c6a6 master 
 nexus            ${BLOCK_PATH}/nexus            git@github.com:imma/nexus            c16f6f0d6b325af09a8f6377028f6c74a0d31f99 master 
 nomad            ${BLOCK_PATH}/nomad            git@github.com:imma/nomad            1dda3c0ca577e43c1e6b1e6d0bdfbfcd1dc9c6f3 master 
 netdata          ${BLOCK_PATH}/netdata          git@github.com:imma/netdata          9ae95d60e6daccbbec8d0f5d8017e935c9021aa9 master 
@@ -125,7 +125,7 @@ vagrant          ${BLOCK_PATH}/vagrant          git@github.com:imma/vagrant     
 virtualbox       ${BLOCK_PATH}/virtualbox       git@github.com:imma/virtualbox       ada474bb70ad52b40b26fd6306cfd5e0bc5c774d master 
 anchore          ${BLOCK_PATH}/anchore          git@github.com:imma/anchore          ab22684f4d213c0f30fe9dfdacb1af7b7d4ae873 master 
 newman           ${BLOCK_PATH}/newman           git@github.com:imma/newman           89b737e896fe2caf111b23207ec1694db92c38f3 master 
-fogg-tf          ${BLOCK_PATH}/fogg-tf          git@github.com:imma/fogg-tf          07a0b1d587d026ddc087166a428caefc2b2c944a master 
+fogg-tf          ${BLOCK_PATH}/fogg-tf          git@github.com:imma/fogg-tf          32367ee102a0cc6a499245ff399768812642a088 master 
 imma-tf          ${BLOCK_PATH}/imma-tf          git@github.com:imma/imma-tf          882032b69843604f957a31f0a70261dbf13e38b4 master 
 ftl              ${BLOCK_PATH}/ftl              git@github.com:imma/ftl              515041a52536b05b7fbdc2a8a9e0987ca4c77461 master 
 bit              ${BLOCK_PATH}/bit              git@github.com:imma/bit              e595eea0279b82408b2bc0b4eddff24589678ea7 master 
