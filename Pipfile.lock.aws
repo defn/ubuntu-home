@@ -29,13 +29,13 @@
     },
     "awscli": {
       "index": "pypi",
-      "version": "==1.15.35"
+      "version": "==1.15.45"
     },
     "boto3": {
-      "version": "==1.7.35"
+      "version": "==1.7.45"
     },
     "botocore": {
-      "version": "==1.10.35"
+      "version": "==1.10.45"
     },
     "cffi": {
       "markers": "platform_python_implementation != 'PyPy'",
@@ -51,7 +51,7 @@
       "version": "==0.14"
     },
     "idna": {
-      "version": "==2.6"
+      "version": "==2.7"
     },
     "jmespath": {
       "version": "==0.9.3"
