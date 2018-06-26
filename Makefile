@@ -32,7 +32,7 @@ endif
 test:
 	drone exec
 
-ssh:
+bash:
 	@docker run -ti --rm -u ubuntu -w /home/ubuntu -v $(DATA):/data -v /var/run/docker.sock:/var/run/docker.sock imma/ubuntu:$(UBUNTU_TAG) bash || true
 
 docker-vm:
@@ -42,6 +42,9 @@ init:
 	$(MAKE) up
 	$(MAKE) sync
 	$(MAKE) attach $(TMUX_SESSION)
+
+ssh:
+	ssh -A $(shell docker-compose ps -q shell).docker
 
 sync:
 	tx sync $(shell docker-compose ps -q shell).docker
