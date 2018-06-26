@@ -82,7 +82,7 @@ consul-server    ${BLOCK_PATH}/consul-server    git@github.com:imma/consul-serve
 etcd             ${BLOCK_PATH}/etcd             git@github.com:imma/etcd             08394c75e2cd817431a077934c56c27dde17ba08 master 
 linkerd          ${BLOCK_PATH}/linkerd          git@github.com:imma/linkerd          87dc2cf4e2ad2f603cc56bbfc0f11fa237a5f7ac master 
 namerd           ${BLOCK_PATH}/namerd           git@github.com:imma/namerd           c571a8e9b649e7f548dd4e73c9f29288d6ffc4d5 master 
-fabio            ${BLOCK_PATH}/fabio            git@github.com:imma/fabio            5a80c26fa32c83d582b75576b5e4f00996b2c83d master 
+fabio            ${BLOCK_PATH}/fabio            git@github.com:imma/fabio            7646d9fbf4bf943429d6011ff02be6855333629f master 
 openresty        ${BLOCK_PATH}/openresty        git@github.com:imma/openresty        95e2d5eac4852988c43cb000e4e4a2e5c2827b8b master 
 cloudflare       ${BLOCK_PATH}/cloudflare       git@github.com:imma/cloudflare       73d6b03a839bacbdc7af1f06105f0c44f6c1f4ff master 
 squid            ${BLOCK_PATH}/squid            git@github.com:imma/squid            aa4a0f7100d477fd75d27bb028d2c6f7614ee022 master 
