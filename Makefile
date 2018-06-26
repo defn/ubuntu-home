@@ -26,7 +26,7 @@ $(eval $(UBUNTU_TAG):;@:)
 endif
 
 ifeq (,$(UBUNTU_TAG))
-UBUNTU_TAG = base
+UBUNTU_TAG = shell
 endif
 
 test:
