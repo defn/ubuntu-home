@@ -50,8 +50,8 @@ attach:
 	tx attach $(shell docker-compose ps -q shell).docker $(TMUX_SESSION)
 
 up:
-	mkdir -p b/devshell/.ssh/
-	rsync -ia .ssh/authorized_keys b/devshell/.ssh/
+	mkdir -p b/.ssh/
+	rsync -ia .ssh/authorized_keys b/.ssh/
 	docker-compose down
 	docker-compose up -d --force-recreate --build
 	docker-compose exec shell ln -nfs /data /home/ubuntu 2>/dev/null || true
