@@ -100,7 +100,8 @@ easy-rsa         ${BLOCK_PATH}/easy-rsa         git@github.com:imma/easy-rsa    
 openvpn          ${BLOCK_PATH}/openvpn          git@github.com:imma/openvpn          6aaaf8a2e2f883b197287e96ac6bbed85b3cbf52 master 
 zerotier         ${BLOCK_PATH}/zerotier         git@github.com:imma/zerotier         92f30588cba0abd15619e1ded1dc1f6e13791f13 master 
 vault            ${BLOCK_PATH}/vault            git@github.com:imma/vault            2da170af21d4f2c9969afafbfb7d91ae5285d0a9 master 
-crypto           ${BLOCK_PATH}/crypto           git@github.com:imma/crypto           e30c5ab5cc2406e86e92c7308edfaa439e7c386d master 
+pass             ${BLOCK_PATH}/pass             git@github.com:imma/pass             b7862de0b514cc94d59c66f2a3ded4dfa4c846f3 master 
+crypto           ${BLOCK_PATH}/crypto           git@github.com:imma/crypto           2f6a731ee6f3dc8c6f0e537ac8b4c1f4892a1cb1 master 
 home             ${BLOCK_PATH}/home             git@github.com:imma/home             d32390e3893c408fa912550b30ba97078457d9f0 master 
 talign           ${BLOCK_PATH}/talign           git@github.com:imma/talign           fdc4b75ebc28512392abd1c865ee31d73917b1d4 master 
 defn             ${BLOCK_PATH}/defn             git@github.com:imma/defn             3d23eec938c7345d9fdfae18701ebb25961c880d master 

@@ -532,3 +532,6 @@
 [submodule "work/nexus"]
 	path = work/nexus
 	url = https://github.com/imma/nexus
+[submodule "work/pass"]
+	path = work/pass
+	url = https://github.com/imma/pass
