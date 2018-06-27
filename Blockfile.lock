@@ -48,7 +48,7 @@ chamber          ${BLOCK_PATH}/chamber          git@github.com:imma/chamber     
 awless           ${BLOCK_PATH}/awless           git@github.com:imma/awless           8d635d18f7ddf97fdb6da8afdd802197dd161cbc master 
 aws              ${BLOCK_PATH}/aws              git@github.com:imma/aws              d0e8226de029a418c6c2c2b42ff53c6b4bbdc727 master 
 terraform        ${BLOCK_PATH}/terraform        git@github.com:imma/terraform        2404cf527d4d29c0ad1888e35e9b2121ae3cc05f master 
-op               ${BLOCK_PATH}/op               git@github.com:imma/op               db32ea67bdd0d0589c3e49866a78d0a2b8806f7d master 
+op               ${BLOCK_PATH}/op               git@github.com:imma/op               823e3b92daa7c4cc7bd7dc4136b2b9eb0765c8f4 master 
 docker-machine   ${BLOCK_PATH}/docker-machine   git@github.com:imma/docker-machine   8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master 
 docker           ${BLOCK_PATH}/docker           git@github.com:imma/docker           6957a4666d74968964d4e5abea7ab0b7316d541f master 
 habitat          ${BLOCK_PATH}/habitat          git@github.com:imma/habitat          a879474f5b9539bf7f796d9e7ab7cd02868be209 master 
