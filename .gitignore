@@ -204,3 +204,4 @@ tmux-client*log
 *.log
 /.lnav
 /.helm
+/.password-store/
