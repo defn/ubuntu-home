@@ -134,6 +134,7 @@ export FULL_VERSION=0.0.1
 export DYNAMODB_VERSION=0.0.1
 export NEWMAN_VERSION=3.9.4
 export NEXUS_VERSION=3.12.1-01
+export PASS_VERSION=1.7.2
 
 case "$(uname -s)" in
   Darwin)
