@@ -27,7 +27,7 @@ bash4            ${BLOCK_PATH}/bash4            git@github.com:imma/bash4       
 pyenv            ${BLOCK_PATH}/pyenv            git@github.com:imma/pyenv            9ce7355c820b7b6a29efc7f694ab1b8e9956e6e8 master 
 python           ${BLOCK_PATH}/python           git@github.com:imma/python           54ac6645b9916bf2c5dd28f763158c550412b7c3 master 
 py27             ${BLOCK_PATH}/py27             git@github.com:imma/py27             b20c1445388e37f578b0a4d236d921f6237380c9 master 
-py36             ${BLOCK_PATH}/py36             git@github.com:imma/py36             62e111887f005e7f31ce49fd0c2769541c9d0a12 master 
+py36             ${BLOCK_PATH}/py36             git@github.com:imma/py36             a935fac9d256c0a70c9443875449f9fbda65f740 master 
 go               ${BLOCK_PATH}/go               git@github.com:imma/go               1b5e88880c822e2531a630bff1ff21cf151bd68c master 
 rust             ${BLOCK_PATH}/rust             git@github.com:imma/rust             68b01ff1b8cba66d20d57590d1b1ea44f17443b6 master 
 tfenv            ${BLOCK_PATH}/tfenv            git@github.com:imma/tfenv            2ae01416cb3f65d87a5edf18d138a9a6a744ccef master 
@@ -39,7 +39,7 @@ junas            ${BLOCK_PATH}/junas            git@github.com:imma/junas       
 cue              ${BLOCK_PATH}/cue              git@github.com:imma/cue              7013a849dc56e3486a848b3c293b888972e92524 master 
 context          ${BLOCK_PATH}/context          git@github.com:imma/context          edaced91a1fe73abd74c370dcc53a72c95bfabbc master 
 parity           ${BLOCK_PATH}/parity           git@github.com:imma/parity           71ba46f4bfe28602fc50e399733761429b16b409 master 
-docker-compose   ${BLOCK_PATH}/docker-compose   git@github.com:imma/docker-compose   586736435ed7d6c1e66a25ed32101681830d00c9 master 
+docker-compose   ${BLOCK_PATH}/docker-compose   git@github.com:imma/docker-compose   22862dd3c6c534d2876737681c8946163e29b875 master 
 runtime          ${BLOCK_PATH}/runtime          git@github.com:imma/runtime          d9b15bb5abc69bd81fd95df1bb43c7244abe7364 master 
 gpg              ${BLOCK_PATH}/gpg              git@github.com:imma/gpg              1722c23bea696bf6c76ad354b46094909782b59f master 
 aws-vault        ${BLOCK_PATH}/aws-vault        git@github.com:imma/aws-vault        b45b3394f8bc7108029ee08ba8e38565801db004 master 
