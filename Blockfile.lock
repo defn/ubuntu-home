@@ -27,7 +27,7 @@ bash4            ${BLOCK_PATH}/bash4            git@github.com:imma/bash4       
 pyenv            ${BLOCK_PATH}/pyenv            git@github.com:imma/pyenv            9ce7355c820b7b6a29efc7f694ab1b8e9956e6e8 master 
 python           ${BLOCK_PATH}/python           git@github.com:imma/python           54ac6645b9916bf2c5dd28f763158c550412b7c3 master 
 py27             ${BLOCK_PATH}/py27             git@github.com:imma/py27             b20c1445388e37f578b0a4d236d921f6237380c9 master 
-py36             ${BLOCK_PATH}/py36             git@github.com:imma/py36             a935fac9d256c0a70c9443875449f9fbda65f740 master 
+py36             ${BLOCK_PATH}/py36             git@github.com:imma/py36             5c718be4f68386c4a7c7e4ca1bad5b33483a19b9 master 
 go               ${BLOCK_PATH}/go               git@github.com:imma/go               1b5e88880c822e2531a630bff1ff21cf151bd68c master 
 rust             ${BLOCK_PATH}/rust             git@github.com:imma/rust             68b01ff1b8cba66d20d57590d1b1ea44f17443b6 master 
 tfenv            ${BLOCK_PATH}/tfenv            git@github.com:imma/tfenv            2ae01416cb3f65d87a5edf18d138a9a6a744ccef master 
