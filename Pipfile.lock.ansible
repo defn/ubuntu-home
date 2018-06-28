@@ -1,7 +1,7 @@
 {
   "_meta": {
     "hash": {
-      "sha256": "35fb60ed666733ca572e46abe7a2e2b6a338bab58362a90b8fa14eb6340483c7"
+      "sha256": "8b3a58c6e46c0c14064855a5e1cbf78dbd6b121443e3a93a4bd5ffc8f3f39d20"
     },
     "pipfile-spec": 6,
     "requires": {},
@@ -16,7 +16,7 @@
   "default": {
     "ansible": {
       "index": "pypi",
-      "version": "==2.5.4"
+      "version": "==2.5.5"
     },
     "asn1crypto": {
       "version": "==0.24.0"
@@ -24,7 +24,12 @@
     "bcrypt": {
       "version": "==3.1.4"
     },
+    "cd": {
+      "index": "pypi",
+      "version": "==1.1.0"
+    },
     "cffi": {
+      "markers": "platform_python_implementation != 'PyPy'",
       "version": "==1.11.5"
     },
     "cryptography": {
@@ -60,7 +65,8 @@
       "version": "==1.2.1"
     },
     "pyyaml": {
-      "version": "==3.12"
+      "markers": "python_version != '3.0.*' and python_version != '3.1.*' and python_version >= '2.6' and python_version != '3.3.*' and python_version != '3.2.*'",
+      "version": "==4.1"
     },
     "six": {
       "version": "==1.11.0"
