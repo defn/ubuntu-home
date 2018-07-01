@@ -1,8 +1,6 @@
 {
   "require": [
     "ubuntu-config",
-    "shell",
-    "base",
     "full"
   ],
   "versions": {}
