@@ -16,7 +16,7 @@
   "default": {
     "ansible": {
       "index": "pypi",
-      "version": "==2.5.5"
+      "version": "==2.6.0"
     },
     "asn1crypto": {
       "version": "==0.24.0"
@@ -25,7 +25,7 @@
       "version": "==3.1.4"
     },
     "cffi": {
-      "markers": "platform_python_implementation != 'PyPy'",
+      "markers": "platform_python_implementation != 'pypy'",
       "version": "==1.11.5"
     },
     "cryptography": {
@@ -61,7 +61,7 @@
       "version": "==1.2.1"
     },
     "pyyaml": {
-      "version": "==4.1"
+      "version": "==3.12"
     },
     "six": {
       "version": "==1.11.0"
