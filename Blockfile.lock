@@ -113,7 +113,6 @@ ascii            ${BLOCK_PATH}/ascii            git@github.com:imma/ascii       
 docs             ${BLOCK_PATH}/docs             git@github.com:imma/docs             bc3588bfecdfc6c7fd558093184700faf2f92fc8 master 
 lock             ${BLOCK_PATH}/lock             git@github.com:imma/lock             c70b2e5ef3e795ea36ec153c69484dc628c7fc27 master 
 nat              ${BLOCK_PATH}/nat              git@github.com:imma/nat              f2d23020d81fbd1393c8aac01a4cda5eed10d096 master 
-rat              ${BLOCK_PATH}/rat              git@github.com:imma/rat              7924ddc010675b88d1b0e0e0eef8859371aa6b46 master 
 apex             ${BLOCK_PATH}/apex             git@github.com:imma/apex             3de0d184fb755c94beb63f70ce00c013bbbd6ec0 master 
 lambda           ${BLOCK_PATH}/lambda           git@github.com:imma/lambda           d8e38f99abeeb781cfbdaf61967c1d01855f1776 master 
 ecs              ${BLOCK_PATH}/ecs              git@github.com:imma/ecs              23f355138fd0d821b6852e5157b6a863d13385cd master 
@@ -136,4 +135,4 @@ example          ${BLOCK_PATH}/example          git@github.com:imma/example     
 nothing          ${BLOCK_PATH}/nothing          git@github.com:imma/nothing          1f27fe2f0afd06bb09bd9f1c79cfc2dc687daff4 master 
 grpc             ${BLOCK_PATH}/grpc             git@github.com:imma/grpc             b1f0e5519649d2350d4a25d804ab71ae98ef983e master 
 app              ${BLOCK_PATH}/app              git@github.com:imma/app              61c1e785699b4054594f0248a04386370ea56bef master 
-full             ${BLOCK_PATH}/full             git@github.com:imma/full             1fa3ccb57f2206af1f2597209f38d0d56903a770 master 
+full             ${BLOCK_PATH}/full             git@github.com:imma/full             36bff5d4aa7fc9613de8a677cb043cf3a15ac260 master 

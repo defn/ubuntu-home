@@ -333,10 +333,6 @@
 	path = work/eb
 	url = https://github.com/imma/eb
 	branch = master
-[submodule "work/rat"]
-	path = work/rat
-	url = https://github.com/imma/rat
-	branch = master
 [submodule "work/yubikey"]
 	path = work/yubikey
 	url = https://github.com/imma/yubikey
