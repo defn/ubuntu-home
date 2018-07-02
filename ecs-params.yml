@@ -1,0 +1,5 @@
+version: 1
+task_definition:
+  services:
+    shell:
+      mem_limit: 4200000
