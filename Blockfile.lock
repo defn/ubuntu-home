@@ -126,7 +126,7 @@ vagrant          ${BLOCK_PATH}/vagrant          git@github.com:imma/vagrant     
 virtualbox       ${BLOCK_PATH}/virtualbox       git@github.com:imma/virtualbox       ada474bb70ad52b40b26fd6306cfd5e0bc5c774d master 
 anchore          ${BLOCK_PATH}/anchore          git@github.com:imma/anchore          ab22684f4d213c0f30fe9dfdacb1af7b7d4ae873 master 
 newman           ${BLOCK_PATH}/newman           git@github.com:imma/newman           89b737e896fe2caf111b23207ec1694db92c38f3 master 
-fogg-tf          ${BLOCK_PATH}/fogg-tf          git@github.com:imma/fogg-tf          580545134ce7bb3a6041782f2ff82e444208194b master 
+fogg-tf          ${BLOCK_PATH}/fogg-tf          git@github.com:imma/fogg-tf          2f5c8d751ffcb08c1ab2cca0dda69b2d797f322e master 
 imma-tf          ${BLOCK_PATH}/imma-tf          git@github.com:imma/imma-tf          882032b69843604f957a31f0a70261dbf13e38b4 master 
 ftl              ${BLOCK_PATH}/ftl              git@github.com:imma/ftl              515041a52536b05b7fbdc2a8a9e0987ca4c77461 master 
 bit              ${BLOCK_PATH}/bit              git@github.com:imma/bit              e595eea0279b82408b2bc0b4eddff24589678ea7 master 
