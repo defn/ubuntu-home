@@ -54,7 +54,7 @@ docker           ${BLOCK_PATH}/docker           git@github.com:imma/docker      
 habitat          ${BLOCK_PATH}/habitat          git@github.com:imma/habitat          a879474f5b9539bf7f796d9e7ab7cd02868be209 master 
 irssi            ${BLOCK_PATH}/irssi            git@github.com:imma/irssi            6cc3f6afce5f8008e7070ebe2710ca5ee3d209db master 
 wtf              ${BLOCK_PATH}/wtf              git@github.com:imma/wtf              1cf5e2360c460488d1a12660eb1cb0e13784ea38 master 
-fogg-cli         ${BLOCK_PATH}/fogg-cli         git@github.com:imma/fogg-cli         45d90752b4fee43dd29f492c058583489d3da863 master 
+fogg-cli         ${BLOCK_PATH}/fogg-cli         git@github.com:imma/fogg-cli         763842e0699c67d4f9fbc0c447224fc8db26f804 master 
 fogg             ${BLOCK_PATH}/fogg             git@github.com:imma/fogg             defdc1abeea126735c192b2ea815315e807c2640 master 
 teleport         ${BLOCK_PATH}/teleport         git@github.com:imma/teleport         d532986f895d9a162c2d4f8ae4aaad8bda065f92 master 
 ansible          ${BLOCK_PATH}/ansible          git@github.com:imma/ansible          2798c452805fdfb549fc5edc172b404317e84e1d master 
