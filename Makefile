@@ -104,10 +104,10 @@ rebase: dummy
 	cd docker/rebase && $(MAKE)
 
 push:
-	runmany 'docker push imma/ubuntu:$$1' shell base
+	runmany 'docker push imma/ubuntu:$$1' shell
 
 pull:
-	runmany 'docker pull imma/ubuntu:$$1' shell base
+	runmany 'docker pull imma/ubuntu:$$1' shell
 
 docs:
 	mkdir -p content
