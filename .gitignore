@@ -205,3 +205,4 @@ tmux-client*log
 /.lnav
 /.helm
 /.password-store/
+/.bitmap
