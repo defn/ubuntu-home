@@ -57,7 +57,7 @@ wtf              ${BLOCK_PATH}/wtf              git@github.com:imma/wtf         
 fogg-cli         ${BLOCK_PATH}/fogg-cli         git@github.com:imma/fogg-cli         763842e0699c67d4f9fbc0c447224fc8db26f804 master 
 fogg             ${BLOCK_PATH}/fogg             git@github.com:imma/fogg             defdc1abeea126735c192b2ea815315e807c2640 master 
 teleport         ${BLOCK_PATH}/teleport         git@github.com:imma/teleport         d532986f895d9a162c2d4f8ae4aaad8bda065f92 master 
-ansible          ${BLOCK_PATH}/ansible          git@github.com:imma/ansible          2798c452805fdfb549fc5edc172b404317e84e1d master 
+ansible          ${BLOCK_PATH}/ansible          git@github.com:imma/ansible          54136f561ee09ae17eb24ac6ba9cb30ec9fbc8c6 master 
 facts            ${BLOCK_PATH}/facts            git@github.com:imma/facts            9c69d9500281b4cafffaf5834e4d096ab4e90dab master 
 lnav             ${BLOCK_PATH}/lnav             git@github.com:imma/lnav             86877844b4cbd21b055cfb4029f5e5d5cbb86fd4 master 
 base             ${BLOCK_PATH}/base             git@github.com:imma/base             daf6b8e3160ef107d9cd6b96fc3d3aae24e81244 master 
