@@ -78,7 +78,7 @@ shell: dummy
 	cd docker/shell && $(MAKE)
 
 base: dummy
-	runmany 'docker rmi -f imma/ubuntu:$$1 || true' base base1
+	runmany 'docker rmi -f imma/ubuntu:$$1 || true' base
 	runmany 'docker system prune -f || true' 1 2 3
 	mkdir -p docker/base/data/cache
 	rsync -ia $(DATA)/cache/{packages,install,pyenv,rbenv,git} docker/base/data/cache/
