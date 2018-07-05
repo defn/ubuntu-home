@@ -23,6 +23,7 @@ RUN usermod -G docker ubuntu
 RUN echo "ubuntu ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 RUN echo "Defaults !requiretty" >> /etc/sudoers
 
+VOLUME /data
 RUN install -d -m 0700 -o ubuntu -g ubuntu /data
 
 RUN curl -L -o /tini https://github.com/krallin/tini/releases/download/v0.18.0/tini-static-amd64
