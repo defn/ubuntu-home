@@ -4,4 +4,4 @@ TAG ?= $(shell basename $(shell pwd))
 
 build:
 	docker build -m 2294967290 --memory-swap -1 -t $(REPO):$(TAG) .
-	rsync --progress -ia --blocking-io -e "docker run -i $(REPO):$(TAG)" env:/data/. data/.
+	#rsync --progress -ia --blocking-io -e "docker run -i $(REPO):$(TAG)" env:/data/. data/.
