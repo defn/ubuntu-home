@@ -98,6 +98,7 @@ base-update:
 	git clean -ffd
 
 full: dummy
+	rsync -ia docker/base/data/cache/. docker/full/data/cache/.
 	cd docker/full && $(MAKE)
 
 rebase: dummy
