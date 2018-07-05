@@ -11,3 +11,4 @@ RUN mkdir -p /data/cache/packages
 COPY --chown=ubuntu:ubuntu data /data
 RUN env SERVICE_DONE=/tmp/.done-base /service
 RUN exec/home block base block stale
+RUN rm -rf /data/*
