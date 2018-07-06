@@ -17,7 +17,7 @@ Vagrant.configure("2") do |config|
     override.vm.synced_folder ENV['HOME'], '/vagrant', disabled: true
     override.vm.synced_folder ENV['DATA'], '/data'
 
-    override.vm.provision "shell", path: "setup-vagrant", args: [], privileged: true
+    #override.vm.provision "shell", path: "setup-vagrant", args: [], privileged: true
 
     #v.customize [ 'storageattach', :id, '--storagectl', 'SATA Controller', '--port', 1, '--device', 0, '--type', 'dvddrive', '--medium', "#{ENV['_base_home']}/cidata.vagrant.iso" ]
   end
