@@ -6,7 +6,7 @@ runmany          ${BLOCK_PATH}/runmany          git@github.com:imma/runmany     
 block            ${BLOCK_PATH}/block            git@github.com:imma/block            b18b4f1f42c830f0e29c1e63dc9be734f196a721 master 
 ubuntu-config    ${BLOCK_PATH}/ubuntu-config    git@github.com:imma/ubuntu-config    e68120a1fe79d0fd010137913903936dd873b101 master 
 boxcutter-ubuntu ${BLOCK_PATH}/boxcutter-ubuntu git@github.com:imma/boxcutter-ubuntu 1dcb3d432db09d52f050fbc052227d53897f66d1 master 
-shell            ${BLOCK_PATH}/shell            git@github.com:imma/shell            88920a01f876816e22175153f660e7fac39732af master 
+shell            ${BLOCK_PATH}/shell            git@github.com:imma/shell            c5a26f8cd5fff38da671458e9049b7811be80a36 master 
 pkgsrc           ${BLOCK_PATH}/pkgsrc           git@github.com:imma/pkgsrc           a63907291e4c97945605981195130bb1d4e4fe49 master 
 homebrew         ${BLOCK_PATH}/homebrew         git@github.com:imma/homebrew         29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
 cache            ${BLOCK_PATH}/cache            git@github.com:imma/cache            3efaf1fe5169eda2906806a6ab84f11ea95b0896 master 

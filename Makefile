@@ -74,9 +74,6 @@ lock:
 dummy:
 	[[ "$(shell uname -s)" == "Darwin" ]] && sudo ifconfig lo0 alias 169.254.1.1 255.255.255.255 2>/dev/null || true
 
-shell: dummy
-	cd docker/shell && $(MAKE)
-
 base: dummy
 	runmany 'docker rmi -f imma/ubuntu:$$1 || true' base
 	runmany 'docker system prune -f || true' 1 2 3
@@ -97,12 +94,6 @@ full: dummy
 
 rebase: dummy
 	cd docker/rebase && $(MAKE)
-
-push:
-	runmany 'docker push imma/ubuntu:$$1' shell
-
-pull:
-	runmany 'docker pull imma/ubuntu:$$1' shell
 
 docs:
 	mkdir -p content
