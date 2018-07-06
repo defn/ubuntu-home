@@ -10,7 +10,7 @@ parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         7
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 22862dd3c6c534d2876737681c8946163e29b875 master 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master 
 docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         6957a4666d74968964d4e5abea7ab0b7316d541f master 
-shell          ${BLOCK_PATH}/shell          git@github.com:imma/shell          0ba1d41614f58a76732055a12c0a5145c725bbec master 
+shell          ${BLOCK_PATH}/shell          git@github.com:imma/shell          0cce9289991c6cadb11f67253fca56755d4d4d3a master 
 homebrew       ${BLOCK_PATH}/homebrew       git@github.com:imma/homebrew       29646380ef394d2cd0f0b40943e8a2fcfd5cbdf2 master 
 cache          ${BLOCK_PATH}/cache          git@github.com:imma/cache          3efaf1fe5169eda2906806a6ab84f11ea95b0896 master 
 curl           ${BLOCK_PATH}/curl           git@github.com:imma/curl           bb57a7cea3f29a92b222fe7afe8c1e9072804ff8 master 
