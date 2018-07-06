@@ -1,0 +1,17 @@
+From nobody Wed Aug 10 18:58:26 2016
+Content-Type: multipart/mixed; boundary="===============88888888888888888888888888=="
+MIME-Version: 1.0
+Number-Attachments: 1
+
+--===============88888888888888888888888888==
+MIME-Version: 1.0
+Content-Type: text/cloud-config
+Content-Disposition: attachment; filename="part-001"
+
+runcmd:
+  - "systemctl disable apt-daily.service"
+  - "systemctl disable apt-daily.timer"
+  - "systemctl disable cron"
+  - "systemctl disable anacron"
+
+--===============88888888888888888888888888==

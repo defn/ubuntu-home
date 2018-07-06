@@ -94,3 +94,16 @@ docs:
 	runmany 'cd $$1 && block compile docs' . work/{block,runmany}
 	ln -nfs $(shell cd .public && ls -d ../work/*/.public/*/ | egrep -v '/(ubuntu|css|js)/') .public/
 	block compile index
+
+cidata/cidata.iso: cidata/user-data cidata/meta-data
+	mkisofs -R -V cidata -o $@.tmp cidata
+	mv $@.tmp $@
+
+cidata/user-data: cidata/user-data.template
+	cat "$<" | env CONTAINER_SSH_KEY="$(shell head -1 .ssh/authorized_keys)" envsubst '$$CONTAINER_SSH_KEY' | tee "$@.tmp"
+	mv "$@.tmp" "$@"
+
+cidata/meta-data: Makefile
+	echo --- | tee $@.tmp
+	echo instance-id: $(shell basename $(shell pwd))-$(shell date +%s) | tee -a $@.tmp
+	mv $@.tmp $@
