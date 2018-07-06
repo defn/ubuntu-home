@@ -18,10 +18,6 @@
 	path = work/block
 	url = https://github.com/imma/block
 	branch = master
-[submodule "work/ubuntu-config"]
-	path = work/ubuntu-config
-	url = https://github.com/imma/ubuntu-config
-	branch = master
 [submodule "work/context"]
 	path = work/context
 	url = https://github.com/imma/context

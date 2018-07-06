@@ -1,6 +1,5 @@
 {
   "require": [
-    "ubuntu-config",
     "full"
   ],
   "versions": {}

@@ -144,3 +144,70 @@ case "$(uname -s)" in
     export AWS_OKTA_VERSION=0.18.0
     ;;
 esac
+
+
+PATH="$PATH:/sbin:/usr/sbin"
+
+: ${DISTRIB_ID:=}
+
+if [[ -f /etc/lsb-release ]]; then
+  . /etc/lsb-release
+fi
+
+if [[ -z "${DISTRIB_ID}" ]]; then
+  if [[ -f /etc/redhat-release ]]; then
+    DISTRIB_ID="$(awk '{print $1}' /etc/redhat-release)"
+  fi
+
+fi
+
+if [[ -z "${DISTRIB_ID}" ]]; then
+  if [[ -f /etc/system-release ]]; then
+    DISTRIB_ID="$(awk '{print $1}' /etc/system-release)"
+  fi
+fi
+
+if [[ -z "${DISTRIB_ID}" ]]; then
+  if [[ -f /etc/alpine-release ]]; then
+    DISTRIB_ID="$(awk '{print $1}' /etc/system-release | cut -d. -f1-2)"
+  fi
+fi
+
+if [[ -z "${DISTRIB_ID}" ]]; then
+  if [[ -f /etc/debian_version ]]; then
+    DISTRIB_ID="Debian"
+  fi
+fi
+
+if [[ -z "${DISTRIB_ID}" ]]; then
+  DISTRIB_ID="$(uname -s)"
+fi
+
+export DISTRIB_ID
+
+export BOARD_PATH="${BOARD_PATH:-"${HOME}"}"
+
+case "${DISTRIB_ID}" in
+  Darwin)
+    export DATA="${DATA:-"${BOARD_PATH}/data"}"
+    ;;
+  *)
+    export DATA="${DATA:-"/data"}"
+    ;;
+esac
+
+export PKG_HOME="${BOARD_PATH}"
+export SVDIR="${BOARD_PATH}/service"
+export BLOCK_PATH="${BOARD_PATH}/work"
+export BASEBOX_CACHE="${DATA}/cache"
+export NOSUDO="${NOSUDO:-}"
+
+if ! df "${DATA}" | grep efs >/dev/null; then
+  export XDG_CACHE_HOME="${DATA}/cache"
+else
+  unset XDG_CACHE_HOME
+fi
+
+export EDITOR=vim
+
+export CHECKPOINT_DISABLE=1

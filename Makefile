@@ -52,7 +52,7 @@ down:
 	docker-compose down
 
 cache:
-	source work/ubuntu-config/script/profile && source work/block/script/profile && require && block gen profile > .bashrc.cache.1
+	source script/rc && source work/block/script/profile && require && block gen profile > .bashrc.cache.1
 	mv -f .bashrc.cache.1 .bashrc.cache
 
 update-modules:
