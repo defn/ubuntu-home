@@ -82,7 +82,7 @@ linkerd        ${BLOCK_PATH}/linkerd        git@github.com:imma/linkerd        8
 namerd         ${BLOCK_PATH}/namerd         git@github.com:imma/namerd         c571a8e9b649e7f548dd4e73c9f29288d6ffc4d5 master 
 fabio          ${BLOCK_PATH}/fabio          git@github.com:imma/fabio          6a85be63ccead09840569ddbae4f79d75c77bc63 master 
 openresty      ${BLOCK_PATH}/openresty      git@github.com:imma/openresty      95e2d5eac4852988c43cb000e4e4a2e5c2827b8b master 
-cloudflare     ${BLOCK_PATH}/cloudflare     git@github.com:imma/cloudflare     73d6b03a839bacbdc7af1f06105f0c44f6c1f4ff master 
+cloudflare     ${BLOCK_PATH}/cloudflare     git@github.com:imma/cloudflare     174a159e31eb04e2bd780a70d698c6581450fcdc master 
 squid          ${BLOCK_PATH}/squid          git@github.com:imma/squid          aa4a0f7100d477fd75d27bb028d2c6f7614ee022 master 
 nexus          ${BLOCK_PATH}/nexus          git@github.com:imma/nexus          c16f6f0d6b325af09a8f6377028f6c74a0d31f99 master 
 nomad          ${BLOCK_PATH}/nomad          git@github.com:imma/nomad          1dda3c0ca577e43c1e6b1e6d0bdfbfcd1dc9c6f3 master 
