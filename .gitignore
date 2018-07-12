@@ -169,7 +169,8 @@ tmux-client*log
 /current
 *secret*
 /.vault*
-/.clojure*
+/.clojure/*
+!/.clojure/rebel_readline.edn
 /.rediscli_history
 /.*_history
 /.netrc
