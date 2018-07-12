@@ -11,3 +11,5 @@
 (defn -main [& args]
   (doto (.createServer http #(app %1 %2))
     (.listen 3000)))
+
+(set! *main-cli-fn* -main)

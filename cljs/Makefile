@@ -5,7 +5,7 @@ test:
 	http :3000/hello
 
 hello:
-	lumo -c src -m defn.hello
+	plk -m defn.hello $(USER)
 
 install:
 	yarn install

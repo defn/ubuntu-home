@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "express": "^4.16.3",
-    "lumo-cljs": "^1.9.0-alpha"
+    "express": "^4.16.3"
   }
 }
