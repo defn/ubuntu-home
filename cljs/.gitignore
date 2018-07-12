@@ -1,3 +1,6 @@
 /.cpcache/
 /node_modules/
-/out/
+yarn.lock
+/.rebel_readline_history
+/target
+/out
