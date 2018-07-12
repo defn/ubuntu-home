@@ -1,8 +1,11 @@
-repl:
-	lumo -i src/defn/core.cljs -v -r
+core:
+	lumo -c src -m defn.core
+
+test:
+	http :3000/hello
 
 hello:
-	time lumo -i src/defn/hello.cljs
+	time lumo -c src -m defn.hello
 
 install:
 	yarn install

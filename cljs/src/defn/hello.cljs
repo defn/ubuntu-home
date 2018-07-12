@@ -1,3 +1,4 @@
-(ns defn.core)
+(ns defn.hello)
 
-(println "Hello world!")
+(defn -main [& args]
+  (println "Hello world!"))
