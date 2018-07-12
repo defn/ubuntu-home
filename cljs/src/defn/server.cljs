@@ -1,4 +1,4 @@
-(ns defn.core)
+(ns defn.server)
 
 (require '["express" :as express])
 (require '["http" :as http])
