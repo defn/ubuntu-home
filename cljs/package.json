@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "aws-sdk": "^2.273.1",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "vue": "^2.5.16"
   }
 }

@@ -2,6 +2,7 @@
 
 (ns defn.server)
 
+(require '["aws-sdk" :as aws])
 (require '["express" :as express])
 (require '["http" :as http])
 
