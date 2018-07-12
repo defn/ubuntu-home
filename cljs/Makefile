@@ -1,5 +1,5 @@
 app:
-	clj -m figwheel.main -m defn.app -r
+	clj -m figwheel.main -b dev -r
 
 pc:
 	clj -m figwheel.main -pc
