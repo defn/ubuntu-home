@@ -530,3 +530,6 @@
 [submodule "work/grpc"]
 	path = work/grpc
 	url = https://github.com/imma/grpc
+[submodule "work/lumo"]
+	path = work/lumo
+	url = https://github.com/imma/lumo

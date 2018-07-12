@@ -36,7 +36,8 @@ rust           ${BLOCK_PATH}/rust           git@github.com:imma/rust           6
 tfenv          ${BLOCK_PATH}/tfenv          git@github.com:imma/tfenv          2ae01416cb3f65d87a5edf18d138a9a6a744ccef master 
 vg             ${BLOCK_PATH}/vg             git@github.com:imma/vg             74fb7fc005981571253a72cb619a9bcb3413ca14 master 
 vmm            ${BLOCK_PATH}/vmm            git@github.com:imma/vmm            e652f7b873582c0002415325e281818945709d47 master 
-lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           036bcd7a984fbcd86978405f16eb64daa7d1fcad master 
+lumo           ${BLOCK_PATH}/lumo           git@github.com:imma/lumo           374976d0e1547d027d6c40a693b8832712878f2b master 
+lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           37cf8eb2781aaa226bf0a1a57a979a0fed837be6 master 
 tmux           ${BLOCK_PATH}/tmux           git@github.com:imma/tmux           05c647e32c434a0aa70e8c02f6330593e62f1243 master 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          198dbe97a3631665874f17dc29d6b7a71d34b5fb master 
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            7013a849dc56e3486a848b3c293b888972e92524 master 
