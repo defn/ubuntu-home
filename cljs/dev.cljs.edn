@@ -1,5 +1,1 @@
-{:main defn.app
- :target :nodejs
- :output-to  "target/public/cljs-out/main.js"
- :output-dir "target/public/cljs-out"
- :asset-path "target/public/cljs-out"}
+{:main defn.app}
