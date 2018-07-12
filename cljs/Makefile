@@ -1,11 +1,11 @@
 server:
-	lumo -c src -m defn.server
+	src/defn/server.cljs
 
 test:
 	http :3000/hello
 
 hello:
-	plk -m defn.hello $(USER)
+	src/defn/hello.cljs $(USER)
 
 install:
 	yarn install

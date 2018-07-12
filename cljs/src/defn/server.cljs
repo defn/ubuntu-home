@@ -1,3 +1,5 @@
+#!/usr/bin/env lumo
+
 (ns defn.server)
 
 (require '["express" :as express])
