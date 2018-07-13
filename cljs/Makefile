@@ -3,6 +3,3 @@ app:
 
 pc:
 	clj -m figwheel.main -pc
-
-install:
-	yarn install

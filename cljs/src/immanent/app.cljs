@@ -3,4 +3,4 @@
 (enable-console-print!)
 
 (defn -main []
-  (js/alert "wtf"))
+  (js/alert "hey"))
