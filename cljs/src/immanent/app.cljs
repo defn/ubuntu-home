@@ -3,4 +3,4 @@
 (enable-console-print!)
 
 (defn -main []
-  (js/alert "hey"))
+  (new js/Vue (clj->js { :el "#app" :data { :message "Hello Vue!" } })))
