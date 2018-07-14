@@ -36,7 +36,7 @@ junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          0
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            7013a849dc56e3486a848b3c293b888972e92524 master 
 runtime        ${BLOCK_PATH}/runtime        git@github.com:imma/runtime        d9b15bb5abc69bd81fd95df1bb43c7244abe7364 master 
 op             ${BLOCK_PATH}/op             git@github.com:imma/op             2ba208a5cca3087b8f5b9422377bfd822cbb63da master 
-shell          ${BLOCK_PATH}/shell          git@github.com:imma/shell          39d3c7ae0a34ca8502627e3a9d555a35f5b048cd master 
+shell          ${BLOCK_PATH}/shell          git@github.com:imma/shell          a72d448e437fc8f24651a6fdd3cc369bc2da4b82 master 
 gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            1722c23bea696bf6c76ad354b46094909782b59f master 
 aws-vault      ${BLOCK_PATH}/aws-vault      git@github.com:imma/aws-vault      b45b3394f8bc7108029ee08ba8e38565801db004 master 
 okta           ${BLOCK_PATH}/okta           git@github.com:imma/okta           d5c6861429e09eee593e2da25a1f50887df8ec4d master 
