@@ -29,13 +29,14 @@ py27           ${BLOCK_PATH}/py27           git@github.com:imma/py27           b
 py36           ${BLOCK_PATH}/py36           git@github.com:imma/py36           5c718be4f68386c4a7c7e4ca1bad5b33483a19b9 master 
 go             ${BLOCK_PATH}/go             git@github.com:imma/go             1b5e88880c822e2531a630bff1ff21cf151bd68c master 
 lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           88fbe7b34a106c2a4bd7ae344f90c46aacd095bc master 
-shell          ${BLOCK_PATH}/shell          git@github.com:imma/shell          e9cdeba2882ffcafd57cd9e29a3d52392a157a19 master 
 sshd           ${BLOCK_PATH}/sshd           git@github.com:imma/sshd           ad751ce4cc158d238ddcf3c2108d7bb6b91e0fab master 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            472bdf518d416de26ecc322296215577669b255c master 
 tmux           ${BLOCK_PATH}/tmux           git@github.com:imma/tmux           05c647e32c434a0aa70e8c02f6330593e62f1243 master 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          198dbe97a3631665874f17dc29d6b7a71d34b5fb master 
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            7013a849dc56e3486a848b3c293b888972e92524 master 
 runtime        ${BLOCK_PATH}/runtime        git@github.com:imma/runtime        d9b15bb5abc69bd81fd95df1bb43c7244abe7364 master 
+op             ${BLOCK_PATH}/op             git@github.com:imma/op             2ba208a5cca3087b8f5b9422377bfd822cbb63da master 
+shell          ${BLOCK_PATH}/shell          git@github.com:imma/shell          39d3c7ae0a34ca8502627e3a9d555a35f5b048cd master 
 gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            1722c23bea696bf6c76ad354b46094909782b59f master 
 aws-vault      ${BLOCK_PATH}/aws-vault      git@github.com:imma/aws-vault      b45b3394f8bc7108029ee08ba8e38565801db004 master 
 okta           ${BLOCK_PATH}/okta           git@github.com:imma/okta           d5c6861429e09eee593e2da25a1f50887df8ec4d master 
@@ -44,7 +45,6 @@ awless         ${BLOCK_PATH}/awless         git@github.com:imma/awless         8
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            d0e8226de029a418c6c2c2b42ff53c6b4bbdc727 master 
 tfenv          ${BLOCK_PATH}/tfenv          git@github.com:imma/tfenv          2ae01416cb3f65d87a5edf18d138a9a6a744ccef master 
 terraform      ${BLOCK_PATH}/terraform      git@github.com:imma/terraform      2404cf527d4d29c0ad1888e35e9b2121ae3cc05f master 
-op             ${BLOCK_PATH}/op             git@github.com:imma/op             2ba208a5cca3087b8f5b9422377bfd822cbb63da master 
 habitat        ${BLOCK_PATH}/habitat        git@github.com:imma/habitat        a879474f5b9539bf7f796d9e7ab7cd02868be209 master 
 irssi          ${BLOCK_PATH}/irssi          git@github.com:imma/irssi          6cc3f6afce5f8008e7070ebe2710ca5ee3d209db master 
 wtf            ${BLOCK_PATH}/wtf            git@github.com:imma/wtf            1cf5e2360c460488d1a12660eb1cb0e13784ea38 master 
