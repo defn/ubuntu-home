@@ -1,8 +1,8 @@
 app:
-	clojure/bin/clojure -m figwheel.main -b dev -ro '{:launch-browser false}' -r
+	clojure/bin/clojure -m figwheel.main -b dev -r
 
 pc:
-	cclojure/bin/clojure -m figwheel.main -pc -ro '{:launch-browser false}'
+	clojure/bin/clojure -m figwheel.main -pc
 
 install:
 	curl -O https://download.clojure.org/install/linux-install-1.9.0.381.sh
