@@ -32,7 +32,7 @@ lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           8
 sshd           ${BLOCK_PATH}/sshd           git@github.com:imma/sshd           ad751ce4cc158d238ddcf3c2108d7bb6b91e0fab master 
 git            ${BLOCK_PATH}/git            git@github.com:imma/git            472bdf518d416de26ecc322296215577669b255c master 
 tmux           ${BLOCK_PATH}/tmux           git@github.com:imma/tmux           05c647e32c434a0aa70e8c02f6330593e62f1243 master 
-junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          198dbe97a3631665874f17dc29d6b7a71d34b5fb master 
+junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          0ea83f1236d2284b85be01cb41a8070fdeb3f145 master 
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            7013a849dc56e3486a848b3c293b888972e92524 master 
 runtime        ${BLOCK_PATH}/runtime        git@github.com:imma/runtime        d9b15bb5abc69bd81fd95df1bb43c7244abe7364 master 
 op             ${BLOCK_PATH}/op             git@github.com:imma/op             2ba208a5cca3087b8f5b9422377bfd822cbb63da master 
