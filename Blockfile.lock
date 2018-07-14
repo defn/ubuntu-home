@@ -21,7 +21,7 @@ nvm            ${BLOCK_PATH}/nvm            git@github.com:imma/nvm            e
 node           ${BLOCK_PATH}/node           git@github.com:imma/node           9abacb7b2f1fb38521fc0b3d8a77392323f15860 master 
 yarn           ${BLOCK_PATH}/yarn           git@github.com:imma/yarn           d1b8fc3a579874cc14f69c6274d56d3f1a42f234 master 
 jq             ${BLOCK_PATH}/jq             git@github.com:imma/jq             683bf22ca03c98d53854d031f8647ae9f9c70dd7 master 
-java           ${BLOCK_PATH}/java           git@github.com:imma/java           c2dda825e9e13d58f197b18bbec6c7655bcf715b master 
+java           ${BLOCK_PATH}/java           git@github.com:imma/java           f5eea77d078f96696a4b4229b49922260da50187 master 
 bash4          ${BLOCK_PATH}/bash4          git@github.com:imma/bash4          c7d35f0bea3080089eef1f6c9ea0ff0e2b8fc97f master 
 pyenv          ${BLOCK_PATH}/pyenv          git@github.com:imma/pyenv          9ce7355c820b7b6a29efc7f694ab1b8e9956e6e8 master 
 python         ${BLOCK_PATH}/python         git@github.com:imma/python         54ac6645b9916bf2c5dd28f763158c550412b7c3 master 
