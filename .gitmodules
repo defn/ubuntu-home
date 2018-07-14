@@ -90,10 +90,6 @@
 	path = work/consul-agent
 	url = https://github.com/imma/consul-agent
 	branch = master
-[submodule "work/linkerd"]
-	path = work/linkerd
-	url = https://github.com/imma/linkerd
-	branch = master
 [submodule "work/aws"]
 	path = work/aws
 	url = https://github.com/imma/aws
@@ -297,18 +293,6 @@
 	path = work/wtf
 	url = https://github.com/imma/wtf
 	branch = master
-[submodule "work/namerd"]
-	path = work/namerd
-	url = https://github.com/imma/namerd
-	branch = master
-[submodule "work/vmm"]
-	path = work/vmm
-	url = https://github.com/imma/vmm
-	branch = master
-[submodule "work/openresty"]
-	path = work/openresty
-	url = https://github.com/imma/openresty
-	branch = master
 [submodule "work/aws-vault"]
 	path = work/aws-vault
 	url = https://github.com/imma/aws-vault
@@ -437,9 +421,6 @@
 [submodule "work/ascii"]
 	path = work/ascii
 	url = https://github.com/imma/ascii
-[submodule "work/vue"]
-	path = work/vue
-	url = https://github.com/imma/vue
 [submodule "work/cloudflare"]
 	path = work/cloudflare
 	url = https://github.com/imma/cloudflare
@@ -530,6 +511,3 @@
 [submodule "work/grpc"]
 	path = work/grpc
 	url = https://github.com/imma/grpc
-[submodule "work/lumo"]
-	path = work/lumo
-	url = https://github.com/imma/lumo
