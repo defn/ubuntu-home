@@ -4,3 +4,4 @@ yarn.lock
 /.rebel_readline_history
 /target
 /out
+/clojure
