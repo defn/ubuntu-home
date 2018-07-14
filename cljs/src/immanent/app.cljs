@@ -10,5 +10,3 @@
 (defn -main []
   (r/render [state-ful-with-atom]
             (.-body js/document)))
-
-(enable-console-print!)
