@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+function main {
+  set -exfu
+
+  cd
+
+  set +x; source .bash_profile; set -x
+  block sync
+  for a in {1..5}; do git clean -ffd || true; done
+  make cache
+  set +x; source .bash_profile; set -x
+
+  if [[ -f /data/authorized_keys ]]; then
+    install -m 0600 /data/authorized_keys /home/ubuntu/.ssh/authorized_keys
+  else
+    curl -s https://github.com/defn.keys
+  fi > /home/ubuntu/.ssh/authorized_keys
+}
+
+main "$@"
