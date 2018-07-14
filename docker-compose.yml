@@ -7,5 +7,5 @@ services:
     ports:
       - "2222:22"
     volumes:
-      - /data:/data
+      - ${DATA}:/data
       - /var/run/docker.sock:/var/run/docker.sock
