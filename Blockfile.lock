@@ -34,7 +34,7 @@ docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 2
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master 
 docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         cd296a0f69c7fc61f91e9827b3a5f1e708623ed7 master 
 gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            1722c23bea696bf6c76ad354b46094909782b59f master 
-pass           ${BLOCK_PATH}/pass           git@github.com:imma/pass           b7862de0b514cc94d59c66f2a3ded4dfa4c846f3 master 
+pass           ${BLOCK_PATH}/pass           git@github.com:imma/pass           98b181afba0df7787b8328a21df4e2297d839044 master 
 op             ${BLOCK_PATH}/op             git@github.com:imma/op             2ba208a5cca3087b8f5b9422377bfd822cbb63da master 
 chamber        ${BLOCK_PATH}/chamber        git@github.com:imma/chamber        90e2e62f77cd5d6c973ad61d9796e21d76b263a2 master 
 awless         ${BLOCK_PATH}/awless         git@github.com:imma/awless         8d635d18f7ddf97fdb6da8afdd802197dd161cbc master 
