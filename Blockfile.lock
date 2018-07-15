@@ -32,7 +32,7 @@ context        ${BLOCK_PATH}/context        git@github.com:imma/context        e
 parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         71ba46f4bfe28602fc50e399733761429b16b409 master 
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 22862dd3c6c534d2876737681c8946163e29b875 master 
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master 
-docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         6957a4666d74968964d4e5abea7ab0b7316d541f master 
+docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         889636260be73c9e73be3cd530938b6e415c7847 master 
 gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            1722c23bea696bf6c76ad354b46094909782b59f master 
 pass           ${BLOCK_PATH}/pass           git@github.com:imma/pass           b7862de0b514cc94d59c66f2a3ded4dfa4c846f3 master 
 op             ${BLOCK_PATH}/op             git@github.com:imma/op             2ba208a5cca3087b8f5b9422377bfd822cbb63da master 
