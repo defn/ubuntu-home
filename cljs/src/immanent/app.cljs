@@ -1,5 +1,6 @@
 (ns immanent.app
-  (:require [reagent.core :as r]))
+  (:require [reagent.core :as r]
+            [cljsjs.aws-sdk-js :as aws]))
 
 (defonce click-count (r/atom 0))
 
