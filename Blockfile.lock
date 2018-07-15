@@ -1,3 +1,4 @@
+aws-vault      ${BLOCK_PATH}/aws-vault      git@github.com:imma/aws-vault      b45b3394f8bc7108029ee08ba8e38565801db004 master 
 site           ${BLOCK_PATH}/site           git@github.com:imma/site           7cfbe2e853b8ef50cb78beb172aaf6b0862ba9b5 master 
 shflags        ${BLOCK_PATH}/shflags        git@github.com:imma/shflags        a05166fedaf8481d2ff856591f4f50257d12521b master 
 normalize      ${BLOCK_PATH}/normalize      git@github.com:imma/normalize      ca938498f15fe070268e89b5ec405bdef58308b4 master 
@@ -46,7 +47,7 @@ terraform      ${BLOCK_PATH}/terraform      git@github.com:imma/terraform      2
 habitat        ${BLOCK_PATH}/habitat        git@github.com:imma/habitat        a879474f5b9539bf7f796d9e7ab7cd02868be209 master 
 irssi          ${BLOCK_PATH}/irssi          git@github.com:imma/irssi          6cc3f6afce5f8008e7070ebe2710ca5ee3d209db master 
 wtf            ${BLOCK_PATH}/wtf            git@github.com:imma/wtf            1cf5e2360c460488d1a12660eb1cb0e13784ea38 master 
-fogg-cli       ${BLOCK_PATH}/fogg-cli       git@github.com:imma/fogg-cli       763842e0699c67d4f9fbc0c447224fc8db26f804 master 
+fogg-cli       ${BLOCK_PATH}/fogg-cli       git@github.com:imma/fogg-cli       2987a3a327ef2740a636d918459c2ba02c149e9c master 
 fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           defdc1abeea126735c192b2ea815315e807c2640 master 
 teleport       ${BLOCK_PATH}/teleport       git@github.com:imma/teleport       d532986f895d9a162c2d4f8ae4aaad8bda065f92 master 
 ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        54136f561ee09ae17eb24ac6ba9cb30ec9fbc8c6 master 
