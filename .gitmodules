@@ -142,10 +142,6 @@
 	path = work/home
 	url = https://github.com/imma/home
 	branch = master
-[submodule "work/monitor"]
-	path = work/monitor
-	url = https://github.com/imma/monitor
-	branch = master
 [submodule "work/netdata"]
 	path = work/netdata
 	url = https://github.com/imma/netdata
@@ -173,10 +169,6 @@
 [submodule "work/app"]
 	path = work/app
 	url = https://github.com/imma/app
-	branch = master
-[submodule "work/cfssl"]
-	path = work/cfssl
-	url = https://github.com/imma/cfssl
 	branch = master
 [submodule "work/cloud"]
 	path = work/cloud
@@ -274,10 +266,6 @@
 	path = work/openvpn
 	url = https://github.com/imma/openvpn
 	branch = master
-[submodule "work/nat"]
-	path = work/nat
-	url = https://github.com/imma/nat
-	branch = master
 [submodule "work/easy-rsa"]
 	path = work/easy-rsa
 	url = https://github.com/imma/easy-rsa
@@ -372,9 +360,6 @@
 [submodule "work/op"]
 	path = work/op
 	url = https://github.com/imma/op
-[submodule "work/vg"]
-	path = work/vg
-	url = https://github.com/imma/vg
 [submodule "work/certbot"]
 	path = work/certbot
 	url = https://github.com/imma/certbot
@@ -474,9 +459,6 @@
 [submodule "work/ftl"]
 	path = work/ftl
 	url = https://github.com/imma/ftl
-[submodule "work/okta"]
-	path = work/okta
-	url = https://github.com/imma/okta
 [submodule "work/dynamodb"]
 	path = work/dynamodb
 	url = https://github.com/imma/dynamodb
@@ -501,6 +483,3 @@
 [submodule "work/pass"]
 	path = work/pass
 	url = https://github.com/imma/pass
-[submodule "work/grpc"]
-	path = work/grpc
-	url = https://github.com/imma/grpc
