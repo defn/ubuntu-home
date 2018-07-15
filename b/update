@@ -7,6 +7,7 @@ function main {
 
   set +x; source .bash_profile; set -x
   block sync
+  cp .gitconfig.template .gitconfig
   for a in {1..5}; do git clean -ffd || true; done
   make cache
   set +x; source .bash_profile; set -x
