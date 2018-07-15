@@ -4,4 +4,4 @@ USER ubuntu
 WORKDIR /home/ubuntu
 COPY update /update
 RUN /update
-COPY .gitconfig.template .gitconfig
+RUN cp .gitconfig.template .gitconfig
