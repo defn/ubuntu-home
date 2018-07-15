@@ -24,8 +24,7 @@ pyenv          ${BLOCK_PATH}/pyenv          git@github.com:imma/pyenv          9
 python         ${BLOCK_PATH}/python         git@github.com:imma/python         54ac6645b9916bf2c5dd28f763158c550412b7c3 master 
 py27           ${BLOCK_PATH}/py27           git@github.com:imma/py27           b20c1445388e37f578b0a4d236d921f6237380c9 master 
 py36           ${BLOCK_PATH}/py36           git@github.com:imma/py36           5c718be4f68386c4a7c7e4ca1bad5b33483a19b9 master 
-go             ${BLOCK_PATH}/go             git@github.com:imma/go             1b5e88880c822e2531a630bff1ff21cf151bd68c master 
-lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           88fbe7b34a106c2a4bd7ae344f90c46aacd095bc master 
+lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           4807b13b44e57741751c819f91ebcd5917e40858 master 
 tmux           ${BLOCK_PATH}/tmux           git@github.com:imma/tmux           092f1e0ce7bca17cfdd1c2069ecc9cc5a0f07da4 master 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          0ea83f1236d2284b85be01cb41a8070fdeb3f145 master 
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            7013a849dc56e3486a848b3c293b888972e92524 master 
@@ -35,14 +34,14 @@ docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 2
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:imma/docker-machine 8e1bb8cf08f8cbb1702d8a681edef58a9d0b9872 master 
 docker         ${BLOCK_PATH}/docker         git@github.com:imma/docker         6957a4666d74968964d4e5abea7ab0b7316d541f master 
 gpg            ${BLOCK_PATH}/gpg            git@github.com:imma/gpg            1722c23bea696bf6c76ad354b46094909782b59f master 
-aws-vault      ${BLOCK_PATH}/aws-vault      git@github.com:imma/aws-vault      b45b3394f8bc7108029ee08ba8e38565801db004 master 
 pass           ${BLOCK_PATH}/pass           git@github.com:imma/pass           b7862de0b514cc94d59c66f2a3ded4dfa4c846f3 master 
 op             ${BLOCK_PATH}/op             git@github.com:imma/op             2ba208a5cca3087b8f5b9422377bfd822cbb63da master 
+aws-vault      ${BLOCK_PATH}/aws-vault      git@github.com:imma/aws-vault      b45b3394f8bc7108029ee08ba8e38565801db004 master 
 okta           ${BLOCK_PATH}/okta           git@github.com:imma/okta           d5c6861429e09eee593e2da25a1f50887df8ec4d master 
 chamber        ${BLOCK_PATH}/chamber        git@github.com:imma/chamber        90e2e62f77cd5d6c973ad61d9796e21d76b263a2 master 
 awless         ${BLOCK_PATH}/awless         git@github.com:imma/awless         8d635d18f7ddf97fdb6da8afdd802197dd161cbc master 
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            d0e8226de029a418c6c2c2b42ff53c6b4bbdc727 master 
-runtime        ${BLOCK_PATH}/runtime        git@github.com:imma/runtime        6823a118d3a6657296eded1b24cf93828ae10ebd master 
+runtime        ${BLOCK_PATH}/runtime        git@github.com:imma/runtime        808240fb838acbcc066505cdf356b33fc309129d master 
 shell          ${BLOCK_PATH}/shell          git@github.com:imma/shell          04eac1bd13cc294f7f84d8da1459da1ae2ee387d master 
 tfenv          ${BLOCK_PATH}/tfenv          git@github.com:imma/tfenv          2ae01416cb3f65d87a5edf18d138a9a6a744ccef master 
 terraform      ${BLOCK_PATH}/terraform      git@github.com:imma/terraform      2404cf527d4d29c0ad1888e35e9b2121ae3cc05f master 
@@ -82,6 +81,7 @@ nexus          ${BLOCK_PATH}/nexus          git@github.com:imma/nexus          c
 nomad          ${BLOCK_PATH}/nomad          git@github.com:imma/nomad          1dda3c0ca577e43c1e6b1e6d0bdfbfcd1dc9c6f3 master 
 netdata        ${BLOCK_PATH}/netdata        git@github.com:imma/netdata        9ae95d60e6daccbbec8d0f5d8017e935c9021aa9 master 
 monitor        ${BLOCK_PATH}/monitor        git@github.com:imma/monitor        4ca342bfaae8881a16a2d79343bf33f87bf86a75 master 
+go             ${BLOCK_PATH}/go             git@github.com:imma/go             
 vg             ${BLOCK_PATH}/vg             git@github.com:imma/vg             74fb7fc005981571253a72cb619a9bcb3413ca14 master 
 cfssl          ${BLOCK_PATH}/cfssl          git@github.com:imma/cfssl          abc4130575a884568fb6f66701e9f2d92c3c2789 master 
 getssl         ${BLOCK_PATH}/getssl         git@github.com:imma/getssl         4ac5ff1b2c7f7c7f179b84f600175f5fffa67219 master 

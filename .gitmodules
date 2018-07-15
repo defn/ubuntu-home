@@ -373,9 +373,6 @@
 [submodule "work/kubernetes"]
 	path = work/kubernetes
 	url = https://github.com/imma/kubernetes
-[submodule "work/go"]
-	path = work/go
-	url = https://github.com/imma/go
 [submodule "work/op"]
 	path = work/op
 	url = https://github.com/imma/op
