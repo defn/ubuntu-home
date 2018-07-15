@@ -31,6 +31,9 @@ init:
 	$(MAKE) sync
 	$(MAKE) attach $(TMUX_SESSION)
 
+build:
+	docker-compose build --no-cache
+
 ssh:
 	ssh -A $(shell docker-compose ps -q shell).docker
 
@@ -41,6 +44,7 @@ attach:
 	tx attach $(shell docker-compose ps -q shell).docker $(TMUX_SESSION)
 
 up:
+	$(MAKE) dummy
 	mkdir -p b/.ssh/
 	rsync -ia .ssh/authorized_keys b/.ssh/
 	docker-compose down
