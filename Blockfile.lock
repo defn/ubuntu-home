@@ -38,7 +38,7 @@ pass           ${BLOCK_PATH}/pass           git@github.com:imma/pass           b
 op             ${BLOCK_PATH}/op             git@github.com:imma/op             2ba208a5cca3087b8f5b9422377bfd822cbb63da master 
 chamber        ${BLOCK_PATH}/chamber        git@github.com:imma/chamber        90e2e62f77cd5d6c973ad61d9796e21d76b263a2 master 
 awless         ${BLOCK_PATH}/awless         git@github.com:imma/awless         8d635d18f7ddf97fdb6da8afdd802197dd161cbc master 
-aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            54c3c9c36d2814ce63e343eb33c13279a60085c9 master 
+aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            eec5d31bd44da8078abea6d32ee712f6377a0ad7 master 
 runtime        ${BLOCK_PATH}/runtime        git@github.com:imma/runtime        808240fb838acbcc066505cdf356b33fc309129d master 
 shell          ${BLOCK_PATH}/shell          git@github.com:imma/shell          04eac1bd13cc294f7f84d8da1459da1ae2ee387d master 
 tfenv          ${BLOCK_PATH}/tfenv          git@github.com:imma/tfenv          2ae01416cb3f65d87a5edf18d138a9a6a744ccef master 
