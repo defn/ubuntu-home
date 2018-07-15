@@ -6,6 +6,7 @@ function main {
   cd
 
   set +x; source .bash_profile; set -x
+  cp .gitconfig.template-https .gitconfig
   block sync
   cp .gitconfig.template .gitconfig
   for a in {1..5}; do git clean -ffd || true; done
