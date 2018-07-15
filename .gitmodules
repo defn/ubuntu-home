@@ -293,10 +293,6 @@
 	path = work/wtf
 	url = https://github.com/imma/wtf
 	branch = master
-[submodule "work/aws-vault"]
-	path = work/aws-vault
-	url = https://github.com/imma/aws-vault
-	branch = master
 [submodule "work/chamber"]
 	path = work/chamber
 	url = https://github.com/imma/chamber
