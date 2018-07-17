@@ -25,7 +25,8 @@ pyenv          ${BLOCK_PATH}/pyenv          git@github.com:imma/pyenv          9
 python         ${BLOCK_PATH}/python         git@github.com:imma/python         54ac6645b9916bf2c5dd28f763158c550412b7c3 master 
 py27           ${BLOCK_PATH}/py27           git@github.com:imma/py27           b20c1445388e37f578b0a4d236d921f6237380c9 master 
 py36           ${BLOCK_PATH}/py36           git@github.com:imma/py36           5c718be4f68386c4a7c7e4ca1bad5b33483a19b9 master 
-lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           4807b13b44e57741751c819f91ebcd5917e40858 master 
+grpc           ${BLOCK_PATH}/grpc           git@github.com:imma/grpc           8c56f5fed4792a5896f5c4105fc5db56a1867a8d master 
+lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           9f8b0efa09bf085e8e811e263080e7889608b83c master 
 tmux           ${BLOCK_PATH}/tmux           git@github.com:imma/tmux           092f1e0ce7bca17cfdd1c2069ecc9cc5a0f07da4 master 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          0ea83f1236d2284b85be01cb41a8070fdeb3f145 master 
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            7013a849dc56e3486a848b3c293b888972e92524 master 

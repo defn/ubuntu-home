@@ -486,3 +486,6 @@
 [submodule "work/aws-vault"]
 	path = work/aws-vault
 	url = https://github.com/imma/aws-vault
+[submodule "work/grpc"]
+	path = work/grpc
+	url = https://github.com/imma/grpc
