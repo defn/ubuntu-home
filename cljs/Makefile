@@ -2,6 +2,7 @@ app: clojure/bin/clojure
 	clojure/bin/clojure -m figwheel.main -b dev -r
 
 cli: clojure/bin/clj
+	@yarn install
 	@clojure/bin/clj -m cljs.main -re node -m immanent.cli 5
 
 compile: immanent.js
@@ -12,6 +13,7 @@ recompile:
 	$(MAKE) compile
 
 immanent.js: src/immanent/cli.cljs
+	yarn install
 	clojure/bin/clj -m cljs.main -t node -O simple -o immanent.js -c immanent.cli
 
 pc: clojure/bin/clojure
