@@ -12,9 +12,9 @@ recompile:
 	rm -f immanent.js
 	$(MAKE) compile
 
-immanent.js: src/immanent/cli.cljs
+immanent.js: src/immanent/cli.cljs clojure/bin/clojure
 	yarn install
-	clojure/bin/clj -m cljs.main -t node -O simple -o immanent.js -c immanent.cli
+	clojure/bin/clojure -m cljs.main -t node -O simple -o immanent.js -c immanent.cli
 
 pc: clojure/bin/clojure
 	clojure/bin/clojure -m figwheel.main -pc
