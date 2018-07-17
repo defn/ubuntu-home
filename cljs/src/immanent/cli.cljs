@@ -2,11 +2,7 @@
 
 (def aws (js/require "aws-sdk"))
 
-(defn square [x]
-  (* x x))
-
 (defn -main [& args]
-  (-> args first js/parseInt square prn)
-  (prn aws))
+  (.listBuckets (new aws.S3 {:apiVersion "2006-03-01"}) (fn [err data] (prn data))))
 
 (set! *main-cli-fn* -main)
