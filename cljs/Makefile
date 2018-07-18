@@ -25,7 +25,7 @@ immanent.js: src/immanent/cli.cljs clojure/bin/clojure
 	@clojure/bin/clojure -m cljs.main -t node -O none -o immanent.js -c immanent.cli
 
 serve: public/main.js
-	yarn http-server public
+	yarn http-server -a 127.0.0.1 --gzip public
 
 clojure/bin/clojure:
 	curl -O https://download.clojure.org/install/linux-install-1.9.0.381.sh
