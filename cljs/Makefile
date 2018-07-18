@@ -3,10 +3,10 @@ app: clojure/bin/clojure
 
 cli: clojure/bin/clj
 	@yarn install
-	@clojure/bin/clj -m cljs.main -re node -m immanent.cli 5
+	@clojure/bin/clj -m cljs.main -i src/immanent/cli.cljs -e '(ns immanent.cli) (-main)' -re node --repl
 
 compile: immanent.js
-	@node immanent.js 5
+	@node immanent.js
 
 recompile:
 	rm -f immanent.js

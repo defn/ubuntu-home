@@ -8,7 +8,7 @@
 
 (defonce app (express))
 
-(defn -main [& args]
+(defn -main []
   (.get app "/" (fn [req res] (.send res (str buckets))))
   (.listen app 3000 (fn [] (prn "listening on port 3000")))
   (.listBuckets (new aws.S3 {:apiVersion "2006-03-01"}) (fn [err data] (set! buckets (js->clj data)))))
