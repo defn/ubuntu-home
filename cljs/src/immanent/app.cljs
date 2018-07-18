@@ -7,11 +7,11 @@
   {1 "#677685", 2 "#FFB492", 3 "#8EE6CA", 4 "#92387E",
    5 "#FFF6C9", 6 "#5C58EB", 7 "#D1052D", 8 "#857A67"})
 
-(def counter (atom 0))              ; generates unique ids for each cell
-(def gameboard (atom (sorted-map))) ; gameboard is sorted to preserve cell order
-(def matched (atom #{}))            ; numbers that have been matched
-(def selected (atom nil))           ; cell that was last selected
-(def highlighted (atom #{}))        ; cells that are highlighted
+(defonce counter (atom 0))              ; generates unique ids for each cell
+(defonce gameboard (atom (sorted-map))) ; gameboard is sorted to preserve cell order
+(defonce matched (atom #{}))            ; numbers that have been matched
+(defonce selected (atom nil))           ; cell that was last selected
+(defonce highlighted (atom #{}))        ; cells that are highlighted
 
 ; A gameboard is a grid of cells, each uniquely identified, but two cells will
 ; have the same number and colors.  The game is won when all cells have been
