@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
+html {
+  background-color: #FFFFF5;
+  font-family: 'Roboto', sans-serif;
+}
+
+a, h1, h2, p { color: #3F403D; }
+
+td.game-cell {
+  width: 70px;
+  height: 70px;
+  padding: 3px;
+  background-color: #F5FFE0;
+  border: 1px solid #262626;
+}
+
+td.game-cell:hover {
+  background-color: #DDE5C9;
+  cursor: pointer;
+}
