@@ -1,4 +1,7 @@
-app: clojure/bin/clojure
+app: clojure/bin/clojure target/public/cljs-out/dev-main.js
+	@true
+
+target/public/cljs-out/dev-main.js:
 	clojure/bin/clojure -m figwheel.main -e '(ns immanent.app)' -b dev -r
 
 cli: clojure/bin/clj
@@ -9,6 +12,13 @@ run: immanent.js
 
 immanent.js: src/immanent/cli.cljs clojure/bin/clojure
 	clojure/bin/clojure -m cljs.main -t node -O none -o immanent.js -c immanent.cli
+
+serve:
+	rm -rf public
+	mkdir -p public/cljs-out
+	rsync -ia resources/public/. public/.
+	rsync -ia target/public/cljs-out/dev-main.js public/cljs-out/
+	yarn http-server public
 
 clojure/bin/clojure:
 	curl -O https://download.clojure.org/install/linux-install-1.9.0.381.sh
