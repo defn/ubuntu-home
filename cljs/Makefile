@@ -6,11 +6,8 @@ menu:
 	@echo "make run:   script"
 	@echo
 
-app: target/public/cljs-out/dev-main.js
-	@true
-
-target/public/cljs-out/dev-main.js: src/immanent/app.cljs clojure/bin/clojure
-	@-clojure/bin/clojure -m figwheel.main -e '(ns immanent.app)' -b dev -r
+app: clojure/bin/clojure
+	@clojure/bin/clojure -m figwheel.main -e '(ns immanent.app)' -b dev -r
 
 public/main.js: src/immanent/app.cljs clojure/bin/clojure
 	@clojure/bin/clojure -m cljs.main -O advanced -o public/main.js -c immanent.app
