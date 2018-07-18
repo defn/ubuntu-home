@@ -2,7 +2,10 @@ app: target/public/cljs-out/dev-main.js
 	@true
 
 target/public/cljs-out/dev-main.js: src/immanent/app.cljs clojure/bin/clojure
-	@clojure/bin/clojure -m figwheel.main -e '(ns immanent.app)' -b dev -r
+	@-clojure/bin/clojure -m figwheel.main -e '(ns immanent.app)' -b dev -r
+
+public/main.js: src/immanent/app.cljs clojure/bin/clojure
+	@clojure/bin/clojure -m cljs.main -O advanced -o public/main.js -c immanent.app
 
 cli: clojure/bin/clojure
 	@clojure/bin/clojure -m figwheel.main -t node -e '(ns immanent.cli)' -b cli --repl
@@ -13,11 +16,7 @@ run: immanent.js
 immanent.js: src/immanent/cli.cljs clojure/bin/clojure
 	@clojure/bin/clojure -m cljs.main -t node -O none -o immanent.js -c immanent.cli
 
-serve:
-	rm -rf public
-	mkdir -p public/cljs-out
-	rsync -ia resources/public/. public/.
-	rsync -ia target/public/cljs-out/dev-main.js public/cljs-out/
+serve: public/main.js
 	yarn http-server public
 
 clojure/bin/clojure:
