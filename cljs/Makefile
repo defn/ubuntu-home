@@ -1,5 +1,5 @@
 app: clojure/bin/clojure
-	clojure/bin/clojure -m figwheel.main -b dev -r
+	clojure/bin/clojure -m figwheel.main -e '(ns immanent.app)' -b dev -r
 
 cli: clojure/bin/clj
 	@clojure/bin/clojure -m figwheel.main -t node -e '(ns immanent.cli)' -b cli --repl
