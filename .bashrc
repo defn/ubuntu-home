@@ -54,12 +54,6 @@ function bashrc_main {
 
   if [[ -n "${TMUX:-}" ]]; then
     export SSH_AUTH_SOCK="${BOARD_PATH}/.ssh/ssh_auth_sock"
-
-    case "${CUE_SCHEME:-}" in
-      slight|sdark)
-        "${CUE_SCHEME}"
-        ;;
-    esac
   fi
 
   if [[ -d "$shome/org/bin" ]]; then
