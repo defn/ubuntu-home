@@ -1,3 +1,11 @@
+menu:
+	@echo
+	@echo "make app:   browser http://localhost:9500 + repl"
+	@echo "make serve: browser http://localhost:8080"
+	@echo "make cli:   script + repl"
+	@echo "make run:   script"
+	@echo
+
 app: target/public/cljs-out/dev-main.js
 	@true
 
