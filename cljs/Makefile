@@ -1,17 +1,17 @@
-app: clojure/bin/clojure target/public/cljs-out/dev-main.js
+app: target/public/cljs-out/dev-main.js
 	@true
 
-target/public/cljs-out/dev-main.js:
-	clojure/bin/clojure -m figwheel.main -e '(ns immanent.app)' -b dev -r
+target/public/cljs-out/dev-main.js: src/immanent/app.cljs clojure/bin/clojure
+	@clojure/bin/clojure -m figwheel.main -e '(ns immanent.app)' -b dev -r
 
-cli: clojure/bin/clj
+cli: clojure/bin/clojure
 	@clojure/bin/clojure -m figwheel.main -t node -e '(ns immanent.cli)' -b cli --repl
 
 run: immanent.js
 	@node immanent.js
 
 immanent.js: src/immanent/cli.cljs clojure/bin/clojure
-	clojure/bin/clojure -m cljs.main -t node -O none -o immanent.js -c immanent.cli
+	@clojure/bin/clojure -m cljs.main -t node -O none -o immanent.js -c immanent.cli
 
 serve:
 	rm -rf public
