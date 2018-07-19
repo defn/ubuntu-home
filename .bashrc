@@ -10,18 +10,18 @@ function envrc {
 
 function bashrc {
 	envrc
-
   source "$shome/script/rc"
 
   if [[ -f "$shome/.bashrc.cache" ]]; then
     source "$shome/.bashrc.cache"
     _profile
   fi
-
-	envrc
 }
 
-function home_bashrc {
+function bashrc3 {
+  local shome="$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"
+
+  umask 0022
   export BOARD_PATH="${shome}"
   export CALLING_PATH="${CALLING_PATH:-"$PATH"}"
   export PATH="${CALLING_PATH}"
@@ -29,21 +29,10 @@ function home_bashrc {
   if ! bashrc; then
     echo WARNING: "Something's wrong with .bashrc"
   fi
-}
-
-function bashrc_main {
-  local shome="$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"
-
-  umask 0022
-  home_bashrc
 
   if [[ "$#" -gt 1  && "$1" == "" ]]; then
     shift
     for __a in "$@"; do pushd "$__a" >/dev/null && { require; popd >/dev/null; }; done
-  fi
-
-  if type -P vg >/dev/null; then
-    eval "$(vg eval --shell bash)"
   fi
 
   set +f
@@ -55,6 +44,12 @@ function bashrc_main {
   if [[ -d "$shome/org/bin" ]]; then
     PATH="$PATH:$shome/org/bin"
   fi
+
+  case "${CUE_SCHEME:-}" in
+    sdark|slight)
+      "${CUE_SCHEME}"
+      ;;
+  esac
 }
 
-bashrc_main "$@"
+bashrc3 "$@"
