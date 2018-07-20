@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
     v.memory = 1024
     v.cpus = 2
 
-    #override.vm.network "forwarded_port", guest: 9500, host: 9500
+    override.vm.network "forwarded_port", guest: 9500, host: 9500
 
     override.vm.box = ENV.fetch("VAGRANT_BOX","imma/ubuntu-18.04")
 
