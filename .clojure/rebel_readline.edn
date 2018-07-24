@@ -1,4 +1,1 @@
-{:indent false
- :key-map :viins
- :key-bindings {:viins [["^M" :clojure-force-accept-line
-                         "^J"  :clojure-force-accept-line]]}}
+{:indent true}
