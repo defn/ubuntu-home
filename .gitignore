@@ -208,3 +208,4 @@ tmux-client*log
 /.password-store/
 /.bitmap
 /.cljs
+/.slime_paste
