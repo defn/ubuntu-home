@@ -2,6 +2,8 @@ let g:go_version_warning = 0
 
 let g:slime_target = "tmux"
 
+let g:slime_default_config = {"socket_name": split($TMUX, ",")[0], "target_pane": "%0"}
+
 " source junas
 source ~/.vim/junas.vimrc
 
