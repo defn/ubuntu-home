@@ -4,6 +4,8 @@ let g:slime_target = "tmux"
 
 let g:slime_default_config = {"target_pane": "%0"}
 
+let g:rainbow_active = 1
+
 " source junas
 source ~/.vim/junas.vimrc
 
