@@ -209,3 +209,4 @@ tmux-client*log
 /.bitmap
 /.cljs
 /.slime_paste
+/.*install
