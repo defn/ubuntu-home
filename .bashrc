@@ -45,11 +45,15 @@ function bashrc3 {
     PATH="$PATH:$shome/org/bin"
   fi
 
-  case "${CUE_SCHEME:-}" in
-    sdark|slight)
-      "${CUE_SCHEME}"
-      ;;
-  esac
+  if type -P powerline >/dev/null; then
+    source "cue_powerline"
+  else
+    case "${CUE_SCHEME:-}" in
+      sdark|slight)
+        "${CUE_SCHEME}"
+        ;;
+    esac
+  fi
 }
 
 bashrc3 "$@"

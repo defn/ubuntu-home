@@ -138,6 +138,7 @@ export NEWMAN_VERSION=3.9.4
 export NEXUS_VERSION=3.12.1-01
 export PASS_VERSION=1.7.2
 export LUMO_VERSION=1.9.0-alpha
+export POWERLINE_VERSION=1.11.0
 
 case "$(uname -s)" in
   Darwin)
