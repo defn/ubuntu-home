@@ -56,7 +56,7 @@ facts          ${BLOCK_PATH}/facts          git@github.com:imma/facts          9
 lnav           ${BLOCK_PATH}/lnav           git@github.com:imma/lnav           86877844b4cbd21b055cfb4029f5e5d5cbb86fd4 master 
 base           ${BLOCK_PATH}/base           git@github.com:imma/base           28fa875cc486edabd5eff30f323d843aa086cef8 master 
 codecommit     ${BLOCK_PATH}/codecommit     git@github.com:imma/codecommit     103788d5db3a95d559447d7e92dfb9f3f02268dd master 
-github         ${BLOCK_PATH}/github         git@github.com:imma/github         3b1721042565793566be8193c0ada1a8ed16afdf master 
+github         ${BLOCK_PATH}/github         git@github.com:imma/github         04adba09e0257b5dbf180d2ef481f023b3037311 master 
 inspec         ${BLOCK_PATH}/inspec         git@github.com:imma/inspec         65e243d1dc7e51590dd7b36524ecdfae44e5a362 master 
 drone          ${BLOCK_PATH}/drone          git@github.com:imma/drone          bc6650e73605a1b791ce5f8270052f41e67bcbca master 
 kitchen        ${BLOCK_PATH}/kitchen        git@github.com:imma/kitchen        4602b123d72ab19a46c61350c90f1d74bbf2c63b master 
