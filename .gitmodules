@@ -1,491 +1,626 @@
 [submodule "work/shflags"]
 	path = work/shflags
+       ignore = dirty
 	url = https://github.com/imma/shflags
 	branch = master
 [submodule "work/normalize"]
 	path = work/normalize
+       ignore = dirty
 	url = https://github.com/imma/normalize
 	branch = master
 [submodule "work/sub"]
 	path = work/sub
+       ignore = dirty
 	url = https://github.com/imma/sub
 	branch = master
 [submodule "work/runmany"]
 	path = work/runmany
+       ignore = dirty
 	url = https://github.com/imma/runmany
 	branch = master
 [submodule "work/block"]
 	path = work/block
+       ignore = dirty
 	url = https://github.com/imma/block
 	branch = master
 [submodule "work/context"]
 	path = work/context
+       ignore = dirty
 	url = https://github.com/imma/context
 	branch = master
 [submodule "work/parity"]
 	path = work/parity
+       ignore = dirty
 	url = https://github.com/imma/parity
 	branch = master
 [submodule "work/pkgsrc"]
 	path = work/pkgsrc
+       ignore = dirty
 	url = https://github.com/imma/pkgsrc
 	branch = master
 [submodule "work/jq"]
 	path = work/jq
+       ignore = dirty
 	url = https://github.com/imma/jq
 	branch = master
 [submodule "work/python"]
 	path = work/python
+       ignore = dirty
 	url = https://github.com/imma/python
 	branch = master
 [submodule "work/cache"]
 	path = work/cache
+       ignore = dirty
 	url = https://github.com/imma/cache
 	branch = master
 [submodule "work/curl"]
 	path = work/curl
+       ignore = dirty
 	url = https://github.com/imma/curl
 	branch = master
 [submodule "work/nodeenv"]
 	path = work/nodeenv
+       ignore = dirty
 	url = https://github.com/imma/nodeenv
 	branch = master
 [submodule "work/node"]
 	path = work/node
+       ignore = dirty
 	url = https://github.com/imma/node
 	branch = master
 [submodule "work/java"]
 	path = work/java
+       ignore = dirty
 	url = https://github.com/imma/java
 	branch = master
 [submodule "work/bash4"]
 	path = work/bash4
+       ignore = dirty
 	url = https://github.com/imma/bash4
 	branch = master
 [submodule "work/homebrew"]
 	path = work/homebrew
+       ignore = dirty
 	url = https://github.com/imma/homebrew
 	branch = master
 [submodule "work/runit"]
 	path = work/runit
+       ignore = dirty
 	url = https://github.com/imma/runit
 	branch = master
 [submodule "work/service"]
 	path = work/service
+       ignore = dirty
 	url = https://github.com/imma/service
 	branch = master
 [submodule "work/sshd"]
 	path = work/sshd
+       ignore = dirty
 	url = https://github.com/imma/sshd
 	branch = master
 [submodule "work/facts"]
 	path = work/facts
+       ignore = dirty
 	url = https://github.com/imma/facts
 	branch = master
 [submodule "work/consul"]
 	path = work/consul
+       ignore = dirty
 	url = https://github.com/imma/consul
 	branch = master
 [submodule "work/consul-agent"]
 	path = work/consul-agent
+       ignore = dirty
 	url = https://github.com/imma/consul-agent
 	branch = master
 [submodule "work/aws"]
 	path = work/aws
+       ignore = dirty
 	url = https://github.com/imma/aws
 	branch = master
 [submodule "work/talign"]
 	path = work/talign
+       ignore = dirty
 	url = https://github.com/imma/talign
 	branch = master
 [submodule "work/git"]
 	path = work/git
+       ignore = dirty
 	url = https://github.com/imma/git
 	branch = master
 [submodule "work/junas"]
 	path = work/junas
+       ignore = dirty
 	url = https://github.com/imma/junas
 	branch = master
 [submodule "work/cue"]
 	path = work/cue
+       ignore = dirty
 	url = https://github.com/imma/cue
 	branch = master
 [submodule "work/defn"]
 	path = work/defn
+       ignore = dirty
 	url = https://github.com/imma/defn
 	branch = master
 [submodule "work/htop"]
 	path = work/htop
+       ignore = dirty
 	url = https://github.com/imma/htop
 	branch = master
 [submodule "work/sysadmin"]
 	path = work/sysadmin
+       ignore = dirty
 	url = https://github.com/imma/sysadmin
 	branch = master
 [submodule "work/docker-compose"]
 	path = work/docker-compose
+       ignore = dirty
 	url = https://github.com/imma/docker-compose
 	branch = master
 [submodule "work/gpg"]
 	path = work/gpg
+       ignore = dirty
 	url = https://github.com/imma/gpg
 	branch = master
 [submodule "work/site"]
 	path = work/site
+       ignore = dirty
 	url = https://github.com/imma/site
 	branch = master
 [submodule "work/yarn"]
 	path = work/yarn
+       ignore = dirty
 	url = https://github.com/imma/yarn
 	branch = master
 [submodule "work/home"]
 	path = work/home
+       ignore = dirty
 	url = https://github.com/imma/home
 	branch = master
 [submodule "work/netdata"]
 	path = work/netdata
+       ignore = dirty
 	url = https://github.com/imma/netdata
 	branch = master
 [submodule "work/crypto"]
 	path = work/crypto
+       ignore = dirty
 	url = https://github.com/imma/crypto
 	branch = master
 [submodule "work/jqq"]
 	path = work/jqq
+       ignore = dirty
 	url = https://github.com/imma/jqq
 	branch = master
 [submodule "work/github"]
 	path = work/github
+       ignore = dirty
 	url = https://github.com/imma/github
 	branch = master
 [submodule "work/example"]
 	path = work/example
+       ignore = dirty
 	url = https://github.com/imma/example
 	branch = master
 [submodule "work/nothing"]
 	path = work/nothing
+       ignore = dirty
 	url = https://github.com/imma/nothing
 	branch = master
 [submodule "work/app"]
 	path = work/app
+       ignore = dirty
 	url = https://github.com/imma/app
 	branch = master
 [submodule "work/cloud"]
 	path = work/cloud
+       ignore = dirty
 	url = https://github.com/imma/cloud
 	branch = master
 [submodule "work/digitalocean"]
 	path = work/digitalocean
+       ignore = dirty
 	url = https://github.com/imma/digitalocean
 	branch = master
 [submodule "work/docker-machine"]
 	path = work/docker-machine
+       ignore = dirty
 	url = https://github.com/imma/docker-machine
 	branch = master
 [submodule "work/etcd"]
 	path = work/etcd
+       ignore = dirty
 	url = https://github.com/imma/etcd
 	branch = master
 [submodule "work/docker"]
 	path = work/docker
+       ignore = dirty
 	url = https://github.com/imma/docker
 	branch = master
 [submodule "work/credstash"]
 	path = work/credstash
+       ignore = dirty
 	url = https://github.com/imma/credstash
 	branch = master
 [submodule "work/getssl"]
 	path = work/getssl
+       ignore = dirty
 	url = https://github.com/imma/getssl
 	branch = master
 [submodule "work/rbenv"]
 	path = work/rbenv
+       ignore = dirty
 	url = https://github.com/imma/rbenv
 	branch = master
 [submodule "work/ruby"]
 	path = work/ruby
+       ignore = dirty
 	url = https://github.com/imma/ruby
 	branch = master
 [submodule "work/chef"]
 	path = work/chef
+       ignore = dirty
 	url = https://github.com/imma/chef
 	branch = master
 [submodule "work/codecommit"]
 	path = work/codecommit
+       ignore = dirty
 	url = https://github.com/imma/codecommit
 	branch = master
 [submodule "work/inspec"]
 	path = work/inspec
+       ignore = dirty
 	url = https://github.com/imma/inspec
 	branch = master
 [submodule "work/nvm"]
 	path = work/nvm
+       ignore = dirty
 	url = https://github.com/imma/nvm
 	branch = master
 [submodule "work/irssi"]
 	path = work/irssi
+       ignore = dirty
 	url = https://github.com/imma/irssi
 	branch = master
 [submodule "work/docs"]
 	path = work/docs
+       ignore = dirty
 	url = https://github.com/imma/docs
 	branch = master
 [submodule "work/fogg"]
 	path = work/fogg
+       ignore = dirty
 	url = https://github.com/imma/fogg
 	branch = master
 [submodule "work/hugo"]
 	path = work/hugo
+       ignore = dirty
 	url = https://github.com/imma/hugo
 	branch = master
 [submodule "work/packer"]
 	path = work/packer
+       ignore = dirty
 	url = https://github.com/imma/packer
 	branch = master
 [submodule "work/terraform"]
 	path = work/terraform
+       ignore = dirty
 	url = https://github.com/imma/terraform
 	branch = master
 [submodule "work/tfenv"]
 	path = work/tfenv
+       ignore = dirty
 	url = https://github.com/imma/tfenv
 	branch = master
 [submodule "work/chat"]
 	path = work/chat
+       ignore = dirty
 	url = https://github.com/imma/chat
 	branch = master
 [submodule "work/fogg-cli"]
 	path = work/fogg-cli
+       ignore = dirty
 	url = https://github.com/imma/fogg-cli
 	branch = master
 [submodule "work/lock"]
 	path = work/lock
+       ignore = dirty
 	url = https://github.com/imma/lock
 	branch = master
 [submodule "work/openvpn"]
 	path = work/openvpn
+       ignore = dirty
 	url = https://github.com/imma/openvpn
 	branch = master
 [submodule "work/easy-rsa"]
 	path = work/easy-rsa
+       ignore = dirty
 	url = https://github.com/imma/easy-rsa
 [submodule "work/kmsauth"]
 	path = work/kmsauth
+       ignore = dirty
 	url = https://github.com/imma/kmsauth
 	branch = master
 [submodule "work/make"]
 	path = work/make
+       ignore = dirty
 	url = https://github.com/imma/make
 	branch = master
 [submodule "work/wtf"]
 	path = work/wtf
+       ignore = dirty
 	url = https://github.com/imma/wtf
 	branch = master
 [submodule "work/chamber"]
 	path = work/chamber
+       ignore = dirty
 	url = https://github.com/imma/chamber
 	branch = master
 [submodule "work/awless"]
 	path = work/awless
+       ignore = dirty
 	url = https://github.com/imma/awless
 	branch = master
 [submodule "work/packet"]
 	path = work/packet
+       ignore = dirty
 	url = https://github.com/imma/packet
 	branch = master
 [submodule "work/eb"]
 	path = work/eb
+       ignore = dirty
 	url = https://github.com/imma/eb
 	branch = master
 [submodule "work/yubikey"]
 	path = work/yubikey
+       ignore = dirty
 	url = https://github.com/imma/yubikey
 	branch = master
 [submodule "work/awesome"]
 	path = work/awesome
+       ignore = dirty
 	url = https://github.com/imma/awesome
 	branch = master
 [submodule "work/lang"]
 	path = work/lang
+       ignore = dirty
 	url = https://github.com/imma/lang
 	branch = master
 [submodule "work/py27"]
 	path = work/py27
+       ignore = dirty
 	url = https://github.com/imma/py27
 	branch = master
 [submodule "work/py36"]
 	path = work/py36
+       ignore = dirty
 	url = https://github.com/imma/py36
 	branch = master
 [submodule "work/pyenv"]
 	path = work/pyenv
+       ignore = dirty
 	url = https://github.com/imma/pyenv
 	branch = master
 [submodule "work/cookiecutter"]
 	path = work/cookiecutter
+       ignore = dirty
 	url = https://github.com/imma/cookiecutter
 	branch = master
 [submodule "work/fogg-tf"]
 	path = work/fogg-tf
+       ignore = dirty
 	url = https://github.com/imma/fogg-tf
 [submodule "work/imma-tf"]
 	path = work/imma-tf
+       ignore = dirty
 	url = https://github.com/imma/imma-tf
 [submodule "work/zerotier"]
 	path = work/zerotier
+       ignore = dirty
 	url = https://github.com/imma/zerotier
 [submodule "work/fabio"]
 	path = work/fabio
+       ignore = dirty
 	url = https://github.com/imma/fabio
 	branch = master
 [submodule "work/consul-server"]
 	path = work/consul-server
+       ignore = dirty
 	url = https://github.com/imma/consul-server
 	branch = master
 [submodule "work/tmux"]
 	path = work/tmux
+       ignore = dirty
 	url = https://github.com/imma/tmux
 	branch = master
 [submodule "work/ecs"]
 	path = work/ecs
+       ignore = dirty
 	url = https://github.com/imma/ecs
 	branch = master
 [submodule "work/vault"]
 	path = work/vault
+       ignore = dirty
 	url = https://github.com/imma/vault
 	branch = master
 [submodule "work/kubernetes"]
 	path = work/kubernetes
+       ignore = dirty
 	url = https://github.com/imma/kubernetes
 [submodule "work/op"]
 	path = work/op
+       ignore = dirty
 	url = https://github.com/imma/op
 [submodule "work/certbot"]
 	path = work/certbot
+       ignore = dirty
 	url = https://github.com/imma/certbot
 [submodule "work/ecr"]
 	path = work/ecr
+       ignore = dirty
 	url = https://github.com/imma/ecr
 [submodule "work/lambda"]
 	path = work/lambda
+       ignore = dirty
 	url = https://github.com/imma/lambda
 [submodule "work/pkg"]
 	path = work/pkg
+       ignore = dirty
 	url = https://github.com/imma/pkg
 [submodule "work/fart"]
 	path = work/fart
+       ignore = dirty
 	url = https://github.com/imma/fart
 [submodule "work/aqq"]
 	path = work/aqq
+       ignore = dirty
 	url = https://github.com/imma/aqq
 [submodule "work/habitat"]
 	path = work/habitat
+       ignore = dirty
 	url = https://github.com/imma/habitat
 [submodule "work/acme"]
 	path = work/acme
+       ignore = dirty
 	url = https://github.com/imma/acme
 [submodule "work/ssm"]
 	path = work/ssm
+       ignore = dirty
 	url = https://github.com/imma/ssm
 [submodule "work/slack"]
 	path = work/slack
+       ignore = dirty
 	url = https://github.com/imma/slack
 [submodule "work/nomad"]
 	path = work/nomad
+       ignore = dirty
 	url = https://github.com/imma/nomad
 [submodule "work/runtime"]
 	path = work/runtime
+       ignore = dirty
 	url = https://github.com/imma/runtime
 [submodule "work/ascii"]
 	path = work/ascii
+       ignore = dirty
 	url = https://github.com/imma/ascii
 [submodule "work/cloudflare"]
 	path = work/cloudflare
+       ignore = dirty
 	url = https://github.com/imma/cloudflare
 [submodule "work/drone"]
 	path = work/drone
+       ignore = dirty
 	url = https://github.com/imma/drone
 [submodule "work/drone-theme"]
 	path = work/drone-theme
+       ignore = dirty
 	url = https://github.com/imma/drone-theme
 [submodule "work/node-exe"]
 	path = work/node-exe
+       ignore = dirty
 	url = https://github.com/imma/node-exe
 [submodule "work/kitchen"]
 	path = work/kitchen
+       ignore = dirty
 	url = https://github.com/imma/kitchen
 [submodule "work/rust"]
 	path = work/rust
+       ignore = dirty
 	url = https://github.com/imma/rust
 [submodule "work/base"]
 	path = work/base
+       ignore = dirty
 	url = https://github.com/imma/base
 [submodule "work/bit"]
 	path = work/bit
+       ignore = dirty
 	url = https://github.com/imma/bit
 [submodule "work/shell"]
 	path = work/shell
+       ignore = dirty
 	url = https://github.com/imma/shell
 [submodule "work/apex"]
 	path = work/apex
+       ignore = dirty
 	url = https://github.com/imma/apex
 [submodule "work/usr"]
 	path = work/usr
+       ignore = dirty
 	url = https://github.com/imma/usr
 [submodule "work/teleport"]
 	path = work/teleport
+       ignore = dirty
 	url = https://github.com/imma/teleport
 [submodule "work/vagrant"]
 	path = work/vagrant
+       ignore = dirty
 	url = https://github.com/imma/vagrant
 [submodule "work/virtualbox"]
 	path = work/virtualbox
+       ignore = dirty
 	url = https://github.com/imma/virtualbox
 [submodule "work/ansible"]
 	path = work/ansible
+       ignore = dirty
 	url = https://github.com/imma/ansible
 [submodule "work/anchore"]
 	path = work/anchore
+       ignore = dirty
 	url = https://github.com/imma/anchore
 [submodule "work/sysdig"]
 	path = work/sysdig
+       ignore = dirty
 	url = https://github.com/imma/sysdig
 [submodule "work/full"]
 	path = work/full
+       ignore = dirty
 	url = https://github.com/imma/full
 [submodule "work/lnav"]
 	path = work/lnav
+       ignore = dirty
 	url = https://github.com/imma/lnav
 [submodule "work/ftl"]
 	path = work/ftl
+       ignore = dirty
 	url = https://github.com/imma/ftl
 [submodule "work/dynamodb"]
 	path = work/dynamodb
+       ignore = dirty
 	url = https://github.com/imma/dynamodb
 [submodule "work/sam"]
 	path = work/sam
+       ignore = dirty
 	url = https://github.com/imma/sam
 [submodule "work/perf-tools"]
 	path = work/perf-tools
+       ignore = dirty
 	url = https://github.com/imma/perf-tools
 [submodule "work/boxcutter-ubuntu"]
 	path = work/boxcutter-ubuntu
+       ignore = dirty
 	url = https://github.com/imma/boxcutter-ubuntu
 [submodule "work/squid"]
 	path = work/squid
+       ignore = dirty
 	url = https://github.com/imma/squid
 [submodule "work/newman"]
 	path = work/newman
+       ignore = dirty
 	url = https://github.com/imma/newman
 [submodule "work/nexus"]
 	path = work/nexus
+       ignore = dirty
 	url = https://github.com/imma/nexus
 [submodule "work/pass"]
 	path = work/pass
+       ignore = dirty
 	url = https://github.com/imma/pass
 [submodule "work/aws-vault"]
 	path = work/aws-vault
+       ignore = dirty
 	url = https://github.com/imma/aws-vault
 [submodule "work/grpc"]
 	path = work/grpc
+       ignore = dirty
 	url = https://github.com/imma/grpc
