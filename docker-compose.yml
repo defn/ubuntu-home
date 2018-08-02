@@ -6,7 +6,7 @@ services:
     privileged: true
     ports:
       - "22"
-      - "9500:9500"
+      - "9500"
     volumes:
       - ${DATA}:/data
       - /var/run/docker.sock:/var/run/docker.sock
