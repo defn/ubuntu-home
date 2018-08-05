@@ -624,3 +624,6 @@
 	path = work/grpc
        ignore = dirty
 	url = https://github.com/imma/grpc
+[submodule "work/dns"]
+	path = work/dns
+	url = https://github.com/imma/dns

@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "hash": {
+      "sha256": "caf78ea93b7a88d9f5ee6898dd26f4b02885eae610fc5b4aa0df7aef1ede3304"
+    },
+    "pipfile-spec": 6,
+    "requires": {},
+    "sources": [
+      {
+        "name": "pypi",
+        "url": "https://pypi.python.org/simple",
+        "verify_ssl": false
+      }
+    ]
+  },
+  "default": {
+    "certifi": {
+      "version": "==2018.4.16"
+    },
+    "chardet": {
+      "version": "==3.0.4"
+    },
+    "dns-lexicon": {
+      "index": "pypi",
+      "version": "==2.7.0"
+    },
+    "future": {
+      "version": "==0.16.0"
+    },
+    "idna": {
+      "version": "==2.7"
+    },
+    "requests": {
+      "version": "==2.19.1"
+    },
+    "requests-file": {
+      "version": "==1.4.3"
+    },
+    "six": {
+      "version": "==1.11.0"
+    },
+    "tldextract": {
+      "version": "==2.2.0"
+    },
+    "urllib3": {
+      "version": "==1.23"
+    }
+  },
+  "develop": {}
+}

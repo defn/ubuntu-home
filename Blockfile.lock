@@ -69,7 +69,8 @@ ssm            ${BLOCK_PATH}/ssm            git@github.com:imma/ssm            a
 sysdig         ${BLOCK_PATH}/sysdig         git@github.com:imma/sysdig         9383893fb6cbc5aac635ab4f7f0d90f076ddab17 master 
 perf-tools     ${BLOCK_PATH}/perf-tools     git@github.com:imma/perf-tools     0524a94a3c74541ba04ec73bf150b0d6548636e6 master 
 cookiecutter   ${BLOCK_PATH}/cookiecutter   git@github.com:imma/cookiecutter   040da6b867e5d07d29e08121124dca1e17105f11 master 
-sysadmin       ${BLOCK_PATH}/sysadmin       git@github.com:imma/sysadmin       96d94605309cb7dbf22940ffbf260baeaded8d9c master 
+dns            ${BLOCK_PATH}/dns            git@github.com:imma/dns            fc937df923d1da6bee67434ed19ac7ca297d2eb7 master 
+sysadmin       ${BLOCK_PATH}/sysadmin       git@github.com:imma/sysadmin       80dd722be50c8c72d2dc435ec055eecd4c3606a7 master 
 consul         ${BLOCK_PATH}/consul         git@github.com:imma/consul         60a972888fef1a940d07aba94eeb1a3c1814cc6c master 
 consul-agent   ${BLOCK_PATH}/consul-agent   git@github.com:imma/consul-agent   d0b766a2b7f3b04469afd4ed9be8ad5af3c413e0 master 
 consul-server  ${BLOCK_PATH}/consul-server  git@github.com:imma/consul-server  f4b347feee3f52d0ea5a8a180e298953815d9f26 master 
