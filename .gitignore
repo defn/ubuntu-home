@@ -210,3 +210,4 @@ tmux-client*log
 /.cljs
 /.slime_paste
 /.*install
+/.sclack
