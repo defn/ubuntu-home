@@ -16,7 +16,7 @@
   "default": {
     "ansible": {
       "index": "pypi",
-      "version": "==2.6.0"
+      "version": "==2.6.2"
     },
     "asn1crypto": {
       "version": "==0.24.0"
@@ -25,11 +25,10 @@
       "version": "==3.1.4"
     },
     "cffi": {
-      "markers": "platform_python_implementation != 'pypy'",
       "version": "==1.11.5"
     },
     "cryptography": {
-      "version": "==2.2.2"
+      "version": "==2.3"
     },
     "enum34": {
       "markers": "python_version < '3'",
@@ -52,7 +51,7 @@
       "version": "==2.4.1"
     },
     "pyasn1": {
-      "version": "==0.4.3"
+      "version": "==0.4.4"
     },
     "pycparser": {
       "version": "==2.18"
@@ -61,7 +60,7 @@
       "version": "==1.2.1"
     },
     "pyyaml": {
-      "version": "==3.12"
+      "version": "==3.13"
     },
     "six": {
       "version": "==1.11.0"
