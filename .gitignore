@@ -211,3 +211,4 @@ tmux-client*log
 /.slime_paste
 /.*install
 /.sclack
+/.gemrc
