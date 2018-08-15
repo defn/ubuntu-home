@@ -212,3 +212,4 @@ tmux-client*log
 /.*install
 /.sclack
 /.gemrc
+/.taskbook*
