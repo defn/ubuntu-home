@@ -49,7 +49,8 @@ terraform      ${BLOCK_PATH}/terraform      git@github.com:imma/terraform      2
 irssi          ${BLOCK_PATH}/irssi          git@github.com:imma/irssi          6cc3f6afce5f8008e7070ebe2710ca5ee3d209db master 
 wtf            ${BLOCK_PATH}/wtf            git@github.com:imma/wtf            1cf5e2360c460488d1a12660eb1cb0e13784ea38 master 
 fogg-cli       ${BLOCK_PATH}/fogg-cli       git@github.com:imma/fogg-cli       2987a3a327ef2740a636d918459c2ba02c149e9c master 
-fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           defdc1abeea126735c192b2ea815315e807c2640 master 
+fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        2f5c8d751ffcb08c1ab2cca0dda69b2d797f322e master 
+fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           c596d6fceee093169d509f69921ea710f2a54ef0 master 
 teleport       ${BLOCK_PATH}/teleport       git@github.com:imma/teleport       d532986f895d9a162c2d4f8ae4aaad8bda065f92 master 
 ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        54136f561ee09ae17eb24ac6ba9cb30ec9fbc8c6 master 
 facts          ${BLOCK_PATH}/facts          git@github.com:imma/facts          9c69d9500281b4cafffaf5834e4d096ab4e90dab master 
