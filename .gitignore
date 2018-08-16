@@ -213,3 +213,4 @@ tmux-client*log
 /.sclack
 /.gemrc
 /.taskbook*
+/.cookiecutters
