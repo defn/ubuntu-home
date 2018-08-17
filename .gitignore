@@ -216,3 +216,4 @@ tmux-client*log
 /.cookiecutters
 /.eslintrc.json
 /.tmuxinator.yml
+/.hex

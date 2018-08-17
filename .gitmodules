@@ -627,3 +627,9 @@
 [submodule "work/dns"]
 	path = work/dns
 	url = https://github.com/imma/dns
+[submodule "work/elixir"]
+	path = work/elixir
+	url = https://github.com/imma/elixir
+[submodule "work/phoenix"]
+	path = work/phoenix
+	url = https://github.com/imma/phoenix
