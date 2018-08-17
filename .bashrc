@@ -45,6 +45,7 @@ function bashrc3 {
     PATH="$PATH:$shome/org/bin"
   fi
 
+  CUE_FILLER='-'
   case "${CUE_SCHEME:-}" in
     sdark|slight)
       "${CUE_SCHEME}"
