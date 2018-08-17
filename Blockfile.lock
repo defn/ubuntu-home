@@ -21,12 +21,13 @@ yarn           ${BLOCK_PATH}/yarn           git@github.com:imma/yarn           d
 jq             ${BLOCK_PATH}/jq             git@github.com:imma/jq             683bf22ca03c98d53854d031f8647ae9f9c70dd7 master 
 java           ${BLOCK_PATH}/java           git@github.com:imma/java           f5eea77d078f96696a4b4229b49922260da50187 master 
 bash4          ${BLOCK_PATH}/bash4          git@github.com:imma/bash4          c7d35f0bea3080089eef1f6c9ea0ff0e2b8fc97f master 
+elixir         ${BLOCK_PATH}/elixir         git@github.com:imma/elixir         8825545e7d65498ba497e29aa3ad621f59e10ef8 master 
 pyenv          ${BLOCK_PATH}/pyenv          git@github.com:imma/pyenv          9ce7355c820b7b6a29efc7f694ab1b8e9956e6e8 master 
 python         ${BLOCK_PATH}/python         git@github.com:imma/python         54ac6645b9916bf2c5dd28f763158c550412b7c3 master 
 py27           ${BLOCK_PATH}/py27           git@github.com:imma/py27           b20c1445388e37f578b0a4d236d921f6237380c9 master 
 py36           ${BLOCK_PATH}/py36           git@github.com:imma/py36           5c718be4f68386c4a7c7e4ca1bad5b33483a19b9 master 
 grpc           ${BLOCK_PATH}/grpc           git@github.com:imma/grpc           0f4fdc8a67d3764dc752fa3374703da923602e14 master 
-lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           9f8b0efa09bf085e8e811e263080e7889608b83c master 
+lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           13713d54f8df48e0dc6313c97ddcb21a55c06e1d master 
 tmux           ${BLOCK_PATH}/tmux           git@github.com:imma/tmux           092f1e0ce7bca17cfdd1c2069ecc9cc5a0f07da4 master 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          ff0f003c252de93e55c266826c9f07aee100457f master 
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            ca046ead942e228a2933c211172a189c1df5757b master 
