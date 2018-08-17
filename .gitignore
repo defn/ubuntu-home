@@ -214,3 +214,5 @@ tmux-client*log
 /.gemrc
 /.taskbook*
 /.cookiecutters
+/.eslintrc.json
+/.tmuxinator.yml
