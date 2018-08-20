@@ -6,6 +6,8 @@ function bash_main {
 
   unset BUNDLER_ORIG_BUNDLE_GEMFILE GEM_HOME BUNDLE_GEMFILE RUBYOPT GEM_HOME 
 
+  export SHLVL_INITIAL="$((SHLVL - 1))"
+
   source "$shome/.bashrc"
 
   set +f
