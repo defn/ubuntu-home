@@ -9,5 +9,10 @@ nmap <C-h> <M-h>
 nmap <C-j> <M-j>
 nmap <C-k> <M-k>
 nmap <C-l> <M-l>
+nmap <C-y> cseb
+nmap <C-u> <(
+nmap <C-i> >(
+nmap <C-o> <)
+nmap <C-p> >)
 
 map cpp <C-c><C-c>
