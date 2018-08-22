@@ -9,3 +9,7 @@ nmap h <M-h>
 nmap j <M-j>
 nmap k <M-k>
 nmap l <M-l>
+nmap dss dsf
+nmap css cseb
+nmap csd cse[
+nmap csf cse{
