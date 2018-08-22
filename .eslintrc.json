@@ -1,7 +1,0 @@
-{
-  "extends": [
-    "google",
-    "plugin:prettier/recommended"
-  ],
-  "parser": "babel-eslint"
-}
