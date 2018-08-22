@@ -15,4 +15,7 @@ nmap <C-i> >(
 nmap <C-o> <)
 nmap <C-p> >)
 
+nmap <C-n> <I
+nmap <C-m> >I
+
 map cpp <C-c><C-c>
