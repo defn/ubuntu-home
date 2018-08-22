@@ -45,12 +45,14 @@ function bashrc3 {
     PATH="$PATH:$shome/org/bin"
   fi
 
-  CUE_FILLER='-'
-  case "${CUE_SCHEME:-}" in
-    sdark|slight)
-      "${CUE_SCHEME}"
-      ;;
-  esac
+  if [[ -z "${PROMPT_COMMAND:-}" ]]; then
+    CUE_FILLER='-'
+    case "${CUE_SCHEME:-}" in
+      sdark|slight)
+        "${CUE_SCHEME}"
+        ;;
+    esac
+  fi
 }
 
 bashrc3 "$@"
