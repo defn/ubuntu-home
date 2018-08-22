@@ -29,7 +29,7 @@ py36           ${BLOCK_PATH}/py36           git@github.com:imma/py36           5
 grpc           ${BLOCK_PATH}/grpc           git@github.com:imma/grpc           0f4fdc8a67d3764dc752fa3374703da923602e14 master 
 lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           13713d54f8df48e0dc6313c97ddcb21a55c06e1d master 
 tmux           ${BLOCK_PATH}/tmux           git@github.com:imma/tmux           7203afe362169f4c3c5f79437a6af02c4af18714 master 
-junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          1426a33c6b199a90fc8c2c3e7c23df44292dca30 master 
+junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          e8881fd717fb9f8d23a52ed6d23b5e07ac50305d master 
 cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            ca046ead942e228a2933c211172a189c1df5757b master 
 context        ${BLOCK_PATH}/context        git@github.com:imma/context        edaced91a1fe73abd74c370dcc53a72c95bfabbc master 
 parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         71ba46f4bfe28602fc50e399733761429b16b409 master 
