@@ -1,0 +1,134 @@
+{
+  "_meta": {
+    "hash": {
+      "sha256": "58cf6ee5e2e14e3ea3ba85c5be354cc105f8c8aa57bb6c29c4af3c65839ce743"
+    },
+    "pipfile-spec": 6,
+    "requires": {
+      "python_version": "3.6"
+    },
+    "sources": [
+      {
+        "name": "pypi",
+        "url": "https://pypi.org/simple",
+        "verify_ssl": true
+      }
+    ]
+  },
+  "default": {
+    "arrow": {
+      "version": "==0.12.1"
+    },
+    "aws-sam-cli": {
+      "index": "pypi",
+      "version": "==0.5.0"
+    },
+    "aws-sam-translator": {
+      "version": "==1.6.0"
+    },
+    "binaryornot": {
+      "version": "==0.4.4"
+    },
+    "boto3": {
+      "version": "==1.7.83"
+    },
+    "botocore": {
+      "version": "==1.10.83"
+    },
+    "certifi": {
+      "version": "==2018.8.13"
+    },
+    "chardet": {
+      "version": "==3.0.4"
+    },
+    "click": {
+      "version": "==6.7"
+    },
+    "cookiecutter": {
+      "version": "==1.6.0"
+    },
+    "dateparser": {
+      "version": "==0.7.0"
+    },
+    "docker": {
+      "version": "==3.5.0"
+    },
+    "docker-pycreds": {
+      "version": "==0.3.0"
+    },
+    "docutils": {
+      "version": "==0.14"
+    },
+    "enum34": {
+      "version": "==1.1.6"
+    },
+    "flask": {
+      "version": "==1.0.2"
+    },
+    "future": {
+      "version": "==0.16.0"
+    },
+    "idna": {
+      "version": "==2.7"
+    },
+    "itsdangerous": {
+      "version": "==0.24"
+    },
+    "jinja2": {
+      "version": "==2.10"
+    },
+    "jinja2-time": {
+      "version": "==0.2.0"
+    },
+    "jmespath": {
+      "version": "==0.9.3"
+    },
+    "jsonschema": {
+      "version": "==2.6.0"
+    },
+    "markupsafe": {
+      "version": "==1.0"
+    },
+    "poyo": {
+      "version": "==0.4.1"
+    },
+    "python-dateutil": {
+      "markers": "python_version >= '2.7'",
+      "version": "==2.7.3"
+    },
+    "pytz": {
+      "version": "==2018.5"
+    },
+    "pyyaml": {
+      "version": "==3.13"
+    },
+    "regex": {
+      "version": "==2018.8.17"
+    },
+    "requests": {
+      "version": "==2.19.1"
+    },
+    "s3transfer": {
+      "version": "==0.1.13"
+    },
+    "six": {
+      "version": "==1.11.0"
+    },
+    "tzlocal": {
+      "version": "==1.5.1"
+    },
+    "urllib3": {
+      "version": "==1.23"
+    },
+    "websocket-client": {
+      "version": "==0.51.0"
+    },
+    "werkzeug": {
+      "version": "==0.14.1"
+    },
+    "whichcraft": {
+      "version": "==0.4.1"
+    }
+  },
+  "develop": {}
+}
