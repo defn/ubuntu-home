@@ -51,6 +51,9 @@ function bashrc3 {
       sdark|slight)
         "${CUE_SCHEME}"
         ;;
+      *)
+        sdark
+        ;;
     esac
   fi
 }
