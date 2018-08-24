@@ -8,6 +8,11 @@ function main {
     sudo apt-get install -y libpcsclite1 pcscd pcsc-tools tmux irssi jq unzip g++ python || true
   fi
 
+  if [[ ! -d ubuntu/.git ]]; then
+    ssh -o StrictHostKeyChecking=no github.com true 2>/dev/null || true
+    git clone git@github.com:imma/ubuntu
+  fi
+
   mv ubuntu/.git .
   cp ubuntu/.gitconfig.template-https .gitconfig
   rm -rf ubuntu
