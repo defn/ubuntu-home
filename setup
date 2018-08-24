@@ -2,7 +2,7 @@
 
 function main {
   if [[ "$#" -gt 0 ]]; then
-    curl -s https://raw.githubusercontent.com/imma/ubuntu/master/setup | ssh "$@" bash
+    curl -s https://raw.githubusercontent.com/imma/ubuntu/master/setup | ssh -o StrictHostKeyChecking=no "$@" bash
     return $?
   fi
 
