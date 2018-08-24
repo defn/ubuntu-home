@@ -53,7 +53,7 @@ irssi          ${BLOCK_PATH}/irssi          git@github.com:imma/irssi          6
 wtf            ${BLOCK_PATH}/wtf            git@github.com:imma/wtf            1cf5e2360c460488d1a12660eb1cb0e13784ea38 master 
 fogg-cli       ${BLOCK_PATH}/fogg-cli       git@github.com:imma/fogg-cli       2987a3a327ef2740a636d918459c2ba02c149e9c master 
 fogg-tf        ${BLOCK_PATH}/fogg-tf        git@github.com:imma/fogg-tf        a4a512dc8a2b43fa50fb3f8076b724934c2424b2 master 
-fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           c596d6fceee093169d509f69921ea710f2a54ef0 master 
+fogg           ${BLOCK_PATH}/fogg           git@github.com:imma/fogg           678c1ab1496fa6b8882b2f592ccd6cced641d4a9 master 
 teleport       ${BLOCK_PATH}/teleport       git@github.com:imma/teleport       d532986f895d9a162c2d4f8ae4aaad8bda065f92 master 
 ansible        ${BLOCK_PATH}/ansible        git@github.com:imma/ansible        54136f561ee09ae17eb24ac6ba9cb30ec9fbc8c6 master 
 facts          ${BLOCK_PATH}/facts          git@github.com:imma/facts          9c69d9500281b4cafffaf5834e4d096ab4e90dab master 
