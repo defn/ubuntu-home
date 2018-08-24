@@ -10,7 +10,7 @@ function main {
 
   if [[ ! -d ubuntu/.git ]]; then
     ssh -o StrictHostKeyChecking=no github.com true 2>/dev/null || true
-    git clone git@github.com:imma/ubuntu
+    git clone https://github.com/imma/ubuntu
   fi
 
   mv ubuntu/.git .
