@@ -540,10 +540,6 @@
 	path = work/shell
        ignore = dirty
 	url = https://github.com/imma/shell
-[submodule "work/apex"]
-	path = work/apex
-       ignore = dirty
-	url = https://github.com/imma/apex
 [submodule "work/usr"]
 	path = work/usr
        ignore = dirty

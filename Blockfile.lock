@@ -43,9 +43,8 @@ op             ${BLOCK_PATH}/op             git@github.com:imma/op             2
 chamber        ${BLOCK_PATH}/chamber        git@github.com:imma/chamber        90e2e62f77cd5d6c973ad61d9796e21d76b263a2 master 
 awless         ${BLOCK_PATH}/awless         git@github.com:imma/awless         8d635d18f7ddf97fdb6da8afdd802197dd161cbc master 
 aws            ${BLOCK_PATH}/aws            git@github.com:imma/aws            eec5d31bd44da8078abea6d32ee712f6377a0ad7 master 
-apex           ${BLOCK_PATH}/apex           git@github.com:imma/apex           3de0d184fb755c94beb63f70ce00c013bbbd6ec0 master 
 sam            ${BLOCK_PATH}/sam            git@github.com:imma/sam            0178c7e630dde2a7b060d817391bfde823cbe9e5 master 
-lambda         ${BLOCK_PATH}/lambda         git@github.com:imma/lambda         7db8bdd88aecb10ddfd1577b0ebb2a9657fc2bf4 master 
+lambda         ${BLOCK_PATH}/lambda         git@github.com:imma/lambda         bfc52807fca9e6cc11d6af90c3753cd243754499 master 
 runtime        ${BLOCK_PATH}/runtime        git@github.com:imma/runtime        66ee8f2756813265d2372548bbae0a60b3c15419 master 
 shell          ${BLOCK_PATH}/shell          git@github.com:imma/shell          7bfeb4ba77fbd8a0036499dd927ad6474c6230c4 master 
 tfenv          ${BLOCK_PATH}/tfenv          git@github.com:imma/tfenv          2ae01416cb3f65d87a5edf18d138a9a6a744ccef master 
