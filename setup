@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 
 function main {
+  if [[ "$#" -gt 0 ]]; then
+    curl -s https://raw.githubusercontent.com/imma/ubuntu/master/setup | ssh "$@" bash
+    return $?
+  fi
+
   if type -P yum; then
     sudo yum install -y gnupg2 gnupg2-smime tmux irssi jq unzip || true
   elif type -P apt-get; then
