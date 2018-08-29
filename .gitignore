@@ -217,3 +217,4 @@ tmux-client*log
 /.eslintrc.json
 /.tmuxinator.yml
 /.hex
+/.aws/vault
