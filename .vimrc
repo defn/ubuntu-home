@@ -19,3 +19,15 @@ nmap <C-n> <I
 nmap <C-m> >I
 
 map cpp <C-c><C-c>
+
+function! g:FuckThatMatchParen ()
+  if exists(":NoMatchParen")
+    :NoMatchParen
+  endif
+endfunction
+
+augroup plugin_initialize
+  autocmd!
+  autocmd VimEnter * call FuckThatMatchParen()
+augroup END
+
