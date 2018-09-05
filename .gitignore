@@ -218,3 +218,4 @@ tmux-client*log
 /.tmuxinator.yml
 /.hex
 /.aws/vault
+/teleport
