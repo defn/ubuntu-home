@@ -30,7 +30,7 @@ grpc           ${BLOCK_PATH}/grpc           git@github.com:imma/grpc           0
 lang           ${BLOCK_PATH}/lang           git@github.com:imma/lang           13713d54f8df48e0dc6313c97ddcb21a55c06e1d master 
 tmux           ${BLOCK_PATH}/tmux           git@github.com:imma/tmux           7203afe362169f4c3c5f79437a6af02c4af18714 master 
 junas          ${BLOCK_PATH}/junas          git@github.com:imma/junas          6f9c94078ad30b109327e4275389296ada854e50 master 
-cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            872fdb4e1f21615796ef65e95f91a42567df27dc master 
+cue            ${BLOCK_PATH}/cue            git@github.com:imma/cue            9a66549ac56b019cab5c5bd82d7c11fb947550d6 master 
 context        ${BLOCK_PATH}/context        git@github.com:imma/context        edaced91a1fe73abd74c370dcc53a72c95bfabbc master 
 parity         ${BLOCK_PATH}/parity         git@github.com:imma/parity         71ba46f4bfe28602fc50e399733761429b16b409 master 
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 22862dd3c6c534d2876737681c8946163e29b875 master 
