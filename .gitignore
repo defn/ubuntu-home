@@ -219,3 +219,5 @@ tmux-client*log
 /.hex
 /.aws/vault
 /teleport
+.serverless/
+.serverlessrc
