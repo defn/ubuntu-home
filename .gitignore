@@ -221,3 +221,4 @@ tmux-client*log
 /teleport
 .serverless/
 .serverlessrc
+/.zoomus
