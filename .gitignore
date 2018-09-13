@@ -222,3 +222,4 @@ tmux-client*log
 .serverless/
 .serverlessrc
 /.zoomus
+/.rancher
