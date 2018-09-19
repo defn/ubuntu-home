@@ -223,3 +223,4 @@ tmux-client*log
 .serverlessrc
 /.zoomus
 /.rancher
+/.gitlibs/
