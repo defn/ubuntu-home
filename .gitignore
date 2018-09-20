@@ -224,3 +224,4 @@ tmux-client*log
 /.zoomus
 /.rancher
 /.gitlibs/
+/.fn
