@@ -12,10 +12,18 @@ function bashrc {
 	envrc
   source "$shome/script/rc"
 
-  if [[ -f "$shome/.bashrc.cache" ]]; then
-    source "$shome/.bashrc.cache"
-    _profile
-  fi
+  case "$(uname -s)" in
+    Linux)
+      PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+      source ~/work/site/script/profile.linux
+      ;;
+    Darwin)
+      if [[ -f "$shome/.bashrc.cache" ]]; then
+        source "$shome/.bashrc.cache"
+        _profile
+      fi
+      ;;
+  esac
 }
 
 function bashrc3 {
