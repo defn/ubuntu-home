@@ -24,6 +24,8 @@ function bashrc {
       fi
       ;;
   esac
+
+  PATH="$HOME/.cargo/bin:$PATH"
 }
 
 function bashrc3 {
