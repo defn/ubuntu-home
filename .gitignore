@@ -226,3 +226,5 @@ tmux-client*log
 /.gitlibs/
 /.fn
 /.*env
+/.multirust
+/.rustup/
