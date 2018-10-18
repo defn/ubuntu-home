@@ -228,3 +228,4 @@ tmux-client*log
 /.*env
 /.multirust
 /.rustup/
+/.hal/
