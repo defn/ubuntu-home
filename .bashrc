@@ -65,6 +65,7 @@ function bashrc3 {
         sdark
         ;;
     esac
+    source cue_prompt
   fi
 }
 
