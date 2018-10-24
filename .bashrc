@@ -48,7 +48,9 @@ function bashrc3 {
   set +f
 
   if [[ -n "${TMUX:-}" ]]; then
-    export SSH_AUTH_SOCK="${BOARD_PATH}/.ssh/ssh_auth_sock"
+    if [[ -S "${BOARD_PATH}/.ssh/ssh_auth_sock" ]]; then
+      export SSH_AUTH_SOCK="${BOARD_PATH}/.ssh/ssh_auth_sock"
+    fi
   fi
 
   if [[ -d "$shome/org/bin" ]]; then
