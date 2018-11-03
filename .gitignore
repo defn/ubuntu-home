@@ -229,3 +229,6 @@ tmux-client*log
 /.multirust
 /.rustup/
 /.hal/
+.nix-channels
+.nix-defexpr/
+.nix-profile
