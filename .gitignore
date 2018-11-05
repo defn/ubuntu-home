@@ -232,3 +232,4 @@ tmux-client*log
 .nix-channels
 .nix-defexpr/
 .nix-profile
+/.art*
